@@ -1,0 +1,1636 @@
+[
+  {
+    "id": 1000000,
+    "storyMasterId": 10000,
+    "title": "",
+    "order": 0,
+    "episodeRewardPackageMasterId": 1000000,
+    "conditions": []
+  },
+  {
+    "id": 1000001,
+    "storyMasterId": 10000,
+    "title": "",
+    "order": 1,
+    "episodeRewardPackageMasterId": 1000001,
+    "conditions": []
+  },
+  {
+    "id": 1010101,
+    "storyMasterId": 10101,
+    "title": "これは、一人の少女の物語",
+    "order": 1,
+    "episodeRewardPackageMasterId": 1010101,
+    "conditions": []
+  },
+  {
+    "id": 1010102,
+    "storyMasterId": 10101,
+    "title": "私の、なりたい姿",
+    "order": 2,
+    "episodeRewardPackageMasterId": 1010102,
+    "conditions": [],
+    "preEpisodeMasterId": 1010101
+  },
+  {
+    "id": 1010103,
+    "storyMasterId": 10101,
+    "title": "審査終了、そして……",
+    "order": 3,
+    "episodeRewardPackageMasterId": 1010103,
+    "conditions": [],
+    "preEpisodeMasterId": 1010102
+  },
+  {
+    "id": 1010104,
+    "storyMasterId": 10101,
+    "title": "ふたり、ひとやく",
+    "order": 4,
+    "episodeRewardPackageMasterId": 1010104,
+    "conditions": [],
+    "preEpisodeMasterId": 1010103
+  },
+  {
+    "id": 1010105,
+    "storyMasterId": 10101,
+    "title": "本当の、自分？",
+    "order": 5,
+    "episodeRewardPackageMasterId": 1010105,
+    "conditions": [],
+    "preEpisodeMasterId": 1010104
+  },
+  {
+    "id": 1010106,
+    "storyMasterId": 10101,
+    "title": "本物の、演技",
+    "order": 6,
+    "episodeRewardPackageMasterId": 1010106,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 1
+      }
+    ],
+    "preEpisodeMasterId": 1010105
+  },
+  {
+    "id": 1010107,
+    "storyMasterId": 10101,
+    "title": "センス、発動",
+    "order": 7,
+    "episodeRewardPackageMasterId": 1010107,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 2
+      }
+    ],
+    "preEpisodeMasterId": 1010106
+  },
+  {
+    "id": 1010108,
+    "storyMasterId": 10101,
+    "title": "興味があるんだ、キミに",
+    "order": 8,
+    "episodeRewardPackageMasterId": 1010108,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 3
+      }
+    ],
+    "preEpisodeMasterId": 1010107
+  },
+  {
+    "id": 1010109,
+    "storyMasterId": 10101,
+    "title": "ふたりの、出会い（仮）",
+    "order": 9,
+    "episodeRewardPackageMasterId": 1010109,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 4
+      }
+    ],
+    "preEpisodeMasterId": 1010108
+  },
+  {
+    "id": 1010110,
+    "storyMasterId": 10101,
+    "title": "演劇以外、ポンコツ系",
+    "order": 10,
+    "episodeRewardPackageMasterId": 1010110,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 5
+      }
+    ],
+    "preEpisodeMasterId": 1010109
+  },
+  {
+    "id": 1010111,
+    "storyMasterId": 10101,
+    "title": "じごくの、とっくん",
+    "order": 11,
+    "episodeRewardPackageMasterId": 1010111,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 6
+      }
+    ],
+    "preEpisodeMasterId": 1010110
+  },
+  {
+    "id": 1010112,
+    "storyMasterId": 10101,
+    "title": "誰も、私を……",
+    "order": 12,
+    "episodeRewardPackageMasterId": 1010112,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 7
+      }
+    ],
+    "preEpisodeMasterId": 1010111
+  },
+  {
+    "id": 1010113,
+    "storyMasterId": 10101,
+    "title": "前を向いて、一歩前へ",
+    "order": 13,
+    "episodeRewardPackageMasterId": 1010113,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 8
+      }
+    ],
+    "preEpisodeMasterId": 1010112
+  },
+  {
+    "id": 1010114,
+    "storyMasterId": 10101,
+    "title": "もう一度、一緒に",
+    "order": 14,
+    "episodeRewardPackageMasterId": 1010114,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 9
+      }
+    ],
+    "preEpisodeMasterId": 1010113
+  },
+  {
+    "id": 1010115,
+    "storyMasterId": 10101,
+    "title": "センスの、使い方",
+    "order": 15,
+    "episodeRewardPackageMasterId": 1010115,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 10
+      }
+    ],
+    "preEpisodeMasterId": 1010114
+  },
+  {
+    "id": 1010116,
+    "storyMasterId": 10101,
+    "title": "譲れない、譲らない",
+    "order": 16,
+    "episodeRewardPackageMasterId": 1010116,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 12
+      }
+    ],
+    "preEpisodeMasterId": 1010115
+  },
+  {
+    "id": 1010117,
+    "storyMasterId": 10101,
+    "title": "助けてくれて、ありがとう",
+    "order": 17,
+    "episodeRewardPackageMasterId": 1010117,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 14
+      }
+    ],
+    "preEpisodeMasterId": 1010116
+  },
+  {
+    "id": 1010118,
+    "storyMasterId": 10101,
+    "title": "足りない、なにか",
+    "order": 18,
+    "episodeRewardPackageMasterId": 1010118,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 16
+      }
+    ],
+    "preEpisodeMasterId": 1010117
+  },
+  {
+    "id": 1010119,
+    "storyMasterId": 10101,
+    "title": "ふたりの、出会い",
+    "order": 19,
+    "episodeRewardPackageMasterId": 1010119,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 18
+      }
+    ],
+    "preEpisodeMasterId": 1010118
+  },
+  {
+    "id": 1010120,
+    "storyMasterId": 10101,
+    "title": "たとえ、私がいなくても",
+    "order": 20,
+    "episodeRewardPackageMasterId": 1010120,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 20
+      }
+    ],
+    "preEpisodeMasterId": 1010119
+  },
+  {
+    "id": 1010121,
+    "storyMasterId": 10101,
+    "title": "ふたりの約束、ふたりの夢",
+    "order": 21,
+    "episodeRewardPackageMasterId": 1010121,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 22
+      }
+    ],
+    "preEpisodeMasterId": 1010120
+  },
+  {
+    "id": 1010122,
+    "storyMasterId": 10101,
+    "title": "私の、センス",
+    "order": 22,
+    "episodeRewardPackageMasterId": 1010122,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 24
+      }
+    ],
+    "preEpisodeMasterId": 1010121
+  },
+  {
+    "id": 1010123,
+    "storyMasterId": 10101,
+    "title": "いつか、きっとふたりで",
+    "order": 23,
+    "episodeRewardPackageMasterId": 1010123,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 26
+      }
+    ],
+    "preEpisodeMasterId": 1010122
+  },
+  {
+    "id": 1010201,
+    "storyMasterId": 10102,
+    "title": "新たなるスタート",
+    "order": 1,
+    "episodeRewardPackageMasterId": 1010201,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 28
+      }
+    ],
+    "preEpisodeMasterId": 1010123
+  },
+  {
+    "id": 1010202,
+    "storyMasterId": 10102,
+    "title": "スカウトのゆくえ",
+    "order": 2,
+    "episodeRewardPackageMasterId": 1010202,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 29
+      }
+    ],
+    "preEpisodeMasterId": 1010201
+  },
+  {
+    "id": 1010203,
+    "storyMasterId": 10102,
+    "title": "ライバルのとなりで",
+    "order": 3,
+    "episodeRewardPackageMasterId": 1010203,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 30
+      }
+    ],
+    "preEpisodeMasterId": 1010202
+  },
+  {
+    "id": 1010204,
+    "storyMasterId": 10102,
+    "title": "次なる舞台は",
+    "order": 4,
+    "episodeRewardPackageMasterId": 1010204,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 31
+      }
+    ],
+    "preEpisodeMasterId": 1010203
+  },
+  {
+    "id": 1010205,
+    "storyMasterId": 10102,
+    "title": "自分にできること",
+    "order": 5,
+    "episodeRewardPackageMasterId": 1010205,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 32
+      }
+    ],
+    "preEpisodeMasterId": 1010204
+  },
+  {
+    "id": 1010206,
+    "storyMasterId": 10102,
+    "title": "勝ち取ったもの",
+    "order": 6,
+    "episodeRewardPackageMasterId": 1010206,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 33
+      }
+    ],
+    "preEpisodeMasterId": 1010205
+  },
+  {
+    "id": 1010207,
+    "storyMasterId": 10102,
+    "title": "うれしくて",
+    "order": 7,
+    "episodeRewardPackageMasterId": 1010207,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 34
+      }
+    ],
+    "preEpisodeMasterId": 1010206
+  },
+  {
+    "id": 1010208,
+    "storyMasterId": 10102,
+    "title": "不協和音",
+    "order": 8,
+    "episodeRewardPackageMasterId": 1010208,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 35
+      }
+    ],
+    "preEpisodeMasterId": 1010207
+  },
+  {
+    "id": 1010209,
+    "storyMasterId": 10102,
+    "title": "そこは暗い水底",
+    "order": 9,
+    "episodeRewardPackageMasterId": 1010209,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 36
+      }
+    ],
+    "preEpisodeMasterId": 1010208
+  },
+  {
+    "id": 1010210,
+    "storyMasterId": 10102,
+    "title": "こぼれ落ちていくもの",
+    "order": 10,
+    "episodeRewardPackageMasterId": 1010210,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 37
+      }
+    ],
+    "preEpisodeMasterId": 1010209
+  },
+  {
+    "id": 1010211,
+    "storyMasterId": 10102,
+    "title": "こんな自分じゃ",
+    "order": 11,
+    "episodeRewardPackageMasterId": 1010211,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 38
+      }
+    ],
+    "preEpisodeMasterId": 1010210
+  },
+  {
+    "id": 1010212,
+    "storyMasterId": 10102,
+    "title": "崩れていく舞台",
+    "order": 12,
+    "episodeRewardPackageMasterId": 1010212,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 39
+      }
+    ],
+    "preEpisodeMasterId": 1010211
+  },
+  {
+    "id": 1010213,
+    "storyMasterId": 10102,
+    "title": "なにげない一日こそ",
+    "order": 13,
+    "episodeRewardPackageMasterId": 1010213,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 40
+      }
+    ],
+    "preEpisodeMasterId": 1010212
+  },
+  {
+    "id": 1010214,
+    "storyMasterId": 10102,
+    "title": "心を洗い流して",
+    "order": 14,
+    "episodeRewardPackageMasterId": 1010214,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 41
+      }
+    ],
+    "preEpisodeMasterId": 1010213
+  },
+  {
+    "id": 1010215,
+    "storyMasterId": 10102,
+    "title": "きっと同じだから",
+    "order": 15,
+    "episodeRewardPackageMasterId": 1010215,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 42
+      }
+    ],
+    "preEpisodeMasterId": 1010214
+  },
+  {
+    "id": 1010216,
+    "storyMasterId": 10102,
+    "title": "決意の先にあるものは",
+    "order": 16,
+    "episodeRewardPackageMasterId": 1010216,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 43
+      }
+    ],
+    "preEpisodeMasterId": 1010215
+  },
+  {
+    "id": 1010217,
+    "storyMasterId": 10102,
+    "title": "つまずいても転んでも",
+    "order": 17,
+    "episodeRewardPackageMasterId": 1010217,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 44
+      }
+    ],
+    "preEpisodeMasterId": 1010216
+  },
+  {
+    "id": 1010218,
+    "storyMasterId": 10102,
+    "title": "私が輝く舞台",
+    "order": 18,
+    "episodeRewardPackageMasterId": 1010218,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 45
+      }
+    ],
+    "preEpisodeMasterId": 1010217
+  },
+  {
+    "id": 1010219,
+    "storyMasterId": 10102,
+    "title": "自分を信じて",
+    "order": 19,
+    "episodeRewardPackageMasterId": 1010219,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 46
+      }
+    ],
+    "preEpisodeMasterId": 1010218
+  },
+  {
+    "id": 1010220,
+    "storyMasterId": 10102,
+    "title": "さぁ、次の幕を上げよう",
+    "order": 20,
+    "episodeRewardPackageMasterId": 1010220,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 47
+      }
+    ],
+    "preEpisodeMasterId": 1010219
+  },
+  {
+    "id": 1020101,
+    "storyMasterId": 10201,
+    "title": "楽園への招待（前編）",
+    "order": 1,
+    "episodeRewardPackageMasterId": 1020101,
+    "conditions": []
+  },
+  {
+    "id": 1020102,
+    "storyMasterId": 10201,
+    "title": "楽園への招待（中編）",
+    "order": 2,
+    "episodeRewardPackageMasterId": 1020102,
+    "conditions": [],
+    "preEpisodeMasterId": 1020101
+  },
+  {
+    "id": 1020103,
+    "storyMasterId": 10201,
+    "title": "楽園への招待（後編）",
+    "order": 3,
+    "episodeRewardPackageMasterId": 1020103,
+    "conditions": [],
+    "preEpisodeMasterId": 1020102
+  },
+  {
+    "id": 1020104,
+    "storyMasterId": 10201,
+    "title": "エデン（前編）",
+    "order": 4,
+    "episodeRewardPackageMasterId": 1020104,
+    "conditions": [],
+    "preEpisodeMasterId": 1020103
+  },
+  {
+    "id": 1020105,
+    "storyMasterId": 10201,
+    "title": "エデン（後編）",
+    "order": 5,
+    "episodeRewardPackageMasterId": 1020105,
+    "conditions": [],
+    "preEpisodeMasterId": 1020104
+  },
+  {
+    "id": 1020106,
+    "storyMasterId": 10201,
+    "title": "テトラかく語りき（前編）",
+    "order": 6,
+    "episodeRewardPackageMasterId": 1020106,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 1
+      }
+    ],
+    "preEpisodeMasterId": 1020105
+  },
+  {
+    "id": 1020107,
+    "storyMasterId": 10201,
+    "title": "テトラかく語りき（後編）",
+    "order": 7,
+    "episodeRewardPackageMasterId": 1020107,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 2
+      }
+    ],
+    "preEpisodeMasterId": 1020106
+  },
+  {
+    "id": 1020108,
+    "storyMasterId": 10201,
+    "title": "雪女（前編）",
+    "order": 8,
+    "episodeRewardPackageMasterId": 1020108,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 3
+      }
+    ],
+    "preEpisodeMasterId": 1020107
+  },
+  {
+    "id": 1020109,
+    "storyMasterId": 10201,
+    "title": "雪女（後編）",
+    "order": 9,
+    "episodeRewardPackageMasterId": 1020109,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 4
+      }
+    ],
+    "preEpisodeMasterId": 1020108
+  },
+  {
+    "id": 1020110,
+    "storyMasterId": 10201,
+    "title": "名脇役",
+    "order": 10,
+    "episodeRewardPackageMasterId": 1020110,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 5
+      }
+    ],
+    "preEpisodeMasterId": 1020109
+  },
+  {
+    "id": 1020111,
+    "storyMasterId": 10201,
+    "title": "しぐれパワー",
+    "order": 11,
+    "episodeRewardPackageMasterId": 1020111,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 6
+      }
+    ],
+    "preEpisodeMasterId": 1020110
+  },
+  {
+    "id": 1020112,
+    "storyMasterId": 10201,
+    "title": "我が世",
+    "order": 12,
+    "episodeRewardPackageMasterId": 1020112,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 7
+      }
+    ],
+    "preEpisodeMasterId": 1020111
+  },
+  {
+    "id": 1020113,
+    "storyMasterId": 10201,
+    "title": "テトラ",
+    "order": 13,
+    "episodeRewardPackageMasterId": 1020113,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 8
+      }
+    ],
+    "preEpisodeMasterId": 1020112
+  },
+  {
+    "id": 1020114,
+    "storyMasterId": 10201,
+    "title": "オペラ座",
+    "order": 14,
+    "episodeRewardPackageMasterId": 1020114,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 9
+      }
+    ],
+    "preEpisodeMasterId": 1020113
+  },
+  {
+    "id": 1020115,
+    "storyMasterId": 10201,
+    "title": "我が主",
+    "order": 15,
+    "episodeRewardPackageMasterId": 1020115,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 10
+      }
+    ],
+    "preEpisodeMasterId": 1020114
+  },
+  {
+    "id": 1020116,
+    "storyMasterId": 10201,
+    "title": "浴びている注目",
+    "order": 16,
+    "episodeRewardPackageMasterId": 1020116,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 11
+      }
+    ],
+    "preEpisodeMasterId": 1020115
+  },
+  {
+    "id": 1020117,
+    "storyMasterId": 10201,
+    "title": "テトラと初魅",
+    "order": 17,
+    "episodeRewardPackageMasterId": 1020117,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 12
+      }
+    ],
+    "preEpisodeMasterId": 1020116
+  },
+  {
+    "id": 1020118,
+    "storyMasterId": 10201,
+    "title": "刻み込まれたもの",
+    "order": 18,
+    "episodeRewardPackageMasterId": 1020118,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 13
+      }
+    ],
+    "preEpisodeMasterId": 1020117
+  },
+  {
+    "id": 1020119,
+    "storyMasterId": 10201,
+    "title": "楽園に差す光（前編）",
+    "order": 19,
+    "episodeRewardPackageMasterId": 1020119,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 14
+      }
+    ],
+    "preEpisodeMasterId": 1020118
+  },
+  {
+    "id": 1020120,
+    "storyMasterId": 10201,
+    "title": "楽園に差す光（後編）",
+    "order": 20,
+    "episodeRewardPackageMasterId": 1020120,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 15
+      }
+    ],
+    "preEpisodeMasterId": 1020119
+  },
+  {
+    "id": 1030101,
+    "storyMasterId": 10301,
+    "title": "来日",
+    "order": 1,
+    "episodeRewardPackageMasterId": 1030101,
+    "conditions": []
+  },
+  {
+    "id": 1030102,
+    "storyMasterId": 10301,
+    "title": "銀河座の人々",
+    "order": 2,
+    "episodeRewardPackageMasterId": 1030102,
+    "conditions": [],
+    "preEpisodeMasterId": 1030101
+  },
+  {
+    "id": 1030103,
+    "storyMasterId": 10301,
+    "title": "遠い星々",
+    "order": 3,
+    "episodeRewardPackageMasterId": 1030103,
+    "conditions": [],
+    "preEpisodeMasterId": 1030102
+  },
+  {
+    "id": 1030104,
+    "storyMasterId": 10301,
+    "title": "椅子取り",
+    "order": 4,
+    "episodeRewardPackageMasterId": 1030104,
+    "conditions": [],
+    "preEpisodeMasterId": 1030103
+  },
+  {
+    "id": 1030105,
+    "storyMasterId": 10301,
+    "title": "銀河のシンデレラ（前編）",
+    "order": 5,
+    "episodeRewardPackageMasterId": 1030105,
+    "conditions": [],
+    "preEpisodeMasterId": 1030104
+  },
+  {
+    "id": 1030106,
+    "storyMasterId": 10301,
+    "title": "銀河のシンデレラ（中編）",
+    "order": 6,
+    "episodeRewardPackageMasterId": 1030106,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 1
+      }
+    ],
+    "preEpisodeMasterId": 1030105
+  },
+  {
+    "id": 1030107,
+    "storyMasterId": 10301,
+    "title": "銀河のシンデレラ（後編）",
+    "order": 7,
+    "episodeRewardPackageMasterId": 1030107,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 2
+      }
+    ],
+    "preEpisodeMasterId": 1030106
+  },
+  {
+    "id": 1030108,
+    "storyMasterId": 10301,
+    "title": "流れ星",
+    "order": 8,
+    "episodeRewardPackageMasterId": 1030108,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 3
+      }
+    ],
+    "preEpisodeMasterId": 1030107
+  },
+  {
+    "id": 1030109,
+    "storyMasterId": 10301,
+    "title": "最初の一歩",
+    "order": 9,
+    "episodeRewardPackageMasterId": 1030109,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 4
+      }
+    ],
+    "preEpisodeMasterId": 1030108
+  },
+  {
+    "id": 1030110,
+    "storyMasterId": 10301,
+    "title": "郷に入りては",
+    "order": 10,
+    "episodeRewardPackageMasterId": 1030110,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 5
+      }
+    ],
+    "preEpisodeMasterId": 1030109
+  },
+  {
+    "id": 1030111,
+    "storyMasterId": 10301,
+    "title": "溢れるパワー",
+    "order": 11,
+    "episodeRewardPackageMasterId": 1030111,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 6
+      }
+    ],
+    "preEpisodeMasterId": 1030110
+  },
+  {
+    "id": 1030112,
+    "storyMasterId": 10301,
+    "title": "ラモーナは見た",
+    "order": 12,
+    "episodeRewardPackageMasterId": 1030112,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 7
+      }
+    ],
+    "preEpisodeMasterId": 1030111
+  },
+  {
+    "id": 1030113,
+    "storyMasterId": 10301,
+    "title": "千寿という生き様",
+    "order": 13,
+    "episodeRewardPackageMasterId": 1030113,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 8
+      }
+    ],
+    "preEpisodeMasterId": 1030112
+  },
+  {
+    "id": 1030114,
+    "storyMasterId": 10301,
+    "title": "銀河パーティー",
+    "order": 14,
+    "episodeRewardPackageMasterId": 1030114,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 9
+      }
+    ],
+    "preEpisodeMasterId": 1030113
+  },
+  {
+    "id": 1030115,
+    "storyMasterId": 10301,
+    "title": "宣戦布告",
+    "order": 15,
+    "episodeRewardPackageMasterId": 1030115,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 10
+      }
+    ],
+    "preEpisodeMasterId": 1030114
+  },
+  {
+    "id": 1030116,
+    "storyMasterId": 10301,
+    "title": "切磋琢磨",
+    "order": 16,
+    "episodeRewardPackageMasterId": 1030116,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 11
+      }
+    ],
+    "preEpisodeMasterId": 1030115
+  },
+  {
+    "id": 1030117,
+    "storyMasterId": 10301,
+    "title": "もらった力",
+    "order": 17,
+    "episodeRewardPackageMasterId": 1030117,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 12
+      }
+    ],
+    "preEpisodeMasterId": 1030116
+  },
+  {
+    "id": 1030118,
+    "storyMasterId": 10301,
+    "title": "広大なる銀河",
+    "order": 18,
+    "episodeRewardPackageMasterId": 1030118,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 13
+      }
+    ],
+    "preEpisodeMasterId": 1030117
+  },
+  {
+    "id": 1030119,
+    "storyMasterId": 10301,
+    "title": "膨らみ続ける銀河",
+    "order": 19,
+    "episodeRewardPackageMasterId": 1030119,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 14
+      }
+    ],
+    "preEpisodeMasterId": 1030118
+  },
+  {
+    "id": 1030120,
+    "storyMasterId": 10301,
+    "title": "新たなる銀河へ",
+    "order": 20,
+    "episodeRewardPackageMasterId": 1030120,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 15
+      }
+    ],
+    "preEpisodeMasterId": 1030119
+  },
+  {
+    "id": 1030201,
+    "storyMasterId": 10302,
+    "title": "世界を渡る役者たち",
+    "order": 1,
+    "episodeRewardPackageMasterId": 1030201,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 16
+      }
+    ],
+    "preEpisodeMasterId": 1030120
+  },
+  {
+    "id": 1030202,
+    "storyMasterId": 10302,
+    "title": "白雪姫",
+    "order": 2,
+    "episodeRewardPackageMasterId": 1030202,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 16
+      }
+    ],
+    "preEpisodeMasterId": 1030201
+  },
+  {
+    "id": 1030203,
+    "storyMasterId": 10302,
+    "title": "血筋と実力",
+    "order": 3,
+    "episodeRewardPackageMasterId": 1030203,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 17
+      }
+    ],
+    "preEpisodeMasterId": 1030202
+  },
+  {
+    "id": 1030204,
+    "storyMasterId": 10302,
+    "title": "目指す高み",
+    "order": 4,
+    "episodeRewardPackageMasterId": 1030204,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 17
+      }
+    ],
+    "preEpisodeMasterId": 1030203
+  },
+  {
+    "id": 1030205,
+    "storyMasterId": 10302,
+    "title": "食いしばり",
+    "order": 5,
+    "episodeRewardPackageMasterId": 1030205,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 18
+      }
+    ],
+    "preEpisodeMasterId": 1030204
+  },
+  {
+    "id": 1030206,
+    "storyMasterId": 10302,
+    "title": "我ら強大たるべし",
+    "order": 6,
+    "episodeRewardPackageMasterId": 1030206,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 18
+      }
+    ],
+    "preEpisodeMasterId": 1030205
+  },
+  {
+    "id": 1030207,
+    "storyMasterId": 10302,
+    "title": "激戦区浅草",
+    "order": 7,
+    "episodeRewardPackageMasterId": 1030207,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 19
+      }
+    ],
+    "preEpisodeMasterId": 1030206
+  },
+  {
+    "id": 1030208,
+    "storyMasterId": 10302,
+    "title": "銀河ステーションへ",
+    "order": 8,
+    "episodeRewardPackageMasterId": 1030208,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 19
+      }
+    ],
+    "preEpisodeMasterId": 1030207
+  },
+  {
+    "id": 1030209,
+    "storyMasterId": 10302,
+    "title": "配役発表",
+    "order": 9,
+    "episodeRewardPackageMasterId": 1030209,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 20
+      }
+    ],
+    "preEpisodeMasterId": 1030208
+  },
+  {
+    "id": 1030210,
+    "storyMasterId": 10302,
+    "title": "乗り込み準備",
+    "order": 10,
+    "episodeRewardPackageMasterId": 1030210,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 20
+      }
+    ],
+    "preEpisodeMasterId": 1030209
+  },
+  {
+    "id": 1030211,
+    "storyMasterId": 10302,
+    "title": "注目",
+    "order": 11,
+    "episodeRewardPackageMasterId": 1030211,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 21
+      }
+    ],
+    "preEpisodeMasterId": 1030210
+  },
+  {
+    "id": 1030212,
+    "storyMasterId": 10302,
+    "title": "克己",
+    "order": 12,
+    "episodeRewardPackageMasterId": 1030212,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 21
+      }
+    ],
+    "preEpisodeMasterId": 1030211
+  },
+  {
+    "id": 1030213,
+    "storyMasterId": 10302,
+    "title": "好敵手であり友であり",
+    "order": 13,
+    "episodeRewardPackageMasterId": 1030213,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 22
+      }
+    ],
+    "preEpisodeMasterId": 1030212
+  },
+  {
+    "id": 1030214,
+    "storyMasterId": 10302,
+    "title": "精神修養",
+    "order": 14,
+    "episodeRewardPackageMasterId": 1030214,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 22
+      }
+    ],
+    "preEpisodeMasterId": 1030213
+  },
+  {
+    "id": 1030215,
+    "storyMasterId": 10302,
+    "title": "親子",
+    "order": 15,
+    "episodeRewardPackageMasterId": 1030215,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 23
+      }
+    ],
+    "preEpisodeMasterId": 1030214
+  },
+  {
+    "id": 1030216,
+    "storyMasterId": 10302,
+    "title": "芽吹いていく可能性",
+    "order": 16,
+    "episodeRewardPackageMasterId": 1030216,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 23
+      }
+    ],
+    "preEpisodeMasterId": 1030215
+  },
+  {
+    "id": 1030217,
+    "storyMasterId": 10302,
+    "title": "銀河へ",
+    "order": 17,
+    "episodeRewardPackageMasterId": 1030217,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 24
+      }
+    ],
+    "preEpisodeMasterId": 1030216
+  },
+  {
+    "id": 1030218,
+    "storyMasterId": 10302,
+    "title": "幸せの在処",
+    "order": 18,
+    "episodeRewardPackageMasterId": 1030218,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 24
+      }
+    ],
+    "preEpisodeMasterId": 1030217
+  },
+  {
+    "id": 1030219,
+    "storyMasterId": 10302,
+    "title": "対話",
+    "order": 19,
+    "episodeRewardPackageMasterId": 1030219,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 25
+      }
+    ],
+    "preEpisodeMasterId": 1030218
+  },
+  {
+    "id": 1030220,
+    "storyMasterId": 10302,
+    "title": "旅は続く",
+    "order": 20,
+    "episodeRewardPackageMasterId": 1030220,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 25
+      }
+    ],
+    "preEpisodeMasterId": 1030219
+  },
+  {
+    "id": 1040101,
+    "storyMasterId": 10401,
+    "title": "大好きなもの",
+    "order": 1,
+    "episodeRewardPackageMasterId": 1040101,
+    "conditions": []
+  },
+  {
+    "id": 1040102,
+    "storyMasterId": 10401,
+    "title": "千寿いろは",
+    "order": 2,
+    "episodeRewardPackageMasterId": 1040102,
+    "conditions": [],
+    "preEpisodeMasterId": 1040101
+  },
+  {
+    "id": 1040103,
+    "storyMasterId": 10401,
+    "title": "白丸美兎",
+    "order": 3,
+    "episodeRewardPackageMasterId": 1040103,
+    "conditions": [],
+    "preEpisodeMasterId": 1040102
+  },
+  {
+    "id": 1040104,
+    "storyMasterId": 10401,
+    "title": "電姫たち",
+    "order": 4,
+    "episodeRewardPackageMasterId": 1040104,
+    "conditions": [],
+    "preEpisodeMasterId": 1040103
+  },
+  {
+    "id": 1040105,
+    "storyMasterId": 10401,
+    "title": "東上野高校の三年生たち",
+    "order": 5,
+    "episodeRewardPackageMasterId": 1040105,
+    "conditions": [],
+    "preEpisodeMasterId": 1040104
+  },
+  {
+    "id": 1040106,
+    "storyMasterId": 10401,
+    "title": "電姫のエース",
+    "order": 6,
+    "episodeRewardPackageMasterId": 1040106,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 1
+      }
+    ],
+    "preEpisodeMasterId": 1040105
+  },
+  {
+    "id": 1040107,
+    "storyMasterId": 10401,
+    "title": "旅のはじまり",
+    "order": 7,
+    "episodeRewardPackageMasterId": 1040107,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 2
+      }
+    ],
+    "preEpisodeMasterId": 1040106
+  },
+  {
+    "id": 1040108,
+    "storyMasterId": 10401,
+    "title": "カミラ",
+    "order": 8,
+    "episodeRewardPackageMasterId": 1040108,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 3
+      }
+    ],
+    "preEpisodeMasterId": 1040107
+  },
+  {
+    "id": 1040109,
+    "storyMasterId": 10401,
+    "title": "群雄割拠",
+    "order": 9,
+    "episodeRewardPackageMasterId": 1040109,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 4
+      }
+    ],
+    "preEpisodeMasterId": 1040108
+  },
+  {
+    "id": 1040110,
+    "storyMasterId": 10401,
+    "title": "大切なファン",
+    "order": 10,
+    "episodeRewardPackageMasterId": 1040110,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 5
+      }
+    ],
+    "preEpisodeMasterId": 1040109
+  },
+  {
+    "id": 1040111,
+    "storyMasterId": 10401,
+    "title": "紡がれる絆、そして",
+    "order": 11,
+    "episodeRewardPackageMasterId": 1040111,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 6
+      }
+    ],
+    "preEpisodeMasterId": 1040110
+  },
+  {
+    "id": 1040112,
+    "storyMasterId": 10401,
+    "title": "電姫の歴史",
+    "order": 12,
+    "episodeRewardPackageMasterId": 1040112,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 7
+      }
+    ],
+    "preEpisodeMasterId": 1040111
+  },
+  {
+    "id": 1040113,
+    "storyMasterId": 10401,
+    "title": "自分の居場所",
+    "order": 13,
+    "episodeRewardPackageMasterId": 1040113,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 8
+      }
+    ],
+    "preEpisodeMasterId": 1040112
+  },
+  {
+    "id": 1040114,
+    "storyMasterId": 10401,
+    "title": "決断",
+    "order": 14,
+    "episodeRewardPackageMasterId": 1040114,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 9
+      }
+    ],
+    "preEpisodeMasterId": 1040113
+  },
+  {
+    "id": 1040115,
+    "storyMasterId": 10401,
+    "title": "アラビアン・ナイト",
+    "order": 15,
+    "episodeRewardPackageMasterId": 1040115,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 10
+      }
+    ],
+    "preEpisodeMasterId": 1040114
+  },
+  {
+    "id": 1040116,
+    "storyMasterId": 10401,
+    "title": "それぞれのやる気",
+    "order": 16,
+    "episodeRewardPackageMasterId": 1040116,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 11
+      }
+    ],
+    "preEpisodeMasterId": 1040115
+  },
+  {
+    "id": 1040117,
+    "storyMasterId": 10401,
+    "title": "叶羽の努力",
+    "order": 17,
+    "episodeRewardPackageMasterId": 1040117,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 12
+      }
+    ],
+    "preEpisodeMasterId": 1040116
+  },
+  {
+    "id": 1040118,
+    "storyMasterId": 10401,
+    "title": "変わる運命",
+    "order": 18,
+    "episodeRewardPackageMasterId": 1040118,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 13
+      }
+    ],
+    "preEpisodeMasterId": 1040117
+  },
+  {
+    "id": 1040119,
+    "storyMasterId": 10401,
+    "title": "電子の姫たち",
+    "order": 19,
+    "episodeRewardPackageMasterId": 1040119,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 14
+      }
+    ],
+    "preEpisodeMasterId": 1040118
+  },
+  {
+    "id": 1040120,
+    "storyMasterId": 10401,
+    "title": "ようこそ電姫へ",
+    "order": 20,
+    "episodeRewardPackageMasterId": 1040120,
+    "conditions": [
+      {
+        "conditionType": "TotalRankInCompany",
+        "value1": 15
+      }
+    ],
+    "preEpisodeMasterId": 1040119
+  }
+]

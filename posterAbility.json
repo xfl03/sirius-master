@@ -1,0 +1,6776 @@
+[
+  {
+    "id": 210010,
+    "name": "友達の願いごと",
+    "description": "全アクターの演技力が[:param11]%上昇",
+    "posterMasterId": 210010,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 21001001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70011000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 210011,
+    "name": "演技力アップ",
+    "description": "自身の演技力が[:param11]%上昇",
+    "posterMasterId": 210010,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 21001101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10010000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 210012,
+    "name": "演技力アップ",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：ここなが装備",
+    "posterMasterId": 210010,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 21001201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10010101
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 210020,
+    "name": "共存同盟",
+    "description": "シリウスに所属するアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 210020,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 21002001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70012100
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 210021,
+    "name": "演技力アップ",
+    "description": "自身の演技力が[:param11]%上昇",
+    "posterMasterId": 210020,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 21002101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10010000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 210022,
+    "name": "演技力アップ",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：静香が装備",
+    "posterMasterId": 210020,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 21002201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10010102
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 210030,
+    "name": "この恩は必ず返します！",
+    "description": "<color=#33B4DF>凛属性</color>のアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 210030,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 21003001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70012002
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 210031,
+    "name": "演技力アップ",
+    "description": "自身の演技力が[:param11]%上昇",
+    "posterMasterId": 210030,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 21003101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10010000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 210032,
+    "name": "演技力アップ",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：カトリナが装備",
+    "posterMasterId": 210030,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 21003201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10010103
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 210040,
+    "name": "偽りの代償",
+    "description": "<color=#ff679d>憐属性</color>のアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 210040,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 21004001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70012001
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 210041,
+    "name": "演技力アップ",
+    "description": "自身の演技力が[:param11]%上昇",
+    "posterMasterId": 210040,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 21004101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10010000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 210042,
+    "name": "演技力アップ",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：八恵が装備",
+    "posterMasterId": 210040,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 21004201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10010104
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 210050,
+    "name": "想いを羽根に乗せて",
+    "description": "<color=#FF9314>陽属性</color>のアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 210050,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 21005001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70012004
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 210051,
+    "name": "演技力アップ",
+    "description": "自身の演技力が[:param11]%上昇",
+    "posterMasterId": 210050,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 21005101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10010000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 210052,
+    "name": "演技力アップ",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：ぱんだが装備",
+    "posterMasterId": 210050,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 21005201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10010105
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 210060,
+    "name": "マイペースな演奏",
+    "description": "<color=#7AC940>彩属性</color>のアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 210060,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 21006001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70012003
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 210061,
+    "name": "演技力アップ",
+    "description": "自身の演技力が[:param11]%上昇",
+    "posterMasterId": 210060,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 21006101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10010000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 210062,
+    "name": "演技力アップ",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：知冴が装備",
+    "posterMasterId": 210060,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 21006201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10010106
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 210070,
+    "name": "曲がった性根叩きなおす！",
+    "description": "Edenに所属するアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 210070,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 21007001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70012200
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 210071,
+    "name": "演技力アップ",
+    "description": "自身の演技力が[:param11]%上昇",
+    "posterMasterId": 210070,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 21007101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10010000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 210072,
+    "name": "演技力アップ",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：初魅が装備",
+    "posterMasterId": 210070,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 21007201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10010201
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 210080,
+    "name": "奇食な魔女",
+    "description": "<color=#33B4DF>凛属性</color>のアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 210080,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 21008001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70012002
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 210081,
+    "name": "演技力アップ",
+    "description": "自身の演技力が[:param11]%上昇",
+    "posterMasterId": 210080,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 21008101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10010000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 210082,
+    "name": "演技力アップ",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：大黒が装備",
+    "posterMasterId": 210080,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 21008201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10010202
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 210090,
+    "name": "君を連れて行ってあげる",
+    "description": "<color=#FF9314>陽属性</color>のアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 210090,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 21009001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70012004
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 210091,
+    "name": "演技力アップ",
+    "description": "自身の演技力が[:param11]%上昇",
+    "posterMasterId": 210090,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 21009101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10010000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 210092,
+    "name": "演技力アップ",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：仁花子が装備",
+    "posterMasterId": 210090,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 21009201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10010203
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 210100,
+    "name": "仙術・如意棒",
+    "description": "<color=#7AC940>彩属性</color>のアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 210100,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 21010001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70012003
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 210101,
+    "name": "演技力アップ",
+    "description": "自身の演技力が[:param11]%上昇",
+    "posterMasterId": 210100,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 21010101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10010000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 210102,
+    "name": "演技力アップ",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：容が装備",
+    "posterMasterId": 210100,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 21010201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10010204
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 210110,
+    "name": "なんで買わないわけ？",
+    "description": "<color=#ff679d>憐属性</color>のアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 210110,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 21011001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70012001
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 210111,
+    "name": "演技力アップ",
+    "description": "自身の演技力が[:param11]%上昇",
+    "posterMasterId": 210110,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 21011101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10010000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 210112,
+    "name": "演技力アップ",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：しぐれが装備",
+    "posterMasterId": 210110,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 21011201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10010205
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 210120,
+    "name": "優雅な“てぃーたいむ”",
+    "description": "銀河座に所属するアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 210120,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 21012001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70012300
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 210121,
+    "name": "演技力アップ",
+    "description": "自身の演技力が[:param11]%上昇",
+    "posterMasterId": 210120,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 21012101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10010000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 210122,
+    "name": "演技力アップ",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：暦が装備",
+    "posterMasterId": 210120,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 21012201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10010301
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 210130,
+    "name": "自由気ままな冒険譚",
+    "description": "<color=#33B4DF>凛属性</color>のアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 210130,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 21013001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70012002
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 210131,
+    "name": "演技力アップ",
+    "description": "自身の演技力が[:param11]%上昇",
+    "posterMasterId": 210130,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 21013101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10010000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 210132,
+    "name": "演技力アップ",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：ラモーナが装備",
+    "posterMasterId": 210130,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 21013201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10010302
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 210140,
+    "name": "不条理な世界",
+    "description": "<color=#FF9314>陽属性</color>のアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 210140,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 21014001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70012004
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 210141,
+    "name": "演技力アップ",
+    "description": "自身の演技力が[:param11]%上昇",
+    "posterMasterId": 210140,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 21014101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10010000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 210142,
+    "name": "演技力アップ",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：雪が装備",
+    "posterMasterId": 210140,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 21014201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10010303
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 210150,
+    "name": "どんな髪型にしようかな？",
+    "description": "<color=#7AC940>彩属性</color>のアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 210150,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 21015001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70012003
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 210151,
+    "name": "演技力アップ",
+    "description": "自身の演技力が[:param11]%上昇",
+    "posterMasterId": 210150,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 21015101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10010000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 210152,
+    "name": "演技力アップ",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：リリヤが装備",
+    "posterMasterId": 210150,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 21015201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10010304
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 210160,
+    "name": "きびだんご同盟",
+    "description": "<color=#ff679d>憐属性</color>のアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 210160,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 21016001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70012001
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 210161,
+    "name": "演技力アップ",
+    "description": "自身の演技力が[:param11]%上昇",
+    "posterMasterId": 210160,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 21016101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10010000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 210162,
+    "name": "演技力アップ",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：緋花里が装備",
+    "posterMasterId": 210160,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 21016201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10010305
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 210170,
+    "name": "ご注文はどちら様？",
+    "description": "劇団電姫に所属するアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 210170,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 21017001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70012400
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 210171,
+    "name": "演技力アップ",
+    "description": "自身の演技力が[:param11]%上昇",
+    "posterMasterId": 210170,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 21017101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10010000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 210172,
+    "name": "演技力アップ",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：いろはが装備",
+    "posterMasterId": 210170,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 21017201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10010401
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 210180,
+    "name": "不器用な魔女",
+    "description": "<color=#7AC940>彩属性</color>のアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 210180,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 21018001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70012003
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 210181,
+    "name": "演技力アップ",
+    "description": "自身の演技力が[:param11]%上昇",
+    "posterMasterId": 210180,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 21018101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10010000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 210182,
+    "name": "演技力アップ",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：美兎が装備",
+    "posterMasterId": 210180,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 21018201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10010402
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 210190,
+    "name": "恋の徒競走",
+    "description": "<color=#FF9314>陽属性</color>のアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 210190,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 21019001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70012004
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 210191,
+    "name": "演技力アップ",
+    "description": "自身の演技力が[:param11]%上昇",
+    "posterMasterId": 210190,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 21019101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10010000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 210192,
+    "name": "演技力アップ",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：カミラが装備",
+    "posterMasterId": 210190,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 21019201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10010403
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 210200,
+    "name": "Hyde out",
+    "description": "<color=#33B4DF>凛属性</color>のアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 210200,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 21020001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70012002
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 210201,
+    "name": "演技力アップ",
+    "description": "自身の演技力が[:param11]%上昇",
+    "posterMasterId": 210200,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 21020101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10010000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 210202,
+    "name": "演技力アップ",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：蕾が装備",
+    "posterMasterId": 210200,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 21020201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10010404
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 210210,
+    "name": "がおーっ",
+    "description": "<color=#ff679d>憐属性</color>のアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 210210,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 21021001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70012001
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 210211,
+    "name": "演技力アップ",
+    "description": "自身の演技力が[:param11]%上昇",
+    "posterMasterId": 210210,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 21021101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10010000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 210212,
+    "name": "演技力アップ",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：叶羽が装備",
+    "posterMasterId": 210210,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 21021201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10010405
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220010,
+    "name": "かぐやの想い",
+    "description": "シリウスに所属するアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 220010,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22001001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70032100
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220011,
+    "name": "演技力アップⅡ＋",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：シリウスに所属するアクターが装備",
+    "posterMasterId": 220010,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22001101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10021100
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220012,
+    "name": "ライフブースト",
+    "description": "センス発動直後、ライフを[:param11]回復",
+    "posterMasterId": 220010,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22001201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11210000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220020,
+    "name": "重い愛情",
+    "description": "Edenに所属するアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 220020,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22002001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70032200
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220021,
+    "name": "演技力アップⅡ＋",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：Edenに所属するアクターが装備",
+    "posterMasterId": 220020,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22002101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10021200
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220022,
+    "name": "ライフブースト",
+    "description": "センス発動直後、ライフを[:param11]回復",
+    "posterMasterId": 220020,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22002201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11210000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220030,
+    "name": "私に惚れると危険だよ？",
+    "description": "銀河座に所属するアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 220030,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22003001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70032300
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220031,
+    "name": "演技力アップⅡ＋",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：銀河座に所属するアクターが装備",
+    "posterMasterId": 220030,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22003101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10021300
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220032,
+    "name": "ライフブースト",
+    "description": "センス発動直後、ライフを[:param11]回復",
+    "posterMasterId": 220030,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22003201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11210000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220040,
+    "name": "天才陰陽師の式神",
+    "description": "劇団電姫に所属するアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 220040,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22004001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70032400
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220041,
+    "name": "演技力アップⅡ＋",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：劇団電姫に所属するアクターが装備",
+    "posterMasterId": 220040,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22004101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10021400
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220042,
+    "name": "ライフブースト",
+    "description": "センス発動直後、ライフを[:param11]回復",
+    "posterMasterId": 220040,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22004201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11210000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220050,
+    "name": "食いしん坊な雪の女王",
+    "description": "シリウスに所属するアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 220050,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22005001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70032100
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220051,
+    "name": "演技力アップⅡ",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：シリウスに所属するアクターが装備",
+    "posterMasterId": 220050,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22005101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10020100
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220052,
+    "name": "「光」獲得数増加",
+    "description": "センスで付与する「光」の付与数が[:param11]個増加　◆発動条件：シリウスに所属するアクターが装備",
+    "posterMasterId": 220050,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22005201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11810100
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220060,
+    "name": "開け、ゴマっ！",
+    "description": "Edenに所属するアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 220060,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22006001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70032200
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220061,
+    "name": "演技力アップⅡ",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：Edenに所属するアクターが装備",
+    "posterMasterId": 220060,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22006101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10020200
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220062,
+    "name": "「光」獲得数増加",
+    "description": "センスで付与する「光」の付与数が[:param11]個増加　◆発動条件：Edenに所属するアクターが装備",
+    "posterMasterId": 220060,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22006201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11810200
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220070,
+    "name": "六つの航海",
+    "description": "銀河座に所属するアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 220070,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22007001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70032300
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220071,
+    "name": "演技力アップⅡ",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：銀河座に所属するアクターが装備",
+    "posterMasterId": 220070,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22007101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10020300
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220072,
+    "name": "「光」獲得数増加",
+    "description": "センスで付与する「光」の付与数が[:param11]個増加　◆発動条件：銀河座に所属するアクターが装備",
+    "posterMasterId": 220070,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22007201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11810300
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220080,
+    "name": "二本のバラの木",
+    "description": "劇団電姫に所属するアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 220080,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22008001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70032400
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220081,
+    "name": "演技力アップⅡ",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：劇団電姫に所属するアクターが装備",
+    "posterMasterId": 220080,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22008101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10020400
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220082,
+    "name": "「光」獲得数増加",
+    "description": "センスで付与する「光」の付与数が[:param11]個増加　◆発動条件：劇団電姫に所属するアクターが装備",
+    "posterMasterId": 220080,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22008201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11810400
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220090,
+    "name": "嫁入り行列",
+    "description": "全アクターの演技力が[:param11]%上昇",
+    "posterMasterId": 220090,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22009001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70031000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220091,
+    "name": "演技力アップ",
+    "description": "自身の演技力が[:param11]%上昇　",
+    "posterMasterId": 220090,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22009101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10010000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220092,
+    "name": "スコアブースト",
+    "description": "センス発動直後、現在のスコアの[:param11]%のスコアを獲得",
+    "posterMasterId": 220090,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22009201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10810000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220100,
+    "name": "約束の紅い果実",
+    "description": "全アクターの演技力が[:param11]%上昇",
+    "posterMasterId": 220100,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22010001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70031000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220101,
+    "name": "歌唱力アップⅡ",
+    "description": "自身の歌唱力が[:param11]%上昇　",
+    "posterMasterId": 220100,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22010101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10120000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220102,
+    "name": "スコアブースト・歌唱力",
+    "description": "センス発動直後、自身の歌唱力の[:param11]倍のスコアを獲得",
+    "posterMasterId": 220100,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22010201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10910000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220110,
+    "name": "戦の女神",
+    "description": "全アクターの演技力が[:param11]%上昇",
+    "posterMasterId": 220110,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22011001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70031000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220111,
+    "name": "表現力アップⅡ",
+    "description": "自身の表現力が[:param11]%上昇　",
+    "posterMasterId": 220110,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22011101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10220000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220112,
+    "name": "スコアブースト・表現力",
+    "description": "センス発動直後、自身の表現力の[:param11]倍のスコアを獲得",
+    "posterMasterId": 220110,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22011201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11010000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220120,
+    "name": "伝説の幕開け",
+    "description": "全アクターの演技力が[:param11]%上昇",
+    "posterMasterId": 220120,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22012001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70031000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220121,
+    "name": "集中力アップⅡ",
+    "description": "自身の集中力が[:param11]%上昇　",
+    "posterMasterId": 220120,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22012101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10320000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220122,
+    "name": "スコアブースト・集中力",
+    "description": "センス発動直後、自身の集中力の[:param11]倍のスコアを獲得",
+    "posterMasterId": 220120,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22012201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11110000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220130,
+    "name": "最高のお菓子の家",
+    "description": "<color=#ff679d>憐属性</color>のアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 220130,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22013001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70032001
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220131,
+    "name": "演技力アップⅡ",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：<color=#ff679d>憐属性</color>のアクターが装備",
+    "posterMasterId": 220130,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22013101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10020001
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220132,
+    "name": "初期P.ゲージ上昇",
+    "description": "公演開始時、P.ゲージが[:param11]上昇　◆発動条件：<color=#ff679d>憐属性</color>のアクターが装備",
+    "posterMasterId": 220130,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22013201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11510001
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220140,
+    "name": "ビジネスきびだんご",
+    "description": "<color=#33B4DF>凛属性</color>のアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 220140,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22014001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70032002
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220141,
+    "name": "演技力アップⅡ",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：<color=#33B4DF>凛属性</color>のアクターが装備",
+    "posterMasterId": 220140,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22014101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10020002
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220142,
+    "name": "初期P.ゲージ上昇",
+    "description": "公演開始時、P.ゲージが[:param11]上昇　◆発動条件：<color=#33B4DF>凛属性</color>のアクターが装備",
+    "posterMasterId": 220140,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22014201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11510002
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220150,
+    "name": "二人の幸せ",
+    "description": "<color=#7AC940>彩属性</color>のアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 220150,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22015001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70032003
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220151,
+    "name": "演技力アップⅡ",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：<color=#7AC940>彩属性</color>のアクターが装備",
+    "posterMasterId": 220150,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22015101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10020003
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220152,
+    "name": "初期P.ゲージ上昇",
+    "description": "公演開始時、P.ゲージが[:param11]上昇　◆発動条件：<color=#7AC940>彩属性</color>のアクターが装備",
+    "posterMasterId": 220150,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22015201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11510003
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220160,
+    "name": "上着脱がせ1本勝負",
+    "description": "<color=#FF9314>陽属性</color>のアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 220160,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22016001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70032004
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220161,
+    "name": "演技力アップⅡ",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：<color=#FF9314>陽属性</color>のアクターが装備",
+    "posterMasterId": 220160,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22016101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10020004
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220162,
+    "name": "初期P.ゲージ上昇",
+    "description": "公演開始時、P.ゲージが[:param11]上昇　◆発動条件：<color=#FF9314>陽属性</color>のアクターが装備",
+    "posterMasterId": 220160,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22016201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11510004
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220170,
+    "name": "god is no /w/ here",
+    "description": "Edenに所属するアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 220170,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22017001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70022200
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220171,
+    "name": "表現力アップ",
+    "description": "自身の表現力が[:param11]%上昇　◆発動条件：Edenに所属するアクターが装備",
+    "posterMasterId": 220170,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22017101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10210200
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220172,
+    "name": "スコアブースト・表現力",
+    "description": "センス発動直後、自身の表現力の[:param11]倍のスコアを獲得　◆発動条件：Edenに所属するアクターが装備",
+    "posterMasterId": 220170,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22017201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11010200
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220180,
+    "name": "エレクトリック・サマー・バカンス",
+    "description": "劇団電姫に所属するアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 220180,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22018001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70022400
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220181,
+    "name": "集中力アップ",
+    "description": "自身の集中力が[:param11]%上昇　◆発動条件：劇団電姫に所属するアクターが装備",
+    "posterMasterId": 220180,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22018101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10310400
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220182,
+    "name": "スコアブースト・集中力",
+    "description": "センス発動直後、自身の集中力の[:param11]倍のスコアを獲得　◆発動条件：劇団電姫に所属するアクターが装備",
+    "posterMasterId": 220180,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22018201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11110400
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220190,
+    "name": "隠し味はひとさじのユーモア",
+    "description": "シリウスに所属するアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 220190,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22019001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70022100
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220191,
+    "name": "歌唱力アップ",
+    "description": "自身の歌唱力が[:param11]%上昇　◆発動条件：シリウスに所属するアクターが装備",
+    "posterMasterId": 220190,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22019101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10110100
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220192,
+    "name": "スコアブースト・歌唱力",
+    "description": "センス発動直後、自身の歌唱力の[:param11]倍のスコアを獲得　◆発動条件：シリウスに所属するアクターが装備",
+    "posterMasterId": 220190,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22019201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10910100
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220200,
+    "name": "泡沫烟花",
+    "description": "銀河座に所属するアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 220200,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22020001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70022300
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220201,
+    "name": "表現力アップ",
+    "description": "自身の表現力が[:param11]%上昇　◆発動条件：銀河座に所属するアクターが装備",
+    "posterMasterId": 220200,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22020101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10210300
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220202,
+    "name": "スコアブースト・表現力",
+    "description": "センス発動直後、自身の表現力の[:param11]倍のスコアを獲得　◆発動条件：銀河座に所属するアクターが装備",
+    "posterMasterId": 220200,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22020201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11010300
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220210,
+    "name": "脚光が照らすこれから",
+    "description": "<color=#ff679d>憐属性</color>のアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 220210,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22021001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70022001
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220211,
+    "name": "演技力アップ＋",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：<color=#ff679d>憐属性</color>のアクターが装備",
+    "posterMasterId": 220210,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22021101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10011001
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220212,
+    "name": "初期ライフ上昇＋",
+    "description": "公演開始時、ライフが[:param11]上昇　◆発動条件：<color=#ff679d>憐属性</color>のアクターが装備",
+    "posterMasterId": 220210,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22021201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11311001
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220220,
+    "name": "歌川高校体育祭！　～応援団長の一日～",
+    "description": "<color=#7AC940>彩属性</color>のアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 220220,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22022001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70022003
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220221,
+    "name": "演技力アップ＋",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：<color=#7AC940>彩属性</color>のアクターが装備",
+    "posterMasterId": 220220,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22022101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10011003
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220222,
+    "name": "初期ライフ上昇＋",
+    "description": "公演開始時、ライフが[:param11]上昇　◆発動条件：<color=#7AC940>彩属性</color>のアクターが装備",
+    "posterMasterId": 220220,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22022201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11311003
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220230,
+    "name": "FAIR IS FOUL, AND FOUL IS FAIR",
+    "description": "<color=#FF9314>陽属性</color>のアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 220230,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22023001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70022004
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220240,
+    "name": "北天のアルビレオ",
+    "description": "<color=#33B4DF>凛属性</color>のアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 220240,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22024001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70022002
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220250,
+    "name": "シリウスは日々是好日で",
+    "description": "<color=#ff679d>憐属性</color>のアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 220250,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22025001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70022001
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220260,
+    "name": "マジカルガール☆ハロウィン",
+    "description": "<color=#7AC940>彩属性</color>のアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 220260,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22026001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70022003
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220270,
+    "name": "ギムレットにお別れを",
+    "description": "<color=#33B4DF>凛属性</color>のアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 220270,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22027001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70022002
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 220280,
+    "name": "人には言えないアタシの叫び",
+    "description": "<color=#FF9314>陽属性</color>のアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 220280,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22028001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70022004
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 229010,
+    "name": "初めての舞台",
+    "description": "<color=#7AC940>彩属性</color>のアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 229010,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22901001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70041003
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 229011,
+    "name": "演技力アップⅢ",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：<color=#7AC940>彩属性</color>のアクターが装備",
+    "posterMasterId": 229010,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22901101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10030003
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 229012,
+    "name": "初期ライフ上昇",
+    "description": "公演開始時、ライフが[:param11]上昇",
+    "posterMasterId": 229010,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22901201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11310000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 229020,
+    "name": "自分を信じて",
+    "description": "<color=#ff679d>憐属性</color>のアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 229020,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22902001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70041001
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 229021,
+    "name": "演技力アップⅢ",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：<color=#ff679d>憐属性</color>のアクターが装備",
+    "posterMasterId": 229020,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22902101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10030001
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 229022,
+    "name": "初期ライフ上昇",
+    "description": "公演開始時、ライフが[:param11]上昇",
+    "posterMasterId": 229020,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22902201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11310000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 229030,
+    "name": "ロミオとジュリエット",
+    "description": "<color=#FF9314>陽属性</color>のアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 229030,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22903001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70041004
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 229031,
+    "name": "演技力アップⅢ",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：<color=#FF9314>陽属性</color>のアクターが装備",
+    "posterMasterId": 229030,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22903101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10030004
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 229032,
+    "name": "初期ライフ上昇",
+    "description": "公演開始時、ライフが[:param11]上昇",
+    "posterMasterId": 229030,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22903201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11310000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 229040,
+    "name": "きっとふたりで",
+    "description": "<color=#33B4DF>凛属性</color>のアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 229040,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22904001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70041002
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 229041,
+    "name": "演技力アップⅢ",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：<color=#33B4DF>凛属性</color>のアクターが装備",
+    "posterMasterId": 229040,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22904101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10030002
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 229042,
+    "name": "初期ライフ上昇",
+    "description": "公演開始時、ライフが[:param11]上昇",
+    "posterMasterId": 229040,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22904201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11310000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 229050,
+    "name": "The Phantom of the Opera",
+    "description": "シリウスに所属するアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 229050,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22905001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70041100
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 229051,
+    "name": "演技力アップⅢ",
+    "description": "自身の集中力が[:param11]%上昇　◆発動条件：シリウスに所属するアクターが装備",
+    "posterMasterId": 229050,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22905101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10030100
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 229052,
+    "name": "報酬量アップ",
+    "description": "公演と協力公演の公演報酬が[:param11]%増加（アクセサリーを除く）",
+    "posterMasterId": 229050,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22905201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 12510000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230000,
+    "name": "ワールドダイスター",
+    "description": "全アクターの演技力が[:param11]%上昇",
+    "posterMasterId": 230000,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23000001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70042000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230001,
+    "name": "演技力アップⅢ",
+    "description": "自身の演技力が[:param11]%上昇",
+    "posterMasterId": 230000,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23000101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10030000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230002,
+    "name": "「光」獲得数増加",
+    "description": "センスで付与する「光」の付与数が[:param11]個増加",
+    "posterMasterId": 230000,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23000201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11810000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230003,
+    "name": "CTダウンⅡ",
+    "description": "自身のセンスのCTを[:param11]秒短縮",
+    "posterMasterId": 230000,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 10,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23000301,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 12410000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230010,
+    "name": "私だけのお人形",
+    "description": "シリウスに所属するアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 230010,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23001001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70052100
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230011,
+    "name": "演技力アップⅢ",
+    "description": "自身の演技力が[:param11]%上昇",
+    "posterMasterId": 230010,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23001101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10030000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230012,
+    "name": "演技力アップ＋",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：シリウスに所属するアクターが装備",
+    "posterMasterId": 230010,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23001201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10011100
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230013,
+    "name": "初期P.ゲージ上昇",
+    "description": "公演開始時、P.ゲージが[:param11]上昇　◆発動条件：シリウスに所属するアクターが装備",
+    "posterMasterId": 230010,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23001301,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11510100
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230020,
+    "name": "好きな方を選ぶがいい",
+    "description": "Edenに所属するアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 230020,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23002001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70052200
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230021,
+    "name": "演技力アップⅢ",
+    "description": "自身の演技力が[:param11]%上昇",
+    "posterMasterId": 230020,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23002101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10030000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230022,
+    "name": "演技力アップ＋",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：Edenに所属するアクターが装備",
+    "posterMasterId": 230020,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23002201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10011200
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230023,
+    "name": "初期P.ゲージ上昇",
+    "description": "公演開始時、P.ゲージが[:param11]上昇　◆発動条件：Edenに所属するアクターが装備",
+    "posterMasterId": 230020,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23002301,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11510200
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230030,
+    "name": "智将の計略・火計",
+    "description": "銀河座に所属するアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 230030,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23003001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70052300
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230031,
+    "name": "演技力アップⅢ",
+    "description": "自身の演技力が[:param11]%上昇",
+    "posterMasterId": 230030,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23003101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10030000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230032,
+    "name": "演技力アップ＋",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：銀河座に所属するアクターが装備",
+    "posterMasterId": 230030,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23003201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10011300
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230033,
+    "name": "初期P.ゲージ上昇",
+    "description": "公演開始時、P.ゲージが[:param11]上昇　◆発動条件：銀河座に所属するアクターが装備",
+    "posterMasterId": 230030,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23003301,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11510300
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230040,
+    "name": "明智はここにおります",
+    "description": "劇団電姫に所属するアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 230040,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23004001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70052400
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230041,
+    "name": "演技力アップⅢ",
+    "description": "自身の演技力が[:param11]%上昇",
+    "posterMasterId": 230040,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23004101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10030000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230042,
+    "name": "演技力アップ＋",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：劇団電姫に所属するアクターが装備",
+    "posterMasterId": 230040,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23004201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10011400
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230043,
+    "name": "初期P.ゲージ上昇",
+    "description": "公演開始時、P.ゲージが[:param11]上昇　◆発動条件：劇団電姫に所属するアクターが装備",
+    "posterMasterId": 230040,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23004301,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11510400
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230050,
+    "name": "ちびっこチームワーク",
+    "description": "<color=#ff679d>憐属性</color>のアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 230050,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23005001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70052001
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230051,
+    "name": "演技力アップⅢ",
+    "description": "自身の演技力が[:param11]%上昇",
+    "posterMasterId": 230050,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23005101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10030000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230052,
+    "name": "演技力アップ＋",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：<color=#ff679d>憐属性</color>のアクターが装備",
+    "posterMasterId": 230050,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23005201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10011001
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230053,
+    "name": "P.ゲージ獲得量アップ",
+    "description": "センスによるP.ゲージの獲得量が[:param11]%UP　◆発動条件：<color=#ff679d>憐属性</color>のアクターが装備",
+    "posterMasterId": 230050,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23005301,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11610001
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230060,
+    "name": "覚醒シンデレラ",
+    "description": "<color=#33B4DF>凛属性</color>のアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 230060,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23006001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70052002
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230061,
+    "name": "演技力アップⅢ",
+    "description": "自身の演技力が[:param11]%上昇",
+    "posterMasterId": 230060,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23006101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10030000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230062,
+    "name": "演技力アップ＋",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：<color=#33B4DF>凛属性</color>のアクターが装備",
+    "posterMasterId": 230060,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23006201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10011002
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230063,
+    "name": "P.ゲージ獲得量アップ",
+    "description": "センスによるP.ゲージの獲得量が[:param11]%UP　◆発動条件：<color=#33B4DF>凛属性</color>のアクターが装備",
+    "posterMasterId": 230060,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23006301,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11610002
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230070,
+    "name": "オールイン！",
+    "description": "<color=#7AC940>彩属性</color>のアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 230070,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23007001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70052003
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230071,
+    "name": "演技力アップⅢ",
+    "description": "自身の演技力が[:param11]%上昇",
+    "posterMasterId": 230070,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23007101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10030000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230072,
+    "name": "演技力アップ＋",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：<color=#7AC940>彩属性</color>のアクターが装備",
+    "posterMasterId": 230070,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23007201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10011003
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230073,
+    "name": "P.ゲージ獲得量アップ",
+    "description": "センスによるP.ゲージの獲得量が[:param11]%UP　◆発動条件：<color=#7AC940>彩属性</color>のアクターが装備",
+    "posterMasterId": 230070,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23007301,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11610003
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230080,
+    "name": "両手に花",
+    "description": "<color=#FF9314>陽属性</color>のアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 230080,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23008001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70052004
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230081,
+    "name": "演技力アップⅢ",
+    "description": "自身の演技力が[:param11]%上昇",
+    "posterMasterId": 230080,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23008101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10030000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230082,
+    "name": "演技力アップ＋",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：<color=#FF9314>陽属性</color>のアクターが装備",
+    "posterMasterId": 230080,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23008201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10011004
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230083,
+    "name": "P.ゲージ獲得量アップ",
+    "description": "センスによるP.ゲージの獲得量が[:param11]%UP　◆発動条件：<color=#FF9314>陽属性</color>のアクターが装備",
+    "posterMasterId": 230080,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23008301,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11610004
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230090,
+    "name": "シリウスの輝きのように",
+    "description": "シリウスに所属するアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 230090,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23009001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70042100
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230091,
+    "name": "演技力アップⅢ",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：シリウスに所属するアクターが装備",
+    "posterMasterId": 230090,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23009101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10030100
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230092,
+    "name": "スコアブースト・歌唱力",
+    "description": "センス発動直後、自身の歌唱力の[:param11]倍のスコアを獲得　◆発動条件：シリウスに所属するアクターが装備",
+    "posterMasterId": 230090,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23009201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10910100
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230093,
+    "name": "歌唱力アップ・純星",
+    "description": "編成されている属性数が少ないほど自身の歌唱力が上昇（1属性：[:param11]%／2属性：[:param21]%／3属性：[:param31]%／4属性：[:param41]%）　　◆発動条件：シリウスに所属するアクターが装備",
+    "posterMasterId": 230090,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 9,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23009301,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10511100
+          }
+        ],
+        "judgeType1": 3,
+        "parameter1": 1
+      },
+      {
+        "id": 23009302,
+        "order": 2,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10512100
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 2
+      },
+      {
+        "id": 23009303,
+        "order": 3,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10513100
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 3
+      },
+      {
+        "id": 23009304,
+        "order": 4,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10514100
+          }
+        ],
+        "judgeType1": 2,
+        "parameter1": 4
+      }
+    ],
+    "branchConditionType1": "AttributeCount",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230094,
+    "name": "悠久の青星",
+    "description": "公演開始時、ライフが2000上昇　◆発動条件：シリウスに所属するアクターが装備",
+    "posterMasterId": 230090,
+    "type": "Normal",
+    "frameNumber": 4,
+    "releaseLevelAt": 10,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23009401,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 60000100
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230100,
+    "name": "Faith in Expression",
+    "description": "Edenに所属するアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 230100,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23010001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70042200
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230101,
+    "name": "演技力アップⅢ",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：Edenに所属するアクターが装備",
+    "posterMasterId": 230100,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23010101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10030200
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230102,
+    "name": "スコアブースト・表現力",
+    "description": "センス発動直後、自身の表現力の[:param11]倍のスコアを獲得　◆発動条件：Edenに所属するアクターが装備",
+    "posterMasterId": 230100,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23010201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11010200
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230103,
+    "name": "表現力アップ・純星",
+    "description": "編成されている属性数が少ないほど自身の表現力が上昇（1属性：[:param11]%／2属性：[:param21]%／3属性：[:param31]%／4属性：[:param41]%）　　◆発動条件：Edenに所属するアクターが装備",
+    "posterMasterId": 230100,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 9,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23010301,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10611200
+          }
+        ],
+        "judgeType1": 3,
+        "parameter1": 1
+      },
+      {
+        "id": 23010302,
+        "order": 2,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10612200
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 2
+      },
+      {
+        "id": 23010303,
+        "order": 3,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10613200
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 3
+      },
+      {
+        "id": 23010304,
+        "order": 4,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10614200
+          }
+        ],
+        "judgeType1": 2,
+        "parameter1": 4
+      }
+    ],
+    "branchConditionType1": "AttributeCount",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230104,
+    "name": "不屈の楽園",
+    "description": "公演開始時、ライフを999減少　◆発動条件：Edenに所属するアクターが装備",
+    "posterMasterId": 230100,
+    "type": "Normal",
+    "frameNumber": 4,
+    "releaseLevelAt": 10,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23010401,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 60000200
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230105,
+    "name": "堅持の楽園",
+    "description": "公演開始時、ライフガード（10回）を付与　◆発動条件：Edenに所属するアクターが装備",
+    "posterMasterId": 230100,
+    "type": "Normal",
+    "frameNumber": 5,
+    "releaseLevelAt": 10,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23010501,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 60000201
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230110,
+    "name": "プラネタリウム・レヴュー",
+    "description": "銀河座に所属するアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 230110,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23011001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70042300
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230111,
+    "name": "演技力アップⅢ",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：銀河座に所属するアクターが装備",
+    "posterMasterId": 230110,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23011101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10030300
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230112,
+    "name": "スコアブースト・集中力",
+    "description": "センス発動直後、自身の集中力の[:param11]倍のスコアを獲得　◆発動条件：銀河座に所属するアクターが装備",
+    "posterMasterId": 230110,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23011201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11110300
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230113,
+    "name": "集中力アップ・純星",
+    "description": "編成されている属性数が少ないほど自身の集中力が上昇（1属性：[:param11]%／2属性：[:param21]%／3属性：[:param31]%／4属性：[:param41]%）　　◆発動条件：銀河座に所属するアクターが装備",
+    "posterMasterId": 230110,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 9,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23011301,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10711300
+          }
+        ],
+        "judgeType1": 3,
+        "parameter1": 1
+      },
+      {
+        "id": 23011302,
+        "order": 2,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10712300
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 2
+      },
+      {
+        "id": 23011303,
+        "order": 3,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10713300
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 3
+      },
+      {
+        "id": 23011304,
+        "order": 4,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10714300
+          }
+        ],
+        "judgeType1": 2,
+        "parameter1": 4
+      }
+    ],
+    "branchConditionType1": "AttributeCount",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230114,
+    "name": "名門の流儀",
+    "description": "プリンシパルゲージの上限を1000上昇　◆発動条件：銀河座に所属するアクターが装備",
+    "posterMasterId": 230110,
+    "type": "Normal",
+    "frameNumber": 4,
+    "releaseLevelAt": 10,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23011401,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 60000300
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230120,
+    "name": "デアエ・エクス・マキナ！",
+    "description": "劇団電姫に所属するアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 230120,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23012001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70042400
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230121,
+    "name": "演技力アップⅢ",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：劇団電姫に所属するアクターが装備",
+    "posterMasterId": 230120,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23012101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10030400
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230122,
+    "name": "初期P.ゲージ上昇＋",
+    "description": "公演開始時、P.ゲージが[:param11]上昇　◆発動条件：劇団電姫に所属するアクターが装備",
+    "posterMasterId": 230120,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23012201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11511400
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230123,
+    "name": "演技力アップ・純星",
+    "description": "編成されている属性数が少ないほど自身の演技力が上昇（1属性：[:param11]%／2属性：[:param21]%／3属性：[:param31]%／4属性：[:param41]%）　　◆発動条件：劇団電姫に所属するアクターが装備",
+    "posterMasterId": 230120,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 9,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23012301,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10411400
+          }
+        ],
+        "judgeType1": 3,
+        "parameter1": 1
+      },
+      {
+        "id": 23012302,
+        "order": 2,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10412400
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 2
+      },
+      {
+        "id": 23012303,
+        "order": 3,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10413400
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 3
+      },
+      {
+        "id": 23012304,
+        "order": 4,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10414400
+          }
+        ],
+        "judgeType1": 2,
+        "parameter1": 4
+      }
+    ],
+    "branchConditionType1": "AttributeCount",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230124,
+    "name": "2.5次元舞台",
+    "description": "センスを発動しなくなるが、自身の演技力が2倍　◆発動条件：劇団電姫に所属するアクターが装備",
+    "posterMasterId": 230120,
+    "type": "Normal",
+    "frameNumber": 4,
+    "releaseLevelAt": 10,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23012401,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 60000400
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230130,
+    "name": "泡沫の夢",
+    "description": "シリウスに所属するアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 230130,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23013001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70052100
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230131,
+    "name": "集中力アップⅢ＋",
+    "description": "自身の集中力が[:param11]%上昇",
+    "posterMasterId": 230130,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23013101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10331000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230132,
+    "name": "スコアブースト・集中力Ⅱ＋",
+    "description": "センス発動直後、自身の集中力の[:param11]倍のスコアを獲得　◆発動条件：シリウスに所属するアクターが装備",
+    "posterMasterId": 230130,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23013201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11121100
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230133,
+    "name": "CTダウンⅢ(専用)",
+    "description": "自身のセンスのCTを[:param11]秒短縮　◆発動条件：<color=#FF9314>陽属性</color>のカトリナが装備",
+    "posterMasterId": 230130,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23013301,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 12734103
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230140,
+    "name": "私の可愛いラプンツェル",
+    "description": "Edenに所属するアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 230140,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23014001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70052200
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230141,
+    "name": "演技力アップⅢ",
+    "description": "自身の演技力が[:param11]%上昇",
+    "posterMasterId": 230140,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23014101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10030000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230142,
+    "name": "表現力アップⅡ",
+    "description": "自身の表現力が[:param11]%上昇　◆発動条件：Edenに所属するアクターが装備",
+    "posterMasterId": 230140,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23014201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10220200
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230143,
+    "name": "スコアブースト・表現力Ⅱ",
+    "description": "センス発動直後、自身の表現力の[:param11]倍のスコアを獲得　◆発動条件：Edenに所属するアクターが装備",
+    "posterMasterId": 230140,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23014301,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11020200
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230150,
+    "name": "私の隠しごと",
+    "description": "劇団電姫に所属するアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 230150,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23015001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70054400
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230151,
+    "name": "初期P.ゲージ上昇＋",
+    "description": "公演開始時、P.ゲージが[:param11]上昇　◆発動条件：劇団電姫に所属するアクターが装備",
+    "posterMasterId": 230150,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23015101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11511400
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230152,
+    "name": "「光」追加（増幅）Ⅱ",
+    "description": "公演開始時、増幅系の光「<color=#ffd700>*</color>」を[:param11]個付与（効果は公演開始時1回のみ発動する）　◆発動条件：劇団電姫に所属するアクターが装備",
+    "posterMasterId": 230150,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23015201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 12220400
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230153,
+    "name": "「光」追加（特殊）Ⅱ",
+    "description": "公演開始時、特殊系の光「<color=#0000ff>*</color>」を[:param11]個付与（効果は公演開始時1回のみ発動する）　◆発動条件：劇団電姫に所属するアクターが装備",
+    "posterMasterId": 230150,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23015301,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 12320400
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230160,
+    "name": "四姉妹の絆",
+    "description": "シリウスに所属するアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 230160,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23016001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70052100
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230161,
+    "name": "演技力アップⅢ",
+    "description": "自身の演技力が[:param11]%上昇",
+    "posterMasterId": 230160,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23016101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10030000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230162,
+    "name": "歌唱力アップⅡ",
+    "description": "自身の歌唱力が[:param11]%上昇　◆発動条件：シリウスに所属するアクターが装備",
+    "posterMasterId": 230160,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23016201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10120100
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230163,
+    "name": "スコアブースト・歌唱力Ⅱ",
+    "description": "センス発動直後、自身の歌唱力の[:param11]倍のスコアを獲得　◆発動条件：シリウスに所属するアクターが装備",
+    "posterMasterId": 230160,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23016301,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10920100
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230170,
+    "name": "百鬼夜行の宴",
+    "description": "銀河座に所属するアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 230170,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23017001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70052300
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230171,
+    "name": "演技力アップⅢ",
+    "description": "自身の演技力が[:param11]%上昇",
+    "posterMasterId": 230170,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23017101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10030000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230172,
+    "name": "演技力アップ＋",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：銀河座に所属するアクターが装備",
+    "posterMasterId": 230170,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23017201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10011300
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230173,
+    "name": "「光」追加（支配）",
+    "description": "公演開始時、支配系の光「<color=#ff0000>*</color>」を[:param11]個付与（効果は公演開始時1回のみ発動する）　◆発動条件：銀河座に所属するアクターが装備",
+    "posterMasterId": 230170,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23017301,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 12110300
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230190,
+    "name": "誇り高く生きてみせる",
+    "description": "<color=#ff679d>憐属性</color>アクターの演技力が[:param11]%上昇",
+    "posterMasterId": 230190,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23019001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70052001
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230191,
+    "name": "集中力アップⅢ＋",
+    "description": "自身の集中力が[:param11]%上昇",
+    "posterMasterId": 230190,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23019101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10331000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230192,
+    "name": "スコアブースト・集中力Ⅲ",
+    "description": "センス発動直後、自身の集中力の[:param11]倍のスコアを獲得　◆発動条件：<color=#ff679d>憐属性</color>のアクターが装備",
+    "posterMasterId": 230190,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23019201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11130001
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230200,
+    "name": "真の友情を見せる時！？",
+    "description": "<color=#7AC940>彩属性</color>のアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 230200,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23020001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70052003
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230201,
+    "name": "表現力アップⅢ＋",
+    "description": "自身の表現力が[:param11]%上昇",
+    "posterMasterId": 230200,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23020101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10231000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230202,
+    "name": "スコアブースト・表現力Ⅲ",
+    "description": "センス発動直後、自身の表現力の[:param11]倍のスコアを獲得　◆発動条件：<color=#7AC940>彩属性</color>のアクターが装備",
+    "posterMasterId": 230200,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23020201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11030003
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230210,
+    "name": "魔女が告げる波乱の運命",
+    "description": "全アクターの演技力が[:param11]%上昇",
+    "posterMasterId": 230210,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23021001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70050000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230211,
+    "name": "マクベスの葛藤",
+    "description": "銀河座に所属しているアクターのみで編成している場合、追加で全アクターの集中力が[:param11]％上昇",
+    "posterMasterId": 230210,
+    "type": "Leader",
+    "frameNumber": 2,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23021101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 73052300
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 5
+      },
+      {
+        "id": 23021102,
+        "order": 2,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 99999999
+          },
+          {
+            "order": 2,
+            "effectMasterId": 99999999
+          },
+          {
+            "order": 3,
+            "effectMasterId": 99999999
+          }
+        ],
+        "judgeType1": 3,
+        "parameter1": 4
+      }
+    ],
+    "branchConditionType1": "CompanyMemberCount",
+    "conditionValue1": 3,
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230212,
+    "name": "マクベス夫人の狂気",
+    "description": "Edenに所属しているアクターのみで編成している場合、追加で全アクターの表現力が[:param11]％上昇",
+    "posterMasterId": 230210,
+    "type": "Leader",
+    "frameNumber": 3,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23021201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 72052200
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 5
+      },
+      {
+        "id": 23021202,
+        "order": 2,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 99999999
+          },
+          {
+            "order": 2,
+            "effectMasterId": 99999999
+          },
+          {
+            "order": 3,
+            "effectMasterId": 99999999
+          }
+        ],
+        "judgeType1": 3,
+        "parameter1": 4
+      }
+    ],
+    "branchConditionType1": "CompanyMemberCount",
+    "conditionValue1": 2,
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230220,
+    "name": "とある姉妹の別れ",
+    "description": "<color=#33B4DF>凛属性</color>のアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 230220,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23022001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70052002
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230230,
+    "name": "決闘は突然のこと",
+    "description": "シリウスに所属するアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 230230,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23023001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70052100
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230250,
+    "name": "５人みんなで力を合わせて",
+    "description": "劇団電姫に所属するアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 230250,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23025001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70052400
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230260,
+    "name": "ギムレットには早すぎる",
+    "description": "銀河座に所属するアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 230260,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23026001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70052300
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230270,
+    "name": "夢のステラリウム",
+    "description": "全アクターの演技力が[:param11]％上昇",
+    "posterMasterId": 230270,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23027001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70031000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230280,
+    "name": "百年のおやすみなさい",
+    "description": "<color=#FF9314>陽属性</color>のアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 230280,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23028001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70052004
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2202301,
+    "name": "演技力アップ＋",
+    "description": "自身の演技力が[:param11]％上昇　◆発動条件：<color=#FF9314>陽属性</color>のアクターが装備",
+    "posterMasterId": 220230,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 220230101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10011004
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2202302,
+    "name": "初期ライフ上昇＋",
+    "description": "公演開始時、ライフが[:param11]上昇　◆発動条件：<color=#FF9314>陽属性</color>のアクターが装備",
+    "posterMasterId": 220230,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 220230201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11311004
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2202401,
+    "name": "演技力アップ＋",
+    "description": "自身の演技力が[:param11]％上昇　◆発動条件：<color=#33B4DF>凛属性</color>のアクターが装備",
+    "posterMasterId": 220240,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 220240101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10011002
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2202402,
+    "name": "初期ライフ上昇＋",
+    "description": "公演開始時、ライフが[:param11]上昇　◆発動条件：<color=#33B4DF>凛属性</color>のアクターが装備",
+    "posterMasterId": 220240,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 220240201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11311002
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2202501,
+    "name": "演技力アップ",
+    "description": "自身の演技力が[:param11]％上昇　◆発動条件：<color=#ff679d>憐属性</color>のアクターが装備",
+    "posterMasterId": 220250,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 220250101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10010001
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2202502,
+    "name": "スコアブースト・表現力",
+    "description": "センス発動直後、自身の表現力の[:param11]倍のスコアを獲得　◆発動条件：<color=#ff679d>憐属性</color>のアクターが装備",
+    "posterMasterId": 220250,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 220250201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11010001
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2202601,
+    "name": "演技力アップ",
+    "description": "自身の演技力が[:param11]％上昇　◆発動条件：<color=#7AC940>彩属性</color>のアクターが装備",
+    "posterMasterId": 220260,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 220260101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10010003
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2202602,
+    "name": "スコアブースト・歌唱力",
+    "description": "センス発動直後、自身の歌唱力の[:param11]倍のスコアを獲得　◆発動条件：<color=#7AC940>彩属性</color>のアクターが装備",
+    "posterMasterId": 220260,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 220260201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10910003
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2202701,
+    "name": "演技力アップ",
+    "description": "自身の演技力が[:param11]％上昇　◆発動条件：<color=#33B4DF>凛属性</color>のアクターが装備",
+    "posterMasterId": 220270,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 220270101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10010002
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2202702,
+    "name": "スコアブースト・集中力",
+    "description": "センス発動直後、自身の集中力の[:param11]倍のスコアを獲得　◆発動条件：<color=#33B4DF>凛属性</color>のアクターが装備",
+    "posterMasterId": 220270,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 220270201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11110002
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2202801,
+    "name": "演技力アップ",
+    "description": "自身の演技力が[:param11]％上昇　◆発動条件：<color=#FF9314>陽属性</color>のアクターが装備",
+    "posterMasterId": 220280,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 220280101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10010004
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2202802,
+    "name": "スコアブースト・表現力",
+    "description": "センス発動直後、自身の表現力の[:param11]倍のスコアを獲得　◆発動条件：<color=#FF9314>陽属性</color>のアクターが装備",
+    "posterMasterId": 220280,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 220280201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11010004
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2302101,
+    "name": "演技力アップⅡ＋",
+    "description": "自身の演技力が[:param11]％上昇",
+    "posterMasterId": 230210,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 230210101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10021000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2302102,
+    "name": "「光」獲得数増加",
+    "description": "センスで付与する「光」の付与数が[:param11]個増加　◆発動条件：銀河座に所属するアクターが装備",
+    "posterMasterId": 230210,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 230210201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11810300
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2302103,
+    "name": "「光」追加（特殊）",
+    "description": "公演開始時、特殊系の光「<color=#0000ff>*</color>」を[:param11]付与（効果は公演開始時1回のみ発動する）　◆発動条件：暦が装備",
+    "posterMasterId": 230210,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 230210301,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 12310301
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2302104,
+    "name": "「光」獲得数増加",
+    "description": "センスで付与する「光」の付与数が[:param11]個増加　◆発動条件：Edenに所属するアクターが装備",
+    "posterMasterId": 230210,
+    "type": "Normal",
+    "frameNumber": 4,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 230210401,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11810200
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2302105,
+    "name": "「光」追加（支援）",
+    "description": "公演開始時、支援系の光「<color=#228b22>*</color>」を[:param11]付与（効果は公演開始時1回のみ発動する）　◆発動条件：初魅が装備",
+    "posterMasterId": 230210,
+    "type": "Normal",
+    "frameNumber": 5,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 230210501,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 12010201
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2302201,
+    "name": "歌唱力アップⅢ＋",
+    "description": "自身の歌唱力が[:param11]％上昇",
+    "posterMasterId": 230220,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 230220101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10131000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2302202,
+    "name": "スコアブースト・歌唱力Ⅲ",
+    "description": "センス発動直後、自身の歌唱力の[:param11]倍のスコアを獲得　◆発動条件：<color=#33B4DF>凛属性</color>のアクターが装備",
+    "posterMasterId": 230220,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 230220201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10930002
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2302301,
+    "name": "演技力アップⅢ",
+    "description": "自身の演技力が[:param11]％上昇",
+    "posterMasterId": 230230,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 230230101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10030000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2302302,
+    "name": "初期P.ゲージ上昇",
+    "description": "公演開始時、P.ゲージが[:param11]上昇　◆発動条件：シリウスに所属するアクターが装備",
+    "posterMasterId": 230230,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 230230201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11510100
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2302303,
+    "name": "「光」追加（特殊）Ⅱ",
+    "description": "公演開始時、特殊系の光「<color=#0000ff>*</color>」を[:param11]付与（効果は公演開始時1回のみ発動する）　◆発動条件：シリウスに所属するアクターが装備",
+    "posterMasterId": 230230,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 230230301,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 12320100
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2302501,
+    "name": "演技力アップⅢ",
+    "description": "自身の演技力が[:param11]%上昇",
+    "posterMasterId": 230250,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 230250101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10030000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2302502,
+    "name": "歌唱力アップⅡ",
+    "description": "自身の歌唱力が[:param11]%上昇　◆発動条件：劇団電姫に所属するアクターが装備",
+    "posterMasterId": 230250,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 230250201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10120400
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2302503,
+    "name": "スコアブースト・歌唱力Ⅱ",
+    "description": "センス発動直後、自身の歌唱力の[:param11]倍のスコアを獲得　◆発動条件：劇団電姫に所属するアクターが装備",
+    "posterMasterId": 230250,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 230250301,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10920400
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2302601,
+    "name": "演技力アップⅢ",
+    "description": "自身の演技力が[:param11]％上昇",
+    "posterMasterId": 230260,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 230260101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10030000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2302602,
+    "name": "集中力アップⅡ",
+    "description": "自身の集中力が[:param11]%上昇　◆発動条件：銀河座に所属するアクターが装備",
+    "posterMasterId": 230260,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 230260201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10320300
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2302603,
+    "name": "スコアブースト・集中力Ⅱ",
+    "description": "センス発動直後、自身の集中力の[:param11]倍のスコアを獲得　◆発動条件：銀河座に所属するアクターが装備",
+    "posterMasterId": 230260,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 230260301,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11120300
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2302701,
+    "name": "演技力アップⅡ",
+    "description": "自身の演技力が[:param11]％上昇",
+    "posterMasterId": 230270,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 230270101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10020000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2302702,
+    "name": "初期ライフ上昇Ⅱ",
+    "description": "公演開始時、ライフが[:param11]上昇",
+    "posterMasterId": 230270,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 230270201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11320000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2302801,
+    "name": "集中力アップⅢ＋",
+    "description": "自身の集中力が[:param11]％上昇",
+    "posterMasterId": 230280,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 230280101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10331000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2302802,
+    "name": "スコアブースト・集中力Ⅲ",
+    "description": "センス発動直後、自身の集中力の[:param11]倍のスコアを獲得　◆発動条件：<color=#FF9314>陽属性</color>のアクターが装備",
+    "posterMasterId": 230280,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 230280201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11130004
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  }
+]

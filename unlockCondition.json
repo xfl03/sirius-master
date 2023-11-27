@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "conditionText": "スターランク[:param]以上で解放",
+    "conditionUsableTableFilter": "DisplayRestriction",
+    "unlockConditionType": "CharacterStarRank"
+  },
+  {
+    "id": 2,
+    "conditionText": "ストーリー「[:param]」を読むと解放",
+    "conditionUsableTableFilter": 21,
+    "unlockConditionType": "Story"
+  },
+  {
+    "id": 3,
+    "conditionText": "ポスター「[:param]」を獲得すると解放",
+    "conditionUsableTableFilter": "Costume",
+    "unlockConditionType": "GetPoster"
+  },
+  {
+    "id": 4,
+    "conditionText": "ポスター「[:param]」を1回上限解放すると解放",
+    "conditionUsableTableFilter": "Costume",
+    "unlockConditionType": "ReleasePoster1"
+  },
+  {
+    "id": 5,
+    "conditionText": "ポスター「[:param]」を2回上限解放すると解放",
+    "conditionUsableTableFilter": "Costume",
+    "unlockConditionType": "ReleasePoster2"
+  },
+  {
+    "id": 6,
+    "conditionText": "ポスター「[:param]」を3回上限解放すると解放",
+    "conditionUsableTableFilter": "Costume",
+    "unlockConditionType": "ReleasePoster3"
+  },
+  {
+    "id": 7,
+    "conditionText": "ポスター「[:param]」を4回上限解放すると解放",
+    "conditionUsableTableFilter": "Costume",
+    "unlockConditionType": "ReleasePoster4"
+  },
+  {
+    "id": 8,
+    "conditionText": "プレイヤーレート[:param]以上で解放",
+    "conditionUsableTableFilter": "JewelShop",
+    "unlockConditionType": "PlayerRate"
+  },
+  {
+    "id": 9,
+    "conditionText": "演劇リーグで特定のクラスに到達すると解放",
+    "conditionUsableTableFilter": "JewelShop",
+    "unlockConditionType": "LeagueClass"
+  },
+  {
+    "id": 10,
+    "conditionText": "特定のアイテムを購入すると解放",
+    "conditionUsableTableFilter": "JewelShop",
+    "unlockConditionType": "BuyItem"
+  },
+  {
+    "id": 11,
+    "conditionText": "いずれかのメインストーリー[:param]章を読むと解放",
+    "conditionUsableTableFilter": "JewelShop",
+    "unlockConditionType": "AnyMainStoryChapter"
+  },
+  {
+    "id": 12,
+    "conditionText": "オーディションのStage.[:param]をクリアすると解放",
+    "conditionUsableTableFilter": "MusicShop",
+    "unlockConditionType": "AuditionClear"
+  },
+  {
+    "id": 13,
+    "conditionText": "難易度EXTRAでGOOD以下が[:param]個以下で解放",
+    "conditionUsableTableFilter": "Music",
+    "unlockConditionType": "ExtraGoodCount"
+  },
+  {
+    "id": 14,
+    "conditionText": "譜面ショップで購入",
+    "conditionUsableTableFilter": "Music",
+    "unlockConditionType": "NotationShop"
+  },
+  {
+    "id": 15,
+    "conditionText": "ジュエルショップにて特定のアイテムを購入すると解放",
+    "conditionUsableTableFilter": "JewelShop",
+    "unlockConditionType": "BuyJewelShopItem"
+  },
+  {
+    "id": 16,
+    "conditionText": "ランク[:param]以上で解放",
+    "conditionUsableTableFilter": "JewelShop",
+    "unlockConditionType": "PlayerRank"
+  }
+]
