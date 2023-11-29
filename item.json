@@ -114,6 +114,19 @@
     "rarity": "R"
   },
   {
+    "id": 111007,
+    "name": "高級スタミナドリンク【～12月10日 17:00】",
+    "description": "美容にも欠かせない一級品のドリンク。スタミナを100回復する。2023年12月10日17時まで使用できる。",
+    "displayOrder": 7,
+    "displayEndDate": 1702227600.0,
+    "maxStock": 99999,
+    "category": "StaminaRecovery",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Normal",
+    "rarity": "R"
+  },
+  {
     "id": 120001,
     "name": "練習台本【初級】",
     "description": "新人の登竜門とされる演目が描かれた台本。アクターEXPが10上昇する。公演など様々な場所で入手できる。",
@@ -566,6 +579,19 @@
     "description": "人気アニメのキャラクターがプリントされたおまもり。電姫空間でシークレットアクセサリーが入手しやすくなる。2023年11月8日22時まで使用できる。",
     "displayOrder": 139004,
     "displayEndDate": 1699480800.0,
+    "maxStock": 1,
+    "category": "ConsumeItem",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Normal",
+    "rarity": "SSR"
+  },
+  {
+    "id": 139005,
+    "name": "劇団電姫のおまもり【～12月8日 22:00】",
+    "description": "人気アニメのキャラクターがプリントされたおまもり。電姫空間でシークレットアクセサリーが入手しやすくなる。2023年12月8日22時まで使用できる。",
+    "displayOrder": 139005,
+    "displayEndDate": 1702072800.0,
     "maxStock": 1,
     "category": "ConsumeItem",
     "consumable": false,
@@ -1486,6 +1512,18 @@
     "rarity": "SSR"
   },
   {
+    "id": 143034,
+    "name": "★3【その目をよく見せてくれ】連尺野初魅のピース",
+    "description": "★3【その目をよく見せてくれ】連尺野初魅の才能開花に使用できるアイテム。",
+    "displayOrder": 143034,
+    "maxStock": 99999,
+    "category": "TalentBloom",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Piece",
+    "rarity": "SSR"
+  },
+  {
     "id": 144001,
     "name": "★4【悲哀と恋慕の旋律】鳳ここなのピース",
     "description": "★4【悲哀と恋慕の旋律】鳳ここなの才能開花に使用できるアイテム。",
@@ -1966,6 +2004,30 @@
     "rarity": "SSR"
   },
   {
+    "id": 144042,
+    "name": "★4【囚われてなお渇望するもの】萬容のピース",
+    "description": "★4【囚われてなお渇望するもの】萬容の才能開花に使用できるアイテム。",
+    "displayOrder": 144042,
+    "maxStock": 99999,
+    "category": "TalentBloom",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Piece",
+    "rarity": "SSR"
+  },
+  {
+    "id": 144043,
+    "name": "★4【縛めを解いてくれた人と共に】烏森大黒のピース",
+    "description": "★4【縛めを解いてくれた人と共に】烏森大黒の才能開花に使用できるアイテム。",
+    "displayOrder": 144043,
+    "maxStock": 99999,
+    "category": "TalentBloom",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Piece",
+    "rarity": "SSR"
+  },
+  {
     "id": 210001,
     "name": "アクターガチャチケット",
     "description": "アクターガチャを引くことができるチケット。",
@@ -2354,6 +2416,19 @@
     "rarity": "R"
   },
   {
+    "id": 411016,
+    "name": "ガチャポイント",
+    "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
+    "displayOrder": 411016,
+    "displayEndDate": 1702227600.0,
+    "maxStock": 99999,
+    "category": "GachaPoint",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Hidden",
+    "rarity": "R"
+  },
+  {
     "id": 411017,
     "name": "ガチャポイント",
     "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
@@ -2549,6 +2624,19 @@
     "rarity": "R"
   },
   {
+    "id": 412015,
+    "name": "ガチャポイント",
+    "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
+    "displayOrder": 412015,
+    "displayEndDate": 1702227600.0,
+    "maxStock": 99999,
+    "category": "GachaPoint",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Hidden",
+    "rarity": "R"
+  },
+  {
     "id": 412016,
     "name": "ガチャポイント",
     "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
@@ -2706,6 +2794,18 @@
     "rarity": "R"
   },
   {
+    "id": 420013,
+    "name": "イベントポイント",
+    "description": "イベントの交換所から様々なアイテムと交換できる。",
+    "displayOrder": 420013,
+    "maxStock": 1999999999,
+    "category": "EventPoint",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Hidden",
+    "rarity": "R"
+  },
+  {
     "id": 432308,
     "name": "ミッションパスポイント【2023年8月】",
     "description": "公演ミッションの報酬獲得に必要なポイント",
@@ -2746,6 +2846,18 @@
     "name": "ミッションパスポイント【2023年11月】",
     "description": "公演ミッションの報酬獲得に必要なポイント",
     "displayOrder": 432311,
+    "maxStock": 9999999,
+    "category": "MissionPassPoint",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Hidden",
+    "rarity": "R"
+  },
+  {
+    "id": 432312,
+    "name": "ミッションパスポイント【2023年12月】",
+    "description": "公演ミッションの報酬獲得に必要なポイント",
+    "displayOrder": 432312,
     "maxStock": 9999999,
     "category": "MissionPassPoint",
     "consumable": false,

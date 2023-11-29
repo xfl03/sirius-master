@@ -1232,6 +1232,30 @@
     "coolTime": 60
   },
   {
+    "id": 130340,
+    "name": "その目をよく見せてくれ",
+    "description": "[:score]倍のスコアを獲得／ライフを[:param11]回復",
+    "type": "Support",
+    "preEffects": [],
+    "branches": [
+      {
+        "id": 1303401,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20013
+          }
+        ]
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 140,
+    "scoreUpPerLevel": 40,
+    "lightCount": 1,
+    "coolTime": 40
+  },
+  {
     "id": 140010,
     "name": "悲哀と恋慕の旋律",
     "description": "[:score]倍のスコアを獲得／ライフを[:param11]回復／ライフが多いほどここなのスコア獲得量UP（最大＋100％）",
@@ -1936,5 +1960,42 @@
     "scoreUpPerLevel": 50,
     "lightCount": 1,
     "coolTime": 40
+  },
+  {
+    "id": 140420,
+    "name": "囚われてなお渇望するもの",
+    "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／センス発動後、追加で[:param11]のプリンシパルゲージを獲得",
+    "type": "Special",
+    "preEffects": [],
+    "branches": [
+      {
+        "id": 1404201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20082
+          }
+        ]
+      }
+    ],
+    "acquirableGauge": 90,
+    "acquirableScorePercent": 170,
+    "scoreUpPerLevel": 50,
+    "lightCount": 1,
+    "coolTime": 40
+  },
+  {
+    "id": 140430,
+    "name": "縛めを解いてくれた人と共に",
+    "description": "[:score]倍のスコアを獲得",
+    "type": "Amplification",
+    "preEffects": [],
+    "branches": [],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 670,
+    "scoreUpPerLevel": 60,
+    "lightCount": 1,
+    "coolTime": 50
   }
 ]

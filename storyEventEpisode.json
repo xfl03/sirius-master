@@ -754,5 +754,68 @@
     "title": "叫びたいかも",
     "order": 8,
     "requiredReadEpisodeMasterId": 2001207
+  },
+  {
+    "id": 2001301,
+    "storyMasterId": 20013,
+    "requiredTotalAcquiredPoint": 0,
+    "title": "頼られるのは悪くない",
+    "order": 1
+  },
+  {
+    "id": 2001302,
+    "storyMasterId": 20013,
+    "requiredTotalAcquiredPoint": 2000,
+    "title": "思い出と今",
+    "order": 2,
+    "requiredReadEpisodeMasterId": 2001301
+  },
+  {
+    "id": 2001303,
+    "storyMasterId": 20013,
+    "requiredTotalAcquiredPoint": 4000,
+    "title": "手を伸ばしても届かない星",
+    "order": 3,
+    "requiredReadEpisodeMasterId": 2001302
+  },
+  {
+    "id": 2001304,
+    "storyMasterId": 20013,
+    "requiredTotalAcquiredPoint": 8000,
+    "title": "掴めなくても",
+    "order": 4,
+    "requiredReadEpisodeMasterId": 2001303
+  },
+  {
+    "id": 2001305,
+    "storyMasterId": 20013,
+    "requiredTotalAcquiredPoint": 16000,
+    "title": "手を伸ばすこと",
+    "order": 5,
+    "requiredReadEpisodeMasterId": 2001304
+  },
+  {
+    "id": 2001306,
+    "storyMasterId": 20013,
+    "requiredTotalAcquiredPoint": 32000,
+    "title": "羊飼いの月",
+    "order": 6,
+    "requiredReadEpisodeMasterId": 2001305
+  },
+  {
+    "id": 2001307,
+    "storyMasterId": 20013,
+    "requiredTotalAcquiredPoint": 64000,
+    "title": "間違っていても",
+    "order": 7,
+    "requiredReadEpisodeMasterId": 2001306
+  },
+  {
+    "id": 2001308,
+    "storyMasterId": 20013,
+    "requiredTotalAcquiredPoint": 128000,
+    "title": "らしくなくても",
+    "order": 8,
+    "requiredReadEpisodeMasterId": 2001307
   }
 ]
