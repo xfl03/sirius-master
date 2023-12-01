@@ -1,11 +1,11 @@
 [
-  [
-    10101,
-    [],
-    [
+  {
+    "storyMasterId": 10101,
+    "previousStoryMasterIds": [],
+    "nextStoryMasterIds": [
       10102
     ],
-    [
+    "sideStoryCharacterMasterIds": [
       110010,
       120010,
       140010,
@@ -13,233 +13,233 @@
       110040,
       110050
     ],
-    [
+    "relatedStoryMasterIds": [
       20003
     ]
-  ],
-  [
-    10102,
-    [
+  },
+  {
+    "storyMasterId": 10102,
+    "previousStoryMasterIds": [
       10101
     ],
-    [],
-    [
+    "nextStoryMasterIds": [],
+    "sideStoryCharacterMasterIds": [
       140020,
       140030,
       140040,
       140140
     ],
-    []
-  ],
-  [
-    10201,
-    [
+    "relatedStoryMasterIds": []
+  },
+  {
+    "storyMasterId": 10201,
+    "previousStoryMasterIds": [
       20001
     ],
-    [],
-    [
+    "nextStoryMasterIds": [],
+    "sideStoryCharacterMasterIds": [
       120070,
       110090,
       130100,
       140060
     ],
-    []
-  ],
-  [
-    10301,
-    [],
-    [
+    "relatedStoryMasterIds": []
+  },
+  {
+    "storyMasterId": 10301,
+    "previousStoryMasterIds": [],
+    "nextStoryMasterIds": [
       10302
     ],
-    [
+    "sideStoryCharacterMasterIds": [
       140100,
       140090,
       140280,
       130280
     ],
-    [
+    "relatedStoryMasterIds": [
       20007
     ]
-  ],
-  [
-    10302,
-    [
+  },
+  {
+    "storyMasterId": 10302,
+    "previousStoryMasterIds": [
       10301
     ],
-    [],
-    [
+    "nextStoryMasterIds": [],
+    "sideStoryCharacterMasterIds": [
       140330,
       140320
     ],
-    []
-  ],
-  [
-    10401,
-    [],
-    [],
-    [
+    "relatedStoryMasterIds": []
+  },
+  {
+    "storyMasterId": 10401,
+    "previousStoryMasterIds": [],
+    "nextStoryMasterIds": [],
+    "sideStoryCharacterMasterIds": [
       130170,
       140130,
       110190
     ],
-    []
-  ],
-  [
-    20001,
-    [],
-    [
+    "relatedStoryMasterIds": []
+  },
+  {
+    "storyMasterId": 20001,
+    "previousStoryMasterIds": [],
+    "nextStoryMasterIds": [
       10201
     ],
-    [
+    "sideStoryCharacterMasterIds": [
       140150,
       140160,
       130220
     ],
-    []
-  ],
-  [
-    20002,
-    [],
-    [],
-    [
+    "relatedStoryMasterIds": []
+  },
+  {
+    "storyMasterId": 20002,
+    "previousStoryMasterIds": [],
+    "nextStoryMasterIds": [],
+    "sideStoryCharacterMasterIds": [
       140170,
       140180,
       130230
     ],
-    []
-  ],
-  [
-    20003,
-    [
+    "relatedStoryMasterIds": []
+  },
+  {
+    "storyMasterId": 20003,
+    "previousStoryMasterIds": [
       10101
     ],
-    [],
-    [
+    "nextStoryMasterIds": [],
+    "sideStoryCharacterMasterIds": [
       140190,
       140200,
       130240
     ],
-    []
-  ],
-  [
-    20004,
-    [],
-    [],
-    [
+    "relatedStoryMasterIds": []
+  },
+  {
+    "storyMasterId": 20004,
+    "previousStoryMasterIds": [],
+    "nextStoryMasterIds": [],
+    "sideStoryCharacterMasterIds": [
       140210,
       140220,
       130250,
       120140
     ],
-    []
-  ],
-  [
-    20005,
-    [],
-    [],
-    [
+    "relatedStoryMasterIds": []
+  },
+  {
+    "storyMasterId": 20005,
+    "previousStoryMasterIds": [],
+    "nextStoryMasterIds": [],
+    "sideStoryCharacterMasterIds": [
       140240,
       140250,
       130260
     ],
-    []
-  ],
-  [
-    20006,
-    [],
-    [],
-    [
+    "relatedStoryMasterIds": []
+  },
+  {
+    "storyMasterId": 20006,
+    "previousStoryMasterIds": [],
+    "nextStoryMasterIds": [],
+    "sideStoryCharacterMasterIds": [
       140260,
       140270,
       130270
     ],
-    []
-  ],
-  [
-    20007,
-    [
+    "relatedStoryMasterIds": []
+  },
+  {
+    "storyMasterId": 20007,
+    "previousStoryMasterIds": [
       10301
     ],
-    [],
-    [
+    "nextStoryMasterIds": [],
+    "sideStoryCharacterMasterIds": [
       140280,
       140290,
       130280,
       120070
     ],
-    []
-  ],
-  [
-    20008,
-    [],
-    [],
-    [
+    "relatedStoryMasterIds": []
+  },
+  {
+    "storyMasterId": 20008,
+    "previousStoryMasterIds": [],
+    "nextStoryMasterIds": [],
+    "sideStoryCharacterMasterIds": [
       140300,
       140310,
       130290,
       130160
     ],
-    []
-  ],
-  [
-    20009,
-    [],
-    [],
-    [
+    "relatedStoryMasterIds": []
+  },
+  {
+    "storyMasterId": 20009,
+    "previousStoryMasterIds": [],
+    "nextStoryMasterIds": [],
+    "sideStoryCharacterMasterIds": [
       140340,
       140350,
       130300
     ],
-    [
+    "relatedStoryMasterIds": [
       10101
     ]
-  ],
-  [
-    20010,
-    [],
-    [],
-    [
+  },
+  {
+    "storyMasterId": 20010,
+    "previousStoryMasterIds": [],
+    "nextStoryMasterIds": [],
+    "sideStoryCharacterMasterIds": [
       140360,
       140370,
       130310,
       110150
     ],
-    []
-  ],
-  [
-    20011,
-    [],
-    [],
-    [
+    "relatedStoryMasterIds": []
+  },
+  {
+    "storyMasterId": 20011,
+    "previousStoryMasterIds": [],
+    "nextStoryMasterIds": [],
+    "sideStoryCharacterMasterIds": [
       140380,
       140390,
       130320
     ],
-    [
+    "relatedStoryMasterIds": [
       10302
     ]
-  ],
-  [
-    20012,
-    [],
-    [],
-    [
+  },
+  {
+    "storyMasterId": 20012,
+    "previousStoryMasterIds": [],
+    "nextStoryMasterIds": [],
+    "sideStoryCharacterMasterIds": [
       140400,
       140410,
       130330
     ],
-    []
-  ],
-  [
-    20013,
-    [],
-    [],
-    [
+    "relatedStoryMasterIds": []
+  },
+  {
+    "storyMasterId": 20013,
+    "previousStoryMasterIds": [],
+    "nextStoryMasterIds": [],
+    "sideStoryCharacterMasterIds": [
       140420,
       140430,
       130340,
       140060
     ],
-    []
-  ]
+    "relatedStoryMasterIds": []
+  }
 ]

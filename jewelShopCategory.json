@@ -4,34 +4,39 @@
     "name": "劇ジュエル",
     "layoutType": 30,
     "isDisplayLocking": 0,
-    "bannerPath": "img_common_tab_icon_jewel"
+    "bannerPath": "img_common_tab_icon_jewel",
+    "order": 5
   },
   {
     "id": 2,
     "name": "ログインパス",
     "layoutType": 10,
     "isDisplayLocking": 0,
-    "bannerPath": "img_common_tab_icon_login_pass"
+    "bannerPath": "img_common_tab_icon_login_pass",
+    "order": 4
   },
   {
     "id": 3,
     "name": "お得パス",
     "layoutType": 20,
     "isDisplayLocking": 0,
-    "bannerPath": "img_common_tab_icon_value_pass"
+    "bannerPath": "img_common_tab_icon_value_pass",
+    "order": 3
   },
   {
     "id": 4,
     "name": "お得パック",
     "layoutType": 30,
     "isDisplayLocking": 0,
-    "bannerPath": "img_common_tab_icon_value_pack"
+    "bannerPath": "img_common_tab_icon_value_pack",
+    "order": 2
   },
   {
     "id": 5,
     "name": "限定パック",
     "layoutType": 30,
     "isDisplayLocking": 1,
-    "bannerPath": "img_common_tab_icon_limited_pack"
+    "bannerPath": "img_common_tab_icon_limited_pack",
+    "order": 1
   }
 ]

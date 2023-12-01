@@ -559,7 +559,7 @@
     "description": "スポットストーリーを1回読もう",
     "startDate": 1672531200.0,
     "endDate": 4102444800.0,
-    "jumpType": 13,
+    "jumpType": "Spot",
     "stages": [
       {
         "id": 23,
@@ -4598,7 +4598,7 @@
     "description": "スポットストーリーを[:param]種類読もう",
     "startDate": 1672531200.0,
     "endDate": 4102444800.0,
-    "jumpType": 13,
+    "jumpType": "Spot",
     "stages": [
       {
         "id": 2901,
@@ -6623,7 +6623,7 @@
   },
   {
     "id": 100000,
-    "missionCategory": 4,
+    "missionCategory": "Daily",
     "missionViewOrder": 100000,
     "title": "",
     "description": "スタミナを[:param]消費しよう",
@@ -6648,7 +6648,7 @@
   },
   {
     "id": 100100,
-    "missionCategory": 4,
+    "missionCategory": "Daily",
     "missionViewOrder": 100100,
     "title": "",
     "description": "フォトを[:param]枚現像しよう",
@@ -6673,7 +6673,7 @@
   },
   {
     "id": 100200,
-    "missionCategory": 4,
+    "missionCategory": "Daily",
     "missionViewOrder": 100200,
     "title": "",
     "description": "稽古を[:param]回行おう",
@@ -6698,7 +6698,7 @@
   },
   {
     "id": 100300,
-    "missionCategory": 4,
+    "missionCategory": "Daily",
     "missionViewOrder": 100300,
     "title": "",
     "description": "全てのデイリーミッションをクリアしよう",
@@ -6723,7 +6723,7 @@
   },
   {
     "id": 100400,
-    "missionCategory": 4,
+    "missionCategory": "Daily",
     "missionViewOrder": 100100,
     "title": "",
     "description": "ジュエルショップの「毎日無料パック」を受け取ろう",
@@ -6749,7 +6749,7 @@
   },
   {
     "id": 200000,
-    "missionCategory": 5,
+    "missionCategory": "Weekly",
     "missionViewOrder": 200000,
     "title": "",
     "description": "スタミナを[:param]消費しよう",
@@ -6774,7 +6774,7 @@
   },
   {
     "id": 200100,
-    "missionCategory": 5,
+    "missionCategory": "Weekly",
     "missionViewOrder": 200100,
     "title": "",
     "description": "演劇リーグを[:param]回プレイしよう",
@@ -6799,7 +6799,7 @@
   },
   {
     "id": 200200,
-    "missionCategory": 5,
+    "missionCategory": "Weekly",
     "missionViewOrder": 200200,
     "title": "",
     "description": "スターアクトを[:param]回発動しよう",
@@ -6824,7 +6824,7 @@
   },
   {
     "id": 200300,
-    "missionCategory": 5,
+    "missionCategory": "Weekly",
     "missionViewOrder": 200300,
     "title": "",
     "description": "フォトを[:param]枚現像しよう",
@@ -6849,7 +6849,7 @@
   },
   {
     "id": 200400,
-    "missionCategory": 5,
+    "missionCategory": "Weekly",
     "missionViewOrder": 200400,
     "title": "",
     "description": "フォトのレベルを合計[:param]上げよう",
@@ -6874,7 +6874,7 @@
   },
   {
     "id": 200500,
-    "missionCategory": 5,
+    "missionCategory": "Weekly",
     "missionViewOrder": 200500,
     "title": "",
     "description": "マーケットでアイテムを[:param]回交換しよう",
@@ -6899,7 +6899,7 @@
   },
   {
     "id": 200600,
-    "missionCategory": 5,
+    "missionCategory": "Weekly",
     "missionViewOrder": 200600,
     "title": "",
     "description": "「全てのデイリーミッションをクリアしよう」を[:param]回達成しよう",
@@ -7062,7 +7062,8 @@
           }
         ]
       }
-    ]
+    ],
+    "comebackCampaignMasterId": 1
   },
   {
     "id": 300010,
@@ -7204,7 +7205,8 @@
           }
         ]
       }
-    ]
+    ],
+    "comebackCampaignMasterId": 1
   },
   {
     "id": 300020,
@@ -7346,7 +7348,8 @@
           }
         ]
       }
-    ]
+    ],
+    "comebackCampaignMasterId": 1
   },
   {
     "id": 300030,
@@ -7488,7 +7491,8 @@
           }
         ]
       }
-    ]
+    ],
+    "comebackCampaignMasterId": 1
   },
   {
     "id": 300040,
@@ -7630,7 +7634,8 @@
           }
         ]
       }
-    ]
+    ],
+    "comebackCampaignMasterId": 1
   },
   {
     "id": 300050,
@@ -7772,7 +7777,8 @@
           }
         ]
       }
-    ]
+    ],
+    "comebackCampaignMasterId": 1
   },
   {
     "id": 300060,
@@ -7914,7 +7920,8 @@
           }
         ]
       }
-    ]
+    ],
+    "comebackCampaignMasterId": 1
   },
   {
     "id": 400000,
