@@ -6054,6 +6054,30 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 330010,
+    "name": "共犯者のふたり",
+    "description": "劇団電姫に所属するアクターの演技力が[:param11]％上昇",
+    "posterMasterId": 330010,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 33001001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70052400
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 2202301,
     "name": "演技力アップ＋",
     "description": "自身の演技力が[:param11]％上昇　◆発動条件：<color=#FF9314>陽属性</color>のアクターが装備",
@@ -6934,6 +6958,78 @@
           {
             "order": 1,
             "effectMasterId": 12120200
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3300101,
+    "name": "演技力アップⅢ",
+    "description": "自身の演技力が[:param11]％上昇",
+    "posterMasterId": 330010,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 330010101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10030000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3300102,
+    "name": "初期P.ゲージ上昇",
+    "description": "公演開始時、P.ゲージが[:param11]上昇　◆発動条件：劇団電姫に所属するアクターが装備",
+    "posterMasterId": 330010,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 330010201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11510400
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3300103,
+    "name": "CTダウンⅢ",
+    "description": "自身のセンスのCTが[:param11]秒短縮　◆発動条件：劇団電姫に所属するアクターが装備",
+    "posterMasterId": 330010,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 330010301,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 12420400
           }
         ]
       }

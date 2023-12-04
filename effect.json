@@ -43611,6 +43611,79 @@
     "fireTimingType": "Passive"
   },
   {
+    "id": 12420400,
+    "type": "SenseRecastDown",
+    "range": "Self",
+    "calculationType": "FixedAddition",
+    "details": [
+      {
+        "level": 1,
+        "value": 2.0
+      },
+      {
+        "level": 2,
+        "value": 2.0
+      },
+      {
+        "level": 3,
+        "value": 2.0
+      },
+      {
+        "level": 4,
+        "value": 2.0
+      },
+      {
+        "level": 5,
+        "value": 2.0
+      },
+      {
+        "level": 6,
+        "value": 2.0
+      },
+      {
+        "level": 7,
+        "value": 2.0
+      },
+      {
+        "level": 8,
+        "value": 3.0
+      },
+      {
+        "level": 9,
+        "value": 3.0
+      },
+      {
+        "level": 10,
+        "value": 4.0
+      },
+      {
+        "level": 11,
+        "value": 4.0
+      },
+      {
+        "level": 12,
+        "value": 5.0
+      },
+      {
+        "level": 13,
+        "value": 5.0
+      },
+      {
+        "level": 14,
+        "value": 6.0
+      }
+    ],
+    "conditions": [],
+    "durationSecond": 0,
+    "triggers": [
+      {
+        "trigger": "Company",
+        "value": 4
+      }
+    ],
+    "fireTimingType": "Passive"
+  },
+  {
     "id": 12510000,
     "type": "RewardUp",
     "range": "None",

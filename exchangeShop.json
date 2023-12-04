@@ -4483,6 +4483,57 @@
     ]
   },
   {
+    "id": 2800,
+    "isDisplayRequiredHavingItem": false,
+    "category": "Gacha",
+    "name": "結ぶぞ！その契約！ガチャ(ポスター)",
+    "displayThingType": "Item",
+    "displayItemMasterId": 412800,
+    "bannerPath": "2800",
+    "startDate": 1701795600.0,
+    "endDate": 1703264400.0,
+    "lastRefreshedAt": -62135596800.0,
+    "lineup": [
+      {
+        "id": 2800001,
+        "thingId": 330010,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "order": 2800001,
+        "isDisplayLocked": false,
+        "startDate": 1701795600.0,
+        "endDate": 1703264400.0,
+        "requiredItemMasterId": 412800,
+        "requiredQuantity": 200
+      },
+      {
+        "id": 2800002,
+        "thingId": 130071,
+        "thingType": "Item",
+        "thingQuantity": 1,
+        "exchangeLimit": 2,
+        "order": 2800002,
+        "isDisplayLocked": false,
+        "startDate": 1701795600.0,
+        "endDate": 1703264400.0,
+        "requiredItemMasterId": 412800,
+        "requiredQuantity": 50
+      },
+      {
+        "id": 2800003,
+        "thingId": 130011,
+        "thingType": "Item",
+        "thingQuantity": 1,
+        "order": 2800003,
+        "isDisplayLocked": false,
+        "startDate": 1701795600.0,
+        "endDate": 1703264400.0,
+        "requiredItemMasterId": 412800,
+        "requiredQuantity": 1
+      }
+    ]
+  },
+  {
     "id": 20001,
     "isDisplayRequiredHavingItem": false,
     "category": "Event",

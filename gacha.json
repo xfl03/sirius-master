@@ -15773,6 +15773,437 @@
     "isHideEndDate": false
   },
   {
+    "id": 2800,
+    "name": "結ぶぞ！その契約！ガチャ",
+    "cardType": "Poster",
+    "gachaType": "Pickup",
+    "gachaTextTemplateMasterId": 2800,
+    "startDate": 1701795600.0,
+    "endDate": 1702659600.0,
+    "bonusThings": [
+      {
+        "id": 280001,
+        "thingId": 412800,
+        "thingType": "Item",
+        "thingQuantity": 1
+      }
+    ],
+    "gachaDetails": [
+      {
+        "id": 280000,
+        "paidJewelAmount": 50,
+        "isFree": false,
+        "dailyRollLimit": 1,
+        "prizeCount": 1,
+        "fixedPrizeCount": 0,
+        "buttonType": "PaidJewelSingle",
+        "detailBonusThings": [
+          {
+            "id": 280000,
+            "thingId": 130013,
+            "thingType": "Item",
+            "thingQuantity": 1
+          }
+        ]
+      },
+      {
+        "id": 280001,
+        "freeJewelAmount": 300,
+        "isFree": false,
+        "prizeCount": 1,
+        "fixedPrizeCount": 0,
+        "buttonType": "FreeJewelSingle",
+        "detailBonusThings": []
+      },
+      {
+        "id": 280002,
+        "freeJewelAmount": 3000,
+        "isFree": false,
+        "prizeCount": 10,
+        "fixedPrizeCount": 1,
+        "buttonType": "FreeJewelTenSeries",
+        "detailBonusThings": []
+      },
+      {
+        "id": 280003,
+        "requiredTicketMItemId": 211001,
+        "requiredTicketQuantity": 1,
+        "isFree": false,
+        "prizeCount": 1,
+        "fixedPrizeCount": 0,
+        "buttonType": "SingleTicket",
+        "detailBonusThings": []
+      },
+      {
+        "id": 280004,
+        "requiredTicketMItemId": 211001,
+        "requiredTicketQuantity": 10,
+        "isFree": false,
+        "prizeCount": 10,
+        "fixedPrizeCount": 1,
+        "buttonType": "SingleTicketTenSeries",
+        "detailBonusThings": []
+      },
+      {
+        "id": 280005,
+        "requiredTicketMItemId": 211002,
+        "requiredTicketQuantity": 1,
+        "isFree": false,
+        "prizeCount": 10,
+        "fixedPrizeCount": 1,
+        "buttonType": "TenSeriesTicket",
+        "detailBonusThings": []
+      },
+      {
+        "id": 280006,
+        "paidJewelAmount": 1500,
+        "isFree": false,
+        "overallRollLimit": 1,
+        "prizeCount": 10,
+        "fixedPrizeCount": 1,
+        "buttonType": "PaidJewelTenSeries",
+        "detailBonusThings": []
+      }
+    ],
+    "things": [
+      {
+        "id": 2800210010,
+        "thingId": 210010,
+        "thingType": "Poster",
+        "thingQuantity": 1
+      },
+      {
+        "id": 2800210020,
+        "thingId": 210020,
+        "thingType": "Poster",
+        "thingQuantity": 1
+      },
+      {
+        "id": 2800210030,
+        "thingId": 210030,
+        "thingType": "Poster",
+        "thingQuantity": 1
+      },
+      {
+        "id": 2800210040,
+        "thingId": 210040,
+        "thingType": "Poster",
+        "thingQuantity": 1
+      },
+      {
+        "id": 2800210050,
+        "thingId": 210050,
+        "thingType": "Poster",
+        "thingQuantity": 1
+      },
+      {
+        "id": 2800210060,
+        "thingId": 210060,
+        "thingType": "Poster",
+        "thingQuantity": 1
+      },
+      {
+        "id": 2800210070,
+        "thingId": 210070,
+        "thingType": "Poster",
+        "thingQuantity": 1
+      },
+      {
+        "id": 2800210080,
+        "thingId": 210080,
+        "thingType": "Poster",
+        "thingQuantity": 1
+      },
+      {
+        "id": 2800210090,
+        "thingId": 210090,
+        "thingType": "Poster",
+        "thingQuantity": 1
+      },
+      {
+        "id": 2800210100,
+        "thingId": 210100,
+        "thingType": "Poster",
+        "thingQuantity": 1
+      },
+      {
+        "id": 2800210110,
+        "thingId": 210110,
+        "thingType": "Poster",
+        "thingQuantity": 1
+      },
+      {
+        "id": 2800210120,
+        "thingId": 210120,
+        "thingType": "Poster",
+        "thingQuantity": 1
+      },
+      {
+        "id": 2800210130,
+        "thingId": 210130,
+        "thingType": "Poster",
+        "thingQuantity": 1
+      },
+      {
+        "id": 2800210140,
+        "thingId": 210140,
+        "thingType": "Poster",
+        "thingQuantity": 1
+      },
+      {
+        "id": 2800210150,
+        "thingId": 210150,
+        "thingType": "Poster",
+        "thingQuantity": 1
+      },
+      {
+        "id": 2800210160,
+        "thingId": 210160,
+        "thingType": "Poster",
+        "thingQuantity": 1
+      },
+      {
+        "id": 2800210170,
+        "thingId": 210170,
+        "thingType": "Poster",
+        "thingQuantity": 1
+      },
+      {
+        "id": 2800210180,
+        "thingId": 210180,
+        "thingType": "Poster",
+        "thingQuantity": 1
+      },
+      {
+        "id": 2800210190,
+        "thingId": 210190,
+        "thingType": "Poster",
+        "thingQuantity": 1
+      },
+      {
+        "id": 2800210200,
+        "thingId": 210200,
+        "thingType": "Poster",
+        "thingQuantity": 1
+      },
+      {
+        "id": 2800210210,
+        "thingId": 210210,
+        "thingType": "Poster",
+        "thingQuantity": 1
+      },
+      {
+        "id": 2800220010,
+        "thingId": 220010,
+        "thingType": "Poster",
+        "thingQuantity": 1
+      },
+      {
+        "id": 2800220020,
+        "thingId": 220020,
+        "thingType": "Poster",
+        "thingQuantity": 1
+      },
+      {
+        "id": 2800220030,
+        "thingId": 220030,
+        "thingType": "Poster",
+        "thingQuantity": 1
+      },
+      {
+        "id": 2800220040,
+        "thingId": 220040,
+        "thingType": "Poster",
+        "thingQuantity": 1
+      },
+      {
+        "id": 2800220050,
+        "thingId": 220050,
+        "thingType": "Poster",
+        "thingQuantity": 1
+      },
+      {
+        "id": 2800220060,
+        "thingId": 220060,
+        "thingType": "Poster",
+        "thingQuantity": 1
+      },
+      {
+        "id": 2800220070,
+        "thingId": 220070,
+        "thingType": "Poster",
+        "thingQuantity": 1
+      },
+      {
+        "id": 2800220080,
+        "thingId": 220080,
+        "thingType": "Poster",
+        "thingQuantity": 1
+      },
+      {
+        "id": 2800220090,
+        "thingId": 220090,
+        "thingType": "Poster",
+        "thingQuantity": 1
+      },
+      {
+        "id": 2800220100,
+        "thingId": 220100,
+        "thingType": "Poster",
+        "thingQuantity": 1
+      },
+      {
+        "id": 2800220110,
+        "thingId": 220110,
+        "thingType": "Poster",
+        "thingQuantity": 1
+      },
+      {
+        "id": 2800220120,
+        "thingId": 220120,
+        "thingType": "Poster",
+        "thingQuantity": 1
+      },
+      {
+        "id": 2800220130,
+        "thingId": 220130,
+        "thingType": "Poster",
+        "thingQuantity": 1
+      },
+      {
+        "id": 2800220140,
+        "thingId": 220140,
+        "thingType": "Poster",
+        "thingQuantity": 1
+      },
+      {
+        "id": 2800220150,
+        "thingId": 220150,
+        "thingType": "Poster",
+        "thingQuantity": 1
+      },
+      {
+        "id": 2800220160,
+        "thingId": 220160,
+        "thingType": "Poster",
+        "thingQuantity": 1
+      },
+      {
+        "id": 2800230010,
+        "thingId": 230010,
+        "thingType": "Poster",
+        "thingQuantity": 1
+      },
+      {
+        "id": 2800230020,
+        "thingId": 230020,
+        "thingType": "Poster",
+        "thingQuantity": 1
+      },
+      {
+        "id": 2800230030,
+        "thingId": 230030,
+        "thingType": "Poster",
+        "thingQuantity": 1
+      },
+      {
+        "id": 2800230040,
+        "thingId": 230040,
+        "thingType": "Poster",
+        "thingQuantity": 1
+      },
+      {
+        "id": 2800230050,
+        "thingId": 230050,
+        "thingType": "Poster",
+        "thingQuantity": 1
+      },
+      {
+        "id": 2800230060,
+        "thingId": 230060,
+        "thingType": "Poster",
+        "thingQuantity": 1
+      },
+      {
+        "id": 2800230070,
+        "thingId": 230070,
+        "thingType": "Poster",
+        "thingQuantity": 1
+      },
+      {
+        "id": 2800230080,
+        "thingId": 230080,
+        "thingType": "Poster",
+        "thingQuantity": 1
+      },
+      {
+        "id": 2800230130,
+        "thingId": 230130,
+        "thingType": "Poster",
+        "thingQuantity": 1
+      },
+      {
+        "id": 2800230140,
+        "thingId": 230140,
+        "thingType": "Poster",
+        "thingQuantity": 1
+      },
+      {
+        "id": 2800230160,
+        "thingId": 230160,
+        "thingType": "Poster",
+        "thingQuantity": 1
+      },
+      {
+        "id": 2800230190,
+        "thingId": 230190,
+        "thingType": "Poster",
+        "thingQuantity": 1
+      },
+      {
+        "id": 2800230200,
+        "thingId": 230200,
+        "thingType": "Poster",
+        "thingQuantity": 1
+      },
+      {
+        "id": 2800230220,
+        "thingId": 230220,
+        "thingType": "Poster",
+        "thingQuantity": 1
+      },
+      {
+        "id": 2800230250,
+        "thingId": 230250,
+        "thingType": "Poster",
+        "thingQuantity": 1
+      },
+      {
+        "id": 2800230260,
+        "thingId": 230260,
+        "thingType": "Poster",
+        "thingQuantity": 1
+      },
+      {
+        "id": 2800230280,
+        "thingId": 230280,
+        "thingType": "Poster",
+        "thingQuantity": 1
+      },
+      {
+        "id": 2800330010,
+        "thingId": 330010,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "pickupOrder": 1
+      }
+    ],
+    "hasMovie": false,
+    "attentionGachaTextTemplateMasterId": 12001,
+    "isForceDisplay": false,
+    "isHideEndDate": false
+  },
+  {
     "id": 2900,
     "name": "SR以上確定ガチャ",
     "cardType": "Poster",
