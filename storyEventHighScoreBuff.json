@@ -190,5 +190,37 @@
     "effectName": "体操着",
     "effectDescription": "<color=#FF9314>陽属性</color>のアクターがセンス発動時、追加で「SP光」を[:param1]個付与する（レベル10の時に効果発動／SP光はどの系統の光としても扱われる）",
     "iconImagePath": "120"
+  },
+  {
+    "id": 121,
+    "storyEventHighScoreBuffPatternGroupId": 2,
+    "effectMasterId": 80025,
+    "effectName": "ダンスシューズ",
+    "effectDescription": "アクターの演技力上限値が[:param1]％上昇する　※<color=#ff679d>憐属性</color>のアクターのみ対象",
+    "iconImagePath": "122"
+  },
+  {
+    "id": 122,
+    "storyEventHighScoreBuffPatternGroupId": 2,
+    "effectMasterId": 80026,
+    "effectName": "イルミネーションツリー",
+    "effectDescription": "センス発動時、追加で「SP光」を[:param1]個付与する　※<color=#ff679d>憐属性</color>の阿岐留 カミラのみ対象",
+    "iconImagePath": "123"
+  },
+  {
+    "id": 123,
+    "storyEventHighScoreBuffPatternGroupId": 2,
+    "effectMasterId": 80027,
+    "effectName": "雪だるま",
+    "effectDescription": "センスCTが[:param1]秒短縮する　※<color=#ff679d>憐属性</color>の与那国 緋花里のみ対象",
+    "iconImagePath": "121"
+  },
+  {
+    "id": 124,
+    "storyEventHighScoreBuffPatternGroupId": 2,
+    "effectMasterId": 80028,
+    "effectName": "コーンポタージュ",
+    "effectDescription": "スターアクト発動条件に必要な光の数を超えて付与された光を最大[:param1]個「SP光」に変換する（レベル10の時に効果発動）　※<color=#ff679d>憐属性</color>の与那国 緋花里のみ対象",
+    "iconImagePath": "124"
   }
 ]

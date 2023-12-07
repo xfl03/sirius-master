@@ -484,6 +484,21 @@
           201,
           205
         ]
+      },
+      {
+        "id": 1203,
+        "musicMasterId": 12,
+        "vocalVersion": 3,
+        "singer": "新妻八恵、鳳ここな",
+        "name": "Masquerade（Long Ver）",
+        "musicTimeSecond": 233,
+        "sampleStartSeconds": 0.0,
+        "sampleEndSeconds": 0.0,
+        "musicVideoType": "None",
+        "characters": [
+          101,
+          102
+        ]
       }
     ],
     "unlockConditionType": "Buy",
@@ -1058,6 +1073,21 @@
         "singer": "連尺野初魅、舎人仁花子",
         "name": "純粋と奔放",
         "musicTimeSecond": 137,
+        "sampleStartSeconds": 0.0,
+        "sampleEndSeconds": 0.0,
+        "musicVideoType": "None",
+        "characters": [
+          201,
+          203
+        ]
+      },
+      {
+        "id": 3002,
+        "musicMasterId": 30,
+        "vocalVersion": 2,
+        "singer": "連尺野初魅、舎人仁花子",
+        "name": "純粋と奔放（Long Ver）",
+        "musicTimeSecond": 276,
         "sampleStartSeconds": 0.0,
         "sampleEndSeconds": 0.0,
         "musicVideoType": "None",
@@ -2466,6 +2496,81 @@
     "musicCoverType": "Cover"
   },
   {
+    "id": 74,
+    "name": "Get to Act Life♡",
+    "description": "",
+    "rewardRuleMasterId": 1,
+    "pronounceName": "gettoactlife",
+    "lyricWriter": "友希",
+    "composer": "友希",
+    "arranger": "EFFY（FirstCall）",
+    "isLongVersion": false,
+    "releasedAt": 1702400400.0,
+    "staminaConsumption": 28,
+    "musicTimeSecond": 113,
+    "invisible": false,
+    "sampleStartSeconds": 0.0,
+    "sampleEndSeconds": 0.0,
+    "delaySeconds": 0.0,
+    "vocalVersions": [
+      {
+        "id": 7401,
+        "musicMasterId": 74,
+        "vocalVersion": 1,
+        "singer": "阿岐留カミラ",
+        "name": "Get to Act Life♡",
+        "musicTimeSecond": 113,
+        "sampleStartSeconds": 0.0,
+        "sampleEndSeconds": 0.0,
+        "musicVideoType": "None",
+        "characters": [
+          403
+        ]
+      }
+    ],
+    "unlockConditionType": "Default",
+    "musicVideoType": "None",
+    "musicCoverType": "Original"
+  },
+  {
+    "id": 75,
+    "name": "こんなに素晴らしい世界で",
+    "description": "",
+    "rewardRuleMasterId": 1,
+    "pronounceName": "こんなにすばらしいせかいで",
+    "lyricWriter": "志村真白（FirstCall）",
+    "composer": "志村真白（FirstCall）",
+    "arranger": "志村真白（FirstCall）",
+    "isLongVersion": false,
+    "releasedAt": 1702227600.0,
+    "staminaConsumption": 30,
+    "musicTimeSecond": 123,
+    "invisible": false,
+    "sampleStartSeconds": 0.0,
+    "sampleEndSeconds": 0.0,
+    "delaySeconds": 0.0,
+    "vocalVersions": [
+      {
+        "id": 7501,
+        "musicMasterId": 75,
+        "vocalVersion": 1,
+        "singer": "与那国緋花里、阿岐留カミラ",
+        "name": "こんなに素晴らしい世界で",
+        "musicTimeSecond": 123,
+        "sampleStartSeconds": 0.0,
+        "sampleEndSeconds": 0.0,
+        "musicVideoType": "None",
+        "characters": [
+          305,
+          403
+        ]
+      }
+    ],
+    "unlockConditionType": "Default",
+    "musicVideoType": "None",
+    "musicCoverType": "Original"
+  },
+  {
     "id": 78,
     "name": "トウキョウ・シャンディ・ランデヴ",
     "description": "",
@@ -2653,6 +2758,82 @@
           403,
           404,
           405
+        ]
+      }
+    ],
+    "unlockConditionType": "Buy",
+    "musicVideoType": "None",
+    "musicCoverType": "Cover"
+  },
+  {
+    "id": 118,
+    "name": "あの夏が飽和する。",
+    "description": "",
+    "rewardRuleMasterId": 1,
+    "pronounceName": "あのなつがほうわする",
+    "lyricWriter": "カンザキイオリ",
+    "composer": "カンザキイオリ",
+    "arranger": "-",
+    "unlockText": "楽曲ショップで購入",
+    "isLongVersion": false,
+    "releasedAt": 1702659600.0,
+    "staminaConsumption": 31,
+    "musicTimeSecond": 129,
+    "invisible": false,
+    "sampleStartSeconds": 0.0,
+    "sampleEndSeconds": 0.0,
+    "delaySeconds": 0.0,
+    "vocalVersions": [
+      {
+        "id": 11801,
+        "musicMasterId": 118,
+        "vocalVersion": 1,
+        "singer": "烏森大黒",
+        "name": "あの夏が飽和する。",
+        "musicTimeSecond": 129,
+        "sampleStartSeconds": 0.0,
+        "sampleEndSeconds": 0.0,
+        "musicVideoType": "None",
+        "characters": [
+          202
+        ]
+      }
+    ],
+    "unlockConditionType": "Buy",
+    "musicVideoType": "None",
+    "musicCoverType": "Cover"
+  },
+  {
+    "id": 119,
+    "name": "Stellar Stellar",
+    "description": "",
+    "rewardRuleMasterId": 1,
+    "pronounceName": "stellersteller",
+    "lyricWriter": "星街すいせい",
+    "composer": "TAKU INOUE",
+    "arranger": "-",
+    "unlockText": "楽曲ショップで購入",
+    "isLongVersion": false,
+    "releasedAt": 1703005200.0,
+    "staminaConsumption": 31,
+    "musicTimeSecond": 127,
+    "invisible": false,
+    "sampleStartSeconds": 0.0,
+    "sampleEndSeconds": 0.0,
+    "delaySeconds": 0.0,
+    "vocalVersions": [
+      {
+        "id": 11901,
+        "musicMasterId": 119,
+        "vocalVersion": 1,
+        "singer": "静香",
+        "name": "Stellar Stellar",
+        "musicTimeSecond": 127,
+        "sampleStartSeconds": 0.0,
+        "sampleEndSeconds": 0.0,
+        "musicVideoType": "None",
+        "characters": [
+          102
         ]
       }
     ],

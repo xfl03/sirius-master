@@ -3264,6 +3264,30 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 220310,
+    "name": "泡雪でありますように",
+    "description": "<color=#ff679d>憐属性</color>のアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 220310,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 22031001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70022001
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 229010,
     "name": "初めての舞台",
     "description": "<color=#7AC940>彩属性</color>のアクターの演技力が[:param11]%上昇",
@@ -6054,6 +6078,30 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 230310,
+    "name": "すばらしく寒くて、最高だ！",
+    "description": "<color=#ff679d>憐属性</color>のアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 230310,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 23031001,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70052001
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 330010,
     "name": "共犯者のふたり",
     "description": "劇団電姫に所属するアクターの演技力が[:param11]％上昇",
@@ -6406,6 +6454,54 @@
           {
             "order": 1,
             "effectMasterId": 11211003
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2203101,
+    "name": "演技力アップ＋",
+    "description": "自身の演技力が[:param11]％上昇　◆発動条件：<color=#ff679d>憐属性</color>のアクターが装備",
+    "posterMasterId": 220310,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 220310101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10011001
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2203102,
+    "name": "ライフブースト",
+    "description": "センス発動直後、ライフを[:param11]回復　◆発動条件：<color=#ff679d>憐属性</color>のアクターが装備",
+    "posterMasterId": 220310,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 220310201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11211001
           }
         ]
       }
@@ -6958,6 +7054,54 @@
           {
             "order": 1,
             "effectMasterId": 12120200
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2303101,
+    "name": "演技力アップⅢ＋",
+    "description": "自身の演技力が[:param11]％上昇",
+    "posterMasterId": 230310,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 230310101,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10031000
+          }
+        ]
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2303102,
+    "name": "「光」獲得数増加",
+    "description": "センスで付与する「光」の付与数が[:param11]個増加　◆発動条件：<color=#ff679d>憐属性</color>のアクターが装備",
+    "posterMasterId": 230310,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "id": 230310201,
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11810001
           }
         ]
       }

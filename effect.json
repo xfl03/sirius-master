@@ -3859,6 +3859,246 @@
     "fireTimingType": "Passive"
   },
   {
+    "id": 80025,
+    "type": "PerformanceLimitUp",
+    "range": "All",
+    "calculationType": "PercentageAddition",
+    "details": [
+      {
+        "level": 1,
+        "value": 1000.0
+      },
+      {
+        "level": 2,
+        "value": 2000.0
+      },
+      {
+        "level": 3,
+        "value": 3000.0
+      },
+      {
+        "level": 4,
+        "value": 4000.0
+      },
+      {
+        "level": 5,
+        "value": 5000.0
+      },
+      {
+        "level": 6,
+        "value": 6000.0
+      },
+      {
+        "level": 7,
+        "value": 7000.0
+      },
+      {
+        "level": 8,
+        "value": 8000.0
+      },
+      {
+        "level": 9,
+        "value": 9000.0
+      },
+      {
+        "level": 10,
+        "value": 10000.0
+      }
+    ],
+    "conditions": [
+      {
+        "condition": "Attribute",
+        "value": 1
+      }
+    ],
+    "durationSecond": 0,
+    "triggers": [],
+    "fireTimingType": "Passive"
+  },
+  {
+    "id": 80026,
+    "type": "AddSenseLightVariable",
+    "range": "Self",
+    "calculationType": "FixedAddition",
+    "details": [
+      {
+        "level": 1,
+        "value": 1.0
+      },
+      {
+        "level": 2,
+        "value": 1.0
+      },
+      {
+        "level": 3,
+        "value": 1.0
+      },
+      {
+        "level": 4,
+        "value": 1.0
+      },
+      {
+        "level": 5,
+        "value": 1.0
+      },
+      {
+        "level": 6,
+        "value": 1.0
+      },
+      {
+        "level": 7,
+        "value": 1.0
+      },
+      {
+        "level": 8,
+        "value": 1.0
+      },
+      {
+        "level": 9,
+        "value": 1.0
+      },
+      {
+        "level": 10,
+        "value": 2.0
+      }
+    ],
+    "conditions": [
+      {
+        "condition": "CharacterBase",
+        "value": 403
+      },
+      {
+        "condition": "Attribute",
+        "value": 1
+      }
+    ],
+    "durationSecond": 0,
+    "triggers": [],
+    "fireTimingType": "Passive"
+  },
+  {
+    "id": 80027,
+    "type": "SenseRecastDown",
+    "range": "Self",
+    "calculationType": "FixedAddition",
+    "details": [
+      {
+        "level": 1,
+        "value": 4.0
+      },
+      {
+        "level": 2,
+        "value": 8.0
+      },
+      {
+        "level": 3,
+        "value": 12.0
+      },
+      {
+        "level": 4,
+        "value": 16.0
+      },
+      {
+        "level": 5,
+        "value": 20.0
+      },
+      {
+        "level": 6,
+        "value": 24.0
+      },
+      {
+        "level": 7,
+        "value": 28.0
+      },
+      {
+        "level": 8,
+        "value": 32.0
+      },
+      {
+        "level": 9,
+        "value": 36.0
+      },
+      {
+        "level": 10,
+        "value": 40.0
+      }
+    ],
+    "conditions": [
+      {
+        "condition": "CharacterBase",
+        "value": 305
+      },
+      {
+        "condition": "Attribute",
+        "value": 1
+      }
+    ],
+    "durationSecond": 0,
+    "triggers": [],
+    "fireTimingType": "Passive"
+  },
+  {
+    "id": 80028,
+    "type": "ChangeWrongLightToSpLight",
+    "range": "Self",
+    "calculationType": "FixedAddition",
+    "details": [
+      {
+        "level": 1,
+        "value": 0.0
+      },
+      {
+        "level": 2,
+        "value": 0.0
+      },
+      {
+        "level": 3,
+        "value": 0.0
+      },
+      {
+        "level": 4,
+        "value": 0.0
+      },
+      {
+        "level": 5,
+        "value": 0.0
+      },
+      {
+        "level": 6,
+        "value": 0.0
+      },
+      {
+        "level": 7,
+        "value": 0.0
+      },
+      {
+        "level": 8,
+        "value": 0.0
+      },
+      {
+        "level": 9,
+        "value": 0.0
+      },
+      {
+        "level": 10,
+        "value": 1.0
+      }
+    ],
+    "conditions": [
+      {
+        "condition": "CharacterBase",
+        "value": 305
+      },
+      {
+        "condition": "Attribute",
+        "value": 1
+      }
+    ],
+    "durationSecond": 0,
+    "triggers": [],
+    "fireTimingType": "Passive"
+  },
+  {
     "id": 200011,
     "type": "VocalUp",
     "range": "Self",
@@ -35258,6 +35498,74 @@
     "fireTimingType": "Passive"
   },
   {
+    "id": 10031000,
+    "type": "PerformanceUp",
+    "range": "Self",
+    "calculationType": "PercentageAddition",
+    "details": [
+      {
+        "level": 1,
+        "value": 1750.0
+      },
+      {
+        "level": 2,
+        "value": 2100.0
+      },
+      {
+        "level": 3,
+        "value": 2450.0
+      },
+      {
+        "level": 4,
+        "value": 2800.0
+      },
+      {
+        "level": 5,
+        "value": 3150.0
+      },
+      {
+        "level": 6,
+        "value": 3500.0
+      },
+      {
+        "level": 7,
+        "value": 3850.0
+      },
+      {
+        "level": 8,
+        "value": 4200.0
+      },
+      {
+        "level": 9,
+        "value": 4550.0
+      },
+      {
+        "level": 10,
+        "value": 4900.0
+      },
+      {
+        "level": 11,
+        "value": 5250.0
+      },
+      {
+        "level": 12,
+        "value": 5600.0
+      },
+      {
+        "level": 13,
+        "value": 5950.0
+      },
+      {
+        "level": 14,
+        "value": 6300.0
+      }
+    ],
+    "conditions": [],
+    "durationSecond": 0,
+    "triggers": [],
+    "fireTimingType": "Passive"
+  },
+  {
     "id": 10031100,
     "type": "PerformanceUp",
     "range": "Self",
@@ -40507,6 +40815,79 @@
     "fireTimingType": "Sense"
   },
   {
+    "id": 11211001,
+    "type": "LifeHealing",
+    "range": "None",
+    "calculationType": "FixedAddition",
+    "details": [
+      {
+        "level": 1,
+        "value": 120.0
+      },
+      {
+        "level": 2,
+        "value": 140.0
+      },
+      {
+        "level": 3,
+        "value": 160.0
+      },
+      {
+        "level": 4,
+        "value": 180.0
+      },
+      {
+        "level": 5,
+        "value": 200.0
+      },
+      {
+        "level": 6,
+        "value": 220.0
+      },
+      {
+        "level": 7,
+        "value": 240.0
+      },
+      {
+        "level": 8,
+        "value": 260.0
+      },
+      {
+        "level": 9,
+        "value": 280.0
+      },
+      {
+        "level": 10,
+        "value": 300.0
+      },
+      {
+        "level": 11,
+        "value": 320.0
+      },
+      {
+        "level": 12,
+        "value": 340.0
+      },
+      {
+        "level": 13,
+        "value": 360.0
+      },
+      {
+        "level": 14,
+        "value": 380.0
+      }
+    ],
+    "conditions": [],
+    "durationSecond": 0,
+    "triggers": [
+      {
+        "trigger": "Attribute",
+        "value": 1
+      }
+    ],
+    "fireTimingType": "Sense"
+  },
+  {
     "id": 11211003,
     "type": "LifeHealing",
     "range": "None",
@@ -42596,6 +42977,79 @@
     "conditions": [],
     "durationSecond": 0,
     "triggers": [],
+    "fireTimingType": "Passive"
+  },
+  {
+    "id": 11810001,
+    "type": "AddSenseLightSelf",
+    "range": "Self",
+    "calculationType": "FixedAddition",
+    "details": [
+      {
+        "level": 1,
+        "value": 1.0
+      },
+      {
+        "level": 2,
+        "value": 1.0
+      },
+      {
+        "level": 3,
+        "value": 1.0
+      },
+      {
+        "level": 4,
+        "value": 1.0
+      },
+      {
+        "level": 5,
+        "value": 1.0
+      },
+      {
+        "level": 6,
+        "value": 1.0
+      },
+      {
+        "level": 7,
+        "value": 1.0
+      },
+      {
+        "level": 8,
+        "value": 1.0
+      },
+      {
+        "level": 9,
+        "value": 1.0
+      },
+      {
+        "level": 10,
+        "value": 1.0
+      },
+      {
+        "level": 11,
+        "value": 1.0
+      },
+      {
+        "level": 12,
+        "value": 1.0
+      },
+      {
+        "level": 13,
+        "value": 1.0
+      },
+      {
+        "level": 14,
+        "value": 1.0
+      }
+    ],
+    "conditions": [],
+    "durationSecond": 0,
+    "triggers": [
+      {
+        "trigger": "Attribute",
+        "value": 1
+      }
+    ],
     "fireTimingType": "Passive"
   },
   {

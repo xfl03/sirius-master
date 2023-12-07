@@ -518,5 +518,109 @@
       "effectDescription": "<color=#FF9314>陽属性</color>のアクターがセンス発動時、追加で「SP光」を[:param1]個付与する（レベル10の時に効果発動／SP光はどの系統の光としても扱われる）",
       "iconImagePath": "120"
     }
+  },
+  {
+    "id": 2001501,
+    "storyEventHighScoreMasterId": 20015,
+    "storyEventHighScoreBuffMasterId": 11,
+    "storyEventHighScoreBuffMaster": {
+      "id": 11,
+      "storyEventHighScoreBuffPatternGroupId": 1,
+      "effectMasterId": 80003,
+      "effectName": "舞台照明",
+      "effectDescription": "アクターの集中力が[:param1]上昇する",
+      "iconImagePath": "11"
+    }
+  },
+  {
+    "id": 2001502,
+    "storyEventHighScoreMasterId": 20015,
+    "storyEventHighScoreBuffMasterId": 12,
+    "storyEventHighScoreBuffMaster": {
+      "id": 12,
+      "storyEventHighScoreBuffPatternGroupId": 1,
+      "effectMasterId": 80002,
+      "effectName": "舞台スピーカー",
+      "effectDescription": "アクターの表現力が[:param1]上昇する",
+      "iconImagePath": "12"
+    }
+  },
+  {
+    "id": 2001503,
+    "storyEventHighScoreMasterId": 20015,
+    "storyEventHighScoreBuffMasterId": 13,
+    "storyEventHighScoreBuffMaster": {
+      "id": 13,
+      "storyEventHighScoreBuffPatternGroupId": 1,
+      "effectMasterId": 80001,
+      "effectName": "舞台マイク",
+      "effectDescription": "アクターの歌唱力が[:param1]上昇する",
+      "iconImagePath": "13"
+    }
+  },
+  {
+    "id": 2001504,
+    "storyEventHighScoreMasterId": 20015,
+    "storyEventHighScoreBuffMasterId": 14,
+    "storyEventHighScoreBuffMaster": {
+      "id": 14,
+      "storyEventHighScoreBuffPatternGroupId": 1,
+      "effectMasterId": 80004,
+      "effectName": "舞台カーテン",
+      "effectDescription": "アクターの演技力が[:param1]％上昇する",
+      "iconImagePath": "14"
+    }
+  },
+  {
+    "id": 2001505,
+    "storyEventHighScoreMasterId": 20015,
+    "storyEventHighScoreBuffMasterId": 121,
+    "storyEventHighScoreBuffMaster": {
+      "id": 121,
+      "storyEventHighScoreBuffPatternGroupId": 2,
+      "effectMasterId": 80025,
+      "effectName": "ダンスシューズ",
+      "effectDescription": "アクターの演技力上限値が[:param1]％上昇する　※<color=#ff679d>憐属性</color>のアクターのみ対象",
+      "iconImagePath": "122"
+    }
+  },
+  {
+    "id": 2001506,
+    "storyEventHighScoreMasterId": 20015,
+    "storyEventHighScoreBuffMasterId": 122,
+    "storyEventHighScoreBuffMaster": {
+      "id": 122,
+      "storyEventHighScoreBuffPatternGroupId": 2,
+      "effectMasterId": 80026,
+      "effectName": "イルミネーションツリー",
+      "effectDescription": "センス発動時、追加で「SP光」を[:param1]個付与する　※<color=#ff679d>憐属性</color>の阿岐留 カミラのみ対象",
+      "iconImagePath": "123"
+    }
+  },
+  {
+    "id": 2001507,
+    "storyEventHighScoreMasterId": 20015,
+    "storyEventHighScoreBuffMasterId": 123,
+    "storyEventHighScoreBuffMaster": {
+      "id": 123,
+      "storyEventHighScoreBuffPatternGroupId": 2,
+      "effectMasterId": 80027,
+      "effectName": "雪だるま",
+      "effectDescription": "センスCTが[:param1]秒短縮する　※<color=#ff679d>憐属性</color>の与那国 緋花里のみ対象",
+      "iconImagePath": "121"
+    }
+  },
+  {
+    "id": 2001508,
+    "storyEventHighScoreMasterId": 20015,
+    "storyEventHighScoreBuffMasterId": 124,
+    "storyEventHighScoreBuffMaster": {
+      "id": 124,
+      "storyEventHighScoreBuffPatternGroupId": 2,
+      "effectMasterId": 80028,
+      "effectName": "コーンポタージュ",
+      "effectDescription": "スターアクト発動条件に必要な光の数を超えて付与された光を最大[:param1]個「SP光」に変換する（レベル10の時に効果発動）　※<color=#ff679d>憐属性</color>の与那国 緋花里のみ対象",
+      "iconImagePath": "124"
+    }
   }
 ]

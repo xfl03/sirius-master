@@ -1256,6 +1256,19 @@
     "coolTime": 40
   },
   {
+    "id": 130360,
+    "name": "ど、どどど、どうしよう！",
+    "description": "[:score]倍のスコアを獲得",
+    "type": "Amplification",
+    "preEffects": [],
+    "branches": [],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 520,
+    "scoreUpPerLevel": 50,
+    "lightCount": 1,
+    "coolTime": 60
+  },
+  {
     "id": 140010,
     "name": "悲哀と恋慕の旋律",
     "description": "[:score]倍のスコアを獲得／ライフを[:param11]回復／ライフが多いほどここなのスコア獲得量UP（最大＋100％）",
@@ -1997,5 +2010,31 @@
     "scoreUpPerLevel": 60,
     "lightCount": 1,
     "coolTime": 50
+  },
+  {
+    "id": 140460,
+    "name": "遠い遠い雪催い",
+    "description": "[:score]倍のスコアを獲得",
+    "type": "Amplification",
+    "preEffects": [],
+    "branches": [],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 740,
+    "scoreUpPerLevel": 70,
+    "lightCount": 1,
+    "coolTime": 60
+  },
+  {
+    "id": 140470,
+    "name": "銀世界に冴ゆる心友",
+    "description": "[:score]倍のスコアを獲得",
+    "type": "Support",
+    "preEffects": [],
+    "branches": [],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 600,
+    "scoreUpPerLevel": 50,
+    "lightCount": 1,
+    "coolTime": 40
   }
 ]
