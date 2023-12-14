@@ -4,19 +4,27 @@
     "classes": [
       {
         "id": 1,
+        "upUserAmount": null,
         "keepUserAmount": 0,
         "isForceDownNotPlayingLeague": false,
         "upRewardPackageMasterId": 11,
+        "keepRewardPackageMasterId": null,
+        "downRewardPackageMasterId": null,
+        "firstAchieveRewardPackageMasterId": null,
+        "nameplateMasterId": null,
         "classType": "Rookie",
         "leagueClassGroupMasterId": 1
       },
       {
         "id": 2,
         "upUserAmount": 80,
+        "keepUserAmount": null,
         "isForceDownNotPlayingLeague": false,
         "upRewardPackageMasterId": 21,
         "keepRewardPackageMasterId": 22,
+        "downRewardPackageMasterId": null,
         "firstAchieveRewardPackageMasterId": 20,
+        "nameplateMasterId": null,
         "classType": "Hope",
         "leagueClassGroupMasterId": 1
       },
@@ -29,6 +37,7 @@
         "keepRewardPackageMasterId": 32,
         "downRewardPackageMasterId": 33,
         "firstAchieveRewardPackageMasterId": 30,
+        "nameplateMasterId": null,
         "classType": "Cast",
         "leagueClassGroupMasterId": 1
       },
@@ -41,6 +50,7 @@
         "keepRewardPackageMasterId": 42,
         "downRewardPackageMasterId": 43,
         "firstAchieveRewardPackageMasterId": 40,
+        "nameplateMasterId": null,
         "classType": "Elite",
         "leagueClassGroupMasterId": 1
       },
@@ -53,6 +63,7 @@
         "keepRewardPackageMasterId": 52,
         "downRewardPackageMasterId": 53,
         "firstAchieveRewardPackageMasterId": 50,
+        "nameplateMasterId": null,
         "classType": "Veteran",
         "leagueClassGroupMasterId": 1
       },
@@ -65,6 +76,7 @@
         "keepRewardPackageMasterId": 62,
         "downRewardPackageMasterId": 63,
         "firstAchieveRewardPackageMasterId": 60,
+        "nameplateMasterId": null,
         "classType": "Star",
         "leagueClassGroupMasterId": 1
       },
@@ -73,8 +85,11 @@
         "upUserAmount": 0,
         "keepUserAmount": 50,
         "isForceDownNotPlayingLeague": true,
+        "upRewardPackageMasterId": null,
         "keepRewardPackageMasterId": 72,
         "downRewardPackageMasterId": 73,
+        "firstAchieveRewardPackageMasterId": null,
+        "nameplateMasterId": null,
         "classType": "DaiStar",
         "leagueClassGroupMasterId": 1
       }
