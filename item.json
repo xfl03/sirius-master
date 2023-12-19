@@ -140,6 +140,19 @@
     "rarity": "R"
   },
   {
+    "id": 111010,
+    "name": "高級スタミナドリンク【～12月31日 15:00】",
+    "description": "美容にも欠かせない一級品のドリンク。スタミナを100回復する。2023年12月31日15時まで使用できる。",
+    "displayOrder": 10,
+    "displayEndDate": 1704034800.0,
+    "maxStock": 99999,
+    "category": "StaminaRecovery",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Normal",
+    "rarity": "R"
+  },
+  {
     "id": 120001,
     "name": "練習台本【初級】",
     "description": "新人の登竜門とされる演目が描かれた台本。アクターEXPが10上昇する。公演など様々な場所で入手できる。",
@@ -605,6 +618,19 @@
     "description": "人気アニメのキャラクターがプリントされたおまもり。電姫空間でシークレットアクセサリーが入手しやすくなる。2023年12月8日22時まで使用できる。",
     "displayOrder": 139005,
     "displayEndDate": 1702072800.0,
+    "maxStock": 1,
+    "category": "ConsumeItem",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Normal",
+    "rarity": "SSR"
+  },
+  {
+    "id": 139006,
+    "name": "劇団電姫のおまもり【～1月9日 22:00】",
+    "description": "人気アニメのキャラクターがプリントされたおまもり。電姫空間でシークレットアクセサリーが入手しやすくなる。2024年1月9日22時まで使用できる。",
+    "displayOrder": 139006,
+    "displayEndDate": 1704837600.0,
     "maxStock": 1,
     "category": "ConsumeItem",
     "consumable": false,
@@ -1549,6 +1575,18 @@
     "rarity": "SSR"
   },
   {
+    "id": 143037,
+    "name": "★3【さあ、どうぞ】千寿暦のピース",
+    "description": "★3【さあ、どうぞ】千寿暦の才能開花に使用できるアイテム。",
+    "displayOrder": 143037,
+    "maxStock": 99999,
+    "category": "TalentBloom",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Piece",
+    "rarity": "SSR"
+  },
+  {
     "id": 144001,
     "name": "★4【悲哀と恋慕の旋律】鳳ここなのピース",
     "description": "★4【悲哀と恋慕の旋律】鳳ここなの才能開花に使用できるアイテム。",
@@ -2077,6 +2115,30 @@
     "rarity": "SSR"
   },
   {
+    "id": 144048,
+    "name": "★4【CEOからの特別な……♡】リリヤ・クルトベイのピース",
+    "description": "★4【CEOからの特別な……♡】リリヤ・クルトベイの才能開花に使用できるアイテム。",
+    "displayOrder": 144050,
+    "maxStock": 99999,
+    "category": "TalentBloom",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Piece",
+    "rarity": "SSR"
+  },
+  {
+    "id": 144049,
+    "name": "★4【あなたにだけのプレゼント】王雪のピース",
+    "description": "★4【あなたにだけのプレゼント】王雪の才能開花に使用できるアイテム。",
+    "displayOrder": 144051,
+    "maxStock": 99999,
+    "category": "TalentBloom",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Piece",
+    "rarity": "SSR"
+  },
+  {
     "id": 210001,
     "name": "アクターガチャチケット",
     "description": "アクターガチャを引くことができるチケット。",
@@ -2504,6 +2566,19 @@
     "rarity": "R"
   },
   {
+    "id": 411019,
+    "name": "ガチャポイント",
+    "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
+    "displayOrder": 411019,
+    "displayEndDate": 1704034800.0,
+    "maxStock": 99999,
+    "category": "GachaPoint",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Hidden",
+    "rarity": "R"
+  },
+  {
     "id": 411800,
     "name": "ガチャポイント",
     "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
@@ -2725,6 +2800,19 @@
     "rarity": "R"
   },
   {
+    "id": 412018,
+    "name": "ガチャポイント",
+    "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
+    "displayOrder": 412018,
+    "displayEndDate": 1704034800.0,
+    "maxStock": 99999,
+    "category": "GachaPoint",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Hidden",
+    "rarity": "R"
+  },
+  {
     "id": 412800,
     "name": "ガチャポイント",
     "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
@@ -2898,6 +2986,18 @@
     "name": "イベントポイント",
     "description": "イベントの交換所から様々なアイテムと交換できる。",
     "displayOrder": 420015,
+    "maxStock": 1999999999,
+    "category": "EventPoint",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Hidden",
+    "rarity": "R"
+  },
+  {
+    "id": 420016,
+    "name": "イベントポイント",
+    "description": "イベントの交換所から様々なアイテムと交換できる。",
+    "displayOrder": 420016,
     "maxStock": 1999999999,
     "category": "EventPoint",
     "consumable": false,

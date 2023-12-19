@@ -1423,6 +1423,21 @@
     "branchCondition2": "None"
   },
   {
+    "id": 130370,
+    "name": "さあ、どうぞ",
+    "description": "[:score]倍のスコアを獲得",
+    "type": "Special",
+    "preEffects": [],
+    "branches": [],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 490,
+    "scoreUpPerLevel": 40,
+    "lightCount": 1,
+    "coolTime": 50,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
     "id": 140010,
     "name": "悲哀と恋慕の旋律",
     "description": "[:score]倍のスコアを獲得／ライフを[:param11]回復／ライフが多いほどここなのスコア獲得量UP（最大＋100％）",
@@ -2276,6 +2291,47 @@
     "scoreUpPerLevel": 50,
     "lightCount": 1,
     "coolTime": 40,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 140480,
+    "name": "CEOからの特別な……♡",
+    "description": "[:score]倍のスコアを獲得／ライフを[:param11]回復",
+    "type": "Control",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20014
+          }
+        ],
+        "id": 1404801
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 250,
+    "scoreUpPerLevel": 60,
+    "lightCount": 1,
+    "coolTime": 50,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 140490,
+    "name": "あなたにだけのプレゼント",
+    "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得",
+    "type": "Amplification",
+    "preEffects": [],
+    "branches": [],
+    "acquirableGauge": 120,
+    "acquirableScorePercent": 190,
+    "scoreUpPerLevel": 70,
+    "lightCount": 1,
+    "coolTime": 60,
     "branchCondition1": "None",
     "branchCondition2": "None"
   }

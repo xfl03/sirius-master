@@ -3288,6 +3288,30 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 220320,
+    "name": "星明かりのおくりもの",
+    "description": "<color=#FF9314>陽属性</color>のアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 220320,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70022004
+          }
+        ],
+        "id": 22032001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 229010,
     "name": "初めての舞台",
     "description": "<color=#7AC940>彩属性</color>のアクターの演技力が[:param11]%上昇",
@@ -6102,6 +6126,30 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 230320,
+    "name": "今夜だけは特別に",
+    "description": "銀河座に所属するアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 230320,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70052300
+          }
+        ],
+        "id": 23032001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 330010,
     "name": "共犯者のふたり",
     "description": "劇団電姫に所属するアクターの演技力が[:param11]％上昇",
@@ -6504,6 +6552,54 @@
           }
         ],
         "id": 220310201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2203201,
+    "name": "演技力アップ＋",
+    "description": "自身の演技力が[:param11]％上昇　◆発動条件：<color=#FF9314>陽属性</color>のアクターが装備",
+    "posterMasterId": 220320,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10011004
+          }
+        ],
+        "id": 220320101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2203202,
+    "name": "ライフブースト",
+    "description": "センス発動直後、ライフを[:param11]回復　◆発動条件：<color=#FF9314>陽属性</color>のアクターが装備",
+    "posterMasterId": 220320,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11211004
+          }
+        ],
+        "id": 220320201
       }
     ],
     "branchConditionType1": "None",
@@ -7104,6 +7200,78 @@
           }
         ],
         "id": 230310201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2303201,
+    "name": "演技力アップⅢ",
+    "description": "自身の演技力が[:param11]％上昇",
+    "posterMasterId": 230320,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10030000
+          }
+        ],
+        "id": 230320101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2303202,
+    "name": "P.ゲージ獲得量アップ",
+    "description": "センスによるP.ゲージの獲得量が[:param11]%UP　◆発動条件：銀河座に所属するアクターが装備",
+    "posterMasterId": 230320,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11610300
+          }
+        ],
+        "id": 230320201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2303203,
+    "name": "初期P.ゲージ上昇＋",
+    "description": "公演開始時、P.ゲージが[:param11]上昇　◆発動条件：銀河座に所属するアクターが装備",
+    "posterMasterId": 230320,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11511300
+          }
+        ],
+        "id": 230320301
       }
     ],
     "branchConditionType1": "None",
