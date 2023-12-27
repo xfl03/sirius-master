@@ -3312,6 +3312,30 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 220330,
+    "name": "新年はあなたの手を取って",
+    "description": "<color=#ff679d>憐属性</color>のアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 220330,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70022001
+          }
+        ],
+        "id": 22033001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 229010,
     "name": "初めての舞台",
     "description": "<color=#7AC940>彩属性</color>のアクターの演技力が[:param11]%上昇",
@@ -6150,6 +6174,54 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 230330,
+    "name": "これからは守り神として",
+    "description": "<color=#ff679d>憐属性</color>のアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 230330,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70052001
+          }
+        ],
+        "id": 23033001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 320050,
+    "name": "謹賀新年2024",
+    "description": "全アクターの演技力が[:param11]％上昇",
+    "posterMasterId": 320050,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70011000
+          }
+        ],
+        "id": 32005001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 330010,
     "name": "共犯者のふたり",
     "description": "劇団電姫に所属するアクターの演技力が[:param11]％上昇",
@@ -6600,6 +6672,54 @@
           }
         ],
         "id": 220320201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2203301,
+    "name": "スコアブースト",
+    "description": "センス発動直後、現在のスコアの[:param11]%のスコアを獲得　◆発動条件：<color=#ff679d>憐属性</color>のアクターが装備",
+    "posterMasterId": 220330,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10810001
+          }
+        ],
+        "id": 220330101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2203302,
+    "name": "初期P.ゲージ上昇",
+    "description": "公演開始時、P.ゲージが[:param11]上昇　◆発動条件：<color=#ff679d>憐属性</color>のアクターが装備",
+    "posterMasterId": 220330,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11510001
+          }
+        ],
+        "id": 220330201
       }
     ],
     "branchConditionType1": "None",
@@ -7272,6 +7392,102 @@
           }
         ],
         "id": 230320301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2303301,
+    "name": "演技力アップⅢ",
+    "description": "自身の演技力が[:param11]％上昇",
+    "posterMasterId": 230330,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10030000
+          }
+        ],
+        "id": 230330101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2303302,
+    "name": "初期P.ゲージ上昇",
+    "description": "公演開始時、P.ゲージが[:param11]上昇　◆発動条件：<color=#ff679d>憐属性</color>のアクターが装備",
+    "posterMasterId": 230330,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11510001
+          }
+        ],
+        "id": 230330201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2303303,
+    "name": "「光」追加（SP）Ⅰ",
+    "description": "公演開始時、SP光を[:param11]付与（効果は公演開始時1回のみ発動する）　◆発動条件：<color=#ff679d>憐属性</color>のアクターが装備",
+    "posterMasterId": 230330,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11910001
+          }
+        ],
+        "id": 230330301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3200501,
+    "name": "報酬量アップ",
+    "description": "公演と協力公演の公演報酬が[:param11]％増加（アクセサリーを除く）",
+    "posterMasterId": 320050,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 12500000
+          }
+        ],
+        "id": 320050101
       }
     ],
     "branchConditionType1": "None",

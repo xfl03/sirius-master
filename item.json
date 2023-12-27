@@ -153,6 +153,19 @@
     "rarity": "R"
   },
   {
+    "id": 111011,
+    "name": "高級スタミナドリンク【～1月10日 17:00】",
+    "description": "美容にも欠かせない一級品のドリンク。スタミナを100回復する。2024年1月10日17時まで使用できる。",
+    "displayOrder": 11,
+    "displayEndDate": 1704906000.0,
+    "maxStock": 99999,
+    "category": "StaminaRecovery",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Normal",
+    "rarity": "R"
+  },
+  {
     "id": 120001,
     "name": "練習台本【初級】",
     "description": "新人の登竜門とされる演目が描かれた台本。アクターEXPが10上昇する。公演など様々な場所で入手できる。",
@@ -1587,6 +1600,18 @@
     "rarity": "SSR"
   },
   {
+    "id": 143038,
+    "name": "★3【開運は実力よね！】静香のピース",
+    "description": "★3【開運は実力よね！】静香の才能開花に使用できるアイテム。",
+    "displayOrder": 143038,
+    "maxStock": 99999,
+    "category": "TalentBloom",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Piece",
+    "rarity": "SSR"
+  },
+  {
     "id": 144001,
     "name": "★4【悲哀と恋慕の旋律】鳳ここなのピース",
     "description": "★4【悲哀と恋慕の旋律】鳳ここなの才能開花に使用できるアイテム。",
@@ -2139,6 +2164,30 @@
     "rarity": "SSR"
   },
   {
+    "id": 144050,
+    "name": "★4【瑞祥新春の舞】カトリナ・グリーベルのピース",
+    "description": "★4【瑞祥新春の舞】カトリナ・グリーベルの才能開花に使用できるアイテム。",
+    "displayOrder": 144052,
+    "maxStock": 99999,
+    "category": "TalentBloom",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Piece",
+    "rarity": "SSR"
+  },
+  {
+    "id": 144051,
+    "name": "★4【人里の宴も悪くない】ラモーナ・ウォルフのピース",
+    "description": "★4【人里の宴も悪くない】ラモーナ・ウォルフの才能開花に使用できるアイテム。",
+    "displayOrder": 144053,
+    "maxStock": 99999,
+    "category": "TalentBloom",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Piece",
+    "rarity": "SSR"
+  },
+  {
     "id": 210001,
     "name": "アクターガチャチケット",
     "description": "アクターガチャを引くことができるチケット。",
@@ -2297,9 +2346,22 @@
     "rarity": "R"
   },
   {
+    "id": 212001,
+    "name": "お正月福引券【2024】",
+    "description": "お正月特別キャンペーン福引抽選会【2024】を利用することができる福引券。",
+    "displayOrder": 212001,
+    "displayEndDate": 1705078800.0,
+    "maxStock": 99999,
+    "category": "ConsumeItem",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Ticket",
+    "rarity": "R"
+  },
+  {
     "id": 220001,
-    "name": "アクター交換スペシャルチケット",
-    "description": "ショップでアクターと交換できるチケット。",
+    "name": "★4アクター交換チケット【お正月2024】",
+    "description": "ショップで特定の★4アクターと交換できるチケット。",
     "displayOrder": 220001,
     "maxStock": 99999,
     "category": "ExchangeTicket",
@@ -2325,6 +2387,18 @@
     "name": "SSRポスター交換チケット【50万DL記念】",
     "description": "ショップで特定のSSRポスターと交換できるチケット。",
     "displayOrder": 221001,
+    "maxStock": 99999,
+    "category": "ExchangeTicket",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Ticket",
+    "rarity": "SSR"
+  },
+  {
+    "id": 221002,
+    "name": "SSRポスター交換チケット【お正月2024】",
+    "description": "ショップで特定のSSRポスターと交換できるチケット。",
+    "displayOrder": 221002,
     "maxStock": 99999,
     "category": "ExchangeTicket",
     "consumable": false,
@@ -2579,11 +2653,37 @@
     "rarity": "R"
   },
   {
+    "id": 411022,
+    "name": "ガチャポイント",
+    "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
+    "displayOrder": 411022,
+    "displayEndDate": 1704906000.0,
+    "maxStock": 99999,
+    "category": "GachaPoint",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Hidden",
+    "rarity": "R"
+  },
+  {
     "id": 411800,
     "name": "ガチャポイント",
     "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
     "displayOrder": 411800,
     "displayEndDate": 1698685200.0,
+    "maxStock": 99999,
+    "category": "GachaPoint",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Hidden",
+    "rarity": "R"
+  },
+  {
+    "id": 411802,
+    "name": "ガチャポイント",
+    "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
+    "displayOrder": 411802,
+    "displayEndDate": 1704474000.0,
     "maxStock": 99999,
     "category": "GachaPoint",
     "consumable": false,
@@ -2813,6 +2913,19 @@
     "rarity": "R"
   },
   {
+    "id": 412019,
+    "name": "ガチャポイント",
+    "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
+    "displayOrder": 412019,
+    "displayEndDate": 1704906000.0,
+    "maxStock": 99999,
+    "category": "GachaPoint",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Hidden",
+    "rarity": "R"
+  },
+  {
     "id": 412800,
     "name": "ガチャポイント",
     "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
@@ -3006,6 +3119,30 @@
     "rarity": "R"
   },
   {
+    "id": 420017,
+    "name": "イベントポイント",
+    "description": "イベントの交換所から様々なアイテムと交換できる。",
+    "displayOrder": 420017,
+    "maxStock": 1999999999,
+    "category": "EventPoint",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Hidden",
+    "rarity": "R"
+  },
+  {
+    "id": 421001,
+    "name": "イベントポイント",
+    "description": "",
+    "displayOrder": 421001,
+    "maxStock": 1999999999,
+    "category": "EventPoint",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Hidden",
+    "rarity": "R"
+  },
+  {
     "id": 432308,
     "name": "ミッションパスポイント【2023年8月】",
     "description": "公演ミッションの報酬獲得に必要なポイント",
@@ -3058,6 +3195,18 @@
     "name": "ミッションパスポイント【2023年12月】",
     "description": "公演ミッションの報酬獲得に必要なポイント",
     "displayOrder": 432312,
+    "maxStock": 9999999,
+    "category": "MissionPassPoint",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Hidden",
+    "rarity": "R"
+  },
+  {
+    "id": 432401,
+    "name": "ミッションパスポイント【2024年1月】",
+    "description": "公演ミッションの報酬獲得に必要なポイント",
+    "displayOrder": 432401,
     "maxStock": 9999999,
     "category": "MissionPassPoint",
     "consumable": false,

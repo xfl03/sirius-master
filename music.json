@@ -355,6 +355,22 @@
           402,
           405
         ]
+      },
+      {
+        "id": 902,
+        "musicMasterId": 9,
+        "vocalVersion": 2,
+        "singer": "白丸美兎、本巣叶羽、千寿いろは",
+        "name": "Drawing World （Long Ver）",
+        "musicTimeSecond": 252,
+        "sampleStartSeconds": 0.0,
+        "sampleEndSeconds": 0.0,
+        "musicVideoType": "None",
+        "characters": [
+          401,
+          402,
+          405
+        ]
       }
     ],
     "unlockConditionType": "Buy",
@@ -2699,6 +2715,45 @@
     "musicCoverType": "Cover"
   },
   {
+    "id": 79,
+    "name": "HAPPY NEW SHOW TIME!",
+    "description": "",
+    "rewardRuleMasterId": 1,
+    "pronounceName": "happynewshowtime",
+    "lyricWriter": "松井洋平",
+    "composer": "光増ハジメ（FirstCall）",
+    "arranger": "光増ハジメ（FirstCall）",
+    "isLongVersion": false,
+    "releasedAt": 1704067200.0,
+    "staminaConsumption": 29,
+    "musicTimeSecond": 116,
+    "invisible": false,
+    "sampleStartSeconds": 0.0,
+    "sampleEndSeconds": 0.0,
+    "delaySeconds": 0.0,
+    "vocalVersions": [
+      {
+        "id": 7901,
+        "musicMasterId": 79,
+        "vocalVersion": 1,
+        "singer": "カトリナ・グリーベル、鳳ここな、静香",
+        "name": "HAPPY NEW SHOW TIME!",
+        "musicTimeSecond": 116,
+        "sampleStartSeconds": 0.0,
+        "sampleEndSeconds": 0.0,
+        "musicVideoType": "RealTimeRendering",
+        "characters": [
+          101,
+          102,
+          103
+        ]
+      }
+    ],
+    "unlockConditionType": "Default",
+    "musicVideoType": "RealTimeRendering",
+    "musicCoverType": "Original"
+  },
+  {
     "id": 84,
     "name": "かくれんぼ",
     "description": "",
@@ -2768,6 +2823,44 @@
         "characters": [
           303,
           305
+        ]
+      }
+    ],
+    "unlockConditionType": "Buy",
+    "musicVideoType": "None",
+    "musicCoverType": "Cover"
+  },
+  {
+    "id": 86,
+    "name": "アスノヨゾラ哨戒班",
+    "description": "",
+    "rewardRuleMasterId": 1,
+    "pronounceName": "あすのよぞらしょうかいはん",
+    "lyricWriter": "Orangestar",
+    "composer": "Orangestar",
+    "arranger": "-",
+    "unlockText": "楽曲ショップで購入",
+    "isLongVersion": false,
+    "releasedAt": 1704560400.0,
+    "staminaConsumption": 31,
+    "musicTimeSecond": 128,
+    "invisible": false,
+    "sampleStartSeconds": 0.0,
+    "sampleEndSeconds": 0.0,
+    "delaySeconds": 0.0,
+    "vocalVersions": [
+      {
+        "id": 8601,
+        "musicMasterId": 86,
+        "vocalVersion": 1,
+        "singer": "猫足蕾",
+        "name": "アスノヨゾラ哨戒班",
+        "musicTimeSecond": 128,
+        "sampleStartSeconds": 0.0,
+        "sampleEndSeconds": 0.0,
+        "musicVideoType": "None",
+        "characters": [
+          404
         ]
       }
     ],
