@@ -11,9 +11,9 @@
     "id": 2,
     "name": "ログインパス",
     "layoutType": 10,
-    "isDisplayLocking": 0,
+    "isDisplayLocking": 1,
     "bannerPath": "img_common_tab_icon_login_pass",
-    "order": 4
+    "order": 6
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "layoutType": 20,
     "isDisplayLocking": 0,
     "bannerPath": "img_common_tab_icon_value_pass",
-    "order": 3
+    "order": 2
   },
   {
     "id": 4,
@@ -29,7 +29,7 @@
     "layoutType": 30,
     "isDisplayLocking": 0,
     "bannerPath": "img_common_tab_icon_value_pack",
-    "order": 2
+    "order": 4
   },
   {
     "id": 5,
@@ -37,6 +37,14 @@
     "layoutType": 30,
     "isDisplayLocking": 1,
     "bannerPath": "img_common_tab_icon_limited_pack",
+    "order": 3
+  },
+  {
+    "id": 6,
+    "name": "おすすめ",
+    "layoutType": 10,
+    "isDisplayLocking": 1,
+    "bannerPath": "img_common_tab_icon_circle_recommend",
     "order": 1
   }
 ]

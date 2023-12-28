@@ -6,7 +6,9 @@
     "iconImagePath": "4",
     "order": 1,
     "startDate": 1695618000.0,
-    "endDate": 1696050000.0
+    "endDate": 1696050000.0,
+    "campaignEffectType": "RankPoint",
+    "campaignEffectValue": 50
   },
   {
     "id": 2,
@@ -15,7 +17,9 @@
     "iconImagePath": "3",
     "order": 2,
     "startDate": 1696050000.0,
-    "endDate": 1696827600.0
+    "endDate": 1696827600.0,
+    "campaignEffectType": "StarPoint",
+    "campaignEffectValue": 50
   },
   {
     "id": 3,
@@ -24,7 +28,9 @@
     "iconImagePath": "1",
     "order": 3,
     "startDate": 1696827600.0,
-    "endDate": 1697518800.0
+    "endDate": 1697518800.0,
+    "campaignEffectType": "LiveReward",
+    "campaignEffectValue": 50
   },
   {
     "id": 4,
@@ -33,7 +39,9 @@
     "iconImagePath": "1",
     "order": 4,
     "startDate": 1703869200.0,
-    "endDate": 1704837600.0
+    "endDate": 1704837600.0,
+    "campaignEffectType": "AccessoryDropRate",
+    "campaignEffectValue": 0
   },
   {
     "id": 5,
@@ -42,7 +50,9 @@
     "iconImagePath": "4",
     "order": 5,
     "startDate": 1704034800.0,
-    "endDate": 1704430800.0
+    "endDate": 1704430800.0,
+    "campaignEffectType": "RankPoint",
+    "campaignEffectValue": 50
   },
   {
     "id": 6,
@@ -51,7 +61,9 @@
     "iconImagePath": "1001",
     "order": 6,
     "startDate": 1704430800.0,
-    "endDate": 1704862800.0
+    "endDate": 1704862800.0,
+    "campaignEffectType": "LessonCount",
+    "campaignEffectValue": 1
   },
   {
     "id": 1000,
@@ -61,7 +73,9 @@
     "order": 1000,
     "startDate": 1697778000.0,
     "endDate": 4102444800.0,
-    "comebackCampaignMasterId": 1
+    "comebackCampaignMasterId": 1,
+    "campaignEffectType": "RankPoint",
+    "campaignEffectValue": 50
   },
   {
     "id": 1001,
@@ -71,6 +85,8 @@
     "order": 1001,
     "startDate": 1697778000.0,
     "endDate": 4102444800.0,
-    "comebackCampaignMasterId": 1
+    "comebackCampaignMasterId": 1,
+    "campaignEffectType": "LessonCount",
+    "campaignEffectValue": 1
   }
 ]

@@ -454,8 +454,8 @@
     "appStoreProductId": "2001",
     "googlePlayProductId": "2001",
     "name": "ログインパス",
-    "packText": "",
-    "mJewelShopCategoryId": 2,
+    "packText": "ログインパス",
+    "mJewelShopCategoryId": 3,
     "dialogType": 2,
     "purchaseType": "Money",
     "purchaseValue": 480,
@@ -478,7 +478,7 @@
     "appStoreProductId": "3002",
     "googlePlayProductId": "3002",
     "name": "スターパス",
-    "packText": "",
+    "packText": "スターパス",
     "mJewelShopCategoryId": 3,
     "dialogType": 2,
     "purchaseType": "Money",
@@ -500,7 +500,7 @@
     "appStoreProductId": "3004",
     "googlePlayProductId": "3004",
     "name": "ダイスターパス",
-    "packText": "",
+    "packText": "ダイスターパス",
     "mJewelShopCategoryId": 3,
     "dialogType": 2,
     "purchaseType": "Money",
@@ -5779,6 +5779,106 @@
         "thingId": 0,
         "thingType": "Jewel",
         "thingQuantity": 1000
+      }
+    ],
+    "shopItemType": "None"
+  },
+  {
+    "id": 5060,
+    "order": 319,
+    "appStoreProductId": "5060",
+    "googlePlayProductId": "5060",
+    "name": "福袋パック2024【夢】",
+    "packText": "福袋パック2024【夢】",
+    "mJewelShopCategoryId": 6,
+    "dialogType": 1,
+    "purchaseType": "Money",
+    "purchaseValue": 9800,
+    "subscriptionFlag": false,
+    "givePaidJewel": 9800,
+    "replaceTypes": 0,
+    "purchaseLimit": 1,
+    "canPurchaseDayOfWeek": "",
+    "isBuyNotDisplay": false,
+    "isDisplayLocking": false,
+    "startDate": 1704034800.0,
+    "endDate": 1704906000.0,
+    "lineup": [
+      {
+        "id": 506001,
+        "mJewelShopItemId": 5060,
+        "thingId": 130071,
+        "thingType": "Item",
+        "thingQuantity": 50
+      },
+      {
+        "id": 506002,
+        "mJewelShopItemId": 5060,
+        "thingId": 140000,
+        "thingType": "Item",
+        "thingQuantity": 2000
+      }
+    ],
+    "shopItemType": "None"
+  },
+  {
+    "id": 5061,
+    "order": 320,
+    "appStoreProductId": "5061",
+    "googlePlayProductId": "5061",
+    "name": "福袋パック2024【星】",
+    "packText": "福袋パック2024【星】",
+    "mJewelShopCategoryId": 6,
+    "dialogType": 1,
+    "purchaseType": "Money",
+    "purchaseValue": 4800,
+    "subscriptionFlag": false,
+    "givePaidJewel": 4800,
+    "replaceTypes": 0,
+    "purchaseLimit": 1,
+    "canPurchaseDayOfWeek": "",
+    "isBuyNotDisplay": false,
+    "isDisplayLocking": false,
+    "startDate": 1704034800.0,
+    "endDate": 1704906000.0,
+    "lineup": [
+      {
+        "id": 506101,
+        "mJewelShopItemId": 5061,
+        "thingId": 220001,
+        "thingType": "Item",
+        "thingQuantity": 1
+      }
+    ],
+    "shopItemType": "None"
+  },
+  {
+    "id": 5062,
+    "order": 321,
+    "appStoreProductId": "5062",
+    "googlePlayProductId": "5062",
+    "name": "福袋パック2024【輝】",
+    "packText": "福袋パック2024【輝】",
+    "mJewelShopCategoryId": 6,
+    "dialogType": 1,
+    "purchaseType": "Money",
+    "purchaseValue": 3000,
+    "subscriptionFlag": false,
+    "givePaidJewel": 3000,
+    "replaceTypes": 0,
+    "purchaseLimit": 1,
+    "canPurchaseDayOfWeek": "",
+    "isBuyNotDisplay": false,
+    "isDisplayLocking": false,
+    "startDate": 1704034800.0,
+    "endDate": 1704906000.0,
+    "lineup": [
+      {
+        "id": 506201,
+        "mJewelShopItemId": 5062,
+        "thingId": 221002,
+        "thingType": "Item",
+        "thingQuantity": 1
       }
     ],
     "shopItemType": "None"
