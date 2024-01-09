@@ -622,5 +622,109 @@
       "effectDescription": "スターアクト発動条件に必要な光の数を超えて付与された光を最大[:param1]個「SP光」に変換する（レベル10の時に効果発動）　※<color=#ff679d>憐属性</color>の与那国 緋花里のみ対象",
       "iconImagePath": "124"
     }
+  },
+  {
+    "id": 2001801,
+    "storyEventHighScoreMasterId": 20018,
+    "storyEventHighScoreBuffMasterId": 11,
+    "storyEventHighScoreBuffMaster": {
+      "id": 11,
+      "storyEventHighScoreBuffPatternGroupId": 1,
+      "effectMasterId": 80003,
+      "effectName": "舞台照明",
+      "effectDescription": "アクターの集中力が[:param1]上昇する",
+      "iconImagePath": "11"
+    }
+  },
+  {
+    "id": 2001802,
+    "storyEventHighScoreMasterId": 20018,
+    "storyEventHighScoreBuffMasterId": 12,
+    "storyEventHighScoreBuffMaster": {
+      "id": 12,
+      "storyEventHighScoreBuffPatternGroupId": 1,
+      "effectMasterId": 80002,
+      "effectName": "舞台スピーカー",
+      "effectDescription": "アクターの表現力が[:param1]上昇する",
+      "iconImagePath": "12"
+    }
+  },
+  {
+    "id": 2001803,
+    "storyEventHighScoreMasterId": 20018,
+    "storyEventHighScoreBuffMasterId": 13,
+    "storyEventHighScoreBuffMaster": {
+      "id": 13,
+      "storyEventHighScoreBuffPatternGroupId": 1,
+      "effectMasterId": 80001,
+      "effectName": "舞台マイク",
+      "effectDescription": "アクターの歌唱力が[:param1]上昇する",
+      "iconImagePath": "13"
+    }
+  },
+  {
+    "id": 2001804,
+    "storyEventHighScoreMasterId": 20018,
+    "storyEventHighScoreBuffMasterId": 14,
+    "storyEventHighScoreBuffMaster": {
+      "id": 14,
+      "storyEventHighScoreBuffPatternGroupId": 1,
+      "effectMasterId": 80004,
+      "effectName": "舞台カーテン",
+      "effectDescription": "アクターの演技力が[:param1]％上昇する",
+      "iconImagePath": "14"
+    }
+  },
+  {
+    "id": 2001805,
+    "storyEventHighScoreMasterId": 20018,
+    "storyEventHighScoreBuffMasterId": 125,
+    "storyEventHighScoreBuffMaster": {
+      "id": 125,
+      "storyEventHighScoreBuffPatternGroupId": 2,
+      "effectMasterId": 80029,
+      "effectName": "吊り橋",
+      "effectDescription": "アクターの集中力が[:param1]％上昇する　※<color=#33B4DF>凛属性</color>のアクターのみ対象",
+      "iconImagePath": "126"
+    }
+  },
+  {
+    "id": 2001806,
+    "storyEventHighScoreMasterId": 20018,
+    "storyEventHighScoreBuffMasterId": 126,
+    "storyEventHighScoreBuffMaster": {
+      "id": 126,
+      "storyEventHighScoreBuffPatternGroupId": 2,
+      "effectMasterId": 80030,
+      "effectName": "ピクニックセット",
+      "effectDescription": "アクターの演技力上限値が[:param1]％上昇する　※<color=#33B4DF>凛属性</color>のアクターのみ対象",
+      "iconImagePath": "127"
+    }
+  },
+  {
+    "id": 2001807,
+    "storyEventHighScoreMasterId": 20018,
+    "storyEventHighScoreBuffMasterId": 127,
+    "storyEventHighScoreBuffMaster": {
+      "id": 127,
+      "storyEventHighScoreBuffPatternGroupId": 2,
+      "effectMasterId": 80031,
+      "effectName": "パフェ",
+      "effectDescription": "スターアクト発動に必要な支配の光<color=#ff0000>*</color>が[:param1]個減少する（必要な光の数は1個未満にならない）　※<color=#33B4DF>凛属性</color>の舎人 仁花子のみ対象",
+      "iconImagePath": "125"
+    }
+  },
+  {
+    "id": 2001808,
+    "storyEventHighScoreMasterId": 20018,
+    "storyEventHighScoreBuffMasterId": 128,
+    "storyEventHighScoreBuffMaster": {
+      "id": 128,
+      "storyEventHighScoreBuffPatternGroupId": 2,
+      "effectMasterId": 80032,
+      "effectName": "半分このドーナッツ",
+      "effectDescription": "センス発動時、追加で「SP光」を[:param1]個付与する　※<color=#33B4DF>凛属性</color>の筆島 しぐれのみ対象",
+      "iconImagePath": "128"
+    }
   }
 ]

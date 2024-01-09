@@ -1569,6 +1569,51 @@
     "shopItemType": "None"
   },
   {
+    "id": 4212,
+    "order": 812,
+    "appStoreProductId": "",
+    "googlePlayProductId": "",
+    "name": "育成パック【ランク120】",
+    "packText": "",
+    "mJewelShopCategoryId": 4,
+    "dialogType": 1,
+    "purchaseType": "Paid",
+    "purchaseValue": 1200,
+    "subscriptionFlag": false,
+    "replaceTypes": 0,
+    "purchaseLimit": 1,
+    "canPurchaseDayOfWeek": "",
+    "isBuyNotDisplay": true,
+    "isDisplayLocking": true,
+    "unlockType": 16,
+    "unlockValue": 120,
+    "startDate": 1672531200.0,
+    "lineup": [
+      {
+        "id": 421201,
+        "mJewelShopItemId": 4212,
+        "thingId": 120003,
+        "thingType": "Item",
+        "thingQuantity": 60
+      },
+      {
+        "id": 421202,
+        "mJewelShopItemId": 4212,
+        "thingId": 130012,
+        "thingType": "Item",
+        "thingQuantity": 60
+      },
+      {
+        "id": 421203,
+        "mJewelShopItemId": 4212,
+        "thingId": 130071,
+        "thingType": "Item",
+        "thingQuantity": 7
+      }
+    ],
+    "shopItemType": "None"
+  },
+  {
     "id": 4301,
     "order": 201,
     "appStoreProductId": "",
@@ -5884,6 +5929,107 @@
     "shopItemType": "None"
   },
   {
+    "id": 5063,
+    "order": 604,
+    "appStoreProductId": "5063",
+    "googlePlayProductId": "5063",
+    "name": "育成もりもりパック",
+    "packText": "",
+    "mJewelShopCategoryId": 5,
+    "dialogType": 1,
+    "purchaseType": "Money",
+    "purchaseValue": 3000,
+    "subscriptionFlag": false,
+    "givePaidJewel": 3000,
+    "replaceTypes": 0,
+    "purchaseLimit": 1,
+    "canPurchaseDayOfWeek": "",
+    "isBuyNotDisplay": false,
+    "isDisplayLocking": false,
+    "startDate": 1705338000.0,
+    "endDate": 1706202000.0,
+    "lineup": [
+      {
+        "id": 506301,
+        "mJewelShopItemId": 5063,
+        "thingId": 120002,
+        "thingType": "Item",
+        "thingQuantity": 650
+      },
+      {
+        "id": 506302,
+        "mJewelShopItemId": 5063,
+        "thingId": 130051,
+        "thingType": "Item",
+        "thingQuantity": 20
+      },
+      {
+        "id": 506303,
+        "mJewelShopItemId": 5063,
+        "thingId": 130041,
+        "thingType": "Item",
+        "thingQuantity": 250
+      },
+      {
+        "id": 506304,
+        "mJewelShopItemId": 5063,
+        "thingId": 130042,
+        "thingType": "Item",
+        "thingQuantity": 200
+      },
+      {
+        "id": 506305,
+        "mJewelShopItemId": 5063,
+        "thingId": 130043,
+        "thingType": "Item",
+        "thingQuantity": 100
+      },
+      {
+        "id": 506306,
+        "mJewelShopItemId": 5063,
+        "thingId": 130061,
+        "thingType": "Item",
+        "thingQuantity": 1000
+      },
+      {
+        "id": 506307,
+        "mJewelShopItemId": 5063,
+        "thingId": 130062,
+        "thingType": "Item",
+        "thingQuantity": 650
+      },
+      {
+        "id": 506308,
+        "mJewelShopItemId": 5063,
+        "thingId": 130063,
+        "thingType": "Item",
+        "thingQuantity": 350
+      },
+      {
+        "id": 506309,
+        "mJewelShopItemId": 5063,
+        "thingId": 130064,
+        "thingType": "Item",
+        "thingQuantity": 100
+      },
+      {
+        "id": 506310,
+        "mJewelShopItemId": 5063,
+        "thingId": 130081,
+        "thingType": "Item",
+        "thingQuantity": 750
+      },
+      {
+        "id": 506311,
+        "mJewelShopItemId": 5063,
+        "thingId": 130082,
+        "thingType": "Item",
+        "thingQuantity": 150
+      }
+    ],
+    "shopItemType": "None"
+  },
+  {
     "id": 5065,
     "order": 108,
     "appStoreProductId": "",
@@ -7764,6 +7910,99 @@
       {
         "id": 555501,
         "mJewelShopItemId": 5555,
+        "thingId": 0,
+        "thingType": "Jewel",
+        "thingQuantity": 4900
+      }
+    ],
+    "shopItemType": "None"
+  },
+  {
+    "id": 5556,
+    "order": 138,
+    "appStoreProductId": "5556",
+    "googlePlayProductId": "5556",
+    "name": "イベント限定ジュエルパックA",
+    "packText": "",
+    "mJewelShopCategoryId": 1,
+    "dialogType": 1,
+    "purchaseType": "Money",
+    "purchaseValue": 1500,
+    "subscriptionFlag": false,
+    "givePaidJewel": 1500,
+    "replaceTypes": 0,
+    "purchaseLimit": 1,
+    "canPurchaseDayOfWeek": "",
+    "isBuyNotDisplay": false,
+    "isDisplayLocking": false,
+    "startDate": 1704906000.0,
+    "endDate": 1705770000.0,
+    "lineup": [
+      {
+        "id": 555601,
+        "mJewelShopItemId": 5556,
+        "thingId": 0,
+        "thingType": "Jewel",
+        "thingQuantity": 1500
+      }
+    ],
+    "shopItemType": "None"
+  },
+  {
+    "id": 5557,
+    "order": 139,
+    "appStoreProductId": "5557",
+    "googlePlayProductId": "5557",
+    "name": "イベント限定ジュエルパックB",
+    "packText": "",
+    "mJewelShopCategoryId": 1,
+    "dialogType": 1,
+    "purchaseType": "Money",
+    "purchaseValue": 4800,
+    "subscriptionFlag": false,
+    "givePaidJewel": 4800,
+    "replaceTypes": 0,
+    "purchaseLimit": 1,
+    "canPurchaseDayOfWeek": "",
+    "isBuyNotDisplay": false,
+    "isDisplayLocking": false,
+    "startDate": 1704906000.0,
+    "endDate": 1705770000.0,
+    "lineup": [
+      {
+        "id": 555701,
+        "mJewelShopItemId": 5557,
+        "thingId": 0,
+        "thingType": "Jewel",
+        "thingQuantity": 3000
+      }
+    ],
+    "shopItemType": "None"
+  },
+  {
+    "id": 5558,
+    "order": 140,
+    "appStoreProductId": "5558",
+    "googlePlayProductId": "5558",
+    "name": "イベント限定ジュエルパックC",
+    "packText": "",
+    "mJewelShopCategoryId": 1,
+    "dialogType": 1,
+    "purchaseType": "Money",
+    "purchaseValue": 9800,
+    "subscriptionFlag": false,
+    "givePaidJewel": 9800,
+    "replaceTypes": 0,
+    "purchaseLimit": 2,
+    "canPurchaseDayOfWeek": "",
+    "isBuyNotDisplay": false,
+    "isDisplayLocking": false,
+    "startDate": 1704906000.0,
+    "endDate": 1705770000.0,
+    "lineup": [
+      {
+        "id": 555801,
+        "mJewelShopItemId": 5558,
         "thingId": 0,
         "thingType": "Jewel",
         "thingQuantity": 4900

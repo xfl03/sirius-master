@@ -2754,6 +2754,43 @@
     "musicCoverType": "Original"
   },
   {
+    "id": 81,
+    "name": "アンプレザント・ライン",
+    "description": "",
+    "rewardRuleMasterId": 1,
+    "pronounceName": "あんぷれざんとらいん",
+    "lyricWriter": "松井洋平",
+    "composer": "浅利進吾",
+    "arranger": "浅利進吾",
+    "isLongVersion": false,
+    "releasedAt": 1704906000.0,
+    "staminaConsumption": 26,
+    "musicTimeSecond": 100,
+    "invisible": false,
+    "sampleStartSeconds": 0.0,
+    "sampleEndSeconds": 0.0,
+    "delaySeconds": 0.0,
+    "vocalVersions": [
+      {
+        "id": 8101,
+        "musicMasterId": 81,
+        "vocalVersion": 1,
+        "singer": "筆島しぐれ",
+        "name": "アンプレザント・ライン",
+        "musicTimeSecond": 100,
+        "sampleStartSeconds": 0.0,
+        "sampleEndSeconds": 0.0,
+        "musicVideoType": "None",
+        "characters": [
+          205
+        ]
+      }
+    ],
+    "unlockConditionType": "Default",
+    "musicVideoType": "None",
+    "musicCoverType": "Original"
+  },
+  {
     "id": 84,
     "name": "かくれんぼ",
     "description": "",
@@ -2941,6 +2978,44 @@
           403,
           404,
           405
+        ]
+      }
+    ],
+    "unlockConditionType": "Buy",
+    "musicVideoType": "None",
+    "musicCoverType": "Cover"
+  },
+  {
+    "id": 89,
+    "name": "ウタカタララバイ",
+    "description": "",
+    "rewardRuleMasterId": 1,
+    "pronounceName": "うたかたららばい",
+    "lyricWriter": "FAKE TYPE.",
+    "composer": "FAKE TYPE.",
+    "arranger": "-",
+    "unlockText": "楽曲ショップで購入",
+    "isLongVersion": false,
+    "releasedAt": 1705510800.0,
+    "staminaConsumption": 32,
+    "musicTimeSecond": 132,
+    "invisible": false,
+    "sampleStartSeconds": 0.0,
+    "sampleEndSeconds": 0.0,
+    "delaySeconds": 0.0,
+    "vocalVersions": [
+      {
+        "id": 8901,
+        "musicMasterId": 89,
+        "vocalVersion": 1,
+        "singer": "連尺野初魅",
+        "name": "ウタカタララバイ",
+        "musicTimeSecond": 132,
+        "sampleStartSeconds": 0.0,
+        "sampleEndSeconds": 0.0,
+        "musicVideoType": "None",
+        "characters": [
+          201
         ]
       }
     ],

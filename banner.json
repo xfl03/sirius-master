@@ -52,11 +52,22 @@
     "order": 99996,
     "name": "Discordキャンペーン",
     "jumpType": "Information",
-    "jumpPageId": "308",
+    "jumpPageId": "334",
     "deleteConditionType": 0,
     "imagePath": "Home/10",
     "startDate": 1703712600.0,
     "endDate": 1704844800.0
+  },
+  {
+    "id": 11,
+    "order": 100001,
+    "name": "Discordサーバー",
+    "jumpType": "Information",
+    "jumpPageId": "338",
+    "deleteConditionType": 0,
+    "imagePath": "Home/11",
+    "startDate": 1704844800.0,
+    "endDate": 4102444800.0
   },
   {
     "id": 1001,
@@ -266,6 +277,17 @@
     "imagePath": "Gacha/1022",
     "startDate": 1704034800.0,
     "endDate": 1704906000.0
+  },
+  {
+    "id": 1023,
+    "order": 1978,
+    "name": "秒針の安息ガチャ(アクター)",
+    "jumpType": "Gacha",
+    "jumpPageId": "1023",
+    "deleteConditionType": 0,
+    "imagePath": "Gacha/1023",
+    "startDate": 1704906000.0,
+    "endDate": 1705770000.0
   },
   {
     "id": 1800,
@@ -497,6 +519,17 @@
     "imagePath": "Gacha/2019",
     "startDate": 1704034800.0,
     "endDate": 1704906000.0
+  },
+  {
+    "id": 2020,
+    "order": 2020,
+    "name": "秒針の安息ガチャ(ポスター)",
+    "jumpType": "Gacha",
+    "jumpPageId": "2020",
+    "deleteConditionType": 0,
+    "imagePath": "Gacha/2020",
+    "startDate": 1704906000.0,
+    "endDate": 1705770000.0
   },
   {
     "id": 2800,
@@ -794,6 +827,17 @@
     "imagePath": "Notification/Banner00031",
     "startDate": 1704646800.0,
     "endDate": 1705251600.0
+  },
+  {
+    "id": 4016,
+    "order": 478,
+    "name": "オペラ座第12話（SIRIUS）追加",
+    "jumpType": "Photo",
+    "jumpPageId": "1",
+    "deleteConditionType": 0,
+    "imagePath": "Notification/Banner00041",
+    "startDate": 1705251600.0,
+    "endDate": 1705856400.0
   },
   {
     "id": 5002,
@@ -1168,6 +1212,18 @@
     "imagePath": "Home/5060",
     "startDate": 1704034800.0,
     "endDate": 1704906000.0
+  },
+  {
+    "id": 5063,
+    "order": 5063,
+    "name": "育成もりもりパック",
+    "jumpType": "JewelShop",
+    "jumpPageId": "5",
+    "deleteConditionType": "BuyItem",
+    "deleteConditionValue": "5053",
+    "imagePath": "Home/5063",
+    "startDate": 1705338000.0,
+    "endDate": 1706202000.0
   },
   {
     "id": 5065,
