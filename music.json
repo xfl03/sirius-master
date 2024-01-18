@@ -559,6 +559,43 @@
     "musicCoverType": "Original"
   },
   {
+    "id": 14,
+    "name": "Eternity",
+    "description": "",
+    "rewardRuleMasterId": 1,
+    "pronounceName": "eternity",
+    "lyricWriter": "唐沢美帆",
+    "composer": "山本玲史",
+    "arranger": "山本玲史",
+    "isLongVersion": false,
+    "releasedAt": 1705856400.0,
+    "staminaConsumption": 24,
+    "musicTimeSecond": 90,
+    "invisible": false,
+    "sampleStartSeconds": 0.0,
+    "sampleEndSeconds": 0.0,
+    "delaySeconds": 0.0,
+    "vocalVersions": [
+      {
+        "id": 1401,
+        "musicMasterId": 14,
+        "vocalVersion": 1,
+        "singer": "筆島しぐれ",
+        "name": "Eternity",
+        "musicTimeSecond": 90,
+        "sampleStartSeconds": 0.0,
+        "sampleEndSeconds": 0.0,
+        "musicVideoType": "RealTimeRendering",
+        "characters": [
+          205
+        ]
+      }
+    ],
+    "unlockConditionType": "Default",
+    "musicVideoType": "RealTimeRendering",
+    "musicCoverType": "Original"
+  },
+  {
     "id": 15,
     "name": "Decide",
     "description": "",
@@ -2783,6 +2820,80 @@
         "musicVideoType": "None",
         "characters": [
           205
+        ]
+      }
+    ],
+    "unlockConditionType": "Default",
+    "musicVideoType": "None",
+    "musicCoverType": "Original"
+  },
+  {
+    "id": 82,
+    "name": "アイ・ウィル！",
+    "description": "",
+    "rewardRuleMasterId": 1,
+    "pronounceName": "あいうぃる",
+    "lyricWriter": "志村真白（FirstCall）",
+    "composer": "志村真白（FirstCall）",
+    "arranger": "志村真白（FirstCall）",
+    "isLongVersion": false,
+    "releasedAt": 1705770000.0,
+    "staminaConsumption": 26,
+    "musicTimeSecond": 100,
+    "invisible": false,
+    "sampleStartSeconds": 0.0,
+    "sampleEndSeconds": 0.0,
+    "delaySeconds": 0.0,
+    "vocalVersions": [
+      {
+        "id": 8201,
+        "musicMasterId": 82,
+        "vocalVersion": 1,
+        "singer": "鳳ここな",
+        "name": "アイ・ウィル！",
+        "musicTimeSecond": 100,
+        "sampleStartSeconds": 0.0,
+        "sampleEndSeconds": 0.0,
+        "musicVideoType": "None",
+        "characters": [
+          101
+        ]
+      }
+    ],
+    "unlockConditionType": "Default",
+    "musicVideoType": "None",
+    "musicCoverType": "Original"
+  },
+  {
+    "id": 83,
+    "name": "Rolling Stone",
+    "description": "",
+    "rewardRuleMasterId": 1,
+    "pronounceName": "rollingstone",
+    "lyricWriter": "松井洋平",
+    "composer": "古河夕",
+    "arranger": "古河夕",
+    "isLongVersion": false,
+    "releasedAt": 1705770000.0,
+    "staminaConsumption": 23,
+    "musicTimeSecond": 90,
+    "invisible": false,
+    "sampleStartSeconds": 0.0,
+    "sampleEndSeconds": 0.0,
+    "delaySeconds": 0.0,
+    "vocalVersions": [
+      {
+        "id": 8301,
+        "musicMasterId": 83,
+        "vocalVersion": 1,
+        "singer": "流石知冴",
+        "name": "Rolling Stone",
+        "musicTimeSecond": 90,
+        "sampleStartSeconds": 0.0,
+        "sampleEndSeconds": 0.0,
+        "musicVideoType": "None",
+        "characters": [
+          106
         ]
       }
     ],
