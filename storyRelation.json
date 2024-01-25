@@ -76,11 +76,25 @@
   {
     "storyMasterId": 10401,
     "previousStoryMasterIds": [],
-    "nextStoryMasterIds": [],
+    "nextStoryMasterIds": [
+      10402
+    ],
     "sideStoryCharacterMasterIds": [
       130170,
       140130,
       110190
+    ],
+    "relatedStoryMasterIds": []
+  },
+  {
+    "storyMasterId": 10402,
+    "previousStoryMasterIds": [
+      10401
+    ],
+    "nextStoryMasterIds": [],
+    "sideStoryCharacterMasterIds": [
+      140520,
+      140530
     ],
     "relatedStoryMasterIds": []
   },

@@ -2438,6 +2438,47 @@
     "branchCondition2": "None"
   },
   {
+    "id": 140520,
+    "name": "Electric Wonderland",
+    "description": "[:score]倍のスコアを獲得／センス発動後、追加で[:param11]のプリンシパルゲージを獲得",
+    "type": "Control",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20083
+          }
+        ],
+        "id": 1405201
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 610,
+    "scoreUpPerLevel": 60,
+    "lightCount": 1,
+    "coolTime": 45,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 140530,
+    "name": "なし",
+    "description": "効果無し（所持している「光」は維持される）",
+    "type": "None",
+    "preEffects": [],
+    "branches": [],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 0,
+    "scoreUpPerLevel": 0,
+    "lightCount": 0,
+    "coolTime": 0,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
     "id": 140540,
     "name": "悩める迷宮での出会い",
     "description": "[:score]倍のスコアを獲得／ライフを[:param11]回復",
