@@ -3264,6 +3264,30 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 220300,
+    "name": "メモワールに約束を",
+    "description": "<color=#FF9314>陽属性</color>のアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 220300,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70022004
+          }
+        ],
+        "id": 22030001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 220310,
     "name": "泡雪でありますように",
     "description": "<color=#ff679d>憐属性</color>のアクターの演技力が[:param11]%上昇",
@@ -6198,6 +6222,30 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 230300,
+    "name": "創造された命がもたらす悲劇",
+    "description": "シリウスに所属するアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 230300,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70052100
+          }
+        ],
+        "id": 23030001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 230310,
     "name": "すばらしく寒くて、最高だ！",
     "description": "<color=#ff679d>憐属性</color>のアクターの演技力が[:param11]%上昇",
@@ -6696,6 +6744,54 @@
           }
         ],
         "id": 220290201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2203001,
+    "name": "スコアブースト",
+    "description": "センス発動直後、現在のスコアの[:param11]%のスコアを獲得　◆発動条件：<color=#FF9314>陽属性</color>のアクターが装備",
+    "posterMasterId": 220300,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10810004
+          }
+        ],
+        "id": 220300101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2203002,
+    "name": "初期P.ゲージ上昇",
+    "description": "公演開始時、P.ゲージが[:param11]上昇　◆発動条件：<color=#FF9314>陽属性</color>のアクターが装備",
+    "posterMasterId": 220300,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11510004
+          }
+        ],
+        "id": 220300201
       }
     ],
     "branchConditionType1": "None",
@@ -7560,6 +7656,78 @@
           }
         ],
         "id": 230290301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2303001,
+    "name": "演技力アップⅢ",
+    "description": "自身の演技力が[:param11]％上昇",
+    "posterMasterId": 230300,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10030000
+          }
+        ],
+        "id": 230300101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2303002,
+    "name": "CTダウンⅡ",
+    "description": "自身のセンスのCTが[:param11]秒短縮　◆発動条件：シリウスに所属するアクターが装備",
+    "posterMasterId": 230300,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 12410100
+          }
+        ],
+        "id": 230300201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2303003,
+    "name": "「光」追加（支援）Ⅱ",
+    "description": "公演開始時、支援系の光「<color=#228b22>*</color>」を[:param11]付与（効果は公演開始時1回のみ発動する）　◆発動条件：シリウスに所属するアクターが装備",
+    "posterMasterId": 230300,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 12020100
+          }
+        ],
+        "id": 230300301
       }
     ],
     "branchConditionType1": "None",
