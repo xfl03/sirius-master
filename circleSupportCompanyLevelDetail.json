@@ -1,162 +1,162 @@
 [
-  [
-    101,
-    1,
-    1,
-    30000,
-    90101,
-    "シリウスに所属しているアクターの歌唱力が3％上昇"
-  ],
-  [
-    102,
-    2,
-    1,
-    30000,
-    90201,
-    "Edenに所属しているアクターの表現力が3％上昇"
-  ],
-  [
-    103,
-    3,
-    1,
-    30000,
-    90301,
-    "銀河座に所属しているアクターの集中力が3％上昇"
-  ],
-  [
-    104,
-    4,
-    1,
-    30000,
-    90401,
-    "劇団電姫に所属しているアクターの歌唱力が3％上昇"
-  ],
-  [
-    201,
-    1,
-    2,
-    70000,
-    90102,
-    "シリウスに所属しているアクターの表現力が3％上昇"
-  ],
-  [
-    202,
-    2,
-    2,
-    70000,
-    90202,
-    "Edenに所属しているアクターの歌唱力が3％上昇"
-  ],
-  [
-    203,
-    3,
-    2,
-    70000,
-    90302,
-    "銀河座に所属しているアクターの歌唱力が3％上昇"
-  ],
-  [
-    204,
-    4,
-    2,
-    70000,
-    90402,
-    "劇団電姫に所属しているアクターの集中力が3％上昇"
-  ],
-  [
-    301,
-    1,
-    3,
-    120000,
-    90103,
-    "シリウスに所属しているアクターの集中力が3％上昇"
-  ],
-  [
-    302,
-    2,
-    3,
-    120000,
-    90203,
-    "Edenに所属しているアクターの集中力が3％上昇"
-  ],
-  [
-    303,
-    3,
-    3,
-    120000,
-    90303,
-    "銀河座に所属しているアクターの表現力が3％上昇"
-  ],
-  [
-    304,
-    4,
-    3,
-    120000,
-    90403,
-    "劇団電姫に所属しているアクターの表現力が3％上昇"
-  ],
-  [
-    401,
-    1,
-    4,
-    180000,
-    90104,
-    "シリウスに所属しているアクターの演技力が2％上昇"
-  ],
-  [
-    402,
-    2,
-    4,
-    180000,
-    90204,
-    "Edenに所属しているアクターの演技力が2％上昇"
-  ],
-  [
-    403,
-    3,
-    4,
-    180000,
-    90304,
-    "銀河座に所属しているアクターの演技力が2％上昇"
-  ],
-  [
-    404,
-    4,
-    4,
-    180000,
-    90404,
-    "劇団電姫に所属しているアクターの演技力が2％上昇"
-  ],
-  [
-    501,
-    1,
-    5,
-    250000,
-    90105,
-    "全アクターの演技力が1％上昇"
-  ],
-  [
-    502,
-    2,
-    5,
-    250000,
-    90205,
-    "全アクターの演技力が1％上昇"
-  ],
-  [
-    503,
-    3,
-    5,
-    250000,
-    90305,
-    "全アクターの演技力が1％上昇"
-  ],
-  [
-    504,
-    4,
-    5,
-    250000,
-    90405,
-    "全アクターの演技力が1％上昇"
-  ]
+  {
+    "id": 101,
+    "company": "Sirius",
+    "level": 1,
+    "requiredSupportPoint": 30000,
+    "effectMasterId": 90101,
+    "description": "シリウスに所属しているアクターの歌唱力が3％上昇"
+  },
+  {
+    "id": 102,
+    "company": "Eden",
+    "level": 1,
+    "requiredSupportPoint": 30000,
+    "effectMasterId": 90201,
+    "description": "Edenに所属しているアクターの表現力が3％上昇"
+  },
+  {
+    "id": 103,
+    "company": "Gingaza",
+    "level": 1,
+    "requiredSupportPoint": 30000,
+    "effectMasterId": 90301,
+    "description": "銀河座に所属しているアクターの集中力が3％上昇"
+  },
+  {
+    "id": 104,
+    "company": "Denki",
+    "level": 1,
+    "requiredSupportPoint": 30000,
+    "effectMasterId": 90401,
+    "description": "劇団電姫に所属しているアクターの歌唱力が3％上昇"
+  },
+  {
+    "id": 201,
+    "company": "Sirius",
+    "level": 2,
+    "requiredSupportPoint": 70000,
+    "effectMasterId": 90102,
+    "description": "シリウスに所属しているアクターの表現力が3％上昇"
+  },
+  {
+    "id": 202,
+    "company": "Eden",
+    "level": 2,
+    "requiredSupportPoint": 70000,
+    "effectMasterId": 90202,
+    "description": "Edenに所属しているアクターの歌唱力が3％上昇"
+  },
+  {
+    "id": 203,
+    "company": "Gingaza",
+    "level": 2,
+    "requiredSupportPoint": 70000,
+    "effectMasterId": 90302,
+    "description": "銀河座に所属しているアクターの歌唱力が3％上昇"
+  },
+  {
+    "id": 204,
+    "company": "Denki",
+    "level": 2,
+    "requiredSupportPoint": 70000,
+    "effectMasterId": 90402,
+    "description": "劇団電姫に所属しているアクターの集中力が3％上昇"
+  },
+  {
+    "id": 301,
+    "company": "Sirius",
+    "level": 3,
+    "requiredSupportPoint": 120000,
+    "effectMasterId": 90103,
+    "description": "シリウスに所属しているアクターの集中力が3％上昇"
+  },
+  {
+    "id": 302,
+    "company": "Eden",
+    "level": 3,
+    "requiredSupportPoint": 120000,
+    "effectMasterId": 90203,
+    "description": "Edenに所属しているアクターの集中力が3％上昇"
+  },
+  {
+    "id": 303,
+    "company": "Gingaza",
+    "level": 3,
+    "requiredSupportPoint": 120000,
+    "effectMasterId": 90303,
+    "description": "銀河座に所属しているアクターの表現力が3％上昇"
+  },
+  {
+    "id": 304,
+    "company": "Denki",
+    "level": 3,
+    "requiredSupportPoint": 120000,
+    "effectMasterId": 90403,
+    "description": "劇団電姫に所属しているアクターの表現力が3％上昇"
+  },
+  {
+    "id": 401,
+    "company": "Sirius",
+    "level": 4,
+    "requiredSupportPoint": 180000,
+    "effectMasterId": 90104,
+    "description": "シリウスに所属しているアクターの演技力が2％上昇"
+  },
+  {
+    "id": 402,
+    "company": "Eden",
+    "level": 4,
+    "requiredSupportPoint": 180000,
+    "effectMasterId": 90204,
+    "description": "Edenに所属しているアクターの演技力が2％上昇"
+  },
+  {
+    "id": 403,
+    "company": "Gingaza",
+    "level": 4,
+    "requiredSupportPoint": 180000,
+    "effectMasterId": 90304,
+    "description": "銀河座に所属しているアクターの演技力が2％上昇"
+  },
+  {
+    "id": 404,
+    "company": "Denki",
+    "level": 4,
+    "requiredSupportPoint": 180000,
+    "effectMasterId": 90404,
+    "description": "劇団電姫に所属しているアクターの演技力が2％上昇"
+  },
+  {
+    "id": 501,
+    "company": "Sirius",
+    "level": 5,
+    "requiredSupportPoint": 250000,
+    "effectMasterId": 90105,
+    "description": "全アクターの演技力が1％上昇"
+  },
+  {
+    "id": 502,
+    "company": "Eden",
+    "level": 5,
+    "requiredSupportPoint": 250000,
+    "effectMasterId": 90205,
+    "description": "全アクターの演技力が1％上昇"
+  },
+  {
+    "id": 503,
+    "company": "Gingaza",
+    "level": 5,
+    "requiredSupportPoint": 250000,
+    "effectMasterId": 90305,
+    "description": "全アクターの演技力が1％上昇"
+  },
+  {
+    "id": 504,
+    "company": "Denki",
+    "level": 5,
+    "requiredSupportPoint": 250000,
+    "effectMasterId": 90405,
+    "description": "全アクターの演技力が1％上昇"
+  }
 ]
