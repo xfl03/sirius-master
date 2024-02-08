@@ -1514,6 +1514,21 @@
     "branchCondition2": "None"
   },
   {
+    "id": 130420,
+    "name": "どれにしようかな？",
+    "description": "[:score]倍のスコアを獲得",
+    "type": "Control",
+    "preEffects": [],
+    "branches": [],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 490,
+    "scoreUpPerLevel": 40,
+    "lightCount": 1,
+    "coolTime": 50,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
     "id": 140010,
     "name": "悲哀と恋慕の旋律",
     "description": "[:score]倍のスコアを獲得／ライフを[:param11]回復／ライフが多いほどここなのスコア獲得量UP（最大＋100％）",
@@ -2634,6 +2649,47 @@
     "scoreUpPerLevel": 50,
     "lightCount": 1,
     "coolTime": 40,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 140600,
+    "name": "ひと口で落ちる甘やかな酔い",
+    "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得",
+    "type": "Support",
+    "preEffects": [],
+    "branches": [],
+    "acquirableGauge": 90,
+    "acquirableScorePercent": 170,
+    "scoreUpPerLevel": 50,
+    "lightCount": 1,
+    "coolTime": 40,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 140610,
+    "name": "求め焦がれる危険な味わい",
+    "description": "[:score]倍のスコアを獲得／[:sec]秒間、Edenのアクターにセンススコア[:param11]％UP効果",
+    "type": "Special",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20044
+          }
+        ],
+        "id": 1406101
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 250,
+    "scoreUpPerLevel": 60,
+    "lightCount": 1,
+    "coolTime": 50,
     "branchCondition1": "None",
     "branchCondition2": "None"
   }

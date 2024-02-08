@@ -3408,6 +3408,30 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 220370,
+    "name": "Valentine Cocktail Hour",
+    "description": "<color=#33B4DF>凛属性</color>のアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 220370,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70022002
+          }
+        ],
+        "id": 22037001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 229010,
     "name": "初めての舞台",
     "description": "<color=#7AC940>彩属性</color>のアクターの演技力が[:param11]%上昇",
@@ -6366,6 +6390,30 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 230380,
+    "name": "これが……余？",
+    "description": "<color=#33B4DF>凛属性</color>のアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 230380,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70052002
+          }
+        ],
+        "id": 23038001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 320050,
     "name": "謹賀新年2024",
     "description": "全アクターの演技力が[:param11]％上昇",
@@ -7032,6 +7080,54 @@
           }
         ],
         "id": 220350201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2203701,
+    "name": "スコアブースト",
+    "description": "センス発動直後、現在のスコアの[:param11]%のスコアを獲得　◆発動条件：<color=#33B4DF>凛属性</color>のアクターが装備",
+    "posterMasterId": 220370,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10810002
+          }
+        ],
+        "id": 220370101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2203702,
+    "name": "初期P.ゲージ上昇",
+    "description": "公演開始時、P.ゲージが[:param11]上昇　◆発動条件：<color=#33B4DF>凛属性</color>のアクターが装備",
+    "posterMasterId": 220370,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11510002
+          }
+        ],
+        "id": 220370201
       }
     ],
     "branchConditionType1": "None",
@@ -8064,6 +8160,54 @@
           }
         ],
         "id": 230350301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2303801,
+    "name": "演技力アップⅢ＋",
+    "description": "自身の演技力が[:param11]％上昇",
+    "posterMasterId": 230380,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10031000
+          }
+        ],
+        "id": 230380101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2303802,
+    "name": "「光」獲得数増加",
+    "description": "センスで付与する「光」の付与数が[:param11]個増加　◆発動条件：<color=#33B4DF>凛属性</color>のアクターが装備",
+    "posterMasterId": 230380,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11810002
+          }
+        ],
+        "id": 230380201
       }
     ],
     "branchConditionType1": "None",

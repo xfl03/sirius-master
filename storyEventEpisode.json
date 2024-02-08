@@ -1347,5 +1347,76 @@
     "order": 8,
     "requiredReadEpisodeMasterId": 2001907,
     "episodeRewardPackageMasterId": 2001908
+  },
+  {
+    "id": 2002101,
+    "storyMasterId": 20021,
+    "requiredTotalAcquiredPoint": 0,
+    "title": "バレンタインの食前酒",
+    "order": 1,
+    "episodeRewardPackageMasterId": 2002101
+  },
+  {
+    "id": 2002102,
+    "storyMasterId": 20021,
+    "requiredTotalAcquiredPoint": 2000,
+    "title": "フルコースを楽しみたい",
+    "order": 2,
+    "requiredReadEpisodeMasterId": 2002101,
+    "episodeRewardPackageMasterId": 2002102
+  },
+  {
+    "id": 2002103,
+    "storyMasterId": 20021,
+    "requiredTotalAcquiredPoint": 4000,
+    "title": "贈り物はコミュニケーション",
+    "order": 3,
+    "requiredReadEpisodeMasterId": 2002102,
+    "episodeRewardPackageMasterId": 2002103
+  },
+  {
+    "id": 2002104,
+    "storyMasterId": 20021,
+    "requiredTotalAcquiredPoint": 8000,
+    "title": "チョコレートフェスティバル",
+    "order": 4,
+    "requiredReadEpisodeMasterId": 2002103,
+    "episodeRewardPackageMasterId": 2002104
+  },
+  {
+    "id": 2002105,
+    "storyMasterId": 20021,
+    "requiredTotalAcquiredPoint": 16000,
+    "title": "ピンチと気付き",
+    "order": 5,
+    "requiredReadEpisodeMasterId": 2002104,
+    "episodeRewardPackageMasterId": 2002105
+  },
+  {
+    "id": 2002106,
+    "storyMasterId": 20021,
+    "requiredTotalAcquiredPoint": 32000,
+    "title": "感謝を込めて",
+    "order": 6,
+    "requiredReadEpisodeMasterId": 2002105,
+    "episodeRewardPackageMasterId": 2002106
+  },
+  {
+    "id": 2002107,
+    "storyMasterId": 20021,
+    "requiredTotalAcquiredPoint": 64000,
+    "title": "メインディッシュは！？",
+    "order": 7,
+    "requiredReadEpisodeMasterId": 2002106,
+    "episodeRewardPackageMasterId": 2002107
+  },
+  {
+    "id": 2002108,
+    "storyMasterId": 20021,
+    "requiredTotalAcquiredPoint": 128000,
+    "title": "ハッピーバレンタイン",
+    "order": 8,
+    "requiredReadEpisodeMasterId": 2002107,
+    "episodeRewardPackageMasterId": 2002108
   }
 ]

@@ -254,5 +254,37 @@
     "effectName": "半分このドーナッツ",
     "effectDescription": "センス発動時、追加で「SP光」を[:param1]個付与する　※<color=#33B4DF>凛属性</color>の筆島 しぐれのみ対象",
     "iconImagePath": "128"
+  },
+  {
+    "id": 129,
+    "storyEventHighScoreBuffPatternGroupId": 2,
+    "effectMasterId": 80033,
+    "effectName": "板チョコ",
+    "effectDescription": "アクターの演技力上限値が[:param1]％上昇する　※Edenに所属するアクターのみ対象",
+    "iconImagePath": "129"
+  },
+  {
+    "id": 130,
+    "storyEventHighScoreBuffPatternGroupId": 2,
+    "effectMasterId": 80034,
+    "effectName": "ハートのバルーン",
+    "effectDescription": "Edenに所属するアクター1人につき、公演開始時にプリンシパルゲージが[:param1]上昇する",
+    "iconImagePath": "131"
+  },
+  {
+    "id": 131,
+    "storyEventHighScoreBuffPatternGroupId": 2,
+    "effectMasterId": 80035,
+    "effectName": "メッセージカード",
+    "effectDescription": "Edenに所属するアクター1人につき、プリンシパルゲージの上限値が[:param1]上昇する",
+    "iconImagePath": "132"
+  },
+  {
+    "id": 132,
+    "storyEventHighScoreBuffPatternGroupId": 2,
+    "effectMasterId": 80036,
+    "effectName": "ギフトチョコ",
+    "effectDescription": "スターアクト発動に必要な支援の光<color=#228b22>*</color>が[:param1]個減少する（必要な光の数は1個未満にならない）　※<color=#33B4DF>凛属性</color>の連尺野 初魅のみ対象",
+    "iconImagePath": "130"
   }
 ]
