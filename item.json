@@ -218,6 +218,19 @@
     "rarity": "R"
   },
   {
+    "id": 112001,
+    "name": "バレンタインチョコ【2024】",
+    "description": "バレンタインの贈り物。味は食べてみてのお楽しみ。スタミナを100回復する。",
+    "displayOrder": 112001,
+    "displayEndDate": 4102506000.0,
+    "maxStock": 99999,
+    "category": "StaminaRecovery",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Normal",
+    "rarity": "SSR"
+  },
+  {
     "id": 120001,
     "name": "練習台本【初級】",
     "description": "新人の登竜門とされる演目が描かれた台本。アクターEXPが10上昇する。公演など様々な場所で入手できる。",
@@ -618,6 +631,42 @@
     "name": "ジュゴンの勲章",
     "description": "ジュゴンに抵抗されずお腹を触ることができた者に贈られる記念品。ハイスコアチャレンジで入手できる。",
     "displayOrder": 138001,
+    "maxStock": 99999999,
+    "category": "ConsumeItem",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Normal",
+    "rarity": "SSR"
+  },
+  {
+    "id": 138101,
+    "name": "浅緑のロゼット",
+    "description": "仲間との成長を認められた者に贈られるロゼット。「なかまと挑戦」で入手できる。",
+    "displayOrder": 138101,
+    "maxStock": 99999999,
+    "category": "ConsumeItem",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Normal",
+    "rarity": "R"
+  },
+  {
+    "id": 138102,
+    "name": "淡青のロゼット",
+    "description": "仲間との絆を深めた者に贈られるロゼット。「なかまと挑戦」で入手できる。",
+    "displayOrder": 138102,
+    "maxStock": 99999999,
+    "category": "ConsumeItem",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Normal",
+    "rarity": "R"
+  },
+  {
+    "id": 138103,
+    "name": "退紅のロゼット",
+    "description": "仲間と共に数多の難関を乗り越えた者に贈られるロゼット。「なかまと挑戦」で入手できる。",
+    "displayOrder": 138103,
     "maxStock": 99999999,
     "category": "ConsumeItem",
     "consumable": false,
