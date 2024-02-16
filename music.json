@@ -3285,6 +3285,43 @@
     "musicCoverType": "Original"
   },
   {
+    "id": 94,
+    "name": "賭世遊戯",
+    "description": "",
+    "rewardRuleMasterId": 1,
+    "pronounceName": "とせいゆうぎ",
+    "lyricWriter": "松井洋平",
+    "composer": "トミタカズキ(SUPA LOVE)",
+    "arranger": "トミタカズキ(SUPA LOVE)",
+    "isLongVersion": false,
+    "releasedAt": 1708966800.0,
+    "staminaConsumption": 30,
+    "musicTimeSecond": 124,
+    "invisible": false,
+    "sampleStartSeconds": 0.0,
+    "sampleEndSeconds": 0.0,
+    "delaySeconds": 0.0,
+    "vocalVersions": [
+      {
+        "id": 9401,
+        "musicMasterId": 94,
+        "vocalVersion": 1,
+        "singer": "萬容",
+        "name": "賭世遊戯",
+        "musicTimeSecond": 124,
+        "sampleStartSeconds": 0.0,
+        "sampleEndSeconds": 0.0,
+        "musicVideoType": "None",
+        "characters": [
+          204
+        ]
+      }
+    ],
+    "unlockConditionType": "Default",
+    "musicVideoType": "None",
+    "musicCoverType": "Original"
+  },
+  {
     "id": 118,
     "name": "あの夏が飽和する。",
     "description": "",
@@ -3353,6 +3390,83 @@
         "musicVideoType": "None",
         "characters": [
           102
+        ]
+      }
+    ],
+    "unlockConditionType": "Buy",
+    "musicVideoType": "None",
+    "musicCoverType": "Cover"
+  },
+  {
+    "id": 120,
+    "name": "Nameless Story",
+    "description": "",
+    "rewardRuleMasterId": 1,
+    "pronounceName": "namelessstory",
+    "lyricWriter": "寺島拓篤",
+    "composer": "上松範康(Elements Garden)",
+    "arranger": "-",
+    "unlockText": "楽曲ショップで購入",
+    "isLongVersion": false,
+    "releasedAt": 1708275600.0,
+    "staminaConsumption": 25,
+    "musicTimeSecond": 96,
+    "invisible": false,
+    "sampleStartSeconds": 0.0,
+    "sampleEndSeconds": 0.0,
+    "delaySeconds": 0.0,
+    "vocalVersions": [
+      {
+        "id": 12001,
+        "musicMasterId": 120,
+        "vocalVersion": 1,
+        "singer": "阿岐留カミラ、白丸美兎",
+        "name": "Nameless Story",
+        "musicTimeSecond": 96,
+        "sampleStartSeconds": 0.0,
+        "sampleEndSeconds": 0.0,
+        "musicVideoType": "None",
+        "characters": [
+          402,
+          403
+        ]
+      }
+    ],
+    "unlockConditionType": "Buy",
+    "musicVideoType": "None",
+    "musicCoverType": "Cover"
+  },
+  {
+    "id": 121,
+    "name": "Another colony",
+    "description": "",
+    "rewardRuleMasterId": 1,
+    "pronounceName": "anothercolony",
+    "lyricWriter": "唐沢美帆",
+    "composer": "中野領太",
+    "arranger": "-",
+    "unlockText": "楽曲ショップで購入",
+    "isLongVersion": false,
+    "releasedAt": 1708621200.0,
+    "staminaConsumption": 25,
+    "musicTimeSecond": 93,
+    "invisible": false,
+    "sampleStartSeconds": 0.0,
+    "sampleEndSeconds": 0.0,
+    "delaySeconds": 0.0,
+    "vocalVersions": [
+      {
+        "id": 12101,
+        "musicMasterId": 121,
+        "vocalVersion": 1,
+        "singer": "本巣叶羽",
+        "name": "Another colony",
+        "musicTimeSecond": 93,
+        "sampleStartSeconds": 0.0,
+        "sampleEndSeconds": 0.0,
+        "musicVideoType": "None",
+        "characters": [
+          405
         ]
       }
     ],

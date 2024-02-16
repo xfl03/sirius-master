@@ -6414,6 +6414,30 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 320010,
+    "name": "鬼人と竜魔人",
+    "description": "<color=#FF9314>陽属性</color>のアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 320010,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70022004
+          }
+        ],
+        "id": 32001001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 320050,
     "name": "謹賀新年2024",
     "description": "全アクターの演技力が[:param11]％上昇",
@@ -6456,6 +6480,54 @@
           }
         ],
         "id": 33001001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 330020,
+    "name": "転生者と召喚者",
+    "description": "劇団電姫に所属するアクターの演技力が[:param11]％上昇",
+    "posterMasterId": 330020,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70052400
+          }
+        ],
+        "id": 33002001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 330030,
+    "name": "舞台で演じるスライム生活！",
+    "description": "全アクターの演技力が[:param11]％上昇",
+    "posterMasterId": 330030,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70042000
+          }
+        ],
+        "id": 33003001
       }
     ],
     "branchConditionType1": "None",
@@ -8214,6 +8286,54 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 3200101,
+    "name": "初期ライフ上昇＋",
+    "description": "公演開始時、ライフが[:param11]上昇　◆発動条件：<color=#FF9314>陽属性</color>のアクターが装備",
+    "posterMasterId": 320010,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11311004
+          }
+        ],
+        "id": 320010101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3200102,
+    "name": "P.ゲージ獲得量アップ",
+    "description": "センスによるP.ゲージの獲得量が[:param11]%UP　◆発動条件：<color=#FF9314>陽属性</color>のアクターが装備",
+    "posterMasterId": 320010,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11610004
+          }
+        ],
+        "id": 320010201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 3200501,
     "name": "報酬量アップ",
     "description": "公演と協力公演の公演報酬が[:param11]％増加（アクセサリーを除く）",
@@ -8304,6 +8424,150 @@
           }
         ],
         "id": 330010301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3300201,
+    "name": "演技力アップⅡ＋",
+    "description": "自身の演技力が[:param11]％上昇",
+    "posterMasterId": 330020,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10021000
+          }
+        ],
+        "id": 330020101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3300202,
+    "name": "「光」獲得数増加",
+    "description": "センスで付与する「光」の付与数が[:param11]個増加　◆発動条件：劇団電姫に所属するアクターが装備",
+    "posterMasterId": 330020,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11810400
+          }
+        ],
+        "id": 330020201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3300203,
+    "name": "「光」追加（SP）Ⅰ",
+    "description": "公演開始時、SP光を[:param11]付与（効果は公演開始時1回のみ発動する）　◆発動条件：劇団電姫に所属するアクターが装備",
+    "posterMasterId": 330020,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11910400
+          }
+        ],
+        "id": 330020301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3300301,
+    "name": "演技力アップⅢ",
+    "description": "自身の演技力が[:param11]％上昇",
+    "posterMasterId": 330030,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10030000
+          }
+        ],
+        "id": 330030101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3300302,
+    "name": "CTダウンⅡ",
+    "description": "自身のセンスのCTが[:param11]秒短縮",
+    "posterMasterId": 330030,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 12410000
+          }
+        ],
+        "id": 330030201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3300303,
+    "name": "「光」追加（SP）Ⅰ",
+    "description": "公演開始時、SP光を[:param11]付与（効果は公演開始時1回のみ発動する）",
+    "posterMasterId": 330030,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11910000
+          }
+        ],
+        "id": 330030301
       }
     ],
     "branchConditionType1": "None",
