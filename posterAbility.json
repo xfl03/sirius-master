@@ -3432,6 +3432,30 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 220410,
+    "name": "#指先がつむぐ暗黒",
+    "description": "<color=#ff679d>憐属性</color>のアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 220410,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70022001
+          }
+        ],
+        "id": 22041001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 229010,
     "name": "初めての舞台",
     "description": "<color=#7AC940>彩属性</color>のアクターの演技力が[:param11]%上昇",
@@ -6414,6 +6438,30 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 230420,
+    "name": "大空へ羽ばたいて",
+    "description": "Edenに所属するアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 230420,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70052200
+          }
+        ],
+        "id": 23042001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 320010,
     "name": "鬼人と竜魔人",
     "description": "<color=#FF9314>陽属性</color>のアクターの演技力が[:param11]%上昇",
@@ -7200,6 +7248,54 @@
           }
         ],
         "id": 220370201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2204101,
+    "name": "初期ライフ上昇＋",
+    "description": "公演開始時、ライフが[:param11]上昇　◆発動条件：<color=#ff679d>憐属性</color>のアクターが装備",
+    "posterMasterId": 220410,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11311001
+          }
+        ],
+        "id": 220410101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2204102,
+    "name": "P.ゲージ獲得量アップ",
+    "description": "センスによるP.ゲージの獲得量が[:param11]%UP　◆発動条件：<color=#ff679d>憐属性</color>のアクターが装備",
+    "posterMasterId": 220410,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11610001
+          }
+        ],
+        "id": 220410201
       }
     ],
     "branchConditionType1": "None",
@@ -8280,6 +8376,78 @@
           }
         ],
         "id": 230380201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2304201,
+    "name": "演技力アップⅢ",
+    "description": "自身の演技力が[:param11]％上昇",
+    "posterMasterId": 230420,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10030000
+          }
+        ],
+        "id": 230420101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2304202,
+    "name": "表現力アップⅡ＋＋",
+    "description": "自身の表現力が[:param11]％上昇　◆発動条件：Edenに所属するアクターが装備",
+    "posterMasterId": 230420,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10222200
+          }
+        ],
+        "id": 230420201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2304203,
+    "name": "スコアブースト・表現力Ⅱ＋＋",
+    "description": "センス発動直後、自身の表現力の[:param11]倍のスコアを獲得　◆発動条件：Edenに所属するアクターが装備",
+    "posterMasterId": 230420,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11022200
+          }
+        ],
+        "id": 230420301
       }
     ],
     "branchConditionType1": "None",

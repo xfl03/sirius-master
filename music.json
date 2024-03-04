@@ -679,7 +679,6 @@
     "lyricWriter": "松井洋平",
     "composer": "光増ハジメ（FirstCall）",
     "arranger": "光増ハジメ（FirstCall）、今野花香",
-    "unlockText": "楽曲ショップで購入",
     "isLongVersion": false,
     "releasedAt": 1672531200.0,
     "staminaConsumption": 29,
@@ -728,7 +727,7 @@
         ]
       }
     ],
-    "unlockConditionType": "Buy",
+    "unlockConditionType": "Default",
     "musicVideoType": "RealTimeRendering",
     "musicCoverType": "Original"
   },
@@ -741,7 +740,6 @@
     "lyricWriter": "松井洋平",
     "composer": "Ryu",
     "arranger": "Ryu",
-    "unlockText": "楽曲ショップで購入",
     "isLongVersion": false,
     "releasedAt": 1672531200.0,
     "staminaConsumption": 26,
@@ -788,7 +786,7 @@
         ]
       }
     ],
-    "unlockConditionType": "Buy",
+    "unlockConditionType": "Default",
     "musicVideoType": "RealTimeRendering",
     "musicCoverType": "Original"
   },
@@ -801,7 +799,6 @@
     "lyricWriter": "松井洋平",
     "composer": "塩原大貴 (SUPA LOVE)",
     "arranger": "塩原大貴 (SUPA LOVE)",
-    "unlockText": "楽曲ショップで購入",
     "isLongVersion": false,
     "releasedAt": 1672531200.0,
     "staminaConsumption": 25,
@@ -848,7 +845,7 @@
         ]
       }
     ],
-    "unlockConditionType": "Buy",
+    "unlockConditionType": "Default",
     "musicVideoType": "RealTimeRendering",
     "musicCoverType": "Original"
   },
@@ -861,7 +858,6 @@
     "lyricWriter": "松井洋平",
     "composer": "新田目駿(HANO)",
     "arranger": "日直伸次(HANO)",
-    "unlockText": "楽曲ショップで購入",
     "isLongVersion": false,
     "releasedAt": 1672531200.0,
     "staminaConsumption": 25,
@@ -908,7 +904,7 @@
         ]
       }
     ],
-    "unlockConditionType": "Buy",
+    "unlockConditionType": "Default",
     "musicVideoType": "RealTimeRendering",
     "musicCoverType": "Original"
   },
@@ -937,6 +933,21 @@
         "singer": "鳳ここな、静香",
         "name": "Binary Star",
         "musicTimeSecond": 111,
+        "sampleStartSeconds": 0.0,
+        "sampleEndSeconds": 0.0,
+        "musicVideoType": "None",
+        "characters": [
+          101,
+          102
+        ]
+      },
+      {
+        "id": 2502,
+        "musicMasterId": 25,
+        "vocalVersion": 2,
+        "singer": "鳳ここな、静香",
+        "name": "Binary Star（Long Ver）",
+        "musicTimeSecond": 252,
         "sampleStartSeconds": 0.0,
         "sampleEndSeconds": 0.0,
         "musicVideoType": "None",
@@ -1201,7 +1212,7 @@
     "lyricWriter": "畑亜貴",
     "composer": "山田高弘",
     "arranger": "-",
-    "unlockText": "オーディションSTAGE 5をクリア後、/n楽曲ショップで購入",
+    "unlockText": "楽曲ショップで購入",
     "isLongVersion": false,
     "releasedAt": 1672531200.0,
     "staminaConsumption": 39,
@@ -1231,8 +1242,7 @@
         ]
       }
     ],
-    "unlockConditionType": "ClearAudition",
-    "unlockConditionValue": 5,
+    "unlockConditionType": "Buy",
     "musicVideoType": "None",
     "musicCoverType": "Cover"
   },
@@ -1245,7 +1255,7 @@
     "lyricWriter": "ツミキ",
     "composer": "ツミキ",
     "arranger": "-",
-    "unlockText": "オーディションSTAGE 10をクリア後、/n楽曲ショップで購入",
+    "unlockText": "楽曲ショップで購入",
     "isLongVersion": false,
     "releasedAt": 1672531200.0,
     "staminaConsumption": 30,
@@ -1270,8 +1280,7 @@
         ]
       }
     ],
-    "unlockConditionType": "ClearAudition",
-    "unlockConditionValue": 10,
+    "unlockConditionType": "Buy",
     "musicVideoType": "None",
     "musicCoverType": "Cover"
   },
@@ -3322,6 +3331,43 @@
     "musicCoverType": "Original"
   },
   {
+    "id": 99,
+    "name": "深度異症候群-Shindoi Syndrome-",
+    "description": "",
+    "rewardRuleMasterId": 1,
+    "pronounceName": "しんどいしんどろーむ",
+    "lyricWriter": "松井洋平",
+    "composer": "由良崇将",
+    "arranger": "由良崇将",
+    "isLongVersion": false,
+    "releasedAt": 1709226000.0,
+    "staminaConsumption": 26,
+    "musicTimeSecond": 101,
+    "invisible": false,
+    "sampleStartSeconds": 0.0,
+    "sampleEndSeconds": 0.0,
+    "delaySeconds": 0.0,
+    "vocalVersions": [
+      {
+        "id": 9901,
+        "musicMasterId": 99,
+        "vocalVersion": 1,
+        "singer": "烏森大黒",
+        "name": "深度異症候群-Shindoi Syndrome-",
+        "musicTimeSecond": 101,
+        "sampleStartSeconds": 0.0,
+        "sampleEndSeconds": 0.0,
+        "musicVideoType": "None",
+        "characters": [
+          202
+        ]
+      }
+    ],
+    "unlockConditionType": "Default",
+    "musicVideoType": "None",
+    "musicCoverType": "Original"
+  },
+  {
     "id": 118,
     "name": "あの夏が飽和する。",
     "description": "",
@@ -3505,6 +3551,44 @@
         "musicVideoType": "None",
         "characters": [
           402
+        ]
+      }
+    ],
+    "unlockConditionType": "Buy",
+    "musicVideoType": "None",
+    "musicCoverType": "Cover"
+  },
+  {
+    "id": 123,
+    "name": "ヴァンパイア",
+    "description": "",
+    "rewardRuleMasterId": 1,
+    "pronounceName": "うぁんぱいあ",
+    "lyricWriter": "DECO㊑27",
+    "composer": "DECO㊑27",
+    "arranger": "-",
+    "unlockText": "楽曲ショップで購入",
+    "isLongVersion": false,
+    "releasedAt": 1709658000.0,
+    "staminaConsumption": 28,
+    "musicTimeSecond": 112,
+    "invisible": false,
+    "sampleStartSeconds": 0.0,
+    "sampleEndSeconds": 0.0,
+    "delaySeconds": 0.0,
+    "vocalVersions": [
+      {
+        "id": 12301,
+        "musicMasterId": 123,
+        "vocalVersion": 1,
+        "singer": "筆島しぐれ",
+        "name": "ヴァンパイア",
+        "musicTimeSecond": 112,
+        "sampleStartSeconds": 0.0,
+        "sampleEndSeconds": 0.0,
+        "musicVideoType": "None",
+        "characters": [
+          205
         ]
       }
     ],
