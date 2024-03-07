@@ -1134,6 +1134,38 @@
     "fireTimingType": "Sense"
   },
   {
+    "id": 20095,
+    "type": "PrincipalGaugeLimitUp",
+    "range": "None",
+    "calculationType": "FixedAddition",
+    "details": [
+      {
+        "level": 1,
+        "value": 40.0
+      },
+      {
+        "level": 2,
+        "value": 50.0
+      },
+      {
+        "level": 3,
+        "value": 50.0
+      },
+      {
+        "level": 4,
+        "value": 60.0
+      },
+      {
+        "level": 5,
+        "value": 60.0
+      }
+    ],
+    "conditions": [],
+    "durationSecond": 0,
+    "triggers": [],
+    "fireTimingType": "Sense"
+  },
+  {
     "id": 20101,
     "type": "StarActScoreUp",
     "range": "All",
@@ -32646,6 +32678,58 @@
     "fireTimingType": "Passive"
   },
   {
+    "id": 1000030,
+    "type": "RewardUp",
+    "range": "None",
+    "calculationType": "PercentageAddition",
+    "details": [
+      {
+        "level": 1,
+        "value": 100.0
+      },
+      {
+        "level": 2,
+        "value": 200.0
+      },
+      {
+        "level": 3,
+        "value": 300.0
+      },
+      {
+        "level": 4,
+        "value": 400.0
+      },
+      {
+        "level": 5,
+        "value": 500.0
+      },
+      {
+        "level": 6,
+        "value": 600.0
+      },
+      {
+        "level": 7,
+        "value": 700.0
+      },
+      {
+        "level": 8,
+        "value": 800.0
+      },
+      {
+        "level": 9,
+        "value": 900.0
+      },
+      {
+        "level": 10,
+        "value": 1000.0
+      }
+    ],
+    "conditions": [],
+    "durationSecond": 0,
+    "triggers": [],
+    "fireTimingType": "Passive"
+  },
+  {
     "id": 10010000,
     "type": "PerformanceUp",
     "range": "Self",
@@ -44196,6 +44280,74 @@
     "fireTimingType": "StartLive"
   },
   {
+    "id": 11510000,
+    "type": "PrincipalGaugeGain",
+    "range": "None",
+    "calculationType": "FixedAddition",
+    "details": [
+      {
+        "level": 1,
+        "value": 24.0
+      },
+      {
+        "level": 2,
+        "value": 28.0
+      },
+      {
+        "level": 3,
+        "value": 32.0
+      },
+      {
+        "level": 4,
+        "value": 36.0
+      },
+      {
+        "level": 5,
+        "value": 40.0
+      },
+      {
+        "level": 6,
+        "value": 44.0
+      },
+      {
+        "level": 7,
+        "value": 48.0
+      },
+      {
+        "level": 8,
+        "value": 52.0
+      },
+      {
+        "level": 9,
+        "value": 56.0
+      },
+      {
+        "level": 10,
+        "value": 60.0
+      },
+      {
+        "level": 11,
+        "value": 64.0
+      },
+      {
+        "level": 12,
+        "value": 68.0
+      },
+      {
+        "level": 13,
+        "value": 72.0
+      },
+      {
+        "level": 14,
+        "value": 76.0
+      }
+    ],
+    "conditions": [],
+    "durationSecond": 0,
+    "triggers": [],
+    "fireTimingType": "StartLive"
+  },
+  {
     "id": 11510001,
     "type": "PrincipalGaugeGain",
     "range": "None",
@@ -46297,6 +46449,79 @@
     "triggers": [
       {
         "trigger": "Attribute",
+        "value": 1
+      }
+    ],
+    "fireTimingType": "StartLive"
+  },
+  {
+    "id": 11910100,
+    "type": "AddSenseLightVariable",
+    "range": "None",
+    "calculationType": "FixedAddition",
+    "details": [
+      {
+        "level": 1,
+        "value": 1.0
+      },
+      {
+        "level": 2,
+        "value": 1.0
+      },
+      {
+        "level": 3,
+        "value": 1.0
+      },
+      {
+        "level": 4,
+        "value": 1.0
+      },
+      {
+        "level": 5,
+        "value": 1.0
+      },
+      {
+        "level": 6,
+        "value": 1.0
+      },
+      {
+        "level": 7,
+        "value": 1.0
+      },
+      {
+        "level": 8,
+        "value": 1.0
+      },
+      {
+        "level": 9,
+        "value": 1.0
+      },
+      {
+        "level": 10,
+        "value": 1.0
+      },
+      {
+        "level": 11,
+        "value": 1.0
+      },
+      {
+        "level": 12,
+        "value": 1.0
+      },
+      {
+        "level": 13,
+        "value": 1.0
+      },
+      {
+        "level": 14,
+        "value": 1.0
+      }
+    ],
+    "conditions": [],
+    "durationSecond": 0,
+    "triggers": [
+      {
+        "trigger": "Company",
         "value": 1
       }
     ],

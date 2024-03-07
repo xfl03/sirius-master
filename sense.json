@@ -1570,6 +1570,21 @@
     "branchCondition2": "None"
   },
   {
+    "id": 130570,
+    "name": "茜染め・世界征服",
+    "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得",
+    "type": "Amplification",
+    "preEffects": [],
+    "branches": [],
+    "acquirableGauge": 70,
+    "acquirableScorePercent": 110,
+    "scoreUpPerLevel": 40,
+    "lightCount": 1,
+    "coolTime": 40,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
     "id": 140010,
     "name": "悲哀と恋慕の旋律",
     "description": "[:score]倍のスコアを獲得／ライフを[:param11]回復／ライフが多いほどここなのスコア獲得量UP（最大＋100％）",
@@ -2824,6 +2839,47 @@
     "scoreUpPerLevel": 40,
     "lightCount": 1,
     "coolTime": 30,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 140900,
+    "name": "江楓にお覚悟を",
+    "description": "[:score]倍のスコアを獲得",
+    "type": "Control",
+    "preEffects": [],
+    "branches": [],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 600,
+    "scoreUpPerLevel": 50,
+    "lightCount": 1,
+    "coolTime": 40,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 140910,
+    "name": "天才の有る栖にようこそ",
+    "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／センス発動後、プリンシパルゲージの上限値が[:param11]上昇",
+    "type": "Control",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20095
+          }
+        ],
+        "id": 1409101
+      }
+    ],
+    "acquirableGauge": 90,
+    "acquirableScorePercent": 170,
+    "scoreUpPerLevel": 50,
+    "lightCount": 1,
+    "coolTime": 40,
     "branchCondition1": "None",
     "branchCondition2": "None"
   }

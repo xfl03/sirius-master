@@ -6486,6 +6486,30 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 320030,
+    "name": "お姉さん×癒し系",
+    "description": "<color=#33B4DF>凛属性</color>のアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 320030,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70022002
+          }
+        ],
+        "id": 32003001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 320050,
     "name": "謹賀新年2024",
     "description": "全アクターの演技力が[:param11]％上昇",
@@ -6576,6 +6600,54 @@
           }
         ],
         "id": 33003001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 330040,
+    "name": "てっぺんを目指して！",
+    "description": "シリウスに所属するアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 330040,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70052100
+          }
+        ],
+        "id": 33004001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 330050,
+    "name": "奏でる「これから」",
+    "description": "全アクターの演技力が[:param11]%上昇",
+    "posterMasterId": 330050,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70042000
+          }
+        ],
+        "id": 33005001
       }
     ],
     "branchConditionType1": "None",
@@ -8502,6 +8574,54 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 3200301,
+    "name": "初期ライフ上昇＋",
+    "description": "公演開始時、ライフが[:param11]上昇　◆発動条件：<color=#33B4DF>凛属性</color>のアクターが装備",
+    "posterMasterId": 320030,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11311002
+          }
+        ],
+        "id": 320030101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3200302,
+    "name": "P.ゲージ獲得量アップ",
+    "description": "センスによるP.ゲージの獲得量が[:param11]%UP　◆発動条件：<color=#33B4DF>凛属性</color>のアクターが装備",
+    "posterMasterId": 320030,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11610002
+          }
+        ],
+        "id": 320030201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 3200501,
     "name": "報酬量アップ",
     "description": "公演と協力公演の公演報酬が[:param11]％増加（アクセサリーを除く）",
@@ -8736,6 +8856,150 @@
           }
         ],
         "id": 330030301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3300401,
+    "name": "演技力アップⅡ＋",
+    "description": "自身の演技力が[:param11]％上昇",
+    "posterMasterId": 330040,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10021000
+          }
+        ],
+        "id": 330040101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3300402,
+    "name": "「光」獲得数増加",
+    "description": "センスで付与する「光」の付与数が[:param11]個増加　◆発動条件：シリウスに所属するアクターが装備",
+    "posterMasterId": 330040,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11810100
+          }
+        ],
+        "id": 330040201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3300403,
+    "name": "「光」追加（SP）Ⅰ",
+    "description": "公演開始時、SP光を[:param11]付与（効果は公演開始時1回のみ発動する）　◆発動条件：シリウスに所属するアクターが装備",
+    "posterMasterId": 330040,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11910100
+          }
+        ],
+        "id": 330040301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3300501,
+    "name": "演技力アップⅢ",
+    "description": "自身の演技力が[:param11]%上昇",
+    "posterMasterId": 330050,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10030000
+          }
+        ],
+        "id": 330050101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3300502,
+    "name": "初期P.ゲージ上昇",
+    "description": "公演開始時、P.ゲージが[:param11]上昇",
+    "posterMasterId": 330050,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11510000
+          }
+        ],
+        "id": 330050201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3300503,
+    "name": "「光」追加（SP）Ⅰ",
+    "description": "公演開始時、SP光を[:param11]付与（効果は公演開始時1回のみ発動する）",
+    "posterMasterId": 330050,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11910000
+          }
+        ],
+        "id": 330050301
       }
     ],
     "branchConditionType1": "None",
