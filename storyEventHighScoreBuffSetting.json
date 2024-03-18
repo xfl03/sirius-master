@@ -830,5 +830,109 @@
       "effectDescription": "スターアクト発動に必要な支援の光<color=#228b22>*</color>が[:param1]個減少する（必要な光の数は1個未満にならない）　※<color=#33B4DF>凛属性</color>の連尺野 初魅のみ対象",
       "iconImagePath": "130"
     }
+  },
+  {
+    "id": 2002401,
+    "storyEventHighScoreMasterId": 20024,
+    "storyEventHighScoreBuffMasterId": 11,
+    "storyEventHighScoreBuffMaster": {
+      "id": 11,
+      "storyEventHighScoreBuffPatternGroupId": 1,
+      "effectMasterId": 80003,
+      "effectName": "舞台照明",
+      "effectDescription": "アクターの集中力が[:param1]上昇する",
+      "iconImagePath": "11"
+    }
+  },
+  {
+    "id": 2002402,
+    "storyEventHighScoreMasterId": 20024,
+    "storyEventHighScoreBuffMasterId": 12,
+    "storyEventHighScoreBuffMaster": {
+      "id": 12,
+      "storyEventHighScoreBuffPatternGroupId": 1,
+      "effectMasterId": 80002,
+      "effectName": "舞台スピーカー",
+      "effectDescription": "アクターの表現力が[:param1]上昇する",
+      "iconImagePath": "12"
+    }
+  },
+  {
+    "id": 2002403,
+    "storyEventHighScoreMasterId": 20024,
+    "storyEventHighScoreBuffMasterId": 13,
+    "storyEventHighScoreBuffMaster": {
+      "id": 13,
+      "storyEventHighScoreBuffPatternGroupId": 1,
+      "effectMasterId": 80001,
+      "effectName": "舞台マイク",
+      "effectDescription": "アクターの歌唱力が[:param1]上昇する",
+      "iconImagePath": "13"
+    }
+  },
+  {
+    "id": 2002404,
+    "storyEventHighScoreMasterId": 20024,
+    "storyEventHighScoreBuffMasterId": 14,
+    "storyEventHighScoreBuffMaster": {
+      "id": 14,
+      "storyEventHighScoreBuffPatternGroupId": 1,
+      "effectMasterId": 80004,
+      "effectName": "舞台カーテン",
+      "effectDescription": "アクターの演技力が[:param1]％上昇する",
+      "iconImagePath": "14"
+    }
+  },
+  {
+    "id": 2002405,
+    "storyEventHighScoreMasterId": 20024,
+    "storyEventHighScoreBuffMasterId": 133,
+    "storyEventHighScoreBuffMaster": {
+      "id": 133,
+      "storyEventHighScoreBuffPatternGroupId": 2,
+      "effectMasterId": 80037,
+      "effectName": "魔法のランプ",
+      "effectDescription": "アクターの歌唱力が[:param1]%上昇する　※シリウスに所属するアクターのみ対象",
+      "iconImagePath": "149"
+    }
+  },
+  {
+    "id": 2002406,
+    "storyEventHighScoreMasterId": 20024,
+    "storyEventHighScoreBuffMasterId": 134,
+    "storyEventHighScoreBuffMaster": {
+      "id": 134,
+      "storyEventHighScoreBuffPatternGroupId": 2,
+      "effectMasterId": 80038,
+      "effectName": "ランドセル",
+      "effectDescription": "スターアクト発動に必要な支配の光<color=#ff0000>*</color>が[:param1]個減少する（必要な光の数は1個未満にならない）　※<color=#33B4DF>凛属性</color>の新妻 八恵のみ対象",
+      "iconImagePath": "152"
+    }
+  },
+  {
+    "id": 2002407,
+    "storyEventHighScoreMasterId": 20024,
+    "storyEventHighScoreBuffMasterId": 135,
+    "storyEventHighScoreBuffMaster": {
+      "id": 135,
+      "storyEventHighScoreBuffPatternGroupId": 2,
+      "effectMasterId": 80039,
+      "effectName": "真っ赤なバラ",
+      "effectDescription": "センスのCTが[:param1]秒短縮する　※<color=#33B4DF>凛属性</color>の鳳 ここなのみ対象",
+      "iconImagePath": "151"
+    }
+  },
+  {
+    "id": 2002408,
+    "storyEventHighScoreMasterId": 20024,
+    "storyEventHighScoreBuffMasterId": 136,
+    "storyEventHighScoreBuffMaster": {
+      "id": 136,
+      "storyEventHighScoreBuffPatternGroupId": 2,
+      "effectMasterId": 80040,
+      "effectName": "ファントムの仮面",
+      "effectDescription": "スターアクト発動条件に必要な光の数を超えて付与された光を最大[:param1]個「SP光」に変換する（レベル10の時に効果発動）　※<color=#33B4DF>凛属性</color>の鳳 ここなのみ対象",
+      "iconImagePath": "150"
+    }
   }
 ]

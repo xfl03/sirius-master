@@ -1728,6 +1728,21 @@
           403,
           404
         ]
+      },
+      {
+        "id": 4702,
+        "musicMasterId": 47,
+        "vocalVersion": 2,
+        "singer": "猫足蕾、阿岐留カミラ",
+        "name": "サマーバカンス☆アクトレス！（Long Ver）",
+        "musicTimeSecond": 230,
+        "sampleStartSeconds": 0.0,
+        "sampleEndSeconds": 0.0,
+        "musicVideoType": "None",
+        "characters": [
+          403,
+          404
+        ]
       }
     ],
     "unlockConditionType": "Default",
@@ -3397,6 +3412,43 @@
     "musicCoverType": "Original"
   },
   {
+    "id": 98,
+    "name": "MY FIRST ACT！",
+    "description": "",
+    "rewardRuleMasterId": 1,
+    "pronounceName": "myfirstact",
+    "lyricWriter": "松井洋平",
+    "composer": "EFFY（FirstCall）",
+    "arranger": "EFFY（FirstCall）",
+    "isLongVersion": false,
+    "releasedAt": 1711040400.0,
+    "staminaConsumption": 29,
+    "musicTimeSecond": 115,
+    "invisible": false,
+    "sampleStartSeconds": 0.0,
+    "sampleEndSeconds": 0.0,
+    "delaySeconds": 0.0,
+    "vocalVersions": [
+      {
+        "id": 9801,
+        "musicMasterId": 98,
+        "vocalVersion": 1,
+        "singer": "新妻八恵",
+        "name": "MY FIRST ACT！",
+        "musicTimeSecond": 115,
+        "sampleStartSeconds": 0.0,
+        "sampleEndSeconds": 0.0,
+        "musicVideoType": "None",
+        "characters": [
+          104
+        ]
+      }
+    ],
+    "unlockConditionType": "Default",
+    "musicVideoType": "None",
+    "musicCoverType": "Original"
+  },
+  {
     "id": 99,
     "name": "深度異症候群-Shindoi Syndrome-",
     "description": "",
@@ -3731,6 +3783,45 @@
         "musicVideoType": "None",
         "characters": [
           405
+        ]
+      }
+    ],
+    "unlockConditionType": "Buy",
+    "musicVideoType": "None",
+    "musicCoverType": "Cover"
+  },
+  {
+    "id": 128,
+    "name": "オドループ",
+    "description": "",
+    "rewardRuleMasterId": 1,
+    "pronounceName": "おどるーぷ",
+    "lyricWriter": "Koji Mihara",
+    "composer": "Koji Mihara",
+    "arranger": "-",
+    "unlockText": "楽曲ショップで購入",
+    "isLongVersion": false,
+    "releasedAt": 1711818000.0,
+    "staminaConsumption": 30,
+    "musicTimeSecond": 121,
+    "invisible": false,
+    "sampleStartSeconds": 0.0,
+    "sampleEndSeconds": 0.0,
+    "delaySeconds": 0.0,
+    "vocalVersions": [
+      {
+        "id": 12801,
+        "musicMasterId": 128,
+        "vocalVersion": 1,
+        "singer": "萬容、舎人仁花子",
+        "name": "オドループ",
+        "musicTimeSecond": 121,
+        "sampleStartSeconds": 0.0,
+        "sampleEndSeconds": 0.0,
+        "musicVideoType": "None",
+        "characters": [
+          203,
+          204
         ]
       }
     ],

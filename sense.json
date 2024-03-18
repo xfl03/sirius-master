@@ -1529,6 +1529,21 @@
     "branchCondition2": "None"
   },
   {
+    "id": 130450,
+    "name": "言うだけタダですし！",
+    "description": "[:score]倍のスコアを獲得",
+    "type": "Amplification",
+    "preEffects": [],
+    "branches": [],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 410,
+    "scoreUpPerLevel": 40,
+    "lightCount": 1,
+    "coolTime": 40,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
     "id": 130460,
     "name": "おずおずスクロール",
     "description": "[:score]倍のスコアを獲得／ライフを[:param11]回復",
@@ -2746,6 +2761,47 @@
     "scoreUpPerLevel": 60,
     "lightCount": 1,
     "coolTime": 50,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 140660,
+    "name": "いちばんたいせつなことは",
+    "description": "[:score]倍のスコアを獲得／[:sec]秒間、シリウスのアクターにセンススコア[:param11]％UP効果",
+    "type": "Control",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20034
+          }
+        ],
+        "id": 1406601
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 220,
+    "scoreUpPerLevel": 50,
+    "lightCount": 1,
+    "coolTime": 40,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 140670,
+    "name": "夜空を見れば、思い出す",
+    "description": "[:score]倍のスコアを獲得",
+    "type": "Support",
+    "preEffects": [],
+    "branches": [],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 740,
+    "scoreUpPerLevel": 70,
+    "lightCount": 1,
+    "coolTime": 60,
     "branchCondition1": "None",
     "branchCondition2": "None"
   },
