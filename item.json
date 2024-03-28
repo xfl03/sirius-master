@@ -231,6 +231,19 @@
     "rarity": "R"
   },
   {
+    "id": 111016,
+    "name": "高級スタミナドリンク【～4月10日 17:00】",
+    "description": "美容にも欠かせない一級品のドリンク。スタミナを100回復する。2024年4月10日17時まで使用できる。",
+    "displayOrder": 16,
+    "displayEndDate": 1712768400.0,
+    "maxStock": 99999,
+    "category": "StaminaRecovery",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Normal",
+    "rarity": "R"
+  },
+  {
     "id": 111018,
     "name": "高級スタミナドリンク【～3月31日 17:00】",
     "description": "美容にも欠かせない一級品のドリンク。スタミナを100回復する。2024年3月31日17時まで使用できる。",
@@ -822,6 +835,19 @@
     "description": "人気アニメのキャラクターがプリントされたおまもり。電姫空間でシークレットアクセサリーが入手しやすくなる。",
     "displayOrder": 139008,
     "displayEndDate": 1709935200.0,
+    "maxStock": 1,
+    "category": "ConsumeItem",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Normal",
+    "rarity": "SSR"
+  },
+  {
+    "id": 139009,
+    "name": "劇団電姫のおまもり【～4月8日 22:00】",
+    "description": "人気アニメのキャラクターがプリントされたおまもり。電姫空間でシークレットアクセサリーが入手しやすくなる。",
+    "displayOrder": 139009,
+    "displayEndDate": 1712613600.0,
     "maxStock": 1,
     "category": "ConsumeItem",
     "consumable": false,
@@ -1838,6 +1864,18 @@
     "rarity": "SSR"
   },
   {
+    "id": 143043,
+    "name": "★3【みんなが大切だからこそ】白丸美兎のピース",
+    "description": "★3【みんなが大切だからこそ】白丸美兎の才能開花に使用できるアイテム。",
+    "displayOrder": 143043,
+    "maxStock": 99999,
+    "category": "TalentBloom",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Piece",
+    "rarity": "SSR"
+  },
+  {
     "id": 143045,
     "name": "★3【言うだけタダですし！】柳場ぱんだのピース",
     "description": "★3【言うだけタダですし！】柳場ぱんだの才能開花に使用できるアイテム。",
@@ -2574,6 +2612,30 @@
     "name": "★4【求め焦がれる危険な味わい】萬容のピース",
     "description": "★4【求め焦がれる危険な味わい】萬容の才能開花に使用できるアイテム。",
     "displayOrder": 144061,
+    "maxStock": 99999,
+    "category": "TalentBloom",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Piece",
+    "rarity": "SSR"
+  },
+  {
+    "id": 144062,
+    "name": "★4【華は海底に眠る】猫足蕾のピース",
+    "description": "★4【華は海底に眠る】猫足蕾の才能開花に使用できるアイテム。",
+    "displayOrder": 144062,
+    "maxStock": 99999,
+    "category": "TalentBloom",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Piece",
+    "rarity": "SSR"
+  },
+  {
+    "id": 144063,
+    "name": "★4【水海に月は満ち】千寿いろはのピース",
+    "description": "★4【水海に月は満ち】千寿いろはの才能開花に使用できるアイテム。",
+    "displayOrder": 144063,
     "maxStock": 99999,
     "category": "TalentBloom",
     "consumable": false,
@@ -3386,6 +3448,19 @@
     "rarity": "R"
   },
   {
+    "id": 411035,
+    "name": "ガチャポイント",
+    "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
+    "displayOrder": 411035,
+    "displayEndDate": 1713373200.0,
+    "maxStock": 99999,
+    "category": "GachaPoint",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Hidden",
+    "rarity": "R"
+  },
+  {
     "id": 411800,
     "name": "ガチャポイント",
     "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
@@ -3840,6 +3915,19 @@
     "rarity": "R"
   },
   {
+    "id": 412033,
+    "name": "ガチャポイント",
+    "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
+    "displayOrder": 412033,
+    "displayEndDate": 1713373200.0,
+    "maxStock": 99999,
+    "category": "GachaPoint",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Hidden",
+    "rarity": "R"
+  },
+  {
     "id": 412800,
     "name": "ガチャポイント",
     "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
@@ -4122,6 +4210,18 @@
     "name": "イベントポイント",
     "description": "イベントの交換所から様々なアイテムと交換できる。",
     "displayOrder": 420021,
+    "maxStock": 1999999999,
+    "category": "EventPoint",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Hidden",
+    "rarity": "R"
+  },
+  {
+    "id": 420022,
+    "name": "イベントポイント",
+    "description": "イベントの交換所から様々なアイテムと交換できる。",
+    "displayOrder": 420022,
     "maxStock": 1999999999,
     "category": "EventPoint",
     "consumable": false,

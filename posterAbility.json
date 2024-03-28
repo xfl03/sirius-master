@@ -3432,6 +3432,30 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 220380,
+    "name": "トロイメライと悪夢",
+    "description": "劇団電姫に所属するアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 220380,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70022400
+          }
+        ],
+        "id": 22038001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 220400,
     "name": "7番目のエトワールをさがして",
     "description": "シリウスに所属するアクターの演技力が[:param11]%上昇",
@@ -6462,6 +6486,30 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 230390,
+    "name": "飽くなき知の探究",
+    "description": "劇団電姫に所属するアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 230390,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70054400
+          }
+        ],
+        "id": 23039001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 230410,
     "name": "そして歌声は街中に",
     "description": "<color=#33B4DF>凛属性</color>のアクターの演技力が[:param11]%上昇",
@@ -6576,6 +6624,30 @@
           }
         ],
         "id": 32005001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 320060,
+    "name": "蝶よ花よ",
+    "description": "全アクターの演技力が[:param11]%上昇",
+    "posterMasterId": 320060,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70011000
+          }
+        ],
+        "id": 32006001
       }
     ],
     "branchConditionType1": "None",
@@ -7368,6 +7440,54 @@
           }
         ],
         "id": 220370201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2203801,
+    "name": "ライフブースト",
+    "description": "センス発動直後、ライフを[:param11]回復　◆発動条件：劇団電姫に所属するアクターが装備",
+    "posterMasterId": 220380,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11211400
+          }
+        ],
+        "id": 220380101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2203802,
+    "name": "スコアブースト",
+    "description": "センス発動直後、現在のスコアの[:param11]%のスコアを獲得　◆発動条件：劇団電姫に所属するアクターが装備",
+    "posterMasterId": 220380,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10810400
+          }
+        ],
+        "id": 220380201
       }
     ],
     "branchConditionType1": "None",
@@ -8550,6 +8670,78 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 2303901,
+    "name": "演技力アップⅡ",
+    "description": "自身の演技力が[:param11]%上昇",
+    "posterMasterId": 230390,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10020000
+          }
+        ],
+        "id": 230390101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2303902,
+    "name": "P.ゲージ獲得量アップ＋",
+    "description": "センスによるP.ゲージの獲得量が[:param11]%UP　◆発動条件：劇団電姫に所属するアクターが装備",
+    "posterMasterId": 230390,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11611400
+          }
+        ],
+        "id": 230390201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2303903,
+    "name": "「光」獲得数増加",
+    "description": "センスで付与する「光」の付与数が[:param11]個増加　◆発動条件：劇団電姫に所属するアクターが装備",
+    "posterMasterId": 230390,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11810400
+          }
+        ],
+        "id": 230390301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 2304101,
     "name": "演技力アップⅢ",
     "description": "自身の演技力が[:param11]％上昇",
@@ -8808,6 +9000,30 @@
           }
         ],
         "id": 320050101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3200601,
+    "name": "スコアブースト・歌唱力",
+    "description": "センス発動直後、自身の歌唱力の[:param11]倍のスコアを獲得　◆発動条件：八恵が装備",
+    "posterMasterId": 320060,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10910104
+          }
+        ],
+        "id": 320060101
       }
     ],
     "branchConditionType1": "None",
