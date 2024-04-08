@@ -433,6 +433,17 @@
     "endDate": 1712768400.0
   },
   {
+    "id": 1037,
+    "order": 1965,
+    "name": "Bloom Time-Lapseガチャ(アクター)",
+    "jumpType": "Gacha",
+    "jumpPageId": "1037",
+    "deleteConditionType": 0,
+    "imagePath": "Gacha/1037",
+    "startDate": 1712768400.0,
+    "endDate": 1713632400.0
+  },
+  {
     "id": 1800,
     "order": 1989,
     "name": "銀河座ピックアップアクターガチャ",
@@ -1871,6 +1882,18 @@
     "endDate": 1713484800.0
   },
   {
+    "id": 5090,
+    "order": 5090,
+    "name": "銀河シアターのおまもりパック",
+    "jumpType": "JewelShop",
+    "jumpPageId": "5",
+    "deleteConditionType": "BuyItem",
+    "deleteConditionValue": "5090",
+    "imagePath": "Home/gingaza_amulet",
+    "startDate": 1713286800.0,
+    "endDate": 1713978000.0
+  },
+  {
     "id": 5091,
     "order": 5091,
     "name": "80万DL記念パックA",
@@ -1926,6 +1949,18 @@
     "imagePath": "Home/ikuseimori",
     "startDate": 1712336400.0,
     "endDate": 1713200400.0
+  },
+  {
+    "id": 5123,
+    "order": 5123,
+    "name": "撮影パック",
+    "jumpType": "JewelShop",
+    "jumpPageId": "5",
+    "deleteConditionType": "BuyItem",
+    "deleteConditionValue": "5123",
+    "imagePath": "Home/common_photo",
+    "startDate": 1713200400.0,
+    "endDate": 1714064400.0
   },
   {
     "id": 8500,

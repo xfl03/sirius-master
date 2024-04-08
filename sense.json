@@ -1585,6 +1585,21 @@
     "branchCondition2": "None"
   },
   {
+    "id": 130480,
+    "name": "別に心配なんか……",
+    "description": "[:score]倍のスコアを獲得",
+    "type": "Amplification",
+    "preEffects": [],
+    "branches": [],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 490,
+    "scoreUpPerLevel": 40,
+    "lightCount": 1,
+    "coolTime": 50,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
     "id": 130560,
     "name": "フラワー・テンペスト",
     "description": "[:score]倍のスコアを獲得",
@@ -2899,6 +2914,52 @@
     "scoreUpPerLevel": 50,
     "lightCount": 1,
     "coolTime": 35,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 140720,
+    "name": "絵本から飛び出せば",
+    "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／ライフが多いほどここなのスコア獲得量UP（最大＋100％）",
+    "type": "Support",
+    "preEffects": [
+      {
+        "order": 1,
+        "effectMasterId": 28001
+      }
+    ],
+    "branches": [],
+    "acquirableGauge": 80,
+    "acquirableScorePercent": 150,
+    "scoreUpPerLevel": 40,
+    "lightCount": 1,
+    "coolTime": 30,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 140730,
+    "name": "思い出のカルテリーノ",
+    "description": "[:score]倍のスコアを獲得／センス発動直後、自身の集中力の[:param11]倍のスコアを獲得                                        ",
+    "type": "Amplification",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20534
+          }
+        ],
+        "id": 1407301
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 740,
+    "scoreUpPerLevel": 70,
+    "lightCount": 1,
+    "coolTime": 60,
     "branchCondition1": "None",
     "branchCondition2": "None"
   },
