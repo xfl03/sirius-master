@@ -3576,6 +3576,43 @@
     "musicCoverType": "Original"
   },
   {
+    "id": 101,
+    "name": "ハートフル・レシピ",
+    "description": "",
+    "rewardRuleMasterId": 1,
+    "pronounceName": "はーとふるれしぴ",
+    "lyricWriter": "松井洋平",
+    "composer": "古河 夕",
+    "arranger": "古河 夕",
+    "isLongVersion": false,
+    "releasedAt": 1713632400.0,
+    "staminaConsumption": 25,
+    "musicTimeSecond": 97,
+    "invisible": false,
+    "sampleStartSeconds": 0.0,
+    "sampleEndSeconds": 0.0,
+    "delaySeconds": 0.0,
+    "vocalVersions": [
+      {
+        "id": 10101,
+        "musicMasterId": 101,
+        "vocalVersion": 1,
+        "singer": "白丸美兎",
+        "name": "ハートフル・レシピ",
+        "musicTimeSecond": 97,
+        "sampleStartSeconds": 0.0,
+        "sampleEndSeconds": 0.0,
+        "musicVideoType": "None",
+        "characters": [
+          402
+        ]
+      }
+    ],
+    "unlockConditionType": "Default",
+    "musicVideoType": "None",
+    "musicCoverType": "Original"
+  },
+  {
     "id": 102,
     "name": "Friends Per Second",
     "description": "",
@@ -3988,6 +4025,48 @@
         "musicVideoType": "None",
         "characters": [
           304
+        ]
+      }
+    ],
+    "unlockConditionType": "Buy",
+    "musicVideoType": "None",
+    "musicCoverType": "Cover"
+  },
+  {
+    "id": 132,
+    "name": "檄!帝国華撃団",
+    "description": "",
+    "rewardRuleMasterId": 1,
+    "pronounceName": "げきていこくかげきだん",
+    "lyricWriter": "広井王子",
+    "composer": "田中公平",
+    "arranger": "-",
+    "unlockText": "楽曲ショップで購入",
+    "isLongVersion": false,
+    "releasedAt": 1714410000.0,
+    "staminaConsumption": 32,
+    "musicTimeSecond": 136,
+    "invisible": false,
+    "sampleStartSeconds": 0.0,
+    "sampleEndSeconds": 0.0,
+    "delaySeconds": 0.0,
+    "vocalVersions": [
+      {
+        "id": 13201,
+        "musicMasterId": 132,
+        "vocalVersion": 1,
+        "singer": "千寿暦、ラモーナ・ウォルフ、王雪、リリヤ・クルトベイ、与那国緋花里",
+        "name": "檄!帝国華撃団",
+        "musicTimeSecond": 136,
+        "sampleStartSeconds": 0.0,
+        "sampleEndSeconds": 0.0,
+        "musicVideoType": "None",
+        "characters": [
+          301,
+          302,
+          303,
+          304,
+          305
         ]
       }
     ],

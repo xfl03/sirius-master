@@ -9482,6 +9482,94 @@
     ]
   },
   {
+    "id": 1040,
+    "details": [
+      {
+        "id": 1040101,
+        "position": 1,
+        "timingSecond": 33
+      },
+      {
+        "id": 1040102,
+        "position": 1,
+        "timingSecond": 85
+      },
+      {
+        "id": 1040103,
+        "position": 1,
+        "timingSecond": 136
+      },
+      {
+        "id": 1040201,
+        "position": 2,
+        "timingSecond": 28
+      },
+      {
+        "id": 1040202,
+        "position": 2,
+        "timingSecond": 94
+      },
+      {
+        "id": 1040203,
+        "position": 2,
+        "timingSecond": 144
+      },
+      {
+        "id": 1040301,
+        "position": 3,
+        "timingSecond": 5
+      },
+      {
+        "id": 1040302,
+        "position": 3,
+        "timingSecond": 75
+      },
+      {
+        "id": 1040303,
+        "position": 3,
+        "timingSecond": 141
+      },
+      {
+        "id": 1040501,
+        "position": 5,
+        "timingSecond": 13
+      },
+      {
+        "id": 1040502,
+        "position": 5,
+        "timingSecond": 52
+      },
+      {
+        "id": 1040503,
+        "position": 5,
+        "timingSecond": 90
+      },
+      {
+        "id": 1040504,
+        "position": 5,
+        "timingSecond": 128
+      },
+      {
+        "id": 1040505,
+        "position": 5,
+        "timingSecond": 166
+      },
+      {
+        "id": 1040506,
+        "position": 5,
+        "timingSecond": 196
+      }
+    ],
+    "buffs": [
+      {
+        "id": 1040,
+        "type": "Company",
+        "targetValue": 4,
+        "buffValue": 100
+      }
+    ]
+  },
+  {
     "id": 20002,
     "details": [
       {
@@ -10174,6 +10262,84 @@
         "id": 20024,
         "type": "Company",
         "targetValue": 1,
+        "buffValue": 50
+      }
+    ]
+  },
+  {
+    "id": 20026,
+    "details": [
+      {
+        "id": 20026101,
+        "position": 1,
+        "timingSecond": 14
+      },
+      {
+        "id": 20026102,
+        "position": 1,
+        "timingSecond": 64
+      },
+      {
+        "id": 20026201,
+        "position": 2,
+        "timingSecond": 6
+      },
+      {
+        "id": 20026202,
+        "position": 2,
+        "timingSecond": 46
+      },
+      {
+        "id": 20026203,
+        "position": 2,
+        "timingSecond": 86
+      },
+      {
+        "id": 20026301,
+        "position": 3,
+        "timingSecond": 10
+      },
+      {
+        "id": 20026302,
+        "position": 3,
+        "timingSecond": 40
+      },
+      {
+        "id": 20026303,
+        "position": 3,
+        "timingSecond": 75
+      },
+      {
+        "id": 20026401,
+        "position": 4,
+        "timingSecond": 20
+      },
+      {
+        "id": 20026402,
+        "position": 4,
+        "timingSecond": 69
+      },
+      {
+        "id": 20026501,
+        "position": 5,
+        "timingSecond": 3
+      },
+      {
+        "id": 20026502,
+        "position": 5,
+        "timingSecond": 43
+      },
+      {
+        "id": 20026503,
+        "position": 5,
+        "timingSecond": 83
+      }
+    ],
+    "buffs": [
+      {
+        "id": 20026,
+        "type": "Attribute",
+        "targetValue": 3,
         "buffValue": 50
       }
     ]

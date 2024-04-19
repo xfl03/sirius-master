@@ -3504,6 +3504,30 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 220420,
+    "name": "アツアツまごころ料理道！",
+    "description": "彩属性のアクターの演技力が[:param11]％上昇",
+    "posterMasterId": 220420,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70022003
+          }
+        ],
+        "id": 22042001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 220430,
     "name": "Bloom Time-Lapse",
     "description": "シリウスに所属するアクターの演技力が[:param11]％上昇",
@@ -7608,6 +7632,54 @@
           }
         ],
         "id": 220410201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2204201,
+    "name": "初期ライフ上昇＋",
+    "description": "公演開始時、ライフが[:param11]上昇　◆発動条件：<color=#7AC940>彩属性</color>のアクターが装備",
+    "posterMasterId": 220420,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11311003
+          }
+        ],
+        "id": 220420101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2204202,
+    "name": "P.ゲージ獲得量アップ",
+    "description": "センスによるP.ゲージの獲得量が[:param11]%UP　◆発動条件：<color=#7AC940>彩属性</color>のアクターが装備",
+    "posterMasterId": 220420,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11610003
+          }
+        ],
+        "id": 220420201
       }
     ],
     "branchConditionType1": "None",

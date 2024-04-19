@@ -1585,6 +1585,21 @@
     "branchCondition2": "None"
   },
   {
+    "id": 130470,
+    "name": "伝統料理で勝負だ！",
+    "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得",
+    "type": "Amplification",
+    "preEffects": [],
+    "branches": [],
+    "acquirableGauge": 90,
+    "acquirableScorePercent": 140,
+    "scoreUpPerLevel": 50,
+    "lightCount": 1,
+    "coolTime": 60,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
     "id": 130480,
     "name": "別に心配なんか……",
     "description": "[:score]倍のスコアを獲得",
@@ -2918,6 +2933,58 @@
     "branchCondition2": "None"
   },
   {
+    "id": 140700,
+    "name": "武の頂を目指して",
+    "description": "[:score]倍のスコアを獲得／センス発動後、追加で[:param11]のプリンシパルゲージを獲得",
+    "type": "Amplification",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20082
+          }
+        ],
+        "id": 1407001
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 670,
+    "scoreUpPerLevel": 60,
+    "lightCount": 1,
+    "coolTime": 50,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 140710,
+    "name": "決闘者は仙人の如く",
+    "description": "[:score]倍のスコアを獲得／[:sec]秒間、銀河座のアクターにセンススコア[:param11]％UP効果",
+    "type": "Amplification",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20056
+          }
+        ],
+        "id": 1407101
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 200,
+    "scoreUpPerLevel": 40,
+    "lightCount": 1,
+    "coolTime": 30,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
     "id": 140720,
     "name": "絵本から飛び出せば",
     "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／ライフが多いほどここなのスコア獲得量UP（最大＋100％）",
@@ -3054,6 +3121,278 @@
     "lightCount": 1,
     "coolTime": 40,
     "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 140920,
+    "name": "平和で幸せな悪魔憑き",
+    "description": "[:score]倍のスコアを獲得／付与されているライフガード1回につきスコア獲得量10％上昇（最大＋100％）",
+    "type": "Amplification",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29101
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 1,
+        "id": 1409201
+      },
+      {
+        "order": 2,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29102
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 2,
+        "id": 1409202
+      },
+      {
+        "order": 3,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29103
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 3,
+        "id": 1409203
+      },
+      {
+        "order": 4,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29104
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 4,
+        "id": 1409204
+      },
+      {
+        "order": 5,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29105
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 5,
+        "id": 1409205
+      },
+      {
+        "order": 6,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29106
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 6,
+        "id": 1409206
+      },
+      {
+        "order": 7,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29107
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 7,
+        "id": 1409207
+      },
+      {
+        "order": 8,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29108
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 8,
+        "id": 1409208
+      },
+      {
+        "order": 9,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29109
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 9,
+        "id": 1409209
+      },
+      {
+        "order": 10,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29110
+          }
+        ],
+        "judgeType1": 2,
+        "parameter1": 10,
+        "id": 1409210
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 510,
+    "scoreUpPerLevel": 40,
+    "lightCount": 1,
+    "coolTime": 30,
+    "branchCondition1": "LifeGuardCount",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 140930,
+    "name": "銀弾は正鵠の射手",
+    "description": "[:score]倍のスコアを獲得／付与されているライフガード1回につきスコア獲得量10％上昇（最大＋100％）",
+    "type": "Support",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29101
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 1,
+        "id": 1409301
+      },
+      {
+        "order": 2,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29102
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 2,
+        "id": 1409302
+      },
+      {
+        "order": 3,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29103
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 3,
+        "id": 1409303
+      },
+      {
+        "order": 4,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29104
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 4,
+        "id": 1409304
+      },
+      {
+        "order": 5,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29105
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 5,
+        "id": 1409305
+      },
+      {
+        "order": 6,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29106
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 6,
+        "id": 1409306
+      },
+      {
+        "order": 7,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29107
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 7,
+        "id": 1409307
+      },
+      {
+        "order": 8,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29108
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 8,
+        "id": 1409308
+      },
+      {
+        "order": 9,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29109
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 9,
+        "id": 1409309
+      },
+      {
+        "order": 10,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29110
+          }
+        ],
+        "judgeType1": 2,
+        "parameter1": 10,
+        "id": 1409310
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 600,
+    "scoreUpPerLevel": 50,
+    "lightCount": 1,
+    "coolTime": 40,
+    "branchCondition1": "LifeGuardCount",
     "branchCondition2": "None"
   }
 ]

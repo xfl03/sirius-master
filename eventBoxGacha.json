@@ -28,5 +28,35 @@
       }
     ],
     "eventBoxGachaTextTemplateMasterId": 1001
+  },
+  {
+    "id": 4,
+    "name": "GW抽選会",
+    "eventMasterId": 21004,
+    "requiredItemMasterId": 137001,
+    "requiredQuantity": 1,
+    "details": [
+      {
+        "id": 401,
+        "order": 1,
+        "prizeCount": 1
+      },
+      {
+        "id": 402,
+        "order": 2,
+        "prizeCount": 10
+      },
+      {
+        "id": 403,
+        "order": 3,
+        "prizeCount": 50
+      },
+      {
+        "id": 404,
+        "order": 4,
+        "prizeCount": 100
+      }
+    ],
+    "eventBoxGachaTextTemplateMasterId": 1002
   }
 ]

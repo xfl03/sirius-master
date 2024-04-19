@@ -19330,6 +19330,718 @@
     "isHideEndDate": false
   },
   {
+    "id": 1036,
+    "name": "アツアツまごころ料理道！ガチャ",
+    "cardType": "Character",
+    "gachaType": "Pickup",
+    "gachaTextTemplateMasterId": 1036,
+    "startDate": 1713632400.0,
+    "endDate": 1714496400.0,
+    "bonusThings": [
+      {
+        "id": 103601,
+        "thingId": 411036,
+        "thingType": "Item",
+        "thingQuantity": 1
+      }
+    ],
+    "gachaDetails": [
+      {
+        "id": 103600,
+        "paidJewelAmount": 50,
+        "isFree": false,
+        "dailyRollLimit": 1,
+        "prizeCount": 1,
+        "fixedPrizeCount": 0,
+        "buttonType": "PaidJewelSingle",
+        "detailBonusThings": [
+          {
+            "id": 103600,
+            "thingId": 130013,
+            "thingType": "Item",
+            "thingQuantity": 1
+          }
+        ]
+      },
+      {
+        "id": 103601,
+        "freeJewelAmount": 300,
+        "isFree": false,
+        "prizeCount": 1,
+        "fixedPrizeCount": 0,
+        "buttonType": "FreeJewelSingle",
+        "detailBonusThings": []
+      },
+      {
+        "id": 103602,
+        "freeJewelAmount": 3000,
+        "isFree": false,
+        "prizeCount": 10,
+        "fixedPrizeCount": 1,
+        "buttonType": "FreeJewelTenSeries",
+        "detailBonusThings": []
+      },
+      {
+        "id": 103603,
+        "requiredTicketMItemId": 210001,
+        "requiredTicketQuantity": 1,
+        "isFree": false,
+        "prizeCount": 1,
+        "fixedPrizeCount": 0,
+        "buttonType": "SingleTicket",
+        "detailBonusThings": []
+      },
+      {
+        "id": 103604,
+        "requiredTicketMItemId": 210001,
+        "requiredTicketQuantity": 10,
+        "isFree": false,
+        "prizeCount": 10,
+        "fixedPrizeCount": 1,
+        "buttonType": "SingleTicketTenSeries",
+        "detailBonusThings": []
+      },
+      {
+        "id": 103605,
+        "requiredTicketMItemId": 210002,
+        "requiredTicketQuantity": 1,
+        "isFree": false,
+        "prizeCount": 10,
+        "fixedPrizeCount": 1,
+        "buttonType": "TenSeriesTicket",
+        "detailBonusThings": []
+      },
+      {
+        "id": 103606,
+        "paidJewelAmount": 1500,
+        "isFree": false,
+        "overallRollLimit": 1,
+        "prizeCount": 10,
+        "fixedPrizeCount": 1,
+        "buttonType": "PaidJewelTenSeries",
+        "detailBonusThings": []
+      }
+    ],
+    "things": [
+      {
+        "id": 1036120010,
+        "thingId": 120010,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036120020,
+        "thingId": 120020,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036120030,
+        "thingId": 120030,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036120040,
+        "thingId": 120040,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036120050,
+        "thingId": 120050,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036120060,
+        "thingId": 120060,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036120070,
+        "thingId": 120070,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036120080,
+        "thingId": 120080,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036120090,
+        "thingId": 120090,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036120100,
+        "thingId": 120100,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036120110,
+        "thingId": 120110,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036120120,
+        "thingId": 120120,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036120130,
+        "thingId": 120130,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036120140,
+        "thingId": 120140,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036120150,
+        "thingId": 120150,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036120160,
+        "thingId": 120160,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036120170,
+        "thingId": 120170,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036120180,
+        "thingId": 120180,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036120190,
+        "thingId": 120190,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036120200,
+        "thingId": 120200,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036120210,
+        "thingId": 120210,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036130010,
+        "thingId": 130010,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036130020,
+        "thingId": 130020,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036130030,
+        "thingId": 130030,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036130040,
+        "thingId": 130040,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036130050,
+        "thingId": 130050,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036130060,
+        "thingId": 130060,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036130070,
+        "thingId": 130070,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036130080,
+        "thingId": 130080,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036130090,
+        "thingId": 130090,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036130100,
+        "thingId": 130100,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036130110,
+        "thingId": 130110,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036130120,
+        "thingId": 130120,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036130130,
+        "thingId": 130130,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036130140,
+        "thingId": 130140,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036130150,
+        "thingId": 130150,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036130160,
+        "thingId": 130160,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036130170,
+        "thingId": 130170,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036130180,
+        "thingId": 130180,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036130190,
+        "thingId": 130190,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036130200,
+        "thingId": 130200,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036130210,
+        "thingId": 130210,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036140020,
+        "thingId": 140020,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036140030,
+        "thingId": 140030,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036140040,
+        "thingId": 140040,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036140050,
+        "thingId": 140050,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036140060,
+        "thingId": 140060,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036140070,
+        "thingId": 140070,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036140080,
+        "thingId": 140080,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036140090,
+        "thingId": 140090,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036140100,
+        "thingId": 140100,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036140110,
+        "thingId": 140110,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036140120,
+        "thingId": 140120,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036140130,
+        "thingId": 140130,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036140140,
+        "thingId": 140140,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036140150,
+        "thingId": 140150,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036140160,
+        "thingId": 140160,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036140190,
+        "thingId": 140190,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036140200,
+        "thingId": 140200,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036140240,
+        "thingId": 140240,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036140250,
+        "thingId": 140250,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036140260,
+        "thingId": 140260,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036140270,
+        "thingId": 140270,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036140300,
+        "thingId": 140300,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036140310,
+        "thingId": 140310,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036140360,
+        "thingId": 140360,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036140370,
+        "thingId": 140370,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036140380,
+        "thingId": 140380,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036140390,
+        "thingId": 140390,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036140400,
+        "thingId": 140400,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036140410,
+        "thingId": 140410,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036140460,
+        "thingId": 140460,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036140470,
+        "thingId": 140470,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036140480,
+        "thingId": 140480,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036140490,
+        "thingId": 140490,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036140540,
+        "thingId": 140540,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036140550,
+        "thingId": 140550,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036140560,
+        "thingId": 140560,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036140570,
+        "thingId": 140570,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036140600,
+        "thingId": 140600,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036140610,
+        "thingId": 140610,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036140660,
+        "thingId": 140660,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036140670,
+        "thingId": 140670,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036140700,
+        "thingId": 140700,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "pickupOrder": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036140710,
+        "thingId": 140710,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "pickupOrder": 2,
+        "isSelectable": false
+      },
+      {
+        "id": 1036140720,
+        "thingId": 140720,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1036140730,
+        "thingId": 140730,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      }
+    ],
+    "hasMovie": true,
+    "storyEventMasterId": 20026,
+    "attentionGachaTextTemplateMasterId": 11004,
+    "isForceDisplay": false,
+    "isHideEndDate": false
+  },
+  {
     "id": 1037,
     "name": "Bloom Time-Lapseガチャ",
     "cardType": "Character",
@@ -20023,6 +20735,1456 @@
     ],
     "hasMovie": true,
     "storyEventMasterId": 20027,
+    "attentionGachaTextTemplateMasterId": 11004,
+    "isForceDisplay": false,
+    "isHideEndDate": false
+  },
+  {
+    "id": 1038,
+    "name": "ユメフェスガチャ",
+    "cardType": "Character",
+    "gachaType": "Pickup",
+    "gachaTextTemplateMasterId": 1038,
+    "startDate": 1714150800.0,
+    "endDate": 1714669200.0,
+    "bonusThings": [
+      {
+        "id": 103801,
+        "thingId": 411038,
+        "thingType": "Item",
+        "thingQuantity": 1
+      }
+    ],
+    "gachaDetails": [
+      {
+        "id": 103800,
+        "paidJewelAmount": 50,
+        "isFree": false,
+        "dailyRollLimit": 1,
+        "prizeCount": 1,
+        "fixedPrizeCount": 0,
+        "buttonType": "PaidJewelSingle",
+        "detailBonusThings": [
+          {
+            "id": 103800,
+            "thingId": 130013,
+            "thingType": "Item",
+            "thingQuantity": 1
+          }
+        ]
+      },
+      {
+        "id": 103801,
+        "freeJewelAmount": 300,
+        "isFree": false,
+        "prizeCount": 1,
+        "fixedPrizeCount": 0,
+        "buttonType": "FreeJewelSingle",
+        "detailBonusThings": []
+      },
+      {
+        "id": 103802,
+        "freeJewelAmount": 3000,
+        "isFree": false,
+        "prizeCount": 10,
+        "fixedPrizeCount": 1,
+        "buttonType": "FreeJewelTenSeries",
+        "detailBonusThings": []
+      },
+      {
+        "id": 103803,
+        "requiredTicketMItemId": 210001,
+        "requiredTicketQuantity": 1,
+        "isFree": false,
+        "prizeCount": 1,
+        "fixedPrizeCount": 0,
+        "buttonType": "SingleTicket",
+        "detailBonusThings": []
+      },
+      {
+        "id": 103804,
+        "requiredTicketMItemId": 210001,
+        "requiredTicketQuantity": 10,
+        "isFree": false,
+        "prizeCount": 10,
+        "fixedPrizeCount": 1,
+        "buttonType": "SingleTicketTenSeries",
+        "detailBonusThings": []
+      },
+      {
+        "id": 103805,
+        "requiredTicketMItemId": 210002,
+        "requiredTicketQuantity": 1,
+        "isFree": false,
+        "prizeCount": 10,
+        "fixedPrizeCount": 1,
+        "buttonType": "TenSeriesTicket",
+        "detailBonusThings": []
+      },
+      {
+        "id": 103806,
+        "paidJewelAmount": 1500,
+        "isFree": false,
+        "overallRollLimit": 1,
+        "prizeCount": 10,
+        "fixedPrizeCount": 1,
+        "buttonType": "PaidJewelTenSeries",
+        "detailBonusThings": []
+      }
+    ],
+    "things": [
+      {
+        "id": 1038120010,
+        "thingId": 120010,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038120020,
+        "thingId": 120020,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038120030,
+        "thingId": 120030,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038120040,
+        "thingId": 120040,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038120050,
+        "thingId": 120050,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038120060,
+        "thingId": 120060,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038120070,
+        "thingId": 120070,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038120080,
+        "thingId": 120080,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038120090,
+        "thingId": 120090,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038120100,
+        "thingId": 120100,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038120110,
+        "thingId": 120110,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038120120,
+        "thingId": 120120,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038120130,
+        "thingId": 120130,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038120140,
+        "thingId": 120140,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038120150,
+        "thingId": 120150,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038120160,
+        "thingId": 120160,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038120170,
+        "thingId": 120170,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038120180,
+        "thingId": 120180,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038120190,
+        "thingId": 120190,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038120200,
+        "thingId": 120200,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038120210,
+        "thingId": 120210,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038130010,
+        "thingId": 130010,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038130020,
+        "thingId": 130020,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038130030,
+        "thingId": 130030,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038130040,
+        "thingId": 130040,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038130050,
+        "thingId": 130050,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038130060,
+        "thingId": 130060,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038130070,
+        "thingId": 130070,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038130080,
+        "thingId": 130080,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038130090,
+        "thingId": 130090,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038130100,
+        "thingId": 130100,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038130110,
+        "thingId": 130110,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038130120,
+        "thingId": 130120,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038130130,
+        "thingId": 130130,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038130140,
+        "thingId": 130140,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038130150,
+        "thingId": 130150,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038130160,
+        "thingId": 130160,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038130170,
+        "thingId": 130170,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038130180,
+        "thingId": 130180,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038130190,
+        "thingId": 130190,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038130200,
+        "thingId": 130200,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038130210,
+        "thingId": 130210,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038140020,
+        "thingId": 140020,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038140030,
+        "thingId": 140030,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038140040,
+        "thingId": 140040,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038140050,
+        "thingId": 140050,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038140060,
+        "thingId": 140060,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038140070,
+        "thingId": 140070,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038140080,
+        "thingId": 140080,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038140090,
+        "thingId": 140090,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038140100,
+        "thingId": 140100,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038140110,
+        "thingId": 140110,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038140120,
+        "thingId": 140120,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038140130,
+        "thingId": 140130,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038140140,
+        "thingId": 140140,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038140150,
+        "thingId": 140150,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038140160,
+        "thingId": 140160,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038140190,
+        "thingId": 140190,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038140200,
+        "thingId": 140200,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038140240,
+        "thingId": 140240,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038140250,
+        "thingId": 140250,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038140260,
+        "thingId": 140260,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038140270,
+        "thingId": 140270,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038140300,
+        "thingId": 140300,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038140310,
+        "thingId": 140310,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038140320,
+        "thingId": 140320,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038140330,
+        "thingId": 140330,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038140360,
+        "thingId": 140360,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038140370,
+        "thingId": 140370,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038140380,
+        "thingId": 140380,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038140390,
+        "thingId": 140390,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038140400,
+        "thingId": 140400,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038140410,
+        "thingId": 140410,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038140460,
+        "thingId": 140460,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038140470,
+        "thingId": 140470,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038140480,
+        "thingId": 140480,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038140490,
+        "thingId": 140490,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038140520,
+        "thingId": 140520,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038140530,
+        "thingId": 140530,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038140540,
+        "thingId": 140540,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038140550,
+        "thingId": 140550,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038140560,
+        "thingId": 140560,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038140570,
+        "thingId": 140570,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038140600,
+        "thingId": 140600,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038140610,
+        "thingId": 140610,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038140660,
+        "thingId": 140660,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038140670,
+        "thingId": 140670,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038140720,
+        "thingId": 140720,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038140730,
+        "thingId": 140730,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038140920,
+        "thingId": 140920,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "pickupOrder": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1038140930,
+        "thingId": 140930,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "pickupOrder": 2,
+        "isSelectable": false
+      }
+    ],
+    "hasMovie": true,
+    "attentionGachaTextTemplateMasterId": 11004,
+    "isForceDisplay": false,
+    "isHideEndDate": false
+  },
+  {
+    "id": 1044,
+    "name": "【復刻】シリウスは日々是好日でガチャ",
+    "cardType": "Character",
+    "gachaType": "Pickup",
+    "gachaTextTemplateMasterId": 1044,
+    "startDate": 1714323600.0,
+    "endDate": 1714582800.0,
+    "bonusThings": [
+      {
+        "id": 104401,
+        "thingId": 411044,
+        "thingType": "Item",
+        "thingQuantity": 1
+      }
+    ],
+    "gachaDetails": [
+      {
+        "id": 104400,
+        "paidJewelAmount": 50,
+        "isFree": false,
+        "dailyRollLimit": 1,
+        "prizeCount": 1,
+        "fixedPrizeCount": 0,
+        "buttonType": "PaidJewelSingle",
+        "detailBonusThings": [
+          {
+            "id": 104400,
+            "thingId": 130013,
+            "thingType": "Item",
+            "thingQuantity": 1
+          }
+        ]
+      },
+      {
+        "id": 104401,
+        "freeJewelAmount": 300,
+        "isFree": false,
+        "prizeCount": 1,
+        "fixedPrizeCount": 0,
+        "buttonType": "FreeJewelSingle",
+        "detailBonusThings": []
+      },
+      {
+        "id": 104402,
+        "freeJewelAmount": 3000,
+        "isFree": false,
+        "prizeCount": 10,
+        "fixedPrizeCount": 1,
+        "buttonType": "FreeJewelTenSeries",
+        "detailBonusThings": []
+      },
+      {
+        "id": 104403,
+        "requiredTicketMItemId": 210001,
+        "requiredTicketQuantity": 1,
+        "isFree": false,
+        "prizeCount": 1,
+        "fixedPrizeCount": 0,
+        "buttonType": "SingleTicket",
+        "detailBonusThings": []
+      },
+      {
+        "id": 104404,
+        "requiredTicketMItemId": 210001,
+        "requiredTicketQuantity": 10,
+        "isFree": false,
+        "prizeCount": 10,
+        "fixedPrizeCount": 1,
+        "buttonType": "SingleTicketTenSeries",
+        "detailBonusThings": []
+      },
+      {
+        "id": 104405,
+        "requiredTicketMItemId": 210002,
+        "requiredTicketQuantity": 1,
+        "isFree": false,
+        "prizeCount": 10,
+        "fixedPrizeCount": 1,
+        "buttonType": "TenSeriesTicket",
+        "detailBonusThings": []
+      },
+      {
+        "id": 104406,
+        "paidJewelAmount": 1500,
+        "isFree": false,
+        "overallRollLimit": 1,
+        "prizeCount": 10,
+        "fixedPrizeCount": 1,
+        "buttonType": "PaidJewelTenSeries",
+        "detailBonusThings": []
+      }
+    ],
+    "things": [
+      {
+        "id": 1044120010,
+        "thingId": 120010,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044120020,
+        "thingId": 120020,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044120030,
+        "thingId": 120030,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044120040,
+        "thingId": 120040,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044120050,
+        "thingId": 120050,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044120060,
+        "thingId": 120060,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044120070,
+        "thingId": 120070,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044120080,
+        "thingId": 120080,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044120090,
+        "thingId": 120090,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044120100,
+        "thingId": 120100,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044120110,
+        "thingId": 120110,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044120120,
+        "thingId": 120120,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044120130,
+        "thingId": 120130,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044120140,
+        "thingId": 120140,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044120150,
+        "thingId": 120150,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044120160,
+        "thingId": 120160,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044120170,
+        "thingId": 120170,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044120180,
+        "thingId": 120180,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044120190,
+        "thingId": 120190,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044120200,
+        "thingId": 120200,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044120210,
+        "thingId": 120210,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044130010,
+        "thingId": 130010,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044130020,
+        "thingId": 130020,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044130030,
+        "thingId": 130030,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044130040,
+        "thingId": 130040,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044130050,
+        "thingId": 130050,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044130060,
+        "thingId": 130060,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044130070,
+        "thingId": 130070,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044130080,
+        "thingId": 130080,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044130090,
+        "thingId": 130090,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044130100,
+        "thingId": 130100,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044130110,
+        "thingId": 130110,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044130120,
+        "thingId": 130120,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044130130,
+        "thingId": 130130,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044130140,
+        "thingId": 130140,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044130150,
+        "thingId": 130150,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044130160,
+        "thingId": 130160,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044130170,
+        "thingId": 130170,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044130180,
+        "thingId": 130180,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044130190,
+        "thingId": 130190,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044130200,
+        "thingId": 130200,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044130210,
+        "thingId": 130210,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044140020,
+        "thingId": 140020,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044140030,
+        "thingId": 140030,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044140040,
+        "thingId": 140040,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044140050,
+        "thingId": 140050,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044140060,
+        "thingId": 140060,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044140070,
+        "thingId": 140070,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044140080,
+        "thingId": 140080,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044140090,
+        "thingId": 140090,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044140100,
+        "thingId": 140100,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044140110,
+        "thingId": 140110,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044140120,
+        "thingId": 140120,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044140130,
+        "thingId": 140130,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044140140,
+        "thingId": 140140,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044140150,
+        "thingId": 140150,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044140160,
+        "thingId": 140160,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044140190,
+        "thingId": 140190,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044140200,
+        "thingId": 140200,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044140240,
+        "thingId": 140240,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044140250,
+        "thingId": 140250,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044140260,
+        "thingId": 140260,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044140270,
+        "thingId": 140270,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044140300,
+        "thingId": 140300,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044140310,
+        "thingId": 140310,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044140340,
+        "thingId": 140340,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "pickupOrder": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044140350,
+        "thingId": 140350,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "pickupOrder": 2,
+        "isSelectable": false
+      },
+      {
+        "id": 1044140360,
+        "thingId": 140360,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044140370,
+        "thingId": 140370,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044140380,
+        "thingId": 140380,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044140390,
+        "thingId": 140390,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044140400,
+        "thingId": 140400,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044140410,
+        "thingId": 140410,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044140460,
+        "thingId": 140460,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044140470,
+        "thingId": 140470,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044140480,
+        "thingId": 140480,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044140490,
+        "thingId": 140490,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044140540,
+        "thingId": 140540,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044140550,
+        "thingId": 140550,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044140560,
+        "thingId": 140560,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044140570,
+        "thingId": 140570,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044140600,
+        "thingId": 140600,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044140610,
+        "thingId": 140610,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044140660,
+        "thingId": 140660,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044140670,
+        "thingId": 140670,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044140720,
+        "thingId": 140720,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1044140730,
+        "thingId": 140730,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      }
+    ],
+    "hasMovie": true,
     "attentionGachaTextTemplateMasterId": 11004,
     "isForceDisplay": false,
     "isHideEndDate": false
@@ -23565,6 +25727,698 @@
     "isHideEndDate": false
   },
   {
+    "id": 1807,
+    "name": "Edenピックアップガチャ",
+    "cardType": "Character",
+    "gachaType": "Pickup",
+    "gachaTextTemplateMasterId": 1807,
+    "startDate": 1714150800.0,
+    "endDate": 1714669200.0,
+    "bonusThings": [
+      {
+        "id": 180701,
+        "thingId": 411807,
+        "thingType": "Item",
+        "thingQuantity": 1
+      }
+    ],
+    "gachaDetails": [
+      {
+        "id": 180700,
+        "paidJewelAmount": 50,
+        "isFree": false,
+        "dailyRollLimit": 1,
+        "prizeCount": 1,
+        "fixedPrizeCount": 0,
+        "buttonType": "PaidJewelSingle",
+        "detailBonusThings": [
+          {
+            "id": 180700,
+            "thingId": 130013,
+            "thingType": "Item",
+            "thingQuantity": 1
+          }
+        ]
+      },
+      {
+        "id": 180701,
+        "freeJewelAmount": 300,
+        "isFree": false,
+        "prizeCount": 1,
+        "fixedPrizeCount": 0,
+        "buttonType": "FreeJewelSingle",
+        "detailBonusThings": []
+      },
+      {
+        "id": 180702,
+        "freeJewelAmount": 3000,
+        "isFree": false,
+        "prizeCount": 10,
+        "fixedPrizeCount": 1,
+        "buttonType": "FreeJewelTenSeries",
+        "detailBonusThings": []
+      },
+      {
+        "id": 180703,
+        "requiredTicketMItemId": 210001,
+        "requiredTicketQuantity": 1,
+        "isFree": false,
+        "prizeCount": 1,
+        "fixedPrizeCount": 0,
+        "buttonType": "SingleTicket",
+        "detailBonusThings": []
+      },
+      {
+        "id": 180704,
+        "requiredTicketMItemId": 210001,
+        "requiredTicketQuantity": 10,
+        "isFree": false,
+        "prizeCount": 10,
+        "fixedPrizeCount": 1,
+        "buttonType": "SingleTicketTenSeries",
+        "detailBonusThings": []
+      },
+      {
+        "id": 180705,
+        "requiredTicketMItemId": 210002,
+        "requiredTicketQuantity": 1,
+        "isFree": false,
+        "prizeCount": 10,
+        "fixedPrizeCount": 1,
+        "buttonType": "TenSeriesTicket",
+        "detailBonusThings": []
+      },
+      {
+        "id": 180706,
+        "paidJewelAmount": 1500,
+        "isFree": false,
+        "overallRollLimit": 1,
+        "prizeCount": 10,
+        "fixedPrizeCount": 1,
+        "buttonType": "PaidJewelTenSeries",
+        "detailBonusThings": []
+      }
+    ],
+    "things": [
+      {
+        "id": 1807120010,
+        "thingId": 120010,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807120020,
+        "thingId": 120020,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807120030,
+        "thingId": 120030,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807120040,
+        "thingId": 120040,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807120050,
+        "thingId": 120050,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807120060,
+        "thingId": 120060,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807120070,
+        "thingId": 120070,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807120080,
+        "thingId": 120080,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807120090,
+        "thingId": 120090,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807120100,
+        "thingId": 120100,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807120110,
+        "thingId": 120110,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807120120,
+        "thingId": 120120,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807120130,
+        "thingId": 120130,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807120140,
+        "thingId": 120140,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807120150,
+        "thingId": 120150,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807120160,
+        "thingId": 120160,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807120170,
+        "thingId": 120170,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807120180,
+        "thingId": 120180,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807120190,
+        "thingId": 120190,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807120200,
+        "thingId": 120200,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807120210,
+        "thingId": 120210,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807130010,
+        "thingId": 130010,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807130020,
+        "thingId": 130020,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807130030,
+        "thingId": 130030,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807130040,
+        "thingId": 130040,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807130050,
+        "thingId": 130050,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807130060,
+        "thingId": 130060,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807130070,
+        "thingId": 130070,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807130080,
+        "thingId": 130080,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807130090,
+        "thingId": 130090,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807130100,
+        "thingId": 130100,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807130110,
+        "thingId": 130110,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807130120,
+        "thingId": 130120,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807130130,
+        "thingId": 130130,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807130140,
+        "thingId": 130140,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807130150,
+        "thingId": 130150,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807130160,
+        "thingId": 130160,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807130170,
+        "thingId": 130170,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807130180,
+        "thingId": 130180,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807130190,
+        "thingId": 130190,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807130200,
+        "thingId": 130200,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807130210,
+        "thingId": 130210,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807140020,
+        "thingId": 140020,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807140030,
+        "thingId": 140030,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807140040,
+        "thingId": 140040,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807140050,
+        "thingId": 140050,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "pickupOrder": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807140060,
+        "thingId": 140060,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "pickupOrder": 2,
+        "isSelectable": false
+      },
+      {
+        "id": 1807140070,
+        "thingId": 140070,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "pickupOrder": 3,
+        "isSelectable": false
+      },
+      {
+        "id": 1807140080,
+        "thingId": 140080,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807140090,
+        "thingId": 140090,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807140100,
+        "thingId": 140100,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807140110,
+        "thingId": 140110,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807140120,
+        "thingId": 140120,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807140130,
+        "thingId": 140130,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807140140,
+        "thingId": 140140,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807140150,
+        "thingId": 140150,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "pickupOrder": 4,
+        "isSelectable": false
+      },
+      {
+        "id": 1807140160,
+        "thingId": 140160,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "pickupOrder": 5,
+        "isSelectable": false
+      },
+      {
+        "id": 1807140190,
+        "thingId": 140190,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807140200,
+        "thingId": 140200,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807140240,
+        "thingId": 140240,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807140250,
+        "thingId": 140250,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807140260,
+        "thingId": 140260,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "pickupOrder": 6,
+        "isSelectable": false
+      },
+      {
+        "id": 1807140270,
+        "thingId": 140270,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807140300,
+        "thingId": 140300,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807140310,
+        "thingId": 140310,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807140360,
+        "thingId": 140360,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807140370,
+        "thingId": 140370,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807140380,
+        "thingId": 140380,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807140390,
+        "thingId": 140390,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807140400,
+        "thingId": 140400,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807140410,
+        "thingId": 140410,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "pickupOrder": 7,
+        "isSelectable": false
+      },
+      {
+        "id": 1807140460,
+        "thingId": 140460,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807140470,
+        "thingId": 140470,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807140480,
+        "thingId": 140480,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807140490,
+        "thingId": 140490,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807140540,
+        "thingId": 140540,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "pickupOrder": 8,
+        "isSelectable": false
+      },
+      {
+        "id": 1807140550,
+        "thingId": 140550,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "pickupOrder": 9,
+        "isSelectable": false
+      },
+      {
+        "id": 1807140560,
+        "thingId": 140560,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807140570,
+        "thingId": 140570,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807140600,
+        "thingId": 140600,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "pickupOrder": 10,
+        "isSelectable": false
+      },
+      {
+        "id": 1807140610,
+        "thingId": 140610,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "pickupOrder": 11,
+        "isSelectable": false
+      },
+      {
+        "id": 1807140660,
+        "thingId": 140660,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1807140670,
+        "thingId": 140670,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      }
+    ],
+    "hasMovie": false,
+    "attentionGachaTextTemplateMasterId": 11006,
+    "isForceDisplay": false,
+    "isHideEndDate": false
+  },
+  {
     "id": 1860,
     "name": "スタンダードアクターガチャ",
     "cardType": "Character",
@@ -24233,7 +27087,7 @@
     "hasMovie": false,
     "attentionGachaTextTemplateMasterId": 11050,
     "isForceDisplay": false,
-    "isHideEndDate": false
+    "isHideEndDate": true
   },
   {
     "id": 1900,
@@ -26368,6 +29222,16 @@
         "fixedPrizeCount": 0,
         "buttonType": "SingleTicket",
         "detailBonusThings": []
+      },
+      {
+        "id": 190701,
+        "requiredTicketMItemId": 210003,
+        "requiredTicketQuantity": 10,
+        "isFree": false,
+        "prizeCount": 10,
+        "fixedPrizeCount": 1,
+        "buttonType": "SingleTicketTenSeries",
+        "detailBonusThings": []
       }
     ],
     "things": [
@@ -26982,6 +29846,1234 @@
       {
         "id": 1907140610,
         "thingId": 140610,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      }
+    ],
+    "hasMovie": false,
+    "attentionGachaTextTemplateMasterId": 11005,
+    "isForceDisplay": false,
+    "isHideEndDate": true
+  },
+  {
+    "id": 1908,
+    "name": "「Eden第2章」追加記念アクター10連ガチャ",
+    "cardType": "Character",
+    "gachaType": "SpecialTicket",
+    "gachaTextTemplateMasterId": 1908,
+    "startDate": 1714150800.0,
+    "endDate": 1716051600.0,
+    "bonusThings": [],
+    "gachaDetails": [
+      {
+        "id": 190800,
+        "requiredTicketMItemId": 210403,
+        "requiredTicketQuantity": 1,
+        "isFree": false,
+        "prizeCount": 10,
+        "fixedPrizeCount": 1,
+        "buttonType": "TenSeriesTicket",
+        "detailBonusThings": []
+      }
+    ],
+    "things": [
+      {
+        "id": 1908120010,
+        "thingId": 120010,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908120020,
+        "thingId": 120020,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908120030,
+        "thingId": 120030,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908120040,
+        "thingId": 120040,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908120050,
+        "thingId": 120050,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908120060,
+        "thingId": 120060,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908120070,
+        "thingId": 120070,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908120080,
+        "thingId": 120080,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908120090,
+        "thingId": 120090,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908120100,
+        "thingId": 120100,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908120110,
+        "thingId": 120110,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908120120,
+        "thingId": 120120,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908120130,
+        "thingId": 120130,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908120140,
+        "thingId": 120140,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908120150,
+        "thingId": 120150,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908120160,
+        "thingId": 120160,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908120170,
+        "thingId": 120170,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908120180,
+        "thingId": 120180,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908120190,
+        "thingId": 120190,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908120200,
+        "thingId": 120200,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908120210,
+        "thingId": 120210,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908130010,
+        "thingId": 130010,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908130020,
+        "thingId": 130020,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908130030,
+        "thingId": 130030,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908130040,
+        "thingId": 130040,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908130050,
+        "thingId": 130050,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908130060,
+        "thingId": 130060,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908130070,
+        "thingId": 130070,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908130080,
+        "thingId": 130080,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908130090,
+        "thingId": 130090,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908130100,
+        "thingId": 130100,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908130110,
+        "thingId": 130110,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908130120,
+        "thingId": 130120,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908130130,
+        "thingId": 130130,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908130140,
+        "thingId": 130140,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908130150,
+        "thingId": 130150,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908130160,
+        "thingId": 130160,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908130170,
+        "thingId": 130170,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908130180,
+        "thingId": 130180,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908130190,
+        "thingId": 130190,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908130200,
+        "thingId": 130200,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908130210,
+        "thingId": 130210,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908140020,
+        "thingId": 140020,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908140030,
+        "thingId": 140030,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908140040,
+        "thingId": 140040,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908140050,
+        "thingId": 140050,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908140060,
+        "thingId": 140060,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908140070,
+        "thingId": 140070,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908140080,
+        "thingId": 140080,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908140090,
+        "thingId": 140090,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908140100,
+        "thingId": 140100,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908140110,
+        "thingId": 140110,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908140120,
+        "thingId": 140120,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908140130,
+        "thingId": 140130,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908140140,
+        "thingId": 140140,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908140150,
+        "thingId": 140150,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908140160,
+        "thingId": 140160,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908140190,
+        "thingId": 140190,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908140200,
+        "thingId": 140200,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908140240,
+        "thingId": 140240,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908140250,
+        "thingId": 140250,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908140260,
+        "thingId": 140260,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908140270,
+        "thingId": 140270,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908140300,
+        "thingId": 140300,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908140310,
+        "thingId": 140310,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908140360,
+        "thingId": 140360,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908140370,
+        "thingId": 140370,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908140380,
+        "thingId": 140380,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908140390,
+        "thingId": 140390,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908140400,
+        "thingId": 140400,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908140410,
+        "thingId": 140410,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908140460,
+        "thingId": 140460,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908140470,
+        "thingId": 140470,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908140480,
+        "thingId": 140480,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908140490,
+        "thingId": 140490,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908140540,
+        "thingId": 140540,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908140550,
+        "thingId": 140550,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908140560,
+        "thingId": 140560,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908140570,
+        "thingId": 140570,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908140600,
+        "thingId": 140600,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908140610,
+        "thingId": 140610,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908140660,
+        "thingId": 140660,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1908140670,
+        "thingId": 140670,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      }
+    ],
+    "hasMovie": false,
+    "attentionGachaTextTemplateMasterId": 11010,
+    "isForceDisplay": false,
+    "isHideEndDate": false
+  },
+  {
+    "id": 1909,
+    "name": "★4確率2倍アクターガチャ",
+    "cardType": "Character",
+    "gachaType": "SpecialTicket",
+    "gachaTextTemplateMasterId": 1909,
+    "startDate": 1714078800.0,
+    "endDate": 4102444800.0,
+    "bonusThings": [],
+    "gachaDetails": [
+      {
+        "id": 190900,
+        "requiredTicketMItemId": 210404,
+        "requiredTicketQuantity": 1,
+        "isFree": false,
+        "prizeCount": 1,
+        "fixedPrizeCount": 0,
+        "buttonType": "SingleTicket",
+        "detailBonusThings": []
+      },
+      {
+        "id": 190901,
+        "requiredTicketMItemId": 210404,
+        "requiredTicketQuantity": 10,
+        "isFree": false,
+        "prizeCount": 10,
+        "fixedPrizeCount": 1,
+        "buttonType": "SingleTicketTenSeries",
+        "detailBonusThings": []
+      }
+    ],
+    "things": [
+      {
+        "id": 1909120010,
+        "thingId": 120010,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909120020,
+        "thingId": 120020,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909120030,
+        "thingId": 120030,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909120040,
+        "thingId": 120040,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909120050,
+        "thingId": 120050,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909120060,
+        "thingId": 120060,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909120070,
+        "thingId": 120070,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909120080,
+        "thingId": 120080,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909120090,
+        "thingId": 120090,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909120100,
+        "thingId": 120100,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909120110,
+        "thingId": 120110,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909120120,
+        "thingId": 120120,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909120130,
+        "thingId": 120130,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909120140,
+        "thingId": 120140,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909120150,
+        "thingId": 120150,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909120160,
+        "thingId": 120160,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909120170,
+        "thingId": 120170,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909120180,
+        "thingId": 120180,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909120190,
+        "thingId": 120190,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909120200,
+        "thingId": 120200,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909120210,
+        "thingId": 120210,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909130010,
+        "thingId": 130010,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909130020,
+        "thingId": 130020,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909130030,
+        "thingId": 130030,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909130040,
+        "thingId": 130040,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909130050,
+        "thingId": 130050,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909130060,
+        "thingId": 130060,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909130070,
+        "thingId": 130070,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909130080,
+        "thingId": 130080,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909130090,
+        "thingId": 130090,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909130100,
+        "thingId": 130100,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909130110,
+        "thingId": 130110,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909130120,
+        "thingId": 130120,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909130130,
+        "thingId": 130130,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909130140,
+        "thingId": 130140,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909130150,
+        "thingId": 130150,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909130160,
+        "thingId": 130160,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909130170,
+        "thingId": 130170,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909130180,
+        "thingId": 130180,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909130190,
+        "thingId": 130190,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909130200,
+        "thingId": 130200,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909130210,
+        "thingId": 130210,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909140020,
+        "thingId": 140020,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909140030,
+        "thingId": 140030,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909140040,
+        "thingId": 140040,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909140050,
+        "thingId": 140050,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909140060,
+        "thingId": 140060,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909140070,
+        "thingId": 140070,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909140080,
+        "thingId": 140080,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909140090,
+        "thingId": 140090,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909140100,
+        "thingId": 140100,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909140110,
+        "thingId": 140110,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909140120,
+        "thingId": 140120,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909140130,
+        "thingId": 140130,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909140140,
+        "thingId": 140140,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909140150,
+        "thingId": 140150,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909140160,
+        "thingId": 140160,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909140190,
+        "thingId": 140190,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909140200,
+        "thingId": 140200,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909140240,
+        "thingId": 140240,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909140250,
+        "thingId": 140250,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909140260,
+        "thingId": 140260,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909140270,
+        "thingId": 140270,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909140300,
+        "thingId": 140300,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909140310,
+        "thingId": 140310,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909140360,
+        "thingId": 140360,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909140370,
+        "thingId": 140370,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909140380,
+        "thingId": 140380,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909140390,
+        "thingId": 140390,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909140400,
+        "thingId": 140400,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909140410,
+        "thingId": 140410,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909140460,
+        "thingId": 140460,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909140470,
+        "thingId": 140470,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909140480,
+        "thingId": 140480,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909140490,
+        "thingId": 140490,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909140540,
+        "thingId": 140540,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909140550,
+        "thingId": 140550,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909140560,
+        "thingId": 140560,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909140570,
+        "thingId": 140570,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909140600,
+        "thingId": 140600,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909140610,
+        "thingId": 140610,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909140660,
+        "thingId": 140660,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 1909140670,
+        "thingId": 140670,
         "thingType": "Character",
         "thingQuantity": 1,
         "isSelectable": false
@@ -42473,6 +46565,534 @@
     "isHideEndDate": false
   },
   {
+    "id": 2044,
+    "name": "【復刻】くまガチャ",
+    "cardType": "Poster",
+    "gachaType": "Pickup",
+    "gachaTextTemplateMasterId": 2044,
+    "startDate": 1714323600.0,
+    "endDate": 1714582800.0,
+    "bonusThings": [
+      {
+        "id": 204401,
+        "thingId": 412044,
+        "thingType": "Item",
+        "thingQuantity": 1
+      }
+    ],
+    "gachaDetails": [
+      {
+        "id": 204400,
+        "paidJewelAmount": 50,
+        "isFree": false,
+        "dailyRollLimit": 1,
+        "prizeCount": 1,
+        "fixedPrizeCount": 0,
+        "buttonType": "PaidJewelSingle",
+        "detailBonusThings": [
+          {
+            "id": 204400,
+            "thingId": 130013,
+            "thingType": "Item",
+            "thingQuantity": 1
+          }
+        ]
+      },
+      {
+        "id": 204401,
+        "freeJewelAmount": 300,
+        "isFree": false,
+        "prizeCount": 1,
+        "fixedPrizeCount": 0,
+        "buttonType": "FreeJewelSingle",
+        "detailBonusThings": []
+      },
+      {
+        "id": 204402,
+        "freeJewelAmount": 3000,
+        "isFree": false,
+        "prizeCount": 10,
+        "fixedPrizeCount": 1,
+        "buttonType": "FreeJewelTenSeries",
+        "detailBonusThings": []
+      },
+      {
+        "id": 204403,
+        "requiredTicketMItemId": 211001,
+        "requiredTicketQuantity": 1,
+        "isFree": false,
+        "prizeCount": 1,
+        "fixedPrizeCount": 0,
+        "buttonType": "SingleTicket",
+        "detailBonusThings": []
+      },
+      {
+        "id": 204404,
+        "requiredTicketMItemId": 211001,
+        "requiredTicketQuantity": 10,
+        "isFree": false,
+        "prizeCount": 10,
+        "fixedPrizeCount": 1,
+        "buttonType": "SingleTicketTenSeries",
+        "detailBonusThings": []
+      },
+      {
+        "id": 204405,
+        "requiredTicketMItemId": 211002,
+        "requiredTicketQuantity": 1,
+        "isFree": false,
+        "prizeCount": 10,
+        "fixedPrizeCount": 1,
+        "buttonType": "TenSeriesTicket",
+        "detailBonusThings": []
+      },
+      {
+        "id": 204406,
+        "paidJewelAmount": 1500,
+        "isFree": false,
+        "overallRollLimit": 1,
+        "prizeCount": 10,
+        "fixedPrizeCount": 1,
+        "buttonType": "PaidJewelTenSeries",
+        "detailBonusThings": []
+      }
+    ],
+    "things": [
+      {
+        "id": 2044210010,
+        "thingId": 210010,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2044210020,
+        "thingId": 210020,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2044210030,
+        "thingId": 210030,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2044210040,
+        "thingId": 210040,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2044210050,
+        "thingId": 210050,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2044210060,
+        "thingId": 210060,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2044210070,
+        "thingId": 210070,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2044210080,
+        "thingId": 210080,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2044210090,
+        "thingId": 210090,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2044210100,
+        "thingId": 210100,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2044210110,
+        "thingId": 210110,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2044210120,
+        "thingId": 210120,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2044210130,
+        "thingId": 210130,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2044210140,
+        "thingId": 210140,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2044210150,
+        "thingId": 210150,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2044210160,
+        "thingId": 210160,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2044210170,
+        "thingId": 210170,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2044210180,
+        "thingId": 210180,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2044210190,
+        "thingId": 210190,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2044210200,
+        "thingId": 210200,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2044210210,
+        "thingId": 210210,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2044220010,
+        "thingId": 220010,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2044220020,
+        "thingId": 220020,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2044220030,
+        "thingId": 220030,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2044220040,
+        "thingId": 220040,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2044220050,
+        "thingId": 220050,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2044220060,
+        "thingId": 220060,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2044220070,
+        "thingId": 220070,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2044220080,
+        "thingId": 220080,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2044220090,
+        "thingId": 220090,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2044220100,
+        "thingId": 220100,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2044220110,
+        "thingId": 220110,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2044220120,
+        "thingId": 220120,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2044220130,
+        "thingId": 220130,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2044220140,
+        "thingId": 220140,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2044220150,
+        "thingId": 220150,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2044220160,
+        "thingId": 220160,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2044230010,
+        "thingId": 230010,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2044230020,
+        "thingId": 230020,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2044230030,
+        "thingId": 230030,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2044230040,
+        "thingId": 230040,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2044230050,
+        "thingId": 230050,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2044230060,
+        "thingId": 230060,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2044230070,
+        "thingId": 230070,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2044230080,
+        "thingId": 230080,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2044230130,
+        "thingId": 230130,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2044230140,
+        "thingId": 230140,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2044230160,
+        "thingId": 230160,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2044230190,
+        "thingId": 230190,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2044230200,
+        "thingId": 230200,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2044230220,
+        "thingId": 230220,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2044230230,
+        "thingId": 230230,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "pickupOrder": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2044230250,
+        "thingId": 230250,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2044230260,
+        "thingId": 230260,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2044230280,
+        "thingId": 230280,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2044230310,
+        "thingId": 230310,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2044230320,
+        "thingId": 230320,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2044230340,
+        "thingId": 230340,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2044230350,
+        "thingId": 230350,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2044230380,
+        "thingId": 230380,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2044230410,
+        "thingId": 230410,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      }
+    ],
+    "hasMovie": true,
+    "attentionGachaTextTemplateMasterId": 12001,
+    "isForceDisplay": false,
+    "isHideEndDate": false
+  },
+  {
     "id": 2800,
     "name": "結ぶぞ！その契約！ガチャ",
     "cardType": "Poster",
@@ -47323,6 +51943,16 @@
         "fixedPrizeCount": 0,
         "buttonType": "SingleTicket",
         "detailBonusThings": []
+      },
+      {
+        "id": 290601,
+        "requiredTicketMItemId": 211003,
+        "requiredTicketQuantity": 10,
+        "isFree": false,
+        "prizeCount": 10,
+        "fixedPrizeCount": 1,
+        "buttonType": "SingleTicketTenSeries",
+        "detailBonusThings": []
       }
     ],
     "things": [
@@ -47759,6 +52389,912 @@
       {
         "id": 2906230380,
         "thingId": 230380,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      }
+    ],
+    "hasMovie": false,
+    "attentionGachaTextTemplateMasterId": 12002,
+    "isForceDisplay": false,
+    "isHideEndDate": true
+  },
+  {
+    "id": 2907,
+    "name": "「Eden第2章」追加記念ポスター10連ガチャ",
+    "cardType": "Poster",
+    "gachaType": "SpecialTicket",
+    "gachaTextTemplateMasterId": 2907,
+    "startDate": 1714150800.0,
+    "endDate": 1716051600.0,
+    "bonusThings": [],
+    "gachaDetails": [
+      {
+        "id": 290700,
+        "requiredTicketMItemId": 211403,
+        "requiredTicketQuantity": 1,
+        "isFree": false,
+        "prizeCount": 10,
+        "fixedPrizeCount": 1,
+        "buttonType": "TenSeriesTicket",
+        "detailBonusThings": []
+      }
+    ],
+    "things": [
+      {
+        "id": 2907210010,
+        "thingId": 210010,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2907210020,
+        "thingId": 210020,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2907210030,
+        "thingId": 210030,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2907210040,
+        "thingId": 210040,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2907210050,
+        "thingId": 210050,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2907210060,
+        "thingId": 210060,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2907210070,
+        "thingId": 210070,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2907210080,
+        "thingId": 210080,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2907210090,
+        "thingId": 210090,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2907210100,
+        "thingId": 210100,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2907210110,
+        "thingId": 210110,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2907210120,
+        "thingId": 210120,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2907210130,
+        "thingId": 210130,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2907210140,
+        "thingId": 210140,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2907210150,
+        "thingId": 210150,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2907210160,
+        "thingId": 210160,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2907210170,
+        "thingId": 210170,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2907210180,
+        "thingId": 210180,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2907210190,
+        "thingId": 210190,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2907210200,
+        "thingId": 210200,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2907210210,
+        "thingId": 210210,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2907220010,
+        "thingId": 220010,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2907220020,
+        "thingId": 220020,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2907220030,
+        "thingId": 220030,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2907220040,
+        "thingId": 220040,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2907220050,
+        "thingId": 220050,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2907220060,
+        "thingId": 220060,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2907220070,
+        "thingId": 220070,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2907220080,
+        "thingId": 220080,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2907220090,
+        "thingId": 220090,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2907220100,
+        "thingId": 220100,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2907220110,
+        "thingId": 220110,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2907220120,
+        "thingId": 220120,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2907220130,
+        "thingId": 220130,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2907220140,
+        "thingId": 220140,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2907220150,
+        "thingId": 220150,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2907220160,
+        "thingId": 220160,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2907230010,
+        "thingId": 230010,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2907230020,
+        "thingId": 230020,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2907230030,
+        "thingId": 230030,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2907230040,
+        "thingId": 230040,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2907230050,
+        "thingId": 230050,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2907230060,
+        "thingId": 230060,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2907230070,
+        "thingId": 230070,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2907230080,
+        "thingId": 230080,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2907230130,
+        "thingId": 230130,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2907230140,
+        "thingId": 230140,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2907230160,
+        "thingId": 230160,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2907230190,
+        "thingId": 230190,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2907230200,
+        "thingId": 230200,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2907230220,
+        "thingId": 230220,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2907230250,
+        "thingId": 230250,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2907230260,
+        "thingId": 230260,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2907230280,
+        "thingId": 230280,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2907230310,
+        "thingId": 230310,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2907230320,
+        "thingId": 230320,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2907230340,
+        "thingId": 230340,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2907230350,
+        "thingId": 230350,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2907230380,
+        "thingId": 230380,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2907230410,
+        "thingId": 230410,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      }
+    ],
+    "hasMovie": false,
+    "attentionGachaTextTemplateMasterId": 12002,
+    "isForceDisplay": false,
+    "isHideEndDate": false
+  },
+  {
+    "id": 2908,
+    "name": "SSR確率2倍ポスターガチャ",
+    "cardType": "Poster",
+    "gachaType": "SpecialTicket",
+    "gachaTextTemplateMasterId": 2908,
+    "startDate": 1714078800.0,
+    "endDate": 4102444800.0,
+    "bonusThings": [],
+    "gachaDetails": [
+      {
+        "id": 290800,
+        "requiredTicketMItemId": 211404,
+        "requiredTicketQuantity": 1,
+        "isFree": false,
+        "prizeCount": 1,
+        "fixedPrizeCount": 0,
+        "buttonType": "SingleTicket",
+        "detailBonusThings": []
+      },
+      {
+        "id": 290801,
+        "requiredTicketMItemId": 211404,
+        "requiredTicketQuantity": 10,
+        "isFree": false,
+        "prizeCount": 10,
+        "fixedPrizeCount": 1,
+        "buttonType": "SingleTicketTenSeries",
+        "detailBonusThings": []
+      }
+    ],
+    "things": [
+      {
+        "id": 2908210010,
+        "thingId": 210010,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2908210020,
+        "thingId": 210020,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2908210030,
+        "thingId": 210030,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2908210040,
+        "thingId": 210040,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2908210050,
+        "thingId": 210050,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2908210060,
+        "thingId": 210060,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2908210070,
+        "thingId": 210070,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2908210080,
+        "thingId": 210080,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2908210090,
+        "thingId": 210090,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2908210100,
+        "thingId": 210100,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2908210110,
+        "thingId": 210110,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2908210120,
+        "thingId": 210120,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2908210130,
+        "thingId": 210130,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2908210140,
+        "thingId": 210140,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2908210150,
+        "thingId": 210150,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2908210160,
+        "thingId": 210160,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2908210170,
+        "thingId": 210170,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2908210180,
+        "thingId": 210180,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2908210190,
+        "thingId": 210190,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2908210200,
+        "thingId": 210200,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2908210210,
+        "thingId": 210210,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2908220010,
+        "thingId": 220010,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2908220020,
+        "thingId": 220020,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2908220030,
+        "thingId": 220030,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2908220040,
+        "thingId": 220040,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2908220050,
+        "thingId": 220050,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2908220060,
+        "thingId": 220060,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2908220070,
+        "thingId": 220070,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2908220080,
+        "thingId": 220080,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2908220090,
+        "thingId": 220090,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2908220100,
+        "thingId": 220100,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2908220110,
+        "thingId": 220110,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2908220120,
+        "thingId": 220120,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2908220130,
+        "thingId": 220130,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2908220140,
+        "thingId": 220140,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2908220150,
+        "thingId": 220150,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2908220160,
+        "thingId": 220160,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2908230010,
+        "thingId": 230010,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2908230020,
+        "thingId": 230020,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2908230030,
+        "thingId": 230030,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2908230040,
+        "thingId": 230040,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2908230050,
+        "thingId": 230050,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2908230060,
+        "thingId": 230060,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2908230070,
+        "thingId": 230070,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2908230080,
+        "thingId": 230080,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2908230130,
+        "thingId": 230130,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2908230140,
+        "thingId": 230140,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2908230160,
+        "thingId": 230160,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2908230190,
+        "thingId": 230190,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2908230200,
+        "thingId": 230200,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2908230220,
+        "thingId": 230220,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2908230250,
+        "thingId": 230250,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2908230260,
+        "thingId": 230260,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2908230280,
+        "thingId": 230280,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2908230310,
+        "thingId": 230310,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2908230320,
+        "thingId": 230320,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2908230340,
+        "thingId": 230340,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2908230350,
+        "thingId": 230350,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2908230380,
+        "thingId": 230380,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "isSelectable": false
+      },
+      {
+        "id": 2908230410,
+        "thingId": 230410,
         "thingType": "Poster",
         "thingQuantity": 1,
         "isSelectable": false
