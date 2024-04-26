@@ -1615,6 +1615,32 @@
     "branchCondition2": "None"
   },
   {
+    "id": 130490,
+    "name": "リラックス・ナイト・タイム",
+    "description": "[:score]倍のスコアを獲得／ライフを[:param11]回復",
+    "type": "Control",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20013
+          }
+        ],
+        "id": 1304901
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 140,
+    "scoreUpPerLevel": 40,
+    "lightCount": 1,
+    "coolTime": 40,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
     "id": 130560,
     "name": "フラワー・テンペスト",
     "description": "[:score]倍のスコアを獲得",
@@ -3020,6 +3046,58 @@
           }
         ],
         "id": 1407301
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 740,
+    "scoreUpPerLevel": 70,
+    "lightCount": 1,
+    "coolTime": 60,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 140740,
+    "name": "舞踏会は波乱と恋の予感？！",
+    "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／センス発動直後、自身の表現力の[:param11]倍のスコアを獲得",
+    "type": "Special",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20535
+          }
+        ],
+        "id": 1407401
+      }
+    ],
+    "acquirableGauge": 110,
+    "acquirableScorePercent": 210,
+    "scoreUpPerLevel": 60,
+    "lightCount": 1,
+    "coolTime": 55,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 140750,
+    "name": "冷酷な辺境伯に求婚されてます",
+    "description": "[:score]倍のスコアを獲得／センス発動後、追加で[:param11]のプリンシパルゲージを獲得",
+    "type": "Support",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20082
+          }
+        ],
+        "id": 1407501
       }
     ],
     "acquirableGauge": 0,
