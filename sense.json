@@ -1641,6 +1641,32 @@
     "branchCondition2": "None"
   },
   {
+    "id": 130520,
+    "name": "雨上がりを演じて",
+    "description": "[:score]倍のスコアを獲得／ライフを[:param11]回復",
+    "type": "Special",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20013
+          }
+        ],
+        "id": 1305201
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 190,
+    "scoreUpPerLevel": 50,
+    "lightCount": 1,
+    "coolTime": 60,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
     "id": 130560,
     "name": "フラワー・テンペスト",
     "description": "[:score]倍のスコアを獲得",
@@ -3105,6 +3131,52 @@
     "scoreUpPerLevel": 70,
     "lightCount": 1,
     "coolTime": 60,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 140800,
+    "name": "オートマタのテアトルにて",
+    "description": "ここな編成時、ここなが代わりにセンスを発動し、ここなのスコア獲得量[:pre1]％UP",
+    "type": "Alternative",
+    "preEffects": [
+      {
+        "order": 1,
+        "effectMasterId": 20024
+      }
+    ],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20001
+          }
+        ],
+        "id": 1408001
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 0,
+    "scoreUpPerLevel": 0,
+    "lightCount": 0,
+    "coolTime": 0,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 140810,
+    "name": "心躍る人形劇の裏",
+    "description": "[:score]倍のスコアを獲得",
+    "type": "Amplification",
+    "preEffects": [],
+    "branches": [],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 670,
+    "scoreUpPerLevel": 60,
+    "lightCount": 1,
+    "coolTime": 50,
     "branchCondition1": "None",
     "branchCondition2": "None"
   },

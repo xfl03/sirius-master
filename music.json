@@ -3725,6 +3725,43 @@
     "musicCoverType": "Original"
   },
   {
+    "id": 109,
+    "name": "Wish upon a star",
+    "description": "",
+    "rewardRuleMasterId": 1,
+    "pronounceName": "wishuponastar",
+    "lyricWriter": "志村真白（FirstCall）",
+    "composer": "志村真白（FirstCall）",
+    "arranger": "志村真白（FirstCall）",
+    "isLongVersion": false,
+    "releasedAt": 1715360400.0,
+    "staminaConsumption": 27,
+    "musicTimeSecond": 107,
+    "invisible": false,
+    "sampleStartSeconds": 0.0,
+    "sampleEndSeconds": 0.0,
+    "delaySeconds": 0.0,
+    "vocalVersions": [
+      {
+        "id": 10901,
+        "musicMasterId": 109,
+        "vocalVersion": 1,
+        "singer": "静香",
+        "name": "Wish upon a star",
+        "musicTimeSecond": 107,
+        "sampleStartSeconds": 0.0,
+        "sampleEndSeconds": 0.0,
+        "musicVideoType": "None",
+        "characters": [
+          102
+        ]
+      }
+    ],
+    "unlockConditionType": "Default",
+    "musicVideoType": "None",
+    "musicCoverType": "Original"
+  },
+  {
     "id": 118,
     "name": "あの夏が飽和する。",
     "description": "",
@@ -4141,6 +4178,44 @@
           303,
           304,
           305
+        ]
+      }
+    ],
+    "unlockConditionType": "Buy",
+    "musicVideoType": "None",
+    "musicCoverType": "Cover"
+  },
+  {
+    "id": 135,
+    "name": "INTERNET YAMERO",
+    "description": "",
+    "rewardRuleMasterId": 1,
+    "pronounceName": "internetyamero",
+    "lyricWriter": "にゃるら",
+    "composer": "Aiobahn",
+    "arranger": "-",
+    "unlockText": "楽曲ショップで購入",
+    "isLongVersion": false,
+    "releasedAt": 1716138000.0,
+    "staminaConsumption": 36,
+    "musicTimeSecond": 154,
+    "invisible": false,
+    "sampleStartSeconds": 0.0,
+    "sampleEndSeconds": 0.0,
+    "delaySeconds": 0.0,
+    "vocalVersions": [
+      {
+        "id": 13501,
+        "musicMasterId": 135,
+        "vocalVersion": 1,
+        "singer": "烏森大黒",
+        "name": "INTERNET YAMERO",
+        "musicTimeSecond": 154,
+        "sampleStartSeconds": 0.0,
+        "sampleEndSeconds": 0.0,
+        "musicVideoType": "None",
+        "characters": [
+          202
         ]
       }
     ],

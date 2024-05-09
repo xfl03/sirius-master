@@ -3576,6 +3576,30 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 220470,
+    "name": "サイレント・リフレクション",
+    "description": "シリウスに所属するアクターの演技力が[:param11]％上昇",
+    "posterMasterId": 220470,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70022100
+          }
+        ],
+        "id": 22047001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 229010,
     "name": "初めての舞台",
     "description": "<color=#7AC940>彩属性</color>のアクターの演技力が[:param11]%上昇",
@@ -7824,6 +7848,54 @@
           }
         ],
         "id": 220440201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2204701,
+    "name": "集中力アップ",
+    "description": "自身の集中力が[:param11]％上昇　◆発動条件：シリウスに所属するアクターが装備",
+    "posterMasterId": 220470,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10310100
+          }
+        ],
+        "id": 220470101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2204702,
+    "name": "スコアブースト・集中力",
+    "description": "センス発動直後、自身の集中力の[:param11]倍のスコアを獲得　◆発動条件：シリウスに所属するアクターが装備",
+    "posterMasterId": 220470,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11110100
+          }
+        ],
+        "id": 220470201
       }
     ],
     "branchConditionType1": "None",

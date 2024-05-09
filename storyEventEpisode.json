@@ -1917,6 +1917,77 @@
     "episodeRewardPackageMasterId": 2002808
   },
   {
+    "id": 2003101,
+    "storyMasterId": 20031,
+    "requiredTotalAcquiredPoint": 0,
+    "title": "ワークショップ",
+    "order": 1,
+    "episodeRewardPackageMasterId": 2003101
+  },
+  {
+    "id": 2003102,
+    "storyMasterId": 20031,
+    "requiredTotalAcquiredPoint": 2000,
+    "title": "会場にて",
+    "order": 2,
+    "requiredReadEpisodeMasterId": 2003101,
+    "episodeRewardPackageMasterId": 2003102
+  },
+  {
+    "id": 2003103,
+    "storyMasterId": 20031,
+    "requiredTotalAcquiredPoint": 4000,
+    "title": "即興劇",
+    "order": 3,
+    "requiredReadEpisodeMasterId": 2003102,
+    "episodeRewardPackageMasterId": 2003103
+  },
+  {
+    "id": 2003104,
+    "storyMasterId": 20031,
+    "requiredTotalAcquiredPoint": 8000,
+    "title": "自由にやってみて",
+    "order": 4,
+    "requiredReadEpisodeMasterId": 2003103,
+    "episodeRewardPackageMasterId": 2003104
+  },
+  {
+    "id": 2003105,
+    "storyMasterId": 20031,
+    "requiredTotalAcquiredPoint": 16000,
+    "title": "センスであり役者",
+    "order": 5,
+    "requiredReadEpisodeMasterId": 2003104,
+    "episodeRewardPackageMasterId": 2003105
+  },
+  {
+    "id": 2003106,
+    "storyMasterId": 20031,
+    "requiredTotalAcquiredPoint": 32000,
+    "title": "無言劇",
+    "order": 6,
+    "requiredReadEpisodeMasterId": 2003105,
+    "episodeRewardPackageMasterId": 2003106
+  },
+  {
+    "id": 2003107,
+    "storyMasterId": 20031,
+    "requiredTotalAcquiredPoint": 64000,
+    "title": "鏡合わせのふたり",
+    "order": 7,
+    "requiredReadEpisodeMasterId": 2003106,
+    "episodeRewardPackageMasterId": 2003107
+  },
+  {
+    "id": 2003108,
+    "storyMasterId": 20031,
+    "requiredTotalAcquiredPoint": 128000,
+    "title": "交わした約束",
+    "order": 8,
+    "requiredReadEpisodeMasterId": 2003107,
+    "episodeRewardPackageMasterId": 2003108
+  },
+  {
     "id": 2004201,
     "storyMasterId": 20042,
     "requiredTotalAcquiredPoint": 0,

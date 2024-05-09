@@ -1038,5 +1038,109 @@
       "effectDescription": "スターアクト発動に必要な増幅の光<color=#ffd700>*</color>が[:param1]個減少する（必要な光の数は1個未満にならない）　※<color=#7AC940>彩属性</color>の白丸 美兎のみ対象",
       "iconImagePath": "138"
     }
+  },
+  {
+    "id": 2003101,
+    "storyEventHighScoreMasterId": 20031,
+    "storyEventHighScoreBuffMasterId": 11,
+    "storyEventHighScoreBuffMaster": {
+      "id": 11,
+      "storyEventHighScoreBuffPatternGroupId": 1,
+      "effectMasterId": 80003,
+      "effectName": "舞台照明",
+      "effectDescription": "アクターの集中力が[:param1]上昇する",
+      "iconImagePath": "11"
+    }
+  },
+  {
+    "id": 2003102,
+    "storyEventHighScoreMasterId": 20031,
+    "storyEventHighScoreBuffMasterId": 12,
+    "storyEventHighScoreBuffMaster": {
+      "id": 12,
+      "storyEventHighScoreBuffPatternGroupId": 1,
+      "effectMasterId": 80002,
+      "effectName": "舞台スピーカー",
+      "effectDescription": "アクターの表現力が[:param1]上昇する",
+      "iconImagePath": "12"
+    }
+  },
+  {
+    "id": 2003103,
+    "storyEventHighScoreMasterId": 20031,
+    "storyEventHighScoreBuffMasterId": 13,
+    "storyEventHighScoreBuffMaster": {
+      "id": 13,
+      "storyEventHighScoreBuffPatternGroupId": 1,
+      "effectMasterId": 80001,
+      "effectName": "舞台マイク",
+      "effectDescription": "アクターの歌唱力が[:param1]上昇する",
+      "iconImagePath": "13"
+    }
+  },
+  {
+    "id": 2003104,
+    "storyEventHighScoreMasterId": 20031,
+    "storyEventHighScoreBuffMasterId": 14,
+    "storyEventHighScoreBuffMaster": {
+      "id": 14,
+      "storyEventHighScoreBuffPatternGroupId": 1,
+      "effectMasterId": 80004,
+      "effectName": "舞台カーテン",
+      "effectDescription": "アクターの演技力が[:param1]％上昇する",
+      "iconImagePath": "14"
+    }
+  },
+  {
+    "id": 2003105,
+    "storyEventHighScoreMasterId": 20031,
+    "storyEventHighScoreBuffMasterId": 141,
+    "storyEventHighScoreBuffMaster": {
+      "id": 141,
+      "storyEventHighScoreBuffPatternGroupId": 2,
+      "effectMasterId": 80045,
+      "effectName": "髪飾り",
+      "effectDescription": "アクターの集中力が[:param1]%上昇する　※シリウスに所属するアクターのみ対象",
+      "iconImagePath": "148"
+    }
+  },
+  {
+    "id": 2003106,
+    "storyEventHighScoreMasterId": 20031,
+    "storyEventHighScoreBuffMasterId": 142,
+    "storyEventHighScoreBuffMaster": {
+      "id": 142,
+      "storyEventHighScoreBuffPatternGroupId": 2,
+      "effectMasterId": 80046,
+      "effectName": "ネックレス",
+      "effectDescription": "シリウスに所属するアクター1人につき、公演開始時にプリンシパルゲージが[:param1]上昇する",
+      "iconImagePath": "146"
+    }
+  },
+  {
+    "id": 2003107,
+    "storyEventHighScoreMasterId": 20031,
+    "storyEventHighScoreBuffMasterId": 143,
+    "storyEventHighScoreBuffMaster": {
+      "id": 143,
+      "storyEventHighScoreBuffPatternGroupId": 2,
+      "effectMasterId": 80047,
+      "effectName": "羽帽子",
+      "effectDescription": "センスのCTが[:param1]秒短縮する　※<color=#33B4DF>凛属性</color>のカトリナ・グリーベルのみ対象",
+      "iconImagePath": "145"
+    }
+  },
+  {
+    "id": 2003108,
+    "storyEventHighScoreMasterId": 20031,
+    "storyEventHighScoreBuffMasterId": 144,
+    "storyEventHighScoreBuffMaster": {
+      "id": 144,
+      "storyEventHighScoreBuffPatternGroupId": 2,
+      "effectMasterId": 80048,
+      "effectName": "歯車",
+      "effectDescription": "スターアクト発動に必要な支援の光<color=#228b22>*</color>が[:param1]個減少する（必要な光の数は1個未満にならない）　※<color=#33B4DF>凛属性</color>の静香のみ対象",
+      "iconImagePath": "147"
+    }
   }
 ]
