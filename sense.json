@@ -1641,6 +1641,37 @@
     "branchCondition2": "None"
   },
   {
+    "id": 130510,
+    "name": "3分だけだからね！",
+    "description": "ここな編成時、ここなが代わりにセンスを発動し、ここなのスコア獲得量[:pre1]％UP",
+    "type": "Alternative",
+    "preEffects": [
+      {
+        "order": 1,
+        "effectMasterId": 20023
+      }
+    ],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20001
+          }
+        ],
+        "id": 1305101
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 0,
+    "scoreUpPerLevel": 0,
+    "lightCount": 0,
+    "coolTime": 0,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
     "id": 130520,
     "name": "雨上がりを演じて",
     "description": "[:score]倍のスコアを獲得／ライフを[:param11]回復",
@@ -3131,6 +3162,36 @@
     "scoreUpPerLevel": 70,
     "lightCount": 1,
     "coolTime": 60,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 140780,
+    "name": "LIVE YOUR STYLE",
+    "description": "[:score]倍のスコアを獲得",
+    "type": "Support",
+    "preEffects": [],
+    "branches": [],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 250,
+    "scoreUpPerLevel": 60,
+    "lightCount": 2,
+    "coolTime": 50,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 140790,
+    "name": "私だけの美学",
+    "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得",
+    "type": "Control",
+    "preEffects": [],
+    "branches": [],
+    "acquirableGauge": 100,
+    "acquirableScorePercent": 180,
+    "scoreUpPerLevel": 60,
+    "lightCount": 2,
+    "coolTime": 50,
     "branchCondition1": "None",
     "branchCondition2": "None"
   },
