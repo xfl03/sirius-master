@@ -3576,6 +3576,30 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 220450,
+    "name": "bet or fold？",
+    "description": "Edenに所属するアクターの演技力が[:param11]％上昇",
+    "posterMasterId": 220450,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70022200
+          }
+        ],
+        "id": 22045001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 220460,
     "name": "Fashi∞nable！",
     "description": "彩属性のアクターの演技力が[:param11]％上昇",
@@ -6702,6 +6726,30 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 230460,
+    "name": "許されざる口づけ",
+    "description": "Edenに所属するアクターの演技力が[:param11]％上昇",
+    "posterMasterId": 230460,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70052200
+          }
+        ],
+        "id": 23046001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 320010,
     "name": "鬼人と竜魔人",
     "description": "<color=#FF9314>陽属性</color>のアクターの演技力が[:param11]%上昇",
@@ -7872,6 +7920,54 @@
           }
         ],
         "id": 220440201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2204501,
+    "name": "ライフブースト",
+    "description": "センス発動直後、ライフを[:param11]回復　◆発動条件：Edenに所属するアクターが装備",
+    "posterMasterId": 220450,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11211200
+          }
+        ],
+        "id": 220450101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2204502,
+    "name": "スコアブースト",
+    "description": "センス発動直後、現在のスコアの[:param11]%のスコアを獲得　◆発動条件：Edenに所属するアクターが装備",
+    "posterMasterId": 220450,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10810200
+          }
+        ],
+        "id": 220450201
       }
     ],
     "branchConditionType1": "None",
@@ -9336,6 +9432,78 @@
           }
         ],
         "id": 230450301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2304601,
+    "name": "表現力アップⅡ＋＋",
+    "description": "自身の表現力が[:param11]％上昇　◆発動条件：Edenに所属するアクターが装備",
+    "posterMasterId": 230460,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10222200
+          }
+        ],
+        "id": 230460101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2304602,
+    "name": "ライフ減少",
+    "description": "公演開始時、ライフを999減少　◆発動条件：Edenに所属するアクターが装備",
+    "posterMasterId": 230460,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 12800200
+          }
+        ],
+        "id": 230460201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2304603,
+    "name": "ライフガード",
+    "description": "公演開始時、ライフガードを[:param11]付与　◆発動条件：Edenに所属するアクターが装備",
+    "posterMasterId": 230460,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 12610200
+          }
+        ],
+        "id": 230460301
       }
     ],
     "branchConditionType1": "None",

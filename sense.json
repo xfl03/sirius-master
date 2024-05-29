@@ -1641,6 +1641,21 @@
     "branchCondition2": "None"
   },
   {
+    "id": 130500,
+    "name": "勝手なことは許さない",
+    "description": "[:score]倍のスコアを獲得",
+    "type": "Support",
+    "preEffects": [],
+    "branches": [],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 490,
+    "scoreUpPerLevel": 40,
+    "lightCount": 1,
+    "coolTime": 50,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
     "id": 130510,
     "name": "3分だけだからね！",
     "description": "ここな編成時、ここなが代わりにセンスを発動し、ここなのスコア獲得量[:pre1]％UP",
@@ -3163,6 +3178,97 @@
     "lightCount": 1,
     "coolTime": 60,
     "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 140760,
+    "name": "初めての恋は成就したか",
+    "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得",
+    "type": "Special",
+    "preEffects": [],
+    "branches": [],
+    "acquirableGauge": 80,
+    "acquirableScorePercent": 150,
+    "scoreUpPerLevel": 40,
+    "lightCount": 1,
+    "coolTime": 30,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 140770,
+    "name": "正しくあるべき人の道を説く",
+    "description": "[:score]倍のスコアを獲得／付与されているライフガード1回につきスコア獲得量10％上昇（最大＋50％）",
+    "type": "Control",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29101
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 1,
+        "id": 1407701
+      },
+      {
+        "order": 2,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29102
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 2,
+        "id": 1407702
+      },
+      {
+        "order": 3,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29103
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 3,
+        "id": 1407703
+      },
+      {
+        "order": 4,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29104
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 4,
+        "id": 1407704
+      },
+      {
+        "order": 5,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29105
+          }
+        ],
+        "judgeType1": 2,
+        "parameter1": 5,
+        "id": 1407705
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 670,
+    "scoreUpPerLevel": 60,
+    "lightCount": 1,
+    "coolTime": 50,
+    "branchCondition1": "LifeGuardCount",
     "branchCondition2": "None"
   },
   {

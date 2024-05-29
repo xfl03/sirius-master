@@ -1068,6 +1068,18 @@
     "branchCondition2": "None"
   },
   {
+    "id": 130501,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得",
+    "starActConditionMasterId": 103110,
+    "acquirableScorePercent": 400,
+    "scoreUpPerLevel": 40,
+    "preEffects": [],
+    "branches": [],
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
     "id": 130511,
     "name": "",
     "description": "総演技力の[:score]倍のスコアを獲得",
@@ -1956,6 +1968,153 @@
     "branchCondition2": "None"
   },
   {
+    "id": 140761,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得／ストックされている特殊系の光1個につき総演技力の[:param11]倍のスコアを追加で獲得(最大5個)",
+    "starActConditionMasterId": 101114,
+    "acquirableScorePercent": 970,
+    "scoreUpPerLevel": 100,
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19031
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 1,
+        "id": 14076101
+      },
+      {
+        "order": 2,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19032
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 2,
+        "id": 14076102
+      },
+      {
+        "order": 3,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19033
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 3,
+        "id": 14076103
+      },
+      {
+        "order": 4,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19034
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 4,
+        "id": 14076104
+      },
+      {
+        "order": 5,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19035
+          }
+        ],
+        "judgeType1": 2,
+        "parameter1": 5,
+        "id": 14076105
+      }
+    ],
+    "branchCondition1": "StorageSenseLightCount",
+    "conditionValue1": 4,
+    "branchCondition2": "None"
+  },
+  {
+    "id": 140771,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得／付与されているライフガード1回につきスコア獲得量10％上昇（最大＋50％）",
+    "starActConditionMasterId": 101411,
+    "acquirableScorePercent": 970,
+    "scoreUpPerLevel": 100,
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19001
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 1,
+        "id": 14077101
+      },
+      {
+        "order": 2,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19002
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 2,
+        "id": 14077102
+      },
+      {
+        "order": 3,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19003
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 3,
+        "id": 14077103
+      },
+      {
+        "order": 4,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19004
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 4,
+        "id": 14077104
+      },
+      {
+        "order": 5,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19005
+          }
+        ],
+        "judgeType1": 2,
+        "parameter1": 5,
+        "id": 14077105
+      }
+    ],
+    "branchCondition1": "LifeGuardCount",
+    "branchCondition2": "None"
+  },
+  {
     "id": 140781,
     "name": "",
     "description": "総演技力の[:score]倍のスコアを獲得",
@@ -1982,7 +2141,7 @@
   {
     "id": 140801,
     "name": "",
-    "description": "総演技力の[:score]倍のスコアを獲得／ストックされている支援系の光1個につき総演技力の[:param11]倍のスコアを獲得(最大5個)",
+    "description": "総演技力の[:score]倍のスコアを獲得／ストックされている支援系の光1個につき総演技力の[:param11]倍のスコアを追加で獲得(最大5個)",
     "starActConditionMasterId": 104111,
     "acquirableScorePercent": 970,
     "scoreUpPerLevel": 100,
@@ -2056,7 +2215,7 @@
   {
     "id": 140811,
     "name": "",
-    "description": "総演技力の[:score]倍のスコアを獲得／ストックされている増幅系の光1個につき総演技力の[:param11]倍のスコアを獲得(最大5個)",
+    "description": "総演技力の[:score]倍のスコアを獲得／ストックされている増幅系の光1個につき総演技力の[:param11]倍のスコアを追加で獲得(最大5個)",
     "starActConditionMasterId": 101141,
     "acquirableScorePercent": 970,
     "scoreUpPerLevel": 100,
