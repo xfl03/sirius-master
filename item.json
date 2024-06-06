@@ -348,6 +348,19 @@
     "rarity": "R"
   },
   {
+    "id": 111028,
+    "name": "高級スタミナドリンク【～6月20日 17:00】",
+    "description": "美容にも欠かせない一級品のドリンク。スタミナを100回復する。2024年6月20日17時まで使用できる。",
+    "displayOrder": 28,
+    "displayEndDate": 1718902800.0,
+    "maxStock": 99999,
+    "category": "StaminaRecovery",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Normal",
+    "rarity": "R"
+  },
+  {
     "id": 111036,
     "name": "高級スタミナドリンク【～3月21日 17:00】",
     "description": "美容にも欠かせない一級品のドリンク。スタミナを100回復する。2024年3月21日17時まで使用できる。",
@@ -1015,6 +1028,19 @@
     "description": "銀河座の劇団ロゴがあしらわれたおまもり。銀河シアターで「導きのかけら」を入手しやすくなる。",
     "displayOrder": 139102,
     "displayEndDate": 1716570000.0,
+    "maxStock": 1,
+    "category": "ConsumeItem",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Normal",
+    "rarity": "SSR"
+  },
+  {
+    "id": 139103,
+    "name": "銀河座のおまもり【～6月24日 17:00】",
+    "description": "銀河座の劇団ロゴがあしらわれたおまもり。銀河シアターで「導きのかけら」を入手しやすくなる。",
+    "displayOrder": 139103,
+    "displayEndDate": 1719248400.0,
     "maxStock": 1,
     "category": "ConsumeItem",
     "consumable": false,
@@ -2165,6 +2191,18 @@
     "rarity": "SSR"
   },
   {
+    "id": 143055,
+    "name": "★3【踏みにじられた者の怒り】猫足蕾のピース",
+    "description": "★3【踏みにじられた者の怒り】猫足蕾の才能開花に使用できるアイテム。",
+    "displayOrder": 143055,
+    "maxStock": 99999,
+    "category": "TalentBloom",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Piece",
+    "rarity": "SSR"
+  },
+  {
     "id": 143056,
     "name": "★3【フラワー・テンペスト】本巣叶羽のピース",
     "description": "★3【フラワー・テンペスト】本巣叶羽の才能開花に使用できるアイテム。",
@@ -3093,6 +3131,30 @@
     "name": "★4【心躍る人形劇の裏】カトリナ・グリーベルのピース",
     "description": "★4【心躍る人形劇の裏】カトリナ・グリーベルの才能開花に使用できるアイテム。",
     "displayOrder": 144081,
+    "maxStock": 99999,
+    "category": "TalentBloom",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Piece",
+    "rarity": "SSR"
+  },
+  {
+    "id": 144086,
+    "name": "★4【連なる薔薇の懐かしき香り】本巣叶羽のピース",
+    "description": "★4【連なる薔薇の懐かしき香り】本巣叶羽の才能開花に使用できるアイテム。",
+    "displayOrder": 144086,
+    "maxStock": 99999,
+    "category": "TalentBloom",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Piece",
+    "rarity": "SSR"
+  },
+  {
+    "id": 144087,
+    "name": "★4【白き死神は戦場を駆け】白丸美兎のピース",
+    "description": "★4【白き死神は戦場を駆け】白丸美兎の才能開花に使用できるアイテム。",
+    "displayOrder": 144087,
     "maxStock": 99999,
     "category": "TalentBloom",
     "consumable": false,
@@ -4035,6 +4097,19 @@
     "rarity": "R"
   },
   {
+    "id": 411043,
+    "name": "ガチャポイント",
+    "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
+    "displayOrder": 411043,
+    "displayEndDate": 1719507600.0,
+    "maxStock": 99999,
+    "category": "GachaPoint",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Hidden",
+    "rarity": "R"
+  },
+  {
     "id": 411044,
     "name": "ガチャポイント",
     "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
@@ -4555,6 +4630,45 @@
     "rarity": "R"
   },
   {
+    "id": 412036,
+    "name": "ガチャポイント",
+    "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
+    "displayOrder": 412036,
+    "displayEndDate": 1719507600.0,
+    "maxStock": 99999,
+    "category": "GachaPoint",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Hidden",
+    "rarity": "R"
+  },
+  {
+    "id": 412037,
+    "name": "ガチャポイント",
+    "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
+    "displayOrder": 412037,
+    "displayEndDate": 1719507600.0,
+    "maxStock": 99999,
+    "category": "GachaPoint",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Hidden",
+    "rarity": "R"
+  },
+  {
+    "id": 412038,
+    "name": "ガチャポイント",
+    "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
+    "displayOrder": 412038,
+    "displayEndDate": 1719507600.0,
+    "maxStock": 99999,
+    "category": "GachaPoint",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Hidden",
+    "rarity": "R"
+  },
+  {
     "id": 412039,
     "name": "ガチャポイント",
     "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
@@ -5022,6 +5136,18 @@
     "name": "イベントポイント",
     "description": "イベントの交換所から様々なアイテムと交換できる。",
     "displayOrder": 420031,
+    "maxStock": 1999999999,
+    "category": "EventPoint",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Hidden",
+    "rarity": "R"
+  },
+  {
+    "id": 420034,
+    "name": "イベントポイント",
+    "description": "イベントの交換所から様々なアイテムと交換できる。",
+    "displayOrder": 420034,
     "maxStock": 1999999999,
     "category": "EventPoint",
     "consumable": false,

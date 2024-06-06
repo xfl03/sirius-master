@@ -2283,6 +2283,38 @@
     "fireTimingType": "Sense"
   },
   {
+    "id": 20536,
+    "type": "ScoreGainOnVocal",
+    "range": "Self",
+    "calculationType": "Multiplication",
+    "details": [
+      {
+        "level": 1,
+        "value": 360.0
+      },
+      {
+        "level": 2,
+        "value": 400.0
+      },
+      {
+        "level": 3,
+        "value": 440.0
+      },
+      {
+        "level": 4,
+        "value": 520.0
+      },
+      {
+        "level": 5,
+        "value": 600.0
+      }
+    ],
+    "conditions": [],
+    "durationSecond": 0,
+    "triggers": [],
+    "fireTimingType": "Sense"
+  },
+  {
     "id": 20605,
     "type": "SenseScoreUp",
     "range": "All",
@@ -48984,6 +49016,74 @@
     "fireTimingType": "StartLive"
   },
   {
+    "id": 11512000,
+    "type": "PrincipalGaugeGain",
+    "range": "None",
+    "calculationType": "FixedAddition",
+    "details": [
+      {
+        "level": 1,
+        "value": 54.0
+      },
+      {
+        "level": 2,
+        "value": 60.0
+      },
+      {
+        "level": 3,
+        "value": 66.0
+      },
+      {
+        "level": 4,
+        "value": 72.0
+      },
+      {
+        "level": 5,
+        "value": 78.0
+      },
+      {
+        "level": 6,
+        "value": 84.0
+      },
+      {
+        "level": 7,
+        "value": 90.0
+      },
+      {
+        "level": 8,
+        "value": 96.0
+      },
+      {
+        "level": 9,
+        "value": 102.0
+      },
+      {
+        "level": 10,
+        "value": 108.0
+      },
+      {
+        "level": 11,
+        "value": 114.0
+      },
+      {
+        "level": 12,
+        "value": 120.0
+      },
+      {
+        "level": 13,
+        "value": 126.0
+      },
+      {
+        "level": 14,
+        "value": 132.0
+      }
+    ],
+    "conditions": [],
+    "durationSecond": 0,
+    "triggers": [],
+    "fireTimingType": "StartLive"
+  },
+  {
     "id": 11610001,
     "type": "PrincipalGaugeUp",
     "range": "Self",
@@ -49639,6 +49739,74 @@
       }
     ],
     "fireTimingType": "Passive"
+  },
+  {
+    "id": 11710000,
+    "type": "PrincipalGaugeLimitUp",
+    "range": "None",
+    "calculationType": "FixedAddition",
+    "details": [
+      {
+        "level": 1,
+        "value": 60.0
+      },
+      {
+        "level": 2,
+        "value": 70.0
+      },
+      {
+        "level": 3,
+        "value": 80.0
+      },
+      {
+        "level": 4,
+        "value": 90.0
+      },
+      {
+        "level": 5,
+        "value": 100.0
+      },
+      {
+        "level": 6,
+        "value": 110.0
+      },
+      {
+        "level": 7,
+        "value": 120.0
+      },
+      {
+        "level": 8,
+        "value": 130.0
+      },
+      {
+        "level": 9,
+        "value": 140.0
+      },
+      {
+        "level": 10,
+        "value": 150.0
+      },
+      {
+        "level": 11,
+        "value": 160.0
+      },
+      {
+        "level": 12,
+        "value": 170.0
+      },
+      {
+        "level": 13,
+        "value": 180.0
+      },
+      {
+        "level": 14,
+        "value": 190.0
+      }
+    ],
+    "conditions": [],
+    "durationSecond": 0,
+    "triggers": [],
+    "fireTimingType": "StartLive"
   },
   {
     "id": 11810000,
@@ -50507,6 +50675,79 @@
     "fireTimingType": "StartLive"
   },
   {
+    "id": 11920400,
+    "type": "AddSenseLightVariable",
+    "range": "None",
+    "calculationType": "FixedAddition",
+    "details": [
+      {
+        "level": 1,
+        "value": 1.0
+      },
+      {
+        "level": 2,
+        "value": 1.0
+      },
+      {
+        "level": 3,
+        "value": 1.0
+      },
+      {
+        "level": 4,
+        "value": 1.0
+      },
+      {
+        "level": 5,
+        "value": 1.0
+      },
+      {
+        "level": 6,
+        "value": 1.0
+      },
+      {
+        "level": 7,
+        "value": 1.0
+      },
+      {
+        "level": 8,
+        "value": 2.0
+      },
+      {
+        "level": 9,
+        "value": 2.0
+      },
+      {
+        "level": 10,
+        "value": 2.0
+      },
+      {
+        "level": 11,
+        "value": 2.0
+      },
+      {
+        "level": 12,
+        "value": 2.0
+      },
+      {
+        "level": 13,
+        "value": 2.0
+      },
+      {
+        "level": 14,
+        "value": 2.0
+      }
+    ],
+    "conditions": [],
+    "durationSecond": 0,
+    "triggers": [
+      {
+        "trigger": "Company",
+        "value": 4
+      }
+    ],
+    "fireTimingType": "StartLive"
+  },
+  {
     "id": 12010201,
     "type": "AddSenseLightSupport",
     "range": "None",
@@ -51300,6 +51541,79 @@
       {
         "trigger": "Company",
         "value": 1
+      }
+    ],
+    "fireTimingType": "Passive"
+  },
+  {
+    "id": 12410400,
+    "type": "SenseRecastDown",
+    "range": "Self",
+    "calculationType": "FixedAddition",
+    "details": [
+      {
+        "level": 1,
+        "value": 1.0
+      },
+      {
+        "level": 2,
+        "value": 1.0
+      },
+      {
+        "level": 3,
+        "value": 1.0
+      },
+      {
+        "level": 4,
+        "value": 1.0
+      },
+      {
+        "level": 5,
+        "value": 1.0
+      },
+      {
+        "level": 6,
+        "value": 1.0
+      },
+      {
+        "level": 7,
+        "value": 1.0
+      },
+      {
+        "level": 8,
+        "value": 1.0
+      },
+      {
+        "level": 9,
+        "value": 1.0
+      },
+      {
+        "level": 10,
+        "value": 2.0
+      },
+      {
+        "level": 11,
+        "value": 2.0
+      },
+      {
+        "level": 12,
+        "value": 3.0
+      },
+      {
+        "level": 13,
+        "value": 3.0
+      },
+      {
+        "level": 14,
+        "value": 4.0
+      }
+    ],
+    "conditions": [],
+    "durationSecond": 0,
+    "triggers": [
+      {
+        "trigger": "Company",
+        "value": 4
       }
     ],
     "fireTimingType": "Passive"

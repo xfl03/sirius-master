@@ -1104,6 +1104,18 @@
     "branchCondition2": "None"
   },
   {
+    "id": 130551,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得",
+    "starActConditionMasterId": 101103,
+    "acquirableScorePercent": 400,
+    "scoreUpPerLevel": 40,
+    "preEffects": [],
+    "branches": [],
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
     "id": 130561,
     "name": "",
     "description": "総演技力の[:score]倍のスコアを獲得",
@@ -2280,6 +2292,92 @@
         "judgeType1": 2,
         "parameter1": 5,
         "id": 14081105
+      }
+    ],
+    "branchCondition1": "StorageSenseLightCount",
+    "conditionValue1": 3,
+    "branchCondition2": "None"
+  },
+  {
+    "id": 140861,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得",
+    "starActConditionMasterId": 101411,
+    "acquirableScorePercent": 970,
+    "scoreUpPerLevel": 100,
+    "preEffects": [],
+    "branches": [],
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 140871,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得／ストックされている増幅系の光1個につき総演技力の[:param11]倍のスコアを追加で獲得(最大5個)",
+    "starActConditionMasterId": 101141,
+    "acquirableScorePercent": 970,
+    "scoreUpPerLevel": 100,
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19031
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 1,
+        "id": 14087101
+      },
+      {
+        "order": 2,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19032
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 2,
+        "id": 14087102
+      },
+      {
+        "order": 3,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19033
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 3,
+        "id": 14087103
+      },
+      {
+        "order": 4,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19034
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 4,
+        "id": 14087104
+      },
+      {
+        "order": 5,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19035
+          }
+        ],
+        "judgeType1": 2,
+        "parameter1": 5,
+        "id": 14087105
       }
     ],
     "branchCondition1": "StorageSenseLightCount",

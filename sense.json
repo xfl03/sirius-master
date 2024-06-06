@@ -1713,6 +1713,21 @@
     "branchCondition2": "None"
   },
   {
+    "id": 130550,
+    "name": "踏みにじられた者の怒り",
+    "description": "[:score]倍のスコアを獲得",
+    "type": "Special",
+    "preEffects": [],
+    "branches": [],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 520,
+    "scoreUpPerLevel": 50,
+    "lightCount": 1,
+    "coolTime": 60,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
     "id": 130560,
     "name": "フラワー・テンペスト",
     "description": "[:score]倍のスコアを獲得",
@@ -3344,6 +3359,47 @@
     "scoreUpPerLevel": 60,
     "lightCount": 1,
     "coolTime": 50,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 140860,
+    "name": "連なる薔薇の懐かしき香り",
+    "description": "[:score]倍のスコアを獲得／センス発動直後、自身の歌唱力の[:param11]倍のスコアを獲得",
+    "type": "Control",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20536
+          }
+        ],
+        "id": 1408601
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 610,
+    "scoreUpPerLevel": 60,
+    "lightCount": 2,
+    "coolTime": 45,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 140870,
+    "name": "白き死神は戦場を駆け",
+    "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得",
+    "type": "Amplification",
+    "preEffects": [],
+    "branches": [],
+    "acquirableGauge": 90,
+    "acquirableScorePercent": 170,
+    "scoreUpPerLevel": 50,
+    "lightCount": 1,
+    "coolTime": 40,
     "branchCondition1": "None",
     "branchCondition2": "None"
   },

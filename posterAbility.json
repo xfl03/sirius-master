@@ -6846,6 +6846,30 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 320070,
+    "name": "正しいやり方を探して",
+    "description": "劇団電姫に所属するアクターの演技力が[:param11]％上昇",
+    "posterMasterId": 320070,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70022400
+          }
+        ],
+        "id": 32007001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 330010,
     "name": "共犯者のふたり",
     "description": "劇団電姫に所属するアクターの演技力が[:param11]％上昇",
@@ -6960,6 +6984,54 @@
           }
         ],
         "id": 33005001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 330060,
+    "name": "反逆の幕を上げよう",
+    "description": "劇団電姫に所属するアクターの演技力が[:param11]％上昇",
+    "posterMasterId": 330060,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70052400
+          }
+        ],
+        "id": 33006001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 330070,
+    "name": "絶対遵守の力",
+    "description": "全アクターの演技力が[:param11]%上昇",
+    "posterMasterId": 330070,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70042000
+          }
+        ],
+        "id": 33007001
       }
     ],
     "branchConditionType1": "None",
@@ -9654,6 +9726,54 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 3200701,
+    "name": "演技力アップ",
+    "description": "自身の演技力が[:param11]％上昇　◆発動条件：劇団電姫に所属するアクターが装備",
+    "posterMasterId": 320070,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10010400
+          }
+        ],
+        "id": 320070101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3200702,
+    "name": "P.ゲージ獲得量アップ",
+    "description": "センスによるP.ゲージの獲得量が[:param11]%UP　◆発動条件：劇団電姫に所属するアクターが装備",
+    "posterMasterId": 320070,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11610400
+          }
+        ],
+        "id": 320070201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 3300101,
     "name": "演技力アップⅢ",
     "description": "自身の演技力が[:param11]％上昇",
@@ -10008,6 +10128,150 @@
           }
         ],
         "id": 330050301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3300601,
+    "name": "演技力アップⅢ＋",
+    "description": "自身の演技力が[:param11]%上昇",
+    "posterMasterId": 330060,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10031400
+          }
+        ],
+        "id": 330060101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3300602,
+    "name": "CTダウンⅡ",
+    "description": "自身のセンスのCTが[:param11]秒短縮　◆発動条件：劇団電姫に所属するアクターが装備",
+    "posterMasterId": 330060,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 12410400
+          }
+        ],
+        "id": 330060201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3300603,
+    "name": "「光」追加（SP）Ⅱ",
+    "description": "公演開始時、SP光を[:param11]付与（効果は公演開始時1回のみ発動する）　◆発動条件：劇団電姫に所属するアクターが装備",
+    "posterMasterId": 330060,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11920400
+          }
+        ],
+        "id": 330060301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3300701,
+    "name": "演技力アップⅢ",
+    "description": "自身の演技力が[:param11]%上昇",
+    "posterMasterId": 330070,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10030000
+          }
+        ],
+        "id": 330070101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3300702,
+    "name": "初期P.ゲージ上昇Ⅱ",
+    "description": "公演開始時、P.ゲージが[:param11]上昇",
+    "posterMasterId": 330070,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11512000
+          }
+        ],
+        "id": 330070201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3300703,
+    "name": "P.ゲージ上限上昇",
+    "description": "公演開始時、Pゲージの上限が[:param11]上昇",
+    "posterMasterId": 330070,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11710000
+          }
+        ],
+        "id": 330070301
       }
     ],
     "branchConditionType1": "None",
