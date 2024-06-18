@@ -348,6 +348,19 @@
     "rarity": "R"
   },
   {
+    "id": 111027,
+    "name": "高級スタミナドリンク【～6月30日 17:00】",
+    "description": "美容にも欠かせない一級品のドリンク。スタミナを100回復する。2024年6月30日17時まで使用できる。",
+    "displayOrder": 27,
+    "displayEndDate": 1719766800.0,
+    "maxStock": 99999,
+    "category": "StaminaRecovery",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Normal",
+    "rarity": "R"
+  },
+  {
     "id": 111028,
     "name": "高級スタミナドリンク【～6月20日 17:00】",
     "description": "美容にも欠かせない一級品のドリンク。スタミナを100回復する。2024年6月20日17時まで使用できる。",
@@ -2191,6 +2204,18 @@
     "rarity": "SSR"
   },
   {
+    "id": 143054,
+    "name": "★3【友達なのに／だから】阿岐留カミラのピース",
+    "description": "★3【友達なのに／だから】阿岐留カミラの才能開花に使用できるアイテム。",
+    "displayOrder": 143054,
+    "maxStock": 99999,
+    "category": "TalentBloom",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Piece",
+    "rarity": "SSR"
+  },
+  {
     "id": 143055,
     "name": "★3【踏みにじられた者の怒り】猫足蕾のピース",
     "description": "★3【踏みにじられた者の怒り】猫足蕾の才能開花に使用できるアイテム。",
@@ -3131,6 +3156,30 @@
     "name": "★4【心躍る人形劇の裏】カトリナ・グリーベルのピース",
     "description": "★4【心躍る人形劇の裏】カトリナ・グリーベルの才能開花に使用できるアイテム。",
     "displayOrder": 144081,
+    "maxStock": 99999,
+    "category": "TalentBloom",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Piece",
+    "rarity": "SSR"
+  },
+  {
+    "id": 144084,
+    "name": "★4【雨上がりには特大スクープ！】与那国緋花里のピース",
+    "description": "★4【雨上がりには特大スクープ！】与那国緋花里の才能開花に使用できるアイテム。",
+    "displayOrder": 144084,
+    "maxStock": 99999,
+    "category": "TalentBloom",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Piece",
+    "rarity": "SSR"
+  },
+  {
+    "id": 144085,
+    "name": "★4【雨上がりの君を待って】王雪のピース",
+    "description": "★4【雨上がりの君を待って】王雪の才能開花に使用できるアイテム。",
+    "displayOrder": 144085,
     "maxStock": 99999,
     "category": "TalentBloom",
     "consumable": false,
@@ -4149,6 +4198,19 @@
     "rarity": "R"
   },
   {
+    "id": 411047,
+    "name": "ガチャポイント",
+    "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
+    "displayOrder": 411047,
+    "displayEndDate": 1720371600.0,
+    "maxStock": 99999,
+    "category": "GachaPoint",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Hidden",
+    "rarity": "R"
+  },
+  {
     "id": 411800,
     "name": "ガチャポイント",
     "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
@@ -5136,6 +5198,18 @@
     "name": "イベントポイント",
     "description": "イベントの交換所から様々なアイテムと交換できる。",
     "displayOrder": 420031,
+    "maxStock": 1999999999,
+    "category": "EventPoint",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Hidden",
+    "rarity": "R"
+  },
+  {
+    "id": 420033,
+    "name": "イベントポイント",
+    "description": "イベントの交換所から様々なアイテムと交換できる。",
+    "displayOrder": 420033,
     "maxStock": 1999999999,
     "category": "EventPoint",
     "consumable": false,

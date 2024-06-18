@@ -10056,6 +10056,136 @@
     "itemIconBadgeImagePath": "LimitedTime"
   },
   {
+    "id": 5147,
+    "order": 354,
+    "appStoreProductId": "5147",
+    "googlePlayProductId": "5147",
+    "name": "Limitedアクターガチャチケットパック",
+    "packText": "",
+    "mJewelShopCategoryId": 5,
+    "dialogType": 1,
+    "purchaseType": "Money",
+    "purchaseValue": 3000,
+    "subscriptionFlag": false,
+    "givePaidJewel": 3000,
+    "replaceTypes": 0,
+    "purchaseLimit": 1,
+    "canPurchaseDayOfWeek": "",
+    "isBuyNotDisplay": false,
+    "isDisplayLocking": false,
+    "startDate": 1719334800.0,
+    "endDate": 1720198800.0,
+    "lineup": [
+      {
+        "id": 514701,
+        "mJewelShopItemId": 5147,
+        "thingId": 210003,
+        "thingType": "Item",
+        "thingQuantity": 5
+      }
+    ],
+    "shopItemType": "None",
+    "itemIconBodyImagePath": "LimitedActorTicketPack",
+    "itemIconBadgeImagePath": "OneTime"
+  },
+  {
+    "id": 5148,
+    "order": 355,
+    "appStoreProductId": "5148",
+    "googlePlayProductId": "5148",
+    "name": "Limitedポスターガチャチケットパック",
+    "packText": "",
+    "mJewelShopCategoryId": 5,
+    "dialogType": 1,
+    "purchaseType": "Money",
+    "purchaseValue": 3000,
+    "subscriptionFlag": false,
+    "givePaidJewel": 3000,
+    "replaceTypes": 0,
+    "purchaseLimit": 1,
+    "canPurchaseDayOfWeek": "",
+    "isBuyNotDisplay": false,
+    "isDisplayLocking": false,
+    "startDate": 1719334800.0,
+    "endDate": 1720198800.0,
+    "lineup": [
+      {
+        "id": 514801,
+        "mJewelShopItemId": 5148,
+        "thingId": 211003,
+        "thingType": "Item",
+        "thingQuantity": 5
+      }
+    ],
+    "shopItemType": "None",
+    "itemIconBodyImagePath": "LimitedPosterTicketPack",
+    "itemIconBadgeImagePath": "OneTime"
+  },
+  {
+    "id": 5149,
+    "order": 356,
+    "appStoreProductId": "",
+    "googlePlayProductId": "",
+    "name": "アクターガチャチケットパック",
+    "packText": "",
+    "mJewelShopCategoryId": 5,
+    "dialogType": 1,
+    "purchaseType": "Paid",
+    "purchaseValue": 2000,
+    "subscriptionFlag": false,
+    "replaceTypes": 0,
+    "purchaseLimit": 1,
+    "canPurchaseDayOfWeek": "",
+    "isBuyNotDisplay": false,
+    "isDisplayLocking": false,
+    "startDate": 1719334800.0,
+    "endDate": 1720198800.0,
+    "lineup": [
+      {
+        "id": 514901,
+        "mJewelShopItemId": 5149,
+        "thingId": 210001,
+        "thingType": "Item",
+        "thingQuantity": 10
+      }
+    ],
+    "shopItemType": "None",
+    "itemIconBodyImagePath": "ActorTicketPack",
+    "itemIconBadgeImagePath": "OneTime"
+  },
+  {
+    "id": 5150,
+    "order": 357,
+    "appStoreProductId": "",
+    "googlePlayProductId": "",
+    "name": "ポスターガチャチケットパック",
+    "packText": "",
+    "mJewelShopCategoryId": 5,
+    "dialogType": 1,
+    "purchaseType": "Paid",
+    "purchaseValue": 2000,
+    "subscriptionFlag": false,
+    "replaceTypes": 0,
+    "purchaseLimit": 1,
+    "canPurchaseDayOfWeek": "",
+    "isBuyNotDisplay": false,
+    "isDisplayLocking": false,
+    "startDate": 1719334800.0,
+    "endDate": 1720198800.0,
+    "lineup": [
+      {
+        "id": 515001,
+        "mJewelShopItemId": 5150,
+        "thingId": 211001,
+        "thingType": "Item",
+        "thingQuantity": 10
+      }
+    ],
+    "shopItemType": "None",
+    "itemIconBodyImagePath": "PosterTicketPack",
+    "itemIconBadgeImagePath": "OneTime"
+  },
+  {
     "id": 5401,
     "order": 201,
     "appStoreProductId": "5401",
@@ -13775,6 +13905,108 @@
       {
         "id": 560301,
         "mJewelShopItemId": 5603,
+        "thingId": 0,
+        "thingType": "Jewel",
+        "thingQuantity": 4900
+      }
+    ],
+    "shopItemType": "None",
+    "itemIconBodyImagePath": "Chara07",
+    "itemIconDetailImagePath": "9800_4900",
+    "itemIconBadgeImagePath": "LimitedNumber"
+  },
+  {
+    "id": 5604,
+    "order": 147,
+    "appStoreProductId": "5604",
+    "googlePlayProductId": "5604",
+    "name": "イベント限定ジュエルパックA",
+    "packText": "",
+    "mJewelShopCategoryId": 1,
+    "dialogType": 1,
+    "purchaseType": "Money",
+    "purchaseValue": 1500,
+    "subscriptionFlag": false,
+    "givePaidJewel": 1500,
+    "replaceTypes": 0,
+    "purchaseLimit": 2,
+    "canPurchaseDayOfWeek": "",
+    "isBuyNotDisplay": false,
+    "isDisplayLocking": false,
+    "startDate": 1718902800.0,
+    "endDate": 1719766800.0,
+    "lineup": [
+      {
+        "id": 560401,
+        "mJewelShopItemId": 5604,
+        "thingId": 0,
+        "thingType": "Jewel",
+        "thingQuantity": 1500
+      }
+    ],
+    "shopItemType": "None",
+    "itemIconBodyImagePath": "Chara04",
+    "itemIconDetailImagePath": "1500_1500",
+    "itemIconBadgeImagePath": "LimitedNumber"
+  },
+  {
+    "id": 5605,
+    "order": 148,
+    "appStoreProductId": "5605",
+    "googlePlayProductId": "5605",
+    "name": "イベント限定ジュエルパックB",
+    "packText": "",
+    "mJewelShopCategoryId": 1,
+    "dialogType": 1,
+    "purchaseType": "Money",
+    "purchaseValue": 4800,
+    "subscriptionFlag": false,
+    "givePaidJewel": 4800,
+    "replaceTypes": 0,
+    "purchaseLimit": 2,
+    "canPurchaseDayOfWeek": "",
+    "isBuyNotDisplay": false,
+    "isDisplayLocking": false,
+    "startDate": 1718902800.0,
+    "endDate": 1719766800.0,
+    "lineup": [
+      {
+        "id": 560501,
+        "mJewelShopItemId": 5605,
+        "thingId": 0,
+        "thingType": "Jewel",
+        "thingQuantity": 3000
+      }
+    ],
+    "shopItemType": "None",
+    "itemIconBodyImagePath": "Chara06",
+    "itemIconDetailImagePath": "4800_3000",
+    "itemIconBadgeImagePath": "LimitedNumber"
+  },
+  {
+    "id": 5606,
+    "order": 149,
+    "appStoreProductId": "5606",
+    "googlePlayProductId": "5606",
+    "name": "イベント限定ジュエルパックC",
+    "packText": "",
+    "mJewelShopCategoryId": 1,
+    "dialogType": 1,
+    "purchaseType": "Money",
+    "purchaseValue": 9800,
+    "subscriptionFlag": false,
+    "givePaidJewel": 9800,
+    "replaceTypes": 0,
+    "purchaseLimit": 2,
+    "canPurchaseDayOfWeek": "",
+    "isBuyNotDisplay": false,
+    "isDisplayLocking": false,
+    "startDate": 1718902800.0,
+    "endDate": 1719766800.0,
+    "lineup": [
+      {
+        "id": 560601,
+        "mJewelShopItemId": 5606,
         "thingId": 0,
         "thingType": "Jewel",
         "thingQuantity": 4900
@@ -19095,6 +19327,48 @@
       {
         "id": 1012202,
         "mJewelShopItemId": 10122,
+        "thingId": 110003,
+        "thingType": "Item",
+        "thingQuantity": 10
+      }
+    ],
+    "shopItemType": "None",
+    "itemIconBodyImagePath": "StaminaJewel_2",
+    "itemIconDetailImagePath": "500_1250",
+    "itemIconBadgeImagePath": "FlashSale_3h"
+  },
+  {
+    "id": 10123,
+    "order": 9002,
+    "appStoreProductId": "10123",
+    "googlePlayProductId": "10123",
+    "name": "「沫雪がとけたら」 ストーリー全話読了記念パック",
+    "packText": "",
+    "mJewelShopCategoryId": 7,
+    "dialogType": 1,
+    "purchaseType": "Money",
+    "purchaseValue": 500,
+    "subscriptionFlag": false,
+    "givePaidJewel": 500,
+    "replaceTypes": 0,
+    "purchaseLimit": 1,
+    "canPurchaseDayOfWeek": "",
+    "isBuyNotDisplay": true,
+    "isDisplayLocking": false,
+    "unlockType": 19,
+    "unlockValue": 51003001,
+    "startDate": 1718902800.0,
+    "lineup": [
+      {
+        "id": 1012301,
+        "mJewelShopItemId": 10123,
+        "thingId": 0,
+        "thingType": "Jewel",
+        "thingQuantity": 1250
+      },
+      {
+        "id": 1012302,
+        "mJewelShopItemId": 10123,
         "thingId": 110003,
         "thingType": "Item",
         "thingQuantity": 10

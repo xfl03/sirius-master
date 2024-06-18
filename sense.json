@@ -1713,6 +1713,21 @@
     "branchCondition2": "None"
   },
   {
+    "id": 130540,
+    "name": "友達なのに／だから",
+    "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得",
+    "type": "Support",
+    "preEffects": [],
+    "branches": [],
+    "acquirableGauge": 80,
+    "acquirableScorePercent": 140,
+    "scoreUpPerLevel": 40,
+    "lightCount": 1,
+    "coolTime": 50,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
     "id": 130550,
     "name": "踏みにじられた者の怒り",
     "description": "[:score]倍のスコアを獲得",
@@ -3359,6 +3374,58 @@
     "scoreUpPerLevel": 60,
     "lightCount": 1,
     "coolTime": 50,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 140840,
+    "name": "雨上がりには特大スクープ！",
+    "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／センス発動直後、自身の歌唱力の[:param11]倍のスコアを獲得",
+    "type": "Amplification",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20536
+          }
+        ],
+        "id": 1408401
+      }
+    ],
+    "acquirableGauge": 100,
+    "acquirableScorePercent": 180,
+    "scoreUpPerLevel": 60,
+    "lightCount": 1,
+    "coolTime": 50,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 140850,
+    "name": "雨上がりの君を待って",
+    "description": "[:score]倍のスコアを獲得／[:sec]秒間、銀河座のアクターにスターアクトスコア[:param11]％UP効果",
+    "type": "Amplification",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20301
+          }
+        ],
+        "id": 1408501
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 190,
+    "scoreUpPerLevel": 50,
+    "lightCount": 1,
+    "coolTime": 35,
     "branchCondition1": "None",
     "branchCondition2": "None"
   },
