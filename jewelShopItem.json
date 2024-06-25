@@ -4256,7 +4256,7 @@
   },
   {
     "id": 5023,
-    "order": 801,
+    "order": 4,
     "appStoreProductId": "",
     "googlePlayProductId": "",
     "name": "デコレーションパックA",
@@ -4419,7 +4419,7 @@
   },
   {
     "id": 5024,
-    "order": 802,
+    "order": 5,
     "appStoreProductId": "",
     "googlePlayProductId": "",
     "name": "デコレーションパックB",
@@ -10183,6 +10183,292 @@
     ],
     "shopItemType": "None",
     "itemIconBodyImagePath": "PosterTicketPack",
+    "itemIconBadgeImagePath": "OneTime"
+  },
+  {
+    "id": 5162,
+    "order": 358,
+    "appStoreProductId": "5162",
+    "googlePlayProductId": "5162",
+    "name": "梅雨にToYouパックA",
+    "packText": "",
+    "mJewelShopCategoryId": 5,
+    "dialogType": 1,
+    "purchaseType": "Money",
+    "purchaseValue": 1500,
+    "subscriptionFlag": false,
+    "givePaidJewel": 1500,
+    "replaceTypes": 0,
+    "purchaseLimit": 1,
+    "canPurchaseDayOfWeek": "",
+    "isBuyNotDisplay": false,
+    "isDisplayLocking": false,
+    "startDate": 1719248400.0,
+    "endDate": 1719766800.0,
+    "lineup": [
+      {
+        "id": 516201,
+        "mJewelShopItemId": 5162,
+        "thingId": 0,
+        "thingType": "Jewel",
+        "thingQuantity": 1000
+      },
+      {
+        "id": 516202,
+        "mJewelShopItemId": 5162,
+        "thingId": 210404,
+        "thingType": "Item",
+        "thingQuantity": 5
+      },
+      {
+        "id": 516203,
+        "mJewelShopItemId": 5162,
+        "thingId": 211404,
+        "thingType": "Item",
+        "thingQuantity": 5
+      }
+    ],
+    "shopItemType": "None",
+    "itemIconBodyImagePath": "TuyuA",
+    "itemIconDetailImagePath": "1500_1000",
+    "itemIconBadgeImagePath": "OneTime"
+  },
+  {
+    "id": 5163,
+    "order": 359,
+    "appStoreProductId": "",
+    "googlePlayProductId": "",
+    "name": "梅雨にToYouパックB",
+    "packText": "",
+    "mJewelShopCategoryId": 5,
+    "dialogType": 1,
+    "purchaseType": "Paid",
+    "purchaseValue": 1500,
+    "subscriptionFlag": false,
+    "replaceTypes": 0,
+    "purchaseLimit": 1,
+    "canPurchaseDayOfWeek": "",
+    "isBuyNotDisplay": false,
+    "isDisplayLocking": false,
+    "startDate": 1719248400.0,
+    "endDate": 1719766800.0,
+    "lineup": [
+      {
+        "id": 516301,
+        "mJewelShopItemId": 5163,
+        "thingId": 110002,
+        "thingType": "Item",
+        "thingQuantity": 30
+      },
+      {
+        "id": 516302,
+        "mJewelShopItemId": 5163,
+        "thingId": 140000,
+        "thingType": "Item",
+        "thingQuantity": 300
+      },
+      {
+        "id": 516303,
+        "mJewelShopItemId": 5163,
+        "thingId": 130071,
+        "thingType": "Item",
+        "thingQuantity": 3
+      }
+    ],
+    "shopItemType": "None",
+    "itemIconBodyImagePath": "TuyuB",
+    "itemIconBadgeImagePath": "OneTime"
+  },
+  {
+    "id": 5164,
+    "order": 360,
+    "appStoreProductId": "",
+    "googlePlayProductId": "",
+    "name": "梅雨にToYouパックC",
+    "packText": "",
+    "mJewelShopCategoryId": 5,
+    "dialogType": 1,
+    "purchaseType": "Paid",
+    "purchaseValue": 3000,
+    "subscriptionFlag": false,
+    "replaceTypes": 0,
+    "purchaseLimit": 1,
+    "canPurchaseDayOfWeek": "",
+    "isBuyNotDisplay": false,
+    "isDisplayLocking": false,
+    "startDate": 1719248400.0,
+    "endDate": 1719766800.0,
+    "lineup": [
+      {
+        "id": 516401,
+        "mJewelShopItemId": 5164,
+        "thingId": 110002,
+        "thingType": "Item",
+        "thingQuantity": 40
+      },
+      {
+        "id": 516402,
+        "mJewelShopItemId": 5164,
+        "thingId": 110003,
+        "thingType": "Item",
+        "thingQuantity": 20
+      }
+    ],
+    "shopItemType": "None",
+    "itemIconBodyImagePath": "TuyuC",
+    "itemIconBadgeImagePath": "OneTime"
+  },
+  {
+    "id": 5165,
+    "order": 3,
+    "appStoreProductId": "",
+    "googlePlayProductId": "",
+    "name": "推し文字デコパック",
+    "packText": "",
+    "mJewelShopCategoryId": 5,
+    "dialogType": 1,
+    "purchaseType": "Paid",
+    "purchaseValue": 480,
+    "subscriptionFlag": false,
+    "replaceTypes": 0,
+    "purchaseLimit": 1,
+    "canPurchaseDayOfWeek": "",
+    "isBuyNotDisplay": true,
+    "isDisplayLocking": false,
+    "startDate": 1718895600.0,
+    "lineup": [
+      {
+        "id": 516501,
+        "mJewelShopItemId": 5165,
+        "thingId": 981010,
+        "thingType": "Decoration",
+        "thingQuantity": 1
+      },
+      {
+        "id": 516502,
+        "mJewelShopItemId": 5165,
+        "thingId": 981020,
+        "thingType": "Decoration",
+        "thingQuantity": 1
+      },
+      {
+        "id": 516503,
+        "mJewelShopItemId": 5165,
+        "thingId": 981030,
+        "thingType": "Decoration",
+        "thingQuantity": 1
+      },
+      {
+        "id": 516504,
+        "mJewelShopItemId": 5165,
+        "thingId": 981040,
+        "thingType": "Decoration",
+        "thingQuantity": 1
+      },
+      {
+        "id": 516505,
+        "mJewelShopItemId": 5165,
+        "thingId": 981050,
+        "thingType": "Decoration",
+        "thingQuantity": 1
+      },
+      {
+        "id": 516506,
+        "mJewelShopItemId": 5165,
+        "thingId": 981060,
+        "thingType": "Decoration",
+        "thingQuantity": 1
+      },
+      {
+        "id": 516507,
+        "mJewelShopItemId": 5165,
+        "thingId": 981070,
+        "thingType": "Decoration",
+        "thingQuantity": 1
+      },
+      {
+        "id": 516508,
+        "mJewelShopItemId": 5165,
+        "thingId": 981080,
+        "thingType": "Decoration",
+        "thingQuantity": 1
+      },
+      {
+        "id": 516509,
+        "mJewelShopItemId": 5165,
+        "thingId": 981090,
+        "thingType": "Decoration",
+        "thingQuantity": 1
+      },
+      {
+        "id": 516510,
+        "mJewelShopItemId": 5165,
+        "thingId": 981100,
+        "thingType": "Decoration",
+        "thingQuantity": 1
+      }
+    ],
+    "shopItemType": "None",
+    "itemIconBodyImagePath": "OshiDeco"
+  },
+  {
+    "id": 5169,
+    "order": 361,
+    "appStoreProductId": "",
+    "googlePlayProductId": "",
+    "name": "アルバムデコ応援パック",
+    "packText": "",
+    "mJewelShopCategoryId": 5,
+    "dialogType": 1,
+    "purchaseType": "Paid",
+    "purchaseValue": 2000,
+    "subscriptionFlag": false,
+    "replaceTypes": 0,
+    "purchaseLimit": 1,
+    "canPurchaseDayOfWeek": "",
+    "isBuyNotDisplay": false,
+    "isDisplayLocking": false,
+    "startDate": 1719248400.0,
+    "endDate": 1719766800.0,
+    "lineup": [
+      {
+        "id": 516901,
+        "mJewelShopItemId": 5169,
+        "thingId": 510005,
+        "thingType": "Item",
+        "thingQuantity": 3
+      },
+      {
+        "id": 516902,
+        "mJewelShopItemId": 5169,
+        "thingId": 510004,
+        "thingType": "Item",
+        "thingQuantity": 10
+      },
+      {
+        "id": 516903,
+        "mJewelShopItemId": 5169,
+        "thingId": 130025,
+        "thingType": "Item",
+        "thingQuantity": 1500
+      },
+      {
+        "id": 516904,
+        "mJewelShopItemId": 5169,
+        "thingId": 130035,
+        "thingType": "Item",
+        "thingQuantity": 500
+      },
+      {
+        "id": 516905,
+        "mJewelShopItemId": 5169,
+        "thingId": 130091,
+        "thingType": "Item",
+        "thingQuantity": 30
+      }
+    ],
+    "shopItemType": "None",
+    "itemIconBodyImagePath": "deco_cheer",
     "itemIconBadgeImagePath": "OneTime"
   },
   {
