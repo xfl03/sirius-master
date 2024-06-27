@@ -1104,6 +1104,18 @@
     "branchCondition2": "None"
   },
   {
+    "id": 130531,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得",
+    "starActConditionMasterId": 101103,
+    "acquirableScorePercent": 400,
+    "scoreUpPerLevel": 40,
+    "preEffects": [],
+    "branches": [],
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
     "id": 130541,
     "name": "",
     "description": "総演技力の[:score]倍のスコアを獲得",
@@ -2308,6 +2320,30 @@
     ],
     "branchCondition1": "StorageSenseLightCount",
     "conditionValue1": 3,
+    "branchCondition2": "None"
+  },
+  {
+    "id": 140821,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得",
+    "starActConditionMasterId": 101141,
+    "acquirableScorePercent": 970,
+    "scoreUpPerLevel": 100,
+    "preEffects": [],
+    "branches": [],
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 140831,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得",
+    "starActConditionMasterId": 101411,
+    "acquirableScorePercent": 970,
+    "scoreUpPerLevel": 100,
+    "preEffects": [],
+    "branches": [],
+    "branchCondition1": "None",
     "branchCondition2": "None"
   },
   {

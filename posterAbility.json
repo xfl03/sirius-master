@@ -3648,6 +3648,30 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 220480,
+    "name": "イノセンスにおしえて",
+    "description": "<color=#7AC940>彩属性</color>のアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 220480,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70022003
+          }
+        ],
+        "id": 22048001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 220490,
     "name": "沫雪がとけたら",
     "description": "<color=#FF9314>陽属性</color>のアクターの演技力が[:param11]%上昇",
@@ -6774,6 +6798,30 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 230490,
+    "name": "いつかあなたに伝えたい",
+    "description": "<color=#7AC940>彩属性</color>のアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 230490,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70052003
+          }
+        ],
+        "id": 23049001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 320010,
     "name": "鬼人と竜魔人",
     "description": "<color=#FF9314>陽属性</color>のアクターの演技力が[:param11]%上昇",
@@ -8160,6 +8208,54 @@
           }
         ],
         "id": 220470201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2204801,
+    "name": "演技力アップ",
+    "description": "自身の演技力が[:param11]％上昇　◆発動条件：<color=#7AC940>彩属性</color>のアクターが装備",
+    "posterMasterId": 220480,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10010003
+          }
+        ],
+        "id": 220480101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2204802,
+    "name": "スコアブースト・集中力",
+    "description": "センス発動直後、自身の集中力の[:param11]倍のスコアを獲得　◆発動条件：<color=#7AC940>彩属性</color>のアクターが装備",
+    "posterMasterId": 220480,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11110003
+          }
+        ],
+        "id": 220480201
       }
     ],
     "branchConditionType1": "None",
@@ -9648,6 +9744,78 @@
           }
         ],
         "id": 230460301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2304901,
+    "name": "演技力アップⅢ",
+    "description": "自身の演技力が[:param11]%上昇",
+    "posterMasterId": 230490,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10030003
+          }
+        ],
+        "id": 230490101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2304902,
+    "name": "スコアブースト・集中力Ⅱ＋",
+    "description": "センス発動直後、自身の集中力の[:param11]倍のスコアを獲得　◆発動条件：<color=#7AC940>彩属性</color>のアクターが装備",
+    "posterMasterId": 230490,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11121003
+          }
+        ],
+        "id": 230490201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2304903,
+    "name": "初期P.ゲージ上昇＋",
+    "description": "公演開始時、P.ゲージが[:param11]上昇　◆発動条件：<color=#7AC940>彩属性</color>のアクターが装備",
+    "posterMasterId": 230490,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11511003
+          }
+        ],
+        "id": 230490301
       }
     ],
     "branchConditionType1": "None",

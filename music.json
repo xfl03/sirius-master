@@ -3948,6 +3948,43 @@
     "musicCoverType": "Original"
   },
   {
+    "id": 111,
+    "name": "リアルタイム・リプライ！",
+    "description": "",
+    "rewardRuleMasterId": 1,
+    "pronounceName": "りあるたいむりぷらい",
+    "lyricWriter": "松井洋平",
+    "composer": "光増ハジメ（FirstCall）",
+    "arranger": "光増ハジメ（FirstCall）",
+    "isLongVersion": false,
+    "releasedAt": 1719766800.0,
+    "staminaConsumption": 27,
+    "musicTimeSecond": 106,
+    "invisible": false,
+    "sampleStartSeconds": 0.0,
+    "sampleEndSeconds": 0.0,
+    "delaySeconds": 0.0,
+    "vocalVersions": [
+      {
+        "id": 11101,
+        "musicMasterId": 111,
+        "vocalVersion": 1,
+        "singer": "柳場ぱんだ",
+        "name": "リアルタイム・リプライ！",
+        "musicTimeSecond": 106,
+        "sampleStartSeconds": 0.0,
+        "sampleEndSeconds": 0.0,
+        "musicVideoType": "None",
+        "characters": [
+          105
+        ]
+      }
+    ],
+    "unlockConditionType": "Default",
+    "musicVideoType": "None",
+    "musicCoverType": "Original"
+  },
+  {
     "id": 112,
     "name": "マン・ハン・チュエンシー!!",
     "description": "",
@@ -5388,6 +5425,84 @@
         "musicVideoType": "None",
         "characters": [
           303,
+          304
+        ]
+      }
+    ],
+    "unlockConditionType": "Buy",
+    "musicVideoType": "None",
+    "musicCoverType": "Original"
+  },
+  {
+    "id": 10070,
+    "name": "ちいさないのちのさけるばしょ（Long Ver.）",
+    "description": "",
+    "rewardRuleMasterId": 1,
+    "pronounceName": "ちいさないのちのさけるばしょlong",
+    "lyricWriter": "松井洋平",
+    "composer": "山本玲史",
+    "arranger": "山本玲史",
+    "unlockText": "楽曲ショップで購入",
+    "isLongVersion": true,
+    "releasedAt": 1719896400.0,
+    "staminaConsumption": 0,
+    "musicTimeSecond": 255,
+    "invisible": false,
+    "sampleStartSeconds": 0.0,
+    "sampleEndSeconds": 0.0,
+    "delaySeconds": 0.0,
+    "vocalVersions": [
+      {
+        "id": 1007001,
+        "musicMasterId": 10070,
+        "vocalVersion": 1,
+        "singer": "萬容、烏森大黒",
+        "name": "ちいさないのちのさけるばしょ（Long Ver.）",
+        "musicTimeSecond": 255,
+        "sampleStartSeconds": 0.0,
+        "sampleEndSeconds": 0.0,
+        "musicVideoType": "None",
+        "characters": [
+          202,
+          204
+        ]
+      }
+    ],
+    "unlockConditionType": "Buy",
+    "musicVideoType": "None",
+    "musicCoverType": "Original"
+  },
+  {
+    "id": 10077,
+    "name": "小さな奇跡の降る夜に（Long Ver.）",
+    "description": "",
+    "rewardRuleMasterId": 1,
+    "pronounceName": "ちいさなきせきのふるよるにlong",
+    "lyricWriter": "松井洋平",
+    "composer": "松坂康司",
+    "arranger": "松坂康司",
+    "unlockText": "楽曲ショップで購入",
+    "isLongVersion": true,
+    "releasedAt": 1720501200.0,
+    "staminaConsumption": 0,
+    "musicTimeSecond": 232,
+    "invisible": false,
+    "sampleStartSeconds": 0.0,
+    "sampleEndSeconds": 0.0,
+    "delaySeconds": 0.0,
+    "vocalVersions": [
+      {
+        "id": 1007701,
+        "musicMasterId": 10077,
+        "vocalVersion": 1,
+        "singer": "リリヤ・クルトベイ、ラモーナ・ウォルフ",
+        "name": "小さな奇跡の降る夜に（Long Ver.）",
+        "musicTimeSecond": 232,
+        "sampleStartSeconds": 0.0,
+        "sampleEndSeconds": 0.0,
+        "musicVideoType": "None",
+        "characters": [
+          302,
           304
         ]
       }

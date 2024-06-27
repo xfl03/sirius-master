@@ -1713,6 +1713,21 @@
     "branchCondition2": "None"
   },
   {
+    "id": 130530,
+    "name": "食べちゃうぞ～！",
+    "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得",
+    "type": "Special",
+    "preEffects": [],
+    "branches": [],
+    "acquirableGauge": 90,
+    "acquirableScorePercent": 140,
+    "scoreUpPerLevel": 50,
+    "lightCount": 1,
+    "coolTime": 60,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
     "id": 130540,
     "name": "友達なのに／だから",
     "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得",
@@ -3374,6 +3389,46 @@
     "scoreUpPerLevel": 60,
     "lightCount": 1,
     "coolTime": 50,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 140820,
+    "name": "がおー！のレッスン",
+    "description": "[:score]倍のスコアを獲得／ライフが多いほどぱんだのスコア獲得量UP（最大＋100％）",
+    "type": "Amplification",
+    "preEffects": [
+      {
+        "order": 1,
+        "effectMasterId": 28001
+      }
+    ],
+    "branches": [],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 220,
+    "scoreUpPerLevel": 50,
+    "lightCount": 1,
+    "coolTime": 40,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 140830,
+    "name": "ペンギン・ア・ゴーゴー！",
+    "description": "[:score]倍のスコアを獲得／ライフが多いほど八恵のスコア獲得量UP（最大＋100％）",
+    "type": "Control",
+    "preEffects": [
+      {
+        "order": 1,
+        "effectMasterId": 28001
+      }
+    ],
+    "branches": [],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 540,
+    "scoreUpPerLevel": 50,
+    "lightCount": 1,
+    "coolTime": 35,
     "branchCondition1": "None",
     "branchCondition2": "None"
   },
