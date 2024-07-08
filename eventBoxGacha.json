@@ -58,5 +58,35 @@
       }
     ],
     "eventBoxGachaTextTemplateMasterId": 1002
+  },
+  {
+    "id": 5,
+    "name": "ユナイトチャレンジ抽選会",
+    "eventMasterId": 21005,
+    "requiredItemMasterId": 137002,
+    "requiredQuantity": 1,
+    "details": [
+      {
+        "id": 501,
+        "order": 1,
+        "prizeCount": 1
+      },
+      {
+        "id": 502,
+        "order": 2,
+        "prizeCount": 10
+      },
+      {
+        "id": 503,
+        "order": 3,
+        "prizeCount": 50
+      },
+      {
+        "id": 504,
+        "order": 4,
+        "prizeCount": 100
+      }
+    ],
+    "eventBoxGachaTextTemplateMasterId": 1003
   }
 ]

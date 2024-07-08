@@ -8139,6 +8139,31 @@
     ]
   },
   {
+    "id": 19900,
+    "missionCategory": "Limit",
+    "missionViewOrder": 19900,
+    "title": "",
+    "description": "「アタシのアシタはアタシがキメル」を[:param]回クリアしよう",
+    "jumpType": "Live",
+    "startDate": 1721235600.0,
+    "endDate": 1722038400.0,
+    "stages": [
+      {
+        "id": 19900,
+        "missionStageOrder": 1,
+        "stageGoalValue": 5,
+        "startDate": 1721235600.0,
+        "rewards": [
+          {
+            "thingId": 140571,
+            "thingType": "Trophy",
+            "thingQuantity": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": 100000,
     "missionCategory": "Daily",
     "missionViewOrder": 100000,
@@ -9785,6 +9810,131 @@
         "rewards": [
           {
             "thingId": 137001,
+            "thingType": "Item",
+            "thingQuantity": 100
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 400120,
+    "missionCategory": "Limit",
+    "missionViewOrder": 400120,
+    "title": "",
+    "description": "公演を[:param]回クリアしよう",
+    "jumpType": "Live",
+    "startDate": 1720803600.0,
+    "endDate": 1721926800.0,
+    "stages": [
+      {
+        "id": 400120,
+        "missionStageOrder": 1,
+        "stageGoalValue": 10,
+        "startDate": 1720803600.0,
+        "rewards": [
+          {
+            "thingId": 137002,
+            "thingType": "Item",
+            "thingQuantity": 100
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 400130,
+    "missionCategory": "Limit",
+    "missionViewOrder": 400130,
+    "title": "",
+    "description": "公演を[:param]回クリアしよう",
+    "jumpType": "Live",
+    "startDate": 1720803600.0,
+    "endDate": 1721926800.0,
+    "stages": [
+      {
+        "id": 400130,
+        "missionStageOrder": 1,
+        "stageGoalValue": 30,
+        "startDate": 1720803600.0,
+        "rewards": [
+          {
+            "thingId": 137002,
+            "thingType": "Item",
+            "thingQuantity": 100
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 400140,
+    "missionCategory": "Limit",
+    "missionViewOrder": 400140,
+    "title": "",
+    "description": "公演を[:param]回クリアしよう",
+    "jumpType": "Live",
+    "startDate": 1720803600.0,
+    "endDate": 1721926800.0,
+    "stages": [
+      {
+        "id": 400140,
+        "missionStageOrder": 1,
+        "stageGoalValue": 50,
+        "startDate": 1720803600.0,
+        "rewards": [
+          {
+            "thingId": 137002,
+            "thingType": "Item",
+            "thingQuantity": 100
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 400150,
+    "missionCategory": "Limit",
+    "missionViewOrder": 400150,
+    "title": "",
+    "description": "スタミナを[:param]消費しよう",
+    "jumpType": "Live",
+    "startDate": 1720803600.0,
+    "endDate": 1721926800.0,
+    "stages": [
+      {
+        "id": 400150,
+        "missionStageOrder": 1,
+        "stageGoalValue": 200,
+        "startDate": 1720803600.0,
+        "rewards": [
+          {
+            "thingId": 137002,
+            "thingType": "Item",
+            "thingQuantity": 100
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 400160,
+    "missionCategory": "Limit",
+    "missionViewOrder": 400160,
+    "title": "",
+    "description": "スタミナを[:param]消費しよう",
+    "jumpType": "Live",
+    "startDate": 1720803600.0,
+    "endDate": 1721926800.0,
+    "stages": [
+      {
+        "id": 400160,
+        "missionStageOrder": 1,
+        "stageGoalValue": 1000,
+        "startDate": 1720803600.0,
+        "rewards": [
+          {
+            "thingId": 137002,
             "thingType": "Item",
             "thingQuantity": 100
           }

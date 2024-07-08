@@ -1246,5 +1246,109 @@
       "effectDescription": "スターアクト発動に必要な支援の光<color=#228b22>*</color>が[:param1]個減少する（必要な光の数は1個未満にならない）　※<color=#33B4DF>凛属性</color>の静香のみ対象",
       "iconImagePath": "147"
     }
+  },
+  {
+    "id": 2003501,
+    "storyEventHighScoreMasterId": 20035,
+    "storyEventHighScoreBuffMasterId": 11,
+    "storyEventHighScoreBuffMaster": {
+      "id": 11,
+      "storyEventHighScoreBuffPatternGroupId": 1,
+      "effectMasterId": 80003,
+      "effectName": "舞台照明",
+      "effectDescription": "アクターの集中力が[:param1]上昇する",
+      "iconImagePath": "11"
+    }
+  },
+  {
+    "id": 2003502,
+    "storyEventHighScoreMasterId": 20035,
+    "storyEventHighScoreBuffMasterId": 12,
+    "storyEventHighScoreBuffMaster": {
+      "id": 12,
+      "storyEventHighScoreBuffPatternGroupId": 1,
+      "effectMasterId": 80002,
+      "effectName": "舞台スピーカー",
+      "effectDescription": "アクターの表現力が[:param1]上昇する",
+      "iconImagePath": "12"
+    }
+  },
+  {
+    "id": 2003503,
+    "storyEventHighScoreMasterId": 20035,
+    "storyEventHighScoreBuffMasterId": 13,
+    "storyEventHighScoreBuffMaster": {
+      "id": 13,
+      "storyEventHighScoreBuffPatternGroupId": 1,
+      "effectMasterId": 80001,
+      "effectName": "舞台マイク",
+      "effectDescription": "アクターの歌唱力が[:param1]上昇する",
+      "iconImagePath": "13"
+    }
+  },
+  {
+    "id": 2003504,
+    "storyEventHighScoreMasterId": 20035,
+    "storyEventHighScoreBuffMasterId": 14,
+    "storyEventHighScoreBuffMaster": {
+      "id": 14,
+      "storyEventHighScoreBuffPatternGroupId": 1,
+      "effectMasterId": 80004,
+      "effectName": "舞台カーテン",
+      "effectDescription": "アクターの演技力が[:param1]％上昇する",
+      "iconImagePath": "14"
+    }
+  },
+  {
+    "id": 2003505,
+    "storyEventHighScoreMasterId": 20035,
+    "storyEventHighScoreBuffMasterId": 149,
+    "storyEventHighScoreBuffMaster": {
+      "id": 149,
+      "storyEventHighScoreBuffPatternGroupId": 2,
+      "effectMasterId": 80053,
+      "effectName": "玉座",
+      "effectDescription": "アクターの演技力上限値が[:param1]%上昇する　※Edenに所属するアクターのみ対象",
+      "iconImagePath": "153"
+    }
+  },
+  {
+    "id": 2003506,
+    "storyEventHighScoreMasterId": 20035,
+    "storyEventHighScoreBuffMasterId": 150,
+    "storyEventHighScoreBuffMaster": {
+      "id": 150,
+      "storyEventHighScoreBuffPatternGroupId": 2,
+      "effectMasterId": 80054,
+      "effectName": "古井戸",
+      "effectDescription": "Edenに所属するアクター1人につき、公演開始時にプリンシパルゲージが[:param1]上昇する",
+      "iconImagePath": "154"
+    }
+  },
+  {
+    "id": 2003507,
+    "storyEventHighScoreMasterId": 20035,
+    "storyEventHighScoreBuffMasterId": 151,
+    "storyEventHighScoreBuffMaster": {
+      "id": 151,
+      "storyEventHighScoreBuffPatternGroupId": 2,
+      "effectMasterId": 80055,
+      "effectName": "どら焼き",
+      "effectDescription": "センスのCTが[:param1]秒短縮する　　※<color=#ff679d>憐属性</color>の萬 容のみ対象",
+      "iconImagePath": "155"
+    }
+  },
+  {
+    "id": 2003508,
+    "storyEventHighScoreMasterId": 20035,
+    "storyEventHighScoreBuffMasterId": 152,
+    "storyEventHighScoreBuffMaster": {
+      "id": 152,
+      "storyEventHighScoreBuffPatternGroupId": 2,
+      "effectMasterId": 80056,
+      "effectName": "土星",
+      "effectDescription": "センス発動時、追加で「SP光」を[:param1]個付与する　※<color=#ff679d>憐属性</color>の舎人 仁花子のみ対象",
+      "iconImagePath": "156"
+    }
   }
 ]

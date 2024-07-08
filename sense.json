@@ -1788,6 +1788,21 @@
     "branchCondition2": "None"
   },
   {
+    "id": 130580,
+    "name": "私よりふさわしい人",
+    "description": "[:score]倍のスコアを獲得",
+    "type": "Amplification",
+    "preEffects": [],
+    "branches": [],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 410,
+    "scoreUpPerLevel": 40,
+    "lightCount": 1,
+    "coolTime": 40,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
     "id": 140010,
     "name": "悲哀と恋慕の旋律",
     "description": "[:score]倍のスコアを獲得／ライフを[:param11]回復／ライフが多いほどここなのスコア獲得量UP（最大＋100％）",
@@ -3395,7 +3410,7 @@
   {
     "id": 140820,
     "name": "がおー！のレッスン",
-    "description": "[:score]倍のスコアを獲得／ライフが多いほどぱんだのスコア獲得量UP（最大＋100％）",
+    "description": "[:score]倍のスコアを獲得／ライフを[:param11]回復／ライフが多いほどぱんだのスコア獲得量UP（最大＋100％）",
     "type": "Amplification",
     "preEffects": [
       {
@@ -3403,7 +3418,18 @@
         "effectMasterId": 28001
       }
     ],
-    "branches": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20014
+          }
+        ],
+        "id": 1408201
+      }
+    ],
     "acquirableGauge": 0,
     "acquirableScorePercent": 220,
     "scoreUpPerLevel": 50,
@@ -3888,6 +3914,58 @@
     "lightCount": 1,
     "coolTime": 40,
     "branchCondition1": "LifeGuardCount",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 140940,
+    "name": "プレイス・ユア・ベット",
+    "description": "[:score]倍のスコアを獲得／[:sec]秒間、Edenのアクターにスターアクトスコア[:param11]％UP効果",
+    "type": "Control",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20201
+          }
+        ],
+        "id": 1409401
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 220,
+    "scoreUpPerLevel": 50,
+    "lightCount": 1,
+    "coolTime": 40,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 140950,
+    "name": "オール・オア・ナッシング",
+    "description": "[:score]倍のスコアを獲得／センス発動直後、自身の表現力の[:param11]倍のスコアを獲得",
+    "type": "Special",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20535
+          }
+        ],
+        "id": 1409501
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 600,
+    "scoreUpPerLevel": 50,
+    "lightCount": 2,
+    "coolTime": 40,
+    "branchCondition1": "None",
     "branchCondition2": "None"
   }
 ]

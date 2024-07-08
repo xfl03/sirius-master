@@ -414,5 +414,37 @@
     "effectName": "サロメのヴェール",
     "effectDescription": "スターアクト発動に必要な特殊の光<color=#0000ff>*</color>が[:param1]個減少する（必要な光の数は1個未満にならない）　※<color=#FF9314>陽属性</color>の萬 容のみ対象",
     "iconImagePath": "141"
+  },
+  {
+    "id": 149,
+    "storyEventHighScoreBuffPatternGroupId": 2,
+    "effectMasterId": 80053,
+    "effectName": "玉座",
+    "effectDescription": "アクターの演技力上限値が[:param1]%上昇する　※Edenに所属するアクターのみ対象",
+    "iconImagePath": "153"
+  },
+  {
+    "id": 150,
+    "storyEventHighScoreBuffPatternGroupId": 2,
+    "effectMasterId": 80054,
+    "effectName": "古井戸",
+    "effectDescription": "Edenに所属するアクター1人につき、公演開始時にプリンシパルゲージが[:param1]上昇する",
+    "iconImagePath": "154"
+  },
+  {
+    "id": 151,
+    "storyEventHighScoreBuffPatternGroupId": 2,
+    "effectMasterId": 80055,
+    "effectName": "どら焼き",
+    "effectDescription": "センスのCTが[:param1]秒短縮する　　※<color=#ff679d>憐属性</color>の萬 容のみ対象",
+    "iconImagePath": "155"
+  },
+  {
+    "id": 152,
+    "storyEventHighScoreBuffPatternGroupId": 2,
+    "effectMasterId": 80056,
+    "effectName": "土星",
+    "effectDescription": "センス発動時、追加で「SP光」を[:param1]個付与する　※<color=#ff679d>憐属性</color>の舎人 仁花子のみ対象",
+    "iconImagePath": "156"
   }
 ]

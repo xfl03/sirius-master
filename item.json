@@ -387,6 +387,19 @@
     "rarity": "R"
   },
   {
+    "id": 111029,
+    "name": "高級スタミナドリンク【～7月20日 17:00】",
+    "description": "美容にも欠かせない一級品のドリンク。スタミナを100回復する。2024年7月20日17時まで使用できる。",
+    "displayOrder": 29,
+    "displayEndDate": 1721494800.0,
+    "maxStock": 99999,
+    "category": "StaminaRecovery",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Normal",
+    "rarity": "R"
+  },
+  {
     "id": 111036,
     "name": "高級スタミナドリンク【～3月21日 17:00】",
     "description": "美容にも欠かせない一級品のドリンク。スタミナを100回復する。2024年3月21日17時まで使用できる。",
@@ -833,6 +846,19 @@
     "rarity": "R"
   },
   {
+    "id": 137002,
+    "name": "ユナイトチャレンジ福引券",
+    "description": "ユナイトチャレンジ抽選会で利用することができる福引券。",
+    "displayOrder": 137002,
+    "displayEndDate": 1721926800.0,
+    "maxStock": 99999,
+    "category": "ConsumeItem",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Ticket",
+    "rarity": "R"
+  },
+  {
     "id": 138001,
     "name": "ジュゴンの勲章",
     "description": "ジュゴンに抵抗されずお腹を触ることができた者に贈られる記念品。ハイスコアチャレンジで入手できる。",
@@ -1080,6 +1106,19 @@
     "description": "銀河座の劇団ロゴがあしらわれたおまもり。銀河シアターで「導きのかけら」を入手しやすくなる。",
     "displayOrder": 139103,
     "displayEndDate": 1719248400.0,
+    "maxStock": 1,
+    "category": "ConsumeItem",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Normal",
+    "rarity": "SSR"
+  },
+  {
+    "id": 139104,
+    "name": "銀河座のおまもり【～7月24日 17:00】",
+    "description": "銀河座の劇団ロゴがあしらわれたおまもり。銀河シアターで「導きのかけら」を入手しやすくなる。",
+    "displayOrder": 139104,
+    "displayEndDate": 1721840400.0,
     "maxStock": 1,
     "category": "ConsumeItem",
     "consumable": false,
@@ -2303,6 +2342,18 @@
     "rarity": "SSR"
   },
   {
+    "id": 143058,
+    "name": "★3【私よりふさわしい人】烏森大黒のピース",
+    "description": "★3【私よりふさわしい人】烏森大黒の才能開花に使用できるアイテム。",
+    "displayOrder": 143058,
+    "maxStock": 99999,
+    "category": "TalentBloom",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Piece",
+    "rarity": "SSR"
+  },
+  {
     "id": 144001,
     "name": "★4【悲哀と恋慕の旋律】鳳ここなのピース",
     "description": "★4【悲哀と恋慕の旋律】鳳ここなの才能開花に使用できるアイテム。",
@@ -3359,6 +3410,30 @@
     "rarity": "SSR"
   },
   {
+    "id": 144094,
+    "name": "★4【プレイス・ユア・ベット】舎人仁花子のピース",
+    "description": "★4【プレイス・ユア・ベット】舎人仁花子の才能開花に使用できるアイテム。",
+    "displayOrder": 144094,
+    "maxStock": 99999,
+    "category": "TalentBloom",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Piece",
+    "rarity": "SSR"
+  },
+  {
+    "id": 144095,
+    "name": "★4【オール・オア・ナッシング】萬容のピース",
+    "description": "★4【オール・オア・ナッシング】萬容の才能開花に使用できるアイテム。",
+    "displayOrder": 144095,
+    "maxStock": 99999,
+    "category": "TalentBloom",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Piece",
+    "rarity": "SSR"
+  },
+  {
     "id": 210001,
     "name": "アクターガチャチケット",
     "description": "アクターガチャを引くことができるチケット。",
@@ -3486,6 +3561,19 @@
     "name": "★4確率2倍アクターガチャチケット",
     "description": "★4確率2倍アクターガチャを引くことができるチケット。",
     "displayOrder": 210404,
+    "maxStock": 99999,
+    "category": "GachaTicket",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Ticket",
+    "rarity": "R"
+  },
+  {
+    "id": 210406,
+    "name": "1st Anniversary カウントダウンガチャチケット",
+    "description": "1st Anniversaryカウントダウンガチャを引くことができるチケット。2024年8月24日0時まで使用できる。",
+    "displayOrder": 210406,
+    "displayEndDate": 1724457600.0,
     "maxStock": 99999,
     "category": "GachaTicket",
     "consumable": false,
@@ -4291,6 +4379,19 @@
     "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
     "displayOrder": 411048,
     "displayEndDate": 1721235600.0,
+    "maxStock": 99999,
+    "category": "GachaPoint",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Hidden",
+    "rarity": "R"
+  },
+  {
+    "id": 411049,
+    "name": "ガチャポイント",
+    "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
+    "displayOrder": 411049,
+    "displayEndDate": 1722099600.0,
     "maxStock": 99999,
     "category": "GachaPoint",
     "consumable": false,
@@ -5421,6 +5522,18 @@
     "rarity": "R"
   },
   {
+    "id": 420035,
+    "name": "イベントポイント",
+    "description": "イベントの交換所から様々なアイテムと交換できる。",
+    "displayOrder": 420035,
+    "maxStock": 1999999999,
+    "category": "EventPoint",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Hidden",
+    "rarity": "R"
+  },
+  {
     "id": 420042,
     "name": "イベントポイント",
     "description": "イベントの交換所から様々なアイテムと交換できる。",
@@ -5461,6 +5574,18 @@
     "name": "イベントポイント",
     "description": "",
     "displayOrder": 421003,
+    "maxStock": 1999999999,
+    "category": "EventPoint",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Hidden",
+    "rarity": "R"
+  },
+  {
+    "id": 421004,
+    "name": "イベントポイント",
+    "description": "",
+    "displayOrder": 421004,
     "maxStock": 1999999999,
     "category": "EventPoint",
     "consumable": false,
