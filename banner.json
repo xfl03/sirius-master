@@ -587,6 +587,39 @@
     "endDate": 1721494800.0
   },
   {
+    "id": 1050,
+    "order": 1951,
+    "name": "シスターガチャ(アクター)",
+    "jumpType": "Gacha",
+    "jumpPageId": "1050",
+    "deleteConditionType": 0,
+    "imagePath": "Gacha/1050",
+    "startDate": 1721494800.0,
+    "endDate": 1722445200.0
+  },
+  {
+    "id": 1058,
+    "order": 1943,
+    "name": "シリウス第3章記念ユメフェス(アクター)",
+    "jumpType": "Gacha",
+    "jumpPageId": "1058",
+    "deleteConditionType": 0,
+    "imagePath": "Gacha/1058",
+    "startDate": 1722013200.0,
+    "endDate": 1722618000.0
+  },
+  {
+    "id": 1059,
+    "order": 1942,
+    "name": "【復刻】#指先がつむぐ暗黒ガチャ(アクター)",
+    "jumpType": "Gacha",
+    "jumpPageId": "1059",
+    "deleteConditionType": 0,
+    "imagePath": "Gacha/1059",
+    "startDate": 1722186000.0,
+    "endDate": 1722445200.0
+  },
+  {
     "id": 1062,
     "order": 1955,
     "name": "【復刻】エレクトリック・サマー・バカンスガチャ(アクター)",
@@ -740,6 +773,17 @@
     "imagePath": "Gacha/1817",
     "startDate": 1719248400.0,
     "endDate": 1719766800.0
+  },
+  {
+    "id": 1818,
+    "order": 1967,
+    "name": "シリウスピックアップガチャ",
+    "jumpType": "Gacha",
+    "jumpPageId": "1818",
+    "deleteConditionType": 0,
+    "imagePath": "Gacha/1818",
+    "startDate": 1722013200.0,
+    "endDate": 1722618000.0
   },
   {
     "id": 2001,
@@ -1193,6 +1237,17 @@
     "endDate": 1715101200.0
   },
   {
+    "id": 2051,
+    "order": 2051,
+    "name": "【復刻】かつてはアヒルの子ガチャ",
+    "jumpType": "Gacha",
+    "jumpPageId": "2051",
+    "deleteConditionType": 0,
+    "imagePath": "Gacha/2051",
+    "startDate": 1722186000.0,
+    "endDate": 1722445200.0
+  },
+  {
     "id": 2054,
     "order": 2054,
     "name": "【復刻】少女漂流記ガチャ(ポスター)",
@@ -1224,6 +1279,17 @@
     "imagePath": "Gacha/2056",
     "startDate": 1719248400.0,
     "endDate": 1719766800.0
+  },
+  {
+    "id": 2057,
+    "order": 2057,
+    "name": "I Wannaガチャ",
+    "jumpType": "Gacha",
+    "jumpPageId": "2057",
+    "deleteConditionType": 0,
+    "imagePath": "Gacha/2057",
+    "startDate": 1722013200.0,
+    "endDate": 1723222800.0
   },
   {
     "id": 2800,
@@ -1631,6 +1697,17 @@
     "imagePath": "Notification/Banner00182",
     "startDate": 1714150800.0,
     "endDate": 1717218000.0
+  },
+  {
+    "id": 4021,
+    "order": 999,
+    "name": "SIRIUS第3章追加",
+    "jumpType": "Story",
+    "jumpPageId": "1",
+    "deleteConditionType": 0,
+    "imagePath": "Notification/Banner00313",
+    "startDate": 1722013200.0,
+    "endDate": 1725166800.0
   },
   {
     "id": 5002,
@@ -2759,6 +2836,29 @@
     "endDate": 1721840400.0
   },
   {
+    "id": 5161,
+    "order": 5161,
+    "name": "お誕生日パック【静香】",
+    "jumpType": "JewelShop",
+    "jumpPageId": "5161",
+    "deleteConditionType": "BuyItem",
+    "deleteConditionValue": "5161",
+    "imagePath": "Home/5161",
+    "startDate": 1721952000.0,
+    "endDate": 1722816000.0
+  },
+  {
+    "id": 5164,
+    "order": 5164,
+    "name": "【復刻】お誕生日パック",
+    "jumpType": "JewelShop",
+    "jumpPageId": "5",
+    "deleteConditionType": 0,
+    "imagePath": "Home/Banner00222",
+    "startDate": 1722013200.0,
+    "endDate": 1722877200.0
+  },
+  {
     "id": 5165,
     "order": 5165,
     "name": "推し文字デコパック",
@@ -2795,6 +2895,51 @@
     "endDate": 1719766800.0
   },
   {
+    "id": 5205,
+    "order": 5205,
+    "name": "1st Anniversary初心者応援パック",
+    "jumpType": "JewelShop",
+    "jumpPageId": "5",
+    "deleteConditionType": 0,
+    "imagePath": "Home/5127",
+    "startDate": 1721941200.0,
+    "endDate": 1724432400.0
+  },
+  {
+    "id": 5207,
+    "order": 5207,
+    "name": "1st Anniversary劇団別パック",
+    "jumpType": "JewelShop",
+    "jumpPageId": "5",
+    "deleteConditionType": 0,
+    "imagePath": "Home/5207",
+    "startDate": 1721952000.0,
+    "endDate": 1724432400.0
+  },
+  {
+    "id": 5211,
+    "order": 5211,
+    "name": "1st Anniversary超強化パック",
+    "jumpType": "JewelShop",
+    "jumpPageId": "5211",
+    "deleteConditionType": "BuyItem",
+    "deleteConditionValue": "5211",
+    "imagePath": "Home/5211",
+    "startDate": 1722013200.0,
+    "endDate": 1724432400.0
+  },
+  {
+    "id": 5212,
+    "order": 5212,
+    "name": "ユメフェス記念ジュエルパック",
+    "jumpType": "JewelShop",
+    "jumpPageId": "5",
+    "deleteConditionType": 0,
+    "imagePath": "Home/5124",
+    "startDate": 1722013200.0,
+    "endDate": 1722963600.0
+  },
+  {
     "id": 5405,
     "order": 1,
     "name": "72時間限定パック",
@@ -2816,6 +2961,17 @@
     "imagePath": "Gacha/8500",
     "startDate": 1706288400.0,
     "endDate": 1707066000.0
+  },
+  {
+    "id": 8510,
+    "order": 8510,
+    "name": "1st Anniversary記念復刻★4アクター確定ステップアップガチャ",
+    "jumpType": "Gacha",
+    "jumpPageId": "8510",
+    "deleteConditionType": 0,
+    "imagePath": "Gacha/8510",
+    "startDate": 1722186000.0,
+    "endDate": 1722963600.0
   },
   {
     "id": 9000,
@@ -2959,6 +3115,17 @@
     "imagePath": "Gacha/9500",
     "startDate": 1706288400.0,
     "endDate": 1707066000.0
+  },
+  {
+    "id": 9510,
+    "order": 9510,
+    "name": "1st Anniversary記念復刻SSRポスター確定ステップアップガチャ",
+    "jumpType": "Gacha",
+    "jumpPageId": "9510",
+    "deleteConditionType": 0,
+    "imagePath": "Gacha/9510",
+    "startDate": 1722186000.0,
+    "endDate": 1722963600.0
   },
   {
     "id": 10001,

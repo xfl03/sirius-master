@@ -1535,6 +1535,28 @@
     "unknown22": 1
   },
   {
+    "id": 220510,
+    "name": "シスター",
+    "rarity": "SR",
+    "levelPatternGroupMasterId": 2,
+    "subTitlePositionX1": 818.0,
+    "subTitlePositionY1": 1651.0,
+    "subTitlePositionX2": 10.0,
+    "subTitlePositionY2": 10.0,
+    "releaseItemGroupId": 2,
+    "pronounceName": "しすたー",
+    "costumes": [],
+    "appearanceCharacterBaseMasterIds": [
+      301,
+      401
+    ],
+    "isRestrictItemBreakThrough": false,
+    "displayStartAt": 1721494800.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "イベントで入手",
+    "unknown22": 1
+  },
+  {
     "id": 229010,
     "name": "【SIRIUS】竹取物語",
     "rarity": "SSR",
@@ -2216,6 +2238,43 @@
     ],
     "isRestrictItemBreakThrough": false,
     "displayStartAt": 1693501200.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "ガチャ(期間限定)で入手",
+    "unknown22": 1
+  },
+  {
+    "id": 230180,
+    "name": "I Wanna",
+    "rarity": "SSR",
+    "levelPatternGroupMasterId": 3,
+    "subTitlePositionX1": 46.0,
+    "subTitlePositionY1": 1398.0,
+    "releaseItemGroupId": 3,
+    "pronounceName": "I Wanna",
+    "costumes": [
+      {
+        "phase": 0,
+        "costumeMasterId": 2591
+      },
+      {
+        "phase": 1,
+        "costumeMasterId": 2592
+      },
+      {
+        "phase": 2,
+        "costumeMasterId": 2601
+      },
+      {
+        "phase": 3,
+        "costumeMasterId": 2602
+      }
+    ],
+    "appearanceCharacterBaseMasterIds": [
+      101,
+      102
+    ],
+    "isRestrictItemBreakThrough": false,
+    "displayStartAt": 1722013200.0,
     "displayEndAt": 4102444800.0,
     "unlockText": "ガチャ(期間限定)で入手",
     "unknown22": 1
@@ -3507,6 +3566,28 @@
     "displayStartAt": 1718038800.0,
     "displayEndAt": 4102444800.0,
     "unlockText": "ガチャ(コラボ限定)で入手",
+    "unknown22": 1
+  },
+  {
+    "id": 330130,
+    "name": "ハロー！MY FAVORITE!",
+    "rarity": "SSR",
+    "levelPatternGroupMasterId": 3,
+    "subTitlePositionX1": 85.0,
+    "subTitlePositionY1": 0.0,
+    "subTitlePositionX2": 1096.0,
+    "subTitlePositionY2": 521.0,
+    "releaseItemGroupId": 3,
+    "pronounceName": "はろーMY FAVORITE!",
+    "costumes": [],
+    "appearanceCharacterBaseMasterIds": [
+      101,
+      102
+    ],
+    "isRestrictItemBreakThrough": true,
+    "displayStartAt": 1722013200.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "メダル交換で入手",
     "unknown22": 1
   }
 ]

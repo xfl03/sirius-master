@@ -1176,6 +1176,18 @@
     "branchCondition2": "None"
   },
   {
+    "id": 130591,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得",
+    "starActConditionMasterId": 103110,
+    "acquirableScorePercent": 400,
+    "scoreUpPerLevel": 40,
+    "preEffects": [],
+    "branches": [],
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
     "id": 140011,
     "name": "",
     "description": "総演技力の[:score]倍のスコアを獲得",
@@ -2864,6 +2876,126 @@
     "acquirableScorePercent": 970,
     "scoreUpPerLevel": 100,
     "preEffects": [],
+    "branches": [],
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 140961,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得／ストックされている支援系の光1個につき総演技力の[:param11]倍のスコアを追加で獲得(最大5個)",
+    "starActConditionMasterId": 101151,
+    "acquirableScorePercent": 1140,
+    "scoreUpPerLevel": 120,
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19026
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 1,
+        "id": 14096101
+      },
+      {
+        "order": 2,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19027
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 2,
+        "id": 14096102
+      },
+      {
+        "order": 3,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19028
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 3,
+        "id": 14096103
+      },
+      {
+        "order": 4,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19029
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 4,
+        "id": 14096104
+      },
+      {
+        "order": 5,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19030
+          }
+        ],
+        "judgeType1": 2,
+        "parameter1": 5,
+        "id": 14096105
+      }
+    ],
+    "branchCondition1": "StorageSenseLightCount",
+    "conditionValue1": 1,
+    "branchCondition2": "None"
+  },
+  {
+    "id": 140971,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得",
+    "starActConditionMasterId": 101114,
+    "acquirableScorePercent": 970,
+    "scoreUpPerLevel": 100,
+    "preEffects": [],
+    "branches": [],
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 140981,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得／ライフが多いほどスコア獲得量UP効果（最大＋[:pre1]%）",
+    "starActConditionMasterId": 103122,
+    "acquirableScorePercent": 1140,
+    "scoreUpPerLevel": 120,
+    "preEffects": [
+      {
+        "order": 1,
+        "effectMasterId": 19050
+      }
+    ],
+    "branches": [],
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 140991,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得／ライフが多いほどスコア獲得量UP効果（最大＋[:pre1]%）",
+    "starActConditionMasterId": 105111,
+    "acquirableScorePercent": 1140,
+    "scoreUpPerLevel": 120,
+    "preEffects": [
+      {
+        "order": 1,
+        "effectMasterId": 19050
+      }
+    ],
     "branches": [],
     "branchCondition1": "None",
     "branchCondition2": "None"

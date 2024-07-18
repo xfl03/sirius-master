@@ -1803,6 +1803,32 @@
     "branchCondition2": "None"
   },
   {
+    "id": 130590,
+    "name": "小指をからめて",
+    "description": "[:score]倍のスコアを獲得／ライフを[:param11]回復",
+    "type": "Support",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20013
+          }
+        ],
+        "id": 1305901
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 190,
+    "scoreUpPerLevel": 40,
+    "lightCount": 1,
+    "coolTime": 50,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
     "id": 140010,
     "name": "悲哀と恋慕の旋律",
     "description": "[:score]倍のスコアを獲得／ライフを[:param11]回復／ライフが多いほどここなのスコア獲得量UP（最大＋100％）",
@@ -3965,6 +3991,87 @@
     "scoreUpPerLevel": 50,
     "lightCount": 2,
     "coolTime": 40,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 140960,
+    "name": "なし",
+    "description": "効果無し（所持している「光」は維持される）",
+    "type": "None",
+    "preEffects": [],
+    "branches": [],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 0,
+    "scoreUpPerLevel": 0,
+    "lightCount": 0,
+    "coolTime": 0,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 140970,
+    "name": "小さなあの子を待ちながら",
+    "description": "[:score]倍のスコアを獲得／センス発動後、プリンシパルゲージの上限値が[:param11]上昇",
+    "type": "Special",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20095
+          }
+        ],
+        "id": 1409701
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 600,
+    "scoreUpPerLevel": 50,
+    "lightCount": 1,
+    "coolTime": 40,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 140980,
+    "name": "とある悪魔の幸福",
+    "description": "ここな編成時、ここなが代わりにセンスを発動し、ここなのスコア獲得量[:pre1]％UP",
+    "type": "Alternative",
+    "preEffects": [
+      {
+        "order": 1,
+        "effectMasterId": 20025
+      }
+    ],
+    "branches": [],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 0,
+    "scoreUpPerLevel": 0,
+    "lightCount": 0,
+    "coolTime": 0,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 140990,
+    "name": "あなたの声は潮騒に",
+    "description": "[:score]倍のスコアを獲得／ライフが多いほどスコア獲得量UP効果（最大＋[:pre1]%）",
+    "type": "Support",
+    "preEffects": [
+      {
+        "order": 1,
+        "effectMasterId": 28005
+      }
+    ],
+    "branches": [],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 540,
+    "scoreUpPerLevel": 50,
+    "lightCount": 1,
+    "coolTime": 35,
     "branchCondition1": "None",
     "branchCondition2": "None"
   }
