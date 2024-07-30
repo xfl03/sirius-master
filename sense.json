@@ -1657,7 +1657,7 @@
   },
   {
     "id": 130510,
-    "name": "3分だけだからね！",
+    "name": "なし",
     "description": "ここな編成時、ここなが代わりにセンスを発動し、ここなのスコア獲得量[:pre1]％UP",
     "type": "Alternative",
     "preEffects": [
@@ -1825,6 +1825,21 @@
     "scoreUpPerLevel": 40,
     "lightCount": 1,
     "coolTime": 50,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 130600,
+    "name": "本日晴天、プール日和",
+    "description": "[:score]倍のスコアを獲得",
+    "type": "Control",
+    "preEffects": [],
+    "branches": [],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 520,
+    "scoreUpPerLevel": 50,
+    "lightCount": 1,
+    "coolTime": 60,
     "branchCondition1": "None",
     "branchCondition2": "None"
   },
@@ -3389,7 +3404,7 @@
   },
   {
     "id": 140800,
-    "name": "オートマタのテアトルにて",
+    "name": "なし",
     "description": "ここな編成時、ここなが代わりにセンスを発動し、ここなのスコア獲得量[:pre1]％UP",
     "type": "Alternative",
     "preEffects": [
@@ -4037,7 +4052,7 @@
   },
   {
     "id": 140980,
-    "name": "とある悪魔の幸福",
+    "name": "なし",
     "description": "ここな編成時、ここなが代わりにセンスを発動し、ここなのスコア獲得量[:pre1]％UP",
     "type": "Alternative",
     "preEffects": [
@@ -4058,7 +4073,7 @@
   {
     "id": 140990,
     "name": "あなたの声は潮騒に",
-    "description": "[:score]倍のスコアを獲得／ライフが多いほどスコア獲得量UP効果（最大＋[:pre1]%）",
+    "description": "[:score]倍のスコアを獲得／ライフが多いほどスコア獲得量UP効果（最大＋[:pre1]%）／センス発動直後、自身の表現力の[:param11]倍のスコアを獲得",
     "type": "Support",
     "preEffects": [
       {
@@ -4066,9 +4081,72 @@
         "effectMasterId": 28005
       }
     ],
-    "branches": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20535
+          }
+        ],
+        "id": 1409901
+      }
+    ],
     "acquirableGauge": 0,
     "acquirableScorePercent": 540,
+    "scoreUpPerLevel": 50,
+    "lightCount": 1,
+    "coolTime": 35,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 141000,
+    "name": "メイク・サム・ノイズ！",
+    "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／センス発動後、プリンシパルゲージの上限値が[:param11]上昇\t\t\t\t\t",
+    "type": "Control",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20095
+          }
+        ],
+        "id": 1410001
+      }
+    ],
+    "acquirableGauge": 90,
+    "acquirableScorePercent": 170,
+    "scoreUpPerLevel": 50,
+    "lightCount": 1,
+    "coolTime": 40,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 141010,
+    "name": "ミッドナイト・グルーヴ",
+    "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／[:sec]秒間、Edenのアクターにセンススコア[:param11]％UP効果",
+    "type": "Support",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20045
+          }
+        ],
+        "id": 1410101
+      }
+    ],
+    "acquirableGauge": 80,
+    "acquirableScorePercent": 140,
     "scoreUpPerLevel": 50,
     "lightCount": 1,
     "coolTime": 35,

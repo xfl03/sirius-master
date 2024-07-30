@@ -3744,6 +3744,30 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 220520,
+    "name": "プールサイド・セッション",
+    "description": "Edenに所属するアクターの演技力が[:param11]％上昇",
+    "posterMasterId": 220520,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70022200
+          }
+        ],
+        "id": 22052001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 229010,
     "name": "初めての舞台",
     "description": "<color=#7AC940>彩属性</color>のアクターの演技力が[:param11]%上昇",
@@ -6894,6 +6918,81 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 230510,
+    "name": "憧れた舞台に立って",
+    "description": "全アクターの演技力が[:param11]%上昇",
+    "posterMasterId": 230510,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70052000
+          }
+        ],
+        "id": 23051001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230511,
+    "name": "歌唱力アップ＋",
+    "description": "シリウスに所属しているアクターのみで編成している場合、追加で全アクターの歌唱力が[:param11]％上昇",
+    "posterMasterId": 230510,
+    "type": "Leader",
+    "frameNumber": 2,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 72052100
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 5,
+        "id": 23051101
+      }
+    ],
+    "branchConditionType1": "CompanyMemberCount",
+    "conditionValue1": 1,
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230520,
+    "name": "推理はショートミックスで",
+    "description": "Edenに所属するアクターの演技力が[:param11]％上昇",
+    "posterMasterId": 230520,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70052200
+          }
+        ],
+        "id": 23052001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 320010,
     "name": "鬼人と竜魔人",
     "description": "<color=#FF9314>陽属性</color>のアクターの演技力が[:param11]%上昇",
@@ -7200,6 +7299,30 @@
           }
         ],
         "id": 33013001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 340030,
+    "name": "超集中の生み出す緻密な演技",
+    "description": "全アクターの演技力が[:param11]％上昇",
+    "posterMasterId": 340030,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70050000
+          }
+        ],
+        "id": 34003001
       }
     ],
     "branchConditionType1": "None",
@@ -8496,6 +8619,54 @@
           }
         ],
         "id": 220510201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2205201,
+    "name": "集中力アップ",
+    "description": "自身の集中力が[:param11]％上昇　◆発動条件：Edenに所属するアクターが装備",
+    "posterMasterId": 220520,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10310200
+          }
+        ],
+        "id": 220520101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2205202,
+    "name": "スコアブースト・集中力",
+    "description": "センス発動直後、自身の集中力の[:param11]倍のスコアを獲得　◆発動条件：Edenに所属するアクターが装備",
+    "posterMasterId": 220520,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11110200
+          }
+        ],
+        "id": 220520201
       }
     ],
     "branchConditionType1": "None",
@@ -10134,6 +10305,212 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 2305101,
+    "name": "演技力アップⅢ",
+    "description": "自身の演技力が[:param11]％上昇　◆発動条件：シリウスに所属するアクターが装備",
+    "posterMasterId": 230510,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10030100
+          }
+        ],
+        "id": 230510101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2305102,
+    "name": "悠久の青星",
+    "description": "公演開始時、ライフを2000回復　◆発動条件：シリウスに所属するアクターが装備",
+    "posterMasterId": 230510,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 60000100
+          }
+        ],
+        "id": 230510201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2305103,
+    "name": "歌唱力アップ・混星",
+    "description": "編成されている属性数が多いほど自身の歌唱力が上昇（4属性：[:param11]％／3属性：[:param21]％／2属性：[:param31]％／1属性：[:param41]％）　◆発動条件：シリウスに所属するアクターが装備",
+    "posterMasterId": 230510,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 9,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10515100
+          }
+        ],
+        "judgeType1": 2,
+        "parameter1": 4,
+        "id": 230510301
+      },
+      {
+        "order": 2,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10516100
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 3,
+        "id": 230510302
+      },
+      {
+        "order": 3,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10517100
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 2,
+        "id": 230510303
+      },
+      {
+        "order": 4,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10518100
+          }
+        ],
+        "judgeType1": 3,
+        "parameter1": 1,
+        "id": 230510304
+      }
+    ],
+    "branchConditionType1": "AttributeCount",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2305104,
+    "name": "「光」追加（SP）",
+    "description": "センス発動時、SP光を追加で付与　◆発動条件：シリウスに所属するアクターが装備",
+    "posterMasterId": 230510,
+    "type": "Normal",
+    "frameNumber": 4,
+    "releaseLevelAt": 10,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11911100
+          }
+        ],
+        "id": 230510401
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2305201,
+    "name": "表現力アップⅢ",
+    "description": "自身の表現力が[:param11]％上昇　◆発動条件：Edenに所属するアクターが装備",
+    "posterMasterId": 230520,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10223200
+          }
+        ],
+        "id": 230520101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2305202,
+    "name": "演技力アップⅡ",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：Edenに所属するアクターが装備",
+    "posterMasterId": 230520,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10020200
+          }
+        ],
+        "id": 230520201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2305203,
+    "name": "スコアブースト・表現力Ⅲ",
+    "description": "センス発動直後、自身の表現力の[:param11]倍のスコアを獲得　◆発動条件：Edenに所属するアクターが装備",
+    "posterMasterId": 230520,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11030200
+          }
+        ],
+        "id": 230520301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 3200101,
     "name": "初期ライフ上昇＋",
     "description": "公演開始時、ライフが[:param11]上昇　◆発動条件：<color=#FF9314>陽属性</color>のアクターが装備",
@@ -10896,6 +11273,78 @@
           }
         ],
         "id": 330130301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3400301,
+    "name": "演技力アップⅢ＋",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：カトリナが装備",
+    "posterMasterId": 340030,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10030103
+          }
+        ],
+        "id": 340030101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3400302,
+    "name": "P.ゲージブースト＋",
+    "description": "センス発動直後、Pゲージを[:param11]獲得　◆発動条件：カトリナが装備",
+    "posterMasterId": 340030,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11410103
+          }
+        ],
+        "id": 340030201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3400303,
+    "name": "「光」追加（SP）",
+    "description": "公演開始時、SP光を[:param11]付与（効果は公演開始時1回のみ発動する）　◆発動条件：カトリナが装備",
+    "posterMasterId": 340030,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11910103
+          }
+        ],
+        "id": 340030301
       }
     ],
     "branchConditionType1": "None",
