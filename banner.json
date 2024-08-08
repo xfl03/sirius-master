@@ -620,6 +620,17 @@
     "endDate": 1723309200.0
   },
   {
+    "id": 1053,
+    "order": 1948,
+    "name": "夏、いわゆるダイスターの観察ガチャ(アクター)",
+    "jumpType": "Gacha",
+    "jumpPageId": "1053",
+    "deleteConditionType": 0,
+    "imagePath": "Gacha/1053",
+    "startDate": 1723309200.0,
+    "endDate": 1724173200.0
+  },
+  {
     "id": 1058,
     "order": 1943,
     "name": "シリウス第3章記念ユメフェス(アクター)",
@@ -3106,6 +3117,42 @@
     "imagePath": "Home/denki_amuletRe",
     "startDate": 1723222800.0,
     "endDate": 1723827600.0
+  },
+  {
+    "id": 5180,
+    "order": 5180,
+    "name": "銀河シアターのおまもりパック",
+    "jumpType": "JewelShop",
+    "jumpPageId": "5",
+    "deleteConditionType": "BuyItem",
+    "deleteConditionValue": "5182",
+    "imagePath": "Home/gingaza_amulet",
+    "startDate": 1723827600.0,
+    "endDate": 1724518800.0
+  },
+  {
+    "id": 5181,
+    "order": 5181,
+    "name": "撮影パック",
+    "jumpType": "JewelShop",
+    "jumpPageId": "5",
+    "deleteConditionType": "BuyItem",
+    "deleteConditionValue": "5180",
+    "imagePath": "Home/common_photo",
+    "startDate": 1723741200.0,
+    "endDate": 1724605200.0
+  },
+  {
+    "id": 5182,
+    "order": 5182,
+    "name": "練習台本どっさりパック",
+    "jumpType": "JewelShop",
+    "jumpPageId": "5",
+    "deleteConditionType": "BuyItem",
+    "deleteConditionValue": "5181",
+    "imagePath": "Home/5146",
+    "startDate": 1723741200.0,
+    "endDate": 1724605200.0
   },
   {
     "id": 5205,

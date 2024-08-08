@@ -1844,6 +1844,21 @@
     "branchCondition2": "None"
   },
   {
+    "id": 130620,
+    "name": "ひとくちシェアしよう？",
+    "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得",
+    "type": "Support",
+    "preEffects": [],
+    "branches": [],
+    "acquirableGauge": 90,
+    "acquirableScorePercent": 140,
+    "scoreUpPerLevel": 50,
+    "lightCount": 1,
+    "coolTime": 60,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
     "id": 140010,
     "name": "悲哀と恋慕の旋律",
     "description": "[:score]倍のスコアを獲得／ライフを[:param11]回復／ライフが多いほどここなのスコア獲得量UP（最大＋100％）",
@@ -4150,6 +4165,47 @@
     "scoreUpPerLevel": 50,
     "lightCount": 1,
     "coolTime": 35,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 141040,
+    "name": "一夜、自由の翼になるよ",
+    "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得",
+    "type": "Special",
+    "preEffects": [],
+    "branches": [],
+    "acquirableGauge": 100,
+    "acquirableScorePercent": 160,
+    "scoreUpPerLevel": 60,
+    "lightCount": 2,
+    "coolTime": 45,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 141050,
+    "name": "今宵、空灯篭のように",
+    "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／ライフを[:param11]回復",
+    "type": "Control",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20014
+          }
+        ],
+        "id": 1410501
+      }
+    ],
+    "acquirableGauge": 90,
+    "acquirableScorePercent": 170,
+    "scoreUpPerLevel": 50,
+    "lightCount": 1,
+    "coolTime": 40,
     "branchCondition1": "None",
     "branchCondition2": "None"
   }

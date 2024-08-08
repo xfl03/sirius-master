@@ -1350,5 +1350,109 @@
       "effectDescription": "センス発動時、追加で「SP光」を[:param1]個付与する　※<color=#ff679d>憐属性</color>の舎人 仁花子のみ対象",
       "iconImagePath": "156"
     }
+  },
+  {
+    "id": 2003801,
+    "storyEventHighScoreMasterId": 20038,
+    "storyEventHighScoreBuffMasterId": 11,
+    "storyEventHighScoreBuffMaster": {
+      "id": 11,
+      "storyEventHighScoreBuffPatternGroupId": 1,
+      "effectMasterId": 80003,
+      "effectName": "舞台照明",
+      "effectDescription": "アクターの集中力が[:param1]上昇する",
+      "iconImagePath": "11"
+    }
+  },
+  {
+    "id": 2003802,
+    "storyEventHighScoreMasterId": 20038,
+    "storyEventHighScoreBuffMasterId": 12,
+    "storyEventHighScoreBuffMaster": {
+      "id": 12,
+      "storyEventHighScoreBuffPatternGroupId": 1,
+      "effectMasterId": 80002,
+      "effectName": "舞台スピーカー",
+      "effectDescription": "アクターの表現力が[:param1]上昇する",
+      "iconImagePath": "12"
+    }
+  },
+  {
+    "id": 2003803,
+    "storyEventHighScoreMasterId": 20038,
+    "storyEventHighScoreBuffMasterId": 13,
+    "storyEventHighScoreBuffMaster": {
+      "id": 13,
+      "storyEventHighScoreBuffPatternGroupId": 1,
+      "effectMasterId": 80001,
+      "effectName": "舞台マイク",
+      "effectDescription": "アクターの歌唱力が[:param1]上昇する",
+      "iconImagePath": "13"
+    }
+  },
+  {
+    "id": 2003804,
+    "storyEventHighScoreMasterId": 20038,
+    "storyEventHighScoreBuffMasterId": 14,
+    "storyEventHighScoreBuffMaster": {
+      "id": 14,
+      "storyEventHighScoreBuffPatternGroupId": 1,
+      "effectMasterId": 80004,
+      "effectName": "舞台カーテン",
+      "effectDescription": "アクターの演技力が[:param1]％上昇する",
+      "iconImagePath": "14"
+    }
+  },
+  {
+    "id": 2003805,
+    "storyEventHighScoreMasterId": 20038,
+    "storyEventHighScoreBuffMasterId": 153,
+    "storyEventHighScoreBuffMaster": {
+      "id": 153,
+      "storyEventHighScoreBuffPatternGroupId": 2,
+      "effectMasterId": 80057,
+      "effectName": "夏休みの宿題",
+      "effectDescription": "アクターの演技力上限値が[:param1]%上昇する　※シリウスに所属するアクターのみ対象",
+      "iconImagePath": "157"
+    }
+  },
+  {
+    "id": 2003806,
+    "storyEventHighScoreMasterId": 20038,
+    "storyEventHighScoreBuffMasterId": 154,
+    "storyEventHighScoreBuffMaster": {
+      "id": 154,
+      "storyEventHighScoreBuffPatternGroupId": 2,
+      "effectMasterId": 80058,
+      "effectName": "線香花火",
+      "effectDescription": "シリウスに所属するアクター1人につき、プリンシパルゲージの上限値が[:param1]上昇する",
+      "iconImagePath": "160"
+    }
+  },
+  {
+    "id": 2003807,
+    "storyEventHighScoreMasterId": 20038,
+    "storyEventHighScoreBuffMasterId": 155,
+    "storyEventHighScoreBuffMaster": {
+      "id": 155,
+      "storyEventHighScoreBuffPatternGroupId": 2,
+      "effectMasterId": 80059,
+      "effectName": "浴衣",
+      "effectDescription": "公演開始時にプリンシパルゲージが[:param1]上昇する　　※<color=#FF9314>陽属性</color>の新妻 八恵のみ対象",
+      "iconImagePath": "158"
+    }
+  },
+  {
+    "id": 2003808,
+    "storyEventHighScoreMasterId": 20038,
+    "storyEventHighScoreBuffMasterId": 156,
+    "storyEventHighScoreBuffMaster": {
+      "id": 156,
+      "storyEventHighScoreBuffPatternGroupId": 2,
+      "effectMasterId": 80060,
+      "effectName": "流しそうめん機",
+      "effectDescription": "センスのCTが[:param1]秒短縮する　　※<color=#FF9314>陽属性</color>の流石 知冴のみ対象",
+      "iconImagePath": "159"
+    }
   }
 ]
