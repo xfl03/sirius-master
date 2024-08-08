@@ -1,27 +1,27 @@
 [
-  [
-    1,
-    [
-      [
-        0,
-        20,
-        5000
-      ],
-      [
-        21,
-        50,
-        10000
-      ],
-      [
-        51,
-        100,
-        50000
-      ],
-      [
-        100,
-        9999999,
-        100000
-      ]
+  {
+    "id": 1,
+    "settings": [
+      {
+        "minRefreshCount": 0,
+        "maxRefreshCount": 20,
+        "requiredCoin": 5000
+      },
+      {
+        "minRefreshCount": 21,
+        "maxRefreshCount": 50,
+        "requiredCoin": 10000
+      },
+      {
+        "minRefreshCount": 51,
+        "maxRefreshCount": 100,
+        "requiredCoin": 50000
+      },
+      {
+        "minRefreshCount": 100,
+        "maxRefreshCount": 9999999,
+        "requiredCoin": 100000
+      }
     ]
-  ]
+  }
 ]

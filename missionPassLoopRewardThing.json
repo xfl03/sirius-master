@@ -1,34 +1,34 @@
 [
-  [
-    101,
-    1,
-    130021,
-    1,
-    1,
-    false
-  ],
-  [
-    201,
-    2,
-    130031,
-    1,
-    1,
-    false
-  ],
-  [
-    301,
-    3,
-    130011,
-    1,
-    1,
-    false
-  ],
-  [
-    401,
-    4,
-    0,
-    13,
-    15,
-    false
-  ]
+  {
+    "id": 101,
+    "missionPassLoopRewardMasterId": 1,
+    "thingId": 130021,
+    "thingType": "Item",
+    "thingQuantity": 1,
+    "isSp": false
+  },
+  {
+    "id": 201,
+    "missionPassLoopRewardMasterId": 2,
+    "thingId": 130031,
+    "thingType": "Item",
+    "thingQuantity": 1,
+    "isSp": false
+  },
+  {
+    "id": 301,
+    "missionPassLoopRewardMasterId": 3,
+    "thingId": 130011,
+    "thingType": "Item",
+    "thingQuantity": 1,
+    "isSp": false
+  },
+  {
+    "id": 401,
+    "missionPassLoopRewardMasterId": 4,
+    "thingId": 0,
+    "thingType": "Jewel",
+    "thingQuantity": 15,
+    "isSp": false
+  }
 ]

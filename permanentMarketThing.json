@@ -1,67 +1,57 @@
 [
-  [
-    1,
-    101,
-    8,
-    1,
-    1,
-    101,
-    null,
-    null,
-    1716217200.0,
-    4102444800.0,
-    99999999
-  ],
-  [
-    2,
-    102,
-    8,
-    1,
-    1,
-    102,
-    null,
-    null,
-    1716217200.0,
-    4102444800.0,
-    557000000
-  ],
-  [
-    101,
-    1000010,
-    16,
-    1,
-    1,
-    201,
-    null,
-    null,
-    1716217200.0,
-    4102444800.0,
-    999999
-  ],
-  [
-    102,
-    1000020,
-    16,
-    1,
-    1,
-    202,
-    null,
-    null,
-    1716217200.0,
-    4102444800.0,
-    1000000
-  ],
-  [
-    103,
-    1000030,
-    16,
-    1,
-    1,
-    203,
-    null,
-    null,
-    1716217200.0,
-    4102444800.0,
-    7777777
-  ]
+  {
+    "id": 1,
+    "thingId": 101,
+    "thingType": "Nameplate",
+    "thingQuantity": 1,
+    "exchangeLimit": 1,
+    "order": 101,
+    "startDate": 1716217200.0,
+    "endDate": 4102444800.0,
+    "requiredCoinQuantity": 99999999
+  },
+  {
+    "id": 2,
+    "thingId": 102,
+    "thingType": "Nameplate",
+    "thingQuantity": 1,
+    "exchangeLimit": 1,
+    "order": 102,
+    "startDate": 1716217200.0,
+    "endDate": 4102444800.0,
+    "requiredCoinQuantity": 557000000
+  },
+  {
+    "id": 101,
+    "thingId": 1000010,
+    "thingType": "Decoration",
+    "thingQuantity": 1,
+    "exchangeLimit": 1,
+    "order": 201,
+    "startDate": 1716217200.0,
+    "endDate": 4102444800.0,
+    "requiredCoinQuantity": 999999
+  },
+  {
+    "id": 102,
+    "thingId": 1000020,
+    "thingType": "Decoration",
+    "thingQuantity": 1,
+    "exchangeLimit": 1,
+    "order": 202,
+    "startDate": 1716217200.0,
+    "endDate": 4102444800.0,
+    "requiredCoinQuantity": 1000000
+  },
+  {
+    "id": 103,
+    "thingId": 1000030,
+    "thingType": "Decoration",
+    "thingQuantity": 1,
+    "exchangeLimit": 1,
+    "order": 203,
+    "startDate": 1716217200.0,
+    "endDate": 4102444800.0,
+    "requiredCoinQuantity": 7777777
+  }
 ]

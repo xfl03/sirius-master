@@ -1,29 +1,23 @@
 [
-  [
-    11,
-    1,
-    2,
-    null,
-    null,
-    1720803600.0,
-    1721952000.0
-  ],
-  [
-    12,
-    1,
-    2,
-    null,
-    null,
-    1721952000.0,
-    1723222800.0
-  ],
-  [
-    13,
-    1,
-    2,
-    null,
-    null,
-    1723222800.0,
-    1724432400.0
-  ]
+  {
+    "id": 11,
+    "priority": "High",
+    "selectionType": "Random",
+    "startDate": 1720803600.0,
+    "endDate": 1721952000.0
+  },
+  {
+    "id": 12,
+    "priority": "High",
+    "selectionType": "Random",
+    "startDate": 1721952000.0,
+    "endDate": 1723222800.0
+  },
+  {
+    "id": 13,
+    "priority": "High",
+    "selectionType": "Random",
+    "startDate": 1723222800.0,
+    "endDate": 1724432400.0
+  }
 ]

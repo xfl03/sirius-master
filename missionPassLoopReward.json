@@ -1,66 +1,66 @@
 [
-  [
-    1,
-    1,
-    1722488400.0,
-    1725166800.0,
-    [
-      [
-        101,
-        1,
-        130021,
-        1,
-        1,
-        false
-      ]
+  {
+    "id": 1,
+    "phase": 1,
+    "startDate": 1722488400.0,
+    "endDate": 1725166800.0,
+    "rewards": [
+      {
+        "id": 101,
+        "missionPassLoopRewardMasterId": 1,
+        "thingId": 130021,
+        "thingType": "Item",
+        "thingQuantity": 1,
+        "isSp": false
+      }
     ]
-  ],
-  [
-    2,
-    2,
-    1722488400.0,
-    1725166800.0,
-    [
-      [
-        201,
-        2,
-        130031,
-        1,
-        1,
-        false
-      ]
+  },
+  {
+    "id": 2,
+    "phase": 2,
+    "startDate": 1722488400.0,
+    "endDate": 1725166800.0,
+    "rewards": [
+      {
+        "id": 201,
+        "missionPassLoopRewardMasterId": 2,
+        "thingId": 130031,
+        "thingType": "Item",
+        "thingQuantity": 1,
+        "isSp": false
+      }
     ]
-  ],
-  [
-    3,
-    3,
-    1722488400.0,
-    1725166800.0,
-    [
-      [
-        301,
-        3,
-        130011,
-        1,
-        1,
-        false
-      ]
+  },
+  {
+    "id": 3,
+    "phase": 3,
+    "startDate": 1722488400.0,
+    "endDate": 1725166800.0,
+    "rewards": [
+      {
+        "id": 301,
+        "missionPassLoopRewardMasterId": 3,
+        "thingId": 130011,
+        "thingType": "Item",
+        "thingQuantity": 1,
+        "isSp": false
+      }
     ]
-  ],
-  [
-    4,
-    4,
-    1722488400.0,
-    1725166800.0,
-    [
-      [
-        401,
-        4,
-        0,
-        13,
-        15,
-        false
-      ]
+  },
+  {
+    "id": 4,
+    "phase": 4,
+    "startDate": 1722488400.0,
+    "endDate": 1725166800.0,
+    "rewards": [
+      {
+        "id": 401,
+        "missionPassLoopRewardMasterId": 4,
+        "thingId": 0,
+        "thingType": "Jewel",
+        "thingQuantity": 15,
+        "isSp": false
+      }
     ]
-  ]
+  }
 ]
