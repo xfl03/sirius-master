@@ -5101,6 +5101,44 @@
     "musicCoverType": "Cover"
   },
   {
+    "id": 153,
+    "name": "DISCOTHEQUE",
+    "description": "",
+    "rewardRuleMasterId": 1,
+    "pronounceName": "discotheque",
+    "lyricWriter": "園田凌士",
+    "composer": "上松範康",
+    "arranger": "-",
+    "unlockText": "楽曲ショップで購入",
+    "isLongVersion": false,
+    "releasedAt": 1725037200.0,
+    "staminaConsumption": 28,
+    "musicTimeSecond": 114,
+    "invisible": false,
+    "sampleStartSeconds": 0.0,
+    "sampleEndSeconds": 0.0,
+    "delaySeconds": 0.0,
+    "vocalVersions": [
+      {
+        "id": 15301,
+        "musicMasterId": 153,
+        "vocalVersion": 1,
+        "singer": "白丸美兎",
+        "name": "DISCOTHEQUE",
+        "musicTimeSecond": 114,
+        "sampleStartSeconds": 0.0,
+        "sampleEndSeconds": 0.0,
+        "musicVideoType": "None",
+        "characters": [
+          402
+        ]
+      }
+    ],
+    "unlockConditionType": "Buy",
+    "musicVideoType": "None",
+    "musicCoverType": "Cover"
+  },
+  {
     "id": 156,
     "name": "COLORS",
     "description": "",
@@ -5804,6 +5842,44 @@
         "characters": [
           403,
           404
+        ]
+      }
+    ],
+    "unlockConditionType": "Buy",
+    "musicVideoType": "None",
+    "musicCoverType": "Original"
+  },
+  {
+    "id": 10050,
+    "name": "てぃだんちゅ MEETS てぃんがーら！（Long Ver.）",
+    "description": "",
+    "rewardRuleMasterId": 1,
+    "pronounceName": "てぃだんちゅみーつてぃんがーらlong",
+    "lyricWriter": "松井洋平",
+    "composer": "尾崎豪(SUPA LOVE)",
+    "arranger": "尾崎豪(SUPA LOVE)",
+    "unlockText": "楽曲ショップで購入",
+    "isLongVersion": true,
+    "releasedAt": 1724173200.0,
+    "staminaConsumption": 0,
+    "musicTimeSecond": 224,
+    "invisible": false,
+    "sampleStartSeconds": 0.0,
+    "sampleEndSeconds": 0.0,
+    "delaySeconds": 0.0,
+    "vocalVersions": [
+      {
+        "id": 1005001,
+        "musicMasterId": 10050,
+        "vocalVersion": 1,
+        "singer": "与那国緋花里",
+        "name": "てぃだんちゅ MEETS てぃんがーら！（Long Ver.）",
+        "musicTimeSecond": 224,
+        "sampleStartSeconds": 0.0,
+        "sampleEndSeconds": 0.0,
+        "musicVideoType": "None",
+        "characters": [
+          305
         ]
       }
     ],
