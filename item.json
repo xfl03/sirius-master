@@ -439,6 +439,19 @@
     "rarity": "R"
   },
   {
+    "id": 111035,
+    "name": "高級スタミナドリンク【～8月31日 17:00】",
+    "description": "美容にも欠かせない一級品のドリンク。スタミナを100回復する。2024年8月31日17時まで使用できる。",
+    "displayOrder": 35,
+    "displayEndDate": 1725123600.0,
+    "maxStock": 99999,
+    "category": "StaminaRecovery",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Normal",
+    "rarity": "R"
+  },
+  {
     "id": 111036,
     "name": "高級スタミナドリンク【～3月21日 17:00】",
     "description": "美容にも欠かせない一級品のドリンク。スタミナを100回復する。2024年3月21日17時まで使用できる。",
@@ -869,6 +882,45 @@
     "consumable": false,
     "jumpType": 0,
     "tabCategory": "Raise",
+    "rarity": "SSR"
+  },
+  {
+    "id": 132001,
+    "name": "ポイントルーレットチケット",
+    "description": "たくさん集めるとポイントルーレットを利用できるチケット。ジュゴンが描かれている。",
+    "displayOrder": 132001,
+    "displayEndDate": 1725123600.0,
+    "maxStock": 999999,
+    "category": "ConsumeItem",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Ticket",
+    "rarity": "R"
+  },
+  {
+    "id": 132002,
+    "name": "ポイントルーレット【SP】チケット",
+    "description": "たくさん集めるとポイントルーレット【SP】を利用できるチケット。高級感のある金文字が輝いている。",
+    "displayOrder": 132002,
+    "displayEndDate": 1725123600.0,
+    "maxStock": 999999,
+    "category": "ConsumeItem",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Ticket",
+    "rarity": "R"
+  },
+  {
+    "id": 132003,
+    "name": "ダイスタールーレットチケット",
+    "description": "たくさん集めるとダイスタールーレットを利用できるチケット。大物役者のような煌きを放っている。",
+    "displayOrder": 132003,
+    "displayEndDate": 1725123600.0,
+    "maxStock": 999999,
+    "category": "ConsumeItem",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Ticket",
     "rarity": "SSR"
   },
   {
@@ -2456,6 +2508,18 @@
     "rarity": "SSR"
   },
   {
+    "id": 143061,
+    "name": "★3【ゆらゆらリラクゼーション】萬容のピース",
+    "description": "★3【ゆらゆらリラクゼーション】萬容の才能開花に使用できるアイテム。",
+    "displayOrder": 143061,
+    "maxStock": 99999,
+    "category": "TalentBloom",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Piece",
+    "rarity": "SSR"
+  },
+  {
     "id": 143062,
     "name": "★3【ひとくちシェアしよう？】鳳ここなのピース",
     "description": "★3【ひとくちシェアしよう？】鳳ここなの才能開花に使用できるアイテム。",
@@ -3620,6 +3684,30 @@
     "rarity": "SSR"
   },
   {
+    "id": 144102,
+    "name": "★4【スカイブルーにも届くかも】舎人仁花子のピース",
+    "description": "★4【スカイブルーにも届くかも】舎人仁花子の才能開花に使用できるアイテム。",
+    "displayOrder": 144102,
+    "maxStock": 99999,
+    "category": "TalentBloom",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Piece",
+    "rarity": "SSR"
+  },
+  {
+    "id": 144103,
+    "name": "★4【マリンブルーも涼やかに】烏森大黒のピース",
+    "description": "★4【マリンブルーも涼やかに】烏森大黒の才能開花に使用できるアイテム。",
+    "displayOrder": 144103,
+    "maxStock": 99999,
+    "category": "TalentBloom",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Piece",
+    "rarity": "SSR"
+  },
+  {
     "id": 144104,
     "name": "★4【一夜、自由の翼になるよ】流石知冴のピース",
     "description": "★4【一夜、自由の翼になるよ】流石知冴の才能開花に使用できるアイテム。",
@@ -3660,6 +3748,18 @@
     "name": "【カトリナ・グリーベル】万能ダイピース",
     "description": "カトリナ・グリーベルの更なる才能開花に使用できる貴重なアイテム。",
     "displayOrder": 151003,
+    "maxStock": 99999,
+    "category": "TalentBloom",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Piece",
+    "rarity": "SSR"
+  },
+  {
+    "id": 151016,
+    "name": "【与那国緋花里】万能ダイピース",
+    "description": "与那国緋花里の更なる才能開花に使用できる貴重なアイテム。",
+    "displayOrder": 151016,
     "maxStock": 99999,
     "category": "TalentBloom",
     "consumable": false,
@@ -4820,6 +4920,30 @@
     "rarity": "SSR"
   },
   {
+    "id": 154102,
+    "name": "★4【スカイブルーにも届くかも】舎人仁花子のダイピース",
+    "description": "★4【スカイブルーにも届くかも】舎人仁花子の更なる才能開花に使用できるアイテム。",
+    "displayOrder": 154104,
+    "maxStock": 99999,
+    "category": "TalentBloom",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Piece",
+    "rarity": "SSR"
+  },
+  {
+    "id": 154103,
+    "name": "★4【マリンブルーも涼やかに】烏森大黒のダイピース",
+    "description": "★4【マリンブルーも涼やかに】烏森大黒の更なる才能開花に使用できるアイテム。",
+    "displayOrder": 154105,
+    "maxStock": 99999,
+    "category": "TalentBloom",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Piece",
+    "rarity": "SSR"
+  },
+  {
     "id": 154104,
     "name": "★4【一夜、自由の翼になるよ】流石知冴のダイピース",
     "description": "★4【一夜、自由の翼になるよ】流石知冴の更なる才能開花に使用できるアイテム。",
@@ -5972,6 +6096,19 @@
     "rarity": "R"
   },
   {
+    "id": 411052,
+    "name": "ガチャポイント",
+    "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
+    "displayOrder": 411052,
+    "displayEndDate": 1725728400.0,
+    "maxStock": 99999,
+    "category": "GachaPoint",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Hidden",
+    "rarity": "R"
+  },
+  {
     "id": 411053,
     "name": "ガチャポイント",
     "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
@@ -6068,6 +6205,19 @@
     "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
     "displayOrder": 411601,
     "displayEndDate": 1724198400.0,
+    "maxStock": 99999,
+    "category": "GachaPoint",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Hidden",
+    "rarity": "R"
+  },
+  {
+    "id": 411602,
+    "name": "ガチャポイント",
+    "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
+    "displayOrder": 411602,
+    "displayEndDate": 1725580800.0,
     "maxStock": 99999,
     "category": "GachaPoint",
     "consumable": false,
@@ -7388,6 +7538,30 @@
     "name": "応援ポイント",
     "description": "",
     "displayOrder": 421005,
+    "maxStock": 1999999999,
+    "category": "EventPoint",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Hidden",
+    "rarity": "R"
+  },
+  {
+    "id": 425001,
+    "name": "イベントポイント",
+    "description": "",
+    "displayOrder": 425001,
+    "maxStock": 1999999999,
+    "category": "EventPoint",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Hidden",
+    "rarity": "R"
+  },
+  {
+    "id": 425101,
+    "name": "ルーレットポイント",
+    "description": "",
+    "displayOrder": 425101,
     "maxStock": 1999999999,
     "category": "EventPoint",
     "consumable": false,

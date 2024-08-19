@@ -4564,6 +4564,51 @@
     "maxTalentStage": 5
   },
   {
+    "id": 130610,
+    "characterBaseMasterId": 204,
+    "name": "ゆらゆらリラクゼーション",
+    "description": "",
+    "rarity": "Rare3",
+    "attribute": "Cool",
+    "minLevelStatus": {
+      "vocal": 113,
+      "expression": 74,
+      "concentration": 83
+    },
+    "starActMasterId": 130611,
+    "awakenStarActMasterId": 130611,
+    "senseMasterId": 130610,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 30004,
+    "senseEnhanceItemGroupMasterId": 3,
+    "firstEpisodeReleaseItemGroupId": 321,
+    "secondEpisodeReleaseItemGroupId": 322,
+    "characterAwakeningItemGroupMasterId": 32,
+    "displayStartAt": 1724173200.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "イベントで入手",
+    "categories": [
+      {
+        "categoryMasterId": 2002,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 4002,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7501,
+        "isAwaken": false
+      }
+    ],
+    "leaderSenseMasterId": 67,
+    "maxTalentStage": 5
+  },
+  {
     "id": 130620,
     "characterBaseMasterId": 101,
     "name": "ひとくちシェアしよう？",
@@ -9926,6 +9971,120 @@
       }
     ],
     "leaderSenseMasterId": 160,
+    "maxTalentStage": 5
+  },
+  {
+    "id": 141020,
+    "characterBaseMasterId": 203,
+    "name": "スカイブルーにも届くかも",
+    "description": "",
+    "rarity": "Rare4",
+    "attribute": "Cool",
+    "minLevelStatus": {
+      "vocal": 127,
+      "expression": 95,
+      "concentration": 120
+    },
+    "starActMasterId": 141021,
+    "awakenStarActMasterId": 141021,
+    "senseMasterId": 141020,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 40102,
+    "senseEnhanceItemGroupMasterId": 4,
+    "firstEpisodeReleaseItemGroupId": 421,
+    "secondEpisodeReleaseItemGroupId": 422,
+    "characterAwakeningItemGroupMasterId": 42,
+    "displayStartAt": 1724173200.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "ガチャで入手",
+    "categories": [
+      {
+        "categoryMasterId": 2002,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 3006,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 5001,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7501,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 4005,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 4002,
+        "isAwaken": true
+      }
+    ],
+    "leaderSenseMasterId": 163,
+    "maxTalentStage": 5
+  },
+  {
+    "id": 141030,
+    "characterBaseMasterId": 202,
+    "name": "マリンブルーも涼やかに",
+    "description": "",
+    "rarity": "Rare4",
+    "attribute": "Cool",
+    "minLevelStatus": {
+      "vocal": 90,
+      "expression": 128,
+      "concentration": 125
+    },
+    "starActMasterId": 141031,
+    "awakenStarActMasterId": 141031,
+    "senseMasterId": 141030,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 40103,
+    "senseEnhanceItemGroupMasterId": 4,
+    "firstEpisodeReleaseItemGroupId": 421,
+    "secondEpisodeReleaseItemGroupId": 422,
+    "characterAwakeningItemGroupMasterId": 42,
+    "displayStartAt": 1724173200.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "ガチャで入手",
+    "categories": [
+      {
+        "categoryMasterId": 2002,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1002,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 3006,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 5004,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7501,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 5007,
+        "isAwaken": true
+      },
+      {
+        "categoryMasterId": 4002,
+        "isAwaken": true
+      }
+    ],
+    "leaderSenseMasterId": 164,
     "maxTalentStage": 5
   },
   {

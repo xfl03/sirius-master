@@ -1844,6 +1844,21 @@
     "branchCondition2": "None"
   },
   {
+    "id": 130610,
+    "name": "ゆらゆらリラクゼーション",
+    "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得",
+    "type": "Special",
+    "preEffects": [],
+    "branches": [],
+    "acquirableGauge": 70,
+    "acquirableScorePercent": 110,
+    "scoreUpPerLevel": 40,
+    "lightCount": 1,
+    "coolTime": 40,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
     "id": 130620,
     "name": "ひとくちシェアしよう？",
     "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得",
@@ -4165,6 +4180,58 @@
     "scoreUpPerLevel": 50,
     "lightCount": 1,
     "coolTime": 35,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 141020,
+    "name": "スカイブルーにも届くかも",
+    "description": "[:score]倍のスコアを獲得／センス発動時、追加で「特殊の光」を1個獲得する／センス発動直後、自身の歌唱力の[:param11]倍のスコアを獲得",
+    "type": "Control",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20536
+          }
+        ],
+        "id": 1410201
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 600,
+    "scoreUpPerLevel": 50,
+    "lightCount": 1,
+    "coolTime": 40,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 141030,
+    "name": "マリンブルーも涼やかに",
+    "description": "[:score]倍のスコアを獲得／[:sec]秒間、Edenのアクターにセンススコア[:param11]％UP効果",
+    "type": "Amplification",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20044
+          }
+        ],
+        "id": 1410301
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 220,
+    "scoreUpPerLevel": 50,
+    "lightCount": 2,
+    "coolTime": 40,
     "branchCondition1": "None",
     "branchCondition2": "None"
   },
