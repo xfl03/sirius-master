@@ -1,568 +1,532 @@
 [
-  [
-    20011,
-    2001,
-    1,
-    1,
-    132001,
-    10,
-    "20011",
-    [
-      [
-        2001101,
-        1,
-        250,
-        null
-      ],
-      [
-        2001102,
-        2,
-        100,
-        null
-      ],
-      [
-        2001103,
-        3,
-        100,
-        null
-      ],
-      [
-        2001104,
-        4,
-        150,
-        null
-      ],
-      [
-        2001105,
-        5,
-        100,
-        null
-      ],
-      [
-        2001106,
-        6,
-        200,
-        null
-      ],
-      [
-        2001107,
-        7,
-        100,
-        null
-      ],
-      [
-        2001108,
-        8,
-        150,
-        null
-      ],
-      [
-        2001109,
-        9,
-        100,
-        null
-      ],
-      [
-        2001110,
-        10,
-        120,
-        null
-      ],
-      [
-        2001111,
-        11,
-        120,
-        null
-      ],
-      [
-        2001112,
-        12,
-        100,
-        null
-      ]
+  {
+    "id": 20011,
+    "rouletteEventMasterId": 2001,
+    "order": 1,
+    "rouletteType": "Point",
+    "rouletteTicketItemMasterId": 132001,
+    "requiredTicketQuantity": 10,
+    "rouletteImagePath": "20011",
+    "prizes": [
+      {
+        "id": 2001101,
+        "slot": 1,
+        "acquirePointQuantity": 250
+      },
+      {
+        "id": 2001102,
+        "slot": 2,
+        "acquirePointQuantity": 100
+      },
+      {
+        "id": 2001103,
+        "slot": 3,
+        "acquirePointQuantity": 100
+      },
+      {
+        "id": 2001104,
+        "slot": 4,
+        "acquirePointQuantity": 150
+      },
+      {
+        "id": 2001105,
+        "slot": 5,
+        "acquirePointQuantity": 100
+      },
+      {
+        "id": 2001106,
+        "slot": 6,
+        "acquirePointQuantity": 200
+      },
+      {
+        "id": 2001107,
+        "slot": 7,
+        "acquirePointQuantity": 100
+      },
+      {
+        "id": 2001108,
+        "slot": 8,
+        "acquirePointQuantity": 150
+      },
+      {
+        "id": 2001109,
+        "slot": 9,
+        "acquirePointQuantity": 100
+      },
+      {
+        "id": 2001110,
+        "slot": 10,
+        "acquirePointQuantity": 120
+      },
+      {
+        "id": 2001111,
+        "slot": 11,
+        "acquirePointQuantity": 120
+      },
+      {
+        "id": 2001112,
+        "slot": 12,
+        "acquirePointQuantity": 100
+      }
     ],
-    [
-      [
-        10,
-        [
-          [
-            0,
-            13,
-            10
-          ]
+    "rollRewards": [
+      {
+        "rollCount": 10,
+        "rewards": [
+          {
+            "thingId": 0,
+            "thingType": "Jewel",
+            "thingQuantity": 10
+          }
         ]
-      ],
-      [
-        20,
-        [
-          [
-            0,
-            13,
-            10
-          ]
+      },
+      {
+        "rollCount": 20,
+        "rewards": [
+          {
+            "thingId": 0,
+            "thingType": "Jewel",
+            "thingQuantity": 10
+          }
         ]
-      ],
-      [
-        50,
-        [
-          [
-            140000,
-            1,
-            10
-          ]
+      },
+      {
+        "rollCount": 50,
+        "rewards": [
+          {
+            "thingId": 140000,
+            "thingType": "Item",
+            "thingQuantity": 10
+          }
         ]
-      ],
-      [
-        100,
-        [
-          [
-            0,
-            13,
-            20
-          ]
+      },
+      {
+        "rollCount": 100,
+        "rewards": [
+          {
+            "thingId": 0,
+            "thingType": "Jewel",
+            "thingQuantity": 20
+          }
         ]
-      ],
-      [
-        250,
-        [
-          [
-            140000,
-            1,
-            20
-          ]
+      },
+      {
+        "rollCount": 250,
+        "rewards": [
+          {
+            "thingId": 140000,
+            "thingType": "Item",
+            "thingQuantity": 20
+          }
         ]
-      ],
-      [
-        500,
-        [
-          [
-            0,
-            13,
-            20
-          ]
+      },
+      {
+        "rollCount": 500,
+        "rewards": [
+          {
+            "thingId": 0,
+            "thingType": "Jewel",
+            "thingQuantity": 20
+          }
         ]
-      ],
-      [
-        750,
-        [
-          [
-            140000,
-            1,
-            20
-          ]
+      },
+      {
+        "rollCount": 750,
+        "rewards": [
+          {
+            "thingId": 140000,
+            "thingType": "Item",
+            "thingQuantity": 20
+          }
         ]
-      ],
-      [
-        1000,
-        [
-          [
-            0,
-            13,
-            30
-          ]
+      },
+      {
+        "rollCount": 1000,
+        "rewards": [
+          {
+            "thingId": 0,
+            "thingType": "Jewel",
+            "thingQuantity": 30
+          }
         ]
-      ],
-      [
-        1500,
-        [
-          [
-            140000,
-            1,
-            30
-          ]
+      },
+      {
+        "rollCount": 1500,
+        "rewards": [
+          {
+            "thingId": 140000,
+            "thingType": "Item",
+            "thingQuantity": 30
+          }
         ]
-      ],
-      [
-        2000,
-        [
-          [
-            0,
-            13,
-            40
-          ]
+      },
+      {
+        "rollCount": 2000,
+        "rewards": [
+          {
+            "thingId": 0,
+            "thingType": "Jewel",
+            "thingQuantity": 40
+          }
         ]
-      ],
-      [
-        3000,
-        [
-          [
-            140000,
-            1,
-            40
-          ]
+      },
+      {
+        "rollCount": 3000,
+        "rewards": [
+          {
+            "thingId": 140000,
+            "thingType": "Item",
+            "thingQuantity": 40
+          }
         ]
-      ],
-      [
-        5000,
-        [
-          [
-            0,
-            13,
-            50
-          ]
+      },
+      {
+        "rollCount": 5000,
+        "rewards": [
+          {
+            "thingId": 0,
+            "thingType": "Jewel",
+            "thingQuantity": 50
+          }
         ]
-      ],
-      [
-        8000,
-        [
-          [
-            140000,
-            1,
-            50
-          ]
+      },
+      {
+        "rollCount": 8000,
+        "rewards": [
+          {
+            "thingId": 140000,
+            "thingType": "Item",
+            "thingQuantity": 50
+          }
         ]
-      ],
-      [
-        10000,
-        [
-          [
-            0,
-            13,
-            100
-          ]
+      },
+      {
+        "rollCount": 10000,
+        "rewards": [
+          {
+            "thingId": 0,
+            "thingType": "Jewel",
+            "thingQuantity": 100
+          }
         ]
-      ]
+      }
     ],
-    "ポイントルーレット"
-  ],
-  [
-    20012,
-    2001,
-    2,
-    1,
-    132002,
-    1,
-    "20012",
-    [
-      [
-        2001201,
-        1,
-        5000,
-        null
-      ],
-      [
-        2001202,
-        2,
-        1500,
-        null
-      ],
-      [
-        2001203,
-        3,
-        1500,
-        null
-      ],
-      [
-        2001204,
-        4,
-        2500,
-        null
-      ],
-      [
-        2001205,
-        5,
-        1500,
-        null
-      ],
-      [
-        2001206,
-        6,
-        1500,
-        null
-      ],
-      [
-        2001207,
-        7,
-        2000,
-        null
-      ],
-      [
-        2001208,
-        8,
-        1500,
-        null
-      ],
-      [
-        2001209,
-        9,
-        1500,
-        null
-      ],
-      [
-        2001210,
-        10,
-        3500,
-        null
-      ],
-      [
-        2001211,
-        11,
-        1500,
-        null
-      ],
-      [
-        2001212,
-        12,
-        1500,
-        null
-      ]
+    "name": "ポイントルーレット"
+  },
+  {
+    "id": 20012,
+    "rouletteEventMasterId": 2001,
+    "order": 2,
+    "rouletteType": "Point",
+    "rouletteTicketItemMasterId": 132002,
+    "requiredTicketQuantity": 1,
+    "rouletteImagePath": "20012",
+    "prizes": [
+      {
+        "id": 2001201,
+        "slot": 1,
+        "acquirePointQuantity": 5000
+      },
+      {
+        "id": 2001202,
+        "slot": 2,
+        "acquirePointQuantity": 1500
+      },
+      {
+        "id": 2001203,
+        "slot": 3,
+        "acquirePointQuantity": 1500
+      },
+      {
+        "id": 2001204,
+        "slot": 4,
+        "acquirePointQuantity": 2500
+      },
+      {
+        "id": 2001205,
+        "slot": 5,
+        "acquirePointQuantity": 1500
+      },
+      {
+        "id": 2001206,
+        "slot": 6,
+        "acquirePointQuantity": 1500
+      },
+      {
+        "id": 2001207,
+        "slot": 7,
+        "acquirePointQuantity": 2000
+      },
+      {
+        "id": 2001208,
+        "slot": 8,
+        "acquirePointQuantity": 1500
+      },
+      {
+        "id": 2001209,
+        "slot": 9,
+        "acquirePointQuantity": 1500
+      },
+      {
+        "id": 2001210,
+        "slot": 10,
+        "acquirePointQuantity": 3500
+      },
+      {
+        "id": 2001211,
+        "slot": 11,
+        "acquirePointQuantity": 1500
+      },
+      {
+        "id": 2001212,
+        "slot": 12,
+        "acquirePointQuantity": 1500
+      }
     ],
-    [
-      [
-        10,
-        [
-          [
-            0,
-            13,
-            100
-          ],
-          [
-            140000,
-            1,
-            10
-          ]
+    "rollRewards": [
+      {
+        "rollCount": 10,
+        "rewards": [
+          {
+            "thingId": 0,
+            "thingType": "Jewel",
+            "thingQuantity": 100
+          },
+          {
+            "thingId": 140000,
+            "thingType": "Item",
+            "thingQuantity": 10
+          }
         ]
-      ],
-      [
-        50,
-        [
-          [
-            132001,
-            1,
-            500
-          ],
-          [
-            140000,
-            1,
-            10
-          ]
+      },
+      {
+        "rollCount": 50,
+        "rewards": [
+          {
+            "thingId": 132001,
+            "thingType": "Item",
+            "thingQuantity": 500
+          },
+          {
+            "thingId": 140000,
+            "thingType": "Item",
+            "thingQuantity": 10
+          }
         ]
-      ],
-      [
-        100,
-        [
-          [
-            140000,
-            1,
-            100
-          ],
-          [
-            140000,
-            1,
-            10
-          ]
+      },
+      {
+        "rollCount": 100,
+        "rewards": [
+          {
+            "thingId": 140000,
+            "thingType": "Item",
+            "thingQuantity": 100
+          },
+          {
+            "thingId": 140000,
+            "thingType": "Item",
+            "thingQuantity": 10
+          }
         ]
-      ],
-      [
-        500,
-        [
-          [
-            132003,
-            1,
-            3
-          ],
-          [
-            140000,
-            1,
-            10
-          ]
+      },
+      {
+        "rollCount": 500,
+        "rewards": [
+          {
+            "thingId": 132003,
+            "thingType": "Item",
+            "thingQuantity": 3
+          },
+          {
+            "thingId": 140000,
+            "thingType": "Item",
+            "thingQuantity": 10
+          }
         ]
-      ]
+      }
     ],
-    "ポイントルーレット【SP】"
-  ],
-  [
-    20013,
-    2001,
-    3,
-    2,
-    132003,
-    1,
-    "20013",
-    [
-      [
-        2001301,
-        1,
-        null,
-        [
-          150000,
-          1,
-          30
-        ]
-      ],
-      [
-        2001302,
-        2,
-        null,
-        [
-          111035,
-          1,
-          3
-        ]
-      ],
-      [
-        2001303,
-        3,
-        null,
-        [
-          130071,
-          1,
-          3
-        ]
-      ],
-      [
-        2001304,
-        4,
-        null,
-        [
-          130012,
-          1,
-          50
-        ]
-      ],
-      [
-        2001305,
-        5,
-        null,
-        [
-          140000,
-          1,
-          200
-        ]
-      ],
-      [
-        2001306,
-        6,
-        null,
-        [
-          0,
-          13,
-          500
-        ]
-      ],
-      [
-        2001307,
-        7,
-        null,
-        [
-          111035,
-          1,
-          3
-        ]
-      ],
-      [
-        2001308,
-        8,
-        null,
-        [
-          130011,
-          1,
-          500
-        ]
-      ],
-      [
-        2001309,
-        9,
-        null,
-        [
-          130071,
-          1,
-          3
-        ]
-      ],
-      [
-        2001310,
-        10,
-        null,
-        [
-          111035,
-          1,
-          3
-        ]
-      ],
-      [
-        2001311,
-        11,
-        null,
-        [
-          140000,
-          1,
-          100
-        ]
-      ],
-      [
-        2001312,
-        12,
-        null,
-        [
-          132002,
-          1,
-          50
-        ]
-      ]
+    "name": "ポイントルーレット【SP】"
+  },
+  {
+    "id": 20013,
+    "rouletteEventMasterId": 2001,
+    "order": 3,
+    "rouletteType": "Item",
+    "rouletteTicketItemMasterId": 132003,
+    "requiredTicketQuantity": 1,
+    "rouletteImagePath": "20013",
+    "prizes": [
+      {
+        "id": 2001301,
+        "slot": 1,
+        "acquirePrizeThing": {
+          "thingId": 150000,
+          "thingType": "Item",
+          "thingQuantity": 30
+        }
+      },
+      {
+        "id": 2001302,
+        "slot": 2,
+        "acquirePrizeThing": {
+          "thingId": 111035,
+          "thingType": "Item",
+          "thingQuantity": 3
+        }
+      },
+      {
+        "id": 2001303,
+        "slot": 3,
+        "acquirePrizeThing": {
+          "thingId": 130071,
+          "thingType": "Item",
+          "thingQuantity": 3
+        }
+      },
+      {
+        "id": 2001304,
+        "slot": 4,
+        "acquirePrizeThing": {
+          "thingId": 130012,
+          "thingType": "Item",
+          "thingQuantity": 50
+        }
+      },
+      {
+        "id": 2001305,
+        "slot": 5,
+        "acquirePrizeThing": {
+          "thingId": 140000,
+          "thingType": "Item",
+          "thingQuantity": 200
+        }
+      },
+      {
+        "id": 2001306,
+        "slot": 6,
+        "acquirePrizeThing": {
+          "thingId": 0,
+          "thingType": "Jewel",
+          "thingQuantity": 500
+        }
+      },
+      {
+        "id": 2001307,
+        "slot": 7,
+        "acquirePrizeThing": {
+          "thingId": 111035,
+          "thingType": "Item",
+          "thingQuantity": 3
+        }
+      },
+      {
+        "id": 2001308,
+        "slot": 8,
+        "acquirePrizeThing": {
+          "thingId": 130011,
+          "thingType": "Item",
+          "thingQuantity": 500
+        }
+      },
+      {
+        "id": 2001309,
+        "slot": 9,
+        "acquirePrizeThing": {
+          "thingId": 130071,
+          "thingType": "Item",
+          "thingQuantity": 3
+        }
+      },
+      {
+        "id": 2001310,
+        "slot": 10,
+        "acquirePrizeThing": {
+          "thingId": 111035,
+          "thingType": "Item",
+          "thingQuantity": 3
+        }
+      },
+      {
+        "id": 2001311,
+        "slot": 11,
+        "acquirePrizeThing": {
+          "thingId": 140000,
+          "thingType": "Item",
+          "thingQuantity": 100
+        }
+      },
+      {
+        "id": 2001312,
+        "slot": 12,
+        "acquirePrizeThing": {
+          "thingId": 132002,
+          "thingType": "Item",
+          "thingQuantity": 50
+        }
+      }
     ],
-    [
-      [
-        1,
-        [
-          [
-            132001,
-            1,
-            1000
-          ],
-          [
-            140000,
-            1,
-            10
-          ]
+    "rollRewards": [
+      {
+        "rollCount": 1,
+        "rewards": [
+          {
+            "thingId": 132001,
+            "thingType": "Item",
+            "thingQuantity": 1000
+          },
+          {
+            "thingId": 140000,
+            "thingType": "Item",
+            "thingQuantity": 10
+          }
         ]
-      ],
-      [
-        2,
-        [
-          [
-            130013,
-            1,
-            2
-          ],
-          [
-            140000,
-            1,
-            10
-          ]
+      },
+      {
+        "rollCount": 2,
+        "rewards": [
+          {
+            "thingId": 130013,
+            "thingType": "Item",
+            "thingQuantity": 2
+          },
+          {
+            "thingId": 140000,
+            "thingType": "Item",
+            "thingQuantity": 10
+          }
         ]
-      ],
-      [
-        5,
-        [
-          [
-            0,
-            13,
-            300
-          ],
-          [
-            140000,
-            1,
-            10
-          ]
+      },
+      {
+        "rollCount": 5,
+        "rewards": [
+          {
+            "thingId": 0,
+            "thingType": "Jewel",
+            "thingQuantity": 300
+          },
+          {
+            "thingId": 140000,
+            "thingType": "Item",
+            "thingQuantity": 10
+          }
         ]
-      ],
-      [
-        10,
-        [
-          [
-            150000,
-            1,
-            50
-          ],
-          [
-            140000,
-            1,
-            10
-          ]
+      },
+      {
+        "rollCount": 10,
+        "rewards": [
+          {
+            "thingId": 150000,
+            "thingType": "Item",
+            "thingQuantity": 50
+          },
+          {
+            "thingId": 140000,
+            "thingType": "Item",
+            "thingQuantity": 10
+          }
         ]
-      ]
+      }
     ],
-    "ダイスタールーレット"
-  ]
+    "name": "ダイスタールーレット"
+  }
 ]
