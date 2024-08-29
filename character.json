@@ -4658,6 +4658,55 @@
     "maxTalentStage": 5
   },
   {
+    "id": 130630,
+    "characterBaseMasterId": 303,
+    "name": "合理的なアドバイス",
+    "description": "",
+    "rarity": "Rare3",
+    "attribute": "Cheerful",
+    "minLevelStatus": {
+      "vocal": 96,
+      "expression": 92,
+      "concentration": 82
+    },
+    "starActMasterId": 130631,
+    "awakenStarActMasterId": 130631,
+    "senseMasterId": 130630,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 30003,
+    "senseEnhanceItemGroupMasterId": 3,
+    "firstEpisodeReleaseItemGroupId": 341,
+    "secondEpisodeReleaseItemGroupId": 342,
+    "characterAwakeningItemGroupMasterId": 34,
+    "displayStartAt": 1725123600.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "イベントで入手",
+    "categories": [
+      {
+        "categoryMasterId": 2003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8001,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 4002,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7039,
+        "isAwaken": false
+      }
+    ],
+    "leaderSenseMasterId": 81,
+    "maxTalentStage": 5
+  },
+  {
     "id": 140010,
     "characterBaseMasterId": 101,
     "name": "悲哀と恋慕の旋律",
@@ -4769,7 +4818,8 @@
       }
     ],
     "leaderSenseMasterId": 27,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1725123600.0
   },
   {
     "id": 140030,
@@ -4822,7 +4872,8 @@
       }
     ],
     "leaderSenseMasterId": 34,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1725123600.0
   },
   {
     "id": 140040,
@@ -4875,7 +4926,8 @@
       }
     ],
     "leaderSenseMasterId": 41,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1725123600.0
   },
   {
     "id": 140050,
@@ -4928,7 +4980,8 @@
       }
     ],
     "leaderSenseMasterId": 62,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1725123600.0
   },
   {
     "id": 140060,
@@ -4981,7 +5034,8 @@
       }
     ],
     "leaderSenseMasterId": 69,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1725123600.0
   },
   {
     "id": 140070,
@@ -5034,7 +5088,8 @@
       }
     ],
     "leaderSenseMasterId": 76,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1725123600.0
   },
   {
     "id": 140080,
@@ -5140,7 +5195,8 @@
       }
     ],
     "leaderSenseMasterId": 91,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1725123600.0
   },
   {
     "id": 140100,
@@ -5193,7 +5249,8 @@
       }
     ],
     "leaderSenseMasterId": 103,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1725123600.0
   },
   {
     "id": 140110,
@@ -5295,7 +5352,8 @@
       }
     ],
     "leaderSenseMasterId": 127,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1725123600.0
   },
   {
     "id": 140130,
@@ -5409,7 +5467,8 @@
       }
     ],
     "leaderSenseMasterId": 20,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1725123600.0
   },
   {
     "id": 140150,
@@ -6297,7 +6356,8 @@
       }
     ],
     "leaderSenseMasterId": 110,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1725123600.0
   },
   {
     "id": 140320,
@@ -6645,7 +6705,8 @@
       }
     ],
     "leaderSenseMasterId": 141,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1725123600.0
   },
   {
     "id": 140380,
@@ -7207,7 +7268,8 @@
       }
     ],
     "leaderSenseMasterId": 135,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1725123600.0
   },
   {
     "id": 140480,
@@ -10191,6 +10253,112 @@
       }
     ],
     "leaderSenseMasterId": 161,
+    "maxTalentStage": 5
+  },
+  {
+    "id": 141060,
+    "characterBaseMasterId": 302,
+    "name": "憂い、門出、晴れなくて",
+    "description": "",
+    "rarity": "Rare4",
+    "attribute": "Cheerful",
+    "minLevelStatus": {
+      "vocal": 94,
+      "expression": 106,
+      "concentration": 145
+    },
+    "starActMasterId": 141061,
+    "awakenStarActMasterId": 141061,
+    "senseMasterId": 141060,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 40106,
+    "senseEnhanceItemGroupMasterId": 4,
+    "firstEpisodeReleaseItemGroupId": 441,
+    "secondEpisodeReleaseItemGroupId": 442,
+    "characterAwakeningItemGroupMasterId": 44,
+    "displayStartAt": 1725123600.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "ガチャ(期間限定)で入手",
+    "categories": [
+      {
+        "categoryMasterId": 2003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8005,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7039,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8004,
+        "isAwaken": true
+      }
+    ],
+    "leaderSenseMasterId": 165,
+    "maxTalentStage": 5
+  },
+  {
+    "id": 141070,
+    "characterBaseMasterId": 305,
+    "name": "歌い、踊り、乾杯を",
+    "description": "",
+    "rarity": "Rare4",
+    "attribute": "Cheerful",
+    "minLevelStatus": {
+      "vocal": 122,
+      "expression": 131,
+      "concentration": 91
+    },
+    "starActMasterId": 141071,
+    "awakenStarActMasterId": 141071,
+    "senseMasterId": 141070,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 40107,
+    "senseEnhanceItemGroupMasterId": 4,
+    "firstEpisodeReleaseItemGroupId": 441,
+    "secondEpisodeReleaseItemGroupId": 442,
+    "characterAwakeningItemGroupMasterId": 44,
+    "displayStartAt": 1725123600.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "ガチャ(期間限定)で入手",
+    "categories": [
+      {
+        "categoryMasterId": 2003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 5005,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7039,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8002,
+        "isAwaken": true
+      }
+    ],
+    "leaderSenseMasterId": 166,
     "maxTalentStage": 5
   }
 ]
