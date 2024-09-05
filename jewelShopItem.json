@@ -4575,7 +4575,7 @@
     "isBuyNotDisplay": false,
     "isDisplayLocking": false,
     "startDate": 1724112000.0,
-    "endDate": 1724976000.0,
+    "endDate": 1725062400.0,
     "lineup": [
       {
         "id": 501301,
@@ -11931,9 +11931,9 @@
     "order": 20,
     "appStoreProductId": "5170",
     "googlePlayProductId": "5170",
-    "name": "お誕生日パック2nd【カトリナ・グリーベル】",
+    "name": "【復刻】お誕生日パック2nd【カトリナ・グリーベル】",
     "packText": "お誕生日パック2nd【カトリナ・グリーベル】",
-    "mJewelShopCategoryId": 6,
+    "mJewelShopCategoryId": 5,
     "dialogType": 1,
     "purchaseType": "Money",
     "purchaseValue": 3000,
@@ -11944,8 +11944,8 @@
     "canPurchaseDayOfWeek": "",
     "isBuyNotDisplay": false,
     "isDisplayLocking": false,
-    "startDate": 1722729600.0,
-    "endDate": 1723593600.0,
+    "startDate": 1725555600.0,
+    "endDate": 1726160400.0,
     "lineup": [
       {
         "id": 517001,
@@ -12005,16 +12005,16 @@
       }
     ],
     "shopItemType": "None",
-    "itemIconBodyImagePath": "Kathrina2024_PickUp"
+    "itemIconBodyImagePath": "Kathrina2024"
   },
   {
     "id": 5171,
     "order": 21,
     "appStoreProductId": "5171",
     "googlePlayProductId": "5171",
-    "name": "お誕生日パック2nd【与那国 緋花里】",
+    "name": "【復刻】お誕生日パック2nd【与那国 緋花里】",
     "packText": "お誕生日パック2nd【与那国 緋花里】",
-    "mJewelShopCategoryId": 6,
+    "mJewelShopCategoryId": 5,
     "dialogType": 1,
     "purchaseType": "Money",
     "purchaseValue": 3000,
@@ -12025,8 +12025,8 @@
     "canPurchaseDayOfWeek": "",
     "isBuyNotDisplay": false,
     "isDisplayLocking": false,
-    "startDate": 1724112000.0,
-    "endDate": 1724976000.0,
+    "startDate": 1725555600.0,
+    "endDate": 1726160400.0,
     "lineup": [
       {
         "id": 517101,
@@ -12086,7 +12086,7 @@
       }
     ],
     "shopItemType": "None",
-    "itemIconBodyImagePath": "Hikari2024_PickUp"
+    "itemIconBodyImagePath": "Hikari2024"
   },
   {
     "id": 5172,
@@ -12850,7 +12850,8 @@
     ],
     "shopItemType": "MultiLiveDropBoost",
     "shopItemValue": 42,
-    "itemIconBodyImagePath": "DenkiSpace"
+    "itemIconBodyImagePath": "DenkiSpace",
+    "itemIconBadgeImagePath": "LimitedTime"
   },
   {
     "id": 5196,
@@ -12952,7 +12953,8 @@
       }
     ],
     "shopItemType": "None",
-    "itemIconBodyImagePath": "MorimoriGrowUp"
+    "itemIconBodyImagePath": "MorimoriGrowUp",
+    "itemIconBadgeImagePath": "OneTime"
   },
   {
     "id": 5197,
@@ -12984,7 +12986,8 @@
     ],
     "shopItemType": "MultiLiveDropBoost",
     "shopItemValue": 44,
-    "itemIconBodyImagePath": "DenkiSpaceRe"
+    "itemIconBodyImagePath": "DenkiSpaceRe",
+    "itemIconBadgeImagePath": "LimitedTime"
   },
   {
     "id": 5205,
@@ -13488,7 +13491,7 @@
     "order": 1,
     "appStoreProductId": "5218",
     "googlePlayProductId": "5218",
-    "name": "お誕生日ポスターパック【カトリナ・グリーベル】",
+    "name": "【復刻】お誕生日ポスターパック【カトリナ・グリーベル】",
     "packText": "",
     "mJewelShopCategoryId": 5,
     "dialogType": 1,
@@ -13503,8 +13506,8 @@
     "isDisplayLocking": true,
     "unlockType": 15,
     "unlockValue": 5170,
-    "startDate": 1722729600.0,
-    "endDate": 1723593600.0,
+    "startDate": 1725555600.0,
+    "endDate": 1726160400.0,
     "lineup": [
       {
         "id": 521801,
@@ -13512,6 +13515,27 @@
         "thingId": 340030,
         "thingType": "Poster",
         "thingQuantity": 1
+      },
+      {
+        "id": 521802,
+        "mJewelShopItemId": 5218,
+        "thingId": 130063,
+        "thingType": "Item",
+        "thingQuantity": 100
+      },
+      {
+        "id": 521803,
+        "mJewelShopItemId": 5218,
+        "thingId": 130064,
+        "thingType": "Item",
+        "thingQuantity": 30
+      },
+      {
+        "id": 521804,
+        "mJewelShopItemId": 5218,
+        "thingId": 130071,
+        "thingType": "Item",
+        "thingQuantity": 3
       }
     ],
     "shopItemType": "None",
@@ -13523,7 +13547,7 @@
     "order": 2,
     "appStoreProductId": "5219",
     "googlePlayProductId": "5219",
-    "name": "お誕生日ポスターパック【与那国 緋花里】",
+    "name": "【復刻】お誕生日ポスターパック【与那国 緋花里】",
     "packText": "",
     "mJewelShopCategoryId": 5,
     "dialogType": 1,
@@ -13538,8 +13562,8 @@
     "isDisplayLocking": true,
     "unlockType": 15,
     "unlockValue": 5171,
-    "startDate": 1724112000.0,
-    "endDate": 1724976000.0,
+    "startDate": 1725555600.0,
+    "endDate": 1726160400.0,
     "lineup": [
       {
         "id": 521901,
@@ -13547,6 +13571,27 @@
         "thingId": 340160,
         "thingType": "Poster",
         "thingQuantity": 1
+      },
+      {
+        "id": 521902,
+        "mJewelShopItemId": 5219,
+        "thingId": 130063,
+        "thingType": "Item",
+        "thingQuantity": 100
+      },
+      {
+        "id": 521903,
+        "mJewelShopItemId": 5219,
+        "thingId": 130064,
+        "thingType": "Item",
+        "thingQuantity": 30
+      },
+      {
+        "id": 521904,
+        "mJewelShopItemId": 5219,
+        "thingId": 130071,
+        "thingType": "Item",
+        "thingQuantity": 3
       }
     ],
     "shopItemType": "None",
