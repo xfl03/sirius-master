@@ -478,6 +478,19 @@
     "rarity": "R"
   },
   {
+    "id": 111038,
+    "name": "高級スタミナドリンク【～9月20日 17:00】",
+    "description": "美容にも欠かせない一級品のドリンク。スタミナを100回復する。2024年9月20日17時まで使用できる。",
+    "displayOrder": 38,
+    "displayEndDate": 1726851600.0,
+    "maxStock": 99999,
+    "category": "StaminaRecovery",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Normal",
+    "rarity": "R"
+  },
+  {
     "id": 112001,
     "name": "バレンタインチョコ【2024】",
     "description": "バレンタインの贈り物。味は食べてみてのお楽しみ。スタミナを100回復する。",
@@ -937,6 +950,45 @@
     "rarity": "SSR"
   },
   {
+    "id": 132004,
+    "name": "ポイントルーレットチケット",
+    "description": "たくさん集めるとポイントルーレットを利用できるチケット。ジュゴンが描かれている。",
+    "displayOrder": 132004,
+    "displayEndDate": 1727301600.0,
+    "maxStock": 999999,
+    "category": "ConsumeItem",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Ticket",
+    "rarity": "R"
+  },
+  {
+    "id": 132005,
+    "name": "ポイントルーレット【SP】チケット",
+    "description": "たくさん集めるとポイントルーレット【SP】を利用できるチケット。高級感のある金文字が輝いている。",
+    "displayOrder": 132005,
+    "displayEndDate": 1726851600.0,
+    "maxStock": 999999,
+    "category": "ConsumeItem",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Ticket",
+    "rarity": "R"
+  },
+  {
+    "id": 132006,
+    "name": "ダイスタールーレットチケット",
+    "description": "たくさん集めるとダイスタールーレットを利用できるチケット。大物役者のような煌きを放っている。",
+    "displayOrder": 132006,
+    "displayEndDate": 1726851600.0,
+    "maxStock": 999999,
+    "category": "ConsumeItem",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Ticket",
+    "rarity": "SSR"
+  },
+  {
     "id": 137001,
     "name": "GW福引券",
     "description": "ユナイトチャレンジGW抽選会で利用することができる福引券。",
@@ -1262,6 +1314,19 @@
     "description": "銀河座の劇団ロゴがあしらわれたおまもり。銀河シアターで「導きのかけら」を入手しやすくなる。",
     "displayOrder": 139105,
     "displayEndDate": 1724518800.0,
+    "maxStock": 1,
+    "category": "ConsumeItem",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Normal",
+    "rarity": "SSR"
+  },
+  {
+    "id": 139106,
+    "name": "銀河座のおまもり【～9月24日 17:00】",
+    "description": "銀河座の劇団ロゴがあしらわれたおまもり。銀河シアターで「導きのかけら」を入手しやすくなる。",
+    "displayOrder": 139106,
+    "displayEndDate": 1727197200.0,
     "maxStock": 1,
     "category": "ConsumeItem",
     "consumable": false,
@@ -2583,6 +2648,18 @@
     "rarity": "SSR"
   },
   {
+    "id": 143064,
+    "name": "★3【お団子と放課後と】千寿いろはのピース",
+    "description": "★3【お団子と放課後と】千寿いろはの才能開花に使用できるアイテム。",
+    "displayOrder": 143064,
+    "maxStock": 99999,
+    "category": "TalentBloom",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Piece",
+    "rarity": "SSR"
+  },
+  {
     "id": 144001,
     "name": "★4【悲哀と恋慕の旋律】鳳ここなのピース",
     "description": "★4【悲哀と恋慕の旋律】鳳ここなの才能開花に使用できるアイテム。",
@@ -3799,6 +3876,30 @@
     "name": "★4【歌い、踊り、乾杯を】与那国緋花里のピース",
     "description": "★4【歌い、踊り、乾杯を】与那国緋花里の才能開花に使用できるアイテム。",
     "displayOrder": 144107,
+    "maxStock": 99999,
+    "category": "TalentBloom",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Piece",
+    "rarity": "SSR"
+  },
+  {
+    "id": 144108,
+    "name": "★4【デンキウィズザ……！？】猫足蕾のピース",
+    "description": "★4【デンキウィズザ……！？】猫足蕾の才能開花に使用できるアイテム。",
+    "displayOrder": 144108,
+    "maxStock": 99999,
+    "category": "TalentBloom",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Piece",
+    "rarity": "SSR"
+  },
+  {
+    "id": 144109,
+    "name": "★4【デンキインザムーーーーーン】本巣叶羽のピース",
+    "description": "★4【デンキインザムーーーーーン】本巣叶羽の才能開花に使用できるアイテム。",
+    "displayOrder": 144109,
     "maxStock": 99999,
     "category": "TalentBloom",
     "consumable": false,
@@ -5295,6 +5396,30 @@
     "rarity": "SSR"
   },
   {
+    "id": 154108,
+    "name": "★4【デンキウィズザ……！？】猫足蕾のダイピース",
+    "description": "★4【デンキウィズザ……！？】猫足蕾の更なる才能開花に使用できるアイテム。",
+    "displayOrder": 154108,
+    "maxStock": 99999,
+    "category": "TalentBloom",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Piece",
+    "rarity": "SSR"
+  },
+  {
+    "id": 154109,
+    "name": "★4【デンキインザムーーーーーン】本巣叶羽のダイピース",
+    "description": "★4【デンキインザムーーーーーン】本巣叶羽の更なる才能開花に使用できるアイテム。",
+    "displayOrder": 154109,
+    "maxStock": 99999,
+    "category": "TalentBloom",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Piece",
+    "rarity": "SSR"
+  },
+  {
     "id": 210001,
     "name": "アクターガチャチケット",
     "description": "アクターガチャを引くことができるチケット。",
@@ -6486,6 +6611,19 @@
     "rarity": "R"
   },
   {
+    "id": 411055,
+    "name": "ガチャポイント",
+    "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
+    "displayOrder": 411055,
+    "displayEndDate": 1727456400.0,
+    "maxStock": 99999,
+    "category": "GachaPoint",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Hidden",
+    "rarity": "R"
+  },
+  {
     "id": 411058,
     "name": "ガチャポイント",
     "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
@@ -6590,6 +6728,32 @@
     "rarity": "R"
   },
   {
+    "id": 411603,
+    "name": "ガチャポイント",
+    "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
+    "displayOrder": 411603,
+    "displayEndDate": 1727654400.0,
+    "maxStock": 99999,
+    "category": "GachaPoint",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Hidden",
+    "rarity": "R"
+  },
+  {
+    "id": 411604,
+    "name": "ガチャポイント",
+    "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
+    "displayOrder": 411604,
+    "displayEndDate": 1727654400.0,
+    "maxStock": 99999,
+    "category": "GachaPoint",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Hidden",
+    "rarity": "R"
+  },
+  {
     "id": 411800,
     "name": "ガチャポイント",
     "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
@@ -6686,6 +6850,19 @@
     "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
     "displayOrder": 411820,
     "displayEndDate": 1726592400.0,
+    "maxStock": 99999,
+    "category": "GachaPoint",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Hidden",
+    "rarity": "R"
+  },
+  {
+    "id": 411822,
+    "name": "ガチャポイント",
+    "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
+    "displayOrder": 411822,
+    "displayEndDate": 1727197200.0,
     "maxStock": 99999,
     "category": "GachaPoint",
     "consumable": false,
@@ -7960,10 +8137,34 @@
     "rarity": "R"
   },
   {
+    "id": 425002,
+    "name": "イベントポイント",
+    "description": "",
+    "displayOrder": 425002,
+    "maxStock": 1999999999,
+    "category": "EventPoint",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Hidden",
+    "rarity": "R"
+  },
+  {
     "id": 425101,
     "name": "ルーレットポイント",
     "description": "",
     "displayOrder": 425101,
+    "maxStock": 1999999999,
+    "category": "EventPoint",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Hidden",
+    "rarity": "R"
+  },
+  {
+    "id": 425102,
+    "name": "ルーレットポイント",
+    "description": "",
+    "displayOrder": 425102,
     "maxStock": 1999999999,
     "category": "EventPoint",
     "consumable": false,

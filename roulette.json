@@ -528,5 +528,495 @@
       }
     ],
     "name": "ダイスタールーレット"
+  },
+  {
+    "id": 20021,
+    "rouletteEventMasterId": 2002,
+    "order": 1,
+    "rouletteType": "Point",
+    "rouletteTicketItemMasterId": 132004,
+    "requiredTicketQuantity": 10,
+    "rouletteImagePath": "20011",
+    "prizes": [
+      {
+        "id": 2002101,
+        "slot": 1,
+        "acquirePointQuantity": 250
+      },
+      {
+        "id": 2002102,
+        "slot": 2,
+        "acquirePointQuantity": 100
+      },
+      {
+        "id": 2002103,
+        "slot": 3,
+        "acquirePointQuantity": 100
+      },
+      {
+        "id": 2002104,
+        "slot": 4,
+        "acquirePointQuantity": 150
+      },
+      {
+        "id": 2002105,
+        "slot": 5,
+        "acquirePointQuantity": 100
+      },
+      {
+        "id": 2002106,
+        "slot": 6,
+        "acquirePointQuantity": 200
+      },
+      {
+        "id": 2002107,
+        "slot": 7,
+        "acquirePointQuantity": 100
+      },
+      {
+        "id": 2002108,
+        "slot": 8,
+        "acquirePointQuantity": 150
+      },
+      {
+        "id": 2002109,
+        "slot": 9,
+        "acquirePointQuantity": 100
+      },
+      {
+        "id": 2002110,
+        "slot": 10,
+        "acquirePointQuantity": 120
+      },
+      {
+        "id": 2002111,
+        "slot": 11,
+        "acquirePointQuantity": 120
+      },
+      {
+        "id": 2002112,
+        "slot": 12,
+        "acquirePointQuantity": 100
+      }
+    ],
+    "rollRewards": [
+      {
+        "rollCount": 10,
+        "rewards": [
+          {
+            "thingId": 0,
+            "thingType": "Jewel",
+            "thingQuantity": 10
+          }
+        ]
+      },
+      {
+        "rollCount": 20,
+        "rewards": [
+          {
+            "thingId": 0,
+            "thingType": "Jewel",
+            "thingQuantity": 10
+          }
+        ]
+      },
+      {
+        "rollCount": 50,
+        "rewards": [
+          {
+            "thingId": 140000,
+            "thingType": "Item",
+            "thingQuantity": 10
+          }
+        ]
+      },
+      {
+        "rollCount": 100,
+        "rewards": [
+          {
+            "thingId": 0,
+            "thingType": "Jewel",
+            "thingQuantity": 20
+          }
+        ]
+      },
+      {
+        "rollCount": 250,
+        "rewards": [
+          {
+            "thingId": 140000,
+            "thingType": "Item",
+            "thingQuantity": 20
+          }
+        ]
+      },
+      {
+        "rollCount": 500,
+        "rewards": [
+          {
+            "thingId": 0,
+            "thingType": "Jewel",
+            "thingQuantity": 20
+          }
+        ]
+      },
+      {
+        "rollCount": 750,
+        "rewards": [
+          {
+            "thingId": 140000,
+            "thingType": "Item",
+            "thingQuantity": 20
+          }
+        ]
+      },
+      {
+        "rollCount": 1000,
+        "rewards": [
+          {
+            "thingId": 0,
+            "thingType": "Jewel",
+            "thingQuantity": 30
+          }
+        ]
+      },
+      {
+        "rollCount": 1500,
+        "rewards": [
+          {
+            "thingId": 140000,
+            "thingType": "Item",
+            "thingQuantity": 30
+          }
+        ]
+      },
+      {
+        "rollCount": 2000,
+        "rewards": [
+          {
+            "thingId": 0,
+            "thingType": "Jewel",
+            "thingQuantity": 40
+          }
+        ]
+      },
+      {
+        "rollCount": 3000,
+        "rewards": [
+          {
+            "thingId": 140000,
+            "thingType": "Item",
+            "thingQuantity": 40
+          }
+        ]
+      },
+      {
+        "rollCount": 5000,
+        "rewards": [
+          {
+            "thingId": 0,
+            "thingType": "Jewel",
+            "thingQuantity": 50
+          }
+        ]
+      },
+      {
+        "rollCount": 8000,
+        "rewards": [
+          {
+            "thingId": 140000,
+            "thingType": "Item",
+            "thingQuantity": 50
+          }
+        ]
+      },
+      {
+        "rollCount": 10000,
+        "rewards": [
+          {
+            "thingId": 0,
+            "thingType": "Jewel",
+            "thingQuantity": 100
+          }
+        ]
+      }
+    ],
+    "name": "ポイントルーレット"
+  },
+  {
+    "id": 20022,
+    "rouletteEventMasterId": 2002,
+    "order": 2,
+    "rouletteType": "Point",
+    "rouletteTicketItemMasterId": 132005,
+    "requiredTicketQuantity": 1,
+    "rouletteImagePath": "20012",
+    "prizes": [
+      {
+        "id": 2002201,
+        "slot": 1,
+        "acquirePointQuantity": 5000
+      },
+      {
+        "id": 2002202,
+        "slot": 2,
+        "acquirePointQuantity": 1500
+      },
+      {
+        "id": 2002203,
+        "slot": 3,
+        "acquirePointQuantity": 1500
+      },
+      {
+        "id": 2002204,
+        "slot": 4,
+        "acquirePointQuantity": 2500
+      },
+      {
+        "id": 2002205,
+        "slot": 5,
+        "acquirePointQuantity": 1500
+      },
+      {
+        "id": 2002206,
+        "slot": 6,
+        "acquirePointQuantity": 1500
+      },
+      {
+        "id": 2002207,
+        "slot": 7,
+        "acquirePointQuantity": 2000
+      },
+      {
+        "id": 2002208,
+        "slot": 8,
+        "acquirePointQuantity": 1500
+      },
+      {
+        "id": 2002209,
+        "slot": 9,
+        "acquirePointQuantity": 1500
+      },
+      {
+        "id": 2002210,
+        "slot": 10,
+        "acquirePointQuantity": 3500
+      },
+      {
+        "id": 2002211,
+        "slot": 11,
+        "acquirePointQuantity": 1500
+      },
+      {
+        "id": 2002212,
+        "slot": 12,
+        "acquirePointQuantity": 1500
+      }
+    ],
+    "rollRewards": [
+      {
+        "rollCount": 10,
+        "rewards": [
+          {
+            "thingId": 0,
+            "thingType": "Jewel",
+            "thingQuantity": 100
+          }
+        ]
+      },
+      {
+        "rollCount": 50,
+        "rewards": [
+          {
+            "thingId": 132004,
+            "thingType": "Item",
+            "thingQuantity": 500
+          }
+        ]
+      },
+      {
+        "rollCount": 100,
+        "rewards": [
+          {
+            "thingId": 140000,
+            "thingType": "Item",
+            "thingQuantity": 100
+          }
+        ]
+      },
+      {
+        "rollCount": 500,
+        "rewards": [
+          {
+            "thingId": 132006,
+            "thingType": "Item",
+            "thingQuantity": 3
+          }
+        ]
+      }
+    ],
+    "name": "ポイントルーレット【SP】"
+  },
+  {
+    "id": 20023,
+    "rouletteEventMasterId": 2002,
+    "order": 3,
+    "rouletteType": "Item",
+    "rouletteTicketItemMasterId": 132006,
+    "requiredTicketQuantity": 1,
+    "rouletteImagePath": "20014",
+    "prizes": [
+      {
+        "id": 2002301,
+        "slot": 1,
+        "acquirePrizeThing": {
+          "thingId": 150000,
+          "thingType": "Item",
+          "thingQuantity": 30
+        }
+      },
+      {
+        "id": 2002302,
+        "slot": 2,
+        "acquirePrizeThing": {
+          "thingId": 110002,
+          "thingType": "Item",
+          "thingQuantity": 3
+        }
+      },
+      {
+        "id": 2002303,
+        "slot": 3,
+        "acquirePrizeThing": {
+          "thingId": 130071,
+          "thingType": "Item",
+          "thingQuantity": 3
+        }
+      },
+      {
+        "id": 2002304,
+        "slot": 4,
+        "acquirePrizeThing": {
+          "thingId": 130012,
+          "thingType": "Item",
+          "thingQuantity": 50
+        }
+      },
+      {
+        "id": 2002305,
+        "slot": 5,
+        "acquirePrizeThing": {
+          "thingId": 110003,
+          "thingType": "Item",
+          "thingQuantity": 3
+        }
+      },
+      {
+        "id": 2002306,
+        "slot": 6,
+        "acquirePrizeThing": {
+          "thingId": 0,
+          "thingType": "Jewel",
+          "thingQuantity": 500
+        }
+      },
+      {
+        "id": 2002307,
+        "slot": 7,
+        "acquirePrizeThing": {
+          "thingId": 140000,
+          "thingType": "Item",
+          "thingQuantity": 200
+        }
+      },
+      {
+        "id": 2002308,
+        "slot": 8,
+        "acquirePrizeThing": {
+          "thingId": 130011,
+          "thingType": "Item",
+          "thingQuantity": 500
+        }
+      },
+      {
+        "id": 2002309,
+        "slot": 9,
+        "acquirePrizeThing": {
+          "thingId": 130071,
+          "thingType": "Item",
+          "thingQuantity": 3
+        }
+      },
+      {
+        "id": 2002310,
+        "slot": 10,
+        "acquirePrizeThing": {
+          "thingId": 0,
+          "thingType": "Jewel",
+          "thingQuantity": 200
+        }
+      },
+      {
+        "id": 2002311,
+        "slot": 11,
+        "acquirePrizeThing": {
+          "thingId": 140000,
+          "thingType": "Item",
+          "thingQuantity": 100
+        }
+      },
+      {
+        "id": 2002312,
+        "slot": 12,
+        "acquirePrizeThing": {
+          "thingId": 130064,
+          "thingType": "Item",
+          "thingQuantity": 50
+        }
+      }
+    ],
+    "rollRewards": [
+      {
+        "rollCount": 1,
+        "rewards": [
+          {
+            "thingId": 132004,
+            "thingType": "Item",
+            "thingQuantity": 1000
+          }
+        ]
+      },
+      {
+        "rollCount": 2,
+        "rewards": [
+          {
+            "thingId": 130013,
+            "thingType": "Item",
+            "thingQuantity": 2
+          }
+        ]
+      },
+      {
+        "rollCount": 5,
+        "rewards": [
+          {
+            "thingId": 0,
+            "thingType": "Jewel",
+            "thingQuantity": 300
+          }
+        ]
+      },
+      {
+        "rollCount": 10,
+        "rewards": [
+          {
+            "thingId": 150000,
+            "thingType": "Item",
+            "thingQuantity": 50
+          }
+        ]
+      }
+    ],
+    "name": "ダイスタールーレット"
   }
 ]
