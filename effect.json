@@ -11911,7 +11911,12 @@
     ],
     "conditions": [],
     "durationSecond": 0,
-    "triggers": [],
+    "triggers": [
+      {
+        "trigger": "Attribute",
+        "value": 1
+      }
+    ],
     "fireTimingType": "Passive"
   },
   {
