@@ -1015,6 +1015,19 @@
     "rarity": "R"
   },
   {
+    "id": 137003,
+    "name": "ユナイトチャレンジ福引券",
+    "description": "ユナイトチャレンジ抽選会で利用することができる福引券。",
+    "displayOrder": 137003,
+    "displayEndDate": 1727370000.0,
+    "maxStock": 99999,
+    "category": "ConsumeItem",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Ticket",
+    "rarity": "R"
+  },
+  {
     "id": 138001,
     "name": "ジュゴンの勲章",
     "description": "ジュゴンに抵抗されずお腹を触ることができた者に贈られる記念品。ハイスコアチャレンジで入手できる。",
@@ -8117,6 +8130,18 @@
     "name": "応援ポイント",
     "description": "",
     "displayOrder": 421005,
+    "maxStock": 1999999999,
+    "category": "EventPoint",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Hidden",
+    "rarity": "R"
+  },
+  {
+    "id": 421006,
+    "name": "イベントポイント",
+    "description": "",
+    "displayOrder": 421006,
     "maxStock": 1999999999,
     "category": "EventPoint",
     "consumable": false,

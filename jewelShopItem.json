@@ -14127,6 +14127,85 @@
     "itemIconBadgeImagePath": "OneTime"
   },
   {
+    "id": 5235,
+    "order": 375,
+    "appStoreProductId": "",
+    "googlePlayProductId": "",
+    "name": "フレー！フレー！ユナイトチャレンジパックA",
+    "packText": "",
+    "mJewelShopCategoryId": 5,
+    "dialogType": 1,
+    "purchaseType": "Paid",
+    "purchaseValue": 3000,
+    "subscriptionFlag": false,
+    "replaceTypes": 0,
+    "purchaseLimit": 2,
+    "canPurchaseDayOfWeek": "",
+    "isBuyNotDisplay": false,
+    "isDisplayLocking": false,
+    "startDate": 1726333200.0,
+    "endDate": 1727362800.0,
+    "lineup": [
+      {
+        "id": 523501,
+        "mJewelShopItemId": 5235,
+        "thingId": 110003,
+        "thingType": "Item",
+        "thingQuantity": 40
+      },
+      {
+        "id": 523502,
+        "mJewelShopItemId": 5235,
+        "thingId": 110002,
+        "thingType": "Item",
+        "thingQuantity": 10
+      }
+    ],
+    "shopItemType": "None",
+    "itemIconBodyImagePath": "Unite_A",
+    "itemIconBadgeImagePath": "LimitedNumber"
+  },
+  {
+    "id": 5236,
+    "order": 376,
+    "appStoreProductId": "5236",
+    "googlePlayProductId": "5236",
+    "name": "フレー！フレー！ユナイトチャレンジパックB",
+    "packText": "",
+    "mJewelShopCategoryId": 5,
+    "dialogType": 1,
+    "purchaseType": "Money",
+    "purchaseValue": 3000,
+    "subscriptionFlag": false,
+    "givePaidJewel": 3000,
+    "replaceTypes": 0,
+    "purchaseLimit": 2,
+    "canPurchaseDayOfWeek": "",
+    "isBuyNotDisplay": false,
+    "isDisplayLocking": false,
+    "startDate": 1726333200.0,
+    "endDate": 1727362800.0,
+    "lineup": [
+      {
+        "id": 523601,
+        "mJewelShopItemId": 5236,
+        "thingId": 0,
+        "thingType": "Jewel",
+        "thingQuantity": 3000
+      },
+      {
+        "id": 523602,
+        "mJewelShopItemId": 5236,
+        "thingId": 137003,
+        "thingType": "Item",
+        "thingQuantity": 1500
+      }
+    ],
+    "shopItemType": "None",
+    "itemIconBodyImagePath": "Unite_B",
+    "itemIconBadgeImagePath": "LimitedNumber"
+  },
+  {
     "id": 5401,
     "order": 201,
     "appStoreProductId": "5401",
