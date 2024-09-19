@@ -4756,6 +4756,55 @@
     "maxTalentStage": 5
   },
   {
+    "id": 130650,
+    "characterBaseMasterId": 302,
+    "name": "グレートリッパー・オーダー",
+    "description": "",
+    "rarity": "Rare3",
+    "attribute": "Colorful",
+    "minLevelStatus": {
+      "vocal": 96,
+      "expression": 102,
+      "concentration": 71
+    },
+    "starActMasterId": 130651,
+    "awakenStarActMasterId": 130651,
+    "senseMasterId": 130650,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 30001,
+    "senseEnhanceItemGroupMasterId": 3,
+    "firstEpisodeReleaseItemGroupId": 331,
+    "secondEpisodeReleaseItemGroupId": 332,
+    "characterAwakeningItemGroupMasterId": 33,
+    "displayStartAt": 1726851600.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "イベント(コラボ)で入手",
+    "categories": [
+      {
+        "categoryMasterId": 2003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8001,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 4001,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7023,
+        "isAwaken": false
+      }
+    ],
+    "leaderSenseMasterId": 158,
+    "maxTalentStage": 5
+  },
+  {
     "id": 140010,
     "characterBaseMasterId": 101,
     "name": "悲哀と恋慕の旋律",
@@ -5187,7 +5236,8 @@
       }
     ],
     "leaderSenseMasterId": 84,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1727283600.0
   },
   {
     "id": 140090,
@@ -5348,7 +5398,8 @@
       }
     ],
     "leaderSenseMasterId": 118,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1727283600.0
   },
   {
     "id": 140120,
@@ -5623,7 +5674,8 @@
       }
     ],
     "leaderSenseMasterId": 49,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1727283600.0
   },
   {
     "id": 140170,
@@ -8200,7 +8252,8 @@
       }
     ],
     "leaderSenseMasterId": 8,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1727283600.0
   },
   {
     "id": 140680,
@@ -9459,7 +9512,8 @@
       }
     ],
     "leaderSenseMasterId": 106,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1726851600.0
   },
   {
     "id": 140910,
@@ -9512,7 +9566,8 @@
       }
     ],
     "leaderSenseMasterId": 150,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1726851600.0
   },
   {
     "id": 140920,
@@ -10514,6 +10569,112 @@
       }
     ],
     "leaderSenseMasterId": 71,
+    "maxTalentStage": 5
+  },
+  {
+    "id": 141100,
+    "characterBaseMasterId": 303,
+    "name": "リクエストはロックナンバーで",
+    "description": "",
+    "rarity": "Rare4",
+    "attribute": "Colorful",
+    "minLevelStatus": {
+      "vocal": 99,
+      "expression": 121,
+      "concentration": 120
+    },
+    "starActMasterId": 141101,
+    "awakenStarActMasterId": 141101,
+    "senseMasterId": 141100,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 40110,
+    "senseEnhanceItemGroupMasterId": 4,
+    "firstEpisodeReleaseItemGroupId": 431,
+    "secondEpisodeReleaseItemGroupId": 432,
+    "characterAwakeningItemGroupMasterId": 43,
+    "displayStartAt": 1726851600.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "ガチャ(コラボ限定)で入手",
+    "categories": [
+      {
+        "categoryMasterId": 2003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8001,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 4001,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7023,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8004,
+        "isAwaken": true
+      }
+    ],
+    "leaderSenseMasterId": 167,
+    "maxTalentStage": 5
+  },
+  {
+    "id": 141110,
+    "characterBaseMasterId": 301,
+    "name": "玉椿、夜水に灯り",
+    "description": "",
+    "rarity": "Rare4",
+    "attribute": "Colorful",
+    "minLevelStatus": {
+      "vocal": 130,
+      "expression": 99,
+      "concentration": 113
+    },
+    "starActMasterId": 141111,
+    "awakenStarActMasterId": 141111,
+    "senseMasterId": 141110,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 40111,
+    "senseEnhanceItemGroupMasterId": 4,
+    "firstEpisodeReleaseItemGroupId": 431,
+    "secondEpisodeReleaseItemGroupId": 432,
+    "characterAwakeningItemGroupMasterId": 43,
+    "displayStartAt": 1726851600.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "ガチャ(コラボ限定)で入手",
+    "categories": [
+      {
+        "categoryMasterId": 2003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 4005,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7023,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 4001,
+        "isAwaken": true
+      }
+    ],
+    "leaderSenseMasterId": 168,
     "maxTalentStage": 5
   }
 ]

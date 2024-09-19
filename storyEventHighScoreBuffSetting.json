@@ -832,6 +832,110 @@
     }
   },
   {
+    "id": 2002301,
+    "storyEventHighScoreMasterId": 20023,
+    "storyEventHighScoreBuffMasterId": 11,
+    "storyEventHighScoreBuffMaster": {
+      "id": 11,
+      "storyEventHighScoreBuffPatternGroupId": 1,
+      "effectMasterId": 80003,
+      "effectName": "舞台照明",
+      "effectDescription": "アクターの集中力が[:param1]上昇する",
+      "iconImagePath": "11"
+    }
+  },
+  {
+    "id": 2002302,
+    "storyEventHighScoreMasterId": 20023,
+    "storyEventHighScoreBuffMasterId": 12,
+    "storyEventHighScoreBuffMaster": {
+      "id": 12,
+      "storyEventHighScoreBuffPatternGroupId": 1,
+      "effectMasterId": 80002,
+      "effectName": "舞台スピーカー",
+      "effectDescription": "アクターの表現力が[:param1]上昇する",
+      "iconImagePath": "12"
+    }
+  },
+  {
+    "id": 2002303,
+    "storyEventHighScoreMasterId": 20023,
+    "storyEventHighScoreBuffMasterId": 13,
+    "storyEventHighScoreBuffMaster": {
+      "id": 13,
+      "storyEventHighScoreBuffPatternGroupId": 1,
+      "effectMasterId": 80001,
+      "effectName": "舞台マイク",
+      "effectDescription": "アクターの歌唱力が[:param1]上昇する",
+      "iconImagePath": "13"
+    }
+  },
+  {
+    "id": 2002304,
+    "storyEventHighScoreMasterId": 20023,
+    "storyEventHighScoreBuffMasterId": 14,
+    "storyEventHighScoreBuffMaster": {
+      "id": 14,
+      "storyEventHighScoreBuffPatternGroupId": 1,
+      "effectMasterId": 80004,
+      "effectName": "舞台カーテン",
+      "effectDescription": "アクターの演技力が[:param1]％上昇する",
+      "iconImagePath": "14"
+    }
+  },
+  {
+    "id": 2002305,
+    "storyEventHighScoreMasterId": 20023,
+    "storyEventHighScoreBuffMasterId": 157,
+    "storyEventHighScoreBuffMaster": {
+      "id": 157,
+      "storyEventHighScoreBuffPatternGroupId": 2,
+      "effectMasterId": 80061,
+      "effectName": "ゲーセンイス",
+      "effectDescription": "アクターの演技力上限値が[:param1]%上昇する　※銀河座に所属するアクターのみ対象",
+      "iconImagePath": "134"
+    }
+  },
+  {
+    "id": 2002306,
+    "storyEventHighScoreMasterId": 20023,
+    "storyEventHighScoreBuffMasterId": 158,
+    "storyEventHighScoreBuffMaster": {
+      "id": 158,
+      "storyEventHighScoreBuffPatternGroupId": 2,
+      "effectMasterId": 80062,
+      "effectName": "ベル",
+      "effectDescription": "銀河座に所属するアクター1人につき、公演開始時にプリンシパルゲージが[:param1]上昇する",
+      "iconImagePath": "136"
+    }
+  },
+  {
+    "id": 2002307,
+    "storyEventHighScoreMasterId": 20023,
+    "storyEventHighScoreBuffMasterId": 159,
+    "storyEventHighScoreBuffMaster": {
+      "id": 159,
+      "storyEventHighScoreBuffPatternGroupId": 2,
+      "effectMasterId": 80063,
+      "effectName": "カード",
+      "effectDescription": "公演開始時にプリンシパルゲージの上限値が[:param1]上昇する　　※<color=#7AC940>彩属性</color>の王 雪のみ対象",
+      "iconImagePath": "135"
+    }
+  },
+  {
+    "id": 2002308,
+    "storyEventHighScoreMasterId": 20023,
+    "storyEventHighScoreBuffMasterId": 160,
+    "storyEventHighScoreBuffMaster": {
+      "id": 160,
+      "storyEventHighScoreBuffPatternGroupId": 2,
+      "effectMasterId": 80064,
+      "effectName": "オンゲキ筐体",
+      "effectDescription": "センス発動時、追加で「SP光」を[:param1]個付与する　※<color=#7AC940>彩属性</color>の千寿 暦のみ対象",
+      "iconImagePath": "133"
+    }
+  },
+  {
     "id": 2002401,
     "storyEventHighScoreMasterId": 20024,
     "storyEventHighScoreBuffMasterId": 11,
