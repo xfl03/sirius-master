@@ -598,11 +598,26 @@
   {
     "storyMasterId": 20039,
     "previousStoryMasterIds": [],
-    "nextStoryMasterIds": [],
+    "nextStoryMasterIds": [
+      20040
+    ],
     "sideStoryCharacterMasterIds": [
       141060,
       141070,
       130630
+    ],
+    "relatedStoryMasterIds": []
+  },
+  {
+    "storyMasterId": 20040,
+    "previousStoryMasterIds": [
+      20039
+    ],
+    "nextStoryMasterIds": [],
+    "sideStoryCharacterMasterIds": [
+      141120,
+      141130,
+      130660
     ],
     "relatedStoryMasterIds": []
   },

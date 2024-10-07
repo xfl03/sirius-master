@@ -2195,7 +2195,7 @@
     "name": "血を着飾る栄華のために",
     "description": "",
     "rewardRuleMasterId": 1,
-    "pronounceName": "ちをきかざるえいよのために",
+    "pronounceName": "ちをきかざるえいがのために",
     "lyricWriter": "松井洋平",
     "composer": "古河夕",
     "arranger": "古河夕",
@@ -3345,6 +3345,49 @@
         "musicVideoType": "None",
         "characters": [
           201
+        ]
+      }
+    ],
+    "unlockConditionType": "Buy",
+    "musicVideoType": "None",
+    "musicCoverType": "Cover"
+  },
+  {
+    "id": 90,
+    "name": "NEO SKY, NEO MAP!",
+    "description": "",
+    "rewardRuleMasterId": 1,
+    "pronounceName": "neoskyneomap",
+    "lyricWriter": "畑亜貴",
+    "composer": "小高光太郎、UiNA",
+    "arranger": "-",
+    "unlockText": "楽曲ショップで購入",
+    "isLongVersion": false,
+    "releasedAt": 1728493200.0,
+    "staminaConsumption": 30,
+    "musicTimeSecond": 122,
+    "invisible": false,
+    "sampleStartSeconds": 0.0,
+    "sampleEndSeconds": 0.0,
+    "delaySeconds": 0.0,
+    "vocalVersions": [
+      {
+        "id": 9001,
+        "musicMasterId": 90,
+        "vocalVersion": 1,
+        "singer": "鳳ここな、静香、カトリナ・グリーベル、新妻八恵、柳場ぱんだ、流石知冴",
+        "name": "NEO SKY, NEO MAP!",
+        "musicTimeSecond": 122,
+        "sampleStartSeconds": 0.0,
+        "sampleEndSeconds": 0.0,
+        "musicVideoType": "None",
+        "characters": [
+          101,
+          102,
+          103,
+          104,
+          105,
+          106
         ]
       }
     ],
@@ -5567,6 +5610,43 @@
     "musicCoverType": "Original"
   },
   {
+    "id": 162,
+    "name": "Neustart",
+    "description": "",
+    "rewardRuleMasterId": 1,
+    "pronounceName": "neustart",
+    "lyricWriter": "志村真白（FirstCall）",
+    "composer": "志村真白（FirstCall）",
+    "arranger": "志村真白（FirstCall）",
+    "isLongVersion": false,
+    "releasedAt": 1727715600.0,
+    "staminaConsumption": 25,
+    "musicTimeSecond": 93,
+    "invisible": false,
+    "sampleStartSeconds": 0.0,
+    "sampleEndSeconds": 0.0,
+    "delaySeconds": 0.0,
+    "vocalVersions": [
+      {
+        "id": 16201,
+        "musicMasterId": 162,
+        "vocalVersion": 1,
+        "singer": "カトリナ・グリーベル",
+        "name": "Neustart",
+        "musicTimeSecond": 93,
+        "sampleStartSeconds": 0.0,
+        "sampleEndSeconds": 0.0,
+        "musicVideoType": "None",
+        "characters": [
+          103
+        ]
+      }
+    ],
+    "unlockConditionType": "Default",
+    "musicVideoType": "None",
+    "musicCoverType": "Original"
+  },
+  {
     "id": 9999,
     "name": "TUTORIAL",
     "description": "",
@@ -5675,7 +5755,7 @@
         "musicVideoType": "Movie",
         "characters": [
           101,
-          102
+          104
         ]
       }
     ],
@@ -6307,6 +6387,44 @@
         "musicVideoType": "None",
         "characters": [
           105
+        ]
+      }
+    ],
+    "unlockConditionType": "Buy",
+    "musicVideoType": "None",
+    "musicCoverType": "Original"
+  },
+  {
+    "id": 10061,
+    "name": "巡る暦の花のように（Long Ver.）",
+    "description": "",
+    "rewardRuleMasterId": 1,
+    "pronounceName": "めぐるこよみのはなのようにlong",
+    "lyricWriter": "松井洋平",
+    "composer": "光増ハジメ（FirstCall）",
+    "arranger": "光増ハジメ（FirstCall）",
+    "unlockText": "楽曲ショップで購入",
+    "isLongVersion": true,
+    "releasedAt": 1727974800.0,
+    "staminaConsumption": 0,
+    "musicTimeSecond": 220,
+    "invisible": false,
+    "sampleStartSeconds": 0.0,
+    "sampleEndSeconds": 0.0,
+    "delaySeconds": 0.0,
+    "vocalVersions": [
+      {
+        "id": 1006101,
+        "musicMasterId": 10061,
+        "vocalVersion": 1,
+        "singer": "千寿暦",
+        "name": "巡る暦の花のように（Long Ver.）",
+        "musicTimeSecond": 220,
+        "sampleStartSeconds": 0.0,
+        "sampleEndSeconds": 0.0,
+        "musicVideoType": "None",
+        "characters": [
+          301
         ]
       }
     ],

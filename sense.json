@@ -1919,6 +1919,21 @@
     "branchCondition2": "None"
   },
   {
+    "id": 130660,
+    "name": "お話、聞きましょうか？",
+    "description": "[:score]倍のスコアを獲得",
+    "type": "Control",
+    "preEffects": [],
+    "branches": [],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 490,
+    "scoreUpPerLevel": 40,
+    "lightCount": 1,
+    "coolTime": 50,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
     "id": 140010,
     "name": "悲哀と恋慕の旋律",
     "description": "[:score]倍のスコアを獲得／ライフを[:param11]回復／ライフが多いほどここなのスコア獲得量UP（最大＋100％）",
@@ -4463,6 +4478,58 @@
     "scoreUpPerLevel": 60,
     "lightCount": 1,
     "coolTime": 45,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 141120,
+    "name": "秘密のおしゃべり",
+    "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／センス発動後、プリンシパルゲージの上限値が[:param11]上昇\t",
+    "type": "Amplification",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20095
+          }
+        ],
+        "id": 1411201
+      }
+    ],
+    "acquirableGauge": 80,
+    "acquirableScorePercent": 150,
+    "scoreUpPerLevel": 40,
+    "lightCount": 1,
+    "coolTime": 30,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 141130,
+    "name": "過ぎた時を悔いても",
+    "description": "[:score]倍のスコアを獲得／[:sec]秒間、シリウスのアクターにセンススコア[:param11]％UP効果",
+    "type": "Special",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20035
+          }
+        ],
+        "id": 1411301
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 260,
+    "scoreUpPerLevel": 70,
+    "lightCount": 1,
+    "coolTime": 60,
     "branchCondition1": "None",
     "branchCondition2": "None"
   }

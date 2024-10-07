@@ -2769,6 +2769,77 @@
     "episodeRewardPackageMasterId": 2003908
   },
   {
+    "id": 2004001,
+    "storyMasterId": 20040,
+    "requiredTotalAcquiredPoint": 0,
+    "title": "記憶",
+    "order": 1,
+    "episodeRewardPackageMasterId": 2004001
+  },
+  {
+    "id": 2004002,
+    "storyMasterId": 20040,
+    "requiredTotalAcquiredPoint": 2000,
+    "title": "母との再会",
+    "order": 2,
+    "requiredReadEpisodeMasterId": 2004001,
+    "episodeRewardPackageMasterId": 2004002
+  },
+  {
+    "id": 2004003,
+    "storyMasterId": 20040,
+    "requiredTotalAcquiredPoint": 4000,
+    "title": "娘として",
+    "order": 3,
+    "requiredReadEpisodeMasterId": 2004002,
+    "episodeRewardPackageMasterId": 2004003
+  },
+  {
+    "id": 2004004,
+    "storyMasterId": 20040,
+    "requiredTotalAcquiredPoint": 8000,
+    "title": "気分転換",
+    "order": 4,
+    "requiredReadEpisodeMasterId": 2004003,
+    "episodeRewardPackageMasterId": 2004004
+  },
+  {
+    "id": 2004005,
+    "storyMasterId": 20040,
+    "requiredTotalAcquiredPoint": 16000,
+    "title": "後悔",
+    "order": 5,
+    "requiredReadEpisodeMasterId": 2004004,
+    "episodeRewardPackageMasterId": 2004005
+  },
+  {
+    "id": 2004006,
+    "storyMasterId": 20040,
+    "requiredTotalAcquiredPoint": 32000,
+    "title": "やり直せるなら",
+    "order": 6,
+    "requiredReadEpisodeMasterId": 2004005,
+    "episodeRewardPackageMasterId": 2004006
+  },
+  {
+    "id": 2004007,
+    "storyMasterId": 20040,
+    "requiredTotalAcquiredPoint": 64000,
+    "title": "迷い、今ここで",
+    "order": 7,
+    "requiredReadEpisodeMasterId": 2004006,
+    "episodeRewardPackageMasterId": 2004007
+  },
+  {
+    "id": 2004008,
+    "storyMasterId": 20040,
+    "requiredTotalAcquiredPoint": 128000,
+    "title": "過去と向き合って",
+    "order": 8,
+    "requiredReadEpisodeMasterId": 2004007,
+    "episodeRewardPackageMasterId": 2004008
+  },
+  {
     "id": 2004201,
     "storyMasterId": 20042,
     "requiredTotalAcquiredPoint": 0,

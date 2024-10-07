@@ -148,7 +148,7 @@
     "description": "「シリウス」カテゴリの演技力30%上昇、「食べ物」カテゴリの表現力20％上昇",
     "details": [
       {
-        "effectMasterId": 12003,
+        "effectMasterId": 12004,
         "conditions": [
           {
             "categoryMasterId1": 2001
@@ -3252,6 +3252,50 @@
         "conditions": [
           {
             "categoryMasterId1": 1003
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 169,
+    "description": "「役者」カテゴリの歌唱力60%上昇、「シリウス」カテゴリを持つアクターの数に応じて初期プリンシパルゲージが20上昇",
+    "details": [
+      {
+        "effectMasterId": 12010,
+        "conditions": [
+          {
+            "categoryMasterId1": 8003
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12030,
+        "conditions": [
+          {
+            "categoryMasterId1": 2001
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 170,
+    "description": "「シリウス」カテゴリの演技力40%上昇、「舞台」カテゴリの歌唱力35％上昇",
+    "details": [
+      {
+        "effectMasterId": 12005,
+        "conditions": [
+          {
+            "categoryMasterId1": 2001
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12019,
+        "conditions": [
+          {
+            "categoryMasterId1": 8002
           }
         ]
       }

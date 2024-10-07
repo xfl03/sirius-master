@@ -3864,6 +3864,30 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 220570,
+    "name": "今は遠い星のリグレット",
+    "description": "シリウスに所属するアクターの演技力が[:param11]％上昇",
+    "posterMasterId": 220570,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70022100
+          }
+        ],
+        "id": 22057001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 229010,
     "name": "初めての舞台",
     "description": "<color=#7AC940>彩属性</color>のアクターの演技力が[:param11]%上昇",
@@ -7113,6 +7137,54 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 230540,
+    "name": "誰かの記憶をたどって",
+    "description": "シリウスに所属するアクターの演技力が[:param11]％上昇",
+    "posterMasterId": 230540,
+    "type": "Leader",
+    "frameNumber": 0,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70052100
+          }
+        ],
+        "id": 23054001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230620,
+    "name": "Worlds Dye Star",
+    "description": "全アクターの演技力が[:param11]％上昇",
+    "posterMasterId": 230620,
+    "type": "Leader",
+    "frameNumber": 0,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70031000
+          }
+        ],
+        "id": 23062001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 320010,
     "name": "鬼人と竜魔人",
     "description": "<color=#FF9314>陽属性</color>のアクターの演技力が[:param11]%上昇",
@@ -7235,7 +7307,7 @@
   {
     "id": 320100,
     "name": "響けエール！～ON staGE rocK！～",
-    "description": "銀河座に所属するアクターの演技力が[:param11]％上昇",
+    "description": "<color=#7AC940>彩属性</color>のアクターの演技力が[:param11]%上昇",
     "posterMasterId": 320100,
     "type": "Leader",
     "frameNumber": 1,
@@ -7247,7 +7319,7 @@
         "branchEffects": [
           {
             "order": 1,
-            "effectMasterId": 70022300
+            "effectMasterId": 70022003
           }
         ],
         "id": 32010001
@@ -7587,6 +7659,30 @@
           }
         ],
         "id": 34008001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 340120,
+    "name": "銀河の歴史のように重厚な",
+    "description": "全アクターの演技力が[:param11]％上昇",
+    "posterMasterId": 340120,
+    "type": "Leader",
+    "frameNumber": 0,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70050000
+          }
+        ],
+        "id": 34012001
       }
     ],
     "branchConditionType1": "None",
@@ -9147,6 +9243,54 @@
           }
         ],
         "id": 220560201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2205701,
+    "name": "演技力アップ",
+    "description": "自身の演技力が[:param11]％上昇　◆発動条件：シリウスに所属するアクターが装備",
+    "posterMasterId": 220570,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10010100
+          }
+        ],
+        "id": 220570101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2205702,
+    "name": "初期P.ゲージ上昇",
+    "description": "公演開始時、P.ゲージが[:param11]上昇　◆発動条件：シリウスに所属するアクターが装備",
+    "posterMasterId": 220570,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11510100
+          }
+        ],
+        "id": 220570201
       }
     ],
     "branchConditionType1": "None",
@@ -11063,6 +11207,126 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 2305401,
+    "name": "演技力アップⅡ",
+    "description": "自身の演技力が[:param11]％上昇　◆発動条件：シリウスに所属するアクターが装備",
+    "posterMasterId": 230540,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10020100
+          }
+        ],
+        "id": 230540101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2305402,
+    "name": "P.ゲージ獲得量アップ＋",
+    "description": "センスによるP.ゲージの獲得量が[:param11]％UP　◆発動条件：シリウスに所属するアクターが装備",
+    "posterMasterId": 230540,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11611100
+          }
+        ],
+        "id": 230540201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2305403,
+    "name": "「光」獲得数増加",
+    "description": "センスで付与する「光」の付与数が[:param11]個増加　◆発動条件：シリウスに所属するアクターが装備",
+    "posterMasterId": 230540,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11810100
+          }
+        ],
+        "id": 230540301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2306201,
+    "name": "演技力アップⅡ",
+    "description": "自身の演技力が[:param11]％上昇",
+    "posterMasterId": 230620,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10020000
+          }
+        ],
+        "id": 230620101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2306202,
+    "name": "初期P.ゲージ上昇",
+    "description": "公演開始時、P.ゲージが[:param11]上昇",
+    "posterMasterId": 230620,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11510000
+          }
+        ],
+        "id": 230620201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 3200101,
     "name": "初期ライフ上昇＋",
     "description": "公演開始時、ライフが[:param11]上昇　◆発動条件：<color=#FF9314>陽属性</color>のアクターが装備",
@@ -11257,7 +11521,7 @@
   {
     "id": 3201001,
     "name": "演技力アップ",
-    "description": "自身の演技力が[:param11]％上昇　◆発動条件：銀河座に所属するアクターが装備",
+    "description": "自身の演技力が[:param11]％上昇　◆発動条件：<color=#7AC940>彩属性</color>のアクターが装備",
     "posterMasterId": 320100,
     "type": "Normal",
     "frameNumber": 1,
@@ -11269,7 +11533,7 @@
         "branchEffects": [
           {
             "order": 1,
-            "effectMasterId": 10010300
+            "effectMasterId": 10010003
           }
         ],
         "id": 320100101
@@ -11281,7 +11545,7 @@
   {
     "id": 3201002,
     "name": "P.ゲージ獲得量アップ",
-    "description": "センスによるP.ゲージの獲得量が[:param11]%UP　◆発動条件：銀河座に所属するアクターが装備",
+    "description": "センスによるP.ゲージの獲得量が[:param11]%UP　◆発動条件：<color=#7AC940>彩属性</color>のアクターが装備",
     "posterMasterId": 320100,
     "type": "Normal",
     "frameNumber": 2,
@@ -11293,7 +11557,7 @@
         "branchEffects": [
           {
             "order": 1,
-            "effectMasterId": 11610300
+            "effectMasterId": 11610003
           }
         ],
         "id": 320100201
@@ -12305,6 +12569,78 @@
           }
         ],
         "id": 340080301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3401201,
+    "name": "演技力アップⅢ",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：暦が装備",
+    "posterMasterId": 340120,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10030301
+          }
+        ],
+        "id": 340120101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3401202,
+    "name": "P.ゲージブースト＋",
+    "description": "センス発動直後、Pゲージを[:param11]獲得　◆発動条件：暦が装備",
+    "posterMasterId": 340120,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11410301
+          }
+        ],
+        "id": 340120201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3401203,
+    "name": "「光」追加（SP）",
+    "description": "公演開始時、SP光を[:param11]付与（効果は公演開始時1回のみ発動する）　◆発動条件：暦が装備",
+    "posterMasterId": 340120,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11910301
+          }
+        ],
+        "id": 340120301
       }
     ],
     "branchConditionType1": "None",

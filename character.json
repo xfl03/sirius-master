@@ -4805,6 +4805,55 @@
     "maxTalentStage": 5
   },
   {
+    "id": 130660,
+    "characterBaseMasterId": 104,
+    "name": "お話、聞きましょうか？",
+    "description": "",
+    "rarity": "Rare3",
+    "attribute": "Cool",
+    "minLevelStatus": {
+      "vocal": 86,
+      "expression": 88,
+      "concentration": 96
+    },
+    "starActMasterId": 130661,
+    "awakenStarActMasterId": 130661,
+    "senseMasterId": 130660,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 30002,
+    "senseEnhanceItemGroupMasterId": 3,
+    "firstEpisodeReleaseItemGroupId": 321,
+    "secondEpisodeReleaseItemGroupId": 322,
+    "characterAwakeningItemGroupMasterId": 32,
+    "displayStartAt": 1727715600.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "イベントで入手",
+    "categories": [
+      {
+        "categoryMasterId": 2001,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1001,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7040,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 4001,
+        "isAwaken": false
+      }
+    ],
+    "leaderSenseMasterId": 3,
+    "maxTalentStage": 5
+  },
+  {
     "id": 140010,
     "characterBaseMasterId": 101,
     "name": "悲哀と恋慕の旋律",
@@ -10675,6 +10724,112 @@
       }
     ],
     "leaderSenseMasterId": 168,
+    "maxTalentStage": 5
+  },
+  {
+    "id": 141120,
+    "characterBaseMasterId": 103,
+    "name": "秘密のおしゃべり",
+    "description": "",
+    "rarity": "Rare4",
+    "attribute": "Cool",
+    "minLevelStatus": {
+      "vocal": 145,
+      "expression": 93,
+      "concentration": 108
+    },
+    "starActMasterId": 141121,
+    "awakenStarActMasterId": 141121,
+    "senseMasterId": 141120,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 40112,
+    "senseEnhanceItemGroupMasterId": 4,
+    "firstEpisodeReleaseItemGroupId": 421,
+    "secondEpisodeReleaseItemGroupId": 422,
+    "characterAwakeningItemGroupMasterId": 42,
+    "displayStartAt": 1727715600.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "ガチャ(期間限定)で入手",
+    "categories": [
+      {
+        "categoryMasterId": 2001,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8001,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7040,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8004,
+        "isAwaken": true
+      }
+    ],
+    "leaderSenseMasterId": 169,
+    "maxTalentStage": 5
+  },
+  {
+    "id": 141130,
+    "characterBaseMasterId": 106,
+    "name": "過ぎた時を悔いても",
+    "description": "",
+    "rarity": "Rare4",
+    "attribute": "Cool",
+    "minLevelStatus": {
+      "vocal": 133,
+      "expression": 92,
+      "concentration": 119
+    },
+    "starActMasterId": 141131,
+    "awakenStarActMasterId": 141131,
+    "senseMasterId": 141130,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 40113,
+    "senseEnhanceItemGroupMasterId": 4,
+    "firstEpisodeReleaseItemGroupId": 421,
+    "secondEpisodeReleaseItemGroupId": 422,
+    "characterAwakeningItemGroupMasterId": 42,
+    "displayStartAt": 1727715600.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "ガチャ(期間限定)で入手",
+    "categories": [
+      {
+        "categoryMasterId": 2001,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1002,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8004,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7040,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8002,
+        "isAwaken": true
+      }
+    ],
+    "leaderSenseMasterId": 170,
     "maxTalentStage": 5
   }
 ]

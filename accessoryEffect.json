@@ -454,6 +454,12 @@
     "description": "自身の歌唱力[:param1]％上昇　◆発動条件：<color=#33B4DF>凛属性</color>のアクターが装備"
   },
   {
+    "id": 320190,
+    "effectMasterId": 322030,
+    "name": "まとめてかかってこい！",
+    "description": "自身の歌唱力[:param1]％上昇　◆発動条件：<color=#7AC940>彩属性</color>のアクターが装備"
+  },
+  {
     "id": 330010,
     "effectMasterId": 330010,
     "name": "目指すは世界を照らす一等星",
@@ -904,6 +910,18 @@
     "description": "自身の演技力が[:param1]％上昇　◆発動条件：<color=#FF9314>陽属性</color>のアクターが装備"
   },
   {
+    "id": 331320,
+    "effectMasterId": 331170,
+    "name": "勝負は得意のポーカーで",
+    "description": "自身の演技力が[:param1]％上昇　◆発動条件：Edenに所属するアクターが装備"
+  },
+  {
+    "id": 331330,
+    "effectMasterId": 331160,
+    "name": "皆の幸福を祈って",
+    "description": "自身の演技力が[:param1]％上昇　◆発動条件：シリウスに所属するアクターが装備"
+  },
+  {
     "id": 430010,
     "effectMasterId": 331090,
     "name": "観ていてね！",
@@ -950,5 +968,29 @@
     "effectMasterId": 1000050,
     "name": "ドリーム、詰め込みました",
     "description": "初期プリンシパルゲージが[:param1]上昇　◆発動条件：カトリナ・ぱんだ・知冴・暦・リリヤ・緋花里が装備"
+  },
+  {
+    "id": 430080,
+    "effectMasterId": 331090,
+    "name": "You may stay the world!",
+    "description": "自身の演技力が[:param1]％上昇"
+  },
+  {
+    "id": 430081,
+    "effectMasterId": 1000010,
+    "name": "掲げた腕は星空のように",
+    "description": "公演開始時、ライフが[:param1]上昇"
+  },
+  {
+    "id": 430090,
+    "effectMasterId": 1000060,
+    "name": "世界規模で楽しんじゃおう",
+    "description": "自身の歌唱力が[:param1]％上昇　◆発動条件：カトリナ・知冴・ラモーナ・雪・リリヤが装備"
+  },
+  {
+    "id": 430091,
+    "effectMasterId": 1000070,
+    "name": "歌えば仲間、踊れば友達！",
+    "description": "初期プリンシパルゲージが[:param1]上昇　◆発動条件：カトリナ・知冴・ラモーナ・雪・リリヤが装備"
   }
 ]
