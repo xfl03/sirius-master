@@ -1934,6 +1934,21 @@
     "branchCondition2": "None"
   },
   {
+    "id": 130700,
+    "name": "社長業もおしゃまにね！",
+    "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得",
+    "type": "Amplification",
+    "preEffects": [],
+    "branches": [],
+    "acquirableGauge": 70,
+    "acquirableScorePercent": 110,
+    "scoreUpPerLevel": 40,
+    "lightCount": 1,
+    "coolTime": 40,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
     "id": 140010,
     "name": "悲哀と恋慕の旋律",
     "description": "[:score]倍のスコアを獲得／ライフを[:param11]回復／ライフが多いほどここなのスコア獲得量UP（最大＋100％）",
@@ -4530,6 +4545,52 @@
     "scoreUpPerLevel": 70,
     "lightCount": 1,
     "coolTime": 60,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 141220,
+    "name": "旅するみるくティーン",
+    "description": "[:score]倍のスコアを獲得／センス発動後、プリンシパルゲージの上限値が[:param11]上昇",
+    "type": "Control",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20096
+          }
+        ],
+        "id": 1412201
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 670,
+    "scoreUpPerLevel": 60,
+    "lightCount": 1,
+    "coolTime": 50,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 141230,
+    "name": "なし",
+    "description": "ここな編成時、ここなが代わりにセンスを発動し、ここなのスコア獲得量[:pre1]％UP",
+    "type": "Alternative",
+    "preEffects": [
+      {
+        "order": 1,
+        "effectMasterId": 20025
+      }
+    ],
+    "branches": [],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 0,
+    "scoreUpPerLevel": 0,
+    "lightCount": 0,
+    "coolTime": 0,
     "branchCondition1": "None",
     "branchCondition2": "None"
   }

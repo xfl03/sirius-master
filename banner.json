@@ -752,6 +752,17 @@
     "endDate": 1719766800.0
   },
   {
+    "id": 1064,
+    "order": 1957,
+    "name": "TRiP PRiSM Rhythmガチャ(アクター)",
+    "jumpType": "Gacha",
+    "jumpPageId": "1064",
+    "deleteConditionType": 0,
+    "imagePath": "Gacha/1064",
+    "startDate": 1728579600.0,
+    "endDate": 1729443600.0
+  },
+  {
     "id": 1065,
     "order": 1958,
     "name": "今は遠い星のリグレットガチャ(アクター)",
@@ -1070,6 +1081,17 @@
     "imagePath": "Gacha/1825",
     "startDate": 1728244800.0,
     "endDate": 1729789200.0
+  },
+  {
+    "id": 1826,
+    "order": 2060,
+    "name": "★4確定maimai でらっくすコラボ記念ガチャ",
+    "jumpType": "Gacha",
+    "jumpPageId": "1819",
+    "deleteConditionType": 0,
+    "imagePath": "Gacha/1819",
+    "startDate": 1728579600.0,
+    "endDate": 1729443600.0
   },
   {
     "id": 2001,
@@ -1688,6 +1710,39 @@
     "endDate": 1724432400.0
   },
   {
+    "id": 2060,
+    "order": 1958,
+    "name": "Welcome！CAFEMiLKガチャ",
+    "jumpType": "Gacha",
+    "jumpPageId": "2060",
+    "deleteConditionType": 0,
+    "imagePath": "Gacha/2060",
+    "startDate": 1728579600.0,
+    "endDate": 1729443600.0
+  },
+  {
+    "id": 2061,
+    "order": 1959,
+    "name": "宴星☆ネバーエンドガチャ",
+    "jumpType": "Gacha",
+    "jumpPageId": "2061",
+    "deleteConditionType": 0,
+    "imagePath": "Gacha/2061",
+    "startDate": 1728579600.0,
+    "endDate": 1729443600.0
+  },
+  {
+    "id": 2062,
+    "order": 1960,
+    "name": "maimai でらっくすコラボガチャ",
+    "jumpType": "Gacha",
+    "jumpPageId": "2062",
+    "deleteConditionType": 0,
+    "imagePath": "Gacha/2062",
+    "startDate": 1728579600.0,
+    "endDate": 1729443600.0
+  },
+  {
     "id": 2800,
     "order": 2984,
     "name": "結ぶぞ！その契約！ガチャ",
@@ -1774,6 +1829,39 @@
     "imagePath": "Gacha/2808",
     "startDate": 1726851600.0,
     "endDate": 1727715600.0
+  },
+  {
+    "id": 2809,
+    "order": 2809,
+    "name": "SSR確定maimai でらっくすコラボ記念ガチャPart1",
+    "jumpType": "Gacha",
+    "jumpPageId": "2811",
+    "deleteConditionType": 0,
+    "imagePath": "Gacha/2811",
+    "startDate": 1728579600.0,
+    "endDate": 1729443600.0
+  },
+  {
+    "id": 2810,
+    "order": 2810,
+    "name": "SSR確定maimai でらっくすコラボ記念ガチャPart2",
+    "jumpType": "Gacha",
+    "jumpPageId": "2812",
+    "deleteConditionType": 0,
+    "imagePath": "Gacha/2812",
+    "startDate": 1728579600.0,
+    "endDate": 1729443600.0
+  },
+  {
+    "id": 2811,
+    "order": 2811,
+    "name": "SSR確定maimai でらっくすコラボ記念ガチャPart3",
+    "jumpType": "Gacha",
+    "jumpPageId": "2813",
+    "deleteConditionType": 0,
+    "imagePath": "Gacha/2813",
+    "startDate": 1728579600.0,
+    "endDate": 1729443600.0
   },
   {
     "id": 3001,
@@ -3741,7 +3829,7 @@
     "deleteConditionValue": "5229",
     "imagePath": "Home/ikuseimori",
     "startDate": 1728147600.0,
-    "endDate": 1729011600.0
+    "endDate": 1728579600.0
   },
   {
     "id": 5230,
@@ -3753,7 +3841,31 @@
     "deleteConditionValue": "5230",
     "imagePath": "Home/denki_amuletRe",
     "startDate": 1728493200.0,
-    "endDate": 1729098000.0
+    "endDate": 1728579600.0
+  },
+  {
+    "id": 5231,
+    "order": 5192,
+    "name": "maimai でらっくすコラボ限定デコレーションパック",
+    "jumpType": "JewelShop",
+    "jumpPageId": "5231",
+    "deleteConditionType": "BuyItem",
+    "deleteConditionValue": "5231",
+    "imagePath": "Home/5231",
+    "startDate": 1728579600.0,
+    "endDate": 1729443600.0
+  },
+  {
+    "id": 5232,
+    "order": 5193,
+    "name": "maimai でらっくすコラボ限定アクセサリー＆スタンプパック",
+    "jumpType": "JewelShop",
+    "jumpPageId": "5232",
+    "deleteConditionType": "BuyItem",
+    "deleteConditionValue": "5232",
+    "imagePath": "Home/5232",
+    "startDate": 1728579600.0,
+    "endDate": 1729443600.0
   },
   {
     "id": 5233,
@@ -3777,6 +3889,53 @@
     "imagePath": "Home/5246",
     "startDate": 1728244800.0,
     "endDate": 1729789200.0
+  },
+  {
+    "id": 5247,
+    "order": 5191,
+    "name": "コラボ記念限定ジュエルパック",
+    "jumpType": "JewelShop",
+    "jumpPageId": "5",
+    "deleteConditionType": 0,
+    "imagePath": "Home/5237",
+    "startDate": 1728579600.0,
+    "endDate": 1729443600.0
+  },
+  {
+    "id": 5256,
+    "order": 5256,
+    "name": "銀河シアターのおまもりパック",
+    "jumpType": "JewelShop",
+    "jumpPageId": "5",
+    "deleteConditionType": "BuyItem",
+    "deleteConditionValue": "5256",
+    "imagePath": "Home/gingaza_amulet",
+    "startDate": 1729443600.0,
+    "endDate": 1729789200.0
+  },
+  {
+    "id": 5261,
+    "order": 5261,
+    "name": "撮影パック",
+    "jumpType": "JewelShop",
+    "jumpPageId": "5",
+    "deleteConditionType": "BuyItem",
+    "deleteConditionValue": "5261",
+    "imagePath": "Home/common_photo",
+    "startDate": 1729443600.0,
+    "endDate": 1729875600.0
+  },
+  {
+    "id": 5262,
+    "order": 5262,
+    "name": "練習台本どっさりパック",
+    "jumpType": "JewelShop",
+    "jumpPageId": "5",
+    "deleteConditionType": "BuyItem",
+    "deleteConditionValue": "5262",
+    "imagePath": "Home/5146",
+    "startDate": 1729443600.0,
+    "endDate": 1729875600.0
   },
   {
     "id": 5405,

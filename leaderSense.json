@@ -3300,5 +3300,27 @@
         ]
       }
     ]
+  },
+  {
+    "id": 171,
+    "description": "「役者」カテゴリの演技力40%上昇、「メルヘン」カテゴリの歌唱力35％上昇",
+    "details": [
+      {
+        "effectMasterId": 12005,
+        "conditions": [
+          {
+            "categoryMasterId1": 8003
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12019,
+        "conditions": [
+          {
+            "categoryMasterId1": 4006
+          }
+        ]
+      }
+    ]
   }
 ]

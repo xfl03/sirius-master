@@ -7305,6 +7305,30 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 320090,
+    "name": "TRiP PRiSM Rhythm",
+    "description": "シリウスに所属するアクターの演技力が[:param11]％上昇",
+    "posterMasterId": 320090,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70022100
+          }
+        ],
+        "id": 32009001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 320100,
     "name": "響けエール！～ON staGE rocK！～",
     "description": "<color=#7AC940>彩属性</color>のアクターの演技力が[:param11]%上昇",
@@ -7323,6 +7347,30 @@
           }
         ],
         "id": 32010001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 320150,
+    "name": "眠れぬ夜に",
+    "description": "全アクターの演技力が[:param11]%上昇",
+    "posterMasterId": 320150,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70011000
+          }
+        ],
+        "id": 32015001
       }
     ],
     "branchConditionType1": "None",
@@ -7497,6 +7545,54 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 330080,
+    "name": "あま～くリラックスしよ♪",
+    "description": "シリウスに所属するアクターの演技力が[:param11]％上昇",
+    "posterMasterId": 330080,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70052100
+          }
+        ],
+        "id": 33008001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 330090,
+    "name": "今宵を遊びつくすのじゃ！",
+    "description": "シリウスに所属するアクターの演技力が[:param11]％上昇",
+    "posterMasterId": 330090,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70052100
+          }
+        ],
+        "id": 33009001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 330100,
     "name": "マーチ・フォー・ブライト！",
     "description": "全アクターの演技力が[:param11]％上昇",
@@ -7587,6 +7683,30 @@
           }
         ],
         "id": 33013001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 330190,
+    "name": "冒険は扉をあけて",
+    "description": "全アクターの演技力が[:param11]%上昇",
+    "posterMasterId": 330190,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70042000
+          }
+        ],
+        "id": 33019001
       }
     ],
     "branchConditionType1": "None",
@@ -11519,6 +11639,54 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 3200901,
+    "name": "演技力アップ＋",
+    "description": "自身の演技力が[:param11]％上昇　◆発動条件：シリウスに所属するアクターが装備",
+    "posterMasterId": 320090,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10011100
+          }
+        ],
+        "id": 320090101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3200902,
+    "name": "歌唱力アップ",
+    "description": "自身の歌唱力が[:param11]％上昇　◆発動条件：シリウスに所属するアクターが装備",
+    "posterMasterId": 320090,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10110100
+          }
+        ],
+        "id": 320090201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 3201001,
     "name": "演技力アップ",
     "description": "自身の演技力が[:param11]％上昇　◆発動条件：<color=#7AC940>彩属性</color>のアクターが装備",
@@ -11561,6 +11729,30 @@
           }
         ],
         "id": 320100201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3201501,
+    "name": "スコアブースト・集中力",
+    "description": "センス発動直後、自身の集中力の[:param11]倍のスコアを獲得　◆発動条件：暦が装備",
+    "posterMasterId": 320150,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11110301
+          }
+        ],
+        "id": 320150101
       }
     ],
     "branchConditionType1": "None",
@@ -12071,6 +12263,174 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 3300801,
+    "name": "演技力アップⅢ",
+    "description": "自身の演技力が[:param11]％上昇　◆発動条件：シリウスに所属するアクターが装備",
+    "posterMasterId": 330080,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10030100
+          }
+        ],
+        "id": 330080101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3300802,
+    "name": "集中力アップⅡ＋",
+    "description": "自身の集中力が[:param11]％上昇　◆発動条件：シリウスに所属するアクターが装備",
+    "posterMasterId": 330080,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10321100
+          }
+        ],
+        "id": 330080201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3300803,
+    "name": "「光」追加（SP）Ⅱ",
+    "description": "公演開始時、SP光を[:param11]付与（効果は公演開始時1回のみ発動する）　◆発動条件：シリウスに所属するアクターが装備",
+    "posterMasterId": 330080,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11920100
+          }
+        ],
+        "id": 330080301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3300901,
+    "name": "演技力アップⅢ",
+    "description": "自身の演技力が[:param11]％上昇　◆発動条件：シリウスに所属するアクターが装備",
+    "posterMasterId": 330090,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10030100
+          }
+        ],
+        "id": 330090101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3300902,
+    "name": "CTダウンⅡ",
+    "description": "自身のセンスのCTが[:param11]秒短縮　◆発動条件：シリウスに所属するアクターが装備",
+    "posterMasterId": 330090,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 12410100
+          }
+        ],
+        "id": 330090201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3300903,
+    "name": "「光」追加（増幅）Ⅱ",
+    "description": "公演開始時、増幅系の光を[:param11]付与（効果は公演開始時1回のみ発動する）　◆発動条件：ぱんだが装備",
+    "posterMasterId": 330090,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 12220105
+          }
+        ],
+        "id": 330090301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3300904,
+    "name": "「光」追加（特殊）Ⅱ",
+    "description": "公演開始時、特殊系の光を[:param11]付与（効果は公演開始時1回のみ発動する）　◆発動条件：知冴が装備",
+    "posterMasterId": 330090,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 12320106
+          }
+        ],
+        "id": 330090401
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 3301001,
     "name": "演技力アップⅢ",
     "description": "自身の演技力が[:param11]％上昇",
@@ -12353,6 +12713,78 @@
           }
         ],
         "id": 330130301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3301901,
+    "name": "演技力アップⅡ＋＋",
+    "description": "自身の演技力が[:param11]％上昇",
+    "posterMasterId": 330190,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10022000
+          }
+        ],
+        "id": 330190101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3301902,
+    "name": "スコアブースト＋",
+    "description": "センス発動直後、現在のスコアの[:param11]%のスコアを獲得",
+    "posterMasterId": 330190,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10812000
+          }
+        ],
+        "id": 330190201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3301903,
+    "name": "初期P.ゲージ上昇Ⅱ",
+    "description": "公演開始時、P.ゲージが[:param11]上昇",
+    "posterMasterId": 330190,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11512000
+          }
+        ],
+        "id": 330190301
       }
     ],
     "branchConditionType1": "None",
