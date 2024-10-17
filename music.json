@@ -5647,6 +5647,43 @@
     "musicCoverType": "Original"
   },
   {
+    "id": 163,
+    "name": "Original Scene",
+    "description": "",
+    "rewardRuleMasterId": 1,
+    "pronounceName": "originalscene",
+    "lyricWriter": "松井洋平",
+    "composer": "古河 夕（FirstCall）",
+    "arranger": "古河 夕（FirstCall）",
+    "isLongVersion": false,
+    "releasedAt": 1729443600.0,
+    "staminaConsumption": 25,
+    "musicTimeSecond": 97,
+    "invisible": false,
+    "sampleStartSeconds": 0.0,
+    "sampleEndSeconds": 0.0,
+    "delaySeconds": 0.0,
+    "vocalVersions": [
+      {
+        "id": 16301,
+        "musicMasterId": 163,
+        "vocalVersion": 1,
+        "singer": "連尺野初魅",
+        "name": "Original Scene",
+        "musicTimeSecond": 97,
+        "sampleStartSeconds": 0.0,
+        "sampleEndSeconds": 0.0,
+        "musicVideoType": "None",
+        "characters": [
+          201
+        ]
+      }
+    ],
+    "unlockConditionType": "Default",
+    "musicVideoType": "None",
+    "musicCoverType": "Original"
+  },
+  {
     "id": 167,
     "name": "プリズム△▽リズム",
     "description": "",
@@ -6723,6 +6760,45 @@
     "musicCoverType": "Original"
   },
   {
+    "id": 10073,
+    "name": "フタリノスタルジア（Long Ver.）",
+    "description": "",
+    "rewardRuleMasterId": 1,
+    "pronounceName": "ふたりのすたるじあlong",
+    "lyricWriter": "志村真白（FirstCall）",
+    "composer": "志村真白（FirstCall）",
+    "arranger": "志村真白（FirstCall）",
+    "unlockText": "楽曲ショップで購入",
+    "isLongVersion": true,
+    "releasedAt": 1729573200.0,
+    "staminaConsumption": 0,
+    "musicTimeSecond": 257,
+    "invisible": false,
+    "sampleStartSeconds": 0.0,
+    "sampleEndSeconds": 0.0,
+    "delaySeconds": 0.0,
+    "vocalVersions": [
+      {
+        "id": 1007301,
+        "musicMasterId": 10073,
+        "vocalVersion": 1,
+        "singer": "静香、鳳ここな",
+        "name": "フタリノスタルジア（Long Ver.）",
+        "musicTimeSecond": 257,
+        "sampleStartSeconds": 0.0,
+        "sampleEndSeconds": 0.0,
+        "musicVideoType": "None",
+        "characters": [
+          101,
+          102
+        ]
+      }
+    ],
+    "unlockConditionType": "Buy",
+    "musicVideoType": "None",
+    "musicCoverType": "Original"
+  },
+  {
     "id": 10077,
     "name": "小さな奇跡の降る夜に（Long Ver.）",
     "description": "",
@@ -6754,6 +6830,44 @@
         "characters": [
           302,
           304
+        ]
+      }
+    ],
+    "unlockConditionType": "Buy",
+    "musicVideoType": "None",
+    "musicCoverType": "Original"
+  },
+  {
+    "id": 10093,
+    "name": "St. Bitter Sweet（Long Ver.）",
+    "description": "",
+    "rewardRuleMasterId": 1,
+    "pronounceName": "StBitterSweetlong",
+    "lyricWriter": "松井洋平",
+    "composer": "光増ハジメ（FirstCall）",
+    "arranger": "光増ハジメ（FirstCall）",
+    "unlockText": "楽曲ショップで購入",
+    "isLongVersion": true,
+    "releasedAt": 1730178000.0,
+    "staminaConsumption": 0,
+    "musicTimeSecond": 234,
+    "invisible": false,
+    "sampleStartSeconds": 0.0,
+    "sampleEndSeconds": 0.0,
+    "delaySeconds": 0.0,
+    "vocalVersions": [
+      {
+        "id": 1009301,
+        "musicMasterId": 10093,
+        "vocalVersion": 1,
+        "singer": "連尺野初魅",
+        "name": "St. Bitter Sweet（Long Ver.）",
+        "musicTimeSecond": 234,
+        "sampleStartSeconds": 0.0,
+        "sampleEndSeconds": 0.0,
+        "musicVideoType": "None",
+        "characters": [
+          201
         ]
       }
     ],
