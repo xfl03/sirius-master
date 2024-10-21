@@ -2546,6 +2546,43 @@
     "fireTimingType": "Sense"
   },
   {
+    "id": 20047,
+    "type": "SenseScoreUp",
+    "range": "All",
+    "calculationType": "PercentageAddition",
+    "details": [
+      {
+        "level": 1,
+        "value": 2400.0
+      },
+      {
+        "level": 2,
+        "value": 2600.0
+      },
+      {
+        "level": 3,
+        "value": 2800.0
+      },
+      {
+        "level": 4,
+        "value": 3200.0
+      },
+      {
+        "level": 5,
+        "value": 3600.0
+      }
+    ],
+    "conditions": [
+      {
+        "condition": "Company",
+        "value": 2
+      }
+    ],
+    "durationSecond": 40,
+    "triggers": [],
+    "fireTimingType": "Sense"
+  },
+  {
     "id": 20051,
     "type": "SenseScoreUp",
     "range": "All",

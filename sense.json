@@ -4575,7 +4575,7 @@
         "branchEffects": [
           {
             "order": 1,
-            "effectMasterId": 20046
+            "effectMasterId": 20047
           }
         ],
         "id": 1411601
@@ -4592,10 +4592,21 @@
   {
     "id": 141170,
     "name": "45口径と少女のフィルム",
-    "description": "[:score]倍のスコアを獲得／センス発動時、追加で「支援の光」を1個獲得する",
+    "description": "[:score]倍のスコアを獲得／センス発動時、追加で「支援の光」を1個獲得する／センス発動後、追加で[:param11]のプリンシパルゲージを獲得",
     "type": "Amplification",
     "preEffects": [],
-    "branches": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20082
+          }
+        ],
+        "id": 1411701
+      }
+    ],
     "acquirableGauge": 0,
     "acquirableScorePercent": 510,
     "scoreUpPerLevel": 40,
