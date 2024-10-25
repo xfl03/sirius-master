@@ -3601,6 +3601,38 @@
     "fireTimingType": "Sense"
   },
   {
+    "id": 20601,
+    "type": 48,
+    "range": "Self",
+    "calculationType": "PercentageAddition",
+    "details": [
+      {
+        "level": 1,
+        "value": 2200.0
+      },
+      {
+        "level": 2,
+        "value": 2400.0
+      },
+      {
+        "level": 3,
+        "value": 2600.0
+      },
+      {
+        "level": 4,
+        "value": 2800.0
+      },
+      {
+        "level": 5,
+        "value": 3000.0
+      }
+    ],
+    "conditions": [],
+    "durationSecond": 0,
+    "triggers": [],
+    "fireTimingType": "Sense"
+  },
+  {
     "id": 20605,
     "type": "SenseScoreUp",
     "range": "All",

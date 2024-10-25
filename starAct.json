@@ -3444,7 +3444,68 @@
     "acquirableScorePercent": 1140,
     "scoreUpPerLevel": 120,
     "preEffects": [],
-    "branches": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19065
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 1,
+        "id": 14119101
+      },
+      {
+        "order": 2,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19066
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 2,
+        "id": 14119102
+      },
+      {
+        "order": 3,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19067
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 3,
+        "id": 14119103
+      },
+      {
+        "order": 4,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19068
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 4,
+        "id": 14119104
+      },
+      {
+        "order": 5,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19069
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 5,
+        "id": 14119105
+      }
+    ],
     "branchCondition1": "CompanyMemberCount",
     "conditionValue1": 3,
     "branchCondition2": "None"

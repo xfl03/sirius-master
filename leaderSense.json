@@ -3366,5 +3366,57 @@
         ]
       }
     ]
+  },
+  {
+    "id": 174,
+    "description": "「銀河座」カテゴリの演技力40%上昇、「衣装」カテゴリの集中力20％上昇・歌唱力15%上昇",
+    "details": [
+      {
+        "effectMasterId": 12005,
+        "conditions": [
+          {
+            "categoryMasterId1": 2003
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12015,
+        "conditions": [
+          {
+            "categoryMasterId1": 8004
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12022,
+        "conditions": [
+          {
+            "categoryMasterId1": 8004
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 175,
+    "description": "「舞台」カテゴリの演技力40%上昇、「マクベス」カテゴリを持つアクターの数に応じて初期プリンシパルゲージが20上昇",
+    "details": [
+      {
+        "effectMasterId": 12005,
+        "conditions": [
+          {
+            "categoryMasterId1": 8002
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12030,
+        "conditions": [
+          {
+            "categoryMasterId1": 6006
+          }
+        ]
+      }
+    ]
   }
 ]
