@@ -3418,5 +3418,49 @@
         ]
       }
     ]
+  },
+  {
+    "id": 176,
+    "description": "「私服」カテゴリの演技力40%上昇、「配信」カテゴリの歌唱力35％上昇",
+    "details": [
+      {
+        "effectMasterId": 12005,
+        "conditions": [
+          {
+            "categoryMasterId1": 4002
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12019,
+        "conditions": [
+          {
+            "categoryMasterId1": 3001
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 177,
+    "description": "「役者」カテゴリの演技力40%上昇、「衣装」カテゴリの集中力35％上昇",
+    "details": [
+      {
+        "effectMasterId": 12005,
+        "conditions": [
+          {
+            "categoryMasterId1": 8003
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12021,
+        "conditions": [
+          {
+            "categoryMasterId1": 8004
+          }
+        ]
+      }
+    ]
   }
 ]

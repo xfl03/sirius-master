@@ -1783,6 +1783,28 @@
     "subTitleDisplayCondition": "None"
   },
   {
+    "id": 220590,
+    "name": "過現未HELLO-WIN！",
+    "rarity": "SR",
+    "levelPatternGroupMasterId": 2,
+    "subTitlePositionX1": 0.0,
+    "subTitlePositionY1": 1593.0,
+    "subTitlePositionX2": 0.0,
+    "subTitlePositionY2": 0.0,
+    "releaseItemGroupId": 2,
+    "pronounceName": "かげんみHELLO-WIN",
+    "costumes": [],
+    "appearanceCharacterBaseMasterIds": [
+      403
+    ],
+    "isRestrictItemBreakThrough": false,
+    "displayStartAt": 1730394000.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "イベントで入手",
+    "orientation": "Portrait",
+    "subTitleDisplayCondition": "None"
+  },
+  {
     "id": 229010,
     "name": "【SIRIUS】竹取物語",
     "rarity": "SSR",
@@ -3659,6 +3681,46 @@
     "subTitleDisplayCondition": "None"
   },
   {
+    "id": 230550,
+    "name": "トリックオアストライク！",
+    "rarity": "SSR",
+    "levelPatternGroupMasterId": 3,
+    "subTitlePositionX1": 0.0,
+    "subTitlePositionY1": 702.0,
+    "subTitlePositionX2": 1134.0,
+    "subTitlePositionY2": 0.0,
+    "releaseItemGroupId": 3,
+    "pronounceName": "とりっくおあすとらいく",
+    "costumes": [
+      {
+        "phase": 0,
+        "costumeMasterId": 2381
+      },
+      {
+        "phase": 1,
+        "costumeMasterId": 2382
+      },
+      {
+        "phase": 2,
+        "costumeMasterId": 2391
+      },
+      {
+        "phase": 3,
+        "costumeMasterId": 2392
+      }
+    ],
+    "appearanceCharacterBaseMasterIds": [
+      305,
+      403
+    ],
+    "isRestrictItemBreakThrough": false,
+    "displayStartAt": 1730394000.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "ガチャ(期間限定)で入手",
+    "orientation": "Portrait",
+    "subTitleDisplayCondition": "None"
+  },
+  {
     "id": 230620,
     "name": "Global Stage",
     "rarity": "SSR",
@@ -3681,6 +3743,37 @@
     "unlockText": "特別な方法で入手",
     "orientation": "Portrait",
     "subTitleDisplayCondition": "None"
+  },
+  {
+    "id": 230720,
+    "name": "【フューチャーダイスター】銀河座",
+    "organizeRestrictGroupId": 2,
+    "rarity": "SSR",
+    "levelPatternGroupMasterId": 3,
+    "subTitlePositionX1": 0.0,
+    "subTitlePositionY1": 0.0,
+    "releaseItemGroupId": 5,
+    "pronounceName": "ぎんがざ",
+    "costumes": [
+      {
+        "phase": 1,
+        "costumeMasterId": 2441
+      }
+    ],
+    "appearanceCharacterBaseMasterIds": [
+      301,
+      302,
+      303,
+      304,
+      305
+    ],
+    "isRestrictItemBreakThrough": false,
+    "displayStartAt": 1730826000.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "ガチャ(期間限定)で入手",
+    "orientation": "Landscape",
+    "subTitleDisplayCondition": "BreakThroughPhase",
+    "subTitleDisplayConditionValue": 3
   },
   {
     "id": 320010,
@@ -4389,6 +4482,26 @@
     ],
     "isRestrictItemBreakThrough": true,
     "displayStartAt": 1726185600.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "特別な方法で入手",
+    "orientation": "Portrait",
+    "subTitleDisplayCondition": "None"
+  },
+  {
+    "id": 340110,
+    "name": "【Birthday2024】筆島 しぐれ",
+    "rarity": "SSR",
+    "levelPatternGroupMasterId": 3,
+    "subTitlePositionX1": 0.0,
+    "subTitlePositionY1": 1636.0,
+    "releaseItemGroupId": 3,
+    "pronounceName": "ふでしましぐれ",
+    "costumes": [],
+    "appearanceCharacterBaseMasterIds": [
+      205
+    ],
+    "isRestrictItemBreakThrough": true,
+    "displayStartAt": 1730851200.0,
     "displayEndAt": 4102444800.0,
     "unlockText": "特別な方法で入手",
     "orientation": "Portrait",

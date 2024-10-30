@@ -1284,6 +1284,18 @@
     "branchCondition2": "None"
   },
   {
+    "id": 130691,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得",
+    "starActConditionMasterId": 101031,
+    "acquirableScorePercent": 400,
+    "scoreUpPerLevel": 40,
+    "preEffects": [],
+    "branches": [],
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
     "id": 130701,
     "name": "",
     "description": "総演技力の[:score]倍のスコアを獲得",
@@ -3508,6 +3520,30 @@
     ],
     "branchCondition1": "CompanyMemberCount",
     "conditionValue1": 3,
+    "branchCondition2": "None"
+  },
+  {
+    "id": 141201,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得",
+    "starActConditionMasterId": 104111,
+    "acquirableScorePercent": 970,
+    "scoreUpPerLevel": 100,
+    "preEffects": [],
+    "branches": [],
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 141211,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得",
+    "starActConditionMasterId": 101141,
+    "acquirableScorePercent": 970,
+    "scoreUpPerLevel": 100,
+    "preEffects": [],
+    "branches": [],
+    "branchCondition1": "None",
     "branchCondition2": "None"
   },
   {

@@ -4903,6 +4903,55 @@
     "maxTalentStage": 5
   },
   {
+    "id": 130690,
+    "characterBaseMasterId": 105,
+    "name": "きゃー、こわーい！",
+    "description": "",
+    "rarity": "Rare3",
+    "attribute": "Cool",
+    "minLevelStatus": {
+      "vocal": 90,
+      "expression": 92,
+      "concentration": 88
+    },
+    "starActMasterId": 130691,
+    "awakenStarActMasterId": 130691,
+    "senseMasterId": 130690,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 30003,
+    "senseEnhanceItemGroupMasterId": 3,
+    "firstEpisodeReleaseItemGroupId": 321,
+    "secondEpisodeReleaseItemGroupId": 322,
+    "characterAwakeningItemGroupMasterId": 32,
+    "displayStartAt": 1730394000.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "イベントで入手",
+    "categories": [
+      {
+        "categoryMasterId": 2001,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1002,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 3001,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7043,
+        "isAwaken": false
+      }
+    ],
+    "leaderSenseMasterId": 31,
+    "maxTalentStage": 5
+  },
+  {
     "id": 130700,
     "characterBaseMasterId": 105,
     "name": "社長業もおしゃまにね！",
@@ -11068,10 +11117,35 @@
       {
         "categoryMasterId": 2003,
         "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8002,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 6006,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8004,
+        "isAwaken": true
+      },
+      {
+        "categoryMasterId": 4003,
+        "isAwaken": true
       }
     ],
     "leaderSenseMasterId": 174,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1729962000.0
   },
   {
     "id": 141190,
@@ -11101,9 +11175,140 @@
       {
         "categoryMasterId": 2003,
         "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8002,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8004,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 6006,
+        "isAwaken": true
+      },
+      {
+        "categoryMasterId": 4006,
+        "isAwaken": true
       }
     ],
     "leaderSenseMasterId": 175,
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1729962000.0
+  },
+  {
+    "id": 141200,
+    "characterBaseMasterId": 403,
+    "name": "SWEEP U OFF Ur ♡！",
+    "description": "",
+    "rarity": "Rare4",
+    "attribute": "Cool",
+    "minLevelStatus": {
+      "vocal": 130,
+      "expression": 95,
+      "concentration": 118
+    },
+    "starActMasterId": 141201,
+    "awakenStarActMasterId": 141201,
+    "senseMasterId": 141200,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 40120,
+    "senseEnhanceItemGroupMasterId": 4,
+    "firstEpisodeReleaseItemGroupId": 421,
+    "secondEpisodeReleaseItemGroupId": 422,
+    "characterAwakeningItemGroupMasterId": 42,
+    "displayStartAt": 1730394000.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "ガチャ(期間限定)で入手",
+    "categories": [
+      {
+        "categoryMasterId": 2004,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 3001,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7043,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 4002,
+        "isAwaken": true
+      }
+    ],
+    "leaderSenseMasterId": 176,
+    "maxTalentStage": 5
+  },
+  {
+    "id": 141210,
+    "characterBaseMasterId": 305,
+    "name": "HANG IN THERE!",
+    "description": "",
+    "rarity": "Rare4",
+    "attribute": "Cool",
+    "minLevelStatus": {
+      "vocal": 99,
+      "expression": 110,
+      "concentration": 133
+    },
+    "starActMasterId": 141211,
+    "awakenStarActMasterId": 141211,
+    "senseMasterId": 141210,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 40121,
+    "senseEnhanceItemGroupMasterId": 4,
+    "firstEpisodeReleaseItemGroupId": 421,
+    "secondEpisodeReleaseItemGroupId": 422,
+    "characterAwakeningItemGroupMasterId": 42,
+    "displayStartAt": 1730394000.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "ガチャ(期間限定)で入手",
+    "categories": [
+      {
+        "categoryMasterId": 2003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 3001,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7043,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8004,
+        "isAwaken": true
+      }
+    ],
+    "leaderSenseMasterId": 177,
     "maxTalentStage": 5
   },
   {

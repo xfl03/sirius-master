@@ -1949,6 +1949,32 @@
     "branchCondition2": "None"
   },
   {
+    "id": 130690,
+    "name": "きゃー、こわーい！",
+    "description": "[:score]倍のスコアを獲得／ライフを[:param11]回復",
+    "type": "Amplification",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20013
+          }
+        ],
+        "id": 1306901
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 190,
+    "scoreUpPerLevel": 40,
+    "lightCount": 1,
+    "coolTime": 50,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
     "id": 130700,
     "name": "社長業もおしゃまにね！",
     "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得",
@@ -4644,7 +4670,7 @@
   {
     "id": 141190,
     "name": "Our fears in",
-    "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／センス発動後、現在のプリンシパルゲージ[:param11]%分のプリンシパルゲージを追加で獲得する",
+    "description": "<size=28%>[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／センス発動後、現在のプリンシパルゲージ[:param11]%分のプリンシパルゲージを追加で獲得する</size>",
     "type": "Support",
     "preEffects": [],
     "branches": [
@@ -4664,6 +4690,58 @@
     "scoreUpPerLevel": 60,
     "lightCount": 1,
     "coolTime": 45,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 141200,
+    "name": "SWEEP U OFF Ur ♡！",
+    "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／[:sec]秒間、劇団電姫のアクターにスターアクトスコア[:param11]％UP効果",
+    "type": "Support",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20402
+          }
+        ],
+        "id": 1412001
+      }
+    ],
+    "acquirableGauge": 100,
+    "acquirableScorePercent": 160,
+    "scoreUpPerLevel": 60,
+    "lightCount": 1,
+    "coolTime": 45,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 141210,
+    "name": "HANG IN THERE!",
+    "description": "[:score]倍のスコアを獲得／センス発動時、追加で「支配の光」を1個獲得する／センス発動後、プリンシパルゲージの上限値が[:param11]上昇",
+    "type": "Amplification",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20095
+          }
+        ],
+        "id": 1412101
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 540,
+    "scoreUpPerLevel": 50,
+    "lightCount": 1,
+    "coolTime": 35,
     "branchCondition1": "None",
     "branchCondition2": "None"
   },

@@ -3912,6 +3912,30 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 220590,
+    "name": "過現未HELLO-WIN！",
+    "description": "劇団電姫に所属するアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 220590,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70022400
+          }
+        ],
+        "id": 22059001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 229010,
     "name": "初めての舞台",
     "description": "<color=#7AC940>彩属性</color>のアクターの演技力が[:param11]%上昇",
@@ -7185,6 +7209,30 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 230550,
+    "name": "好きにはさせないわよ！",
+    "description": "<color=#33B4DF>凛属性</color>のアクターの演技力が[:param11]％上昇",
+    "posterMasterId": 230550,
+    "type": "Leader",
+    "frameNumber": 0,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70052002
+          }
+        ],
+        "id": 23055001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 230620,
     "name": "Worlds Dye Star",
     "description": "全アクターの演技力が[:param11]％上昇",
@@ -7206,6 +7254,57 @@
       }
     ],
     "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230720,
+    "name": "幾星霜を遙か",
+    "description": "全アクターの演技力が[:param11]%上昇",
+    "posterMasterId": 230720,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70052000
+          }
+        ],
+        "id": 23072001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230721,
+    "name": "集中力アップ＋",
+    "description": "銀河座に所属しているアクターのみで編成している場合、追加で全アクターの集中力が[:param11]％上昇",
+    "posterMasterId": 230720,
+    "type": "Leader",
+    "frameNumber": 2,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 73055300
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 5,
+        "id": 23072101
+      }
+    ],
+    "branchConditionType1": "CompanyMemberCount",
+    "conditionValue1": 3,
     "branchConditionType2": "None"
   },
   {
@@ -7803,6 +7902,30 @@
           }
         ],
         "id": 34008001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 340110,
+    "name": "一目で誰もが虜になる",
+    "description": "全アクターの演技力が[:param11]％上昇",
+    "posterMasterId": 340110,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70050000
+          }
+        ],
+        "id": 34011001
       }
     ],
     "branchConditionType1": "None",
@@ -9483,6 +9606,54 @@
           }
         ],
         "id": 220580201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2205901,
+    "name": "演技力アップ",
+    "description": "自身の演技力が[:param11]％上昇　◆発動条件：劇団電姫に所属するアクターが装備",
+    "posterMasterId": 220590,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10010400
+          }
+        ],
+        "id": 220590101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2205902,
+    "name": "初期P.ゲージ上昇",
+    "description": "公演開始時、P.ゲージが[:param11]上昇　◆発動条件：劇団電姫に所属するアクターが装備",
+    "posterMasterId": 220590,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11510400
+          }
+        ],
+        "id": 220590201
       }
     ],
     "branchConditionType1": "None",
@@ -11471,6 +11642,78 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 2305501,
+    "name": "歌唱力アップⅢ",
+    "description": "自身の歌唱力が[:param11]%上昇",
+    "posterMasterId": 230550,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10130000
+          }
+        ],
+        "id": 230550101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2305502,
+    "name": "初期P.ゲージ上昇＋",
+    "description": "公演開始時、P.ゲージが[:param11]上昇　◆発動条件：<color=#33B4DF>凛属性</color>のアクターが装備",
+    "posterMasterId": 230550,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11511002
+          }
+        ],
+        "id": 230550201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2305503,
+    "name": "「光」獲得数増加",
+    "description": "センスで付与する「光」の付与数が[:param11]個増加　◆発動条件：<color=#33B4DF>凛属性</color>のアクターが装備",
+    "posterMasterId": 230550,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11810002
+          }
+        ],
+        "id": 230550301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 2306201,
     "name": "演技力アップⅡ",
     "description": "自身の演技力が[:param11]％上昇",
@@ -11513,6 +11756,140 @@
           }
         ],
         "id": 230620201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2307201,
+    "name": "演技力アップⅢ",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：銀河座に所属するアクターが装備",
+    "posterMasterId": 230720,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10030300
+          }
+        ],
+        "id": 230720101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2307202,
+    "name": "名門の流儀",
+    "description": "プリンシパルゲージの上限を1000上昇　◆発動条件：銀河座に所属するアクターが装備",
+    "posterMasterId": 230720,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 60000300
+          }
+        ],
+        "id": 230720201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2307203,
+    "name": "集中力アップ・混星",
+    "description": "編成されている属性数が多いほど自身の集中力が上昇（4属性：[:param11]％／3属性：[:param21]％／2属性：[:param31]％／1属性：[:param41]％）　◆発動条件：銀河座に所属するアクターが装備",
+    "posterMasterId": 230720,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 9,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10715300
+          }
+        ],
+        "judgeType1": 2,
+        "parameter1": 4,
+        "id": 230720301
+      },
+      {
+        "order": 2,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10716300
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 3,
+        "id": 230720302
+      },
+      {
+        "order": 3,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10717300
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 2,
+        "id": 230720303
+      },
+      {
+        "order": 4,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10718300
+          }
+        ],
+        "judgeType1": 3,
+        "parameter1": 1,
+        "id": 230720304
+      }
+    ],
+    "branchConditionType1": "AttributeCount",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2307204,
+    "name": "「光」追加（SP）",
+    "description": "センス発動時、SP光を追加で付与　◆発動条件：銀河座に所属するアクターが装備",
+    "posterMasterId": 230720,
+    "type": "Normal",
+    "frameNumber": 4,
+    "releaseLevelAt": 10,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11911300
+          }
+        ],
+        "id": 230720401
       }
     ],
     "branchConditionType1": "None",
@@ -13073,6 +13450,78 @@
           }
         ],
         "id": 340080301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3401101,
+    "name": "演技力アップⅢ",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：しぐれが装備",
+    "posterMasterId": 340110,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10030205
+          }
+        ],
+        "id": 340110101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3401102,
+    "name": "P.ゲージブースト＋",
+    "description": "センス発動直後、Pゲージを[:param11]獲得　◆発動条件：しぐれが装備",
+    "posterMasterId": 340110,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11410205
+          }
+        ],
+        "id": 340110201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3401103,
+    "name": "「光」追加（SP）",
+    "description": "公演開始時、SP光を[:param11]付与（効果は公演開始時1回のみ発動する）　◆発動条件：しぐれが装備",
+    "posterMasterId": 340110,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11910205
+          }
+        ],
+        "id": 340110301
       }
     ],
     "branchConditionType1": "None",
