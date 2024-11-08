@@ -4854,6 +4854,55 @@
     "maxTalentStage": 5
   },
   {
+    "id": 130670,
+    "characterBaseMasterId": 305,
+    "name": "美味しいはシェアしないと！",
+    "description": "",
+    "rarity": "Rare3",
+    "attribute": "Cute",
+    "minLevelStatus": {
+      "vocal": 104,
+      "expression": 82,
+      "concentration": 84
+    },
+    "starActMasterId": 130671,
+    "awakenStarActMasterId": 130671,
+    "senseMasterId": 130670,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 30003,
+    "senseEnhanceItemGroupMasterId": 3,
+    "firstEpisodeReleaseItemGroupId": 311,
+    "secondEpisodeReleaseItemGroupId": 312,
+    "characterAwakeningItemGroupMasterId": 31,
+    "displayStartAt": 1731258000.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "イベントで入手",
+    "categories": [
+      {
+        "categoryMasterId": 2003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 4003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7504,
+        "isAwaken": false
+      }
+    ],
+    "leaderSenseMasterId": 153,
+    "maxTalentStage": 5
+  },
+  {
     "id": 130680,
     "characterBaseMasterId": 205,
     "name": "一番大事にすべきもの",
@@ -5930,7 +5979,8 @@
       }
     ],
     "leaderSenseMasterId": 140,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1731690000.0
   },
   {
     "id": 140180,
@@ -5983,7 +6033,8 @@
       }
     ],
     "leaderSenseMasterId": 134,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1731690000.0
   },
   {
     "id": 140190,
@@ -6151,7 +6202,8 @@
       }
     ],
     "leaderSenseMasterId": 97,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1731690000.0
   },
   {
     "id": 140220,
@@ -6208,7 +6260,8 @@
       }
     ],
     "leaderSenseMasterId": 157,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1731690000.0
   },
   {
     "id": 140240,
@@ -10981,6 +11034,112 @@
       }
     ],
     "leaderSenseMasterId": 170,
+    "maxTalentStage": 5
+  },
+  {
+    "id": 141140,
+    "characterBaseMasterId": 301,
+    "name": "行き先は星々のもと",
+    "description": "",
+    "rarity": "Rare4",
+    "attribute": "Cute",
+    "minLevelStatus": {
+      "vocal": 134,
+      "expression": 94,
+      "concentration": 115
+    },
+    "starActMasterId": 141141,
+    "awakenStarActMasterId": 141141,
+    "senseMasterId": 141140,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 40114,
+    "senseEnhanceItemGroupMasterId": 4,
+    "firstEpisodeReleaseItemGroupId": 411,
+    "secondEpisodeReleaseItemGroupId": 412,
+    "characterAwakeningItemGroupMasterId": 41,
+    "displayStartAt": 1731258000.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "ガチャで入手",
+    "categories": [
+      {
+        "categoryMasterId": 2003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 4002,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7504,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 5005,
+        "isAwaken": true
+      }
+    ],
+    "leaderSenseMasterId": 178,
+    "maxTalentStage": 5
+  },
+  {
+    "id": 141150,
+    "characterBaseMasterId": 303,
+    "name": "旅情の旨味",
+    "description": "",
+    "rarity": "Rare4",
+    "attribute": "Cute",
+    "minLevelStatus": {
+      "vocal": 102,
+      "expression": 115,
+      "concentration": 122
+    },
+    "starActMasterId": 141151,
+    "awakenStarActMasterId": 141151,
+    "senseMasterId": 141150,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 40115,
+    "senseEnhanceItemGroupMasterId": 4,
+    "firstEpisodeReleaseItemGroupId": 411,
+    "secondEpisodeReleaseItemGroupId": 412,
+    "characterAwakeningItemGroupMasterId": 41,
+    "displayStartAt": 1731258000.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "ガチャで入手",
+    "categories": [
+      {
+        "categoryMasterId": 2003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 4003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7504,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 4002,
+        "isAwaken": true
+      }
+    ],
+    "leaderSenseMasterId": 179,
     "maxTalentStage": 5
   },
   {

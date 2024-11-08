@@ -1934,6 +1934,32 @@
     "branchCondition2": "None"
   },
   {
+    "id": 130670,
+    "name": "美味しいはシェアしないと！",
+    "description": "[:score]倍のスコアを獲得／ライフを[:param11]回復",
+    "type": "Amplification",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20013
+          }
+        ],
+        "id": 1306701
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 190,
+    "scoreUpPerLevel": 40,
+    "lightCount": 1,
+    "coolTime": 50,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
     "id": 130680,
     "name": "一番大事にすべきもの",
     "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得",
@@ -4586,6 +4612,58 @@
     "scoreUpPerLevel": 70,
     "lightCount": 1,
     "coolTime": 60,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 141140,
+    "name": "行き先は星々のもと",
+    "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／センス発動後、追加で[:param11]のプリンシパルゲージを獲得\t",
+    "type": "Special",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20081
+          }
+        ],
+        "id": 1411401
+      }
+    ],
+    "acquirableGauge": 120,
+    "acquirableScorePercent": 190,
+    "scoreUpPerLevel": 70,
+    "lightCount": 1,
+    "coolTime": 60,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 141150,
+    "name": "旅情の旨味",
+    "description": "[:score]倍のスコアを獲得／センス発動直後、自身の集中力の[:param11]倍のスコアを獲得",
+    "type": "Amplification",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20534
+          }
+        ],
+        "id": 1411501
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 600,
+    "scoreUpPerLevel": 50,
+    "lightCount": 2,
+    "coolTime": 40,
     "branchCondition1": "None",
     "branchCondition2": "None"
   },

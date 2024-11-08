@@ -330,6 +330,39 @@
     "campaignEffectValue": 50
   },
   {
+    "id": 33,
+    "title": "公演の獲得EXP 50％UP",
+    "description": "期間：11/9 17:00～11/15 5:00/n対象：公演、協力公演",
+    "iconImagePath": "4",
+    "order": 33,
+    "startDate": 1731171600.0,
+    "endDate": 1731646800.0,
+    "campaignEffectType": "RankPoint",
+    "campaignEffectValue": 50
+  },
+  {
+    "id": 34,
+    "title": "稽古の獲得SP 50％UP",
+    "description": "期間：11/15 5:00～11/18 5:00/n対象：稽古",
+    "iconImagePath": "3",
+    "order": 34,
+    "startDate": 1731646800.0,
+    "endDate": 1731906000.0,
+    "campaignEffectType": "StarPoint",
+    "campaignEffectValue": 50
+  },
+  {
+    "id": 35,
+    "title": "稽古の回数 +1回",
+    "description": "期間：11/15 5:00～11/18 5:00/n対象：稽古",
+    "iconImagePath": "1001",
+    "order": 35,
+    "startDate": 1731646800.0,
+    "endDate": 1731906000.0,
+    "campaignEffectType": "LessonCount",
+    "campaignEffectValue": 1
+  },
+  {
     "id": 1000,
     "title": "公演の獲得EXP 50％UP",
     "description": "ウェルカムバックキャンペーン/n期間：7日間/n対象：公演、協力公演",

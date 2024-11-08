@@ -3582,6 +3582,43 @@
     "musicCoverType": "Original"
   },
   {
+    "id": 96,
+    "name": "ハチメンロッピング！",
+    "description": "",
+    "rewardRuleMasterId": 1,
+    "pronounceName": "はちめんろっぴんぐ",
+    "lyricWriter": "松井洋平",
+    "composer": "藤井健太郎(HANO)",
+    "arranger": "藤井健太郎(HANO)",
+    "isLongVersion": false,
+    "releasedAt": 1731258000.0,
+    "staminaConsumption": 28,
+    "musicTimeSecond": 113,
+    "invisible": false,
+    "sampleStartSeconds": 0.0,
+    "sampleEndSeconds": 0.0,
+    "delaySeconds": 0.0,
+    "vocalVersions": [
+      {
+        "id": 9601,
+        "musicMasterId": 96,
+        "vocalVersion": 1,
+        "singer": "王雪",
+        "name": "ハチメンロッピング！",
+        "musicTimeSecond": 113,
+        "sampleStartSeconds": 0.0,
+        "sampleEndSeconds": 0.0,
+        "musicVideoType": "None",
+        "characters": [
+          303
+        ]
+      }
+    ],
+    "unlockConditionType": "Default",
+    "musicVideoType": "None",
+    "musicCoverType": "Original"
+  },
+  {
     "id": 97,
     "name": "To B-eat, or not to B-eat!",
     "description": "",
@@ -5914,6 +5951,45 @@
     "musicCoverType": "Cover"
   },
   {
+    "id": 176,
+    "name": "いーあるふぁんくらぶ",
+    "description": "",
+    "rewardRuleMasterId": 1,
+    "pronounceName": "いーあるふぁんくらぶ",
+    "lyricWriter": "みきとＰ",
+    "composer": "みきとＰ",
+    "arranger": "-",
+    "unlockText": "楽曲ショップで購入",
+    "isLongVersion": false,
+    "releasedAt": 1731171600.0,
+    "staminaConsumption": 28,
+    "musicTimeSecond": 109,
+    "invisible": false,
+    "sampleStartSeconds": 0.0,
+    "sampleEndSeconds": 0.0,
+    "delaySeconds": 0.0,
+    "vocalVersions": [
+      {
+        "id": 17601,
+        "musicMasterId": 176,
+        "vocalVersion": 1,
+        "singer": "柳場ぱんだ、王雪",
+        "name": "いーあるふぁんくらぶ",
+        "musicTimeSecond": 109,
+        "sampleStartSeconds": 0.0,
+        "sampleEndSeconds": 0.0,
+        "musicVideoType": "None",
+        "characters": [
+          105,
+          303
+        ]
+      }
+    ],
+    "unlockConditionType": "Buy",
+    "musicVideoType": "None",
+    "musicCoverType": "Cover"
+  },
+  {
     "id": 9999,
     "name": "TUTORIAL",
     "description": "",
@@ -6621,6 +6697,45 @@
     ],
     "unlockConditionType": "Buy",
     "musicVideoType": "None",
+    "musicCoverType": "Original"
+  },
+  {
+    "id": 10053,
+    "name": "電脳スペクタクル（Long Ver.）",
+    "description": "",
+    "rewardRuleMasterId": 1,
+    "pronounceName": "でんのうすぺくたくるlong",
+    "lyricWriter": "志村真白（FirstCall）",
+    "composer": "志村真白（FirstCall）",
+    "arranger": "志村真白（FirstCall）",
+    "unlockText": "楽曲ショップで購入",
+    "isLongVersion": true,
+    "releasedAt": 1731387600.0,
+    "staminaConsumption": 0,
+    "musicTimeSecond": 210,
+    "invisible": false,
+    "sampleStartSeconds": 0.0,
+    "sampleEndSeconds": 0.0,
+    "delaySeconds": 0.0,
+    "vocalVersions": [
+      {
+        "id": 1005301,
+        "musicMasterId": 10053,
+        "vocalVersion": 1,
+        "singer": "猫足蕾、阿岐留カミラ",
+        "name": "電脳スペクタクル（Long Ver.）",
+        "musicTimeSecond": 210,
+        "sampleStartSeconds": 0.0,
+        "sampleEndSeconds": 0.0,
+        "musicVideoType": "Movie",
+        "characters": [
+          403,
+          404
+        ]
+      }
+    ],
+    "unlockConditionType": "Buy",
+    "musicVideoType": "Movie",
     "musicCoverType": "Original"
   },
   {
