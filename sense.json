@@ -2016,6 +2016,21 @@
     "branchCondition2": "None"
   },
   {
+    "id": 130710,
+    "name": "何度でも熱く、自由に",
+    "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得",
+    "type": "Support",
+    "preEffects": [],
+    "branches": [],
+    "acquirableGauge": 90,
+    "acquirableScorePercent": 140,
+    "scoreUpPerLevel": 50,
+    "lightCount": 1,
+    "coolTime": 60,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
     "id": 140010,
     "name": "悲哀と恋慕の旋律",
     "description": "[:score]倍のスコアを獲得／ライフを[:param11]回復／ライフが多いほどここなのスコア獲得量UP（最大＋100％）",
@@ -4867,6 +4882,142 @@
     "lightCount": 0,
     "coolTime": 0,
     "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 141240,
+    "name": "千の歌を紡ぐ幻影",
+    "description": "[:score]倍のスコアを獲得／センス発動直後、自身の表現力の[:param11]倍のスコアを獲得",
+    "type": "Amplification",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20535
+          }
+        ],
+        "id": 1412401
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 600,
+    "scoreUpPerLevel": 50,
+    "lightCount": 1,
+    "coolTime": 40,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 141250,
+    "name": "空を知り、恋をして",
+    "description": "<size=28%>[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／センス発動後、現在のプリンシパルゲージ[:param11]%分のプリンシパルゲージを追加で獲得する</size>",
+    "type": "Support",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20602
+          }
+        ],
+        "id": 1412501
+      }
+    ],
+    "acquirableGauge": 100,
+    "acquirableScorePercent": 160,
+    "scoreUpPerLevel": 60,
+    "lightCount": 1,
+    "coolTime": 45,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 141280,
+    "name": "ようこそ不思議なこの国へ",
+    "description": "[:score]倍のスコアを獲得／ライフが多いほどスコア獲得量UP効果（最大＋[:pre1]%）",
+    "type": "Special",
+    "preEffects": [
+      {
+        "order": 1,
+        "effectMasterId": 28001
+      }
+    ],
+    "branches": [],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 600,
+    "scoreUpPerLevel": 50,
+    "lightCount": 1,
+    "coolTime": 40,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 141290,
+    "name": "光の海でも輝いて",
+    "description": "[:score]倍のスコアを獲得／編成されている属性1種類につきスコア獲得量15％上昇（最大＋60％）",
+    "type": "Support",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29151
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 1,
+        "id": 1412901
+      },
+      {
+        "order": 2,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29152
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 2,
+        "id": 1412902
+      },
+      {
+        "order": 3,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29153
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 3,
+        "id": 1412903
+      },
+      {
+        "order": 4,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29154
+          }
+        ],
+        "judgeType1": 2,
+        "parameter1": 4,
+        "id": 1412904
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 600,
+    "scoreUpPerLevel": 50,
+    "lightCount": 1,
+    "coolTime": 40,
+    "branchCondition1": "AttributeCount",
     "branchCondition2": "None"
   }
 ]

@@ -7500,6 +7500,54 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 320110,
+    "name": "ギラン！　ですっ！",
+    "description": "全アクターの演技力が[:param11]％上昇",
+    "posterMasterId": 320110,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70021000
+          }
+        ],
+        "id": 32011001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 320120,
+    "name": "困りますわよ！",
+    "description": "ラブライブ！サンシャイン!!に所属するアクターの演技力が[:param11]％上昇",
+    "posterMasterId": 320120,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70022900
+          }
+        ],
+        "id": 32012001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 320150,
     "name": "眠れぬ夜に",
     "description": "全アクターの演技力が[:param11]%上昇",
@@ -7830,6 +7878,54 @@
           }
         ],
         "id": 33013001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 330140,
+    "name": "これが私たちのステージ！",
+    "description": "全アクターの演技力が[:param11]%上昇",
+    "posterMasterId": 330140,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70042000
+          }
+        ],
+        "id": 33014001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 330160,
+    "name": "特別な出会いに感謝しよう",
+    "description": "全アクターの演技力が[:param11]%上昇",
+    "posterMasterId": 330160,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70042000
+          }
+        ],
+        "id": 33016001
       }
     ],
     "branchConditionType1": "None",
@@ -12256,6 +12352,102 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 3201101,
+    "name": "演技力アップ",
+    "description": "自身の演技力が[:param11]％上昇",
+    "posterMasterId": 320110,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10010000
+          }
+        ],
+        "id": 320110101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3201102,
+    "name": "初期P.ゲージ上昇",
+    "description": "公演開始時、P.ゲージが[:param11]上昇",
+    "posterMasterId": 320110,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11510000
+          }
+        ],
+        "id": 320110201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3201201,
+    "name": "演技力アップ",
+    "description": "自身の演技力が[:param11]％上昇　◆発動条件：ラブライブ！サンシャイン!!に所属するアクターが装備",
+    "posterMasterId": 320120,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10010900
+          }
+        ],
+        "id": 320120101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3201202,
+    "name": "ライフブースト",
+    "description": "センス発動直後、ライフを[:param11]回復　◆発動条件：ラブライブ！サンシャイン!!に所属するアクターが装備",
+    "posterMasterId": 320120,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11211900
+          }
+        ],
+        "id": 320120201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 3201501,
     "name": "スコアブースト・集中力",
     "description": "センス発動直後、自身の集中力の[:param11]倍のスコアを獲得　◆発動条件：暦が装備",
@@ -13234,6 +13426,222 @@
           }
         ],
         "id": 330130301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3301401,
+    "name": "演技力アップⅡ＋＋",
+    "description": "自身の演技力が[:param11]%上昇",
+    "posterMasterId": 330140,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10022000
+          }
+        ],
+        "id": 330140101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3301402,
+    "name": "CTダウンⅡ",
+    "description": "自身のセンスのCTを[:param11]秒短縮",
+    "posterMasterId": 330140,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 12410000
+          }
+        ],
+        "id": 330140201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3301403,
+    "name": "初期P.ゲージ上昇＋",
+    "description": "公演開始時、P.ゲージが[:param11]上昇",
+    "posterMasterId": 330140,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11511000
+          }
+        ],
+        "id": 330140301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3301404,
+    "name": "「光」獲得数増加",
+    "description": "センスで付与する「光」の付与数が[:param11]個増加　◆発動条件：ラブライブ！サンシャイン!!に所属するアクターが装備",
+    "posterMasterId": 330140,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11810900
+          }
+        ],
+        "id": 330140401
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3301601,
+    "name": "演技力アップⅢ",
+    "description": "自身の演技力が[:param11]％上昇",
+    "posterMasterId": 330160,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10030000
+          }
+        ],
+        "id": 330160101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3301602,
+    "name": "演技力アップⅡ",
+    "description": "自身の演技力が[:param11]％上昇　◆発動条件：<color=#33B4DF>凛属性</color>のアクターが装備",
+    "posterMasterId": 330160,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10020002
+          }
+        ],
+        "id": 330160201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3301603,
+    "name": "P.ゲージ上限上昇＋",
+    "description": "P.ゲージの上限が[:param11]上昇　◆発動条件：<color=#33B4DF>凛属性</color>のアクターが装備",
+    "posterMasterId": 330160,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11710002
+          }
+        ],
+        "id": 330160301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3301604,
+    "name": "演技力アップⅡ",
+    "description": "自身の演技力が[:param11]％上昇　◆発動条件：<color=#FF9314>陽属性</color>のアクターが装備",
+    "posterMasterId": 330160,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10020004
+          }
+        ],
+        "id": 330160401
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3301605,
+    "name": "P.ゲージ上限上昇＋",
+    "description": "P.ゲージの上限が[:param11]上昇　◆発動条件：<color=#FF9314>陽属性</color>のアクターが装備",
+    "posterMasterId": 330160,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11710004
+          }
+        ],
+        "id": 330160501
       }
     ],
     "branchConditionType1": "None",
