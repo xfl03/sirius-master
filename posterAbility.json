@@ -13529,7 +13529,7 @@
   },
   {
     "id": 3301601,
-    "name": "演技力アップⅢ",
+    "name": "演技力アップⅢ＋",
     "description": "自身の演技力が[:param11]％上昇",
     "posterMasterId": 330160,
     "type": "Normal",
@@ -13542,7 +13542,7 @@
         "branchEffects": [
           {
             "order": 1,
-            "effectMasterId": 10030000
+            "effectMasterId": 10031000
           }
         ],
         "id": 330160101
@@ -13553,8 +13553,8 @@
   },
   {
     "id": 3301602,
-    "name": "演技力アップⅡ",
-    "description": "自身の演技力が[:param11]％上昇　◆発動条件：<color=#33B4DF>凛属性</color>のアクターが装備",
+    "name": "スコアブースト＋",
+    "description": "センス発動直後、現在のスコアの[:param11]%のスコアを獲得　◆発動条件：<color=#33B4DF>凛属性</color>のアクターが装備",
     "posterMasterId": 330160,
     "type": "Normal",
     "frameNumber": 2,
@@ -13566,7 +13566,7 @@
         "branchEffects": [
           {
             "order": 1,
-            "effectMasterId": 10020002
+            "effectMasterId": 10811002
           }
         ],
         "id": 330160201
@@ -13601,8 +13601,8 @@
   },
   {
     "id": 3301604,
-    "name": "演技力アップⅡ",
-    "description": "自身の演技力が[:param11]％上昇　◆発動条件：<color=#FF9314>陽属性</color>のアクターが装備",
+    "name": "スコアブースト＋",
+    "description": "センス発動直後、現在のスコアの[:param11]%のスコアを獲得　◆発動条件：<color=#FF9314>陽属性</color>のアクターが装備",
     "posterMasterId": 330160,
     "type": "Normal",
     "frameNumber": 2,
@@ -13614,7 +13614,7 @@
         "branchEffects": [
           {
             "order": 1,
-            "effectMasterId": 10020004
+            "effectMasterId": 10811004
           }
         ],
         "id": 330160401
