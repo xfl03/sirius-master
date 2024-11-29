@@ -1332,6 +1332,18 @@
     "branchCondition2": "None"
   },
   {
+    "id": 130721,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得",
+    "starActConditionMasterId": 101103,
+    "acquirableScorePercent": 400,
+    "scoreUpPerLevel": 40,
+    "preEffects": [],
+    "branches": [],
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
     "id": 140011,
     "name": "",
     "description": "総演技力の[:score]倍のスコアを獲得",
@@ -3754,6 +3766,30 @@
     "branchCondition2": "None"
   },
   {
+    "id": 141261,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得",
+    "starActConditionMasterId": 101411,
+    "acquirableScorePercent": 970,
+    "scoreUpPerLevel": 100,
+    "preEffects": [],
+    "branches": [],
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 141271,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得",
+    "starActConditionMasterId": 104111,
+    "acquirableScorePercent": 970,
+    "scoreUpPerLevel": 100,
+    "preEffects": [],
+    "branches": [],
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
     "id": 141281,
     "name": "",
     "description": "総演技力の[:score]倍のスコアを獲得",
@@ -3775,6 +3811,80 @@
     "preEffects": [],
     "branches": [],
     "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 141301,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得／ストックされている全ての光1個につき総演技力の[:param11]倍のスコアを獲得(最大5個)",
+    "starActConditionMasterId": 105111,
+    "acquirableScorePercent": 1140,
+    "scoreUpPerLevel": 120,
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19026
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 1,
+        "id": 14130101
+      },
+      {
+        "order": 2,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19027
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 2,
+        "id": 14130102
+      },
+      {
+        "order": 3,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19028
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 3,
+        "id": 14130103
+      },
+      {
+        "order": 4,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19029
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 4,
+        "id": 14130104
+      },
+      {
+        "order": 5,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19030
+          }
+        ],
+        "judgeType1": 2,
+        "parameter1": 5,
+        "id": 14130105
+      }
+    ],
+    "branchCondition1": "StorageSenseLightCount",
+    "conditionValue1": 5,
     "branchCondition2": "None"
   }
 ]

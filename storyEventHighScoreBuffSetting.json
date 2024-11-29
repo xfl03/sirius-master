@@ -1662,5 +1662,109 @@
       "effectDescription": "公演開始時にプリンシパルゲージが[:param1]上昇する　　※<color=#ff679d>憐属性</color>の連尺野 初魅のみ対象",
       "iconImagePath": "163"
     }
+  },
+  {
+    "id": 2004501,
+    "storyEventHighScoreMasterId": 20045,
+    "storyEventHighScoreBuffMasterId": 11,
+    "storyEventHighScoreBuffMaster": {
+      "id": 11,
+      "storyEventHighScoreBuffPatternGroupId": 1,
+      "effectMasterId": 80003,
+      "effectName": "舞台照明",
+      "effectDescription": "アクターの集中力が[:param1]上昇する",
+      "iconImagePath": "11"
+    }
+  },
+  {
+    "id": 2004502,
+    "storyEventHighScoreMasterId": 20045,
+    "storyEventHighScoreBuffMasterId": 12,
+    "storyEventHighScoreBuffMaster": {
+      "id": 12,
+      "storyEventHighScoreBuffPatternGroupId": 1,
+      "effectMasterId": 80002,
+      "effectName": "舞台スピーカー",
+      "effectDescription": "アクターの表現力が[:param1]上昇する",
+      "iconImagePath": "12"
+    }
+  },
+  {
+    "id": 2004503,
+    "storyEventHighScoreMasterId": 20045,
+    "storyEventHighScoreBuffMasterId": 13,
+    "storyEventHighScoreBuffMaster": {
+      "id": 13,
+      "storyEventHighScoreBuffPatternGroupId": 1,
+      "effectMasterId": 80001,
+      "effectName": "舞台マイク",
+      "effectDescription": "アクターの歌唱力が[:param1]上昇する",
+      "iconImagePath": "13"
+    }
+  },
+  {
+    "id": 2004504,
+    "storyEventHighScoreMasterId": 20045,
+    "storyEventHighScoreBuffMasterId": 14,
+    "storyEventHighScoreBuffMaster": {
+      "id": 14,
+      "storyEventHighScoreBuffPatternGroupId": 1,
+      "effectMasterId": 80004,
+      "effectName": "舞台カーテン",
+      "effectDescription": "アクターの演技力が[:param1]％上昇する",
+      "iconImagePath": "14"
+    }
+  },
+  {
+    "id": 2004505,
+    "storyEventHighScoreMasterId": 20045,
+    "storyEventHighScoreBuffMasterId": 165,
+    "storyEventHighScoreBuffMaster": {
+      "id": 165,
+      "storyEventHighScoreBuffPatternGroupId": 2,
+      "effectMasterId": 80069,
+      "effectName": "ラブライブの優勝旗",
+      "effectDescription": "ラブライブ！サンシャイン!!に所属するアクター1人につき、プリンシパルゲージの上限値が[:param1]上昇する",
+      "iconImagePath": "165"
+    }
+  },
+  {
+    "id": 2004506,
+    "storyEventHighScoreMasterId": 20045,
+    "storyEventHighScoreBuffMasterId": 166,
+    "storyEventHighScoreBuffMaster": {
+      "id": 166,
+      "storyEventHighScoreBuffPatternGroupId": 2,
+      "effectMasterId": 80070,
+      "effectName": "エビのぬいぐるみ",
+      "effectDescription": "スターアクト発動に必要な増幅の光<color=#ffd700>*</color>が[:param1]個減少する（必要な光の数は1個未満にならない）　※<color=#FF9314>陽属性</color>の高海 千歌のみ対象",
+      "iconImagePath": "166"
+    }
+  },
+  {
+    "id": 2004507,
+    "storyEventHighScoreMasterId": 20045,
+    "storyEventHighScoreBuffMasterId": 167,
+    "storyEventHighScoreBuffMaster": {
+      "id": 167,
+      "storyEventHighScoreBuffPatternGroupId": 2,
+      "effectMasterId": 80071,
+      "effectName": "Aqoursのロゴ",
+      "effectDescription": "センスのCTが[:param1]秒短縮する　※<color=#ff679d>憐属性</color>の黒澤 ダイヤのみ対象",
+      "iconImagePath": "167"
+    }
+  },
+  {
+    "id": 2004508,
+    "storyEventHighScoreMasterId": 20045,
+    "storyEventHighScoreBuffMasterId": 168,
+    "storyEventHighScoreBuffMaster": {
+      "id": 168,
+      "storyEventHighScoreBuffPatternGroupId": 2,
+      "effectMasterId": 80072,
+      "effectName": "青空Jumping Heartの衣装",
+      "effectDescription": "公演開始時にプリンシパルゲージが[:param1]上昇する　※<color=#FF9314>陽属性</color>の黒澤 ルビィのみ対象",
+      "iconImagePath": "168"
+    }
   }
 ]

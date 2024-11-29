@@ -678,13 +678,33 @@
   {
     "storyMasterId": 20044,
     "previousStoryMasterIds": [],
-    "nextStoryMasterIds": [],
+    "nextStoryMasterIds": [
+      20045
+    ],
     "sideStoryCharacterMasterIds": [
-      130710
+      141260,
+      130710,
+      130720
     ],
     "relatedStoryMasterIds": [
       10103
     ]
+  },
+  {
+    "storyMasterId": 20045,
+    "previousStoryMasterIds": [
+      20044
+    ],
+    "nextStoryMasterIds": [],
+    "sideStoryCharacterMasterIds": [
+      141240,
+      141250,
+      141280,
+      141290,
+      141270,
+      141300
+    ],
+    "relatedStoryMasterIds": []
   },
   {
     "storyMasterId": 30001,

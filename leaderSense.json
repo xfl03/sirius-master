@@ -3508,6 +3508,20 @@
     ]
   },
   {
+    "id": 180,
+    "description": "「高校生」カテゴリの演技力20%上昇",
+    "details": [
+      {
+        "effectMasterId": 12003,
+        "conditions": [
+          {
+            "categoryMasterId1": 1003
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": 181,
     "description": "「高校生」カテゴリの演技力40%上昇、「衣装」カテゴリの歌唱力35％上昇",
     "details": [
@@ -3521,6 +3535,28 @@
       },
       {
         "effectMasterId": 12019,
+        "conditions": [
+          {
+            "categoryMasterId1": 8004
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 182,
+    "description": "「役者」カテゴリの演技力40%上昇、「衣装」カテゴリの表現力35％上昇",
+    "details": [
+      {
+        "effectMasterId": 12005,
+        "conditions": [
+          {
+            "categoryMasterId1": 8003
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12020,
         "conditions": [
           {
             "categoryMasterId1": 8004
@@ -3590,6 +3626,50 @@
         "conditions": [
           {
             "categoryMasterId1": 4006
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 186,
+    "description": "「高校生」カテゴリの演技力40%上昇、「スクールアイドル」カテゴリの集中力35％上昇",
+    "details": [
+      {
+        "effectMasterId": 12005,
+        "conditions": [
+          {
+            "categoryMasterId1": 1003
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12021,
+        "conditions": [
+          {
+            "categoryMasterId1": 8010
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 187,
+    "description": "「高校生」カテゴリの演技力40%上昇、「舞台」カテゴリを持つアクターの数に応じて初期プリンシパルゲージが20上昇",
+    "details": [
+      {
+        "effectMasterId": 12005,
+        "conditions": [
+          {
+            "categoryMasterId1": 1003
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12030,
+        "conditions": [
+          {
+            "categoryMasterId1": 8002
           }
         ]
       }

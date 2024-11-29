@@ -5099,6 +5099,55 @@
     "maxTalentStage": 5
   },
   {
+    "id": 130720,
+    "characterBaseMasterId": 301,
+    "name": "いつもと違うわたくし",
+    "description": "",
+    "rarity": "Rare3",
+    "attribute": "Cool",
+    "minLevelStatus": {
+      "vocal": 82,
+      "expression": 96,
+      "concentration": 92
+    },
+    "starActMasterId": 130721,
+    "awakenStarActMasterId": 130721,
+    "senseMasterId": 130720,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 30004,
+    "senseEnhanceItemGroupMasterId": 3,
+    "firstEpisodeReleaseItemGroupId": 321,
+    "secondEpisodeReleaseItemGroupId": 322,
+    "characterAwakeningItemGroupMasterId": 32,
+    "displayStartAt": 1732986000.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "イベント(コラボ)で入手",
+    "categories": [
+      {
+        "categoryMasterId": 2003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 2005,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7045,
+        "isAwaken": false
+      }
+    ],
+    "leaderSenseMasterId": 180,
+    "maxTalentStage": 5
+  },
+  {
     "id": 140010,
     "characterBaseMasterId": 101,
     "name": "悲哀と恋慕の旋律",
@@ -11667,6 +11716,10 @@
         "isAwaken": false
       },
       {
+        "categoryMasterId": 7045,
+        "isAwaken": false
+      },
+      {
         "categoryMasterId": 6005,
         "isAwaken": true
       },
@@ -11736,6 +11789,122 @@
     "leaderSenseMasterId": 184,
     "maxTalentStage": 6,
     "maxTalentStageReleaseDate": 1732122000.0
+  },
+  {
+    "id": 141260,
+    "characterBaseMasterId": 904,
+    "name": "diadem for silver bullet",
+    "description": "",
+    "rarity": "Rare4",
+    "attribute": "Cute",
+    "minLevelStatus": {
+      "vocal": 119,
+      "expression": 100,
+      "concentration": 126
+    },
+    "starActMasterId": 141261,
+    "awakenStarActMasterId": 141261,
+    "senseMasterId": 141260,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 40126,
+    "senseEnhanceItemGroupMasterId": 4,
+    "firstEpisodeReleaseItemGroupId": 411,
+    "secondEpisodeReleaseItemGroupId": 412,
+    "characterAwakeningItemGroupMasterId": 41,
+    "displayStartAt": 1732986000.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "ガチャ(コラボ限定)で入手",
+    "categories": [
+      {
+        "categoryMasterId": 2005,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8010,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 4005,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7045,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 6003,
+        "isAwaken": true
+      },
+      {
+        "categoryMasterId": 8004,
+        "isAwaken": true
+      }
+    ],
+    "leaderSenseMasterId": 186,
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1732986000.0
+  },
+  {
+    "id": 141270,
+    "characterBaseMasterId": 909,
+    "name": "夜空をかけるビジョナリィ",
+    "description": "",
+    "rarity": "Rare4",
+    "attribute": "Cheerful",
+    "minLevelStatus": {
+      "vocal": 112,
+      "expression": 110,
+      "concentration": 123
+    },
+    "starActMasterId": 141271,
+    "awakenStarActMasterId": 141271,
+    "senseMasterId": 141270,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 40127,
+    "senseEnhanceItemGroupMasterId": 4,
+    "firstEpisodeReleaseItemGroupId": 441,
+    "secondEpisodeReleaseItemGroupId": 442,
+    "characterAwakeningItemGroupMasterId": 44,
+    "displayStartAt": 1732986000.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "ガチャ(コラボ限定)で入手",
+    "categories": [
+      {
+        "categoryMasterId": 2005,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8010,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 4005,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7045,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 6008,
+        "isAwaken": true
+      },
+      {
+        "categoryMasterId": 8002,
+        "isAwaken": true
+      }
+    ],
+    "leaderSenseMasterId": 187,
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1732986000.0
   },
   {
     "id": 141280,
@@ -11852,5 +12021,63 @@
     "leaderSenseMasterId": 181,
     "maxTalentStage": 6,
     "maxTalentStageReleaseDate": 1732122000.0
+  },
+  {
+    "id": 141300,
+    "characterBaseMasterId": 401,
+    "name": "LIVE with SUNSHINE!!",
+    "description": "",
+    "rarity": "Rare4",
+    "attribute": "Colorful",
+    "minLevelStatus": {
+      "vocal": 96,
+      "expression": 122,
+      "concentration": 124
+    },
+    "starActMasterId": 141301,
+    "awakenStarActMasterId": 141301,
+    "senseMasterId": 141300,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 40130,
+    "senseEnhanceItemGroupMasterId": 4,
+    "firstEpisodeReleaseItemGroupId": 431,
+    "secondEpisodeReleaseItemGroupId": 432,
+    "characterAwakeningItemGroupMasterId": 43,
+    "displayStartAt": 1732986000.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "ガチャ(コラボ限定)で入手",
+    "categories": [
+      {
+        "categoryMasterId": 2004,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 2005,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 4002,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7045,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8004,
+        "isAwaken": true
+      }
+    ],
+    "leaderSenseMasterId": 182,
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1732986000.0
   }
 ]

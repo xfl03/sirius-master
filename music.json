@@ -5991,6 +5991,46 @@
     "musicCoverType": "Cover"
   },
   {
+    "id": 174,
+    "name": "Landing action Yeah!!",
+    "description": "",
+    "rewardRuleMasterId": 1,
+    "pronounceName": "landingactionyeah",
+    "lyricWriter": "畑亜貴",
+    "composer": "光増ハジメ",
+    "arranger": "-",
+    "unlockText": "楽曲ショップで購入",
+    "isLongVersion": false,
+    "releasedAt": 1732986000.0,
+    "staminaConsumption": 30,
+    "musicTimeSecond": 123,
+    "invisible": false,
+    "sampleStartSeconds": 0.0,
+    "sampleEndSeconds": 0.0,
+    "delaySeconds": 0.0,
+    "vocalVersions": [
+      {
+        "id": 17401,
+        "musicMasterId": 174,
+        "vocalVersion": 1,
+        "singer": "ラモーナ・ウォルフ、王雪、与那国緋花里",
+        "name": "Landing action Yeah!!",
+        "musicTimeSecond": 123,
+        "sampleStartSeconds": 0.0,
+        "sampleEndSeconds": 0.0,
+        "musicVideoType": "None",
+        "characters": [
+          302,
+          303,
+          305
+        ]
+      }
+    ],
+    "unlockConditionType": "Buy",
+    "musicVideoType": "None",
+    "musicCoverType": "Cover"
+  },
+  {
     "id": 175,
     "name": "Believe again",
     "description": "",
@@ -7059,6 +7099,44 @@
         "characters": [
           202,
           204
+        ]
+      }
+    ],
+    "unlockConditionType": "Buy",
+    "musicVideoType": "None",
+    "musicCoverType": "Original"
+  },
+  {
+    "id": 10071,
+    "name": "いろはうたBLOOMING（Long Ver.）",
+    "description": "",
+    "rewardRuleMasterId": 1,
+    "pronounceName": "いろはうたbloominglong",
+    "lyricWriter": "松井洋平",
+    "composer": "光増ハジメ（FirstCall）",
+    "arranger": "光増ハジメ（FirstCall）",
+    "unlockText": "楽曲ショップで購入",
+    "isLongVersion": true,
+    "releasedAt": 1732986000.0,
+    "staminaConsumption": 0,
+    "musicTimeSecond": 198,
+    "invisible": false,
+    "sampleStartSeconds": 0.0,
+    "sampleEndSeconds": 0.0,
+    "delaySeconds": 0.0,
+    "vocalVersions": [
+      {
+        "id": 1007101,
+        "musicMasterId": 10071,
+        "vocalVersion": 1,
+        "singer": "千寿いろは",
+        "name": "いろはうたBLOOMING（Long Ver.）",
+        "musicTimeSecond": 198,
+        "sampleStartSeconds": 0.0,
+        "sampleEndSeconds": 0.0,
+        "musicVideoType": "None",
+        "characters": [
+          401
         ]
       }
     ],

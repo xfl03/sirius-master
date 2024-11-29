@@ -7548,6 +7548,30 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 320130,
+    "name": "ふたりきりの海で",
+    "description": "ラブライブ！サンシャイン!!に所属するアクターの演技力が[:param11]％上昇",
+    "posterMasterId": 320130,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70022900
+          }
+        ],
+        "id": 32013001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 320150,
     "name": "眠れぬ夜に",
     "description": "全アクターの演技力が[:param11]%上昇",
@@ -7908,6 +7932,30 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 330150,
+    "name": "キラキラを身にまとい",
+    "description": "全アクターの演技力が[:param11]%上昇",
+    "posterMasterId": 330150,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70042000
+          }
+        ],
+        "id": 33015001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 330160,
     "name": "特別な出会いに感謝しよう",
     "description": "全アクターの演技力が[:param11]%上昇",
@@ -8094,6 +8142,30 @@
           }
         ],
         "id": 34016001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 340170,
+    "name": "自分らしい『好き』を大事に",
+    "description": "全アクターの演技力が[:param11]％上昇",
+    "posterMasterId": 340170,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70050000
+          }
+        ],
+        "id": 34017001
       }
     ],
     "branchConditionType1": "None",
@@ -12448,6 +12520,54 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 3201301,
+    "name": "演技力アップ",
+    "description": "自身の演技力が[:param11]％上昇　◆発動条件：ラブライブ！サンシャイン!!に所属するアクターが装備",
+    "posterMasterId": 320130,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10010900
+          }
+        ],
+        "id": 320130101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3201302,
+    "name": "P.ゲージ獲得量アップ",
+    "description": "センスによるP.ゲージの獲得量が[:param11]%UP　◆発動条件：ラブライブ！サンシャイン!!に所属するアクターが装備",
+    "posterMasterId": 320130,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11610900
+          }
+        ],
+        "id": 320130201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 3201501,
     "name": "スコアブースト・集中力",
     "description": "センス発動直後、自身の集中力の[:param11]倍のスコアを獲得　◆発動条件：暦が装備",
@@ -13528,6 +13648,126 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 3301501,
+    "name": "演技力アップⅢ",
+    "description": "自身の演技力が[:param11]％上昇",
+    "posterMasterId": 330150,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10030000
+          }
+        ],
+        "id": 330150101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3301502,
+    "name": "歌唱力アップⅡ＋＋",
+    "description": "自身の歌唱力が[:param11]％上昇　◆発動条件：<color=#ff679d>憐属性</color>のアクターが装備",
+    "posterMasterId": 330150,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10122001
+          }
+        ],
+        "id": 330150201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3301503,
+    "name": "「光」追加（SP）Ⅰ",
+    "description": "公演開始時、SP光を[:param11]付与（効果は公演開始時1回のみ発動する）　◆発動条件：<color=#ff679d>憐属性</color>のアクターが装備",
+    "posterMasterId": 330150,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11910001
+          }
+        ],
+        "id": 330150301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3301504,
+    "name": "歌唱力アップⅡ＋＋",
+    "description": "自身の歌唱力が[:param11]％上昇　◆発動条件：<color=#7AC940>彩属性</color>のアクターが装備",
+    "posterMasterId": 330150,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10122003
+          }
+        ],
+        "id": 330150401
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3301505,
+    "name": "「光」追加（SP）Ⅰ",
+    "description": "公演開始時、SP光を[:param11]付与（効果は公演開始時1回のみ発動する）　◆発動条件：<color=#7AC940>彩属性</color>のアクターが装備",
+    "posterMasterId": 330150,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11910003
+          }
+        ],
+        "id": 330150501
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 3301601,
     "name": "演技力アップⅢ＋",
     "description": "自身の演技力が[:param11]％上昇",
@@ -14146,6 +14386,78 @@
           }
         ],
         "id": 340160301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3401701,
+    "name": "演技力アップⅢ",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：いろはが装備",
+    "posterMasterId": 340170,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10030401
+          }
+        ],
+        "id": 340170101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3401702,
+    "name": "初期P.ゲージ上昇(BD)",
+    "description": "公演開始時、P.ゲージが[:param11]上昇　◆発動条件：いろはが装備",
+    "posterMasterId": 340170,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11540401
+          }
+        ],
+        "id": 340170201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3401703,
+    "name": "「光」追加（SP）",
+    "description": "公演開始時、SP光を[:param11]付与（効果は公演開始時1回のみ発動する）　◆発動条件：いろはが装備",
+    "posterMasterId": 340170,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11910401
+          }
+        ],
+        "id": 340170301
       }
     ],
     "branchConditionType1": "None",
