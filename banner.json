@@ -862,6 +862,17 @@
     "endDate": 1732122000.0
   },
   {
+    "id": 1078,
+    "order": 1078,
+    "name": "AMPED:READY？ MERRY！ガチャ(アクター)",
+    "jumpType": "Gacha",
+    "jumpPageId": "1078",
+    "deleteConditionType": 0,
+    "imagePath": "Gacha/1078",
+    "startDate": 1733850000.0,
+    "endDate": 1734800400.0
+  },
+  {
     "id": 1601,
     "order": 1601,
     "name": "BIRTHDAYピックアップガチャ2024【カトリナ・グリーベル】",
@@ -937,6 +948,17 @@
     "imagePath": "Gacha/1607",
     "startDate": 1732924800.0,
     "endDate": 1733011200.0
+  },
+  {
+    "id": 1608,
+    "order": 1832,
+    "name": "BIRTHDAYピックアップガチャ2024【阿岐留カミラ】",
+    "jumpType": "Gacha",
+    "jumpPageId": "1608",
+    "deleteConditionType": 0,
+    "imagePath": "Gacha/1608",
+    "startDate": 1733961600.0,
+    "endDate": 1734912000.0
   },
   {
     "id": 1800,
@@ -1268,6 +1290,28 @@
     "imagePath": "Gacha/1830",
     "startDate": 1731171600.0,
     "endDate": 1731949200.0
+  },
+  {
+    "id": 1831,
+    "order": 1963,
+    "name": "才能開花6解放記念！ピックアップガチャ",
+    "jumpType": "Gacha",
+    "jumpPageId": "1831",
+    "deleteConditionType": 0,
+    "imagePath": "Gacha/1831",
+    "startDate": 1734282000.0,
+    "endDate": 1735146000.0
+  },
+  {
+    "id": 1832,
+    "order": 1963,
+    "name": "コラボ記念！才能開花6セレクトピックアップガチャ",
+    "jumpType": "Gacha",
+    "jumpPageId": "1832",
+    "deleteConditionType": 0,
+    "imagePath": "Gacha/1832",
+    "startDate": 1733850000.0,
+    "endDate": 1734109200.0
   },
   {
     "id": 2001,
@@ -1983,6 +2027,28 @@
     "imagePath": "Gacha/2071",
     "startDate": 1730826000.0,
     "endDate": 1731085200.0
+  },
+  {
+    "id": 2073,
+    "order": 1608,
+    "name": "おひさまとワンピースガチャ(ポスター)",
+    "jumpType": "Gacha",
+    "jumpPageId": "2073",
+    "deleteConditionType": 0,
+    "imagePath": "Gacha/2073",
+    "startDate": 1734282000.0,
+    "endDate": 1735491600.0
+  },
+  {
+    "id": 2074,
+    "order": 2074,
+    "name": "【復刻】オペラ座の怪人ガチャ(ポスター)",
+    "jumpType": "Gacha",
+    "jumpPageId": "2074",
+    "deleteConditionType": 0,
+    "imagePath": "Gacha/2074",
+    "startDate": 1733850000.0,
+    "endDate": 1734282000.0
   },
   {
     "id": 2800,
@@ -2809,14 +2875,14 @@
   },
   {
     "id": 5047,
-    "order": 5047,
+    "order": 1833,
     "name": "X'mas衣装パック",
     "jumpType": "JewelShop",
     "jumpPageId": "5",
     "deleteConditionType": 0,
-    "imagePath": "Home/5047",
-    "startDate": 1702566000.0,
-    "endDate": 1704034800.0
+    "imagePath": "Home/5342",
+    "startDate": 1733850000.0,
+    "endDate": 1735509600.0
   },
   {
     "id": 5051,
@@ -4422,6 +4488,54 @@
     "imagePath": "Home/5294",
     "startDate": 1732986000.0,
     "endDate": 1733850000.0
+  },
+  {
+    "id": 5296,
+    "order": 1831,
+    "name": "お誕生日パック2nd【阿岐留 カミラ】",
+    "jumpType": "JewelShop",
+    "jumpPageId": "5296",
+    "deleteConditionType": "BuyItem",
+    "deleteConditionValue": "5296",
+    "imagePath": "Home/5296",
+    "startDate": 1733961600.0,
+    "endDate": 1734912000.0
+  },
+  {
+    "id": 5305,
+    "order": 5305,
+    "name": "銀河シアターのおまもりパック",
+    "jumpType": "JewelShop",
+    "jumpPageId": "5305",
+    "deleteConditionType": "BuyItem",
+    "deleteConditionValue": "5305",
+    "imagePath": "Home/gingaza_amulet",
+    "startDate": 1734368400.0,
+    "endDate": 1735059600.0
+  },
+  {
+    "id": 5306,
+    "order": 5306,
+    "name": "撮影パック",
+    "jumpType": "JewelShop",
+    "jumpPageId": "5306",
+    "deleteConditionType": "BuyItem",
+    "deleteConditionValue": "5306",
+    "imagePath": "Home/common_photo",
+    "startDate": 1734282000.0,
+    "endDate": 1735146000.0
+  },
+  {
+    "id": 5307,
+    "order": 5307,
+    "name": "練習台本どっさりパック",
+    "jumpType": "JewelShop",
+    "jumpPageId": "5307",
+    "deleteConditionType": "BuyItem",
+    "deleteConditionValue": "5307",
+    "imagePath": "Home/5146",
+    "startDate": 1734282000.0,
+    "endDate": 1735146000.0
   },
   {
     "id": 5311,

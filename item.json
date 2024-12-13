@@ -595,6 +595,19 @@
     "rarity": "R"
   },
   {
+    "id": 111045,
+    "name": "高級スタミナドリンク【～12月21日 17:00】",
+    "description": "美容にも欠かせない一級品のドリンク。スタミナを100回復する。2024年12月21日17時まで使用できる。",
+    "displayOrder": 45,
+    "displayEndDate": 1734800400.0,
+    "maxStock": 99999,
+    "category": "StaminaRecovery",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Normal",
+    "rarity": "R"
+  },
+  {
     "id": 112001,
     "name": "バレンタインチョコ【2024】",
     "description": "バレンタインの贈り物。味は食べてみてのお楽しみ。スタミナを100回復する。",
@@ -1183,6 +1196,45 @@
     "rarity": "SSR"
   },
   {
+    "id": 132013,
+    "name": "ポイントルーレットチケット",
+    "description": "たくさん集めるとポイントルーレットを利用できるチケット。ジュゴンが描かれている。",
+    "displayOrder": 132013,
+    "displayEndDate": 1735164000.0,
+    "maxStock": 999999,
+    "category": "ConsumeItem",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Ticket",
+    "rarity": "R"
+  },
+  {
+    "id": 132014,
+    "name": "ポイントルーレット【SP】チケット",
+    "description": "たくさん集めるとポイントルーレット【SP】を利用できるチケット。高級感のある金文字が輝いている。",
+    "displayOrder": 132014,
+    "displayEndDate": 1734800400.0,
+    "maxStock": 999999,
+    "category": "ConsumeItem",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Ticket",
+    "rarity": "R"
+  },
+  {
+    "id": 132015,
+    "name": "ダイスタールーレットチケット",
+    "description": "たくさん集めるとダイスタールーレットを利用できるチケット。大物役者のような煌きを放っている。",
+    "displayOrder": 132015,
+    "displayEndDate": 1734800400.0,
+    "maxStock": 999999,
+    "category": "ConsumeItem",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Ticket",
+    "rarity": "SSR"
+  },
+  {
     "id": 137001,
     "name": "GW福引券",
     "description": "ユナイトチャレンジGW抽選会で利用することができる福引券。",
@@ -1607,6 +1659,19 @@
     "rarity": "SSR"
   },
   {
+    "id": 139109,
+    "name": "銀河座のおまもり【～12月24日 17:00】",
+    "description": "銀河座の劇団ロゴがあしらわれたおまもり。銀河シアターで「導きのかけら」を入手しやすくなる。",
+    "displayOrder": 139109,
+    "displayEndDate": 1735059600.0,
+    "maxStock": 1,
+    "category": "ConsumeItem",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Normal",
+    "rarity": "SSR"
+  },
+  {
     "id": 139201,
     "name": "劇団電姫のおまもり【Re:】【～5月16日 17:00】",
     "description": "人気アニメのキャラクターがプリントされたおまもり。電姫空間【Re:】でシークレットアクセサリーを入手しやすくなる。",
@@ -1690,6 +1755,19 @@
     "description": "人気アニメのキャラクターがプリントされたおまもり。電姫空間【Re:】でシークレットアクセサリーを入手しやすくなる。",
     "displayOrder": 139207,
     "displayEndDate": 1731776400.0,
+    "maxStock": 1,
+    "category": "ConsumeItem",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Normal",
+    "rarity": "SSR"
+  },
+  {
+    "id": 139208,
+    "name": "劇団電姫のおまもり【Re:】【～12月16日 17:00】",
+    "description": "人気アニメのキャラクターがプリントされたおまもり。電姫空間【Re:】でシークレットアクセサリーを入手しやすくなる。",
+    "displayOrder": 139208,
+    "displayEndDate": 1734368400.0,
     "maxStock": 1,
     "category": "ConsumeItem",
     "consumable": false,
@@ -3046,6 +3124,18 @@
     "name": "★3【いつもと違うわたくし】千寿暦のピース",
     "description": "★3【いつもと違うわたくし】千寿暦の才能開花に使用できるアイテム。",
     "displayOrder": 143072,
+    "maxStock": 99999,
+    "category": "TalentBloom",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Piece",
+    "rarity": "SSR"
+  },
+  {
+    "id": 143073,
+    "name": "★3【ぴったりなプレゼントを探して】萬容のピース",
+    "description": "★3【ぴったりなプレゼントを探して】萬容の才能開花に使用できるアイテム。",
+    "displayOrder": 143073,
     "maxStock": 99999,
     "category": "TalentBloom",
     "consumable": false,
@@ -4554,6 +4644,30 @@
     "rarity": "SSR"
   },
   {
+    "id": 144131,
+    "name": "★4【ひんやり、きらきら】筆島しぐれのピース",
+    "description": "★4【ひんやり、きらきら】筆島しぐれの才能開花に使用できるアイテム。",
+    "displayOrder": 144131,
+    "maxStock": 99999,
+    "category": "TalentBloom",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Piece",
+    "rarity": "SSR"
+  },
+  {
+    "id": 144132,
+    "name": "★4【楽園の主はいたずら中】連尺野初魅のピース",
+    "description": "★4【楽園の主はいたずら中】連尺野初魅の才能開花に使用できるアイテム。",
+    "displayOrder": 144132,
+    "maxStock": 99999,
+    "category": "TalentBloom",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Piece",
+    "rarity": "SSR"
+  },
+  {
     "id": 150000,
     "name": "金のジュゴン像",
     "description": "ジュゴンをかたどった像。アクターの更なる才能開花に使われる。イベントやミッションなどで入手できる。",
@@ -5899,7 +6013,7 @@
   },
   {
     "id": 154096,
-    "name": "★4【旅路は銀の靴とともに】千寿いろはダイピース",
+    "name": "★4【旅路は銀の靴とともに】千寿いろはのダイピース",
     "description": "★4【旅路は銀の靴とともに】千寿いろはの更なる才能開花に使用できるアイテム。",
     "displayOrder": 154100,
     "maxStock": 99999,
@@ -6271,7 +6385,7 @@
   },
   {
     "id": 154127,
-    "name": "★4【夜空をかけるビジョナリィ】黒澤ルビィのピース",
+    "name": "★4【夜空をかけるビジョナリィ】黒澤ルビィのダイピース",
     "description": "★4【夜空をかけるビジョナリィ】黒澤ルビィの更なる才能開花に使用できるアイテム。",
     "displayOrder": 154127,
     "maxStock": 99999,
@@ -6310,6 +6424,30 @@
     "name": "★4【LIVE with SUNSHINE!!】千寿いろはのダイピース",
     "description": "★4【LIVE with SUNSHINE!!】千寿いろはの更なる才能開花に使用できるアイテム。",
     "displayOrder": 154130,
+    "maxStock": 99999,
+    "category": "TalentBloom",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Piece",
+    "rarity": "SSR"
+  },
+  {
+    "id": 154131,
+    "name": "★4【ひんやり、きらきら】筆島しぐれのダイピース",
+    "description": "★4【ひんやり、きらきら】筆島しぐれの更なる才能開花に使用できるアイテム。",
+    "displayOrder": 154131,
+    "maxStock": 99999,
+    "category": "TalentBloom",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Piece",
+    "rarity": "SSR"
+  },
+  {
+    "id": 154132,
+    "name": "★4【楽園の主はいたずら中】連尺野初魅のダイピース",
+    "description": "★4【楽園の主はいたずら中】連尺野初魅の更なる才能開花に使用できるアイテム。",
+    "displayOrder": 154132,
     "maxStock": 99999,
     "category": "TalentBloom",
     "consumable": false,
@@ -6541,6 +6679,19 @@
     "rarity": "R"
   },
   {
+    "id": 210412,
+    "name": "クリスマス限定アクターガチャ10連チケット",
+    "description": "クリスマス限定10連無料アクターガチャを引くことができるチケット。2024年12月31日17時まで使用できる。",
+    "displayOrder": 210412,
+    "displayEndDate": 1735664400.0,
+    "maxStock": 99999,
+    "category": "GachaTicket",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Ticket",
+    "rarity": "R"
+  },
+  {
     "id": 211001,
     "name": "ポスターガチャチケット",
     "description": "ポスターガチャを引くことができるチケット。",
@@ -6707,6 +6858,19 @@
     "description": "銀河座第3章追加記念10連無料ポスターガチャを引くことができるチケット。2024年11月18日17時まで使用できる。",
     "displayOrder": 211407,
     "displayEndDate": 1731949200.0,
+    "maxStock": 99999,
+    "category": "GachaTicket",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Ticket",
+    "rarity": "R"
+  },
+  {
+    "id": 211408,
+    "name": "クリスマス限定ポスターガチャ10連チケット",
+    "description": "クリスマス限定10連無料ポスターガチャを引くことができるチケット。2024年12月31日17時まで使用できる。",
+    "displayOrder": 211408,
+    "displayEndDate": 1735664400.0,
     "maxStock": 99999,
     "category": "GachaTicket",
     "consumable": false,
@@ -7858,6 +8022,19 @@
     "rarity": "R"
   },
   {
+    "id": 411078,
+    "name": "ガチャポイント",
+    "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
+    "displayOrder": 411078,
+    "displayEndDate": 1735318800.0,
+    "maxStock": 99999,
+    "category": "GachaPoint",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Hidden",
+    "rarity": "R"
+  },
+  {
     "id": 411601,
     "name": "ガチャポイント",
     "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
@@ -7941,6 +8118,19 @@
     "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
     "displayOrder": 411607,
     "displayEndDate": 1734393600.0,
+    "maxStock": 99999,
+    "category": "GachaPoint",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Hidden",
+    "rarity": "R"
+  },
+  {
+    "id": 411608,
+    "name": "ガチャポイント",
+    "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
+    "displayOrder": 411608,
+    "displayEndDate": 1735430400.0,
     "maxStock": 99999,
     "category": "GachaPoint",
     "consumable": false,
@@ -8123,6 +8313,32 @@
     "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
     "displayOrder": 411830,
     "displayEndDate": 1732554000.0,
+    "maxStock": 99999,
+    "category": "GachaPoint",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Hidden",
+    "rarity": "R"
+  },
+  {
+    "id": 411831,
+    "name": "ガチャポイント",
+    "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
+    "displayOrder": 411831,
+    "displayEndDate": 1734714000.0,
+    "maxStock": 99999,
+    "category": "GachaPoint",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Hidden",
+    "rarity": "R"
+  },
+  {
+    "id": 411832,
+    "name": "ガチャポイント",
+    "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
+    "displayOrder": 411832,
+    "displayEndDate": 1735750800.0,
     "maxStock": 99999,
     "category": "GachaPoint",
     "consumable": false,
@@ -9015,6 +9231,19 @@
     "rarity": "R"
   },
   {
+    "id": 412073,
+    "name": "ガチャポイント",
+    "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
+    "displayOrder": 412073,
+    "displayEndDate": 1736096400.0,
+    "maxStock": 99999,
+    "category": "GachaPoint",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Hidden",
+    "rarity": "R"
+  },
+  {
     "id": 412074,
     "name": "ガチャポイント",
     "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
@@ -9738,6 +9967,18 @@
     "rarity": "R"
   },
   {
+    "id": 425005,
+    "name": "イベントポイント",
+    "description": "",
+    "displayOrder": 425005,
+    "maxStock": 1999999999,
+    "category": "EventPoint",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Hidden",
+    "rarity": "R"
+  },
+  {
     "id": 425101,
     "name": "ルーレットポイント",
     "description": "",
@@ -9778,6 +10019,18 @@
     "name": "ルーレットポイント",
     "description": "",
     "displayOrder": 425104,
+    "maxStock": 1999999999,
+    "category": "EventPoint",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Hidden",
+    "rarity": "R"
+  },
+  {
+    "id": 425105,
+    "name": "ルーレットポイント",
+    "description": "",
+    "displayOrder": 425105,
     "maxStock": 1999999999,
     "category": "EventPoint",
     "consumable": false,

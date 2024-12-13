@@ -3960,6 +3960,30 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 220610,
+    "name": "AMPED:READY？ MERRY！",
+    "description": "Edenに所属するアクターの演技力が[:param11]％上昇",
+    "posterMasterId": 220610,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70022200
+          }
+        ],
+        "id": 22061001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 229010,
     "name": "初めての舞台",
     "description": "<color=#7AC940>彩属性</color>のアクターの演技力が[:param11]%上昇",
@@ -8004,6 +8028,30 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 330200,
+    "name": "透ける夏空をおぼえていて",
+    "description": "全アクターの演技力が[:param11]%上昇",
+    "posterMasterId": 330200,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70042000
+          }
+        ],
+        "id": 33020001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 340030,
     "name": "超集中の生み出す緻密な演技",
     "description": "全アクターの演技力が[:param11]％上昇",
@@ -8166,6 +8214,30 @@
           }
         ],
         "id": 34017001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 340190,
+    "name": "繋がるあなたと舞台",
+    "description": "全アクターの演技力が[:param11]％上昇",
+    "posterMasterId": 340190,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70050000
+          }
+        ],
+        "id": 34019001
       }
     ],
     "branchConditionType1": "None",
@@ -9894,6 +9966,54 @@
           }
         ],
         "id": 220600201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2206101,
+    "name": "演技力アップ＋",
+    "description": "自身の演技力が[:param11]％上昇　◆発動条件：Edenに所属するアクターが装備",
+    "posterMasterId": 220610,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10011200
+          }
+        ],
+        "id": 220610101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2206102,
+    "name": "歌唱力アップ",
+    "description": "自身の歌唱力が[:param11]％上昇　◆発動条件：Edenに所属するアクターが装備",
+    "posterMasterId": 220610,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10110200
+          }
+        ],
+        "id": 220610201
       }
     ],
     "branchConditionType1": "None",
@@ -13960,6 +14080,78 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 3302001,
+    "name": "演技力アップⅢ＋",
+    "description": "自身の演技力が[:param11]%上昇",
+    "posterMasterId": 330200,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10031000
+          }
+        ],
+        "id": 330200101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3302002,
+    "name": "「光」獲得数増加",
+    "description": "センスで付与する「光」の付与数が[:param11]個増加",
+    "posterMasterId": 330200,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11810000
+          }
+        ],
+        "id": 330200201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3302003,
+    "name": "CTダウンⅢ",
+    "description": "自身のセンスのCTを[:param11]秒短縮",
+    "posterMasterId": 330200,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 12420000
+          }
+        ],
+        "id": 330200301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 3400301,
     "name": "演技力アップⅢ",
     "description": "自身の演技力が[:param11]%上昇　◆発動条件：カトリナが装備",
@@ -14458,6 +14650,78 @@
           }
         ],
         "id": 340170301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3401901,
+    "name": "演技力アップⅢ",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：カミラが装備",
+    "posterMasterId": 340190,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10030403
+          }
+        ],
+        "id": 340190101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3401902,
+    "name": "P.ゲージブースト＋",
+    "description": "センス発動直後、Pゲージを[:param11]獲得　◆発動条件：カミラが装備",
+    "posterMasterId": 340190,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11410403
+          }
+        ],
+        "id": 340190201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3401903,
+    "name": "「光」追加（SP）",
+    "description": "公演開始時、SP光を[:param11]付与（効果は公演開始時1回のみ発動する）　◆発動条件：カミラが装備",
+    "posterMasterId": 340190,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11910403
+          }
+        ],
+        "id": 340190301
       }
     ],
     "branchConditionType1": "None",

@@ -5148,6 +5148,55 @@
     "maxTalentStage": 5
   },
   {
+    "id": 130730,
+    "characterBaseMasterId": 204,
+    "name": "ぴったりなプレゼントを探して",
+    "description": "",
+    "rarity": "Rare3",
+    "attribute": "Cheerful",
+    "minLevelStatus": {
+      "vocal": 92,
+      "expression": 92,
+      "concentration": 86
+    },
+    "starActMasterId": 130731,
+    "awakenStarActMasterId": 130731,
+    "senseMasterId": 130730,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 30004,
+    "senseEnhanceItemGroupMasterId": 3,
+    "firstEpisodeReleaseItemGroupId": 341,
+    "secondEpisodeReleaseItemGroupId": 342,
+    "characterAwakeningItemGroupMasterId": 34,
+    "displayStartAt": 1733850000.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "イベントで入手",
+    "categories": [
+      {
+        "categoryMasterId": 2002,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 4002,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7505,
+        "isAwaken": false
+      }
+    ],
+    "leaderSenseMasterId": 67,
+    "maxTalentStage": 5
+  },
+  {
     "id": 140010,
     "characterBaseMasterId": 101,
     "name": "悲哀と恋慕の旋律",
@@ -6185,7 +6234,8 @@
       }
     ],
     "leaderSenseMasterId": 28,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1734282000.0
   },
   {
     "id": 140200,
@@ -6412,7 +6462,8 @@
       }
     ],
     "leaderSenseMasterId": 128,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1734282000.0
   },
   {
     "id": 140250,
@@ -6526,7 +6577,8 @@
       }
     ],
     "leaderSenseMasterId": 63,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1734282000.0
   },
   {
     "id": 140270,
@@ -6583,7 +6635,8 @@
       }
     ],
     "leaderSenseMasterId": 21,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1734282000.0
   },
   {
     "id": 140280,
@@ -12079,5 +12132,111 @@
     "leaderSenseMasterId": 182,
     "maxTalentStage": 6,
     "maxTalentStageReleaseDate": 1732986000.0
+  },
+  {
+    "id": 141310,
+    "characterBaseMasterId": 205,
+    "name": "ひんやり、きらきら",
+    "description": "",
+    "rarity": "Rare4",
+    "attribute": "Cheerful",
+    "minLevelStatus": {
+      "vocal": 131,
+      "expression": 88,
+      "concentration": 126
+    },
+    "starActMasterId": 141311,
+    "awakenStarActMasterId": 141311,
+    "senseMasterId": 141310,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 40131,
+    "senseEnhanceItemGroupMasterId": 4,
+    "firstEpisodeReleaseItemGroupId": 441,
+    "secondEpisodeReleaseItemGroupId": 442,
+    "characterAwakeningItemGroupMasterId": 44,
+    "displayStartAt": 1733850000.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "ガチャで入手",
+    "categories": [
+      {
+        "categoryMasterId": 2002,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1001,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 4006,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7505,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 4002,
+        "isAwaken": true
+      }
+    ],
+    "leaderSenseMasterId": 188,
+    "maxTalentStage": 5
+  },
+  {
+    "id": 141320,
+    "characterBaseMasterId": 201,
+    "name": "楽園の主はいたずら中",
+    "description": "",
+    "rarity": "Rare4",
+    "attribute": "Cheerful",
+    "minLevelStatus": {
+      "vocal": 87,
+      "expression": 108,
+      "concentration": 154
+    },
+    "starActMasterId": 141321,
+    "awakenStarActMasterId": 141321,
+    "senseMasterId": 141320,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 40132,
+    "senseEnhanceItemGroupMasterId": 4,
+    "firstEpisodeReleaseItemGroupId": 441,
+    "secondEpisodeReleaseItemGroupId": 442,
+    "characterAwakeningItemGroupMasterId": 44,
+    "displayStartAt": 1733850000.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "ガチャで入手",
+    "categories": [
+      {
+        "categoryMasterId": 2002,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 3006,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 5004,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7505,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 4002,
+        "isAwaken": true
+      }
+    ],
+    "leaderSenseMasterId": 164,
+    "maxTalentStage": 5
   }
 ]

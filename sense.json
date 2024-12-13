@@ -2057,6 +2057,21 @@
     "branchCondition2": "None"
   },
   {
+    "id": 130730,
+    "name": "ぴったりなプレゼントを探して",
+    "description": "[:score]倍のスコアを獲得",
+    "type": "Special",
+    "preEffects": [],
+    "branches": [],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 410,
+    "scoreUpPerLevel": 40,
+    "lightCount": 1,
+    "coolTime": 40,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
     "id": 140010,
     "name": "悲哀と恋慕の旋律",
     "description": "[:score]倍のスコアを獲得／ライフを[:param11]回復／ライフが多いほどここなのスコア獲得量UP（最大＋100％）",
@@ -5110,6 +5125,47 @@
     "scoreUpPerLevel": 0,
     "lightCount": 0,
     "coolTime": 0,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 141310,
+    "name": "ひんやり、きらきら",
+    "description": "[:score]倍のスコアを獲得／[:sec]秒間、Edenのアクターにスターアクトスコア[:param11]％UP効果",
+    "type": "Control",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20201
+          }
+        ],
+        "id": 1413101
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 250,
+    "scoreUpPerLevel": 60,
+    "lightCount": 1,
+    "coolTime": 50,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 141320,
+    "name": "楽園の主はいたずら中",
+    "description": "[:score]倍のスコアを獲得／センス発動時、追加で「特殊の光」を1個獲得する",
+    "type": "Support",
+    "preEffects": [],
+    "branches": [],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 510,
+    "scoreUpPerLevel": 40,
+    "lightCount": 1,
+    "coolTime": 30,
     "branchCondition1": "None",
     "branchCondition2": "None"
   }
