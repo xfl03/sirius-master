@@ -608,6 +608,19 @@
     "rarity": "R"
   },
   {
+    "id": 111046,
+    "name": "高級スタミナドリンク【～12月31日 15:00】",
+    "description": "美容にも欠かせない一級品のドリンク。スタミナを100回復する。2024年12月31日15時まで使用できる。",
+    "displayOrder": 46,
+    "displayEndDate": 1735657200.0,
+    "maxStock": 99999,
+    "category": "StaminaRecovery",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Normal",
+    "rarity": "R"
+  },
+  {
     "id": 112001,
     "name": "バレンタインチョコ【2024】",
     "description": "バレンタインの贈り物。味は食べてみてのお楽しみ。スタミナを100回復する。",
@@ -1547,6 +1560,19 @@
     "description": "人気アニメのキャラクターがプリントされたおまもり。電姫空間でシークレットアクセサリーを入手しやすくなる。",
     "displayOrder": 139017,
     "displayEndDate": 1733695200.0,
+    "maxStock": 1,
+    "category": "ConsumeItem",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Normal",
+    "rarity": "SSR"
+  },
+  {
+    "id": 139018,
+    "name": "劇団電姫のおまもり【～1月8日 22:00】",
+    "description": "人気アニメのキャラクターがプリントされたおまもり。電姫空間でシークレットアクセサリーを入手しやすくなる。",
+    "displayOrder": 139018,
+    "displayEndDate": 1736373600.0,
     "maxStock": 1,
     "category": "ConsumeItem",
     "consumable": false,
@@ -3144,6 +3170,18 @@
     "rarity": "SSR"
   },
   {
+    "id": 143074,
+    "name": "★3【尾行、キタキツネのように】流石知冴のピース",
+    "description": "★3【尾行、キタキツネのように】流石知冴の才能開花に使用できるアイテム。",
+    "displayOrder": 143074,
+    "maxStock": 99999,
+    "category": "TalentBloom",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Piece",
+    "rarity": "SSR"
+  },
+  {
     "id": 144001,
     "name": "★4【悲哀と恋慕の旋律】鳳ここなのピース",
     "description": "★4【悲哀と恋慕の旋律】鳳ここなの才能開花に使用できるアイテム。",
@@ -4660,6 +4698,30 @@
     "name": "★4【楽園の主はいたずら中】連尺野初魅のピース",
     "description": "★4【楽園の主はいたずら中】連尺野初魅の才能開花に使用できるアイテム。",
     "displayOrder": 144132,
+    "maxStock": 99999,
+    "category": "TalentBloom",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Piece",
+    "rarity": "SSR"
+  },
+  {
+    "id": 144133,
+    "name": "★4【エリートサンタは夜を駆け】静香のピース",
+    "description": "★4【エリートサンタは夜を駆け】静香の才能開花に使用できるアイテム。",
+    "displayOrder": 144133,
+    "maxStock": 99999,
+    "category": "TalentBloom",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Piece",
+    "rarity": "SSR"
+  },
+  {
+    "id": 144134,
+    "name": "★4【新人サンタはあわてんぼう】鳳ここなのピース",
+    "description": "★4【新人サンタはあわてんぼう】鳳ここなの才能開花に使用できるアイテム。",
+    "displayOrder": 144134,
     "maxStock": 99999,
     "category": "TalentBloom",
     "consumable": false,
@@ -6456,6 +6518,30 @@
     "rarity": "SSR"
   },
   {
+    "id": 154133,
+    "name": "★4【エリートサンタは夜を駆け】静香のダイピース",
+    "description": "★4【エリートサンタは夜を駆け】静香の更なる才能開花に使用できるアイテム。",
+    "displayOrder": 154133,
+    "maxStock": 99999,
+    "category": "TalentBloom",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Piece",
+    "rarity": "SSR"
+  },
+  {
+    "id": 154134,
+    "name": "★4【新人サンタはあわてんぼう】鳳ここなのダイピース",
+    "description": "★4【新人サンタはあわてんぼう】鳳ここなの更なる才能開花に使用できるアイテム。",
+    "displayOrder": 154134,
+    "maxStock": 99999,
+    "category": "TalentBloom",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Piece",
+    "rarity": "SSR"
+  },
+  {
     "id": 210001,
     "name": "アクターガチャチケット",
     "description": "アクターガチャを引くことができるチケット。",
@@ -8035,6 +8121,19 @@
     "rarity": "R"
   },
   {
+    "id": 411079,
+    "name": "ガチャポイント",
+    "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
+    "displayOrder": 411079,
+    "displayEndDate": 1736269200.0,
+    "maxStock": 99999,
+    "category": "GachaPoint",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Hidden",
+    "rarity": "R"
+  },
+  {
     "id": 411601,
     "name": "ガチャポイント",
     "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
@@ -8131,6 +8230,19 @@
     "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
     "displayOrder": 411608,
     "displayEndDate": 1735430400.0,
+    "maxStock": 99999,
+    "category": "GachaPoint",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Hidden",
+    "rarity": "R"
+  },
+  {
+    "id": 411609,
+    "name": "ガチャポイント",
+    "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
+    "displayOrder": 411609,
+    "displayEndDate": 1736553600.0,
     "maxStock": 99999,
     "category": "GachaPoint",
     "consumable": false,
@@ -8339,6 +8451,19 @@
     "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
     "displayOrder": 411832,
     "displayEndDate": 1735750800.0,
+    "maxStock": 99999,
+    "category": "GachaPoint",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Hidden",
+    "rarity": "R"
+  },
+  {
+    "id": 411833,
+    "name": "ガチャポイント",
+    "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
+    "displayOrder": 411833,
+    "displayEndDate": 1736096400.0,
     "maxStock": 99999,
     "category": "GachaPoint",
     "consumable": false,
@@ -9283,6 +9408,19 @@
     "rarity": "R"
   },
   {
+    "id": 412802,
+    "name": "ガチャポイント",
+    "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
+    "displayOrder": 412802,
+    "displayEndDate": 1736096400.0,
+    "maxStock": 99999,
+    "category": "GachaPoint",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Hidden",
+    "rarity": "R"
+  },
+  {
     "id": 415000,
     "name": "ガチャポイント",
     "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
@@ -9839,6 +9977,18 @@
     "name": "イベントポイント",
     "description": "イベントの交換所から様々なアイテムと交換できる。",
     "displayOrder": 420045,
+    "maxStock": 1999999999,
+    "category": "EventPoint",
+    "consumable": false,
+    "jumpType": 0,
+    "tabCategory": "Hidden",
+    "rarity": "R"
+  },
+  {
+    "id": 420046,
+    "name": "イベントポイント",
+    "description": "イベントの交換所から様々なアイテムと交換できる。",
+    "displayOrder": 420046,
     "maxStock": 1999999999,
     "category": "EventPoint",
     "consumable": false,

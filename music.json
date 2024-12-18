@@ -5758,6 +5758,44 @@
     "musicCoverType": "Original"
   },
   {
+    "id": 165,
+    "name": "Sweet Memories",
+    "description": "",
+    "rewardRuleMasterId": 1,
+    "pronounceName": "sweetmemories",
+    "lyricWriter": "志村真白（FirstCall）",
+    "composer": "志村真白（FirstCall）",
+    "arranger": "志村真白（FirstCall）",
+    "isLongVersion": false,
+    "releasedAt": 1734714000.0,
+    "staminaConsumption": 30,
+    "musicTimeSecond": 120,
+    "invisible": false,
+    "sampleStartSeconds": 0.0,
+    "sampleEndSeconds": 0.0,
+    "delaySeconds": 0.0,
+    "vocalVersions": [
+      {
+        "id": 16501,
+        "musicMasterId": 165,
+        "vocalVersion": 1,
+        "singer": "鳳ここな、静香",
+        "name": "Sweet Memories",
+        "musicTimeSecond": 120,
+        "sampleStartSeconds": 0.0,
+        "sampleEndSeconds": 0.0,
+        "musicVideoType": "None",
+        "characters": [
+          101,
+          102
+        ]
+      }
+    ],
+    "unlockConditionType": "Default",
+    "musicVideoType": "None",
+    "musicCoverType": "Original"
+  },
+  {
     "id": 167,
     "name": "プリズム△▽リズム",
     "description": "",
@@ -6187,6 +6225,83 @@
     "unlockConditionType": "Default",
     "musicVideoType": "None",
     "musicCoverType": "Original"
+  },
+  {
+    "id": 190,
+    "name": "ビビデバ",
+    "description": "",
+    "rewardRuleMasterId": 1,
+    "pronounceName": "びびでば",
+    "lyricWriter": "ツミキ",
+    "composer": "ツミキ",
+    "arranger": "-",
+    "unlockText": "楽曲ショップで購入",
+    "isLongVersion": false,
+    "releasedAt": 1734627600.0,
+    "staminaConsumption": 38,
+    "musicTimeSecond": 167,
+    "invisible": false,
+    "sampleStartSeconds": 0.0,
+    "sampleEndSeconds": 0.0,
+    "delaySeconds": 0.0,
+    "vocalVersions": [
+      {
+        "id": 19001,
+        "musicMasterId": 190,
+        "vocalVersion": 1,
+        "singer": "カトリナ・グリーベル",
+        "name": "ビビデバ",
+        "musicTimeSecond": 167,
+        "sampleStartSeconds": 0.0,
+        "sampleEndSeconds": 0.0,
+        "musicVideoType": "None",
+        "characters": [
+          103
+        ]
+      }
+    ],
+    "unlockConditionType": "Buy",
+    "musicVideoType": "None",
+    "musicCoverType": "Cover"
+  },
+  {
+    "id": 191,
+    "name": "愛包ダンスホール",
+    "description": "",
+    "rewardRuleMasterId": 1,
+    "pronounceName": "あいぱいだんすほーる",
+    "lyricWriter": "Gohgo",
+    "composer": "涼木シンジ & Gohgo",
+    "arranger": "-",
+    "unlockText": "楽曲ショップで購入",
+    "isLongVersion": false,
+    "releasedAt": 1735578000.0,
+    "staminaConsumption": 29,
+    "musicTimeSecond": 116,
+    "invisible": false,
+    "sampleStartSeconds": 0.0,
+    "sampleEndSeconds": 0.0,
+    "delaySeconds": 0.0,
+    "vocalVersions": [
+      {
+        "id": 19101,
+        "musicMasterId": 191,
+        "vocalVersion": 1,
+        "singer": "柳場ぱんだ、阿岐留カミラ",
+        "name": "愛包ダンスホール",
+        "musicTimeSecond": 116,
+        "sampleStartSeconds": 0.0,
+        "sampleEndSeconds": 0.0,
+        "musicVideoType": "None",
+        "characters": [
+          105,
+          403
+        ]
+      }
+    ],
+    "unlockConditionType": "Buy",
+    "musicVideoType": "None",
+    "musicCoverType": "Cover"
   },
   {
     "id": 9999,
@@ -7294,6 +7409,44 @@
         "musicVideoType": "None",
         "characters": [
           403
+        ]
+      }
+    ],
+    "unlockConditionType": "Buy",
+    "musicVideoType": "None",
+    "musicCoverType": "Original"
+  },
+  {
+    "id": 10076,
+    "name": "不可逆的運命ディストピア（Long Ver.）",
+    "description": "",
+    "rewardRuleMasterId": 1,
+    "pronounceName": "ふかぎゃくてきうんめいでぃすとぴあlong",
+    "lyricWriter": "志村真白（FirstCall）",
+    "composer": "志村真白（FirstCall）",
+    "arranger": "志村真白（FirstCall）",
+    "unlockText": "楽曲ショップで購入",
+    "isLongVersion": true,
+    "releasedAt": 1735146000.0,
+    "staminaConsumption": 0,
+    "musicTimeSecond": 244,
+    "invisible": false,
+    "sampleStartSeconds": 0.0,
+    "sampleEndSeconds": 0.0,
+    "delaySeconds": 0.0,
+    "vocalVersions": [
+      {
+        "id": 1007601,
+        "musicMasterId": 10076,
+        "vocalVersion": 1,
+        "singer": "猫足蕾",
+        "name": "不可逆的運命ディストピア（Long Ver.）",
+        "musicTimeSecond": 244,
+        "sampleStartSeconds": 0.0,
+        "sampleEndSeconds": 0.0,
+        "musicVideoType": "None",
+        "characters": [
+          404
         ]
       }
     ],

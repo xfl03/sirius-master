@@ -1356,6 +1356,18 @@
     "branchCondition2": "None"
   },
   {
+    "id": 130741,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得",
+    "starActConditionMasterId": 101103,
+    "acquirableScorePercent": 400,
+    "scoreUpPerLevel": 40,
+    "preEffects": [],
+    "branches": [],
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
     "id": 140011,
     "name": "",
     "description": "総演技力の[:score]倍のスコアを獲得",
@@ -3913,6 +3925,79 @@
   },
   {
     "id": 141321,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得",
+    "starActConditionMasterId": 104111,
+    "acquirableScorePercent": 970,
+    "scoreUpPerLevel": 100,
+    "preEffects": [],
+    "branches": [],
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 141331,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得／編成されている属性1種類につきスコア獲得量10％上昇（最大＋40％）",
+    "starActConditionMasterId": 103121,
+    "acquirableScorePercent": 970,
+    "scoreUpPerLevel": 100,
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19001
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 1,
+        "id": 14133101
+      },
+      {
+        "order": 2,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19002
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 2,
+        "id": 14133102
+      },
+      {
+        "order": 3,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19003
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 3,
+        "id": 14133103
+      },
+      {
+        "order": 4,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19004
+          }
+        ],
+        "judgeType1": 2,
+        "parameter1": 4,
+        "id": 14133104
+      }
+    ],
+    "branchCondition1": "AttributeCount",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 141341,
     "name": "",
     "description": "総演技力の[:score]倍のスコアを獲得",
     "starActConditionMasterId": 104111,

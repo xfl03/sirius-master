@@ -5197,6 +5197,55 @@
     "maxTalentStage": 5
   },
   {
+    "id": 130740,
+    "characterBaseMasterId": 106,
+    "name": "尾行、キタキツネのように",
+    "description": "",
+    "rarity": "Rare3",
+    "attribute": "Cool",
+    "minLevelStatus": {
+      "vocal": 86,
+      "expression": 90,
+      "concentration": 94
+    },
+    "starActMasterId": 130741,
+    "awakenStarActMasterId": 130741,
+    "senseMasterId": 130740,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 30004,
+    "senseEnhanceItemGroupMasterId": 3,
+    "firstEpisodeReleaseItemGroupId": 321,
+    "secondEpisodeReleaseItemGroupId": 322,
+    "characterAwakeningItemGroupMasterId": 32,
+    "displayStartAt": 1734714000.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "イベントで入手",
+    "categories": [
+      {
+        "categoryMasterId": 2001,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1002,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 4004,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7046,
+        "isAwaken": false
+      }
+    ],
+    "leaderSenseMasterId": 154,
+    "maxTalentStage": 5
+  },
+  {
     "id": 140010,
     "characterBaseMasterId": 101,
     "name": "悲哀と恋慕の旋律",
@@ -6689,7 +6738,8 @@
       }
     ],
     "leaderSenseMasterId": 85,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1734973200.0
   },
   {
     "id": 140290,
@@ -6746,7 +6796,8 @@
       }
     ],
     "leaderSenseMasterId": 50,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1734973200.0
   },
   {
     "id": 140300,
@@ -7038,7 +7089,8 @@
       }
     ],
     "leaderSenseMasterId": 6,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1734973200.0
   },
   {
     "id": 140350,
@@ -7095,7 +7147,8 @@
       }
     ],
     "leaderSenseMasterId": 42,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1734973200.0
   },
   {
     "id": 140360,
@@ -7484,7 +7537,8 @@
       }
     ],
     "leaderSenseMasterId": 70,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1734973200.0
   },
   {
     "id": 140430,
@@ -7541,7 +7595,8 @@
       }
     ],
     "leaderSenseMasterId": 57,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1734973200.0
   },
   {
     "id": 140440,
@@ -12237,6 +12292,112 @@
       }
     ],
     "leaderSenseMasterId": 164,
+    "maxTalentStage": 5
+  },
+  {
+    "id": 141330,
+    "characterBaseMasterId": 102,
+    "name": "エリートサンタは夜を駆け",
+    "description": "",
+    "rarity": "Rare4",
+    "attribute": "Cool",
+    "minLevelStatus": {
+      "vocal": 149,
+      "expression": 92,
+      "concentration": 106
+    },
+    "starActMasterId": 141331,
+    "awakenStarActMasterId": 141331,
+    "senseMasterId": 141330,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 40133,
+    "senseEnhanceItemGroupMasterId": 4,
+    "firstEpisodeReleaseItemGroupId": 421,
+    "secondEpisodeReleaseItemGroupId": 422,
+    "characterAwakeningItemGroupMasterId": 42,
+    "displayStartAt": 1734714000.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "ガチャで入手",
+    "categories": [
+      {
+        "categoryMasterId": 2001,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8004,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7046,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 4006,
+        "isAwaken": true
+      }
+    ],
+    "leaderSenseMasterId": 189,
+    "maxTalentStage": 5
+  },
+  {
+    "id": 141340,
+    "characterBaseMasterId": 101,
+    "name": "新人サンタはあわてんぼう",
+    "description": "",
+    "rarity": "Rare4",
+    "attribute": "Cool",
+    "minLevelStatus": {
+      "vocal": 107,
+      "expression": 142,
+      "concentration": 96
+    },
+    "starActMasterId": 141341,
+    "awakenStarActMasterId": 141341,
+    "senseMasterId": 141340,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 40134,
+    "senseEnhanceItemGroupMasterId": 4,
+    "firstEpisodeReleaseItemGroupId": 421,
+    "secondEpisodeReleaseItemGroupId": 422,
+    "characterAwakeningItemGroupMasterId": 42,
+    "displayStartAt": 1734714000.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "ガチャで入手",
+    "categories": [
+      {
+        "categoryMasterId": 2001,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 4004,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7046,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8004,
+        "isAwaken": true
+      }
+    ],
+    "leaderSenseMasterId": 190,
     "maxTalentStage": 5
   }
 ]
