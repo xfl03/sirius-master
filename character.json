@@ -5246,6 +5246,55 @@
     "maxTalentStage": 5
   },
   {
+    "id": 130750,
+    "characterBaseMasterId": 203,
+    "name": "あつあつ、いただきます",
+    "description": "",
+    "rarity": "Rare3",
+    "attribute": "Colorful",
+    "minLevelStatus": {
+      "vocal": 82,
+      "expression": 97,
+      "concentration": 91
+    },
+    "starActMasterId": 130751,
+    "awakenStarActMasterId": 130751,
+    "senseMasterId": 130750,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 30002,
+    "senseEnhanceItemGroupMasterId": 3,
+    "firstEpisodeReleaseItemGroupId": 331,
+    "secondEpisodeReleaseItemGroupId": 332,
+    "characterAwakeningItemGroupMasterId": 33,
+    "displayStartAt": 1735657200.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "イベントで入手",
+    "categories": [
+      {
+        "categoryMasterId": 2002,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 4003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7047,
+        "isAwaken": false
+      }
+    ],
+    "leaderSenseMasterId": 153,
+    "maxTalentStage": 5
+  },
+  {
     "id": 140010,
     "characterBaseMasterId": 101,
     "name": "悲哀と恋慕の旋律",
@@ -7992,7 +8041,8 @@
       }
     ],
     "leaderSenseMasterId": 22,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1735923600.0
   },
   {
     "id": 140510,
@@ -8045,7 +8095,8 @@
       }
     ],
     "leaderSenseMasterId": 93,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1735923600.0
   },
   {
     "id": 140520,
@@ -12398,6 +12449,112 @@
       }
     ],
     "leaderSenseMasterId": 190,
+    "maxTalentStage": 5
+  },
+  {
+    "id": 141350,
+    "characterBaseMasterId": 404,
+    "name": "慶賀へ至る富正月",
+    "description": "",
+    "rarity": "Rare4",
+    "attribute": "Colorful",
+    "minLevelStatus": {
+      "vocal": 140,
+      "expression": 102,
+      "concentration": 100
+    },
+    "starActMasterId": 141351,
+    "awakenStarActMasterId": 141351,
+    "senseMasterId": 141350,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 40135,
+    "senseEnhanceItemGroupMasterId": 4,
+    "firstEpisodeReleaseItemGroupId": 431,
+    "secondEpisodeReleaseItemGroupId": 432,
+    "characterAwakeningItemGroupMasterId": 43,
+    "displayStartAt": 1735657200.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "ガチャ(期間限定)で入手",
+    "categories": [
+      {
+        "categoryMasterId": 2004,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8004,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7047,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 4007,
+        "isAwaken": true
+      }
+    ],
+    "leaderSenseMasterId": 191,
+    "maxTalentStage": 5
+  },
+  {
+    "id": 141360,
+    "characterBaseMasterId": 202,
+    "name": "金花ほころぶ祝言のとき",
+    "description": "",
+    "rarity": "Rare4",
+    "attribute": "Colorful",
+    "minLevelStatus": {
+      "vocal": 91,
+      "expression": 131,
+      "concentration": 120
+    },
+    "starActMasterId": 141361,
+    "awakenStarActMasterId": 141361,
+    "senseMasterId": 141360,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 40136,
+    "senseEnhanceItemGroupMasterId": 4,
+    "firstEpisodeReleaseItemGroupId": 431,
+    "secondEpisodeReleaseItemGroupId": 432,
+    "characterAwakeningItemGroupMasterId": 43,
+    "displayStartAt": 1735657200.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "ガチャ(期間限定)で入手",
+    "categories": [
+      {
+        "categoryMasterId": 2002,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1002,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8004,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7047,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 4007,
+        "isAwaken": true
+      }
+    ],
+    "leaderSenseMasterId": 192,
     "maxTalentStage": 5
   }
 ]

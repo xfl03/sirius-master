@@ -3740,5 +3740,65 @@
         ]
       }
     ]
+  },
+  {
+    "id": 191,
+    "description": "「劇団電姫」カテゴリの演技力40%上昇、「和風」カテゴリの歌唱力20％上昇・表現力15%上昇",
+    "details": [
+      {
+        "effectMasterId": 12005,
+        "conditions": [
+          {
+            "categoryMasterId1": 2004
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12007,
+        "conditions": [
+          {
+            "categoryMasterId1": 4007
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12023,
+        "conditions": [
+          {
+            "categoryMasterId1": 4007
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 192,
+    "description": "「Eden」カテゴリの演技力40%上昇、「和風」カテゴリの表現力20％上昇・集中力15%上昇",
+    "details": [
+      {
+        "effectMasterId": 12005,
+        "conditions": [
+          {
+            "categoryMasterId1": 2002
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12011,
+        "conditions": [
+          {
+            "categoryMasterId1": 4007
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12024,
+        "conditions": [
+          {
+            "categoryMasterId1": 4007
+          }
+        ]
+      }
+    ]
   }
 ]

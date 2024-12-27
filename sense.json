@@ -2087,6 +2087,21 @@
     "branchCondition2": "None"
   },
   {
+    "id": 130750,
+    "name": "あつあつ、いただきます",
+    "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得",
+    "type": "Control",
+    "preEffects": [],
+    "branches": [],
+    "acquirableGauge": 70,
+    "acquirableScorePercent": 110,
+    "scoreUpPerLevel": 40,
+    "lightCount": 1,
+    "coolTime": 40,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
     "id": 140010,
     "name": "悲哀と恋慕の旋律",
     "description": "[:score]倍のスコアを獲得／ライフを[:param11]回復／ライフが多いほどここなのスコア獲得量UP（最大＋100％）",
@@ -5228,6 +5243,108 @@
     "lightCount": 1,
     "coolTime": 65,
     "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 141350,
+    "name": "慶賀へ至る富正月",
+    "description": "[:score]倍のスコアを獲得／[:sec]秒間、劇団電姫のアクターにスターアクトスコア[:param11]％UP効果",
+    "type": "Special",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20403
+          }
+        ],
+        "id": 1413501
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 220,
+    "scoreUpPerLevel": 60,
+    "lightCount": 2,
+    "coolTime": 45,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 141360,
+    "name": "金花ほころぶ祝言のとき",
+    "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／付与されているライフガード1回につきプリンシパルゲージの上限値が20上昇（最大+100）",
+    "type": "Amplification",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29111
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 1,
+        "id": 1413601
+      },
+      {
+        "order": 2,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29112
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 2,
+        "id": 1413602
+      },
+      {
+        "order": 3,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29113
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 3,
+        "id": 1413603
+      },
+      {
+        "order": 4,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29114
+          }
+        ],
+        "judgeType1": 1,
+        "parameter1": 4,
+        "id": 1413604
+      },
+      {
+        "order": 5,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29115
+          }
+        ],
+        "judgeType1": 2,
+        "parameter1": 5,
+        "id": 1413605
+      }
+    ],
+    "acquirableGauge": 100,
+    "acquirableScorePercent": 180,
+    "scoreUpPerLevel": 60,
+    "lightCount": 1,
+    "coolTime": 50,
+    "branchCondition1": "LifeGuardCount",
     "branchCondition2": "None"
   }
 ]
