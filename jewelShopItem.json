@@ -18557,7 +18557,7 @@
   },
   {
     "id": 5308,
-    "order": 300,
+    "order": 517,
     "appStoreProductId": "",
     "googlePlayProductId": "",
     "name": "星つなぎのバトン",
@@ -20357,7 +20357,7 @@
   },
   {
     "id": 5352,
-    "order": 301,
+    "order": 515,
     "appStoreProductId": "",
     "googlePlayProductId": "",
     "name": "劇団電姫のおまもり【Re:】",
@@ -20645,7 +20645,7 @@
   },
   {
     "id": 5360,
-    "order": 302,
+    "order": 516,
     "appStoreProductId": "",
     "googlePlayProductId": "",
     "name": "撮影パック",
@@ -20692,7 +20692,7 @@
   },
   {
     "id": 5361,
-    "order": 304,
+    "order": 514,
     "appStoreProductId": "5361",
     "googlePlayProductId": "5361",
     "name": "練習台本どっさりパック",
@@ -20883,7 +20883,7 @@
   },
   {
     "id": 5395,
-    "order": 400,
+    "order": 4,
     "appStoreProductId": "5395",
     "googlePlayProductId": "5395",
     "name": "1.5th Anniversary前夜祭記念ジュエルパックA",
@@ -20912,11 +20912,12 @@
     ],
     "shopItemType": "None",
     "itemIconBodyImagePath": "Chara03",
+    "itemIconDetailImagePath": "1500_1500",
     "itemIconBadgeImagePath": "OneTime"
   },
   {
     "id": 5396,
-    "order": 401,
+    "order": 5,
     "appStoreProductId": "5396",
     "googlePlayProductId": "5396",
     "name": "1.5th Anniversary前夜祭記念ジュエルパックB",
@@ -20945,11 +20946,12 @@
     ],
     "shopItemType": "None",
     "itemIconBodyImagePath": "Chara05",
+    "itemIconDetailImagePath": "3500_3500",
     "itemIconBadgeImagePath": "OneTime"
   },
   {
     "id": 5397,
-    "order": 402,
+    "order": 6,
     "appStoreProductId": "5397",
     "googlePlayProductId": "5397",
     "name": "1.5th Anniversary前夜祭記念ジュエルパックC",
@@ -20978,6 +20980,41 @@
     ],
     "shopItemType": "None",
     "itemIconBodyImagePath": "Chara07",
+    "itemIconDetailImagePath": "9800_9800",
+    "itemIconBadgeImagePath": "OneTime"
+  },
+  {
+    "id": 5400,
+    "order": 3,
+    "appStoreProductId": "5400",
+    "googlePlayProductId": "5400",
+    "name": "100万DL記念！お得ジュエルパック",
+    "packText": "",
+    "mJewelShopCategoryId": 5,
+    "dialogType": 1,
+    "purchaseType": "Money",
+    "purchaseValue": 4800,
+    "subscriptionFlag": false,
+    "givePaidJewel": 4800,
+    "replaceTypes": 0,
+    "purchaseLimit": 1,
+    "canPurchaseDayOfWeek": "",
+    "isBuyNotDisplay": false,
+    "isDisplayLocking": false,
+    "startDate": 1736960400.0,
+    "endDate": 1739638800.0,
+    "lineup": [
+      {
+        "id": 540001,
+        "mJewelShopItemId": 5400,
+        "thingId": 0,
+        "thingType": "Jewel",
+        "thingQuantity": 7200
+      }
+    ],
+    "shopItemType": "None",
+    "itemIconBodyImagePath": "Chara06",
+    "itemIconDetailImagePath": "4800_7200",
     "itemIconBadgeImagePath": "OneTime"
   },
   {
