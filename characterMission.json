@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "[:character]を編成して公演を[:param]回クリアしよう",
-    "jumpType": 6,
+    "jumpType": "Live",
     "stages": [
       {
         "id": 10101,
@@ -423,7 +423,7 @@
   {
     "id": 2,
     "title": "[:character]のスターアクトを[:param]回発動しよう",
-    "jumpType": 6,
+    "jumpType": "Live",
     "stages": [
       {
         "id": 200103,
@@ -826,7 +826,7 @@
   {
     "id": 3,
     "title": "[:character]の合計レベルを[:param]にしよう",
-    "jumpType": 7,
+    "jumpType": "Member",
     "stages": [
       {
         "id": 10201,
@@ -1373,7 +1373,7 @@
   {
     "id": 4,
     "title": "[:character]のサイドストーリーを[:param]話読もう",
-    "jumpType": 9,
+    "jumpType": "Story",
     "stages": [
       {
         "id": 200204,
@@ -1560,7 +1560,7 @@
   {
     "id": 5,
     "title": "[:character]のセンスの合計レベルを[:param]にしよう",
-    "jumpType": 7,
+    "jumpType": "Member",
     "stages": [
       {
         "id": 10205,
@@ -1927,7 +1927,7 @@
   {
     "id": 6,
     "title": "[:character]を[:param]回才能開花しよう",
-    "jumpType": 7,
+    "jumpType": "Member",
     "stages": [
       {
         "id": 200301,
@@ -2660,7 +2660,7 @@
   {
     "id": 8,
     "title": "[:character]が描かれたポスターのポスターストーリーを[:param]話解放しよう",
-    "jumpType": 7,
+    "jumpType": "Member",
     "stages": [
       {
         "id": 200402,
@@ -3207,7 +3207,7 @@
   {
     "id": 9,
     "title": "[:character]がメインで写ったフォトを[:param]回現像しよう",
-    "jumpType": 8,
+    "jumpType": "Photo",
     "stages": [
       {
         "id": 10501,
@@ -3754,7 +3754,7 @@
   {
     "id": 10,
     "title": "[:character]のスポットストーリーを[:param]話読もう",
-    "jumpType": 13,
+    "jumpType": "Spot",
     "stages": [
       {
         "id": 50504,
@@ -3851,7 +3851,7 @@
   {
     "id": 11,
     "title": "[:character]のスタンプを[:param]種類集めよう(デフォルトを除く)",
-    "jumpType": 2,
+    "jumpType": "Shop",
     "jumpValue": 2,
     "stages": [
       {

@@ -5393,7 +5393,7 @@
             "effectMasterId": 10511100
           }
         ],
-        "judgeType1": 3,
+        "judgeType1": "LessThan",
         "parameter1": 1,
         "id": 23009301
       },
@@ -5405,7 +5405,7 @@
             "effectMasterId": 10512100
           }
         ],
-        "judgeType1": 1,
+        "judgeType1": "Equal",
         "parameter1": 2,
         "id": 23009302
       },
@@ -5417,7 +5417,7 @@
             "effectMasterId": 10513100
           }
         ],
-        "judgeType1": 1,
+        "judgeType1": "Equal",
         "parameter1": 3,
         "id": 23009303
       },
@@ -5429,7 +5429,7 @@
             "effectMasterId": 10514100
           }
         ],
-        "judgeType1": 2,
+        "judgeType1": "MoreThan",
         "parameter1": 4,
         "id": 23009304
       }
@@ -5551,7 +5551,7 @@
             "effectMasterId": 10611200
           }
         ],
-        "judgeType1": 3,
+        "judgeType1": "LessThan",
         "parameter1": 1,
         "id": 23010301
       },
@@ -5563,7 +5563,7 @@
             "effectMasterId": 10612200
           }
         ],
-        "judgeType1": 1,
+        "judgeType1": "Equal",
         "parameter1": 2,
         "id": 23010302
       },
@@ -5575,7 +5575,7 @@
             "effectMasterId": 10613200
           }
         ],
-        "judgeType1": 1,
+        "judgeType1": "Equal",
         "parameter1": 3,
         "id": 23010303
       },
@@ -5587,7 +5587,7 @@
             "effectMasterId": 10614200
           }
         ],
-        "judgeType1": 2,
+        "judgeType1": "MoreThan",
         "parameter1": 4,
         "id": 23010304
       }
@@ -5733,7 +5733,7 @@
             "effectMasterId": 10711300
           }
         ],
-        "judgeType1": 3,
+        "judgeType1": "LessThan",
         "parameter1": 1,
         "id": 23011301
       },
@@ -5745,7 +5745,7 @@
             "effectMasterId": 10712300
           }
         ],
-        "judgeType1": 1,
+        "judgeType1": "Equal",
         "parameter1": 2,
         "id": 23011302
       },
@@ -5757,7 +5757,7 @@
             "effectMasterId": 10713300
           }
         ],
-        "judgeType1": 1,
+        "judgeType1": "Equal",
         "parameter1": 3,
         "id": 23011303
       },
@@ -5769,7 +5769,7 @@
             "effectMasterId": 10714300
           }
         ],
-        "judgeType1": 2,
+        "judgeType1": "MoreThan",
         "parameter1": 4,
         "id": 23011304
       }
@@ -5891,7 +5891,7 @@
             "effectMasterId": 10411400
           }
         ],
-        "judgeType1": 3,
+        "judgeType1": "LessThan",
         "parameter1": 1,
         "id": 23012301
       },
@@ -5903,7 +5903,7 @@
             "effectMasterId": 10412400
           }
         ],
-        "judgeType1": 1,
+        "judgeType1": "Equal",
         "parameter1": 2,
         "id": 23012302
       },
@@ -5915,7 +5915,7 @@
             "effectMasterId": 10413400
           }
         ],
-        "judgeType1": 1,
+        "judgeType1": "Equal",
         "parameter1": 3,
         "id": 23012303
       },
@@ -5927,7 +5927,7 @@
             "effectMasterId": 10414400
           }
         ],
-        "judgeType1": 2,
+        "judgeType1": "MoreThan",
         "parameter1": 4,
         "id": 23012304
       }
@@ -6649,7 +6649,7 @@
             "effectMasterId": 73052300
           }
         ],
-        "judgeType1": 1,
+        "judgeType1": "Equal",
         "parameter1": 5,
         "id": 23021101
       },
@@ -6669,7 +6669,7 @@
             "effectMasterId": 99999999
           }
         ],
-        "judgeType1": 3,
+        "judgeType1": "LessThan",
         "parameter1": 4,
         "id": 23021102
       }
@@ -6696,7 +6696,7 @@
             "effectMasterId": 72052200
           }
         ],
-        "judgeType1": 1,
+        "judgeType1": "Equal",
         "parameter1": 5,
         "id": 23021201
       },
@@ -6716,7 +6716,7 @@
             "effectMasterId": 99999999
           }
         ],
-        "judgeType1": 3,
+        "judgeType1": "LessThan",
         "parameter1": 4,
         "id": 23021202
       }
@@ -7271,7 +7271,7 @@
             "effectMasterId": 72052100
           }
         ],
-        "judgeType1": 1,
+        "judgeType1": "Equal",
         "parameter1": 5,
         "id": 23051101
       }
@@ -7466,7 +7466,7 @@
             "effectMasterId": 73055300
           }
         ],
-        "judgeType1": 1,
+        "judgeType1": "Equal",
         "parameter1": 5,
         "id": 23072101
       }
@@ -12101,7 +12101,7 @@
             "effectMasterId": 10515100
           }
         ],
-        "judgeType1": 2,
+        "judgeType1": "MoreThan",
         "parameter1": 4,
         "id": 230510301
       },
@@ -12113,7 +12113,7 @@
             "effectMasterId": 10516100
           }
         ],
-        "judgeType1": 1,
+        "judgeType1": "Equal",
         "parameter1": 3,
         "id": 230510302
       },
@@ -12125,7 +12125,7 @@
             "effectMasterId": 10517100
           }
         ],
-        "judgeType1": 1,
+        "judgeType1": "Equal",
         "parameter1": 2,
         "id": 230510303
       },
@@ -12137,7 +12137,7 @@
             "effectMasterId": 10518100
           }
         ],
-        "judgeType1": 3,
+        "judgeType1": "LessThan",
         "parameter1": 1,
         "id": 230510304
       }
@@ -12643,7 +12643,7 @@
             "effectMasterId": 10715300
           }
         ],
-        "judgeType1": 2,
+        "judgeType1": "MoreThan",
         "parameter1": 4,
         "id": 230720301
       },
@@ -12655,7 +12655,7 @@
             "effectMasterId": 10716300
           }
         ],
-        "judgeType1": 1,
+        "judgeType1": "Equal",
         "parameter1": 3,
         "id": 230720302
       },
@@ -12667,7 +12667,7 @@
             "effectMasterId": 10717300
           }
         ],
-        "judgeType1": 1,
+        "judgeType1": "Equal",
         "parameter1": 2,
         "id": 230720303
       },
@@ -12679,7 +12679,7 @@
             "effectMasterId": 10718300
           }
         ],
-        "judgeType1": 3,
+        "judgeType1": "LessThan",
         "parameter1": 1,
         "id": 230720304
       }
