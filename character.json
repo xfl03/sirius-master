@@ -5344,6 +5344,55 @@
     "maxTalentStage": 5
   },
   {
+    "id": 130770,
+    "characterBaseMasterId": 303,
+    "name": "とろける極楽気分",
+    "description": "",
+    "rarity": "Rare3",
+    "attribute": "Cheerful",
+    "minLevelStatus": {
+      "vocal": 96,
+      "expression": 92,
+      "concentration": 82
+    },
+    "starActMasterId": 130771,
+    "awakenStarActMasterId": 130771,
+    "senseMasterId": 130770,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 30003,
+    "senseEnhanceItemGroupMasterId": 3,
+    "firstEpisodeReleaseItemGroupId": 341,
+    "secondEpisodeReleaseItemGroupId": 342,
+    "characterAwakeningItemGroupMasterId": 34,
+    "displayStartAt": 1737392400.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "イベントで入手",
+    "categories": [
+      {
+        "categoryMasterId": 2003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 3003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7048,
+        "isAwaken": false
+      }
+    ],
+    "leaderSenseMasterId": 11,
+    "maxTalentStage": 5
+  },
+  {
     "id": 140010,
     "characterBaseMasterId": 101,
     "name": "悲哀と恋慕の旋律",
@@ -12714,6 +12763,112 @@
       }
     ],
     "leaderSenseMasterId": 193,
+    "maxTalentStage": 5
+  },
+  {
+    "id": 141390,
+    "characterBaseMasterId": 302,
+    "name": "挑まれた勝負に思い巡らせ",
+    "description": "",
+    "rarity": "Rare4",
+    "attribute": "Cheerful",
+    "minLevelStatus": {
+      "vocal": 94,
+      "expression": 106,
+      "concentration": 145
+    },
+    "starActMasterId": 141391,
+    "awakenStarActMasterId": 141391,
+    "senseMasterId": 141390,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 40139,
+    "senseEnhanceItemGroupMasterId": 4,
+    "firstEpisodeReleaseItemGroupId": 441,
+    "secondEpisodeReleaseItemGroupId": 442,
+    "characterAwakeningItemGroupMasterId": 44,
+    "displayStartAt": 1737392400.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "ガチャで入手",
+    "categories": [
+      {
+        "categoryMasterId": 2003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 3003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7048,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8004,
+        "isAwaken": true
+      }
+    ],
+    "leaderSenseMasterId": 195,
+    "maxTalentStage": 5
+  },
+  {
+    "id": 141400,
+    "characterBaseMasterId": 304,
+    "name": "その心、今夜頂きに参ります",
+    "description": "",
+    "rarity": "Rare4",
+    "attribute": "Cheerful",
+    "minLevelStatus": {
+      "vocal": 103,
+      "expression": 133,
+      "concentration": 105
+    },
+    "starActMasterId": 141401,
+    "awakenStarActMasterId": 141401,
+    "senseMasterId": 141400,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 40140,
+    "senseEnhanceItemGroupMasterId": 4,
+    "firstEpisodeReleaseItemGroupId": 441,
+    "secondEpisodeReleaseItemGroupId": 442,
+    "characterAwakeningItemGroupMasterId": 44,
+    "displayStartAt": 1737392400.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "ガチャで入手",
+    "categories": [
+      {
+        "categoryMasterId": 2003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 4007,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7048,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8004,
+        "isAwaken": true
+      }
+    ],
+    "leaderSenseMasterId": 196,
     "maxTalentStage": 5
   }
 ]

@@ -2122,6 +2122,32 @@
     "branchCondition2": "None"
   },
   {
+    "id": 130770,
+    "name": "とろける極楽気分",
+    "description": "[:score]倍のスコアを獲得／ライフを[:param11]回復",
+    "type": "Amplification",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20013
+          }
+        ],
+        "id": 1307701
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 190,
+    "scoreUpPerLevel": 40,
+    "lightCount": 1,
+    "coolTime": 50,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
     "id": 140010,
     "name": "悲哀と恋慕の旋律",
     "description": "[:score]倍のスコアを獲得／ライフを[:param11]回復／ライフが多いほどここなのスコア獲得量UP（最大＋100％）",
@@ -5416,6 +5442,58 @@
     "scoreUpPerLevel": 50,
     "lightCount": 1,
     "coolTime": 40,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 141390,
+    "name": "挑まれた勝負に思い巡らせ",
+    "description": "[:score]倍のスコアを獲得／センス発動時、追加で「支配の光」を1個獲得する／センス発動直後、自身の集中力の[:param11]倍のスコアを獲得",
+    "type": "Support",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20534
+          }
+        ],
+        "id": 1413901
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 540,
+    "scoreUpPerLevel": 50,
+    "lightCount": 1,
+    "coolTime": 35,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 141400,
+    "name": "その心、今夜頂きに参ります",
+    "description": "[:score]倍のスコアを獲得／[:sec]秒間、銀河座のアクターにセンススコア[:param11]％UP効果",
+    "type": "Control",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20056
+          }
+        ],
+        "id": 1414001
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 250,
+    "scoreUpPerLevel": 60,
+    "lightCount": 1,
+    "coolTime": 50,
     "branchCondition1": "None",
     "branchCondition2": "None"
   }

@@ -1870,5 +1870,109 @@
       "effectDescription": "アクターの集中力が[:param1]%上昇する　※<color=#33B4DF>凛属性</color>の静香のみ対象",
       "iconImagePath": "171"
     }
+  },
+  {
+    "id": 2004801,
+    "storyEventHighScoreMasterId": 20048,
+    "storyEventHighScoreBuffMasterId": 11,
+    "storyEventHighScoreBuffMaster": {
+      "id": 11,
+      "storyEventHighScoreBuffPatternGroupId": 1,
+      "effectMasterId": 80003,
+      "effectName": "舞台照明",
+      "effectDescription": "アクターの集中力が[:param1]上昇する",
+      "iconImagePath": "11"
+    }
+  },
+  {
+    "id": 2004802,
+    "storyEventHighScoreMasterId": 20048,
+    "storyEventHighScoreBuffMasterId": 12,
+    "storyEventHighScoreBuffMaster": {
+      "id": 12,
+      "storyEventHighScoreBuffPatternGroupId": 1,
+      "effectMasterId": 80002,
+      "effectName": "舞台スピーカー",
+      "effectDescription": "アクターの表現力が[:param1]上昇する",
+      "iconImagePath": "12"
+    }
+  },
+  {
+    "id": 2004803,
+    "storyEventHighScoreMasterId": 20048,
+    "storyEventHighScoreBuffMasterId": 13,
+    "storyEventHighScoreBuffMaster": {
+      "id": 13,
+      "storyEventHighScoreBuffPatternGroupId": 1,
+      "effectMasterId": 80001,
+      "effectName": "舞台マイク",
+      "effectDescription": "アクターの歌唱力が[:param1]上昇する",
+      "iconImagePath": "13"
+    }
+  },
+  {
+    "id": 2004804,
+    "storyEventHighScoreMasterId": 20048,
+    "storyEventHighScoreBuffMasterId": 14,
+    "storyEventHighScoreBuffMaster": {
+      "id": 14,
+      "storyEventHighScoreBuffPatternGroupId": 1,
+      "effectMasterId": 80004,
+      "effectName": "舞台カーテン",
+      "effectDescription": "アクターの演技力が[:param1]％上昇する",
+      "iconImagePath": "14"
+    }
+  },
+  {
+    "id": 2004805,
+    "storyEventHighScoreMasterId": 20048,
+    "storyEventHighScoreBuffMasterId": 173,
+    "storyEventHighScoreBuffMaster": {
+      "id": 173,
+      "storyEventHighScoreBuffPatternGroupId": 2,
+      "effectMasterId": 80077,
+      "effectName": "高級マッサージチェア",
+      "effectDescription": "アクターの集中力が[:param1]%上昇する　※銀河座に所属するアクターのみ対象",
+      "iconImagePath": "173"
+    }
+  },
+  {
+    "id": 2004806,
+    "storyEventHighScoreMasterId": 20048,
+    "storyEventHighScoreBuffMasterId": 174,
+    "storyEventHighScoreBuffMaster": {
+      "id": 174,
+      "storyEventHighScoreBuffPatternGroupId": 2,
+      "effectMasterId": 80078,
+      "effectName": "トランプカード",
+      "effectDescription": "銀河座に所属するアクター1人につき、プリンシパルゲージの上限値が[:param1]上昇する",
+      "iconImagePath": "176"
+    }
+  },
+  {
+    "id": 2004807,
+    "storyEventHighScoreMasterId": 20048,
+    "storyEventHighScoreBuffMasterId": 175,
+    "storyEventHighScoreBuffMaster": {
+      "id": 175,
+      "storyEventHighScoreBuffPatternGroupId": 2,
+      "effectMasterId": 80079,
+      "effectName": "枕",
+      "effectDescription": "センスのCTが[:param1]秒短縮する　※<color=#FF9314>陽属性</color>のリリヤのみ対象",
+      "iconImagePath": "174"
+    }
+  },
+  {
+    "id": 2004808,
+    "storyEventHighScoreMasterId": 20048,
+    "storyEventHighScoreBuffMasterId": 176,
+    "storyEventHighScoreBuffMaster": {
+      "id": 176,
+      "storyEventHighScoreBuffPatternGroupId": 2,
+      "effectMasterId": 80080,
+      "effectName": "露天風呂",
+      "effectDescription": "公演開始時にプリンシパルゲージが[:param1]上昇する　※<color=#FF9314>陽属性</color>のラモーナのみ対象",
+      "iconImagePath": "175"
+    }
   }
 ]
