@@ -635,7 +635,7 @@
   },
   {
     "id": 111048,
-    "name": "高級スタミナドリンク【～1月20日 17:00】",
+    "name": "高級スタミナドリンク【～1月21日 17:00】",
     "description": "美容にも欠かせない一級品のドリンク。スタミナを100回復する。2025年1月21日17時まで使用できる。",
     "displayOrder": 48,
     "displayEndDate": 1737478800.0,
@@ -7113,6 +7113,18 @@
     "rarity": "R"
   },
   {
+    "id": 210416,
+    "name": "★4確率2倍アクターガチャチケット【劇団電姫第3章追加記念】",
+    "description": "★4確率2倍アクターガチャを引くことができるチケット。",
+    "displayOrder": 210416,
+    "maxStock": 99999,
+    "category": "GachaTicket",
+    "consumable": false,
+    "jumpType": "None",
+    "tabCategory": "Ticket",
+    "rarity": "R"
+  },
+  {
     "id": 211001,
     "name": "ポスターガチャチケット",
     "description": "ポスターガチャを引くことができるチケット。",
@@ -8703,6 +8715,7 @@
     "name": "ガチャポイント",
     "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
     "displayOrder": 411610,
+    "displayEndDate": 1738800000.0,
     "maxStock": 99999,
     "category": "GachaPoint",
     "consumable": false,
