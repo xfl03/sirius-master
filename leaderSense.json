@@ -3888,5 +3888,57 @@
         ]
       }
     ]
+  },
+  {
+    "id": 197,
+    "description": "「劇団電姫」カテゴリの演技力40%上昇、「衣装」カテゴリの集中力35％上昇",
+    "details": [
+      {
+        "effectMasterId": 12005,
+        "conditions": [
+          {
+            "categoryMasterId1": 2004
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12021,
+        "conditions": [
+          {
+            "categoryMasterId1": 8004
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 198,
+    "description": "「役者」カテゴリの演技力40%上昇、「メルヘン」カテゴリの表現力20％上昇・集中力15%上昇",
+    "details": [
+      {
+        "effectMasterId": 12005,
+        "conditions": [
+          {
+            "categoryMasterId1": 8003
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12011,
+        "conditions": [
+          {
+            "categoryMasterId1": 4006
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12024,
+        "conditions": [
+          {
+            "categoryMasterId1": 4006
+          }
+        ]
+      }
+    ]
   }
 ]

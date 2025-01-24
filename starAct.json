@@ -4115,5 +4115,153 @@
     "branches": [],
     "branchCondition1": "None",
     "branchCondition2": "None"
+  },
+  {
+    "id": 141411,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得／編成されている劇団電姫アクターの演技力と演技力上限を、編成されている劇団電姫アクターの人数×7%上昇させる(この効果は重複する)",
+    "starActConditionMasterId": 103212,
+    "acquirableScorePercent": 1140,
+    "scoreUpPerLevel": 120,
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19105
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 1,
+        "id": 14141101
+      },
+      {
+        "order": 2,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19106
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 2,
+        "id": 14141102
+      },
+      {
+        "order": 3,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19107
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 3,
+        "id": 14141103
+      },
+      {
+        "order": 4,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19108
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 4,
+        "id": 14141104
+      },
+      {
+        "order": 5,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19109
+          }
+        ],
+        "judgeType1": "MoreThan",
+        "parameter1": 5,
+        "id": 14141105
+      }
+    ],
+    "branchCondition1": "CompanyMemberCount",
+    "conditionValue1": 4,
+    "branchCondition2": "None"
+  },
+  {
+    "id": 141421,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得／編成されている劇団電姫アクターの演技力と演技力上限を、編成されている劇団電姫アクターの人数×10上昇させる(この効果は重複する)",
+    "starActConditionMasterId": 101241,
+    "acquirableScorePercent": 1140,
+    "scoreUpPerLevel": 120,
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19100
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 1,
+        "id": 14142101
+      },
+      {
+        "order": 2,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19101
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 2,
+        "id": 14142102
+      },
+      {
+        "order": 3,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19102
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 3,
+        "id": 14142103
+      },
+      {
+        "order": 4,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19103
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 4,
+        "id": 14142104
+      },
+      {
+        "order": 5,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19104
+          }
+        ],
+        "judgeType1": "MoreThan",
+        "parameter1": 5,
+        "id": 14142105
+      }
+    ],
+    "branchCondition1": "CompanyMemberCount",
+    "conditionValue1": 4,
+    "branchCondition2": "None"
   }
 ]

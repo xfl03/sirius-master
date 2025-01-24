@@ -5496,5 +5496,108 @@
     "coolTime": 50,
     "branchCondition1": "None",
     "branchCondition2": "None"
+  },
+  {
+    "id": 141410,
+    "name": "いたずら妖精がご招待",
+    "description": "<size=28%>[:score]倍のスコアを獲得／センス発動時、編成されている劇団電姫アクターの演技力と演技力上限を、編成されている劇団電姫アクターの人数×5上昇させる(この効果は重複する)</size>",
+    "type": "Support",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20651
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 1,
+        "id": 1414101
+      },
+      {
+        "order": 2,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20652
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 2,
+        "id": 1414102
+      },
+      {
+        "order": 3,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20653
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 3,
+        "id": 1414103
+      },
+      {
+        "order": 4,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20654
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 4,
+        "id": 1414104
+      },
+      {
+        "order": 5,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20655
+          }
+        ],
+        "judgeType1": "MoreThan",
+        "parameter1": 5,
+        "id": 1414105
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 260,
+    "scoreUpPerLevel": 70,
+    "lightCount": 1,
+    "coolTime": 60,
+    "branchCondition1": "CompanyMemberCount",
+    "conditionValue1": 4,
+    "branchCondition2": "None"
+  },
+  {
+    "id": 141420,
+    "name": "それでも止まらぬ恋心",
+    "description": "[:score]倍のスコアを獲得／センス発動直後、自身の集中力の[:param11]倍のスコアを獲得",
+    "type": "Amplification",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20537
+          }
+        ],
+        "id": 1414201
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 600,
+    "scoreUpPerLevel": 50,
+    "lightCount": 1,
+    "coolTime": 40,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
   }
 ]

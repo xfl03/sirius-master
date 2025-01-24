@@ -8196,6 +8196,30 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 330210,
+    "name": "あふれる愛を抱きしめて",
+    "description": "全アクターの演技力が[:param11]%上昇",
+    "posterMasterId": 330210,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70042000
+          }
+        ],
+        "id": 33021001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 340010,
     "name": "いつか夢を叶える日まで",
     "description": "全アクターの演技力が[:param11]％上昇",
@@ -14626,6 +14650,102 @@
           }
         ],
         "id": 330200301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3302101,
+    "name": "演技力アップⅡ＋＋",
+    "description": "自身の演技力が[:param11]%上昇",
+    "posterMasterId": 330210,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10022000
+          }
+        ],
+        "id": 330210101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3302102,
+    "name": "初期P.ゲージ上昇Ⅱ",
+    "description": "公演開始時、P.ゲージが[:param11]上昇",
+    "posterMasterId": 330210,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11512000
+          }
+        ],
+        "id": 330210201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3302103,
+    "name": "スコアブースト",
+    "description": "センス発動直後、現在のスコアの[:param11]％のスコアを獲得",
+    "posterMasterId": 330210,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10810000
+          }
+        ],
+        "id": 330210301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3302104,
+    "name": "P.ゲージ上限上昇Ⅱ",
+    "description": "公演開始時、Pゲージの上限が[:param11]上昇",
+    "posterMasterId": 330210,
+    "type": "Normal",
+    "frameNumber": 4,
+    "releaseLevelAt": 10,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11720000
+          }
+        ],
+        "id": 330210401
       }
     ],
     "branchConditionType1": "None",
