@@ -4080,6 +4080,30 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 220660,
+    "name": "遥か、ネバーランドに望む",
+    "description": "シリウスに所属するアクターの演技力が[:param11]％上昇",
+    "posterMasterId": 220660,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70022100
+          }
+        ],
+        "id": 22066001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 229010,
     "name": "初めての舞台",
     "description": "<color=#7AC940>彩属性</color>のアクターの演技力が[:param11]%上昇",
@@ -7401,6 +7425,81 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 230570,
+    "name": "起きても続く楽しい夢",
+    "description": "全アクターの演技力が[:param11]%上昇",
+    "posterMasterId": 230570,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70052000
+          }
+        ],
+        "id": 23057001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230571,
+    "name": "演技力アップ＋",
+    "description": "劇団電姫に所属しているアクターのみで編成している場合、追加で演技力が[:param11]％上昇",
+    "posterMasterId": 230570,
+    "type": "Leader",
+    "frameNumber": 2,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70055400
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 5,
+        "id": 23057101
+      }
+    ],
+    "branchConditionType1": "CompanyMemberCount",
+    "conditionValue1": 4,
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230580,
+    "name": "一緒に飛ぼうよ！",
+    "description": "シリウスに所属するアクターの演技力が[:param11]％上昇",
+    "posterMasterId": 230580,
+    "type": "Leader",
+    "frameNumber": 0,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70042100
+          }
+        ],
+        "id": 23058001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 230620,
     "name": "Worlds Dye Star",
     "description": "全アクターの演技力が[:param11]％上昇",
@@ -8358,6 +8457,30 @@
           }
         ],
         "id": 34012001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 340150,
+    "name": "交わる視線と静かな熱",
+    "description": "全アクターの演技力が[:param11]％上昇",
+    "posterMasterId": 340150,
+    "type": "Leader",
+    "frameNumber": 0,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70050000
+          }
+        ],
+        "id": 34015001
       }
     ],
     "branchConditionType1": "None",
@@ -10422,6 +10545,54 @@
           }
         ],
         "id": 220650201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2206601,
+    "name": "演技力アップ",
+    "description": "自身の演技力が[:param11]％上昇　◆発動条件：シリウスに所属するアクターが装備",
+    "posterMasterId": 220660,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10010100
+          }
+        ],
+        "id": 220660101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2206602,
+    "name": "スコアブースト・集中力",
+    "description": "センス発動直後、自身の集中力の[:param11]倍のスコアを獲得　◆発動条件：シリウスに所属するアクターが装備",
+    "posterMasterId": 220660,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11110100
+          }
+        ],
+        "id": 220660201
       }
     ],
     "branchConditionType1": "None",
@@ -12548,6 +12719,236 @@
           }
         ],
         "id": 230560301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2305701,
+    "name": "演技力アップⅢ",
+    "description": "自身の演技力が[:param11]％上昇　◆発動条件：劇団電姫に所属するアクターが装備",
+    "posterMasterId": 230570,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10030400
+          }
+        ],
+        "id": 230570101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2305702,
+    "name": "2.5次元舞台",
+    "description": "センスを発動しなくなるが、自身の演技力が2倍　◆発動条件：いろはが装備",
+    "posterMasterId": 230570,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 60001400
+          }
+        ],
+        "id": 230570201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2305703,
+    "name": "2.5次元舞台",
+    "description": "自身の演技力上限が[:param11]％上昇　◆発動条件：美兎・カミラ・蕾・叶羽が装備",
+    "posterMasterId": 230570,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 60002400
+          }
+        ],
+        "id": 230570301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2305704,
+    "name": "演技力アップ・混星",
+    "description": "編成されている属性数が多いほど自身の演技力が上昇（4属性：[:param11]％／3属性：[:param21]％／2属性：[:param31]％／1属性：[:param41]％）　◆発動条件：劇団電姫に所属するアクターが装備",
+    "posterMasterId": 230570,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 9,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10415400
+          }
+        ],
+        "judgeType1": "MoreThan",
+        "parameter1": 4,
+        "id": 230570401
+      },
+      {
+        "order": 2,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10416400
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 3,
+        "id": 230570402
+      },
+      {
+        "order": 3,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10417400
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 2,
+        "id": 230570403
+      },
+      {
+        "order": 4,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10418400
+          }
+        ],
+        "judgeType1": "LessThan",
+        "parameter1": 1,
+        "id": 230570404
+      }
+    ],
+    "branchConditionType1": "AttributeCount",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2305705,
+    "name": "「光」追加（SP）",
+    "description": "センス発動時、SP光を追加で付与　◆発動条件：劇団電姫に所属するアクターが装備",
+    "posterMasterId": 230570,
+    "type": "Normal",
+    "frameNumber": 4,
+    "releaseLevelAt": 10,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11911400
+          }
+        ],
+        "id": 230570501
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2305801,
+    "name": "演技力アップⅢ＋",
+    "description": "自身の演技力が[:param11]％上昇",
+    "posterMasterId": 230580,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10031000
+          }
+        ],
+        "id": 230580101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2305802,
+    "name": "歌唱力アップⅢ",
+    "description": "自身の歌唱力が[:param11]％上昇　◆発動条件：シリウスに所属するアクターが装備",
+    "posterMasterId": 230580,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10130100
+          }
+        ],
+        "id": 230580201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2305803,
+    "name": "スコアブースト・歌唱力Ⅲ＋",
+    "description": "センス発動直後、自身の歌唱力の[:param11]倍のスコアを獲得　◆発動条件：シリウスに所属するアクターが装備",
+    "posterMasterId": 230580,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10931100
+          }
+        ],
+        "id": 230580301
       }
     ],
     "branchConditionType1": "None",
@@ -15178,6 +15579,78 @@
           }
         ],
         "id": 340120301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3401501,
+    "name": "演技力アップⅢ",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：リリヤが装備",
+    "posterMasterId": 340150,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10030304
+          }
+        ],
+        "id": 340150101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3401502,
+    "name": "P.ゲージブースト＋",
+    "description": "センス発動直後、Pゲージを[:param11]獲得　◆発動条件：リリヤが装備",
+    "posterMasterId": 340150,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11410304
+          }
+        ],
+        "id": 340150201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3401503,
+    "name": "「光」追加（SP）",
+    "description": "公演開始時、SP光を[:param11]付与（効果は公演開始時1回のみ発動する）◆発動条件：リリヤが装備",
+    "posterMasterId": 340150,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11910304
+          }
+        ],
+        "id": 340150301
       }
     ],
     "branchConditionType1": "None",

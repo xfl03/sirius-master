@@ -104,7 +104,7 @@
   },
   {
     "id": 15,
-    "order": 1000,
+    "order": 5341,
     "name": "100万DL記念キャンペーン",
     "jumpType": "Information",
     "jumpPageId": "1265",
@@ -929,7 +929,7 @@
   },
   {
     "id": 1082,
-    "order": 1053,
+    "order": 5342,
     "name": "ふわり、湯けむり異文化旅情ガチャ(アクター)",
     "jumpType": "Gacha",
     "jumpPageId": "1082",
@@ -962,7 +962,7 @@
   },
   {
     "id": 1085,
-    "order": 1086,
+    "order": 1089,
     "name": "【復刻】プールサイド・セッションガチャ(アクター)",
     "jumpType": "Gacha",
     "jumpPageId": "1085",
@@ -970,6 +970,28 @@
     "imagePath": "Gacha/1085",
     "startDate": 1738170000.0,
     "endDate": 1738429200.0
+  },
+  {
+    "id": 1086,
+    "order": 1089,
+    "name": "【復刻】ダイアローグは交わらないガチャ(アクター)",
+    "jumpType": "Gacha",
+    "jumpPageId": "1086",
+    "deleteConditionType": 0,
+    "imagePath": "Gacha/1086",
+    "startDate": 1738429200.0,
+    "endDate": 1738688400.0
+  },
+  {
+    "id": 1087,
+    "order": 1086,
+    "name": "遥か、ネバーランドに望むガチャ(アクター)",
+    "jumpType": "Gacha",
+    "jumpPageId": "1087",
+    "deleteConditionType": 0,
+    "imagePath": "Gacha/1087",
+    "startDate": 1738342800.0,
+    "endDate": 1739120400.0
   },
   {
     "id": 1090,
@@ -1102,6 +1124,17 @@
     "imagePath": "Gacha/1610",
     "startDate": 1737331200.0,
     "endDate": 1737910800.0
+  },
+  {
+    "id": 1611,
+    "order": 1611,
+    "name": "BIRTHDAYピックアップガチャ2025【リリヤ・クルトベイ】",
+    "jumpType": "Gacha",
+    "jumpPageId": "1611",
+    "deleteConditionType": 0,
+    "imagePath": "Gacha/1611",
+    "startDate": 1738540800.0,
+    "endDate": 1739404800.0
   },
   {
     "id": 1800,
@@ -2250,7 +2283,7 @@
   },
   {
     "id": 2075,
-    "order": 1608,
+    "order": 1090,
     "name": "【復刻】ナイトプール殺人事件ガチャ",
     "jumpType": "Gacha",
     "jumpPageId": "2075",
@@ -2258,6 +2291,17 @@
     "imagePath": "Gacha/2075",
     "startDate": 1738170000.0,
     "endDate": 1738429200.0
+  },
+  {
+    "id": 2076,
+    "order": 1608,
+    "name": "【復刻】オクトーバー・エスケープガチャ",
+    "jumpType": "Gacha",
+    "jumpPageId": "2076",
+    "deleteConditionType": 0,
+    "imagePath": "Gacha/2076",
+    "startDate": 1738429200.0,
+    "endDate": 1738688400.0
   },
   {
     "id": 2077,
@@ -2269,6 +2313,28 @@
     "imagePath": "Gacha/2077",
     "startDate": 1737910800.0,
     "endDate": 1738170000.0
+  },
+  {
+    "id": 2078,
+    "order": 1051,
+    "name": "【フューチャーダイスター】劇団電姫ガチャ",
+    "jumpType": "Gacha",
+    "jumpPageId": "2078",
+    "deleteConditionType": 0,
+    "imagePath": "Gacha/2078",
+    "startDate": 1738688400.0,
+    "endDate": 1739898000.0
+  },
+  {
+    "id": 2079,
+    "order": 1087,
+    "name": "ネバーランドの少年ガチャ",
+    "jumpType": "Gacha",
+    "jumpPageId": "2079",
+    "deleteConditionType": 0,
+    "imagePath": "Gacha/2079",
+    "startDate": 1738342800.0,
+    "endDate": 1739120400.0
   },
   {
     "id": 2080,
@@ -4941,7 +5007,7 @@
   },
   {
     "id": 5343,
-    "order": 1609,
+    "order": 5343,
     "name": "お誕生日パック2nd【鳳 ここな】",
     "jumpType": "JewelShop",
     "jumpPageId": "5343",
@@ -4961,6 +5027,18 @@
     "imagePath": "Home/5345",
     "startDate": 1734973200.0,
     "endDate": 1735509600.0
+  },
+  {
+    "id": 5348,
+    "order": 5348,
+    "name": "お誕生日パック2nd【リリヤ・クルトベイ】",
+    "jumpType": "JewelShop",
+    "jumpPageId": "5348",
+    "deleteConditionType": "BuyItem",
+    "deleteConditionValue": "5348",
+    "imagePath": "Home/5348",
+    "startDate": 1738540800.0,
+    "endDate": 1739404800.0
   },
   {
     "id": 5349,
@@ -5057,6 +5135,28 @@
     "endDate": 1739120400.0
   },
   {
+    "id": 5382,
+    "order": 5382,
+    "name": "電姫空間のおまもりパック",
+    "jumpType": "JewelShop",
+    "jumpPageId": "5",
+    "deleteConditionType": 0,
+    "imagePath": "Home/denki_amulet",
+    "startDate": 1738342800.0,
+    "endDate": 1739052000.0
+  },
+  {
+    "id": 5383,
+    "order": 5383,
+    "name": "育成もりもりパック",
+    "jumpType": "JewelShop",
+    "jumpPageId": "5",
+    "deleteConditionType": 0,
+    "imagePath": "Home/ikuseimori",
+    "startDate": 1738774800.0,
+    "endDate": 1739638800.0
+  },
+  {
     "id": 5385,
     "order": 2078,
     "name": "福袋パック2025【アクターA】",
@@ -5069,7 +5169,7 @@
   },
   {
     "id": 5391,
-    "order": 5052,
+    "order": 5344,
     "name": "【復刻】お誕生日パック2nd",
     "jumpType": "JewelShop",
     "jumpPageId": "5",
@@ -5106,7 +5206,7 @@
     "order": 1084,
     "name": "1.5th Anniversary記念！ダイピースパック【シリウス】",
     "jumpType": "JewelShop",
-    "jumpPageId": "5416",
+    "jumpPageId": "5412",
     "deleteConditionType": 0,
     "imagePath": "Home/5412",
     "startDate": 1737849600.0,
@@ -5342,6 +5442,17 @@
     "imagePath": "Gacha/9160",
     "startDate": 1735657200.0,
     "endDate": 1736528400.0
+  },
+  {
+    "id": 9170,
+    "order": 1088,
+    "name": "ネバーランドの少年ガチャSSR確定ステップアップポスターガチャ",
+    "jumpType": "Gacha",
+    "jumpPageId": "9170",
+    "deleteConditionType": 0,
+    "imagePath": "Gacha/9170",
+    "startDate": 1738342800.0,
+    "endDate": 1739120400.0
   },
   {
     "id": 9500,

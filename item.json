@@ -660,6 +660,19 @@
     "rarity": "R"
   },
   {
+    "id": 111050,
+    "name": "高級スタミナドリンク【～2月9日 17:00】",
+    "description": "美容にも欠かせない一級品のドリンク。スタミナを100回復する。2025年2月9日17時まで使用できる。",
+    "displayOrder": 50,
+    "displayEndDate": 1739120400.0,
+    "maxStock": 99999,
+    "category": "StaminaRecovery",
+    "consumable": false,
+    "jumpType": "None",
+    "tabCategory": "Normal",
+    "rarity": "R"
+  },
+  {
     "id": 112001,
     "name": "バレンタインチョコ【2024】",
     "description": "バレンタインの贈り物。味は食べてみてのお楽しみ。スタミナを100回復する。",
@@ -1101,6 +1114,18 @@
     "consumable": false,
     "jumpType": "None",
     "tabCategory": "Normal",
+    "rarity": "SSR"
+  },
+  {
+    "id": 130201,
+    "name": "特別公演チケット",
+    "description": "特別公演で利用することができるチケット。",
+    "displayOrder": 130201,
+    "maxStock": 99999999,
+    "category": "ConsumeItem",
+    "consumable": false,
+    "jumpType": "None",
+    "tabCategory": "Ticket",
     "rarity": "SSR"
   },
   {
@@ -1676,6 +1701,19 @@
     "description": "人気アニメのキャラクターがプリントされたおまもり。電姫空間でシークレットアクセサリーを入手しやすくなる。",
     "displayOrder": 139018,
     "displayEndDate": 1736373600.0,
+    "maxStock": 1,
+    "category": "ConsumeItem",
+    "consumable": false,
+    "jumpType": "None",
+    "tabCategory": "Normal",
+    "rarity": "SSR"
+  },
+  {
+    "id": 139019,
+    "name": "劇団電姫のおまもり【～2月8日 22:00】",
+    "description": "人気アニメのキャラクターがプリントされたおまもり。電姫空間でシークレットアクセサリーを入手しやすくなる。",
+    "displayOrder": 139019,
+    "displayEndDate": 1739052000.0,
     "maxStock": 1,
     "category": "ConsumeItem",
     "consumable": false,
@@ -3347,6 +3385,18 @@
     "rarity": "SSR"
   },
   {
+    "id": 143078,
+    "name": "★3【素敵な思い、受け取りました！】新妻八恵のピース",
+    "description": "★3【素敵な思い、受け取りました！】新妻八恵の才能開花に使用できるアイテム。",
+    "displayOrder": 143078,
+    "maxStock": 99999,
+    "category": "TalentBloom",
+    "consumable": false,
+    "jumpType": "None",
+    "tabCategory": "Piece",
+    "rarity": "SSR"
+  },
+  {
     "id": 144001,
     "name": "★4【悲哀と恋慕の旋律】鳳ここなのピース",
     "description": "★4【悲哀と恋慕の旋律】鳳ここなの才能開花に使用できるアイテム。",
@@ -4983,6 +5033,30 @@
     "name": "★4【それでも止まらぬ恋心】白丸美兎のピース",
     "description": "★4【それでも止まらぬ恋心】白丸美兎の才能開花に使用できるアイテム。",
     "displayOrder": 144142,
+    "maxStock": 99999,
+    "category": "TalentBloom",
+    "consumable": false,
+    "jumpType": "None",
+    "tabCategory": "Piece",
+    "rarity": "SSR"
+  },
+  {
+    "id": 144143,
+    "name": "★4【星のようにまぶしい出会い】柳場ぱんだのピース",
+    "description": "★4【星のようにまぶしい出会い】柳場ぱんだの才能開花に使用できるアイテム。",
+    "displayOrder": 144143,
+    "maxStock": 99999,
+    "category": "TalentBloom",
+    "consumable": false,
+    "jumpType": "None",
+    "tabCategory": "Piece",
+    "rarity": "SSR"
+  },
+  {
+    "id": 144144,
+    "name": "★4【大事なのは信じることさ！】流石知冴のピース",
+    "description": "★4【大事なのは信じることさ！】流石知冴の才能開花に使用できるアイテム。",
+    "displayOrder": 144144,
     "maxStock": 99999,
     "category": "TalentBloom",
     "consumable": false,
@@ -6899,6 +6973,30 @@
     "rarity": "SSR"
   },
   {
+    "id": 154143,
+    "name": "★4【星のようにまぶしい出会い】柳場ぱんだのダイピース",
+    "description": "★4【星のようにまぶしい出会い】柳場ぱんだの更なる才能開花に使用できるアイテム。",
+    "displayOrder": 154143,
+    "maxStock": 99999,
+    "category": "TalentBloom",
+    "consumable": false,
+    "jumpType": "None",
+    "tabCategory": "Piece",
+    "rarity": "SSR"
+  },
+  {
+    "id": 154144,
+    "name": "★4【大事なのは信じることさ！】流石知冴のダイピース",
+    "description": "★4【大事なのは信じることさ！】流石知冴の更なる才能開花に使用できるアイテム。",
+    "displayOrder": 154144,
+    "maxStock": 99999,
+    "category": "TalentBloom",
+    "consumable": false,
+    "jumpType": "None",
+    "tabCategory": "Piece",
+    "rarity": "SSR"
+  },
+  {
     "id": 210001,
     "name": "アクターガチャチケット",
     "description": "アクターガチャを引くことができるチケット。",
@@ -8743,6 +8841,32 @@
     "rarity": "R"
   },
   {
+    "id": 411086,
+    "name": "ガチャポイント",
+    "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
+    "displayOrder": 411086,
+    "displayEndDate": 1739293200.0,
+    "maxStock": 99999,
+    "category": "GachaPoint",
+    "consumable": false,
+    "jumpType": "None",
+    "tabCategory": "Hidden",
+    "rarity": "R"
+  },
+  {
+    "id": 411087,
+    "name": "ガチャポイント",
+    "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
+    "displayOrder": 411087,
+    "displayEndDate": 1739725200.0,
+    "maxStock": 99999,
+    "category": "GachaPoint",
+    "consumable": false,
+    "jumpType": "None",
+    "tabCategory": "Hidden",
+    "rarity": "R"
+  },
+  {
     "id": 411090,
     "name": "ガチャポイント",
     "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
@@ -8890,6 +9014,19 @@
     "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
     "displayOrder": 411610,
     "displayEndDate": 1738800000.0,
+    "maxStock": 99999,
+    "category": "GachaPoint",
+    "consumable": false,
+    "jumpType": "None",
+    "tabCategory": "Hidden",
+    "rarity": "R"
+  },
+  {
+    "id": 411611,
+    "name": "ガチャポイント",
+    "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
+    "displayOrder": 411611,
+    "displayEndDate": 1740009600.0,
     "maxStock": 99999,
     "category": "GachaPoint",
     "consumable": false,
@@ -10081,11 +10218,50 @@
     "rarity": "R"
   },
   {
+    "id": 412076,
+    "name": "ガチャポイント",
+    "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
+    "displayOrder": 412076,
+    "displayEndDate": 1739293200.0,
+    "maxStock": 99999,
+    "category": "GachaPoint",
+    "consumable": false,
+    "jumpType": "None",
+    "tabCategory": "Hidden",
+    "rarity": "R"
+  },
+  {
     "id": 412077,
     "name": "ガチャポイント",
     "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
     "displayOrder": 412077,
     "displayEndDate": 1739034000.0,
+    "maxStock": 99999,
+    "category": "GachaPoint",
+    "consumable": false,
+    "jumpType": "None",
+    "tabCategory": "Hidden",
+    "rarity": "R"
+  },
+  {
+    "id": 412078,
+    "name": "ガチャポイント",
+    "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
+    "displayOrder": 412078,
+    "displayEndDate": 1740502800.0,
+    "maxStock": 99999,
+    "category": "GachaPoint",
+    "consumable": false,
+    "jumpType": "None",
+    "tabCategory": "Hidden",
+    "rarity": "R"
+  },
+  {
+    "id": 412079,
+    "name": "ガチャポイント",
+    "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
+    "displayOrder": 412079,
+    "displayEndDate": 1739725200.0,
     "maxStock": 99999,
     "category": "GachaPoint",
     "consumable": false,
@@ -10772,6 +10948,18 @@
     "rarity": "R"
   },
   {
+    "id": 420049,
+    "name": "イベントポイント",
+    "description": "イベントの交換所から様々なアイテムと交換できる。",
+    "displayOrder": 420049,
+    "maxStock": 1999999999,
+    "category": "EventPoint",
+    "consumable": false,
+    "jumpType": "None",
+    "tabCategory": "Hidden",
+    "rarity": "R"
+  },
+  {
     "id": 421001,
     "name": "イベントポイント",
     "description": "",
@@ -11220,6 +11408,18 @@
     "name": "ミッションパスポイント【2025年1月】",
     "description": "公演ミッションの報酬獲得に必要なポイント",
     "displayOrder": 432413,
+    "maxStock": 9999999,
+    "category": "MissionPassPoint",
+    "consumable": false,
+    "jumpType": "None",
+    "tabCategory": "Hidden",
+    "rarity": "R"
+  },
+  {
+    "id": 432502,
+    "name": "ミッションパスポイント【2025年2月】",
+    "description": "公演ミッションの報酬獲得に必要なポイント",
+    "displayOrder": 432502,
     "maxStock": 9999999,
     "category": "MissionPassPoint",
     "consumable": false,

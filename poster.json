@@ -1940,6 +1940,28 @@
     "subTitleDisplayCondition": "None"
   },
   {
+    "id": 220660,
+    "name": "遥か、ネバーランドに望む",
+    "rarity": "SR",
+    "levelPatternGroupMasterId": 2,
+    "subTitlePositionX1": 0.0,
+    "subTitlePositionY1": 1553.0,
+    "subTitlePositionX2": 989.0,
+    "subTitlePositionY2": 0.0,
+    "releaseItemGroupId": 2,
+    "pronounceName": "はるか、ねばーらんどにのぞむ",
+    "costumes": [],
+    "appearanceCharacterBaseMasterIds": [
+      105
+    ],
+    "isRestrictItemBreakThrough": false,
+    "displayStartAt": 1738342800.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "イベントで入手",
+    "orientation": "Portrait",
+    "subTitleDisplayCondition": "None"
+  },
+  {
     "id": 229010,
     "name": "【SIRIUS】竹取物語",
     "rarity": "SSR",
@@ -3895,6 +3917,78 @@
     "subTitleDisplayCondition": "None"
   },
   {
+    "id": 230570,
+    "name": "【フューチャーダイスター】劇団電姫",
+    "organizeRestrictGroupId": 2,
+    "rarity": "SSR",
+    "levelPatternGroupMasterId": 3,
+    "subTitlePositionX1": 0.0,
+    "subTitlePositionY1": 0.0,
+    "releaseItemGroupId": 5,
+    "pronounceName": "げきだんでんき",
+    "costumes": [
+      {
+        "phase": 1,
+        "costumeMasterId": 2941
+      }
+    ],
+    "appearanceCharacterBaseMasterIds": [
+      401,
+      402,
+      403,
+      404,
+      405
+    ],
+    "isRestrictItemBreakThrough": false,
+    "displayStartAt": 1738688400.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "ガチャ(期間限定)で入手",
+    "orientation": "Landscape",
+    "subTitleDisplayCondition": "BreakThroughPhase",
+    "subTitleDisplayConditionValue": 3
+  },
+  {
+    "id": 230580,
+    "name": "ネバーランドの少年",
+    "rarity": "SSR",
+    "levelPatternGroupMasterId": 3,
+    "subTitlePositionX1": 0.0,
+    "subTitlePositionY1": 1418.0,
+    "subTitlePositionX2": 0.0,
+    "subTitlePositionY2": 0.0,
+    "releaseItemGroupId": 3,
+    "pronounceName": "ねばーらんどのしょうねん",
+    "costumes": [
+      {
+        "phase": 0,
+        "costumeMasterId": 2481
+      },
+      {
+        "phase": 1,
+        "costumeMasterId": 2482
+      },
+      {
+        "phase": 2,
+        "costumeMasterId": 2491
+      },
+      {
+        "phase": 3,
+        "costumeMasterId": 2492
+      }
+    ],
+    "appearanceCharacterBaseMasterIds": [
+      101,
+      102,
+      104
+    ],
+    "isRestrictItemBreakThrough": false,
+    "displayStartAt": 1738342800.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "ガチャ(期間限定)で入手",
+    "orientation": "Portrait",
+    "subTitleDisplayCondition": "None"
+  },
+  {
     "id": 230620,
     "name": "Global Stage",
     "rarity": "SSR",
@@ -4850,13 +4944,13 @@
     "levelPatternGroupMasterId": 3,
     "subTitlePositionX1": 0.0,
     "subTitlePositionY1": 0.0,
-    "releaseItemGroupId": 3,
+    "releaseItemGroupId": 5,
     "pronounceName": "ゆめのぶたいをみとどけてね",
     "costumes": [],
     "appearanceCharacterBaseMasterIds": [
       101
     ],
-    "isRestrictItemBreakThrough": true,
+    "isRestrictItemBreakThrough": false,
     "displayStartAt": 1737849600.0,
     "displayEndAt": 4102444800.0,
     "unlockText": "特別な方法で入手",
@@ -4978,6 +5072,26 @@
     ],
     "isRestrictItemBreakThrough": true,
     "displayStartAt": 1727913600.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "特別な方法で入手",
+    "orientation": "Portrait",
+    "subTitleDisplayCondition": "None"
+  },
+  {
+    "id": 340150,
+    "name": "【Birthday2025】リリヤ・クルトベイ",
+    "rarity": "SSR",
+    "levelPatternGroupMasterId": 3,
+    "subTitlePositionX1": 0.0,
+    "subTitlePositionY1": 1636.0,
+    "releaseItemGroupId": 3,
+    "pronounceName": "りりや・くるとべい",
+    "costumes": [],
+    "appearanceCharacterBaseMasterIds": [
+      304
+    ],
+    "isRestrictItemBreakThrough": true,
+    "displayStartAt": 1738540800.0,
     "displayEndAt": 4102444800.0,
     "unlockText": "特別な方法で入手",
     "orientation": "Portrait",

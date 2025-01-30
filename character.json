@@ -5393,6 +5393,55 @@
     "maxTalentStage": 5
   },
   {
+    "id": 130780,
+    "characterBaseMasterId": 104,
+    "name": "素敵な思い、受け取りました！",
+    "description": "",
+    "rarity": "Rare3",
+    "attribute": "Cute",
+    "minLevelStatus": {
+      "vocal": 109,
+      "expression": 68,
+      "concentration": 94
+    },
+    "starActMasterId": 130781,
+    "awakenStarActMasterId": 130781,
+    "senseMasterId": 130780,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 30002,
+    "senseEnhanceItemGroupMasterId": 3,
+    "firstEpisodeReleaseItemGroupId": 311,
+    "secondEpisodeReleaseItemGroupId": 312,
+    "characterAwakeningItemGroupMasterId": 31,
+    "displayStartAt": 1738342800.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "イベントで入手",
+    "categories": [
+      {
+        "categoryMasterId": 2001,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1001,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 4002,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7049,
+        "isAwaken": false
+      }
+    ],
+    "leaderSenseMasterId": 3,
+    "maxTalentStage": 5
+  },
+  {
     "id": 140010,
     "characterBaseMasterId": 101,
     "name": "悲哀と恋慕の旋律",
@@ -12986,5 +13035,111 @@
     "leaderSenseMasterId": 197,
     "maxTalentStage": 6,
     "maxTalentStageReleaseDate": 1737910800.0
+  },
+  {
+    "id": 141430,
+    "characterBaseMasterId": 105,
+    "name": "星のようにまぶしい出会い",
+    "description": "",
+    "rarity": "Rare4",
+    "attribute": "Cute",
+    "minLevelStatus": {
+      "vocal": 144,
+      "expression": 91,
+      "concentration": 111
+    },
+    "starActMasterId": 141431,
+    "awakenStarActMasterId": 141431,
+    "senseMasterId": 141430,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 40143,
+    "senseEnhanceItemGroupMasterId": 4,
+    "firstEpisodeReleaseItemGroupId": 411,
+    "secondEpisodeReleaseItemGroupId": 412,
+    "characterAwakeningItemGroupMasterId": 41,
+    "displayStartAt": 1738342800.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "ガチャ(期間限定)で入手",
+    "categories": [
+      {
+        "categoryMasterId": 2001,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1002,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 4006,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7049,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8008,
+        "isAwaken": true
+      }
+    ],
+    "leaderSenseMasterId": 199,
+    "maxTalentStage": 5
+  },
+  {
+    "id": 141440,
+    "characterBaseMasterId": 106,
+    "name": "大事なのは信じることさ！",
+    "description": "",
+    "rarity": "Rare4",
+    "attribute": "Cute",
+    "minLevelStatus": {
+      "vocal": 116,
+      "expression": 134,
+      "concentration": 94
+    },
+    "starActMasterId": 141441,
+    "awakenStarActMasterId": 141441,
+    "senseMasterId": 141440,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 40144,
+    "senseEnhanceItemGroupMasterId": 4,
+    "firstEpisodeReleaseItemGroupId": 411,
+    "secondEpisodeReleaseItemGroupId": 412,
+    "characterAwakeningItemGroupMasterId": 41,
+    "displayStartAt": 1738342800.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "ガチャ(期間限定)で入手",
+    "categories": [
+      {
+        "categoryMasterId": 2001,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1002,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8004,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7049,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8007,
+        "isAwaken": true
+      }
+    ],
+    "leaderSenseMasterId": 200,
+    "maxTalentStage": 5
   }
 ]

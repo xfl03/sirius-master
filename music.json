@@ -6302,6 +6302,44 @@
     "musicCoverType": "Original"
   },
   {
+    "id": 180,
+    "name": "いこうよ！ネバーランドへ",
+    "description": "",
+    "rewardRuleMasterId": 1,
+    "pronounceName": "いこうよねばーらんどへ",
+    "lyricWriter": "松井洋平",
+    "composer": "光増ハジメ（FirstCall）",
+    "arranger": "光増ハジメ（FirstCall）",
+    "isLongVersion": false,
+    "releasedAt": 1738342800.0,
+    "staminaConsumption": 29,
+    "musicTimeSecond": 118,
+    "invisible": false,
+    "sampleStartSeconds": 0.0,
+    "sampleEndSeconds": 0.0,
+    "delaySeconds": 0.0,
+    "vocalVersions": [
+      {
+        "id": 18001,
+        "musicMasterId": 180,
+        "vocalVersion": 1,
+        "singer": "柳場ぱんだ、流石知冴",
+        "name": "いこうよ！ネバーランドへ",
+        "musicTimeSecond": 118,
+        "sampleStartSeconds": 0.0,
+        "sampleEndSeconds": 0.0,
+        "musicVideoType": "None",
+        "characters": [
+          105,
+          106
+        ]
+      }
+    ],
+    "unlockConditionType": "Default",
+    "musicVideoType": "None",
+    "musicCoverType": "Original"
+  },
+  {
     "id": 181,
     "name": "トーキョー・ウィンター・ミュージック",
     "description": "",
@@ -7847,6 +7885,44 @@
         "musicVideoType": "None",
         "characters": [
           101
+        ]
+      }
+    ],
+    "unlockConditionType": "Buy",
+    "musicVideoType": "None",
+    "musicCoverType": "Original"
+  },
+  {
+    "id": 10092,
+    "name": "Crystal Bell（Long Ver.）",
+    "description": "",
+    "rewardRuleMasterId": 1,
+    "pronounceName": "CrystalBelllong",
+    "lyricWriter": "松井洋平",
+    "composer": "光増ハジメ（FirstCall）",
+    "arranger": "光増ハジメ（FirstCall）",
+    "unlockText": "楽曲ショップで購入",
+    "isLongVersion": true,
+    "releasedAt": 1738602000.0,
+    "staminaConsumption": 0,
+    "musicTimeSecond": 250,
+    "invisible": false,
+    "sampleStartSeconds": 0.0,
+    "sampleEndSeconds": 0.0,
+    "delaySeconds": 0.0,
+    "vocalVersions": [
+      {
+        "id": 1009201,
+        "musicMasterId": 10092,
+        "vocalVersion": 1,
+        "singer": "リリヤ・クルトベイ",
+        "name": "Crystal Bell（Long Ver.）",
+        "musicTimeSecond": 250,
+        "sampleStartSeconds": 0.0,
+        "sampleEndSeconds": 0.0,
+        "musicVideoType": "None",
+        "characters": [
+          304
         ]
       }
     ],
