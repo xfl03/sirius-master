@@ -5442,6 +5442,55 @@
     "maxTalentStage": 5
   },
   {
+    "id": 130790,
+    "characterBaseMasterId": 303,
+    "name": "得意のセールストーク！",
+    "description": "",
+    "rarity": "Rare3",
+    "attribute": "Cheerful",
+    "minLevelStatus": {
+      "vocal": 96,
+      "expression": 92,
+      "concentration": 82
+    },
+    "starActMasterId": 130791,
+    "awakenStarActMasterId": 130791,
+    "senseMasterId": 130790,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 30003,
+    "senseEnhanceItemGroupMasterId": 3,
+    "firstEpisodeReleaseItemGroupId": 341,
+    "secondEpisodeReleaseItemGroupId": 342,
+    "characterAwakeningItemGroupMasterId": 34,
+    "displayStartAt": 1739120400.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "イベントで入手",
+    "categories": [
+      {
+        "categoryMasterId": 2003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 4003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7507,
+        "isAwaken": false
+      }
+    ],
+    "leaderSenseMasterId": 153,
+    "maxTalentStage": 5
+  },
+  {
     "id": 140010,
     "characterBaseMasterId": 101,
     "name": "悲哀と恋慕の旋律",
@@ -6765,7 +6814,8 @@
       }
     ],
     "leaderSenseMasterId": 119,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1739206800.0
   },
   {
     "id": 140260,
@@ -7050,7 +7100,8 @@
       }
     ],
     "leaderSenseMasterId": 35,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1739206800.0
   },
   {
     "id": 140310,
@@ -7680,7 +7731,8 @@
       }
     ],
     "leaderSenseMasterId": 77,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1739206800.0
   },
   {
     "id": 140420,
@@ -7969,7 +8021,8 @@
       }
     ],
     "leaderSenseMasterId": 111,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1739206800.0
   },
   {
     "id": 140470,
@@ -8744,7 +8797,8 @@
       }
     ],
     "leaderSenseMasterId": 142,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1739120400.0
   },
   {
     "id": 140630,
@@ -9297,7 +9351,8 @@
       }
     ],
     "leaderSenseMasterId": 87,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1739120400.0
   },
   {
     "id": 140750,
@@ -9464,7 +9519,8 @@
       }
     ],
     "leaderSenseMasterId": 65,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1739120400.0
   },
   {
     "id": 140780,
@@ -9790,7 +9846,8 @@
       }
     ],
     "leaderSenseMasterId": 30,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1739120400.0
   },
   {
     "id": 140840,
@@ -13140,6 +13197,112 @@
       }
     ],
     "leaderSenseMasterId": 200,
+    "maxTalentStage": 5
+  },
+  {
+    "id": 141450,
+    "characterBaseMasterId": 301,
+    "name": "スウィート・セレクション",
+    "description": "",
+    "rarity": "Rare4",
+    "attribute": "Cheerful",
+    "minLevelStatus": {
+      "vocal": 158,
+      "expression": 96,
+      "concentration": 84
+    },
+    "starActMasterId": 141451,
+    "awakenStarActMasterId": 141451,
+    "senseMasterId": 141450,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 40145,
+    "senseEnhanceItemGroupMasterId": 4,
+    "firstEpisodeReleaseItemGroupId": 441,
+    "secondEpisodeReleaseItemGroupId": 442,
+    "characterAwakeningItemGroupMasterId": 44,
+    "displayStartAt": 1739120400.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "ガチャで入手",
+    "categories": [
+      {
+        "categoryMasterId": 2003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 4002,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7507,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 4003,
+        "isAwaken": true
+      }
+    ],
+    "leaderSenseMasterId": 201,
+    "maxTalentStage": 5
+  },
+  {
+    "id": 141460,
+    "characterBaseMasterId": 305,
+    "name": "ハートフル・ショッピング",
+    "description": "",
+    "rarity": "Rare4",
+    "attribute": "Cheerful",
+    "minLevelStatus": {
+      "vocal": 122,
+      "expression": 131,
+      "concentration": 91
+    },
+    "starActMasterId": 141461,
+    "awakenStarActMasterId": 141461,
+    "senseMasterId": 141460,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 40146,
+    "senseEnhanceItemGroupMasterId": 4,
+    "firstEpisodeReleaseItemGroupId": 441,
+    "secondEpisodeReleaseItemGroupId": 442,
+    "characterAwakeningItemGroupMasterId": 44,
+    "displayStartAt": 1739120400.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "ガチャで入手",
+    "categories": [
+      {
+        "categoryMasterId": 2003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 3004,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7507,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 4002,
+        "isAwaken": true
+      }
+    ],
+    "leaderSenseMasterId": 202,
     "maxTalentStage": 5
   }
 ]

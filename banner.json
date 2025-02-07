@@ -114,6 +114,17 @@
     "endDate": 1739638800.0
   },
   {
+    "id": 16,
+    "order": 1,
+    "name": "「ワールドダイスター 夢のステラリウム 全国大会 -Vertex Stage- 2025」オンライン予選",
+    "jumpType": "TournamentEventTop",
+    "jumpPageId": "40001",
+    "deleteConditionType": 0,
+    "imagePath": "Notification/Banner00735",
+    "startDate": 1739120400.0,
+    "endDate": 1739923199.0
+  },
+  {
     "id": 1001,
     "order": 2000,
     "name": "リリース記念ガチャ(アクター)",
@@ -994,6 +1005,17 @@
     "endDate": 1739120400.0
   },
   {
+    "id": 1088,
+    "order": 1088,
+    "name": "ショコラとまごころガチャ(アクター)",
+    "jumpType": "Gacha",
+    "jumpPageId": "1088",
+    "deleteConditionType": 0,
+    "imagePath": "Gacha/1088",
+    "startDate": 1739120400.0,
+    "endDate": 1739898000.0
+  },
+  {
     "id": 1090,
     "order": 1051,
     "name": "劇団電姫第2章スポットライトガチャ(アクター)",
@@ -1127,7 +1149,7 @@
   },
   {
     "id": 1611,
-    "order": 1611,
+    "order": 1612,
     "name": "BIRTHDAYピックアップガチャ2025【リリヤ・クルトベイ】",
     "jumpType": "Gacha",
     "jumpPageId": "1611",
@@ -1248,7 +1270,7 @@
   },
   {
     "id": 1811,
-    "order": 2,
+    "order": 3,
     "name": "72時間限定！★4アクター3人確定ガチャ",
     "jumpType": "Gacha",
     "jumpPageId": "1811",
@@ -1532,6 +1554,28 @@
     "imagePath": "Gacha/1837",
     "startDate": 1736960400.0,
     "endDate": 1737849600.0
+  },
+  {
+    "id": 1839,
+    "order": 1610,
+    "name": "才能開花6解放記念！ピックアップガチャ",
+    "jumpType": "Gacha",
+    "jumpPageId": "1839",
+    "deleteConditionType": 0,
+    "imagePath": "Gacha/1839",
+    "startDate": 1739206800.0,
+    "endDate": 1740070800.0
+  },
+  {
+    "id": 1840,
+    "order": 1052,
+    "name": "期間限定アクター復刻ピックアップガチャ【1.5th Anniversary】",
+    "jumpType": "Gacha",
+    "jumpPageId": "1840",
+    "deleteConditionType": 0,
+    "imagePath": "Gacha/1840",
+    "startDate": 1739120400.0,
+    "endDate": 1739898000.0
   },
   {
     "id": 2001,
@@ -2316,7 +2360,7 @@
   },
   {
     "id": 2078,
-    "order": 1051,
+    "order": 1050,
     "name": "【フューチャーダイスター】劇団電姫ガチャ",
     "jumpType": "Gacha",
     "jumpPageId": "2078",
@@ -5157,6 +5201,17 @@
     "endDate": 1739638800.0
   },
   {
+    "id": 5384,
+    "order": 4002,
+    "name": "劇団電姫のおまもり【Re:】",
+    "jumpType": "JewelShop",
+    "jumpPageId": "5",
+    "deleteConditionType": 0,
+    "imagePath": "Home/denki_amuletRe",
+    "startDate": 1739120400.0,
+    "endDate": 1739725200.0
+  },
+  {
     "id": 5385,
     "order": 2078,
     "name": "福袋パック2025【アクターA】",
@@ -5191,7 +5246,7 @@
   },
   {
     "id": 5405,
-    "order": 1,
+    "order": 2,
     "name": "72時間限定パック",
     "jumpType": "JewelShop",
     "jumpPageId": "5",
@@ -5222,6 +5277,53 @@
     "imagePath": "Home/5416",
     "startDate": 1737849600.0,
     "endDate": 1739120400.0
+  },
+  {
+    "id": 5438,
+    "order": 4002,
+    "name": "銀河シアターのおまもりパック",
+    "jumpType": "JewelShop",
+    "jumpPageId": "5",
+    "deleteConditionType": "BuyItem",
+    "deleteConditionValue": "5438",
+    "imagePath": "Home/gingaza_amulet",
+    "startDate": 1739725200.0,
+    "endDate": 1740416400.0
+  },
+  {
+    "id": 5439,
+    "order": 4003,
+    "name": "撮影パック",
+    "jumpType": "JewelShop",
+    "jumpPageId": "5",
+    "deleteConditionType": "BuyItem",
+    "deleteConditionValue": "5439",
+    "imagePath": "Home/common_photo",
+    "startDate": 1739638800.0,
+    "endDate": 1740502800.0
+  },
+  {
+    "id": 5440,
+    "order": 4004,
+    "name": "練習台本どっさりパック",
+    "jumpType": "JewelShop",
+    "jumpPageId": "5",
+    "deleteConditionType": "BuyItem",
+    "deleteConditionValue": "5440",
+    "imagePath": "Home/5146",
+    "startDate": 1739638800.0,
+    "endDate": 1740502800.0
+  },
+  {
+    "id": 5441,
+    "order": 1611,
+    "name": "1.5th Anniversary後夜祭記念ジュエルパックA",
+    "jumpType": "JewelShop",
+    "jumpPageId": "1",
+    "deleteConditionType": 0,
+    "imagePath": "Home/5441",
+    "startDate": 1739120400.0,
+    "endDate": 1739898000.0
   },
   {
     "id": 8500,

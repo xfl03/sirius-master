@@ -4104,6 +4104,30 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 220670,
+    "name": "ショコラとまごころ",
+    "description": "銀河座に所属するアクターの演技力が[:param11]％上昇",
+    "posterMasterId": 220670,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70022300
+          }
+        ],
+        "id": 22067001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 229010,
     "name": "初めての舞台",
     "description": "<color=#7AC940>彩属性</color>のアクターの演技力が[:param11]%上昇",
@@ -10599,6 +10623,54 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 2206701,
+    "name": "歌唱力アップ",
+    "description": "自身の歌唱力が[:param11]％上昇　◆発動条件：銀河座に所属するアクターが装備",
+    "posterMasterId": 220670,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10110300
+          }
+        ],
+        "id": 220670101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2206702,
+    "name": "スコアブースト・歌唱力",
+    "description": "センス発動直後、自身の歌唱力の[:param11]倍のスコアを獲得　◆発動条件：銀河座に所属するアクターが装備",
+    "posterMasterId": 220670,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10910300
+          }
+        ],
+        "id": 220670201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 2301802,
     "name": "演技力アップⅢ",
     "description": "自身の演技力が[:param11]%上昇",
@@ -12774,7 +12846,7 @@
   },
   {
     "id": 2305703,
-    "name": "2.5次元舞台",
+    "name": "電子の姫たち",
     "description": "自身の演技力上限が[:param11]％上昇　◆発動条件：美兎・カミラ・蕾・叶羽が装備",
     "posterMasterId": 230570,
     "type": "Normal",
