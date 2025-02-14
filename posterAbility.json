@@ -7868,7 +7868,7 @@
     "description": "全アクターの演技力が[:param11]％上昇",
     "posterMasterId": 320160,
     "type": "Leader",
-    "frameNumber": 0,
+    "frameNumber": 1,
     "releaseLevelAt": 0,
     "hidden": false,
     "branches": [
@@ -8337,6 +8337,30 @@
           }
         ],
         "id": 33021001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 330220,
+    "name": "かきまぜるチョコに愛をこめて",
+    "description": "全アクターの演技力が[:param11]%上昇",
+    "posterMasterId": 330220,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70042000
+          }
+        ],
+        "id": 33022001
       }
     ],
     "branchConditionType1": "None",
@@ -15219,6 +15243,102 @@
           }
         ],
         "id": 330210401
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3302201,
+    "name": "演技力アップⅢ",
+    "description": "自身の演技力が[:param11]%上昇",
+    "posterMasterId": 330220,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10030000
+          }
+        ],
+        "id": 330220101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3302202,
+    "name": "P.ゲージブーストⅡ",
+    "description": "センス発動直後、P.ゲージを[:param11]獲得　◆発動条件：<color=#33B4DF>凛属性</color>のアクターが装備",
+    "posterMasterId": 330220,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11420002
+          }
+        ],
+        "id": 330220201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3302203,
+    "name": "CTダウンⅢ",
+    "description": "自身のセンスのCTを[:param11]秒短縮　◆発動条件：<color=#33B4DF>凛属性</color>のアクターが装備",
+    "posterMasterId": 330220,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 12420002
+          }
+        ],
+        "id": 330220301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3302204,
+    "name": "演技力上限上昇",
+    "description": "自身の演技力の上限が[:param11]％上昇　◆発動条件：<color=#33B4DF>凛属性</color>のアクターが装備",
+    "posterMasterId": 330220,
+    "type": "Normal",
+    "frameNumber": 4,
+    "releaseLevelAt": 10,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 12900002
+          }
+        ],
+        "id": 330220401
       }
     ],
     "branchConditionType1": "None",

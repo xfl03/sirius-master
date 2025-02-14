@@ -24776,7 +24776,7 @@
     "id": 1840,
     "isDisplayRequiredHavingItem": false,
     "category": "Gacha",
-    "name": "期間限定アクター復刻ピックアップガチャ【1.5th Anniversary】(アクター)",
+    "name": "期間限定アクター復刻ピックアップガチャ【1.5th Anniversary後夜祭】(アクター)",
     "displayThingType": "Item",
     "displayItemMasterId": 411840,
     "bannerPath": "1840",
@@ -29066,6 +29066,57 @@
         "startDate": 1737849600.0,
         "endDate": 1739725200.0,
         "requiredItemMasterId": 412085,
+        "requiredQuantity": 1
+      }
+    ]
+  },
+  {
+    "id": 2087,
+    "isDisplayRequiredHavingItem": false,
+    "category": "Gacha",
+    "name": "エレクトロン・ショコラティエ！ガチャ(ポスター)",
+    "displayThingType": "Item",
+    "displayItemMasterId": 412087,
+    "bannerPath": "2087",
+    "startDate": 1739491200.0,
+    "endDate": 1741021200.0,
+    "lastRefreshedAt": -62135596800.0,
+    "lineup": [
+      {
+        "id": 2087001,
+        "thingId": 330220,
+        "thingType": "Poster",
+        "thingQuantity": 1,
+        "order": 2087001,
+        "isDisplayLocked": false,
+        "startDate": 1739491200.0,
+        "endDate": 1741021200.0,
+        "requiredItemMasterId": 412087,
+        "requiredQuantity": 200
+      },
+      {
+        "id": 2087002,
+        "thingId": 130071,
+        "thingType": "Item",
+        "thingQuantity": 1,
+        "exchangeLimit": 2,
+        "order": 2087002,
+        "isDisplayLocked": false,
+        "startDate": 1739491200.0,
+        "endDate": 1741021200.0,
+        "requiredItemMasterId": 412087,
+        "requiredQuantity": 50
+      },
+      {
+        "id": 2087003,
+        "thingId": 130011,
+        "thingType": "Item",
+        "thingQuantity": 1,
+        "order": 2087003,
+        "isDisplayLocked": false,
+        "startDate": 1739491200.0,
+        "endDate": 1741021200.0,
+        "requiredItemMasterId": 412087,
         "requiredQuantity": 1
       }
     ]
