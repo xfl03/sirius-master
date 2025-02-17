@@ -3477,5 +3477,76 @@
     "order": 8,
     "requiredReadEpisodeMasterId": 2004907,
     "episodeRewardPackageMasterId": 2004908
+  },
+  {
+    "id": 2005001,
+    "storyMasterId": 20050,
+    "requiredTotalAcquiredPoint": 0,
+    "title": "バイクのソロキャンパー",
+    "order": 1,
+    "episodeRewardPackageMasterId": 2005001
+  },
+  {
+    "id": 2005002,
+    "storyMasterId": 20050,
+    "requiredTotalAcquiredPoint": 2000,
+    "title": "キャンプ、楽しみすぎる！",
+    "order": 2,
+    "requiredReadEpisodeMasterId": 2005001,
+    "episodeRewardPackageMasterId": 2005002
+  },
+  {
+    "id": 2005003,
+    "storyMasterId": 20050,
+    "requiredTotalAcquiredPoint": 4000,
+    "title": "いざ、買い物へ！",
+    "order": 3,
+    "requiredReadEpisodeMasterId": 2005002,
+    "episodeRewardPackageMasterId": 2005003
+  },
+  {
+    "id": 2005004,
+    "storyMasterId": 20050,
+    "requiredTotalAcquiredPoint": 8000,
+    "title": "冬キャン！はじまり！",
+    "order": 4,
+    "requiredReadEpisodeMasterId": 2005003,
+    "episodeRewardPackageMasterId": 2005004
+  },
+  {
+    "id": 2005005,
+    "storyMasterId": 20050,
+    "requiredTotalAcquiredPoint": 16000,
+    "title": "薪集めと出会い",
+    "order": 5,
+    "requiredReadEpisodeMasterId": 2005004,
+    "episodeRewardPackageMasterId": 2005005
+  },
+  {
+    "id": 2005006,
+    "storyMasterId": 20050,
+    "requiredTotalAcquiredPoint": 32000,
+    "title": "燃えない焚火",
+    "order": 6,
+    "requiredReadEpisodeMasterId": 2005005,
+    "episodeRewardPackageMasterId": 2005006
+  },
+  {
+    "id": 2005007,
+    "storyMasterId": 20050,
+    "requiredTotalAcquiredPoint": 64000,
+    "title": "冬キャン！あつまる！！",
+    "order": 7,
+    "requiredReadEpisodeMasterId": 2005006,
+    "episodeRewardPackageMasterId": 2005007
+  },
+  {
+    "id": 2005008,
+    "storyMasterId": 20050,
+    "requiredTotalAcquiredPoint": 128000,
+    "title": "これからもっと楽しくなるよ",
+    "order": 8,
+    "requiredReadEpisodeMasterId": 2005007,
+    "episodeRewardPackageMasterId": 2005008
   }
 ]

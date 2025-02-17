@@ -4028,5 +4028,27 @@
         ]
       }
     ]
+  },
+  {
+    "id": 203,
+    "description": "「役者」カテゴリの演技力40%上昇、「小道具」カテゴリの表現力35％上昇",
+    "details": [
+      {
+        "effectMasterId": 12005,
+        "conditions": [
+          {
+            "categoryMasterId1": 8003
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12020,
+        "conditions": [
+          {
+            "categoryMasterId1": 8006
+          }
+        ]
+      }
+    ]
   }
 ]

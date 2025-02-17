@@ -7839,6 +7839,30 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 320140,
+    "name": "えでキャン△",
+    "description": "Edenに所属するアクターの演技力が[:param11]％上昇",
+    "posterMasterId": 320140,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70022200
+          }
+        ],
+        "id": 32014001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 320150,
     "name": "眠れぬ夜に",
     "description": "全アクターの演技力が[:param11]%上昇",
@@ -8271,6 +8295,54 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 330170,
+    "name": "分担すれば準備も早いよね",
+    "description": "全アクターの演技力が[:param11]%上昇",
+    "posterMasterId": 330170,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70042000
+          }
+        ],
+        "id": 33017001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 330180,
+    "name": "澄んだ空気とコーヒーの香り",
+    "description": "Edenに所属するアクターの演技力が[:param11]％上昇",
+    "posterMasterId": 330180,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70054200
+          }
+        ],
+        "id": 33018001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 330190,
     "name": "冒険は扉をあけて",
     "description": "全アクターの演技力が[:param11]%上昇",
@@ -8457,6 +8529,30 @@
           }
         ],
         "id": 34008001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 340100,
+    "name": "凡才なりの大勝負",
+    "description": "全アクターの演技力が[:param11]％上昇",
+    "posterMasterId": 340100,
+    "type": "Leader",
+    "frameNumber": 0,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70050000
+          }
+        ],
+        "id": 34010001
       }
     ],
     "branchConditionType1": "None",
@@ -13665,6 +13761,54 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 3201401,
+    "name": "演技力アップ",
+    "description": "自身の演技力が[:param11]％上昇　◆発動条件：Edenに所属するアクターが装備",
+    "posterMasterId": 320140,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10010200
+          }
+        ],
+        "id": 320140101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3201402,
+    "name": "スコアブースト・集中力",
+    "description": "センス発動直後、自身の集中力の[:param11]倍のスコアを獲得　◆発動条件：Edenに所属するアクターが装備",
+    "posterMasterId": 320140,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11110200
+          }
+        ],
+        "id": 320140201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 3201501,
     "name": "スコアブースト・集中力",
     "description": "センス発動直後、自身の集中力の[:param11]倍のスコアを獲得　◆発動条件：暦が装備",
@@ -15009,6 +15153,150 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 3301701,
+    "name": "歌唱力アップⅢ",
+    "description": "自身の歌唱力が[:param11]％上昇",
+    "posterMasterId": 330170,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10130000
+          }
+        ],
+        "id": 330170101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3301702,
+    "name": "スコアブースト・歌唱力Ⅱ",
+    "description": "センス発動直後、自身の歌唱力の[:param11]倍のスコアを獲得",
+    "posterMasterId": 330170,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10920000
+          }
+        ],
+        "id": 330170201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3301703,
+    "name": "「光」追加（SP）Ⅱ",
+    "description": "公演開始時、SP光を[:param11]付与（効果は公演開始時1回のみ発動する）",
+    "posterMasterId": 330170,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11920000
+          }
+        ],
+        "id": 330170301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3301801,
+    "name": "演技力アップⅢ＋",
+    "description": "自身の演技力が[:param11]％上昇　◆発動条件：Edenに所属するアクターが装備",
+    "posterMasterId": 330180,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10031200
+          }
+        ],
+        "id": 330180101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3301802,
+    "name": "スコアブースト＋",
+    "description": "センス発動直後、現在のスコアの[:param11]%のスコアを獲得　◆発動条件：Edenに所属するアクターが装備",
+    "posterMasterId": 330180,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10812200
+          }
+        ],
+        "id": 330180201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3301803,
+    "name": "「光」獲得（支配）",
+    "description": "センス発動時、支配系の光「<color=#ff0000>*</color>」を追加で[:param11]個付与　◆発動条件：Edenに所属するアクターが装備",
+    "posterMasterId": 330180,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 12111200
+          }
+        ],
+        "id": 330180301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 3301901,
     "name": "演技力アップⅡ＋＋",
     "description": "自身の演技力が[:param11]％上昇",
@@ -15627,6 +15915,78 @@
           }
         ],
         "id": 340080301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3401001,
+    "name": "演技力アップⅢ",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：容が装備",
+    "posterMasterId": 340100,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10030204
+          }
+        ],
+        "id": 340100101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3401002,
+    "name": "P.ゲージブースト＋",
+    "description": "センス発動直後、Pゲージを[:param11]獲得　◆発動条件：容が装備",
+    "posterMasterId": 340100,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11410204
+          }
+        ],
+        "id": 340100201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3401003,
+    "name": "「光」追加（SP）",
+    "description": "公演開始時、SP光を[:param11]付与（効果は公演開始時1回のみ発動する）◆発動条件：容が装備",
+    "posterMasterId": 340100,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11910204
+          }
+        ],
+        "id": 340100301
       }
     ],
     "branchConditionType1": "None",

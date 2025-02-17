@@ -2189,6 +2189,21 @@
     "branchCondition2": "None"
   },
   {
+    "id": 130800,
+    "name": "助手席、空いているぞ",
+    "description": "[:score]倍のスコアを獲得",
+    "type": "Support",
+    "preEffects": [],
+    "branches": [],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 410,
+    "scoreUpPerLevel": 40,
+    "lightCount": 1,
+    "coolTime": 40,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
     "id": 140010,
     "name": "悲哀と恋慕の旋律",
     "description": "[:score]倍のスコアを獲得／ライフを[:param11]回復／ライフが多いほどここなのスコア獲得量UP（最大＋100％）",
@@ -5541,7 +5556,7 @@
   {
     "id": 141410,
     "name": "いたずら妖精がご招待",
-    "description": "<size=28%>[:score]倍のスコアを獲得／センス発動時、編成されている劇団電姫アクターの演技力と演技力上限を、編成されている劇団電姫アクターの人数×5%上昇させる(この効果は重複する)</size>",
+    "description": "<size=26%>[:score]倍のスコアを獲得／センス発動時、編成されている劇団電姫アクターの演技力と演技力上限を、編成されている劇団電姫アクターの人数×5%上昇させる(この効果は重複する)</size>",
     "type": "Support",
     "preEffects": [],
     "branches": [
@@ -5733,6 +5748,58 @@
     ],
     "acquirableGauge": 0,
     "acquirableScorePercent": 220,
+    "scoreUpPerLevel": 50,
+    "lightCount": 1,
+    "coolTime": 40,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 141470,
+    "name": "一緒にツーリング！",
+    "description": "[:score]倍のスコアを獲得／[:sec]秒間、Edenのアクターにスターアクトスコア[:param11]％UP効果",
+    "type": "Special",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20203
+          }
+        ],
+        "id": 1414701
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 220,
+    "scoreUpPerLevel": 60,
+    "lightCount": 2,
+    "coolTime": 45,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 141480,
+    "name": "空飛ぶテントで",
+    "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／センス発動後、追加で[:param11]のプリンシパルゲージを獲得",
+    "type": "Control",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20082
+          }
+        ],
+        "id": 1414801
+      }
+    ],
+    "acquirableGauge": 90,
+    "acquirableScorePercent": 170,
     "scoreUpPerLevel": 50,
     "lightCount": 1,
     "coolTime": 40,

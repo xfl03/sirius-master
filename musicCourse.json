@@ -256,6 +256,39 @@
     ]
   },
   {
+    "id": 9,
+    "name": "【九段】段位認定2025 1st Season",
+    "musicCourseType": "DanClass",
+    "order": 9,
+    "initialLife": 50,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1740157200.0,
+    "endDate": 1754024400.0,
+    "unlockCondition": "ClearedMMusicCourseId",
+    "unlockConditionValue": 8,
+    "details": [
+      {
+        "id": 901,
+        "setListNumber": 1,
+        "liveMasterId": 9704,
+        "vocalVersion": 1
+      },
+      {
+        "id": 902,
+        "setListNumber": 2,
+        "liveMasterId": 17004,
+        "vocalVersion": 1
+      },
+      {
+        "id": 903,
+        "setListNumber": 3,
+        "liveMasterId": 704,
+        "vocalVersion": 1
+      }
+    ]
+  },
+  {
     "id": 21,
     "name": "【初段】段位認定2025 1st Seasonウラ",
     "musicCourseType": "AdvancedDanClass",
@@ -507,6 +540,39 @@
         "id": 2803,
         "setListNumber": 3,
         "liveMasterId": 17005,
+        "vocalVersion": 1
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "name": "【九段】段位認定2025 1st Seasonウラ",
+    "musicCourseType": "AdvancedDanClass",
+    "order": 9,
+    "initialLife": 60,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1740157200.0,
+    "endDate": 1754024400.0,
+    "unlockCondition": "ClearedMMusicCourseId",
+    "unlockConditionValue": 28,
+    "details": [
+      {
+        "id": 2901,
+        "setListNumber": 1,
+        "liveMasterId": 19405,
+        "vocalVersion": 1
+      },
+      {
+        "id": 2902,
+        "setListNumber": 2,
+        "liveMasterId": 3105,
+        "vocalVersion": 1
+      },
+      {
+        "id": 2903,
+        "setListNumber": 3,
+        "liveMasterId": 7605,
         "vocalVersion": 1
       }
     ]

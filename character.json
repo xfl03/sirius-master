@@ -5491,6 +5491,55 @@
     "maxTalentStage": 5
   },
   {
+    "id": 130800,
+    "characterBaseMasterId": 201,
+    "name": "助手席、空いているぞ",
+    "description": "",
+    "rarity": "Rare3",
+    "attribute": "Colorful",
+    "minLevelStatus": {
+      "vocal": 87,
+      "expression": 104,
+      "concentration": 77
+    },
+    "starActMasterId": 130801,
+    "awakenStarActMasterId": 130801,
+    "senseMasterId": 130800,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 30001,
+    "senseEnhanceItemGroupMasterId": 3,
+    "firstEpisodeReleaseItemGroupId": 331,
+    "secondEpisodeReleaseItemGroupId": 332,
+    "characterAwakeningItemGroupMasterId": 33,
+    "displayStartAt": 1739898000.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "イベント(コラボ)で入手",
+    "categories": [
+      {
+        "categoryMasterId": 2002,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 4002,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 4006,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7050,
+        "isAwaken": false
+      }
+    ],
+    "leaderSenseMasterId": 3,
+    "maxTalentStage": 5
+  },
+  {
     "id": 140010,
     "characterBaseMasterId": 101,
     "name": "悲哀と恋慕の旋律",
@@ -13304,5 +13353,113 @@
     ],
     "leaderSenseMasterId": 202,
     "maxTalentStage": 5
+  },
+  {
+    "id": 141470,
+    "characterBaseMasterId": 204,
+    "name": "一緒にツーリング！",
+    "description": "",
+    "rarity": "Rare4",
+    "attribute": "Colorful",
+    "minLevelStatus": {
+      "vocal": 156,
+      "expression": 109,
+      "concentration": 114
+    },
+    "starActMasterId": 141471,
+    "awakenStarActMasterId": 141471,
+    "senseMasterId": 141470,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 40147,
+    "senseEnhanceItemGroupMasterId": 4,
+    "firstEpisodeReleaseItemGroupId": 431,
+    "secondEpisodeReleaseItemGroupId": 432,
+    "characterAwakeningItemGroupMasterId": 43,
+    "displayStartAt": 1739898000.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "ガチャ(コラボ限定)で入手",
+    "categories": [
+      {
+        "categoryMasterId": 2002,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 4002,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7050,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8002,
+        "isAwaken": true
+      }
+    ],
+    "leaderSenseMasterId": 78,
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1739898000.0
+  },
+  {
+    "id": 141480,
+    "characterBaseMasterId": 203,
+    "name": "空飛ぶテントで",
+    "description": "",
+    "rarity": "Rare4",
+    "attribute": "Colorful",
+    "minLevelStatus": {
+      "vocal": 118,
+      "expression": 159,
+      "concentration": 104
+    },
+    "starActMasterId": 141481,
+    "awakenStarActMasterId": 141481,
+    "senseMasterId": 141480,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 40148,
+    "senseEnhanceItemGroupMasterId": 4,
+    "firstEpisodeReleaseItemGroupId": 431,
+    "secondEpisodeReleaseItemGroupId": 432,
+    "characterAwakeningItemGroupMasterId": 43,
+    "displayStartAt": 1739898000.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "ガチャ(コラボ限定)で入手",
+    "categories": [
+      {
+        "categoryMasterId": 2002,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 4002,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7050,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8006,
+        "isAwaken": true
+      }
+    ],
+    "leaderSenseMasterId": 203,
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1739898000.0
   }
 ]

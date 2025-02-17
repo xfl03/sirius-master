@@ -484,6 +484,39 @@
     "campaignEffectValue": 0
   },
   {
+    "id": 46,
+    "title": "公演の獲得EXP 50％UP",
+    "description": "期間：2/21 17:00～2/26 22:00/n対象：公演、協力公演",
+    "iconImagePath": "4",
+    "order": 46,
+    "startDate": 1740157200.0,
+    "endDate": 1740607200.0,
+    "campaignEffectType": "RankPoint",
+    "campaignEffectValue": 50
+  },
+  {
+    "id": 47,
+    "title": "稽古の回数 +1回",
+    "description": "期間：2/22 5:00 ～ 2/25 5:00/n対象：稽古",
+    "iconImagePath": "1001",
+    "order": 47,
+    "startDate": 1740200400.0,
+    "endDate": 1740459600.0,
+    "campaignEffectType": "LessonCount",
+    "campaignEffectValue": 1
+  },
+  {
+    "id": 48,
+    "title": "公演の報酬量 50%UP",
+    "description": "期間：2/27 5:00～3/4 5:00/n対象：公演、協力公演",
+    "iconImagePath": "1",
+    "order": 48,
+    "startDate": 1740632400.0,
+    "endDate": 1741064400.0,
+    "campaignEffectType": "LiveReward",
+    "campaignEffectValue": 50
+  },
+  {
     "id": 1000,
     "title": "公演の獲得EXP 50％UP",
     "description": "ウェルカムバックキャンペーン/n期間：7日間/n対象：公演、協力公演",

@@ -1428,6 +1428,18 @@
     "branchCondition2": "None"
   },
   {
+    "id": 130801,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得",
+    "starActConditionMasterId": 103110,
+    "acquirableScorePercent": 400,
+    "scoreUpPerLevel": 40,
+    "preEffects": [],
+    "branches": [],
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
     "id": 140011,
     "name": "",
     "description": "総演技力の[:score]倍のスコアを獲得",
@@ -4143,7 +4155,7 @@
   {
     "id": 141411,
     "name": "",
-    "description": "総演技力の[:score]倍のスコアを獲得／編成されている劇団電姫アクターの演技力と演技力上限を、編成されている劇団電姫アクターの人数×7%上昇させる(この効果は重複する)",
+    "description": "<size=26%>総演技力の[:score]倍のスコアを獲得／編成されている劇団電姫アクターの演技力と演技力上限を、編成されている劇団電姫アクターの人数×7%上昇させる(この効果は重複する)</size>",
     "starActConditionMasterId": 103212,
     "acquirableScorePercent": 1140,
     "scoreUpPerLevel": 120,
@@ -4217,7 +4229,7 @@
   {
     "id": 141421,
     "name": "",
-    "description": "総演技力の[:score]倍のスコアを獲得／編成されている劇団電姫アクターの演技力と演技力上限を、編成されている劇団電姫アクターの人数×10%上昇させる(この効果は重複する)",
+    "description": "<size=26%>総演技力の[:score]倍のスコアを獲得／編成されている劇団電姫アクターの演技力と演技力上限を、編成されている劇団電姫アクターの人数×10%上昇させる(この効果は重複する)</size>",
     "starActConditionMasterId": 101241,
     "acquirableScorePercent": 1140,
     "scoreUpPerLevel": 120,
@@ -4329,6 +4341,30 @@
     "name": "",
     "description": "総演技力の[:score]倍のスコアを獲得",
     "starActConditionMasterId": 101141,
+    "acquirableScorePercent": 970,
+    "scoreUpPerLevel": 100,
+    "preEffects": [],
+    "branches": [],
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 141471,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得",
+    "starActConditionMasterId": 101114,
+    "acquirableScorePercent": 970,
+    "scoreUpPerLevel": 100,
+    "preEffects": [],
+    "branches": [],
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 141481,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得",
+    "starActConditionMasterId": 101411,
     "acquirableScorePercent": 970,
     "scoreUpPerLevel": 100,
     "preEffects": [],
