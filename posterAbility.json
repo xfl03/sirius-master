@@ -4128,6 +4128,30 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 220680,
+    "name": "Break Loose",
+    "description": "銀河座に所属するアクターの演技力が[:param11]％上昇",
+    "posterMasterId": 220680,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70022300
+          }
+        ],
+        "id": 22068001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 229010,
     "name": "初めての舞台",
     "description": "<color=#7AC940>彩属性</color>のアクターの演技力が[:param11]%上昇",
@@ -7524,6 +7548,30 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 230610,
+    "name": "ビートに乗って、伝説へ",
+    "description": "銀河座に所属するアクターの演技力が[:param11]％上昇",
+    "posterMasterId": 230610,
+    "type": "Leader",
+    "frameNumber": 0,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70052300
+          }
+        ],
+        "id": 23061001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 230620,
     "name": "Worlds Dye Star",
     "description": "全アクターの演技力が[:param11]％上昇",
@@ -8433,6 +8481,30 @@
           }
         ],
         "id": 33022001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 330230,
+    "name": "今宵、私が支配する！",
+    "description": "全アクターの演技力が[:param11]%上昇",
+    "posterMasterId": 330230,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70042000
+          }
+        ],
+        "id": 33023001
       }
     ],
     "branchConditionType1": "None",
@@ -10791,6 +10863,54 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 2206801,
+    "name": "演技力アップ",
+    "description": "自身の演技力が[:param11]％上昇　◆発動条件：銀河座に所属するアクターが装備",
+    "posterMasterId": 220680,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10010300
+          }
+        ],
+        "id": 220680101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2206802,
+    "name": "スコアブースト・歌唱力",
+    "description": "センス発動直後、自身の歌唱力の[:param11]倍のスコアを獲得　◆発動条件：銀河座に所属するアクターが装備",
+    "posterMasterId": 220680,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10910300
+          }
+        ],
+        "id": 220680201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 2301802,
     "name": "演技力アップⅢ",
     "description": "自身の演技力が[:param11]%上昇",
@@ -13141,6 +13261,78 @@
           }
         ],
         "id": 230580301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2306101,
+    "name": "演技力アップⅢ＋",
+    "description": "自身の演技力が[:param11]％上昇",
+    "posterMasterId": 230610,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10031000
+          }
+        ],
+        "id": 230610101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2306102,
+    "name": "初期P.ゲージ上昇Ⅱ",
+    "description": "公演開始時、P.ゲージが[:param11]上昇　◆発動条件：銀河座に所属するアクターが装備",
+    "posterMasterId": 230610,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11512300
+          }
+        ],
+        "id": 230610201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2306103,
+    "name": "P.ゲージ獲得量アップⅡ＋",
+    "description": "センスによるP.ゲージの獲得量が[:param11]％UP　◆発動条件：銀河座に所属するアクターが装備",
+    "posterMasterId": 230610,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11621400
+          }
+        ],
+        "id": 230610301
       }
     ],
     "branchConditionType1": "None",
@@ -15627,6 +15819,102 @@
           }
         ],
         "id": 330220401
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3302301,
+    "name": "演技力アップⅢ",
+    "description": "自身の演技力が[:param11]%上昇",
+    "posterMasterId": 330230,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10030000
+          }
+        ],
+        "id": 330230101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3302302,
+    "name": "P.ゲージブーストⅡ",
+    "description": "センス発動直後、P.ゲージを[:param11]獲得　◆発動条件：<color=#FF9314>陽属性</color>のアクターが装備",
+    "posterMasterId": 330230,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11420004
+          }
+        ],
+        "id": 330230201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3302303,
+    "name": "CTダウンⅢ",
+    "description": "自身のセンスのCTを[:param11]秒短縮　◆発動条件：<color=#FF9314>陽属性</color>のアクターが装備",
+    "posterMasterId": 330230,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 12420004
+          }
+        ],
+        "id": 330230301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3302304,
+    "name": "P.ゲージ上限上昇Ⅱ",
+    "description": "P.ゲージの上限が[:param11]上昇　◆発動条件：<color=#FF9314>陽属性</color>のアクターが装備",
+    "posterMasterId": 330230,
+    "type": "Normal",
+    "frameNumber": 4,
+    "releaseLevelAt": 10,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11720004
+          }
+        ],
+        "id": 330230401
       }
     ],
     "branchConditionType1": "None",

@@ -3548,5 +3548,76 @@
     "order": 8,
     "requiredReadEpisodeMasterId": 2005007,
     "episodeRewardPackageMasterId": 2005008
+  },
+  {
+    "id": 2005101,
+    "storyMasterId": 20051,
+    "requiredTotalAcquiredPoint": 0,
+    "title": "鬼リピート",
+    "order": 1,
+    "episodeRewardPackageMasterId": 2005101
+  },
+  {
+    "id": 2005102,
+    "storyMasterId": 20051,
+    "requiredTotalAcquiredPoint": 2000,
+    "title": "私にオファー？",
+    "order": 2,
+    "requiredReadEpisodeMasterId": 2005101,
+    "episodeRewardPackageMasterId": 2005102
+  },
+  {
+    "id": 2005103,
+    "storyMasterId": 20051,
+    "requiredTotalAcquiredPoint": 4000,
+    "title": "ならず者の資格",
+    "order": 3,
+    "requiredReadEpisodeMasterId": 2005102,
+    "episodeRewardPackageMasterId": 2005103
+  },
+  {
+    "id": 2005104,
+    "storyMasterId": 20051,
+    "requiredTotalAcquiredPoint": 8000,
+    "title": "研究！",
+    "order": 4,
+    "requiredReadEpisodeMasterId": 2005103,
+    "episodeRewardPackageMasterId": 2005104
+  },
+  {
+    "id": 2005105,
+    "storyMasterId": 20051,
+    "requiredTotalAcquiredPoint": 16000,
+    "title": "気になる人達",
+    "order": 5,
+    "requiredReadEpisodeMasterId": 2005104,
+    "episodeRewardPackageMasterId": 2005105
+  },
+  {
+    "id": 2005106,
+    "storyMasterId": 20051,
+    "requiredTotalAcquiredPoint": 32000,
+    "title": "作戦",
+    "order": 6,
+    "requiredReadEpisodeMasterId": 2005105,
+    "episodeRewardPackageMasterId": 2005106
+  },
+  {
+    "id": 2005107,
+    "storyMasterId": 20051,
+    "requiredTotalAcquiredPoint": 64000,
+    "title": "ひと芝居",
+    "order": 7,
+    "requiredReadEpisodeMasterId": 2005106,
+    "episodeRewardPackageMasterId": 2005107
+  },
+  {
+    "id": 2005108,
+    "storyMasterId": 20051,
+    "requiredTotalAcquiredPoint": 128000,
+    "title": "どうしても",
+    "order": 8,
+    "requiredReadEpisodeMasterId": 2005107,
+    "episodeRewardPackageMasterId": 2005108
   }
 ]

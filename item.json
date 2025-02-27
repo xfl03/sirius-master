@@ -699,6 +699,19 @@
     "rarity": "R"
   },
   {
+    "id": 111053,
+    "name": "高級スタミナドリンク【～3月10日 17:00】",
+    "description": "美容にも欠かせない一級品のドリンク。スタミナを100回復する。2025年3月10日17時まで使用できる。",
+    "displayOrder": 53,
+    "displayEndDate": 1741626000.0,
+    "maxStock": 99999,
+    "category": "StaminaRecovery",
+    "consumable": false,
+    "jumpType": "None",
+    "tabCategory": "Normal",
+    "rarity": "R"
+  },
+  {
     "id": 112001,
     "name": "バレンタインチョコ【2024】",
     "description": "バレンタインの贈り物。味は食べてみてのお楽しみ。スタミナを100回復する。",
@@ -1799,6 +1812,19 @@
     "rarity": "SSR"
   },
   {
+    "id": 139020,
+    "name": "劇団電姫のおまもり【～3月8日 22:00】",
+    "description": "人気アニメのキャラクターがプリントされたおまもり。電姫空間でシークレットアクセサリーを入手しやすくなる。",
+    "displayOrder": 139020,
+    "displayEndDate": 1741471200.0,
+    "maxStock": 1,
+    "category": "ConsumeItem",
+    "consumable": false,
+    "jumpType": "None",
+    "tabCategory": "Normal",
+    "rarity": "SSR"
+  },
+  {
     "id": 139101,
     "name": "銀河座のおまもり【～4月24日 17:00】",
     "description": "銀河座の劇団ロゴがあしらわれたおまもり。銀河シアターで「導きのかけら」を入手しやすくなる。",
@@ -2064,6 +2090,19 @@
     "description": "人気アニメのキャラクターがプリントされたおまもり。電姫空間【Re:】でシークレットアクセサリーを入手しやすくなる。",
     "displayOrder": 139210,
     "displayEndDate": 1739725200.0,
+    "maxStock": 1,
+    "category": "ConsumeItem",
+    "consumable": false,
+    "jumpType": "None",
+    "tabCategory": "Normal",
+    "rarity": "SSR"
+  },
+  {
+    "id": 139211,
+    "name": "劇団電姫のおまもり【Re:】【～3月16日 17:00】",
+    "description": "人気アニメのキャラクターがプリントされたおまもり。電姫空間【Re:】でシークレットアクセサリーを入手しやすくなる。",
+    "displayOrder": 139211,
+    "displayEndDate": 1742144400.0,
     "maxStock": 1,
     "category": "ConsumeItem",
     "consumable": false,
@@ -3516,6 +3555,18 @@
     "name": "★3【助手席、空いているぞ】連尺野初魅のピース",
     "description": "★3【助手席、空いているぞ】連尺野初魅の才能開花に使用できるアイテム。",
     "displayOrder": 143080,
+    "maxStock": 99999,
+    "category": "TalentBloom",
+    "consumable": false,
+    "jumpType": "None",
+    "tabCategory": "Piece",
+    "rarity": "SSR"
+  },
+  {
+    "id": 143081,
+    "name": "★3【穏やかな昼下がり】リリヤ・クルトベイのピース",
+    "description": "★3【穏やかな昼下がり】リリヤ・クルトベイの才能開花に使用できるアイテム。",
+    "displayOrder": 143081,
     "maxStock": 99999,
     "category": "TalentBloom",
     "consumable": false,
@@ -5232,6 +5283,30 @@
     "name": "★4【空飛ぶテントで】舎人仁花子のピース",
     "description": "★4【空飛ぶテントで】舎人仁花子の才能開花に使用できるアイテム。",
     "displayOrder": 144148,
+    "maxStock": 99999,
+    "category": "TalentBloom",
+    "consumable": false,
+    "jumpType": "None",
+    "tabCategory": "Piece",
+    "rarity": "SSR"
+  },
+  {
+    "id": 144149,
+    "name": "★4【コンクリート・ジャム】与那国緋花里のピース",
+    "description": "★4【コンクリート・ジャム】与那国緋花里の才能開花に使用できるアイテム。",
+    "displayOrder": 144149,
+    "maxStock": 99999,
+    "category": "TalentBloom",
+    "consumable": false,
+    "jumpType": "None",
+    "tabCategory": "Piece",
+    "rarity": "SSR"
+  },
+  {
+    "id": 144150,
+    "name": "★4【ストリート・スクリプト】王雪のピース",
+    "description": "★4【ストリート・スクリプト】王雪の才能開花に使用できるアイテム。",
+    "displayOrder": 144150,
     "maxStock": 99999,
     "category": "TalentBloom",
     "consumable": false,
@@ -7220,6 +7295,30 @@
     "rarity": "SSR"
   },
   {
+    "id": 154149,
+    "name": "★4【コンクリート・ジャム】与那国緋花里のダイピース",
+    "description": "★4【コンクリート・ジャム】与那国緋花里の更なる才能開花に使用できるアイテム。",
+    "displayOrder": 154149,
+    "maxStock": 99999,
+    "category": "TalentBloom",
+    "consumable": false,
+    "jumpType": "None",
+    "tabCategory": "Piece",
+    "rarity": "SSR"
+  },
+  {
+    "id": 154150,
+    "name": "★4【ストリート・スクリプト】王雪のダイピース",
+    "description": "★4【ストリート・スクリプト】王雪の更なる才能開花に使用できるアイテム。",
+    "displayOrder": 154150,
+    "maxStock": 99999,
+    "category": "TalentBloom",
+    "consumable": false,
+    "jumpType": "None",
+    "tabCategory": "Piece",
+    "rarity": "SSR"
+  },
+  {
     "id": 210001,
     "name": "アクターガチャチケット",
     "description": "アクターガチャを引くことができるチケット。",
@@ -7507,6 +7606,19 @@
     "rarity": "R"
   },
   {
+    "id": 210417,
+    "name": "★4シリウスアクター2人確定10連ガチャチケット",
+    "description": "★4シリウスアクター2人確定ガチャを引くことができるチケット。",
+    "displayOrder": 210417,
+    "displayEndDate": 1741539600.0,
+    "maxStock": 99999,
+    "category": "GachaTicket",
+    "consumable": false,
+    "jumpType": "None",
+    "tabCategory": "Ticket",
+    "rarity": "R"
+  },
+  {
     "id": 211001,
     "name": "ポスターガチャチケット",
     "description": "ポスターガチャを引くことができるチケット。",
@@ -7712,6 +7824,19 @@
     "description": "劇団電姫第3章追加記念10連無料ポスターガチャを引くことができるチケット。2025年2月18日17時まで使用できる。",
     "displayOrder": 211410,
     "displayEndDate": 1739898000.0,
+    "maxStock": 99999,
+    "category": "GachaTicket",
+    "consumable": false,
+    "jumpType": "None",
+    "tabCategory": "Ticket",
+    "rarity": "R"
+  },
+  {
+    "id": 211411,
+    "name": "SSRシリウスポスター確定10連ガチャチケット",
+    "description": "SSRシリウスポスター確定ガチャを引くことができるチケット。",
+    "displayOrder": 211411,
+    "displayEndDate": 1741539600.0,
     "maxStock": 99999,
     "category": "GachaTicket",
     "consumable": false,
@@ -9141,6 +9266,19 @@
     "rarity": "R"
   },
   {
+    "id": 411092,
+    "name": "ガチャポイント",
+    "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
+    "displayOrder": 411092,
+    "displayEndDate": 1742230800.0,
+    "maxStock": 99999,
+    "category": "GachaPoint",
+    "consumable": false,
+    "jumpType": "None",
+    "tabCategory": "Hidden",
+    "rarity": "R"
+  },
+  {
     "id": 411601,
     "name": "ガチャポイント",
     "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
@@ -9562,6 +9700,19 @@
     "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
     "displayOrder": 411840,
     "displayEndDate": 1740502800.0,
+    "maxStock": 99999,
+    "category": "GachaPoint",
+    "consumable": false,
+    "jumpType": "None",
+    "tabCategory": "Hidden",
+    "rarity": "R"
+  },
+  {
+    "id": 411843,
+    "name": "ガチャポイント",
+    "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
+    "displayOrder": 411843,
+    "displayEndDate": 1742144400.0,
     "maxStock": 99999,
     "category": "GachaPoint",
     "consumable": false,
@@ -10610,6 +10761,19 @@
     "rarity": "R"
   },
   {
+    "id": 412084,
+    "name": "ガチャポイント",
+    "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
+    "displayOrder": 412084,
+    "displayEndDate": 1742230800.0,
+    "maxStock": 99999,
+    "category": "GachaPoint",
+    "consumable": false,
+    "jumpType": "None",
+    "tabCategory": "Hidden",
+    "rarity": "R"
+  },
+  {
     "id": 412085,
     "name": "ガチャポイント",
     "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
@@ -10628,6 +10792,32 @@
     "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
     "displayOrder": 412087,
     "displayEndDate": 1741021200.0,
+    "maxStock": 99999,
+    "category": "GachaPoint",
+    "consumable": false,
+    "jumpType": "None",
+    "tabCategory": "Hidden",
+    "rarity": "R"
+  },
+  {
+    "id": 412089,
+    "name": "ガチャポイント",
+    "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
+    "displayOrder": 412089,
+    "displayEndDate": 1742662800.0,
+    "maxStock": 99999,
+    "category": "GachaPoint",
+    "consumable": false,
+    "jumpType": "None",
+    "tabCategory": "Hidden",
+    "rarity": "R"
+  },
+  {
+    "id": 412090,
+    "name": "ガチャポイント",
+    "description": "ショップの該当するガチャポイント交換で様々なアイテムと交換できる。",
+    "displayOrder": 412090,
+    "displayEndDate": 1742144400.0,
     "maxStock": 99999,
     "category": "GachaPoint",
     "consumable": false,
@@ -11299,6 +11489,18 @@
     "rarity": "R"
   },
   {
+    "id": 420051,
+    "name": "イベントポイント",
+    "description": "イベントの交換所から様々なアイテムと交換できる。",
+    "displayOrder": 420051,
+    "maxStock": 1999999999,
+    "category": "EventPoint",
+    "consumable": false,
+    "jumpType": "None",
+    "tabCategory": "Hidden",
+    "rarity": "R"
+  },
+  {
     "id": 421001,
     "name": "イベントポイント",
     "description": "",
@@ -11783,6 +11985,18 @@
     "name": "ミッションパスポイント【2025年2月】",
     "description": "公演ミッションの報酬獲得に必要なポイント",
     "displayOrder": 432502,
+    "maxStock": 9999999,
+    "category": "MissionPassPoint",
+    "consumable": false,
+    "jumpType": "None",
+    "tabCategory": "Hidden",
+    "rarity": "R"
+  },
+  {
+    "id": 432503,
+    "name": "ミッションパスポイント【2025年3月】",
+    "description": "公演ミッションの報酬獲得に必要なポイント",
+    "displayOrder": 432503,
     "maxStock": 9999999,
     "category": "MissionPassPoint",
     "consumable": false,

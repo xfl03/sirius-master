@@ -385,7 +385,7 @@
   },
   {
     "id": 21,
-    "description": "「歌川高校」カテゴリの演技力30%上昇、「お風呂」カテゴリの歌唱力20％上昇",
+    "description": "「歌川高校」カテゴリの演技力30%上昇、「お風呂」カテゴリの表現力60％上昇",
     "details": [
       {
         "effectMasterId": 12004,
@@ -410,7 +410,7 @@
     "description": "「和風」カテゴリの表現力60%上昇、「高校生」カテゴリのCTを3秒短縮する",
     "details": [
       {
-        "effectMasterId": 12013,
+        "effectMasterId": 12014,
         "conditions": [
           {
             "categoryMasterId1": 4007
@@ -4046,6 +4046,28 @@
         "conditions": [
           {
             "categoryMasterId1": 8006
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 204,
+    "description": "「高校生」カテゴリの演技力40%上昇、「運動」カテゴリの集中力35％上昇",
+    "details": [
+      {
+        "effectMasterId": 12005,
+        "conditions": [
+          {
+            "categoryMasterId1": 1003
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12021,
+        "conditions": [
+          {
+            "categoryMasterId1": 3005
           }
         ]
       }

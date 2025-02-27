@@ -5540,6 +5540,55 @@
     "maxTalentStage": 5
   },
   {
+    "id": 130810,
+    "characterBaseMasterId": 304,
+    "name": "穏やかな昼下がり",
+    "description": "",
+    "rarity": "Rare3",
+    "attribute": "Cool",
+    "minLevelStatus": {
+      "vocal": 80,
+      "expression": 87,
+      "concentration": 103
+    },
+    "starActMasterId": 130811,
+    "awakenStarActMasterId": 130811,
+    "senseMasterId": 130810,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 30002,
+    "senseEnhanceItemGroupMasterId": 3,
+    "firstEpisodeReleaseItemGroupId": 321,
+    "secondEpisodeReleaseItemGroupId": 322,
+    "characterAwakeningItemGroupMasterId": 32,
+    "displayStartAt": 1740762000.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "イベントで入手",
+    "categories": [
+      {
+        "categoryMasterId": 2003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 5002,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7051,
+        "isAwaken": false
+      }
+    ],
+    "leaderSenseMasterId": 81,
+    "maxTalentStage": 5
+  },
+  {
     "id": 140010,
     "characterBaseMasterId": 101,
     "name": "悲哀と恋慕の旋律",
@@ -13461,5 +13510,111 @@
     "leaderSenseMasterId": 203,
     "maxTalentStage": 6,
     "maxTalentStageReleaseDate": 1739898000.0
+  },
+  {
+    "id": 141490,
+    "characterBaseMasterId": 305,
+    "name": "コンクリート・ジャム",
+    "description": "",
+    "rarity": "Rare4",
+    "attribute": "Cool",
+    "minLevelStatus": {
+      "vocal": 112,
+      "expression": 121,
+      "concentration": 144
+    },
+    "starActMasterId": 141491,
+    "awakenStarActMasterId": 141491,
+    "senseMasterId": 141490,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 40149,
+    "senseEnhanceItemGroupMasterId": 4,
+    "firstEpisodeReleaseItemGroupId": 421,
+    "secondEpisodeReleaseItemGroupId": 422,
+    "characterAwakeningItemGroupMasterId": 42,
+    "displayStartAt": 1740762000.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "ガチャ(期間限定)で入手",
+    "categories": [
+      {
+        "categoryMasterId": 2003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 3001,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7051,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 3005,
+        "isAwaken": true
+      }
+    ],
+    "leaderSenseMasterId": 204,
+    "maxTalentStage": 5
+  },
+  {
+    "id": 141500,
+    "characterBaseMasterId": 303,
+    "name": "ストリート・スクリプト",
+    "description": "",
+    "rarity": "Rare4",
+    "attribute": "Cool",
+    "minLevelStatus": {
+      "vocal": 135,
+      "expression": 153,
+      "concentration": 94
+    },
+    "starActMasterId": 141501,
+    "awakenStarActMasterId": 141501,
+    "senseMasterId": 141500,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 40150,
+    "senseEnhanceItemGroupMasterId": 4,
+    "firstEpisodeReleaseItemGroupId": 421,
+    "secondEpisodeReleaseItemGroupId": 422,
+    "characterAwakeningItemGroupMasterId": 42,
+    "displayStartAt": 1740762000.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "ガチャ(期間限定)で入手",
+    "categories": [
+      {
+        "categoryMasterId": 2003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 3005,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7051,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 3006,
+        "isAwaken": true
+      }
+    ],
+    "leaderSenseMasterId": 159,
+    "maxTalentStage": 5
   }
 ]

@@ -2204,6 +2204,21 @@
     "branchCondition2": "None"
   },
   {
+    "id": 130810,
+    "name": "穏やかな昼下がり",
+    "description": "[:score]倍のスコアを獲得",
+    "type": "Control",
+    "preEffects": [],
+    "branches": [],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 490,
+    "scoreUpPerLevel": 40,
+    "lightCount": 1,
+    "coolTime": 50,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
     "id": 140010,
     "name": "悲哀と恋慕の旋律",
     "description": "[:score]倍のスコアを獲得／ライフを[:param11]回復／ライフが多いほどここなのスコア獲得量UP（最大＋100％）",
@@ -5803,6 +5818,58 @@
     "scoreUpPerLevel": 50,
     "lightCount": 1,
     "coolTime": 40,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 141490,
+    "name": "コンクリート・ジャム",
+    "description": "[:score]倍のスコアを獲得／[:sec]秒間、銀河座のアクターにセンススコア[:param11]％UP効果",
+    "type": "Amplification",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20057
+          }
+        ],
+        "id": 1414901
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 200,
+    "scoreUpPerLevel": 40,
+    "lightCount": 1,
+    "coolTime": 30,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 141500,
+    "name": "ストリート・スクリプト",
+    "description": "[:score]倍のスコアを獲得／[:sec]秒間、銀河座のアクターにスターアクトスコア[:param11]％UP効果",
+    "type": "Amplification",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20303
+          }
+        ],
+        "id": 1415001
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 220,
+    "scoreUpPerLevel": 60,
+    "lightCount": 2,
+    "coolTime": 45,
     "branchCondition1": "None",
     "branchCondition2": "None"
   }

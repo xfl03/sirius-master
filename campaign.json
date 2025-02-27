@@ -517,6 +517,28 @@
     "campaignEffectValue": 50
   },
   {
+    "id": 49,
+    "title": "アクセサリーのドロップ率 50%UP",
+    "description": "期間：2/28 17:00～3/8 22:00/n対象：電姫空間",
+    "iconImagePath": "1",
+    "order": 49,
+    "startDate": 1740762000.0,
+    "endDate": 1741471200.0,
+    "campaignEffectType": "AccessoryDropRate",
+    "campaignEffectValue": 0
+  },
+  {
+    "id": 50,
+    "title": "稽古の回数 +1回",
+    "description": "期間：3/4 5:00 ～ 3/9 5:00/n対象：稽古",
+    "iconImagePath": "1001",
+    "order": 50,
+    "startDate": 1741064400.0,
+    "endDate": 1741496400.0,
+    "campaignEffectType": "LessonCount",
+    "campaignEffectValue": 1
+  },
+  {
     "id": 1000,
     "title": "公演の獲得EXP 50％UP",
     "description": "ウェルカムバックキャンペーン/n期間：7日間/n対象：公演、協力公演",
