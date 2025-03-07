@@ -2219,6 +2219,21 @@
     "branchCondition2": "None"
   },
   {
+    "id": 130820,
+    "name": "最前列の景色",
+    "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得",
+    "type": "Control",
+    "preEffects": [],
+    "branches": [],
+    "acquirableGauge": 70,
+    "acquirableScorePercent": 110,
+    "scoreUpPerLevel": 40,
+    "lightCount": 1,
+    "coolTime": 40,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
     "id": 140010,
     "name": "悲哀と恋慕の旋律",
     "description": "[:score]倍のスコアを獲得／ライフを[:param11]回復／ライフが多いほどここなのスコア獲得量UP（最大＋100％）",
@@ -5870,6 +5885,47 @@
     "scoreUpPerLevel": 60,
     "lightCount": 2,
     "coolTime": 45,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 141510,
+    "name": "春めく花園を切り取って",
+    "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／センス発動時、追加で「支配の光」を1個獲得する",
+    "type": "Special",
+    "preEffects": [],
+    "branches": [],
+    "acquirableGauge": 90,
+    "acquirableScorePercent": 170,
+    "scoreUpPerLevel": 50,
+    "lightCount": 1,
+    "coolTime": 40,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 141520,
+    "name": "昼下がりのPhoto Spring",
+    "description": "[:score]倍のスコアを獲得／センス発動直後、自身の歌唱力の[:param11]倍のスコアを獲得",
+    "type": "Support",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20536
+          }
+        ],
+        "id": 1415201
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 510,
+    "scoreUpPerLevel": 40,
+    "lightCount": 2,
+    "coolTime": 30,
     "branchCondition1": "None",
     "branchCondition2": "None"
   }

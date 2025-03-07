@@ -5589,6 +5589,55 @@
     "maxTalentStage": 5
   },
   {
+    "id": 130820,
+    "characterBaseMasterId": 405,
+    "name": "最前列の景色",
+    "description": "",
+    "rarity": "Rare3",
+    "attribute": "Cheerful",
+    "minLevelStatus": {
+      "vocal": 109,
+      "expression": 60,
+      "concentration": 104
+    },
+    "starActMasterId": 130821,
+    "awakenStarActMasterId": 130821,
+    "senseMasterId": 130820,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 30002,
+    "senseEnhanceItemGroupMasterId": 3,
+    "firstEpisodeReleaseItemGroupId": 341,
+    "secondEpisodeReleaseItemGroupId": 342,
+    "characterAwakeningItemGroupMasterId": 34,
+    "displayStartAt": 1741626000.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "イベントで入手",
+    "categories": [
+      {
+        "categoryMasterId": 2004,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1001,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 6007,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7508,
+        "isAwaken": false
+      }
+    ],
+    "leaderSenseMasterId": 3,
+    "maxTalentStage": 5
+  },
+  {
     "id": 140010,
     "characterBaseMasterId": 101,
     "name": "悲哀と恋慕の旋律",
@@ -8235,7 +8284,8 @@
       }
     ],
     "leaderSenseMasterId": 104,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1741626000.0
   },
   {
     "id": 140490,
@@ -8949,7 +8999,8 @@
       }
     ],
     "leaderSenseMasterId": 122,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1742144400.0
   },
   {
     "id": 140660,
@@ -9006,7 +9057,8 @@
       }
     ],
     "leaderSenseMasterId": 29,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1741626000.0
   },
   {
     "id": 140670,
@@ -9507,7 +9559,8 @@
       }
     ],
     "leaderSenseMasterId": 94,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1742144400.0
   },
   {
     "id": 140760,
@@ -9564,7 +9617,8 @@
       }
     ],
     "leaderSenseMasterId": 72,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1742144400.0
   },
   {
     "id": 140770,
@@ -9891,7 +9945,8 @@
       }
     ],
     "leaderSenseMasterId": 38,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1742144400.0
   },
   {
     "id": 140830,
@@ -11067,7 +11122,8 @@
       }
     ],
     "leaderSenseMasterId": 164,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1741626000.0
   },
   {
     "id": 141040,
@@ -11332,7 +11388,8 @@
       }
     ],
     "leaderSenseMasterId": 16,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1741626000.0
   },
   {
     "id": 141090,
@@ -13615,6 +13672,112 @@
       }
     ],
     "leaderSenseMasterId": 159,
+    "maxTalentStage": 5
+  },
+  {
+    "id": 141510,
+    "characterBaseMasterId": 404,
+    "name": "春めく花園を切り取って",
+    "description": "",
+    "rarity": "Rare4",
+    "attribute": "Cheerful",
+    "minLevelStatus": {
+      "vocal": 91,
+      "expression": 87,
+      "concentration": 161
+    },
+    "starActMasterId": 141511,
+    "awakenStarActMasterId": 141511,
+    "senseMasterId": 141510,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 40151,
+    "senseEnhanceItemGroupMasterId": 4,
+    "firstEpisodeReleaseItemGroupId": 441,
+    "secondEpisodeReleaseItemGroupId": 442,
+    "characterAwakeningItemGroupMasterId": 44,
+    "displayStartAt": 1741626000.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "ガチャで入手",
+    "categories": [
+      {
+        "categoryMasterId": 2004,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 4002,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7508,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 4003,
+        "isAwaken": true
+      }
+    ],
+    "leaderSenseMasterId": 205,
+    "maxTalentStage": 5
+  },
+  {
+    "id": 141520,
+    "characterBaseMasterId": 403,
+    "name": "昼下がりのPhoto Spring",
+    "description": "",
+    "rarity": "Rare4",
+    "attribute": "Cheerful",
+    "minLevelStatus": {
+      "vocal": 159,
+      "expression": 94,
+      "concentration": 85
+    },
+    "starActMasterId": 141521,
+    "awakenStarActMasterId": 141521,
+    "senseMasterId": 141520,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 40152,
+    "senseEnhanceItemGroupMasterId": 4,
+    "firstEpisodeReleaseItemGroupId": 441,
+    "secondEpisodeReleaseItemGroupId": 442,
+    "characterAwakeningItemGroupMasterId": 44,
+    "displayStartAt": 1741626000.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "ガチャで入手",
+    "categories": [
+      {
+        "categoryMasterId": 2004,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 3004,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7508,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 4002,
+        "isAwaken": true
+      }
+    ],
+    "leaderSenseMasterId": 194,
     "maxTalentStage": 5
   }
 ]

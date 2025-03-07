@@ -160,5 +160,86 @@
         "leagueClassGroupMasterId": 2
       }
     ]
+  },
+  {
+    "id": 100,
+    "classes": [
+      {
+        "id": 111,
+        "keepUserAmount": 0,
+        "isForceDownNotPlayingLeague": false,
+        "upRewardPackageMasterId": 110,
+        "classType": "Rookie",
+        "leagueClassGroupMasterId": 100
+      },
+      {
+        "id": 121,
+        "upUserAmount": 80,
+        "isForceDownNotPlayingLeague": false,
+        "upRewardPackageMasterId": 210,
+        "keepRewardPackageMasterId": 220,
+        "firstAchieveRewardPackageMasterId": 200,
+        "classType": "Hope",
+        "leagueClassGroupMasterId": 100
+      },
+      {
+        "id": 131,
+        "upUserAmount": 60,
+        "keepUserAmount": 30,
+        "isForceDownNotPlayingLeague": true,
+        "upRewardPackageMasterId": 310,
+        "keepRewardPackageMasterId": 320,
+        "downRewardPackageMasterId": 330,
+        "firstAchieveRewardPackageMasterId": 300,
+        "classType": "Cast",
+        "leagueClassGroupMasterId": 100
+      },
+      {
+        "id": 141,
+        "upUserAmount": 40,
+        "keepUserAmount": 40,
+        "isForceDownNotPlayingLeague": true,
+        "upRewardPackageMasterId": 410,
+        "keepRewardPackageMasterId": 420,
+        "downRewardPackageMasterId": 430,
+        "firstAchieveRewardPackageMasterId": 400,
+        "classType": "Elite",
+        "leagueClassGroupMasterId": 100
+      },
+      {
+        "id": 151,
+        "upUserAmount": 10,
+        "keepUserAmount": 60,
+        "isForceDownNotPlayingLeague": true,
+        "upRewardPackageMasterId": 510,
+        "keepRewardPackageMasterId": 520,
+        "downRewardPackageMasterId": 530,
+        "firstAchieveRewardPackageMasterId": 500,
+        "classType": "Veteran",
+        "leagueClassGroupMasterId": 100
+      },
+      {
+        "id": 161,
+        "upUserAmount": 5,
+        "keepUserAmount": 55,
+        "isForceDownNotPlayingLeague": true,
+        "upRewardPackageMasterId": 610,
+        "keepRewardPackageMasterId": 620,
+        "downRewardPackageMasterId": 630,
+        "firstAchieveRewardPackageMasterId": 600,
+        "classType": "Star",
+        "leagueClassGroupMasterId": 100
+      },
+      {
+        "id": 171,
+        "upUserAmount": 0,
+        "keepUserAmount": 50,
+        "isForceDownNotPlayingLeague": true,
+        "keepRewardPackageMasterId": 720,
+        "downRewardPackageMasterId": 730,
+        "classType": "DaiStar",
+        "leagueClassGroupMasterId": 100
+      }
+    ]
   }
 ]
