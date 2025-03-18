@@ -4094,5 +4094,63 @@
         ]
       }
     ]
+  },
+  {
+    "id": 206,
+    "description": "「シリウス劇場」カテゴリの演技力20%上昇",
+    "details": [
+      {
+        "effectMasterId": 12003,
+        "conditions": [
+          {
+            "categoryMasterId1": 5003
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 207,
+    "description": "「シリウス」カテゴリの演技力30%上昇、「メルヘン」カテゴリの集中力20％上昇",
+    "details": [
+      {
+        "effectMasterId": 12004,
+        "conditions": [
+          {
+            "categoryMasterId1": 2001
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12015,
+        "conditions": [
+          {
+            "categoryMasterId1": 4006
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 208,
+    "description": "「シリウス」カテゴリの演技力30%上昇、「舞台」カテゴリの歌唱力20％上昇",
+    "details": [
+      {
+        "effectMasterId": 12004,
+        "conditions": [
+          {
+            "categoryMasterId1": 2001
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12007,
+        "conditions": [
+          {
+            "categoryMasterId1": 8002
+          }
+        ]
+      }
+    ]
   }
 ]

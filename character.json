@@ -5638,6 +5638,55 @@
     "maxTalentStage": 5
   },
   {
+    "id": 130830,
+    "characterBaseMasterId": 102,
+    "name": "無邪気な称賛",
+    "description": "",
+    "rarity": "Rare3",
+    "attribute": "Colorful",
+    "minLevelStatus": {
+      "vocal": 100,
+      "expression": 112,
+      "concentration": 62
+    },
+    "starActMasterId": 130831,
+    "awakenStarActMasterId": 130831,
+    "senseMasterId": 130830,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 30811,
+    "senseEnhanceItemGroupMasterId": 3,
+    "firstEpisodeReleaseItemGroupId": 331,
+    "secondEpisodeReleaseItemGroupId": 332,
+    "characterAwakeningItemGroupMasterId": 33,
+    "displayStartAt": 1742490000.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "イベントで入手",
+    "categories": [
+      {
+        "categoryMasterId": 2001,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 5003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7052,
+        "isAwaken": false
+      }
+    ],
+    "leaderSenseMasterId": 206,
+    "maxTalentStage": 5
+  },
+  {
     "id": 140010,
     "characterBaseMasterId": 101,
     "name": "悲哀と恋慕の旋律",
@@ -9391,7 +9440,8 @@
       }
     ],
     "leaderSenseMasterId": 9,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1742490000.0
   },
   {
     "id": 140730,
@@ -9444,7 +9494,8 @@
       }
     ],
     "leaderSenseMasterId": 37,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1742490000.0
   },
   {
     "id": 140740,
@@ -13778,6 +13829,112 @@
       }
     ],
     "leaderSenseMasterId": 194,
+    "maxTalentStage": 5
+  },
+  {
+    "id": 141530,
+    "characterBaseMasterId": 101,
+    "name": "夜、静かなミュージアムで",
+    "description": "",
+    "rarity": "Rare4",
+    "attribute": "Colorful",
+    "minLevelStatus": {
+      "vocal": 86,
+      "expression": 85,
+      "concentration": 174
+    },
+    "starActMasterId": 141531,
+    "awakenStarActMasterId": 141531,
+    "senseMasterId": 141530,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 40153,
+    "senseEnhanceItemGroupMasterId": 4,
+    "firstEpisodeReleaseItemGroupId": 431,
+    "secondEpisodeReleaseItemGroupId": 432,
+    "characterAwakeningItemGroupMasterId": 43,
+    "displayStartAt": 1742490000.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "ガチャで入手",
+    "categories": [
+      {
+        "categoryMasterId": 2001,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 5003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7052,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 4006,
+        "isAwaken": true
+      }
+    ],
+    "leaderSenseMasterId": 207,
+    "maxTalentStage": 5
+  },
+  {
+    "id": 141540,
+    "characterBaseMasterId": 106,
+    "name": "密やかに微笑む美の肖像",
+    "description": "",
+    "rarity": "Rare4",
+    "attribute": "Colorful",
+    "minLevelStatus": {
+      "vocal": 168,
+      "expression": 94,
+      "concentration": 81
+    },
+    "starActMasterId": 141541,
+    "awakenStarActMasterId": 141541,
+    "senseMasterId": 141540,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 40154,
+    "senseEnhanceItemGroupMasterId": 4,
+    "firstEpisodeReleaseItemGroupId": 431,
+    "secondEpisodeReleaseItemGroupId": 432,
+    "characterAwakeningItemGroupMasterId": 43,
+    "displayStartAt": 1742490000.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "ガチャで入手",
+    "categories": [
+      {
+        "categoryMasterId": 2001,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1002,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1001,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7052,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8002,
+        "isAwaken": true
+      }
+    ],
+    "leaderSenseMasterId": 208,
     "maxTalentStage": 5
   }
 ]

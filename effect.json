@@ -5714,6 +5714,38 @@
     "fireTimingType": "Passive"
   },
   {
+    "id": 29204,
+    "type": "AddSenseLightAmplification",
+    "range": "Self",
+    "calculationType": "FixedAddition",
+    "details": [
+      {
+        "level": 1,
+        "value": 1.0
+      },
+      {
+        "level": 2,
+        "value": 1.0
+      },
+      {
+        "level": 3,
+        "value": 1.0
+      },
+      {
+        "level": 4,
+        "value": 1.0
+      },
+      {
+        "level": 5,
+        "value": 1.0
+      }
+    ],
+    "conditions": [],
+    "durationSecond": 0,
+    "triggers": [],
+    "fireTimingType": "Passive"
+  },
+  {
     "id": 30002,
     "type": "BaseCorrection",
     "range": "Self",
@@ -52608,6 +52640,79 @@
     "fireTimingType": "Passive"
   },
   {
+    "id": 10030106,
+    "type": "PerformanceUp",
+    "range": "Self",
+    "calculationType": "PercentageAddition",
+    "details": [
+      {
+        "level": 1,
+        "value": 1750.0
+      },
+      {
+        "level": 2,
+        "value": 2000.0
+      },
+      {
+        "level": 3,
+        "value": 2250.0
+      },
+      {
+        "level": 4,
+        "value": 2500.0
+      },
+      {
+        "level": 5,
+        "value": 2750.0
+      },
+      {
+        "level": 6,
+        "value": 3000.0
+      },
+      {
+        "level": 7,
+        "value": 3250.0
+      },
+      {
+        "level": 8,
+        "value": 3500.0
+      },
+      {
+        "level": 9,
+        "value": 3750.0
+      },
+      {
+        "level": 10,
+        "value": 4000.0
+      },
+      {
+        "level": 11,
+        "value": 4250.0
+      },
+      {
+        "level": 12,
+        "value": 4500.0
+      },
+      {
+        "level": 13,
+        "value": 4750.0
+      },
+      {
+        "level": 14,
+        "value": 5000.0
+      }
+    ],
+    "conditions": [],
+    "durationSecond": 0,
+    "triggers": [
+      {
+        "trigger": "CharacterBase",
+        "value": 106
+      }
+    ],
+    "fireTimingType": "Passive"
+  },
+  {
     "id": 10030200,
     "type": "PerformanceUp",
     "range": "Self",
@@ -65191,6 +65296,79 @@
     "fireTimingType": "Sense"
   },
   {
+    "id": 11410106,
+    "type": "PrincipalGaugeGain",
+    "range": "None",
+    "calculationType": "FixedAddition",
+    "details": [
+      {
+        "level": 1,
+        "value": 24.0
+      },
+      {
+        "level": 2,
+        "value": 28.0
+      },
+      {
+        "level": 3,
+        "value": 32.0
+      },
+      {
+        "level": 4,
+        "value": 36.0
+      },
+      {
+        "level": 5,
+        "value": 40.0
+      },
+      {
+        "level": 6,
+        "value": 44.0
+      },
+      {
+        "level": 7,
+        "value": 48.0
+      },
+      {
+        "level": 8,
+        "value": 52.0
+      },
+      {
+        "level": 9,
+        "value": 56.0
+      },
+      {
+        "level": 10,
+        "value": 60.0
+      },
+      {
+        "level": 11,
+        "value": 64.0
+      },
+      {
+        "level": 12,
+        "value": 68.0
+      },
+      {
+        "level": 13,
+        "value": 72.0
+      },
+      {
+        "level": 14,
+        "value": 76.0
+      }
+    ],
+    "conditions": [],
+    "durationSecond": 0,
+    "triggers": [
+      {
+        "trigger": "CharacterBase",
+        "value": 106
+      }
+    ],
+    "fireTimingType": "Sense"
+  },
+  {
     "id": 11410202,
     "type": "PrincipalGaugeGain",
     "range": "None",
@@ -68023,6 +68201,74 @@
     "fireTimingType": "Passive"
   },
   {
+    "id": 11611000,
+    "type": "PrincipalGaugeUp",
+    "range": "Self",
+    "calculationType": "PercentageAddition",
+    "details": [
+      {
+        "level": 1,
+        "value": 4800.0
+      },
+      {
+        "level": 2,
+        "value": 6000.0
+      },
+      {
+        "level": 3,
+        "value": 7200.0
+      },
+      {
+        "level": 4,
+        "value": 8400.0
+      },
+      {
+        "level": 5,
+        "value": 9600.0
+      },
+      {
+        "level": 6,
+        "value": 10800.0
+      },
+      {
+        "level": 7,
+        "value": 12000.0
+      },
+      {
+        "level": 8,
+        "value": 13200.0
+      },
+      {
+        "level": 9,
+        "value": 14400.0
+      },
+      {
+        "level": 10,
+        "value": 15600.0
+      },
+      {
+        "level": 11,
+        "value": 16800.0
+      },
+      {
+        "level": 12,
+        "value": 18000.0
+      },
+      {
+        "level": 13,
+        "value": 19200.0
+      },
+      {
+        "level": 14,
+        "value": 20400.0
+      }
+    ],
+    "conditions": [],
+    "durationSecond": 0,
+    "triggers": [],
+    "fireTimingType": "Passive"
+  },
+  {
     "id": 11611100,
     "type": "PrincipalGaugeUp",
     "range": "Self",
@@ -69823,6 +70069,79 @@
       {
         "trigger": "CharacterBase",
         "value": 105
+      }
+    ],
+    "fireTimingType": "StartLive"
+  },
+  {
+    "id": 11910106,
+    "type": "AddSenseLightVariable",
+    "range": "None",
+    "calculationType": "FixedAddition",
+    "details": [
+      {
+        "level": 1,
+        "value": 1.0
+      },
+      {
+        "level": 2,
+        "value": 1.0
+      },
+      {
+        "level": 3,
+        "value": 1.0
+      },
+      {
+        "level": 4,
+        "value": 1.0
+      },
+      {
+        "level": 5,
+        "value": 1.0
+      },
+      {
+        "level": 6,
+        "value": 1.0
+      },
+      {
+        "level": 7,
+        "value": 1.0
+      },
+      {
+        "level": 8,
+        "value": 1.0
+      },
+      {
+        "level": 9,
+        "value": 1.0
+      },
+      {
+        "level": 10,
+        "value": 1.0
+      },
+      {
+        "level": 11,
+        "value": 1.0
+      },
+      {
+        "level": 12,
+        "value": 1.0
+      },
+      {
+        "level": 13,
+        "value": 1.0
+      },
+      {
+        "level": 14,
+        "value": 1.0
+      }
+    ],
+    "conditions": [],
+    "durationSecond": 0,
+    "triggers": [
+      {
+        "trigger": "CharacterBase",
+        "value": 106
       }
     ],
     "fireTimingType": "StartLive"

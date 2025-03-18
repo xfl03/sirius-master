@@ -1676,5 +1676,247 @@
         "clearStarActCount": 2
       }
     ]
+  },
+  {
+    "id": 8,
+    "eventMasterId": 25008,
+    "firstClearEventPointQuantity": 50000,
+    "clearEventPointQuantity": 10000,
+    "unlockConditionType": "RouletteEventPoint",
+    "unlockConditionValue": 2008,
+    "stages": [
+      {
+        "id": 801,
+        "bonusLiveMasterId": 8,
+        "order": 1,
+        "musicMasterId": 74,
+        "vocalVersion": 1,
+        "senseNotationMasterId": 250081,
+        "recommendedLevel": 10,
+        "clearScore": 30195,
+        "unlockConditionValue": 1000,
+        "startDate": 1741626000.0,
+        "rewards": [
+          {
+            "id": 8010101,
+            "thingType": "Item",
+            "thingId": 132023,
+            "thingQuantity": 10,
+            "isFirstClear": true
+          },
+          {
+            "id": 8010102,
+            "thingType": "Item",
+            "thingId": 210001,
+            "thingQuantity": 1,
+            "isFirstClear": true
+          },
+          {
+            "id": 8010103,
+            "thingType": "Jewel",
+            "thingId": 0,
+            "thingQuantity": 100,
+            "isFirstClear": true
+          },
+          {
+            "id": 8010201,
+            "thingType": "Item",
+            "thingId": 140000,
+            "thingQuantity": 50,
+            "isFirstClear": false
+          }
+        ]
+      },
+      {
+        "id": 802,
+        "bonusLiveMasterId": 8,
+        "order": 2,
+        "musicMasterId": 157,
+        "vocalVersion": 1,
+        "senseNotationMasterId": 250082,
+        "recommendedLevel": 10,
+        "clearScore": 30195,
+        "unlockConditionValue": 15000,
+        "startDate": 1741755600.0,
+        "rewards": [
+          {
+            "id": 8020101,
+            "thingType": "Item",
+            "thingId": 132023,
+            "thingQuantity": 10,
+            "isFirstClear": true
+          },
+          {
+            "id": 8020102,
+            "thingType": "Item",
+            "thingId": 210001,
+            "thingQuantity": 1,
+            "isFirstClear": true
+          },
+          {
+            "id": 8020103,
+            "thingType": "Jewel",
+            "thingId": 0,
+            "thingQuantity": 100,
+            "isFirstClear": true
+          },
+          {
+            "id": 8020201,
+            "thingType": "Item",
+            "thingId": 140000,
+            "thingQuantity": 60,
+            "isFirstClear": false
+          }
+        ]
+      },
+      {
+        "id": 803,
+        "bonusLiveMasterId": 8,
+        "order": 3,
+        "musicMasterId": 166,
+        "vocalVersion": 1,
+        "senseNotationMasterId": 250083,
+        "recommendedLevel": 20,
+        "clearScore": 68595,
+        "unlockConditionValue": 30000,
+        "startDate": 1741842000.0,
+        "rewards": [
+          {
+            "id": 8030101,
+            "thingType": "Item",
+            "thingId": 130071,
+            "thingQuantity": 3,
+            "isFirstClear": true
+          },
+          {
+            "id": 8030102,
+            "thingType": "Item",
+            "thingId": 210001,
+            "thingQuantity": 1,
+            "isFirstClear": true
+          },
+          {
+            "id": 8030103,
+            "thingType": "Jewel",
+            "thingId": 0,
+            "thingQuantity": 100,
+            "isFirstClear": true
+          },
+          {
+            "id": 8030201,
+            "thingType": "Item",
+            "thingId": 140000,
+            "thingQuantity": 70,
+            "isFirstClear": false
+          }
+        ]
+      },
+      {
+        "id": 804,
+        "bonusLiveMasterId": 8,
+        "order": 4,
+        "musicMasterId": 88,
+        "vocalVersion": 1,
+        "senseNotationMasterId": 250084,
+        "recommendedLevel": 20,
+        "clearScore": 135845,
+        "unlockConditionValue": 50000,
+        "startDate": 1742014800.0,
+        "rewards": [
+          {
+            "id": 8040101,
+            "thingType": "Item",
+            "thingId": 132024,
+            "thingQuantity": 5,
+            "isFirstClear": true
+          },
+          {
+            "id": 8040102,
+            "thingType": "Item",
+            "thingId": 210001,
+            "thingQuantity": 1,
+            "isFirstClear": true
+          },
+          {
+            "id": 8040103,
+            "thingType": "Jewel",
+            "thingId": 0,
+            "thingQuantity": 100,
+            "isFirstClear": true
+          },
+          {
+            "id": 8040201,
+            "thingType": "Item",
+            "thingId": 140000,
+            "thingQuantity": 80,
+            "isFirstClear": false
+          },
+          {
+            "id": 8040202,
+            "thingType": "Item",
+            "thingId": 132023,
+            "thingQuantity": 5,
+            "isFirstClear": false
+          }
+        ]
+      },
+      {
+        "id": 805,
+        "bonusLiveMasterId": 8,
+        "order": 5,
+        "musicMasterId": 189,
+        "vocalVersion": 1,
+        "senseNotationMasterId": 250085,
+        "recommendedLevel": 30,
+        "clearScore": 342435,
+        "unlockConditionValue": 100000,
+        "startDate": 1742101200.0,
+        "rewards": [
+          {
+            "id": 8050101,
+            "thingType": "Item",
+            "thingId": 150000,
+            "thingQuantity": 30,
+            "isFirstClear": true
+          },
+          {
+            "id": 8050102,
+            "thingType": "Item",
+            "thingId": 210001,
+            "thingQuantity": 2,
+            "isFirstClear": true
+          },
+          {
+            "id": 8050103,
+            "thingType": "Jewel",
+            "thingId": 0,
+            "thingQuantity": 100,
+            "isFirstClear": true
+          },
+          {
+            "id": 8050201,
+            "thingType": "Item",
+            "thingId": 140000,
+            "thingQuantity": 100,
+            "isFirstClear": false
+          },
+          {
+            "id": 8050202,
+            "thingType": "Item",
+            "thingId": 132024,
+            "thingQuantity": 1,
+            "isFirstClear": false
+          },
+          {
+            "id": 8050203,
+            "thingType": "Item",
+            "thingId": 132023,
+            "thingQuantity": 5,
+            "isFirstClear": false
+          }
+        ],
+        "clearStarActCount": 2
+      }
+    ]
   }
 ]
