@@ -8583,6 +8583,86 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 330250,
+    "name": "絶えず希い望む",
+    "description": "全アクターの演技力が[:param11]%上昇",
+    "posterMasterId": 330250,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70050000
+          }
+        ],
+        "id": 33025001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 330251,
+    "name": "歌唱力アップ++",
+    "description": "シリウスまたは劇団電姫に所属するアクターの歌唱力が[:param11]％上昇",
+    "posterMasterId": 330250,
+    "type": "Leader",
+    "frameNumber": 2,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 72060100
+          },
+          {
+            "order": 2,
+            "effectMasterId": 72060400
+          }
+        ],
+        "id": 33025101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 330252,
+    "name": "集中力アップ++",
+    "description": "Edenまたは銀河座に所属するアクターの集中力が[:param11]％上昇",
+    "posterMasterId": 330250,
+    "type": "Leader",
+    "frameNumber": 3,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 72060200
+          },
+          {
+            "order": 2,
+            "effectMasterId": 72060300
+          }
+        ],
+        "id": 33025201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 340010,
     "name": "いつか夢を叶える日まで",
     "description": "全アクターの演技力が[:param11]％上昇",
@@ -16179,6 +16259,126 @@
           }
         ],
         "id": 330240301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3302501,
+    "name": "演技力アップⅢ",
+    "description": "自身の演技力が[:param11]％上昇",
+    "posterMasterId": 330250,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10030000
+          }
+        ],
+        "id": 330250101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3302502,
+    "name": "「光」獲得数増加Ⅱ",
+    "description": "センスで付与する「光」の付与数が[:param11]個増加　◆発動条件：シリウス・劇団電姫に所属するアクターが装備",
+    "posterMasterId": 330250,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11810500
+          }
+        ],
+        "id": 330250201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3302503,
+    "name": "スコアブースト・歌唱力Ⅲ＋＋",
+    "description": "センス発動直後、自身の歌唱力の[:param11]倍のスコアを獲得　◆発動条件：シリウス・劇団電姫に所属するアクターが装備",
+    "posterMasterId": 330250,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10930500
+          }
+        ],
+        "id": 330250301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3302504,
+    "name": "「光」獲得数増加Ⅱ",
+    "description": "センスで付与する「光」の付与数が[:param11]個増加　◆発動条件：Eden・銀河座に所属するアクターが装備",
+    "posterMasterId": 330250,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11810600
+          }
+        ],
+        "id": 330250401
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3302505,
+    "name": "スコアブースト・集中力Ⅲ＋＋",
+    "description": "センス発動直後、自身の集中力の[:param11]倍のスコアを獲得　◆発動条件：Eden・銀河座に所属するアクターが装備",
+    "posterMasterId": 330250,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11132600
+          }
+        ],
+        "id": 330250501
       }
     ],
     "branchConditionType1": "None",
