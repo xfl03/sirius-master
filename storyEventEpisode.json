@@ -3690,5 +3690,76 @@
     "order": 8,
     "requiredReadEpisodeMasterId": 2005207,
     "episodeRewardPackageMasterId": 2005208
+  },
+  {
+    "id": 2005301,
+    "storyMasterId": 20053,
+    "requiredTotalAcquiredPoint": 0,
+    "title": "テストとゲームと気になる報せ",
+    "order": 1,
+    "episodeRewardPackageMasterId": 2005301
+  },
+  {
+    "id": 2005302,
+    "storyMasterId": 20053,
+    "requiredTotalAcquiredPoint": 2000,
+    "title": "大事な時期、大きな依頼",
+    "order": 2,
+    "requiredReadEpisodeMasterId": 2005301,
+    "episodeRewardPackageMasterId": 2005302
+  },
+  {
+    "id": 2005303,
+    "storyMasterId": 20053,
+    "requiredTotalAcquiredPoint": 4000,
+    "title": "ゲームフェスタだ！",
+    "order": 3,
+    "requiredReadEpisodeMasterId": 2005302,
+    "episodeRewardPackageMasterId": 2005303
+  },
+  {
+    "id": 2005304,
+    "storyMasterId": 20053,
+    "requiredTotalAcquiredPoint": 8000,
+    "title": "再会",
+    "order": 4,
+    "requiredReadEpisodeMasterId": 2005303,
+    "episodeRewardPackageMasterId": 2005304
+  },
+  {
+    "id": 2005305,
+    "storyMasterId": 20053,
+    "requiredTotalAcquiredPoint": 16000,
+    "title": "思わぬ注目",
+    "order": 5,
+    "requiredReadEpisodeMasterId": 2005304,
+    "episodeRewardPackageMasterId": 2005305
+  },
+  {
+    "id": 2005306,
+    "storyMasterId": 20053,
+    "requiredTotalAcquiredPoint": 32000,
+    "title": "一方その頃",
+    "order": 6,
+    "requiredReadEpisodeMasterId": 2005305,
+    "episodeRewardPackageMasterId": 2005306
+  },
+  {
+    "id": 2005307,
+    "storyMasterId": 20053,
+    "requiredTotalAcquiredPoint": 64000,
+    "title": "ステージ本番！",
+    "order": 7,
+    "requiredReadEpisodeMasterId": 2005306,
+    "episodeRewardPackageMasterId": 2005307
+  },
+  {
+    "id": 2005308,
+    "storyMasterId": 20053,
+    "requiredTotalAcquiredPoint": 128000,
+    "title": "これからもふたりで",
+    "order": 8,
+    "requiredReadEpisodeMasterId": 2005307,
+    "episodeRewardPackageMasterId": 2005308
   }
 ]

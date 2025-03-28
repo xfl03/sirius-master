@@ -1093,6 +1093,17 @@
     "endDate": 1743440400.0
   },
   {
+    "id": 1095,
+    "order": 1040,
+    "name": "Operation: Game Festival！ガチャ(アクター)",
+    "jumpType": "Gacha",
+    "jumpPageId": "1095",
+    "deleteConditionType": 0,
+    "imagePath": "Gacha/1095",
+    "startDate": 1743440400.0,
+    "endDate": 1744304400.0
+  },
+  {
     "id": 1601,
     "order": 1601,
     "name": "BIRTHDAYピックアップガチャ2024【カトリナ・グリーベル】",
@@ -1234,6 +1245,17 @@
     "imagePath": "Gacha/1613",
     "startDate": 1742428800.0,
     "endDate": 1743292800.0
+  },
+  {
+    "id": 1614,
+    "order": 1614,
+    "name": "BIRTHDAYピックアップガチャ2025【新妻八恵】",
+    "jumpType": "Gacha",
+    "jumpPageId": "1614",
+    "deleteConditionType": 0,
+    "imagePath": "Gacha/1614",
+    "startDate": 1744156800.0,
+    "endDate": 1745020800.0
   },
   {
     "id": 1800,
@@ -1708,6 +1730,28 @@
     "imagePath": "Gacha/1844",
     "startDate": 1742014800.0,
     "endDate": 1742922000.0
+  },
+  {
+    "id": 1845,
+    "order": 2050,
+    "name": "銀河座スペシャルセレクトピックアップガチャ",
+    "jumpType": "Gacha",
+    "jumpPageId": "1845",
+    "deleteConditionType": 0,
+    "imagePath": "Gacha/1845",
+    "startDate": 1743483600.0,
+    "endDate": 1744390800.0
+  },
+  {
+    "id": 1848,
+    "order": 2060,
+    "name": "才能開花6解放記念！ピックアップガチャ",
+    "jumpType": "Gacha",
+    "jumpPageId": "1848",
+    "deleteConditionType": 0,
+    "imagePath": "Gacha/1848",
+    "startDate": 1744088400.0,
+    "endDate": 1745168400.0
   },
   {
     "id": 1850,
@@ -2568,6 +2612,17 @@
     "endDate": 1739059200.0
   },
   {
+    "id": 2086,
+    "order": 1041,
+    "name": "Fantasmaガチャ(ポスター)",
+    "jumpType": "Gacha",
+    "jumpPageId": "2086",
+    "deleteConditionType": 0,
+    "imagePath": "Gacha/2086",
+    "startDate": 1743440400.0,
+    "endDate": 1744304400.0
+  },
+  {
     "id": 2087,
     "order": 1051,
     "name": "エレクトロン・ショコラティエ！ガチャ",
@@ -2632,6 +2687,28 @@
     "imagePath": "Gacha/2092",
     "startDate": 1742673600.0,
     "endDate": 1743613200.0
+  },
+  {
+    "id": 2093,
+    "order": 2051,
+    "name": "銀河座スペシャルピックアップガチャ",
+    "jumpType": "Gacha",
+    "jumpPageId": "2093",
+    "deleteConditionType": 0,
+    "imagePath": "Gacha/2093",
+    "startDate": 1743483600.0,
+    "endDate": 1744390800.0
+  },
+  {
+    "id": 2094,
+    "order": 1030,
+    "name": "出会い、そして……ガチャ",
+    "jumpType": "Gacha",
+    "jumpPageId": "2094",
+    "deleteConditionType": 0,
+    "imagePath": "Gacha/2094",
+    "startDate": 1743872400.0,
+    "endDate": 1745168400.0
   },
   {
     "id": 2800,
@@ -5627,6 +5704,54 @@
     "endDate": 1742673600.0
   },
   {
+    "id": 5433,
+    "order": 5433,
+    "name": "電姫空間のおまもりパック",
+    "jumpType": "JewelShop",
+    "jumpPageId": "5",
+    "deleteConditionType": "BuyItem",
+    "deleteConditionValue": "5433",
+    "imagePath": "Home/denki_amulet",
+    "startDate": 1743440400.0,
+    "endDate": 1744149600.0
+  },
+  {
+    "id": 5434,
+    "order": 5434,
+    "name": "育成もりもりパック",
+    "jumpType": "JewelShop",
+    "jumpPageId": "5",
+    "deleteConditionType": "BuyItem",
+    "deleteConditionValue": "5434",
+    "imagePath": "Home/ikuseimori",
+    "startDate": 1743872400.0,
+    "endDate": 1744736400.0
+  },
+  {
+    "id": 5435,
+    "order": 5435,
+    "name": "劇団電姫のおまもり【Re:】",
+    "jumpType": "JewelShop",
+    "jumpPageId": "5",
+    "deleteConditionType": "BuyItem",
+    "deleteConditionValue": "5435",
+    "imagePath": "Home/denki_amuletRe",
+    "startDate": 1744218000.0,
+    "endDate": 1744822800.0
+  },
+  {
+    "id": 5436,
+    "order": 1600,
+    "name": "お誕生日パック2nd【新妻 八恵】",
+    "jumpType": "JewelShop",
+    "jumpPageId": "5436",
+    "deleteConditionType": "BuyItem",
+    "deleteConditionValue": "5436",
+    "imagePath": "Home/5436",
+    "startDate": 1744156800.0,
+    "endDate": 1745020800.0
+  },
+  {
     "id": 5438,
     "order": 4002,
     "name": "銀河シアターのおまもりパック",
@@ -6036,6 +6161,17 @@
     "imagePath": "Gacha/9200",
     "startDate": 1740762000.0,
     "endDate": 1741626000.0
+  },
+  {
+    "id": 9210,
+    "order": 1042,
+    "name": "FantasmaSSR確定ステップアップポスターガチャ",
+    "jumpType": "Gacha",
+    "jumpPageId": "9210",
+    "deleteConditionType": 0,
+    "imagePath": "Gacha/9210",
+    "startDate": 1743440400.0,
+    "endDate": 1744304400.0
   },
   {
     "id": 9220,

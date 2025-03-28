@@ -17466,5 +17466,205 @@
         ]
       }
     ]
+  },
+  {
+    "id": 400840,
+    "missionCategory": "Limit",
+    "missionViewOrder": 100000,
+    "title": "",
+    "description": "【新生活ミッション1】公演を[:param]回クリアしよう",
+    "jumpType": "Live",
+    "startDate": 1743872400.0,
+    "endDate": 1745168400.0,
+    "stages": [
+      {
+        "id": 400840,
+        "missionStageOrder": 1,
+        "stageGoalValue": 50,
+        "startDate": 1743872400.0,
+        "rewards": [
+          {
+            "thingId": 120002,
+            "thingType": "Item",
+            "thingQuantity": 200
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 400850,
+    "missionCategory": "Limit",
+    "missionViewOrder": 100010,
+    "title": "",
+    "description": "【新生活ミッション2】稽古を[:param]回クリアしよう",
+    "jumpType": "Live",
+    "startDate": 1743915600.0,
+    "endDate": 1745168400.0,
+    "stages": [
+      {
+        "id": 400850,
+        "missionStageOrder": 1,
+        "stageGoalValue": 5,
+        "startDate": 1743915600.0,
+        "rewards": [
+          {
+            "thingId": 130051,
+            "thingType": "Item",
+            "thingQuantity": 20
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 400860,
+    "missionCategory": "Limit",
+    "missionViewOrder": 100020,
+    "title": "",
+    "description": "【新生活ミッション3】スタミナを[:param]消費しよう",
+    "jumpType": "Live",
+    "startDate": 1744002000.0,
+    "endDate": 1745168400.0,
+    "stages": [
+      {
+        "id": 400860,
+        "missionStageOrder": 1,
+        "stageGoalValue": 1000,
+        "startDate": 1744002000.0,
+        "rewards": [
+          {
+            "thingId": 130061,
+            "thingType": "Item",
+            "thingQuantity": 650
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 400870,
+    "missionCategory": "Limit",
+    "missionViewOrder": 100030,
+    "title": "",
+    "description": "【新生活ミッション4】演劇リーグを[:param]回プレイしよう",
+    "jumpType": "Live",
+    "startDate": 1744088400.0,
+    "endDate": 1745168400.0,
+    "stages": [
+      {
+        "id": 400870,
+        "missionStageOrder": 1,
+        "stageGoalValue": 1,
+        "startDate": 1744088400.0,
+        "rewards": [
+          {
+            "thingId": 130062,
+            "thingType": "Item",
+            "thingQuantity": 450
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 400880,
+    "missionCategory": "Limit",
+    "missionViewOrder": 100040,
+    "title": "",
+    "description": "【新生活ミッション5】ノーツを累計[:param]回タップしよう",
+    "jumpType": "Live",
+    "startDate": 1744174800.0,
+    "endDate": 1745168400.0,
+    "stages": [
+      {
+        "id": 400880,
+        "missionStageOrder": 1,
+        "stageGoalValue": 5000,
+        "startDate": 1744174800.0,
+        "rewards": [
+          {
+            "thingId": 130042,
+            "thingType": "Item",
+            "thingQuantity": 250
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 400910,
+    "missionCategory": "Limit",
+    "missionViewOrder": 100070,
+    "title": "",
+    "description": "【新生活ミッション8】スターアクトを累計[:param]回発動しよう",
+    "jumpType": "Live",
+    "startDate": 1744434000.0,
+    "endDate": 1745168400.0,
+    "stages": [
+      {
+        "id": 400910,
+        "missionStageOrder": 1,
+        "stageGoalValue": 100,
+        "startDate": 1744434000.0,
+        "rewards": [
+          {
+            "thingId": 130064,
+            "thingType": "Item",
+            "thingQuantity": 100
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 400920,
+    "missionCategory": "Limit",
+    "missionViewOrder": 100080,
+    "title": "",
+    "description": "新生活ミッション1～8のうち、いずれか4つをクリアしよう",
+    "jumpType": "None",
+    "startDate": 1743872400.0,
+    "endDate": 1745168400.0,
+    "stages": [
+      {
+        "id": 400920,
+        "missionStageOrder": 1,
+        "stageGoalValue": 4,
+        "startDate": 1743872400.0,
+        "rewards": [
+          {
+            "thingId": 130071,
+            "thingType": "Item",
+            "thingQuantity": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 400930,
+    "missionCategory": "Limit",
+    "missionViewOrder": 100090,
+    "title": "",
+    "description": "新生活ミッション1～8を全てクリアしよう",
+    "jumpType": "None",
+    "startDate": 1743872400.0,
+    "endDate": 1745168400.0,
+    "stages": [
+      {
+        "id": 400930,
+        "missionStageOrder": 1,
+        "stageGoalValue": 8,
+        "startDate": 1743872400.0,
+        "rewards": [
+          {
+            "thingId": 210423,
+            "thingType": "Item",
+            "thingQuantity": 1
+          }
+        ]
+      }
+    ]
   }
 ]

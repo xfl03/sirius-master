@@ -2254,6 +2254,21 @@
     "branchCondition2": "None"
   },
   {
+    "id": 130840,
+    "name": "数式はここに当てはめて……",
+    "description": "[:score]倍のスコアを獲得",
+    "type": "Special",
+    "preEffects": [],
+    "branches": [],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 490,
+    "scoreUpPerLevel": 40,
+    "lightCount": 1,
+    "coolTime": 50,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
     "id": 140010,
     "name": "悲哀と恋慕の旋律",
     "description": "[:score]倍のスコアを獲得／ライフを[:param11]回復／ライフが多いほどここなのスコア獲得量UP（最大＋100％）",
@@ -5988,6 +6003,109 @@
     "lightCount": 1,
     "coolTime": 30,
     "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 141550,
+    "name": "霹靂は夜雨を駆け",
+    "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／センス発動後、プリンシパルゲージの上限値が[:param11]上昇",
+    "type": "Amplification",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20096
+          }
+        ],
+        "id": 1415501
+      }
+    ],
+    "acquirableGauge": 80,
+    "acquirableScorePercent": 140,
+    "scoreUpPerLevel": 50,
+    "lightCount": 1,
+    "coolTime": 35,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 141560,
+    "name": "アンタには一発で充分",
+    "description": "<size=26%>[:score]倍のスコアを獲得／センス発動時、編成されている劇団電姫アクターの演技力と演技力上限を、編成されている劇団電姫アクターの人数×3%上昇させる(この効果は重複する)</size>",
+    "type": "Control",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20656
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 1,
+        "id": 1415601
+      },
+      {
+        "order": 2,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20657
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 2,
+        "id": 1415602
+      },
+      {
+        "order": 3,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20658
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 3,
+        "id": 1415603
+      },
+      {
+        "order": 4,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20659
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 4,
+        "id": 1415604
+      },
+      {
+        "order": 5,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20660
+          }
+        ],
+        "judgeType1": "MoreThan",
+        "parameter1": 5,
+        "id": 1415605
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 610,
+    "scoreUpPerLevel": 60,
+    "lightCount": 1,
+    "coolTime": 45,
+    "branchCondition1": "CompanyMemberCount",
+    "conditionValue1": 4,
     "branchCondition2": "None"
   }
 ]

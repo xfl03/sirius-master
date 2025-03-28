@@ -4200,6 +4200,30 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 220710,
+    "name": "Operation: Game Festival！",
+    "description": "劇団電姫に所属するアクターの演技力が[:param11]%上昇",
+    "posterMasterId": 220710,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70022400
+          }
+        ],
+        "id": 22071001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 229010,
     "name": "初めての舞台",
     "description": "<color=#7AC940>彩属性</color>のアクターの演技力が[:param11]%上昇",
@@ -7644,6 +7668,30 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 230630,
+    "name": "Never end struggle",
+    "description": "<color=#33B4DF>凛属性</color>のアクターの演技力が[:param11]％上昇",
+    "posterMasterId": 230630,
+    "type": "Leader",
+    "frameNumber": 0,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70052002
+          }
+        ],
+        "id": 23063001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 230720,
     "name": "幾星霜を遙か",
     "description": "全アクターの演技力が[:param11]%上昇",
@@ -8663,6 +8711,30 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 330260,
+    "name": "始まりを運ぶ春風",
+    "description": "全アクターの演技力が[:param11]%上昇",
+    "posterMasterId": 330260,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70042000
+          }
+        ],
+        "id": 33026001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 340010,
     "name": "いつか夢を叶える日まで",
     "description": "全アクターの演技力が[:param11]％上昇",
@@ -8705,6 +8777,30 @@
           }
         ],
         "id": 34003001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 340040,
+    "name": "無垢な想いを歌声に乗せて",
+    "description": "全アクターの演技力が[:param11]％上昇",
+    "posterMasterId": 340040,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70050000
+          }
+        ],
+        "id": 34004001
       }
     ],
     "branchConditionType1": "None",
@@ -11183,6 +11279,54 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 2207101,
+    "name": "演技力アップ＋",
+    "description": "自身の演技力が[:param11]％上昇　◆発動条件：劇団電姫に所属するアクターが装備",
+    "posterMasterId": 220710,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10011400
+          }
+        ],
+        "id": 220710101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2207102,
+    "name": "歌唱力アップ",
+    "description": "自身の歌唱力が[:param11]％上昇　◆発動条件：劇団電姫に所属するアクターが装備",
+    "posterMasterId": 220710,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10110400
+          }
+        ],
+        "id": 220710201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 2301802,
     "name": "演技力アップⅢ",
     "description": "自身の演技力が[:param11]%上昇",
@@ -13653,6 +13797,78 @@
           }
         ],
         "id": 230620201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2306301,
+    "name": "演技力アップⅢ＋",
+    "description": "自身の演技力が[:param11]％上昇",
+    "posterMasterId": 230630,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10031002
+          }
+        ],
+        "id": 230630101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2306302,
+    "name": "P.ゲージ獲得量アップ＋",
+    "description": "センスによるP.ゲージの獲得量が[:param11]％UP　◆発動条件：<color=#33B4DF>凛属性</color>のアクターが装備",
+    "posterMasterId": 230630,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11611002
+          }
+        ],
+        "id": 230630201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2306303,
+    "name": "P.ゲージ上限ブースト",
+    "description": "センス発動直後、P.ゲージの上限が[:param11]上昇　◆発動条件：<color=#33B4DF>凛属性</color>のアクターが装備",
+    "posterMasterId": 230630,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 13100002
+          }
+        ],
+        "id": 230630301
       }
     ],
     "branchConditionType1": "None",
@@ -16385,6 +16601,102 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 3302601,
+    "name": "演技力アップⅢ",
+    "description": "自身の演技力が[:param11]%上昇",
+    "posterMasterId": 330260,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10030000
+          }
+        ],
+        "id": 330260101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3302602,
+    "name": "P.ゲージブーストⅡ",
+    "description": "センス発動直後、P.ゲージを[:param11]獲得　◆発動条件：<color=#ff679d>憐属性</color>のアクターが装備",
+    "posterMasterId": 330260,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11420001
+          }
+        ],
+        "id": 330260201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3302603,
+    "name": "CTダウンⅢ",
+    "description": "自身のセンスのCTを[:param11]秒短縮　◆発動条件：<color=#ff679d>憐属性</color>のアクターが装備",
+    "posterMasterId": 330260,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 12420001
+          }
+        ],
+        "id": 330260301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3302604,
+    "name": "「光」追加（SP）Ⅱ",
+    "description": "公演開始時、SP光を[:param11]付与　◆発動条件：<color=#ff679d>憐属性</color>のアクターが装備",
+    "posterMasterId": 330260,
+    "type": "Normal",
+    "frameNumber": 4,
+    "releaseLevelAt": 10,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11920001
+          }
+        ],
+        "id": 330260401
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 3400101,
     "name": "演技力アップⅢ",
     "description": "自身の演技力が[:param11]%上昇　◆発動条件：ここなが装備",
@@ -16523,6 +16835,78 @@
           }
         ],
         "id": 340030301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3400401,
+    "name": "演技力アップⅢ",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：八恵が装備",
+    "posterMasterId": 340040,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10030104
+          }
+        ],
+        "id": 340040101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3400402,
+    "name": "P.ゲージブースト＋",
+    "description": "センス発動直後、Pゲージを[:param11]獲得　◆発動条件：八恵が装備",
+    "posterMasterId": 340040,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11410104
+          }
+        ],
+        "id": 340040201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3400403,
+    "name": "「光」追加（SP）",
+    "description": "公演開始時、SP光を[:param11]付与（効果は公演開始時1回のみ発動する）◆発動条件：八恵が装備",
+    "posterMasterId": 340040,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11910104
+          }
+        ],
+        "id": 340040301
       }
     ],
     "branchConditionType1": "None",

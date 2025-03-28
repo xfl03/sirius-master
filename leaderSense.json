@@ -4152,5 +4152,49 @@
         ]
       }
     ]
+  },
+  {
+    "id": 209,
+    "description": "「役者」カテゴリの演技力40%上昇、「衣装」カテゴリの歌唱力35％上昇",
+    "details": [
+      {
+        "effectMasterId": 12005,
+        "conditions": [
+          {
+            "categoryMasterId1": 8003
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12019,
+        "conditions": [
+          {
+            "categoryMasterId1": 8004
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 210,
+    "description": "「劇団電姫」カテゴリの演技力40%上昇、「小道具」カテゴリの集中力35％上昇",
+    "details": [
+      {
+        "effectMasterId": 12005,
+        "conditions": [
+          {
+            "categoryMasterId1": 2004
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12021,
+        "conditions": [
+          {
+            "categoryMasterId1": 8006
+          }
+        ]
+      }
+    ]
   }
 ]

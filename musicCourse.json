@@ -322,6 +322,39 @@
     ]
   },
   {
+    "id": 11,
+    "name": "【皆伝】段位認定2025 1st Season",
+    "musicCourseType": "DanClass",
+    "order": 11,
+    "initialLife": 15,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1743786000.0,
+    "endDate": 1754024400.0,
+    "unlockCondition": "ClearedMMusicCourseId",
+    "unlockConditionValue": 10,
+    "details": [
+      {
+        "id": 1101,
+        "setListNumber": 1,
+        "liveMasterId": 4204,
+        "vocalVersion": 1
+      },
+      {
+        "id": 1102,
+        "setListNumber": 2,
+        "liveMasterId": 4804,
+        "vocalVersion": 1
+      },
+      {
+        "id": 1103,
+        "setListNumber": 3,
+        "liveMasterId": 5304,
+        "vocalVersion": 1
+      }
+    ]
+  },
+  {
     "id": 21,
     "name": "【初段】段位認定2025 1st Seasonウラ",
     "musicCourseType": "AdvancedDanClass",
@@ -639,6 +672,39 @@
         "id": 3003,
         "setListNumber": 3,
         "liveMasterId": 705,
+        "vocalVersion": 1
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "name": "【皆伝】段位認定2025 1st Seasonウラ",
+    "musicCourseType": "AdvancedDanClass",
+    "order": 11,
+    "initialLife": 30,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1743786000.0,
+    "endDate": 1754024400.0,
+    "unlockCondition": "ClearedMMusicCourseId",
+    "unlockConditionValue": 30,
+    "details": [
+      {
+        "id": 3101,
+        "setListNumber": 1,
+        "liveMasterId": 3905,
+        "vocalVersion": 1
+      },
+      {
+        "id": 3102,
+        "setListNumber": 2,
+        "liveMasterId": 5305,
+        "vocalVersion": 1
+      },
+      {
+        "id": 3103,
+        "setListNumber": 3,
+        "liveMasterId": 4805,
         "vocalVersion": 1
       }
     ]
@@ -1081,6 +1147,134 @@
         "id": 20303,
         "setListNumber": 3,
         "liveMasterId": 4305,
+        "vocalVersion": 1
+      }
+    ]
+  },
+  {
+    "id": 204,
+    "name": "第3回 ウィークリーコース【STELLA部門】",
+    "musicCourseType": 5,
+    "order": 5,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1743440400.0,
+    "endDate": 1743984000.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 20401,
+        "setListNumber": 1,
+        "liveMasterId": 12504,
+        "vocalVersion": 1
+      },
+      {
+        "id": 20402,
+        "setListNumber": 2,
+        "liveMasterId": 6404,
+        "vocalVersion": 1
+      },
+      {
+        "id": 20403,
+        "setListNumber": 3,
+        "liveMasterId": 18504,
+        "vocalVersion": 1
+      }
+    ]
+  },
+  {
+    "id": 205,
+    "name": "第3回 ウィークリーコース【OLIVIER部門】",
+    "musicCourseType": 5,
+    "order": 6,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1743440400.0,
+    "endDate": 1743984000.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 20501,
+        "setListNumber": 1,
+        "liveMasterId": 15605,
+        "vocalVersion": 1
+      },
+      {
+        "id": 20502,
+        "setListNumber": 2,
+        "liveMasterId": 12105,
+        "vocalVersion": 1
+      },
+      {
+        "id": 20503,
+        "setListNumber": 3,
+        "liveMasterId": 18505,
+        "vocalVersion": 1
+      }
+    ]
+  },
+  {
+    "id": 206,
+    "name": "第4回 ウィークリーコース【STELLA部門】",
+    "musicCourseType": 5,
+    "order": 7,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1744045200.0,
+    "endDate": 1744588800.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 20601,
+        "setListNumber": 1,
+        "liveMasterId": 14504,
+        "vocalVersion": 1
+      },
+      {
+        "id": 20602,
+        "setListNumber": 2,
+        "liveMasterId": 10304,
+        "vocalVersion": 1
+      },
+      {
+        "id": 20603,
+        "setListNumber": 3,
+        "liveMasterId": 17104,
+        "vocalVersion": 1
+      }
+    ]
+  },
+  {
+    "id": 207,
+    "name": "第4回 ウィークリーコース【STELLA部門】",
+    "musicCourseType": 5,
+    "order": 8,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1744045200.0,
+    "endDate": 1744588800.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 20701,
+        "setListNumber": 1,
+        "liveMasterId": 14505,
+        "vocalVersion": 1
+      },
+      {
+        "id": 20702,
+        "setListNumber": 2,
+        "liveMasterId": 14205,
+        "vocalVersion": 1
+      },
+      {
+        "id": 20703,
+        "setListNumber": 3,
+        "liveMasterId": 18805,
         "vocalVersion": 1
       }
     ]
