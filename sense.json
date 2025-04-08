@@ -2269,6 +2269,21 @@
     "branchCondition2": "None"
   },
   {
+    "id": 130850,
+    "name": "髪を撫でられ……",
+    "description": "[:score]倍のスコアを獲得",
+    "type": "Amplification",
+    "preEffects": [],
+    "branches": [],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 410,
+    "scoreUpPerLevel": 40,
+    "lightCount": 1,
+    "coolTime": 40,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
     "id": 140010,
     "name": "悲哀と恋慕の旋律",
     "description": "[:score]倍のスコアを獲得／ライフを[:param11]回復／ライフが多いほどここなのスコア獲得量UP（最大＋100％）",
@@ -6106,6 +6121,47 @@
     "coolTime": 45,
     "branchCondition1": "CompanyMemberCount",
     "conditionValue1": 4,
+    "branchCondition2": "None"
+  },
+  {
+    "id": 141570,
+    "name": "ホエールウォッチング！",
+    "description": "[:score]倍のスコアを獲得／センス発動時、追加で「特殊の光」を1個獲得する",
+    "type": "Support",
+    "preEffects": [],
+    "branches": [],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 670,
+    "scoreUpPerLevel": 60,
+    "lightCount": 1,
+    "coolTime": 50,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 141580,
+    "name": "異邦の湯に足を浸して",
+    "description": "<size=28%>[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／センス発動後、現在のプリンシパルゲージ[:param11]%分のプリンシパルゲージを追加で獲得する</size>",
+    "type": "Control",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20603
+          }
+        ],
+        "id": 1415801
+      }
+    ],
+    "acquirableGauge": 90,
+    "acquirableScorePercent": 170,
+    "scoreUpPerLevel": 50,
+    "lightCount": 1,
+    "coolTime": 40,
+    "branchCondition1": "None",
     "branchCondition2": "None"
   }
 ]

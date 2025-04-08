@@ -5736,6 +5736,55 @@
     "maxTalentStage": 5
   },
   {
+    "id": 130850,
+    "characterBaseMasterId": 103,
+    "name": "髪を撫でられ……",
+    "description": "",
+    "rarity": "Rare3",
+    "attribute": "Cheerful",
+    "minLevelStatus": {
+      "vocal": 94,
+      "expression": 90,
+      "concentration": 86
+    },
+    "starActMasterId": 130851,
+    "awakenStarActMasterId": 130851,
+    "senseMasterId": 130850,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 30003,
+    "senseEnhanceItemGroupMasterId": 3,
+    "firstEpisodeReleaseItemGroupId": 341,
+    "secondEpisodeReleaseItemGroupId": 342,
+    "characterAwakeningItemGroupMasterId": 34,
+    "displayStartAt": 1744304400.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "イベントで入手",
+    "categories": [
+      {
+        "categoryMasterId": 2001,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 4002,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7509,
+        "isAwaken": false
+      }
+    ],
+    "leaderSenseMasterId": 67,
+    "maxTalentStage": 5
+  },
+  {
     "id": 140010,
     "characterBaseMasterId": 101,
     "name": "悲哀と恋慕の旋律",
@@ -14094,6 +14143,112 @@
       }
     ],
     "leaderSenseMasterId": 210,
+    "maxTalentStage": 5
+  },
+  {
+    "id": 141570,
+    "characterBaseMasterId": 101,
+    "name": "ホエールウォッチング！",
+    "description": "",
+    "rarity": "Rare4",
+    "attribute": "Cheerful",
+    "minLevelStatus": {
+      "vocal": 158,
+      "expression": 94,
+      "concentration": 86
+    },
+    "starActMasterId": 141571,
+    "awakenStarActMasterId": 141571,
+    "senseMasterId": 141570,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 40157,
+    "senseEnhanceItemGroupMasterId": 4,
+    "firstEpisodeReleaseItemGroupId": 441,
+    "secondEpisodeReleaseItemGroupId": 442,
+    "characterAwakeningItemGroupMasterId": 44,
+    "displayStartAt": 1744304400.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "ガチャで入手",
+    "categories": [
+      {
+        "categoryMasterId": 2001,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 3003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7509,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 4004,
+        "isAwaken": true
+      }
+    ],
+    "leaderSenseMasterId": 211,
+    "maxTalentStage": 5
+  },
+  {
+    "id": 141580,
+    "characterBaseMasterId": 304,
+    "name": "異邦の湯に足を浸して",
+    "description": "",
+    "rarity": "Rare4",
+    "attribute": "Cheerful",
+    "minLevelStatus": {
+      "vocal": 72,
+      "expression": 167,
+      "concentration": 105
+    },
+    "starActMasterId": 141581,
+    "awakenStarActMasterId": 141581,
+    "senseMasterId": 141580,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 40158,
+    "senseEnhanceItemGroupMasterId": 4,
+    "firstEpisodeReleaseItemGroupId": 441,
+    "secondEpisodeReleaseItemGroupId": 442,
+    "characterAwakeningItemGroupMasterId": 44,
+    "displayStartAt": 1744304400.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "ガチャで入手",
+    "categories": [
+      {
+        "categoryMasterId": 2003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8001,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7509,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 3003,
+        "isAwaken": true
+      }
+    ],
+    "leaderSenseMasterId": 212,
     "maxTalentStage": 5
   }
 ]

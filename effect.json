@@ -4295,6 +4295,38 @@
     "fireTimingType": "Sense"
   },
   {
+    "id": 20603,
+    "type": "PrincipalGaugeBonus",
+    "range": "Self",
+    "calculationType": "PercentageAddition",
+    "details": [
+      {
+        "level": 1,
+        "value": 200.0
+      },
+      {
+        "level": 2,
+        "value": 400.0
+      },
+      {
+        "level": 3,
+        "value": 600.0
+      },
+      {
+        "level": 4,
+        "value": 800.0
+      },
+      {
+        "level": 5,
+        "value": 1000.0
+      }
+    ],
+    "conditions": [],
+    "durationSecond": 0,
+    "triggers": [],
+    "fireTimingType": "Sense"
+  },
+  {
     "id": 20605,
     "type": "SenseScoreUp",
     "range": "All",
