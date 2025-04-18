@@ -4248,6 +4248,30 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 220730,
+    "name": "舞い散る桜に、今気づいて",
+    "description": "銀河座に所属するアクターの演技力が[:param11]％上昇",
+    "posterMasterId": 220730,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70022300
+          }
+        ],
+        "id": 22073001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 229010,
     "name": "初めての舞台",
     "description": "<color=#7AC940>彩属性</color>のアクターの演技力が[:param11]%上昇",
@@ -11393,6 +11417,54 @@
           }
         ],
         "id": 220720201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2207301,
+    "name": "演技力アップ＋",
+    "description": "自身の演技力が[:param11]％上昇　◆発動条件：銀河座に所属するアクターが装備",
+    "posterMasterId": 220730,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10011300
+          }
+        ],
+        "id": 220730101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2207302,
+    "name": "歌唱力アップ",
+    "description": "自身の歌唱力が[:param11]％上昇　◆発動条件：銀河座に所属するアクターが装備",
+    "posterMasterId": 220730,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10110300
+          }
+        ],
+        "id": 220730201
       }
     ],
     "branchConditionType1": "None",

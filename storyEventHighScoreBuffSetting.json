@@ -2182,5 +2182,109 @@
       "effectDescription": "公演開始時にプリンシパルゲージが[:param1]上昇する　※<color=#33B4DF>凛属性</color>の本巣 叶羽のみ対象",
       "iconImagePath": "184"
     }
+  },
+  {
+    "id": 2005401,
+    "storyEventHighScoreMasterId": 20054,
+    "storyEventHighScoreBuffMasterId": 11,
+    "storyEventHighScoreBuffMaster": {
+      "id": 11,
+      "storyEventHighScoreBuffPatternGroupId": 1,
+      "effectMasterId": 80003,
+      "effectName": "舞台照明",
+      "effectDescription": "アクターの集中力が[:param1]上昇する",
+      "iconImagePath": "11"
+    }
+  },
+  {
+    "id": 2005402,
+    "storyEventHighScoreMasterId": 20054,
+    "storyEventHighScoreBuffMasterId": 12,
+    "storyEventHighScoreBuffMaster": {
+      "id": 12,
+      "storyEventHighScoreBuffPatternGroupId": 1,
+      "effectMasterId": 80002,
+      "effectName": "舞台スピーカー",
+      "effectDescription": "アクターの表現力が[:param1]上昇する",
+      "iconImagePath": "12"
+    }
+  },
+  {
+    "id": 2005403,
+    "storyEventHighScoreMasterId": 20054,
+    "storyEventHighScoreBuffMasterId": 13,
+    "storyEventHighScoreBuffMaster": {
+      "id": 13,
+      "storyEventHighScoreBuffPatternGroupId": 1,
+      "effectMasterId": 80001,
+      "effectName": "舞台マイク",
+      "effectDescription": "アクターの歌唱力が[:param1]上昇する",
+      "iconImagePath": "13"
+    }
+  },
+  {
+    "id": 2005404,
+    "storyEventHighScoreMasterId": 20054,
+    "storyEventHighScoreBuffMasterId": 14,
+    "storyEventHighScoreBuffMaster": {
+      "id": 14,
+      "storyEventHighScoreBuffPatternGroupId": 1,
+      "effectMasterId": 80004,
+      "effectName": "舞台カーテン",
+      "effectDescription": "アクターの演技力が[:param1]％上昇する",
+      "iconImagePath": "14"
+    }
+  },
+  {
+    "id": 2005405,
+    "storyEventHighScoreMasterId": 20054,
+    "storyEventHighScoreBuffMasterId": 185,
+    "storyEventHighScoreBuffMaster": {
+      "id": 185,
+      "storyEventHighScoreBuffPatternGroupId": 2,
+      "effectMasterId": 80089,
+      "effectName": "銀河座のロゴ",
+      "effectDescription": "銀河座に所属するアクター1人につき、公演開始時にプリンシパルゲージが[:param1]上昇する",
+      "iconImagePath": "177"
+    }
+  },
+  {
+    "id": 2005406,
+    "storyEventHighScoreMasterId": 20054,
+    "storyEventHighScoreBuffMasterId": 186,
+    "storyEventHighScoreBuffMaster": {
+      "id": 186,
+      "storyEventHighScoreBuffPatternGroupId": 2,
+      "effectMasterId": 80090,
+      "effectName": "ハーバリウム【憐】",
+      "effectDescription": "公演開始時にプリンシパルゲージの上限値が[:param1]上昇する　※<color=#ff679d>憐属性</color>の与那国 緋花里のみ対象",
+      "iconImagePath": "187"
+    }
+  },
+  {
+    "id": 2005407,
+    "storyEventHighScoreMasterId": 20054,
+    "storyEventHighScoreBuffMasterId": 187,
+    "storyEventHighScoreBuffMaster": {
+      "id": 187,
+      "storyEventHighScoreBuffPatternGroupId": 2,
+      "effectMasterId": 80091,
+      "effectName": "蝶のブローチ【憐】",
+      "effectDescription": "スターアクト発動条件に必要な光の数を超えて付与された光を最大[:param1]個「SP光」に変換する（レベル10の時に効果発動）　※<color=#ff679d>憐属性</color>の千寿 暦のみ対象",
+      "iconImagePath": "185"
+    }
+  },
+  {
+    "id": 2005408,
+    "storyEventHighScoreMasterId": 20054,
+    "storyEventHighScoreBuffMasterId": 188,
+    "storyEventHighScoreBuffMaster": {
+      "id": 188,
+      "storyEventHighScoreBuffPatternGroupId": 2,
+      "effectMasterId": 80092,
+      "effectName": "模造刀【憐】",
+      "effectDescription": "センス発動時、追加で「SP光」を[:param1]個付与する（レベル10の時に効果発動）※<color=#ff679d>憐属性</color>のラモーナ・ウォルフのみ対象",
+      "iconImagePath": "186"
+    }
   }
 ]

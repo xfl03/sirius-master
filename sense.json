@@ -2284,6 +2284,21 @@
     "branchCondition2": "None"
   },
   {
+    "id": 130860,
+    "name": "気分はプロフェッショナル！",
+    "description": "[:score]倍のスコアを獲得",
+    "type": "Amplification",
+    "preEffects": [],
+    "branches": [],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 520,
+    "scoreUpPerLevel": 50,
+    "lightCount": 1,
+    "coolTime": 60,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
     "id": 140010,
     "name": "悲哀と恋慕の旋律",
     "description": "[:score]倍のスコアを獲得／ライフを[:param11]回復／ライフが多いほどここなのスコア獲得量UP（最大＋100％）",
@@ -6158,6 +6173,58 @@
     ],
     "acquirableGauge": 90,
     "acquirableScorePercent": 170,
+    "scoreUpPerLevel": 50,
+    "lightCount": 1,
+    "coolTime": 40,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 141590,
+    "name": "桜の精との待ち合わせ",
+    "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／センス発動後、プリンシパルゲージの上限値が[:param11]上昇",
+    "type": "Special",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20095
+          }
+        ],
+        "id": 1415901
+      }
+    ],
+    "acquirableGauge": 100,
+    "acquirableScorePercent": 180,
+    "scoreUpPerLevel": 60,
+    "lightCount": 1,
+    "coolTime": 50,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 141600,
+    "name": "次の春まで別たれて",
+    "description": "[:score]倍のスコアを獲得／[:sec]秒間、銀河座のアクターにスターアクトスコア[:param11]％UP効果",
+    "type": "Support",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20301
+          }
+        ],
+        "id": 1416001
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 220,
     "scoreUpPerLevel": 50,
     "lightCount": 1,
     "coolTime": 40,

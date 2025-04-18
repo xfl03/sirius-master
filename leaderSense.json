@@ -4240,5 +4240,27 @@
         ]
       }
     ]
+  },
+  {
+    "id": 213,
+    "description": "「銀河座」カテゴリの演技力30%上昇、「衣装」カテゴリの集中力20％上昇",
+    "details": [
+      {
+        "effectMasterId": 12004,
+        "conditions": [
+          {
+            "categoryMasterId1": 2003
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12015,
+        "conditions": [
+          {
+            "categoryMasterId1": 8004
+          }
+        ]
+      }
+    ]
   }
 ]

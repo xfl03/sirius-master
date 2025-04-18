@@ -6795,6 +6795,22 @@
     "fireTimingType": "Passive"
   },
   {
+    "id": 37018,
+    "type": "SenseRecastDown",
+    "range": "Self",
+    "calculationType": "FixedAddition",
+    "details": [
+      {
+        "level": 1,
+        "value": 10.0
+      }
+    ],
+    "conditions": [],
+    "durationSecond": 0,
+    "triggers": [],
+    "fireTimingType": "Passive"
+  },
+  {
     "id": 39001,
     "type": "RewardUp",
     "range": "None",
@@ -12119,6 +12135,246 @@
     "durationSecond": 0,
     "triggers": [],
     "fireTimingType": "StartLive"
+  },
+  {
+    "id": 80089,
+    "type": "PrincipalGaugeGain",
+    "range": "None",
+    "calculationType": "FixedAddition",
+    "details": [
+      {
+        "level": 1,
+        "value": 110.0
+      },
+      {
+        "level": 2,
+        "value": 120.0
+      },
+      {
+        "level": 3,
+        "value": 130.0
+      },
+      {
+        "level": 4,
+        "value": 140.0
+      },
+      {
+        "level": 5,
+        "value": 150.0
+      },
+      {
+        "level": 6,
+        "value": 160.0
+      },
+      {
+        "level": 7,
+        "value": 170.0
+      },
+      {
+        "level": 8,
+        "value": 180.0
+      },
+      {
+        "level": 9,
+        "value": 190.0
+      },
+      {
+        "level": 10,
+        "value": 200.0
+      }
+    ],
+    "conditions": [
+      {
+        "condition": "Company",
+        "value": 3
+      }
+    ],
+    "durationSecond": 0,
+    "triggers": [],
+    "fireTimingType": "StartLive"
+  },
+  {
+    "id": 80090,
+    "type": "PrincipalGaugeLimitUp",
+    "range": "None",
+    "calculationType": "FixedAddition",
+    "details": [
+      {
+        "level": 1,
+        "value": 100.0
+      },
+      {
+        "level": 2,
+        "value": 200.0
+      },
+      {
+        "level": 3,
+        "value": 300.0
+      },
+      {
+        "level": 4,
+        "value": 400.0
+      },
+      {
+        "level": 5,
+        "value": 500.0
+      },
+      {
+        "level": 6,
+        "value": 600.0
+      },
+      {
+        "level": 7,
+        "value": 700.0
+      },
+      {
+        "level": 8,
+        "value": 800.0
+      },
+      {
+        "level": 9,
+        "value": 900.0
+      },
+      {
+        "level": 10,
+        "value": 1000.0
+      }
+    ],
+    "conditions": [
+      {
+        "condition": "CharacterBase",
+        "value": 305
+      },
+      {
+        "condition": "Attribute",
+        "value": 1
+      }
+    ],
+    "durationSecond": 0,
+    "triggers": [],
+    "fireTimingType": "StartLive"
+  },
+  {
+    "id": 80091,
+    "type": "ChangeWrongLightToSpLight",
+    "range": "Self",
+    "calculationType": "FixedAddition",
+    "details": [
+      {
+        "level": 1,
+        "value": 0.0
+      },
+      {
+        "level": 2,
+        "value": 0.0
+      },
+      {
+        "level": 3,
+        "value": 0.0
+      },
+      {
+        "level": 4,
+        "value": 0.0
+      },
+      {
+        "level": 5,
+        "value": 0.0
+      },
+      {
+        "level": 6,
+        "value": 0.0
+      },
+      {
+        "level": 7,
+        "value": 0.0
+      },
+      {
+        "level": 8,
+        "value": 0.0
+      },
+      {
+        "level": 9,
+        "value": 0.0
+      },
+      {
+        "level": 10,
+        "value": 1.0
+      }
+    ],
+    "conditions": [
+      {
+        "condition": "CharacterBase",
+        "value": 301
+      },
+      {
+        "condition": "Attribute",
+        "value": 1
+      }
+    ],
+    "durationSecond": 0,
+    "triggers": [],
+    "fireTimingType": "Passive"
+  },
+  {
+    "id": 80092,
+    "type": "AddSenseLightVariable",
+    "range": "Self",
+    "calculationType": "FixedAddition",
+    "details": [
+      {
+        "level": 1,
+        "value": 0.0
+      },
+      {
+        "level": 2,
+        "value": 0.0
+      },
+      {
+        "level": 3,
+        "value": 0.0
+      },
+      {
+        "level": 4,
+        "value": 0.0
+      },
+      {
+        "level": 5,
+        "value": 0.0
+      },
+      {
+        "level": 6,
+        "value": 0.0
+      },
+      {
+        "level": 7,
+        "value": 0.0
+      },
+      {
+        "level": 8,
+        "value": 0.0
+      },
+      {
+        "level": 9,
+        "value": 0.0
+      },
+      {
+        "level": 10,
+        "value": 1.0
+      }
+    ],
+    "conditions": [
+      {
+        "condition": "CharacterBase",
+        "value": 302
+      },
+      {
+        "condition": "Attribute",
+        "value": 1
+      }
+    ],
+    "durationSecond": 0,
+    "triggers": [],
+    "fireTimingType": "Passive"
   },
   {
     "id": 90101,

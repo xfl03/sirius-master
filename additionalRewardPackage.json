@@ -396,7 +396,7 @@
   },
   {
     "id": 1103,
-    "description": "スタミナを消費",
+    "description": "スタミナを消費 + スコア50,000以上",
     "liveSettingMasterId": 11,
     "rewards": [
       {
@@ -410,11 +410,11 @@
   },
   {
     "id": 1104,
-    "description": "スタミナを消費 + スコア50,000以上",
+    "description": "スタミナを消費 + スコア200,000以上",
     "liveSettingMasterId": 11,
     "rewards": [
       {
-        "thingId": 120001,
+        "thingId": 130061,
         "thingType": "Item",
         "thingQuantity": 0
       }
@@ -424,35 +424,6 @@
   },
   {
     "id": 1105,
-    "description": "スタミナを消費 + スコア150,000以上",
-    "liveSettingMasterId": 11,
-    "rewards": [
-      {
-        "thingId": 130031,
-        "thingType": "Item",
-        "thingQuantity": 0
-      },
-      {
-        "thingId": 130032,
-        "thingType": "Item",
-        "thingQuantity": 0
-      },
-      {
-        "thingId": 130033,
-        "thingType": "Item",
-        "thingQuantity": 0
-      },
-      {
-        "thingId": 130034,
-        "thingType": "Item",
-        "thingQuantity": 0
-      }
-    ],
-    "etcetera": false,
-    "order": 11050
-  },
-  {
-    "id": 1106,
     "description": "スタミナを消費 + スコア300,000以上",
     "liveSettingMasterId": 11,
     "rewards": [
@@ -483,6 +454,40 @@
       }
     ],
     "etcetera": false,
+    "order": 11050
+  },
+  {
+    "id": 1106,
+    "description": "スタミナを消費 + スコア500,000以上",
+    "liveSettingMasterId": 11,
+    "rewards": [
+      {
+        "thingId": 130062,
+        "thingType": "Item",
+        "thingQuantity": 0
+      },
+      {
+        "thingId": 130061,
+        "thingType": "Item",
+        "thingQuantity": 0
+      },
+      {
+        "thingId": 130032,
+        "thingType": "Item",
+        "thingQuantity": 0
+      },
+      {
+        "thingId": 130033,
+        "thingType": "Item",
+        "thingQuantity": 0
+      },
+      {
+        "thingId": 130034,
+        "thingType": "Item",
+        "thingQuantity": 0
+      }
+    ],
+    "etcetera": false,
     "order": 11060
   },
   {
@@ -491,7 +496,7 @@
     "liveSettingMasterId": 11,
     "rewards": [
       {
-        "thingId": 130042,
+        "thingId": 130041,
         "thingType": "Item",
         "thingQuantity": 0
       },
@@ -521,9 +526,38 @@
   },
   {
     "id": 1108,
+    "description": "スタミナを消費 + スコア1000,000以上",
+    "liveSettingMasterId": 11,
+    "rewards": [
+      {
+        "thingId": 130063,
+        "thingType": "Item",
+        "thingQuantity": 0
+      },
+      {
+        "thingId": 130062,
+        "thingType": "Item",
+        "thingQuantity": 0
+      },
+      {
+        "thingId": 130061,
+        "thingType": "Item",
+        "thingQuantity": 0
+      }
+    ],
+    "etcetera": false,
+    "order": 11080
+  },
+  {
+    "id": 1109,
     "description": "スタミナを消費 + スターアクト発動",
     "liveSettingMasterId": 11,
     "rewards": [
+      {
+        "thingId": 120001,
+        "thingType": "Item",
+        "thingQuantity": 0
+      },
       {
         "thingId": 130042,
         "thingType": "Item",
@@ -535,29 +569,18 @@
         "thingQuantity": 0
       },
       {
-        "thingId": 120001,
+        "thingId": 130062,
         "thingType": "Item",
         "thingQuantity": 0
-      }
-    ],
-    "etcetera": false,
-    "order": 11080
-  },
-  {
-    "id": 1109,
-    "description": "スタミナを消費　～2024年1月10日 17:00",
-    "liveSettingMasterId": 11,
-    "rewards": [
+      },
       {
-        "thingId": 212001,
+        "thingId": 130061,
         "thingType": "Item",
         "thingQuantity": 0
       }
     ],
     "etcetera": false,
-    "startDate": 1704034800.0,
-    "endDate": 1704906000.0,
-    "order": 11029
+    "order": 11090
   },
   {
     "id": 1110,
@@ -805,26 +828,27 @@
     "order": 11240
   },
   {
-    "id": 1203,
-    "description": "スタミナを消費",
+    "id": 1204,
+    "description": "スタミナを消費 + スターアクト発動(確率で獲得)",
     "liveSettingMasterId": 12,
     "rewards": [
       {
         "thingId": 120001,
         "thingType": "Item",
         "thingQuantity": 0
-      }
-    ],
-    "etcetera": false,
-    "order": 12030
-  },
-  {
-    "id": 1204,
-    "description": "スタミナを消費 + スコア200,000以上",
-    "liveSettingMasterId": 12,
-    "rewards": [
+      },
       {
-        "thingId": 130061,
+        "thingId": 130025,
+        "thingType": "Item",
+        "thingQuantity": 0
+      },
+      {
+        "thingId": 130035,
+        "thingType": "Item",
+        "thingQuantity": 0
+      },
+      {
+        "thingId": 130091,
         "thingType": "Item",
         "thingQuantity": 0
       }
@@ -834,70 +858,37 @@
   },
   {
     "id": 1205,
-    "description": "スタミナを消費 + スコア500,000以上",
+    "description": "スタミナを消費",
     "liveSettingMasterId": 12,
     "rewards": [
       {
-        "thingId": 130062,
+        "thingId": 130301,
         "thingType": "Item",
         "thingQuantity": 0
       },
       {
-        "thingId": 130061,
+        "thingId": 130306,
+        "thingType": "Item",
+        "thingQuantity": 0
+      },
+      {
+        "thingId": 130025,
+        "thingType": "Item",
+        "thingQuantity": 0
+      },
+      {
+        "thingId": 130035,
+        "thingType": "Item",
+        "thingQuantity": 0
+      },
+      {
+        "thingId": 130091,
         "thingType": "Item",
         "thingQuantity": 0
       }
     ],
-    "etcetera": false,
+    "etcetera": true,
     "order": 12050
-  },
-  {
-    "id": 1206,
-    "description": "スタミナを消費 + スコア1,000,000以上",
-    "liveSettingMasterId": 12,
-    "rewards": [
-      {
-        "thingId": 130063,
-        "thingType": "Item",
-        "thingQuantity": 0
-      },
-      {
-        "thingId": 130062,
-        "thingType": "Item",
-        "thingQuantity": 0
-      },
-      {
-        "thingId": 130061,
-        "thingType": "Item",
-        "thingQuantity": 0
-      }
-    ],
-    "etcetera": false,
-    "order": 12060
-  },
-  {
-    "id": 1207,
-    "description": "スタミナを消費 + スターアクト発動",
-    "liveSettingMasterId": 12,
-    "rewards": [
-      {
-        "thingId": 130062,
-        "thingType": "Item",
-        "thingQuantity": 0
-      },
-      {
-        "thingId": 130061,
-        "thingType": "Item",
-        "thingQuantity": 0
-      },
-      {
-        "thingId": 120001,
-        "thingType": "Item",
-        "thingQuantity": 0
-      }
-    ],
-    "etcetera": false,
-    "order": 12070
   },
   {
     "id": 1208,

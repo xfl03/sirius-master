@@ -5785,6 +5785,55 @@
     "maxTalentStage": 5
   },
   {
+    "id": 130860,
+    "characterBaseMasterId": 305,
+    "name": "気分はプロフェッショナル！",
+    "description": "",
+    "rarity": "Rare3",
+    "attribute": "Cute",
+    "minLevelStatus": {
+      "vocal": 125,
+      "expression": 66,
+      "concentration": 84
+    },
+    "starActMasterId": 130861,
+    "awakenStarActMasterId": 130861,
+    "senseMasterId": 130860,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 30003,
+    "senseEnhanceItemGroupMasterId": 3,
+    "firstEpisodeReleaseItemGroupId": 311,
+    "secondEpisodeReleaseItemGroupId": 312,
+    "characterAwakeningItemGroupMasterId": 31,
+    "displayStartAt": 1745168400.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "イベントで入手",
+    "categories": [
+      {
+        "categoryMasterId": 2003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 3004,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7054,
+        "isAwaken": false
+      }
+    ],
+    "leaderSenseMasterId": 124,
+    "maxTalentStage": 5
+  },
+  {
     "id": 140010,
     "characterBaseMasterId": 101,
     "name": "悲哀と恋慕の旋律",
@@ -7968,7 +8017,8 @@
       }
     ],
     "leaderSenseMasterId": 147,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1745298000.0
   },
   {
     "id": 140410,
@@ -8485,7 +8535,8 @@
       }
     ],
     "leaderSenseMasterId": 100,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1745298000.0
   },
   {
     "id": 140500,
@@ -9881,7 +9932,8 @@
       }
     ],
     "leaderSenseMasterId": 105,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1745298000.0
   },
   {
     "id": 140790,
@@ -10931,7 +10983,8 @@
       }
     ],
     "leaderSenseMasterId": 88,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1745298000.0
   },
   {
     "id": 140980,
@@ -14249,6 +14302,112 @@
       }
     ],
     "leaderSenseMasterId": 212,
+    "maxTalentStage": 5
+  },
+  {
+    "id": 141590,
+    "characterBaseMasterId": 301,
+    "name": "桜の精との待ち合わせ",
+    "description": "",
+    "rarity": "Rare4",
+    "attribute": "Cute",
+    "minLevelStatus": {
+      "vocal": 90,
+      "expression": 83,
+      "concentration": 173
+    },
+    "starActMasterId": 141591,
+    "awakenStarActMasterId": 141591,
+    "senseMasterId": 141590,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 40159,
+    "senseEnhanceItemGroupMasterId": 4,
+    "firstEpisodeReleaseItemGroupId": 411,
+    "secondEpisodeReleaseItemGroupId": 412,
+    "characterAwakeningItemGroupMasterId": 41,
+    "displayStartAt": 1745168400.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "ガチャで入手",
+    "categories": [
+      {
+        "categoryMasterId": 2003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 4003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7054,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8004,
+        "isAwaken": true
+      }
+    ],
+    "leaderSenseMasterId": 213,
+    "maxTalentStage": 5
+  },
+  {
+    "id": 141600,
+    "characterBaseMasterId": 302,
+    "name": "次の春まで別たれて",
+    "description": "",
+    "rarity": "Rare4",
+    "attribute": "Cute",
+    "minLevelStatus": {
+      "vocal": 88,
+      "expression": 156,
+      "concentration": 93
+    },
+    "starActMasterId": 141601,
+    "awakenStarActMasterId": 141601,
+    "senseMasterId": 141600,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 40160,
+    "senseEnhanceItemGroupMasterId": 4,
+    "firstEpisodeReleaseItemGroupId": 411,
+    "secondEpisodeReleaseItemGroupId": 412,
+    "characterAwakeningItemGroupMasterId": 41,
+    "displayStartAt": 1745168400.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "ガチャで入手",
+    "categories": [
+      {
+        "categoryMasterId": 2003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 4002,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7054,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 4007,
+        "isAwaken": true
+      }
+    ],
+    "leaderSenseMasterId": 110,
     "maxTalentStage": 5
   }
 ]
