@@ -14094,5 +14094,171 @@
         "phase": 5
       }
     ]
+  },
+  {
+    "id": 40161,
+    "bloomBonuses": [
+      {
+        "bloomBonusType": "None",
+        "description": "演技力6％UP",
+        "phase": 1,
+        "effectMasterId": 30006,
+        "iconPath": "PerformanceUp"
+      },
+      {
+        "bloomBonusType": "None",
+        "description": "演技力6％UP",
+        "phase": 2,
+        "effectMasterId": 30006,
+        "iconPath": "PerformanceUp"
+      },
+      {
+        "bloomBonusType": "None",
+        "description": "センスのCTが5秒減少",
+        "phase": 2,
+        "effectMasterId": 30405,
+        "iconPath": "SenseRecastDown"
+      },
+      {
+        "bloomBonusType": "None",
+        "description": "演技力6％UP",
+        "phase": 3,
+        "effectMasterId": 30006,
+        "iconPath": "PerformanceUp"
+      },
+      {
+        "bloomBonusType": "None",
+        "description": "スターアクト発動に必要な特殊の光の個数が1個減少",
+        "phase": 3,
+        "effectMasterId": 30801,
+        "iconPath": "DecreaseRequireSpecialLight"
+      },
+      {
+        "bloomBonusType": "None",
+        "description": "演技力6％UP",
+        "phase": 4,
+        "effectMasterId": 30006,
+        "iconPath": "PerformanceUp"
+      },
+      {
+        "bloomBonusType": "None",
+        "description": "初期ライフが100上昇",
+        "phase": 4,
+        "effectMasterId": 30110,
+        "iconPath": "LifeFixedValue"
+      },
+      {
+        "bloomBonusType": "None",
+        "description": "演技力6％UP",
+        "phase": 5,
+        "effectMasterId": 30006,
+        "iconPath": "PerformanceUp"
+      },
+      {
+        "bloomBonusType": "None",
+        "description": "演技力10%UP",
+        "phase": 6,
+        "effectMasterId": 30010,
+        "iconPath": "PerformanceUp"
+      },
+      {
+        "bloomBonusType": "None",
+        "description": "初期プリンシパルゲージが150上昇",
+        "phase": 6,
+        "effectMasterId": 37019,
+        "iconPath": "PrincipalGaugeGain"
+      }
+    ],
+    "bloomRewards": [
+      {
+        "thingId": 511204,
+        "thingType": "Item",
+        "thingQuantity": 1,
+        "phase": 5
+      }
+    ]
+  },
+  {
+    "id": 40162,
+    "bloomBonuses": [
+      {
+        "bloomBonusType": "None",
+        "description": "演技力6％UP",
+        "phase": 1,
+        "effectMasterId": 30006,
+        "iconPath": "PerformanceUp"
+      },
+      {
+        "bloomBonusType": "None",
+        "description": "演技力6％UP",
+        "phase": 2,
+        "effectMasterId": 30006,
+        "iconPath": "PerformanceUp"
+      },
+      {
+        "bloomBonusType": "None",
+        "description": "センスのCTが5秒減少",
+        "phase": 2,
+        "effectMasterId": 30405,
+        "iconPath": "SenseRecastDown"
+      },
+      {
+        "bloomBonusType": "None",
+        "description": "演技力6％UP",
+        "phase": 3,
+        "effectMasterId": 30006,
+        "iconPath": "PerformanceUp"
+      },
+      {
+        "bloomBonusType": "None",
+        "description": "スターアクト発動に必要な支配の光の個数が1個減少",
+        "phase": 3,
+        "effectMasterId": 30601,
+        "iconPath": "DecreaseRequireControlLight"
+      },
+      {
+        "bloomBonusType": "None",
+        "description": "演技力6％UP",
+        "phase": 4,
+        "effectMasterId": 30006,
+        "iconPath": "PerformanceUp"
+      },
+      {
+        "bloomBonusType": "None",
+        "description": "初期プリンシパルゲージが50上昇",
+        "phase": 4,
+        "effectMasterId": 30305,
+        "iconPath": "PrincipalGaugeGain"
+      },
+      {
+        "bloomBonusType": "None",
+        "description": "演技力6％UP",
+        "phase": 5,
+        "effectMasterId": 30006,
+        "iconPath": "PerformanceUp"
+      },
+      {
+        "bloomBonusType": "None",
+        "description": "演技力10%UP",
+        "phase": 6,
+        "effectMasterId": 30010,
+        "iconPath": "PerformanceUp"
+      },
+      {
+        "bloomBonusType": "None",
+        "description": "基礎ステータスの表現力が50上昇",
+        "phase": 6,
+        "effectMasterId": 37008,
+        "iconPath": "BaseExpressionUp"
+      }
+    ],
+    "bloomRewards": [
+      {
+        "thingId": 511205,
+        "thingType": "Item",
+        "thingQuantity": 1,
+        "phase": 5
+      }
+    ]
   }
 ]

@@ -1,32 +1,32 @@
 [
-  [
-    1,
-    1,
-    "演技力（全アクター）",
-    false
-  ],
-  [
-    2,
-    3,
-    "演技力",
-    true
-  ],
-  [
-    3,
-    5,
-    "歌唱力",
-    true
-  ],
-  [
-    4,
-    5,
-    "表現力",
-    true
-  ],
-  [
-    5,
-    5,
-    "集中力",
-    true
-  ]
+  {
+    "id": 1,
+    "photoEffectMaxVariety": 1,
+    "description": "演技力（全アクター）",
+    "canUseItem": false
+  },
+  {
+    "id": 2,
+    "photoEffectMaxVariety": 3,
+    "description": "演技力",
+    "canUseItem": true
+  },
+  {
+    "id": 3,
+    "photoEffectMaxVariety": 5,
+    "description": "歌唱力",
+    "canUseItem": true
+  },
+  {
+    "id": 4,
+    "photoEffectMaxVariety": 5,
+    "description": "表現力",
+    "canUseItem": true
+  },
+  {
+    "id": 5,
+    "photoEffectMaxVariety": 5,
+    "description": "集中力",
+    "canUseItem": true
+  }
 ]

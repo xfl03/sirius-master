@@ -4587,5 +4587,371 @@
     "branches": [],
     "branchCondition1": "None",
     "branchCondition2": "None"
+  },
+  {
+    "id": 141611,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得/消費するライフガード1回につきスコア獲得量15％上昇（最大＋150％）",
+    "starActConditionMasterId": 101214,
+    "acquirableScorePercent": 1140,
+    "scoreUpPerLevel": 120,
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19200
+          },
+          {
+            "order": 2,
+            "effectMasterId": 19150
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 1,
+        "id": 14161101
+      },
+      {
+        "order": 2,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19201
+          },
+          {
+            "order": 2,
+            "effectMasterId": 19151
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 2,
+        "id": 14161102
+      },
+      {
+        "order": 3,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19202
+          },
+          {
+            "order": 2,
+            "effectMasterId": 19152
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 3,
+        "id": 14161103
+      },
+      {
+        "order": 4,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19203
+          },
+          {
+            "order": 2,
+            "effectMasterId": 19153
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 4,
+        "id": 14161104
+      },
+      {
+        "order": 5,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19204
+          },
+          {
+            "order": 2,
+            "effectMasterId": 19154
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 5,
+        "id": 14161105
+      },
+      {
+        "order": 6,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19205
+          },
+          {
+            "order": 2,
+            "effectMasterId": 19155
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 6,
+        "id": 14161106
+      },
+      {
+        "order": 7,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19206
+          },
+          {
+            "order": 2,
+            "effectMasterId": 19156
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 7,
+        "id": 14161107
+      },
+      {
+        "order": 8,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19207
+          },
+          {
+            "order": 2,
+            "effectMasterId": 19157
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 8,
+        "id": 14161108
+      },
+      {
+        "order": 9,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19208
+          },
+          {
+            "order": 2,
+            "effectMasterId": 19158
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 9,
+        "id": 14161109
+      },
+      {
+        "order": 10,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19209
+          },
+          {
+            "order": 2,
+            "effectMasterId": 19159
+          }
+        ],
+        "judgeType1": "MoreThan",
+        "parameter1": 10,
+        "id": 14161110
+      }
+    ],
+    "branchCondition1": "LifeGuardCount",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 141621,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得/付与されているライフガード1回につきスコア獲得量8％上昇（最大＋120％）",
+    "starActConditionMasterId": 101322,
+    "acquirableScorePercent": 1140,
+    "scoreUpPerLevel": 120,
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19250
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 1,
+        "id": 14162101
+      },
+      {
+        "order": 2,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19251
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 2,
+        "id": 14162102
+      },
+      {
+        "order": 3,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19252
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 3,
+        "id": 14162103
+      },
+      {
+        "order": 4,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19253
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 4,
+        "id": 14162104
+      },
+      {
+        "order": 5,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19254
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 5,
+        "id": 14162105
+      },
+      {
+        "order": 6,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19255
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 6,
+        "id": 14162106
+      },
+      {
+        "order": 7,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19256
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 7,
+        "id": 14162107
+      },
+      {
+        "order": 8,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19257
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 8,
+        "id": 14162108
+      },
+      {
+        "order": 9,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19258
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 9,
+        "id": 14162109
+      },
+      {
+        "order": 10,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19259
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 10,
+        "id": 14162110
+      },
+      {
+        "order": 11,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19260
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 11,
+        "id": 14162111
+      },
+      {
+        "order": 12,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19261
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 12,
+        "id": 14162112
+      },
+      {
+        "order": 13,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19262
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 13,
+        "id": 14162113
+      },
+      {
+        "order": 14,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19263
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 14,
+        "id": 14162114
+      },
+      {
+        "order": 15,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19264
+          }
+        ],
+        "judgeType1": "MoreThan",
+        "parameter1": 15,
+        "id": 14162115
+      }
+    ],
+    "branchCondition1": "LifeGuardCount",
+    "branchCondition2": "None"
   }
 ]
