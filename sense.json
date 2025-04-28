@@ -2299,6 +2299,21 @@
     "branchCondition2": "None"
   },
   {
+    "id": 130870,
+    "name": "変わるあの子を見て",
+    "description": "[:score]倍のスコアを獲得／ライフを[:param11]回復",
+    "type": "Special",
+    "preEffects": [],
+    "branches": [],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 190,
+    "scoreUpPerLevel": 40,
+    "lightCount": 1,
+    "coolTime": 50,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
     "id": 140010,
     "name": "悲哀と恋慕の旋律",
     "description": "[:score]倍のスコアを獲得／ライフを[:param11]回復／ライフが多いほどここなのスコア獲得量UP（最大＋100％）",
@@ -6390,6 +6405,52 @@
     "scoreUpPerLevel": 40,
     "lightCount": 1,
     "coolTime": 30,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 141630,
+    "name": "妖精は花園で舞って",
+    "description": "[:score]倍のスコアを獲得／ライフが多いほどカトリナのスコア獲得量UP効果（最大＋100％）",
+    "type": "Amplification",
+    "preEffects": [
+      {
+        "order": 1,
+        "effectMasterId": 28001
+      }
+    ],
+    "branches": [],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 600,
+    "scoreUpPerLevel": 50,
+    "lightCount": 1,
+    "coolTime": 40,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 141640,
+    "name": "空を自由に！",
+    "description": "[:score]倍のスコアを獲得／[:sec]秒間、シリウスのアクターにスターアクトスコア[:param11]％UP効果",
+    "type": "Amplification",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20103
+          }
+        ],
+        "id": 1416401
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 220,
+    "scoreUpPerLevel": 60,
+    "lightCount": 2,
+    "coolTime": 45,
     "branchCondition1": "None",
     "branchCondition2": "None"
   }

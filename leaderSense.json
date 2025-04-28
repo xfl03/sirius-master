@@ -4314,5 +4314,27 @@
         ]
       }
     ]
+  },
+  {
+    "id": 216,
+    "description": "「シリウス」カテゴリの演技力40%上昇、「舞台」カテゴリの表現力35％上昇",
+    "details": [
+      {
+        "effectMasterId": 12005,
+        "conditions": [
+          {
+            "categoryMasterId1": 2001
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12020,
+        "conditions": [
+          {
+            "categoryMasterId1": 8002
+          }
+        ]
+      }
+    ]
   }
 ]

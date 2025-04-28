@@ -2119,6 +2119,28 @@
     "subTitleDisplayCondition": "None"
   },
   {
+    "id": 220740,
+    "name": "優しいあの子になれたなら",
+    "rarity": "SR",
+    "levelPatternGroupMasterId": 2,
+    "subTitlePositionX1": 678.0,
+    "subTitlePositionY1": 1583.0,
+    "subTitlePositionX2": 1179.0,
+    "subTitlePositionY2": 0.0,
+    "releaseItemGroupId": 2,
+    "pronounceName": "やさしいあのこになれたなら",
+    "costumes": [],
+    "appearanceCharacterBaseMasterIds": [
+      103
+    ],
+    "isRestrictItemBreakThrough": false,
+    "displayStartAt": 1746032400.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "イベントで入手",
+    "orientation": "Portrait",
+    "subTitleDisplayCondition": "None"
+  },
+  {
     "id": 229010,
     "name": "【SIRIUS】竹取物語",
     "rarity": "SSR",
@@ -4251,6 +4273,79 @@
     "subTitleDisplayCondition": "None"
   },
   {
+    "id": 230640,
+    "name": "【フューチャーダイスター】Eden",
+    "organizeRestrictGroupId": 2,
+    "rarity": "SSR",
+    "levelPatternGroupMasterId": 3,
+    "subTitlePositionX1": 0.0,
+    "subTitlePositionY1": 0.0,
+    "releaseItemGroupId": 5,
+    "pronounceName": "Eden",
+    "costumes": [
+      {
+        "phase": 1,
+        "costumeMasterId": 3061
+      }
+    ],
+    "appearanceCharacterBaseMasterIds": [
+      201,
+      202,
+      203,
+      204,
+      205
+    ],
+    "isRestrictItemBreakThrough": false,
+    "displayStartAt": 1746378000.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "ガチャ(期間限定)で入手",
+    "orientation": "Landscape",
+    "subTitleDisplayCondition": "BreakThroughPhase",
+    "subTitleDisplayConditionValue": 3
+  },
+  {
+    "id": 230650,
+    "name": "大人な彼女と子供の僕と",
+    "rarity": "SSR",
+    "levelPatternGroupMasterId": 3,
+    "subTitlePositionX1": 0.0,
+    "subTitlePositionY1": 1205.0,
+    "subTitlePositionX2": 0.0,
+    "subTitlePositionY2": 0.0,
+    "subTitlePositionX3": 1165.0,
+    "subTitlePositionY3": 0.0,
+    "releaseItemGroupId": 3,
+    "pronounceName": "おとななかのじょとこどものぼくと",
+    "costumes": [
+      {
+        "phase": 0,
+        "costumeMasterId": 2911
+      },
+      {
+        "phase": 1,
+        "costumeMasterId": 2912
+      },
+      {
+        "phase": 2,
+        "costumeMasterId": 2921
+      },
+      {
+        "phase": 3,
+        "costumeMasterId": 2922
+      }
+    ],
+    "appearanceCharacterBaseMasterIds": [
+      105,
+      106
+    ],
+    "isRestrictItemBreakThrough": false,
+    "displayStartAt": 1746032400.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "ガチャ(期間限定)で入手",
+    "orientation": "Portrait",
+    "subTitleDisplayCondition": "None"
+  },
+  {
     "id": 230720,
     "name": "【フューチャーダイスター】銀河座",
     "organizeRestrictGroupId": 2,
@@ -5649,6 +5744,26 @@
     ],
     "isRestrictItemBreakThrough": true,
     "displayStartAt": 1732924800.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "特別な方法で入手",
+    "orientation": "Portrait",
+    "subTitleDisplayCondition": "None"
+  },
+  {
+    "id": 340180,
+    "name": "【Birthday2025】白丸 美兎",
+    "rarity": "SSR",
+    "levelPatternGroupMasterId": 3,
+    "subTitlePositionX1": 0.0,
+    "subTitlePositionY1": 1636.0,
+    "releaseItemGroupId": 3,
+    "pronounceName": "しろまるみと",
+    "costumes": [],
+    "appearanceCharacterBaseMasterIds": [
+      402
+    ],
+    "isRestrictItemBreakThrough": true,
+    "displayStartAt": 1746403200.0,
     "displayEndAt": 4102444800.0,
     "unlockText": "特別な方法で入手",
     "orientation": "Portrait",

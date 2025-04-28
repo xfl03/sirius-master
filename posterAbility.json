@@ -4272,6 +4272,30 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 220740,
+    "name": "優しいあの子になれたなら",
+    "description": "シリウスに所属するアクターの演技力が[:param11]％上昇",
+    "posterMasterId": 220740,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70022100
+          }
+        ],
+        "id": 22074001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 229010,
     "name": "初めての舞台",
     "description": "<color=#7AC940>彩属性</color>のアクターの演技力が[:param11]%上昇",
@@ -7740,6 +7764,81 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 230640,
+    "name": "楽園は試練を乗り越えて",
+    "description": "全アクターの演技力が[:param11]%上昇",
+    "posterMasterId": 230640,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70052000
+          }
+        ],
+        "id": 23064001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230641,
+    "name": "表現力アップ＋",
+    "description": "Edenに所属しているアクターのみで編成している場合、追加で全アクターの表現力が[:param11]％上昇",
+    "posterMasterId": 230640,
+    "type": "Leader",
+    "frameNumber": 2,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 72053200
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 5,
+        "id": 23064101
+      }
+    ],
+    "branchConditionType1": "CompanyMemberCount",
+    "conditionValue1": 2,
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230650,
+    "name": "いずれ来る幼さとの別れ",
+    "description": "<color=#7AC940>彩属性</color>のアクターの演技力が[:param11]％上昇",
+    "posterMasterId": 230650,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70052003
+          }
+        ],
+        "id": 23065001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 230720,
     "name": "幾星霜を遙か",
     "description": "全アクターの演技力が[:param11]%上昇",
@@ -9065,6 +9164,30 @@
           }
         ],
         "id": 34017001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 340180,
+    "name": "貴女の傍に居たいから",
+    "description": "全アクターの演技力が[:param11]％上昇",
+    "posterMasterId": 340180,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70050000
+          }
+        ],
+        "id": 34018001
       }
     ],
     "branchConditionType1": "None",
@@ -11465,6 +11588,54 @@
           }
         ],
         "id": 220730201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2207401,
+    "name": "スコアブースト",
+    "description": "センス発動直後、現在のスコアの[:param11]%のスコアを獲得　◆発動条件：シリウスに所属するアクターが装備",
+    "posterMasterId": 220740,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10810100
+          }
+        ],
+        "id": 220740101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2207402,
+    "name": "初期P.ゲージ上昇",
+    "description": "公演開始時、P.ゲージが[:param11]上昇　◆発動条件：シリウスに所属するアクターが装備",
+    "posterMasterId": 220740,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11510100
+          }
+        ],
+        "id": 220740201
       }
     ],
     "branchConditionType1": "None",
@@ -14013,6 +14184,236 @@
           }
         ],
         "id": 230630301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2306401,
+    "name": "演技力アップⅢ",
+    "description": "自身の演技力が[:param11]％上昇　◆発動条件：Edenに所属するアクターが装備",
+    "posterMasterId": 230640,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10030200
+          }
+        ],
+        "id": 230640101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2306402,
+    "name": "不屈の楽園",
+    "description": "公演開始時、ライフを999減少　◆発動条件：Edenに所属するアクターが装備",
+    "posterMasterId": 230640,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 60000200
+          }
+        ],
+        "id": 230640201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2306403,
+    "name": "堅持の楽園",
+    "description": "公演開始時、ライフガード（10回）を付与　◆発動条件：Edenに所属するアクターが装備",
+    "posterMasterId": 230640,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 60000201
+          }
+        ],
+        "id": 230640301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2306404,
+    "name": "表現力アップ・混星",
+    "description": "編成されている属性数が多いほど自身の表現力が上昇（4属性：[:param11]％／3属性：[:param21]％／2属性：[:param31]％／1属性：[:param41]％）　◆発動条件：Edenに所属するアクターが装備",
+    "posterMasterId": 230640,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 9,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10615200
+          }
+        ],
+        "judgeType1": "MoreThan",
+        "parameter1": 4,
+        "id": 230640401
+      },
+      {
+        "order": 2,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10616200
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 3,
+        "id": 230640402
+      },
+      {
+        "order": 3,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10617200
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 2,
+        "id": 230640403
+      },
+      {
+        "order": 4,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10618200
+          }
+        ],
+        "judgeType1": "LessThan",
+        "parameter1": 1,
+        "id": 230640404
+      }
+    ],
+    "branchConditionType1": "AttributeCount",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2306405,
+    "name": "「光」追加（SP）",
+    "description": "センス発動時、SP光を追加で付与　◆発動条件：Edenに所属するアクターが装備",
+    "posterMasterId": 230640,
+    "type": "Normal",
+    "frameNumber": 4,
+    "releaseLevelAt": 10,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11911200
+          }
+        ],
+        "id": 230640501
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2306501,
+    "name": "演技力アップⅢ＋",
+    "description": "自身の演技力が[:param11]％上昇",
+    "posterMasterId": 230650,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10031000
+          }
+        ],
+        "id": 230650101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2306502,
+    "name": "「光」獲得数増加",
+    "description": "センスで付与する「光」の付与数が[:param11]個増加　◆発動条件：<color=#7AC940>彩属性</color>のアクターが装備",
+    "posterMasterId": 230650,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11810003
+          }
+        ],
+        "id": 230650201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2306503,
+    "name": "スコアブーストⅡ",
+    "description": "センス発動直後、現在のスコアの[:param11]%のスコアを獲得　◆発動条件：<color=#7AC940>彩属性</color>のアクターが装備",
+    "posterMasterId": 230650,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10811003
+          }
+        ],
+        "id": 230650301
       }
     ],
     "branchConditionType1": "None",
@@ -17699,6 +18100,78 @@
           }
         ],
         "id": 340170301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3401801,
+    "name": "演技力アップⅢ",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：美兎が装備",
+    "posterMasterId": 340180,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10030402
+          }
+        ],
+        "id": 340180101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3401802,
+    "name": "P.ゲージブースト＋",
+    "description": "センス発動直後、Pゲージを[:param11]獲得　◆発動条件：美兎が装備",
+    "posterMasterId": 340180,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11410402
+          }
+        ],
+        "id": 340180201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3401803,
+    "name": "「光」追加（SP）",
+    "description": "公演開始時、SP光を[:param11]付与（効果は公演開始時1回のみ発動する）◆発動条件：美兎が装備",
+    "posterMasterId": 340180,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11910402
+          }
+        ],
+        "id": 340180301
       }
     ],
     "branchConditionType1": "None",

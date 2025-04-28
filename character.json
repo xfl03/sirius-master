@@ -5834,6 +5834,55 @@
     "maxTalentStage": 5
   },
   {
+    "id": 130870,
+    "characterBaseMasterId": 101,
+    "name": "変わるあの子を見て",
+    "description": "",
+    "rarity": "Rare3",
+    "attribute": "Colorful",
+    "minLevelStatus": {
+      "vocal": 83,
+      "expression": 96,
+      "concentration": 91
+    },
+    "starActMasterId": 130871,
+    "awakenStarActMasterId": 130871,
+    "senseMasterId": 130870,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 30004,
+    "senseEnhanceItemGroupMasterId": 3,
+    "firstEpisodeReleaseItemGroupId": 331,
+    "secondEpisodeReleaseItemGroupId": 332,
+    "characterAwakeningItemGroupMasterId": 33,
+    "displayStartAt": 1746032400.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "イベントで入手",
+    "categories": [
+      {
+        "categoryMasterId": 2001,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 5003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7055,
+        "isAwaken": false
+      }
+    ],
+    "leaderSenseMasterId": 24,
+    "maxTalentStage": 5
+  },
+  {
     "id": 140010,
     "characterBaseMasterId": 101,
     "name": "悲哀と恋慕の旋律",
@@ -8817,7 +8866,8 @@
       }
     ],
     "leaderSenseMasterId": 20,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1746507600.0
   },
   {
     "id": 140550,
@@ -8870,7 +8920,8 @@
       }
     ],
     "leaderSenseMasterId": 64,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1746507600.0
   },
   {
     "id": 140560,
@@ -10043,7 +10094,8 @@
       }
     ],
     "leaderSenseMasterId": 16,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1746507600.0
   },
   {
     "id": 140810,
@@ -11435,7 +11487,8 @@
       }
     ],
     "leaderSenseMasterId": 161,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1746507600.0
   },
   {
     "id": 141060,
@@ -14525,5 +14578,111 @@
     "leaderSenseMasterId": 215,
     "maxTalentStage": 6,
     "maxTalentStageReleaseDate": 1745686800.0
+  },
+  {
+    "id": 141630,
+    "characterBaseMasterId": 103,
+    "name": "妖精は花園で舞って",
+    "description": "",
+    "rarity": "Rare4",
+    "attribute": "Colorful",
+    "minLevelStatus": {
+      "vocal": 159,
+      "expression": 107,
+      "concentration": 114
+    },
+    "starActMasterId": 141631,
+    "awakenStarActMasterId": 141631,
+    "senseMasterId": 141630,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 40163,
+    "senseEnhanceItemGroupMasterId": 4,
+    "firstEpisodeReleaseItemGroupId": 431,
+    "secondEpisodeReleaseItemGroupId": 432,
+    "characterAwakeningItemGroupMasterId": 43,
+    "displayStartAt": 1746032400.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "ガチャ(期間限定)で入手",
+    "categories": [
+      {
+        "categoryMasterId": 2001,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8004,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7055,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 4006,
+        "isAwaken": true
+      }
+    ],
+    "leaderSenseMasterId": 171,
+    "maxTalentStage": 5
+  },
+  {
+    "id": 141640,
+    "characterBaseMasterId": 105,
+    "name": "空を自由に！",
+    "description": "",
+    "rarity": "Rare4",
+    "attribute": "Colorful",
+    "minLevelStatus": {
+      "vocal": 128,
+      "expression": 156,
+      "concentration": 98
+    },
+    "starActMasterId": 141641,
+    "awakenStarActMasterId": 141641,
+    "senseMasterId": 141640,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 40164,
+    "senseEnhanceItemGroupMasterId": 4,
+    "firstEpisodeReleaseItemGroupId": 431,
+    "secondEpisodeReleaseItemGroupId": 432,
+    "characterAwakeningItemGroupMasterId": 43,
+    "displayStartAt": 1746032400.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "ガチャ(期間限定)で入手",
+    "categories": [
+      {
+        "categoryMasterId": 2001,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1002,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8008,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7055,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8002,
+        "isAwaken": true
+      }
+    ],
+    "leaderSenseMasterId": 216,
+    "maxTalentStage": 5
   }
 ]
