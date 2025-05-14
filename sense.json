@@ -2304,12 +2304,49 @@
     "description": "[:score]倍のスコアを獲得／ライフを[:param11]回復",
     "type": "Special",
     "preEffects": [],
-    "branches": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20013
+          }
+        ],
+        "id": 1308701
+      }
+    ],
     "acquirableGauge": 0,
     "acquirableScorePercent": 190,
     "scoreUpPerLevel": 40,
     "lightCount": 1,
     "coolTime": 50,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 130880,
+    "name": "ピースメーカーは追い求める",
+    "description": "[:score]倍のスコアを獲得／ライフを[:param11]回復",
+    "type": "Control",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20013
+          }
+        ],
+        "id": 1308801
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 140,
+    "scoreUpPerLevel": 40,
+    "lightCount": 1,
+    "coolTime": 40,
     "branchCondition1": "None",
     "branchCondition2": "None"
   },
@@ -6450,6 +6487,58 @@
     "acquirableScorePercent": 220,
     "scoreUpPerLevel": 60,
     "lightCount": 2,
+    "coolTime": 45,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 141650,
+    "name": "燃え尽きぬ復讐の炎",
+    "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／センス発動後、プリンシパルゲージの上限値が[:param11]上昇",
+    "type": "Support",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20096
+          }
+        ],
+        "id": 1416501
+      }
+    ],
+    "acquirableGauge": 80,
+    "acquirableScorePercent": 140,
+    "scoreUpPerLevel": 50,
+    "lightCount": 2,
+    "coolTime": 35,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 141660,
+    "name": "夢現に絡めとられて",
+    "description": "[:score]倍のスコアを獲得／センス発動時、追加で「支配の光」を1個獲得する／センス発動後、追加で[:param11]のプリンシパルゲージを獲得",
+    "type": "Amplification",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20082
+          }
+        ],
+        "id": 1416601
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 610,
+    "scoreUpPerLevel": 60,
+    "lightCount": 1,
     "coolTime": 45,
     "branchCondition1": "None",
     "branchCondition2": "None"

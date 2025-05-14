@@ -4976,8 +4976,8 @@
           301,
           302,
           303,
-          305,
-          304
+          304,
+          305
         ]
       }
     ],
@@ -5015,9 +5015,9 @@
         "sampleEndSeconds": 0.0,
         "musicVideoType": "None",
         "characters": [
-          102,
           101,
-          103
+          103,
+          102
         ]
       }
     ],
@@ -5095,8 +5095,8 @@
         "musicVideoType": "None",
         "characters": [
           304,
-          405,
-          305
+          305,
+          405
         ]
       }
     ],
@@ -5134,10 +5134,10 @@
         "sampleEndSeconds": 0.0,
         "musicVideoType": "None",
         "characters": [
-          201,
           101,
-          401,
-          301
+          201,
+          301,
+          401
         ]
       }
     ],
@@ -5175,9 +5175,9 @@
         "sampleEndSeconds": 0.0,
         "musicVideoType": "None",
         "characters": [
-          205,
           104,
-          405
+          405,
+          205
         ]
       }
     ],
@@ -5215,9 +5215,9 @@
         "sampleEndSeconds": 0.0,
         "musicVideoType": "None",
         "characters": [
+          302,
           301,
-          303,
-          302
+          303
         ]
       }
     ],
@@ -6058,8 +6058,8 @@
           101,
           102,
           201,
-          301,
-          401
+          401,
+          301
         ]
       }
     ],
@@ -6097,9 +6097,9 @@
         "sampleEndSeconds": 0.0,
         "musicVideoType": "None",
         "characters": [
-          105,
+          305,
           403,
-          305
+          105
         ]
       }
     ],
@@ -6137,9 +6137,9 @@
         "sampleEndSeconds": 0.0,
         "musicVideoType": "None",
         "characters": [
-          303,
           302,
-          305
+          305,
+          303
         ]
       }
     ],
@@ -6444,8 +6444,8 @@
         "sampleEndSeconds": 0.0,
         "musicVideoType": "None",
         "characters": [
-          103,
-          104
+          104,
+          103
         ]
       }
     ],
@@ -7109,8 +7109,8 @@
           401,
           402,
           403,
-          405,
-          404
+          404,
+          405
         ]
       }
     ],
@@ -7231,6 +7231,201 @@
     "unlockConditionType": "Default",
     "musicVideoType": "None",
     "musicCoverType": "Original"
+  },
+  {
+    "id": 215,
+    "name": "Invitation",
+    "description": "",
+    "rewardRuleMasterId": 1,
+    "pronounceName": "invitation",
+    "lyricWriter": "れるりり",
+    "composer": "れるりり",
+    "arranger": "-",
+    "unlockText": "楽曲ショップで購入",
+    "isLongVersion": false,
+    "releasedAt": 1746896400.0,
+    "staminaConsumption": 34,
+    "musicTimeSecond": 145,
+    "invisible": false,
+    "sampleStartSeconds": 0.0,
+    "sampleEndSeconds": 0.0,
+    "delaySeconds": 0.0,
+    "vocalVersions": [
+      {
+        "id": 21501,
+        "musicMasterId": 215,
+        "vocalVersion": 1,
+        "singer": "与那国緋花里、阿岐留カミラ",
+        "name": "Invitation",
+        "musicTimeSecond": 145,
+        "sampleStartSeconds": 0.0,
+        "sampleEndSeconds": 0.0,
+        "musicVideoType": "None",
+        "characters": [
+          305,
+          403
+        ]
+      }
+    ],
+    "unlockConditionType": "Buy",
+    "musicVideoType": "None",
+    "musicCoverType": "Cover"
+  },
+  {
+    "id": 216,
+    "name": "Blazing Break",
+    "description": "",
+    "rewardRuleMasterId": 1,
+    "pronounceName": "blazingbreak",
+    "lyricWriter": "yksb",
+    "composer": "yksb",
+    "arranger": "-",
+    "unlockText": "楽曲ショップで購入",
+    "isLongVersion": false,
+    "releasedAt": 1747069200.0,
+    "staminaConsumption": 37,
+    "musicTimeSecond": 163,
+    "invisible": false,
+    "sampleStartSeconds": 0.0,
+    "sampleEndSeconds": 0.0,
+    "delaySeconds": 0.0,
+    "vocalVersions": [
+      {
+        "id": 21601,
+        "musicMasterId": 216,
+        "vocalVersion": 1,
+        "singer": "連尺野初魅、烏森大黒、舎人仁花子、萬容、筆島しぐれ",
+        "name": "Blazing Break",
+        "musicTimeSecond": 163,
+        "sampleStartSeconds": 0.0,
+        "sampleEndSeconds": 0.0,
+        "musicVideoType": "None",
+        "characters": [
+          201,
+          205,
+          202,
+          203,
+          204
+        ]
+      }
+    ],
+    "unlockConditionType": "Buy",
+    "musicVideoType": "None",
+    "musicCoverType": "Cover"
+  },
+  {
+    "id": 217,
+    "name": "光線チューニング",
+    "description": "",
+    "rewardRuleMasterId": 1,
+    "pronounceName": "こうせんチューニング",
+    "lyricWriter": "ナユタン星人",
+    "composer": "ナユタン星人",
+    "arranger": "-",
+    "unlockText": "楽曲ショップで購入",
+    "isLongVersion": false,
+    "releasedAt": 1747242000.0,
+    "staminaConsumption": 35,
+    "musicTimeSecond": 148,
+    "invisible": false,
+    "sampleStartSeconds": 0.0,
+    "sampleEndSeconds": 0.0,
+    "delaySeconds": 0.0,
+    "vocalVersions": [
+      {
+        "id": 21701,
+        "musicMasterId": 217,
+        "vocalVersion": 1,
+        "singer": "流石知冴",
+        "name": "光線チューニング",
+        "musicTimeSecond": 148,
+        "sampleStartSeconds": 0.0,
+        "sampleEndSeconds": 0.0,
+        "musicVideoType": "None",
+        "characters": [
+          106
+        ]
+      }
+    ],
+    "unlockConditionType": "Buy",
+    "musicVideoType": "None",
+    "musicCoverType": "Cover"
+  },
+  {
+    "id": 218,
+    "name": "〚隔絶〛～Flame of Determination",
+    "description": "",
+    "rewardRuleMasterId": 1,
+    "pronounceName": "かくぜつflameofdetermination",
+    "lyricWriter": "Iris",
+    "composer": "TERU FOX x Yukino",
+    "arranger": "-",
+    "unlockText": "楽曲ショップで購入",
+    "isLongVersion": false,
+    "releasedAt": 1747414800.0,
+    "staminaConsumption": 35,
+    "musicTimeSecond": 149,
+    "invisible": false,
+    "sampleStartSeconds": 0.0,
+    "sampleEndSeconds": 0.0,
+    "delaySeconds": 0.0,
+    "vocalVersions": [
+      {
+        "id": 21801,
+        "musicMasterId": 218,
+        "vocalVersion": 1,
+        "singer": "連尺野初魅",
+        "name": "〚隔絶〛～Flame of Determination",
+        "musicTimeSecond": 149,
+        "sampleStartSeconds": 0.0,
+        "sampleEndSeconds": 0.0,
+        "musicVideoType": "None",
+        "characters": [
+          201
+        ]
+      }
+    ],
+    "unlockConditionType": "Buy",
+    "musicVideoType": "None",
+    "musicCoverType": "Cover"
+  },
+  {
+    "id": 219,
+    "name": "蜘蛛の糸",
+    "description": "",
+    "rewardRuleMasterId": 1,
+    "pronounceName": "くものいと",
+    "lyricWriter": "cosMo＠暴走P",
+    "composer": "きくお, cosMo＠暴走P",
+    "arranger": "-",
+    "unlockText": "楽曲ショップで購入",
+    "isLongVersion": false,
+    "releasedAt": 1747587600.0,
+    "staminaConsumption": 34,
+    "musicTimeSecond": 143,
+    "invisible": false,
+    "sampleStartSeconds": 0.0,
+    "sampleEndSeconds": 0.0,
+    "delaySeconds": 0.0,
+    "vocalVersions": [
+      {
+        "id": 21901,
+        "musicMasterId": 219,
+        "vocalVersion": 1,
+        "singer": "烏森大黒",
+        "name": "蜘蛛の糸",
+        "musicTimeSecond": 143,
+        "sampleStartSeconds": 0.0,
+        "sampleEndSeconds": 0.0,
+        "musicVideoType": "None",
+        "characters": [
+          202
+        ]
+      }
+    ],
+    "unlockConditionType": "Buy",
+    "musicVideoType": "None",
+    "musicCoverType": "Cover"
   },
   {
     "id": 249,
@@ -7537,8 +7732,8 @@
         "sampleEndSeconds": 0.0,
         "musicVideoType": "Movie",
         "characters": [
-          302,
           301,
+          302,
           303,
           304,
           305
@@ -8163,8 +8358,8 @@
           401,
           402,
           403,
-          404,
-          405
+          405,
+          404
         ]
       }
     ],
@@ -8259,8 +8454,8 @@
           401,
           402,
           403,
-          405,
-          404
+          404,
+          405
         ]
       }
     ],
@@ -8298,8 +8493,8 @@
         "sampleEndSeconds": 0.0,
         "musicVideoType": "None",
         "characters": [
-          204,
-          202
+          202,
+          204
         ]
       }
     ],
@@ -8530,8 +8725,8 @@
         "musicVideoType": "None",
         "characters": [
           101,
-          102,
-          103
+          103,
+          102
         ]
       }
     ],

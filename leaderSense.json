@@ -4336,5 +4336,27 @@
         ]
       }
     ]
+  },
+  {
+    "id": 217,
+    "description": "「Eden」カテゴリの演技力40%上昇、「衣装」カテゴリの表現力35％上昇",
+    "details": [
+      {
+        "effectMasterId": 12005,
+        "conditions": [
+          {
+            "categoryMasterId1": 2002
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12020,
+        "conditions": [
+          {
+            "categoryMasterId1": 8004
+          }
+        ]
+      }
+    ]
   }
 ]

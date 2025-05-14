@@ -780,6 +780,16 @@
     "relatedStoryMasterIds": []
   },
   {
+    "characterMasterid": 130880,
+    "previousStoryMasterIds": [],
+    "nextStoryMasterIds": [],
+    "sideStoryCharacterMasterIds": [
+      141660,
+      141650
+    ],
+    "relatedStoryMasterIds": []
+  },
+  {
     "characterMasterid": 140010,
     "previousStoryMasterIds": [
       10101
@@ -2213,6 +2223,26 @@
     ],
     "nextStoryMasterIds": [],
     "sideStoryCharacterMasterIds": [],
+    "relatedStoryMasterIds": []
+  },
+  {
+    "characterMasterid": 141650,
+    "previousStoryMasterIds": [],
+    "nextStoryMasterIds": [],
+    "sideStoryCharacterMasterIds": [
+      141660,
+      130880
+    ],
+    "relatedStoryMasterIds": []
+  },
+  {
+    "characterMasterid": 141660,
+    "previousStoryMasterIds": [],
+    "nextStoryMasterIds": [],
+    "sideStoryCharacterMasterIds": [
+      130880,
+      141650
+    ],
     "relatedStoryMasterIds": []
   }
 ]

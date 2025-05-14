@@ -5883,6 +5883,55 @@
     "maxTalentStage": 5
   },
   {
+    "id": 130880,
+    "characterBaseMasterId": 205,
+    "name": "ピースメーカーは追い求める",
+    "description": "",
+    "rarity": "Rare3",
+    "attribute": "Cheerful",
+    "minLevelStatus": {
+      "vocal": 84,
+      "expression": 85,
+      "concentration": 101
+    },
+    "starActMasterId": 130881,
+    "awakenStarActMasterId": 130881,
+    "senseMasterId": 130880,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 30002,
+    "senseEnhanceItemGroupMasterId": 3,
+    "firstEpisodeReleaseItemGroupId": 341,
+    "secondEpisodeReleaseItemGroupId": 342,
+    "characterAwakeningItemGroupMasterId": 34,
+    "displayStartAt": 1746896400.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "イベント(コラボ)で入手",
+    "categories": [
+      {
+        "categoryMasterId": 2002,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1001,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8004,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7510,
+        "isAwaken": false
+      }
+    ],
+    "leaderSenseMasterId": 53,
+    "maxTalentStage": 5
+  },
+  {
     "id": 140010,
     "characterBaseMasterId": 101,
     "name": "悲哀と恋慕の旋律",
@@ -11266,7 +11315,8 @@
       }
     ],
     "leaderSenseMasterId": 160,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1747328400.0
   },
   {
     "id": 141020,
@@ -11594,7 +11644,8 @@
       }
     ],
     "leaderSenseMasterId": 166,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1747328400.0
   },
   {
     "id": 141080,
@@ -11860,7 +11911,8 @@
       }
     ],
     "leaderSenseMasterId": 169,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1747328400.0
   },
   {
     "id": 141130,
@@ -12294,7 +12346,8 @@
       }
     ],
     "leaderSenseMasterId": 176,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1747328400.0
   },
   {
     "id": 141210,
@@ -14684,5 +14737,113 @@
     ],
     "leaderSenseMasterId": 216,
     "maxTalentStage": 5
+  },
+  {
+    "id": 141650,
+    "characterBaseMasterId": 201,
+    "name": "燃え尽きぬ復讐の炎",
+    "description": "",
+    "rarity": "Rare4",
+    "attribute": "Cheerful",
+    "minLevelStatus": {
+      "vocal": 98,
+      "expression": 119,
+      "concentration": 166
+    },
+    "starActMasterId": 141651,
+    "awakenStarActMasterId": 141651,
+    "senseMasterId": 141650,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 40165,
+    "senseEnhanceItemGroupMasterId": 4,
+    "firstEpisodeReleaseItemGroupId": 441,
+    "secondEpisodeReleaseItemGroupId": 442,
+    "characterAwakeningItemGroupMasterId": 44,
+    "displayStartAt": 1746896400.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "ガチャ(コラボ限定)で入手",
+    "categories": [
+      {
+        "categoryMasterId": 2002,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 4002,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 4001,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7510,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8006,
+        "isAwaken": true
+      }
+    ],
+    "leaderSenseMasterId": 203,
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1746896400.0
+  },
+  {
+    "id": 141660,
+    "characterBaseMasterId": 202,
+    "name": "夢現に絡めとられて",
+    "description": "",
+    "rarity": "Rare4",
+    "attribute": "Cheerful",
+    "minLevelStatus": {
+      "vocal": 122,
+      "expression": 165,
+      "concentration": 96
+    },
+    "starActMasterId": 141661,
+    "awakenStarActMasterId": 141661,
+    "senseMasterId": 141660,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 40166,
+    "senseEnhanceItemGroupMasterId": 4,
+    "firstEpisodeReleaseItemGroupId": 441,
+    "secondEpisodeReleaseItemGroupId": 442,
+    "characterAwakeningItemGroupMasterId": 44,
+    "displayStartAt": 1746896400.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "ガチャ(コラボ限定)で入手",
+    "categories": [
+      {
+        "categoryMasterId": 2002,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1002,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 5004,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7510,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8004,
+        "isAwaken": true
+      }
+    ],
+    "leaderSenseMasterId": 217,
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1746896400.0
   }
 ]
