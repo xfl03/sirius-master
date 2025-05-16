@@ -5932,6 +5932,55 @@
     "maxTalentStage": 5
   },
   {
+    "id": 130890,
+    "characterBaseMasterId": 301,
+    "name": "料理も一流……？",
+    "description": "",
+    "rarity": "Rare3",
+    "attribute": "Cute",
+    "minLevelStatus": {
+      "vocal": 87,
+      "expression": 93,
+      "concentration": 90
+    },
+    "starActMasterId": 130891,
+    "awakenStarActMasterId": 130891,
+    "senseMasterId": 130890,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 30004,
+    "senseEnhanceItemGroupMasterId": 3,
+    "firstEpisodeReleaseItemGroupId": 311,
+    "secondEpisodeReleaseItemGroupId": 312,
+    "characterAwakeningItemGroupMasterId": 31,
+    "displayStartAt": 1747760400.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "イベントで入手",
+    "categories": [
+      {
+        "categoryMasterId": 2003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 3004,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7056,
+        "isAwaken": false
+      }
+    ],
+    "leaderSenseMasterId": 124,
+    "maxTalentStage": 5
+  },
+  {
     "id": 140010,
     "characterBaseMasterId": 101,
     "name": "悲哀と恋慕の旋律",
@@ -7893,7 +7942,8 @@
       }
     ],
     "leaderSenseMasterId": 120,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1747717200.0
   },
   {
     "id": 140370,
@@ -8004,7 +8054,8 @@
       }
     ],
     "leaderSenseMasterId": 92,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1747717200.0
   },
   {
     "id": 140390,
@@ -9582,7 +9633,8 @@
       }
     ],
     "leaderSenseMasterId": 129,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1747717200.0
   },
   {
     "id": 140710,
@@ -10086,7 +10138,8 @@
       }
     ],
     "leaderSenseMasterId": 105,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1747717200.0
   },
   {
     "id": 140800,
@@ -14845,5 +14898,111 @@
     "leaderSenseMasterId": 217,
     "maxTalentStage": 6,
     "maxTalentStageReleaseDate": 1746896400.0
+  },
+  {
+    "id": 141670,
+    "characterBaseMasterId": 303,
+    "name": "調合が味の秘訣",
+    "description": "",
+    "rarity": "Rare4",
+    "attribute": "Cute",
+    "minLevelStatus": {
+      "vocal": 90,
+      "expression": 173,
+      "concentration": 82
+    },
+    "starActMasterId": 141671,
+    "awakenStarActMasterId": 141671,
+    "senseMasterId": 141670,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 40167,
+    "senseEnhanceItemGroupMasterId": 4,
+    "firstEpisodeReleaseItemGroupId": 411,
+    "secondEpisodeReleaseItemGroupId": 412,
+    "characterAwakeningItemGroupMasterId": 41,
+    "displayStartAt": 1747760400.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "ガチャで入手",
+    "categories": [
+      {
+        "categoryMasterId": 2003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 4002,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7056,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 4003,
+        "isAwaken": true
+      }
+    ],
+    "leaderSenseMasterId": 14,
+    "maxTalentStage": 5
+  },
+  {
+    "id": 141680,
+    "characterBaseMasterId": 305,
+    "name": "マジカル・ティーサーブ！",
+    "description": "",
+    "rarity": "Rare4",
+    "attribute": "Cute",
+    "minLevelStatus": {
+      "vocal": 194,
+      "expression": 86,
+      "concentration": 76
+    },
+    "starActMasterId": 141681,
+    "awakenStarActMasterId": 141681,
+    "senseMasterId": 141680,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 40168,
+    "senseEnhanceItemGroupMasterId": 4,
+    "firstEpisodeReleaseItemGroupId": 411,
+    "secondEpisodeReleaseItemGroupId": 412,
+    "characterAwakeningItemGroupMasterId": 41,
+    "displayStartAt": 1747760400.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "ガチャで入手",
+    "categories": [
+      {
+        "categoryMasterId": 2003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 4003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7056,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8004,
+        "isAwaken": true
+      }
+    ],
+    "leaderSenseMasterId": 190,
+    "maxTalentStage": 5
   }
 ]

@@ -20240,13 +20240,269 @@
     ]
   },
   {
-    "id": 3001,
+    "id": 1096,
     "details": [
       {
-        "id": 3001101,
+        "id": 1096101,
         "position": 1,
-        "timingSecond": 33
+        "timingSecond": 14
       },
+      {
+        "id": 1096102,
+        "position": 1,
+        "timingSecond": 64
+      },
+      {
+        "id": 1096103,
+        "position": 1,
+        "timingSecond": 134
+      },
+      {
+        "id": 1096104,
+        "position": 1,
+        "timingSecond": 169
+      },
+      {
+        "id": 1096105,
+        "position": 1,
+        "timingSecond": 204
+      },
+      {
+        "id": 1096201,
+        "position": 2,
+        "timingSecond": 27
+      },
+      {
+        "id": 1096202,
+        "position": 2,
+        "timingSecond": 92
+      },
+      {
+        "id": 1096203,
+        "position": 2,
+        "timingSecond": 142
+      },
+      {
+        "id": 1096204,
+        "position": 2,
+        "timingSecond": 182
+      },
+      {
+        "id": 1096205,
+        "position": 2,
+        "timingSecond": 232
+      },
+      {
+        "id": 1096301,
+        "position": 3,
+        "timingSecond": 4
+      },
+      {
+        "id": 1096302,
+        "position": 3,
+        "timingSecond": 59
+      },
+      {
+        "id": 1096303,
+        "position": 3,
+        "timingSecond": 114
+      },
+      {
+        "id": 1096304,
+        "position": 3,
+        "timingSecond": 174
+      },
+      {
+        "id": 1096305,
+        "position": 3,
+        "timingSecond": 219
+      },
+      {
+        "id": 1096401,
+        "position": 4,
+        "timingSecond": 46
+      },
+      {
+        "id": 1096402,
+        "position": 4,
+        "timingSecond": 81
+      },
+      {
+        "id": 1096403,
+        "position": 4,
+        "timingSecond": 126
+      },
+      {
+        "id": 1096404,
+        "position": 4,
+        "timingSecond": 191
+      },
+      {
+        "id": 1096405,
+        "position": 4,
+        "timingSecond": 221
+      },
+      {
+        "id": 1096501,
+        "position": 5,
+        "timingSecond": 32
+      },
+      {
+        "id": 1096502,
+        "position": 5,
+        "timingSecond": 102
+      },
+      {
+        "id": 1096503,
+        "position": 5,
+        "timingSecond": 157
+      },
+      {
+        "id": 1096505,
+        "position": 5,
+        "timingSecond": 244
+      },
+      {
+        "id": 1096504,
+        "position": 5,
+        "timingSecond": 197
+      }
+    ],
+    "buffs": [
+      {
+        "id": 10961,
+        "type": "Company",
+        "targetValue": 3,
+        "buffValue": 150,
+        "statusType": "Performance"
+      },
+      {
+        "id": 10962,
+        "type": "Character",
+        "targetValue": 140380,
+        "buffValue": 100,
+        "statusType": "Performance"
+      },
+      {
+        "id": 10963,
+        "type": "Character",
+        "targetValue": 140790,
+        "buffValue": 100,
+        "statusType": "Performance"
+      }
+    ]
+  },
+  {
+    "id": 1097,
+    "details": [
+      {
+        "id": 1097102,
+        "position": 1,
+        "timingSecond": 63
+      },
+      {
+        "id": 1097103,
+        "position": 1,
+        "timingSecond": 118
+      },
+      {
+        "id": 1097104,
+        "position": 1,
+        "timingSecond": 173
+      },
+      {
+        "id": 1097201,
+        "position": 2,
+        "timingSecond": 34
+      },
+      {
+        "id": 1097202,
+        "position": 2,
+        "timingSecond": 84
+      },
+      {
+        "id": 1097203,
+        "position": 2,
+        "timingSecond": 129
+      },
+      {
+        "id": 1097204,
+        "position": 2,
+        "timingSecond": 184
+      },
+      {
+        "id": 1097301,
+        "position": 3,
+        "timingSecond": 26
+      },
+      {
+        "id": 1097302,
+        "position": 3,
+        "timingSecond": 76
+      },
+      {
+        "id": 1097303,
+        "position": 3,
+        "timingSecond": 141
+      },
+      {
+        "id": 1097304,
+        "position": 3,
+        "timingSecond": 191
+      },
+      {
+        "id": 1097501,
+        "position": 5,
+        "timingSecond": 12
+      },
+      {
+        "id": 1097502,
+        "position": 5,
+        "timingSecond": 57
+      },
+      {
+        "id": 1097504,
+        "position": 5,
+        "timingSecond": 202
+      },
+      {
+        "id": 1097101,
+        "position": 1,
+        "timingSecond": 3
+      },
+      {
+        "id": 1097503,
+        "position": 5,
+        "timingSecond": 132
+      }
+    ],
+    "buffs": [
+      {
+        "id": 10971,
+        "type": "Company",
+        "targetValue": 4,
+        "buffValue": 150,
+        "statusType": "Performance"
+      },
+      {
+        "id": 10972,
+        "type": "Character",
+        "targetValue": 140700,
+        "buffValue": 100,
+        "statusType": "Performance"
+      },
+      {
+        "id": 10973,
+        "type": "Character",
+        "targetValue": 140360,
+        "buffValue": 100,
+        "statusType": "Performance"
+      }
+    ]
+  },
+  {
+    "id": 3001,
+    "details": [
       {
         "id": 3001102,
         "position": 1,
@@ -20358,14 +20614,19 @@
         "timingSecond": 137
       },
       {
+        "id": 3001504,
+        "position": 5,
+        "timingSecond": 187
+      },
+      {
         "id": 3001505,
         "position": 5,
         "timingSecond": 222
       },
       {
-        "id": 3001504,
-        "position": 5,
-        "timingSecond": 187
+        "id": 3001101,
+        "position": 1,
+        "timingSecond": 33
       }
     ],
     "buffs": [
@@ -20479,14 +20740,14 @@
         "timingSecond": 103
       },
       {
-        "id": 3002504,
-        "position": 5,
-        "timingSecond": 178
-      },
-      {
         "id": 3002503,
         "position": 5,
         "timingSecond": 153
+      },
+      {
+        "id": 3002504,
+        "position": 5,
+        "timingSecond": 178
       }
     ],
     "buffs": [
@@ -20615,14 +20876,14 @@
         "timingSecond": 75
       },
       {
-        "id": 3003503,
-        "position": 5,
-        "timingSecond": 150
-      },
-      {
         "id": 3003504,
         "position": 5,
         "timingSecond": 200
+      },
+      {
+        "id": 3003503,
+        "position": 5,
+        "timingSecond": 150
       }
     ],
     "buffs": [
@@ -20761,14 +21022,14 @@
         "timingSecond": 147
       },
       {
-        "id": 3004505,
-        "position": 5,
-        "timingSecond": 247
-      },
-      {
         "id": 3004504,
         "position": 5,
         "timingSecond": 192
+      },
+      {
+        "id": 3004505,
+        "position": 5,
+        "timingSecond": 247
       }
     ],
     "buffs": [
@@ -20907,14 +21168,14 @@
         "timingSecond": 107
       },
       {
-        "id": 3005504,
-        "position": 5,
-        "timingSecond": 152
-      },
-      {
         "id": 3005505,
         "position": 5,
         "timingSecond": 222
+      },
+      {
+        "id": 3005504,
+        "position": 5,
+        "timingSecond": 152
       }
     ],
     "buffs": [
@@ -21053,14 +21314,14 @@
         "timingSecond": 142
       },
       {
-        "id": 3006505,
-        "position": 5,
-        "timingSecond": 232
-      },
-      {
         "id": 3006504,
         "position": 5,
         "timingSecond": 187
+      },
+      {
+        "id": 3006505,
+        "position": 5,
+        "timingSecond": 232
       }
     ],
     "buffs": [
@@ -21179,14 +21440,14 @@
         "timingSecond": 113
       },
       {
-        "id": 3007504,
-        "position": 5,
-        "timingSecond": 163
-      },
-      {
         "id": 3007505,
         "position": 5,
         "timingSecond": 193
+      },
+      {
+        "id": 3007504,
+        "position": 5,
+        "timingSecond": 163
       }
     ],
     "buffs": [
@@ -21310,14 +21571,14 @@
         "timingSecond": 106
       },
       {
-        "id": 3008503,
-        "position": 5,
-        "timingSecond": 161
-      },
-      {
         "id": 3008504,
         "position": 5,
         "timingSecond": 201
+      },
+      {
+        "id": 3008503,
+        "position": 5,
+        "timingSecond": 161
       }
     ],
     "buffs": [
@@ -21431,14 +21692,14 @@
         "timingSecond": 68
       },
       {
-        "id": 3009503,
-        "position": 5,
-        "timingSecond": 113
-      },
-      {
         "id": 3009504,
         "position": 5,
         "timingSecond": 173
+      },
+      {
+        "id": 3009503,
+        "position": 5,
+        "timingSecond": 113
       }
     ],
     "buffs": [
@@ -21537,14 +21798,14 @@
         "timingSecond": 69
       },
       {
-        "id": 3010404,
-        "position": 4,
-        "timingSecond": 184
-      },
-      {
         "id": 3010403,
         "position": 4,
         "timingSecond": 144
+      },
+      {
+        "id": 3010404,
+        "position": 4,
+        "timingSecond": 184
       }
     ],
     "buffs": [
@@ -21648,14 +21909,14 @@
         "timingSecond": 71
       },
       {
-        "id": 3011504,
-        "position": 5,
-        "timingSecond": 171
-      },
-      {
         "id": 3011503,
         "position": 5,
         "timingSecond": 121
+      },
+      {
+        "id": 3011504,
+        "position": 5,
+        "timingSecond": 171
       }
     ],
     "buffs": [
@@ -21764,14 +22025,14 @@
         "timingSecond": 104
       },
       {
-        "id": 3012503,
-        "position": 5,
-        "timingSecond": 139
-      },
-      {
         "id": 3012504,
         "position": 5,
         "timingSecond": 184
+      },
+      {
+        "id": 3012503,
+        "position": 5,
+        "timingSecond": 139
       }
     ],
     "buffs": [
@@ -21905,14 +22166,14 @@
         "timingSecond": 83
       },
       {
-        "id": 3013503,
-        "position": 5,
-        "timingSecond": 153
-      },
-      {
         "id": 3013504,
         "position": 5,
         "timingSecond": 203
+      },
+      {
+        "id": 3013503,
+        "position": 5,
+        "timingSecond": 153
       }
     ],
     "buffs": [
@@ -22046,14 +22307,14 @@
         "timingSecond": 144
       },
       {
-        "id": 3014504,
-        "position": 5,
-        "timingSecond": 174
-      },
-      {
         "id": 3014505,
         "position": 5,
         "timingSecond": 224
+      },
+      {
+        "id": 3014504,
+        "position": 5,
+        "timingSecond": 174
       }
     ],
     "buffs": [
@@ -22192,14 +22453,14 @@
         "timingSecond": 126
       },
       {
-        "id": 3015505,
-        "position": 5,
-        "timingSecond": 211
-      },
-      {
         "id": 3015504,
         "position": 5,
         "timingSecond": 166
+      },
+      {
+        "id": 3015505,
+        "position": 5,
+        "timingSecond": 211
       }
     ],
     "buffs": [
@@ -22338,14 +22599,14 @@
         "timingSecond": 133
       },
       {
-        "id": 3016504,
-        "position": 5,
-        "timingSecond": 173
-      },
-      {
         "id": 3016505,
         "position": 5,
         "timingSecond": 213
+      },
+      {
+        "id": 3016504,
+        "position": 5,
+        "timingSecond": 173
       }
     ],
     "buffs": [
@@ -22489,14 +22750,14 @@
         "timingSecond": 121
       },
       {
-        "id": 3017504,
-        "position": 5,
-        "timingSecond": 166
-      },
-      {
         "id": 3017505,
         "position": 5,
         "timingSecond": 221
+      },
+      {
+        "id": 3017504,
+        "position": 5,
+        "timingSecond": 166
       }
     ],
     "buffs": [
@@ -33267,6 +33528,331 @@
         "id": 100166505,
         "position": 5,
         "timingSecond": 222
+      }
+    ],
+    "buffs": []
+  },
+  {
+    "id": 100167,
+    "details": [
+      {
+        "id": 100167101,
+        "position": 1,
+        "timingSecond": 46
+      },
+      {
+        "id": 100167201,
+        "position": 2,
+        "timingSecond": 31
+      },
+      {
+        "id": 100167202,
+        "position": 2,
+        "timingSecond": 81
+      },
+      {
+        "id": 100167301,
+        "position": 3,
+        "timingSecond": 3
+      },
+      {
+        "id": 100167302,
+        "position": 3,
+        "timingSecond": 53
+      },
+      {
+        "id": 100167401,
+        "position": 4,
+        "timingSecond": 14
+      },
+      {
+        "id": 100167402,
+        "position": 4,
+        "timingSecond": 64
+      },
+      {
+        "id": 100167501,
+        "position": 5,
+        "timingSecond": 27
+      },
+      {
+        "id": 100167502,
+        "position": 5,
+        "timingSecond": 92
+      }
+    ],
+    "buffs": []
+  },
+  {
+    "id": 100168,
+    "details": [
+      {
+        "id": 100168101,
+        "position": 1,
+        "timingSecond": 46
+      },
+      {
+        "id": 100168201,
+        "position": 2,
+        "timingSecond": 31
+      },
+      {
+        "id": 100168301,
+        "position": 3,
+        "timingSecond": 3
+      },
+      {
+        "id": 100168302,
+        "position": 3,
+        "timingSecond": 53
+      },
+      {
+        "id": 100168401,
+        "position": 4,
+        "timingSecond": 14
+      },
+      {
+        "id": 100168402,
+        "position": 4,
+        "timingSecond": 64
+      },
+      {
+        "id": 100168501,
+        "position": 5,
+        "timingSecond": 27
+      }
+    ],
+    "buffs": []
+  },
+  {
+    "id": 100169,
+    "details": [
+      {
+        "id": 100169101,
+        "position": 1,
+        "timingSecond": 46
+      },
+      {
+        "id": 100169201,
+        "position": 2,
+        "timingSecond": 31
+      },
+      {
+        "id": 100169202,
+        "position": 2,
+        "timingSecond": 81
+      },
+      {
+        "id": 100169301,
+        "position": 3,
+        "timingSecond": 3
+      },
+      {
+        "id": 100169302,
+        "position": 3,
+        "timingSecond": 53
+      },
+      {
+        "id": 100169401,
+        "position": 4,
+        "timingSecond": 14
+      },
+      {
+        "id": 100169402,
+        "position": 4,
+        "timingSecond": 64
+      },
+      {
+        "id": 100169501,
+        "position": 5,
+        "timingSecond": 27
+      },
+      {
+        "id": 100169502,
+        "position": 5,
+        "timingSecond": 92
+      }
+    ],
+    "buffs": []
+  },
+  {
+    "id": 100170,
+    "details": [
+      {
+        "id": 100170101,
+        "position": 1,
+        "timingSecond": 46
+      },
+      {
+        "id": 100170102,
+        "position": 1,
+        "timingSecond": 106
+      },
+      {
+        "id": 100170201,
+        "position": 2,
+        "timingSecond": 31
+      },
+      {
+        "id": 100170202,
+        "position": 2,
+        "timingSecond": 81
+      },
+      {
+        "id": 100170301,
+        "position": 3,
+        "timingSecond": 3
+      },
+      {
+        "id": 100170302,
+        "position": 3,
+        "timingSecond": 53
+      },
+      {
+        "id": 100170303,
+        "position": 3,
+        "timingSecond": 123
+      },
+      {
+        "id": 100170401,
+        "position": 4,
+        "timingSecond": 14
+      },
+      {
+        "id": 100170402,
+        "position": 4,
+        "timingSecond": 64
+      },
+      {
+        "id": 100170403,
+        "position": 4,
+        "timingSecond": 114
+      },
+      {
+        "id": 100170501,
+        "position": 5,
+        "timingSecond": 27
+      },
+      {
+        "id": 100170502,
+        "position": 5,
+        "timingSecond": 92
+      }
+    ],
+    "buffs": []
+  },
+  {
+    "id": 100171,
+    "details": [
+      {
+        "id": 100171101,
+        "position": 1,
+        "timingSecond": 4
+      },
+      {
+        "id": 100171102,
+        "position": 1,
+        "timingSecond": 54
+      },
+      {
+        "id": 100171103,
+        "position": 1,
+        "timingSecond": 94
+      },
+      {
+        "id": 100171104,
+        "position": 1,
+        "timingSecond": 144
+      },
+      {
+        "id": 100171105,
+        "position": 1,
+        "timingSecond": 204
+      },
+      {
+        "id": 100171201,
+        "position": 2,
+        "timingSecond": 38
+      },
+      {
+        "id": 100171202,
+        "position": 2,
+        "timingSecond": 88
+      },
+      {
+        "id": 100171203,
+        "position": 2,
+        "timingSecond": 138
+      },
+      {
+        "id": 100171204,
+        "position": 2,
+        "timingSecond": 188
+      },
+      {
+        "id": 100171301,
+        "position": 3,
+        "timingSecond": 22
+      },
+      {
+        "id": 100171302,
+        "position": 3,
+        "timingSecond": 67
+      },
+      {
+        "id": 100171303,
+        "position": 3,
+        "timingSecond": 112
+      },
+      {
+        "id": 100171304,
+        "position": 3,
+        "timingSecond": 152
+      },
+      {
+        "id": 100171305,
+        "position": 3,
+        "timingSecond": 192
+      },
+      {
+        "id": 100171401,
+        "position": 4,
+        "timingSecond": 16
+      },
+      {
+        "id": 100171402,
+        "position": 4,
+        "timingSecond": 71
+      },
+      {
+        "id": 100171403,
+        "position": 4,
+        "timingSecond": 121
+      },
+      {
+        "id": 100171404,
+        "position": 4,
+        "timingSecond": 176
+      },
+      {
+        "id": 100171501,
+        "position": 5,
+        "timingSecond": 41
+      },
+      {
+        "id": 100171502,
+        "position": 5,
+        "timingSecond": 101
+      },
+      {
+        "id": 100171503,
+        "position": 5,
+        "timingSecond": 161
+      },
+      {
+        "id": 100171504,
+        "position": 5,
+        "timingSecond": 221
       }
     ],
     "buffs": []

@@ -2351,6 +2351,21 @@
     "branchCondition2": "None"
   },
   {
+    "id": 130890,
+    "name": "料理も一流……？",
+    "description": "[:score]倍のスコアを獲得",
+    "type": "Special",
+    "preEffects": [],
+    "branches": [],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 410,
+    "scoreUpPerLevel": 40,
+    "lightCount": 1,
+    "coolTime": 40,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
     "id": 140010,
     "name": "悲哀と恋慕の旋律",
     "description": "[:score]倍のスコアを獲得／ライフを[:param11]回復／ライフが多いほどここなのスコア獲得量UP（最大＋100％）",
@@ -6541,6 +6556,160 @@
     "lightCount": 1,
     "coolTime": 45,
     "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 141670,
+    "name": "調合が味の秘訣",
+    "description": "[:score]倍のスコアを獲得／銀河座アクターのCTを、編成されている銀河座アクターの人数×2秒短縮",
+    "type": "Amplification",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 21009
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 1,
+        "id": 1416701
+      },
+      {
+        "order": 2,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 21010
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 2,
+        "id": 1416702
+      },
+      {
+        "order": 3,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 21011
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 3,
+        "id": 1416703
+      },
+      {
+        "order": 4,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 21012
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 4,
+        "id": 1416704
+      },
+      {
+        "order": 5,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 21013
+          }
+        ],
+        "judgeType1": "MoreThan",
+        "parameter1": 5,
+        "id": 1416705
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 670,
+    "scoreUpPerLevel": 60,
+    "lightCount": 2,
+    "coolTime": 50,
+    "branchCondition1": "CompanyMemberCount",
+    "conditionValue1": 3,
+    "branchCondition2": "None"
+  },
+  {
+    "id": 141680,
+    "name": "マジカル・ティーサーブ！",
+    "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／編成されている銀河座アクターの人数×20プリンシパルゲージを獲得",
+    "type": "Amplification",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20085
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 1,
+        "id": 1416801
+      },
+      {
+        "order": 2,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20086
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 2,
+        "id": 1416802
+      },
+      {
+        "order": 3,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20087
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 3,
+        "id": 1416803
+      },
+      {
+        "order": 4,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20088
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 4,
+        "id": 1416804
+      },
+      {
+        "order": 5,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20089
+          }
+        ],
+        "judgeType1": "MoreThan",
+        "parameter1": 5,
+        "id": 1416805
+      }
+    ],
+    "acquirableGauge": 120,
+    "acquirableScorePercent": 190,
+    "scoreUpPerLevel": 70,
+    "lightCount": 1,
+    "coolTime": 60,
+    "branchCondition1": "CompanyMemberCount",
+    "conditionValue1": 3,
     "branchCondition2": "None"
   }
 ]
