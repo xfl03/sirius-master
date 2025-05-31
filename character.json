@@ -5981,6 +5981,55 @@
     "maxTalentStage": 5
   },
   {
+    "id": 130900,
+    "characterBaseMasterId": 202,
+    "name": "主の過去を知り……",
+    "description": "",
+    "rarity": "Rare3",
+    "attribute": "Cool",
+    "minLevelStatus": {
+      "vocal": 88,
+      "expression": 103,
+      "concentration": 79
+    },
+    "starActMasterId": 130901,
+    "awakenStarActMasterId": 130901,
+    "senseMasterId": 130900,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 30003,
+    "senseEnhanceItemGroupMasterId": 3,
+    "firstEpisodeReleaseItemGroupId": 321,
+    "secondEpisodeReleaseItemGroupId": 322,
+    "characterAwakeningItemGroupMasterId": 32,
+    "displayStartAt": 1748710800.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "イベントで入手",
+    "categories": [
+      {
+        "categoryMasterId": 2002,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1002,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 4002,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7057,
+        "isAwaken": false
+      }
+    ],
+    "leaderSenseMasterId": 53,
+    "maxTalentStage": 5
+  },
+  {
     "id": 140010,
     "characterBaseMasterId": 101,
     "name": "悲哀と恋慕の旋律",
@@ -9136,7 +9185,8 @@
       }
     ],
     "leaderSenseMasterId": 36,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1748926800.0
   },
   {
     "id": 140600,
@@ -10966,7 +11016,8 @@
       }
     ],
     "leaderSenseMasterId": 66,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1748926800.0
   },
   {
     "id": 140950,
@@ -11027,7 +11078,8 @@
       }
     ],
     "leaderSenseMasterId": 73,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1748926800.0
   },
   {
     "id": 140960,
@@ -13124,7 +13176,8 @@
       }
     ],
     "leaderSenseMasterId": 189,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1748926800.0
   },
   {
     "id": 141340,
@@ -15003,6 +15056,112 @@
       }
     ],
     "leaderSenseMasterId": 190,
+    "maxTalentStage": 5
+  },
+  {
+    "id": 141690,
+    "characterBaseMasterId": 201,
+    "name": "賢王は泰平を見る",
+    "description": "",
+    "rarity": "Rare4",
+    "attribute": "Cool",
+    "minLevelStatus": {
+      "vocal": 100,
+      "expression": 120,
+      "concentration": 163
+    },
+    "starActMasterId": 141691,
+    "awakenStarActMasterId": 141691,
+    "senseMasterId": 141690,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 40169,
+    "senseEnhanceItemGroupMasterId": 4,
+    "firstEpisodeReleaseItemGroupId": 421,
+    "secondEpisodeReleaseItemGroupId": 422,
+    "characterAwakeningItemGroupMasterId": 42,
+    "displayStartAt": 1748710800.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "ガチャ(期間限定)で入手",
+    "categories": [
+      {
+        "categoryMasterId": 2002,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8004,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7057,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8002,
+        "isAwaken": true
+      },
+      {
+        "categoryMasterId": 6010,
+        "isAwaken": true
+      }
+    ],
+    "leaderSenseMasterId": 218,
+    "maxTalentStage": 5
+  },
+  {
+    "id": 141700,
+    "characterBaseMasterId": 203,
+    "name": "摂政は謎を読み解いて",
+    "description": "",
+    "rarity": "Rare4",
+    "attribute": "Cool",
+    "minLevelStatus": {
+      "vocal": 117,
+      "expression": 155,
+      "concentration": 108
+    },
+    "starActMasterId": 141701,
+    "awakenStarActMasterId": 141701,
+    "senseMasterId": 141700,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 40170,
+    "senseEnhanceItemGroupMasterId": 4,
+    "firstEpisodeReleaseItemGroupId": 421,
+    "secondEpisodeReleaseItemGroupId": 422,
+    "characterAwakeningItemGroupMasterId": 42,
+    "displayStartAt": 1748710800.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "ガチャ(期間限定)で入手",
+    "categories": [
+      {
+        "categoryMasterId": 2002,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7057,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8004,
+        "isAwaken": true
+      },
+      {
+        "categoryMasterId": 6010,
+        "isAwaken": true
+      }
+    ],
+    "leaderSenseMasterId": 219,
     "maxTalentStage": 5
   }
 ]
