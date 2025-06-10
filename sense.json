@@ -2381,6 +2381,21 @@
     "branchCondition2": "None"
   },
   {
+    "id": 130910,
+    "name": "空想式場",
+    "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得",
+    "type": "Control",
+    "preEffects": [],
+    "branches": [],
+    "acquirableGauge": 90,
+    "acquirableScorePercent": 140,
+    "scoreUpPerLevel": 50,
+    "lightCount": 1,
+    "coolTime": 60,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
     "id": 140010,
     "name": "悲哀と恋慕の旋律",
     "description": "[:score]倍のスコアを獲得／ライフを[:param11]回復／ライフが多いほどここなのスコア獲得量UP（最大＋100％）",
@@ -6827,6 +6842,63 @@
     "lightCount": 2,
     "coolTime": 40,
     "branchCondition1": "LifeGuardCount",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 141710,
+    "name": "ロイヤル・ウェディング！",
+    "description": "ここな編成時、ここなが代わりにセンスを発動し、ここなのスコア獲得量[:pre1]％UP",
+    "type": "Alternative",
+    "preEffects": [
+      {
+        "order": 1,
+        "effectMasterId": 20024
+      }
+    ],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 28006
+          }
+        ],
+        "id": 1417101
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 0,
+    "scoreUpPerLevel": 0,
+    "lightCount": 0,
+    "coolTime": 0,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 141720,
+    "name": "バラ園の中、花嫁は笑う",
+    "description": "[:score]倍のスコアを獲得／[:sec]秒間、劇団電姫のアクターにスターアクトスコア[:param11]％UP効果",
+    "type": "Amplification",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20404
+          }
+        ],
+        "id": 1417201
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 250,
+    "scoreUpPerLevel": 60,
+    "lightCount": 1,
+    "coolTime": 50,
+    "branchCondition1": "None",
     "branchCondition2": "None"
   }
 ]

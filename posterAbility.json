@@ -4344,6 +4344,30 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 220770,
+    "name": "June Bridal Working!",
+    "description": "<color=#FF9314>陽属性</color>のアクターの演技力が[:param11]％上昇",
+    "posterMasterId": 220770,
+    "type": "Leader",
+    "frameNumber": 0,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70022004
+          }
+        ],
+        "id": 22077001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 229010,
     "name": "初めての舞台",
     "description": "<color=#7AC940>彩属性</color>のアクターの演技力が[:param11]%上昇",
@@ -9362,6 +9386,30 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 340140,
+    "name": "誰よりも早く先駆け、魅せて",
+    "description": "全アクターの演技力が[:param11]％上昇",
+    "posterMasterId": 340140,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70050000
+          }
+        ],
+        "id": 34014001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 340150,
     "name": "交わる視線と静かな熱",
     "description": "全アクターの演技力が[:param11]％上昇",
@@ -11996,6 +12044,54 @@
           }
         ],
         "id": 220760201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2207701,
+    "name": "歌唱力アップ",
+    "description": "自身の歌唱力が[:param11]％上昇　◆発動条件：<color=#FF9314>陽属性</color>のアクターが装備",
+    "posterMasterId": 220770,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10110004
+          }
+        ],
+        "id": 220770101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2207702,
+    "name": "スコアブースト・歌唱力",
+    "description": "センス発動直後、自身の歌唱力の[:param11]倍のスコアを獲得　◆発動条件：<color=#FF9314>陽属性</color>のアクターが装備",
+    "posterMasterId": 220770,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10910004
+          }
+        ],
+        "id": 220770201
       }
     ],
     "branchConditionType1": "None",
@@ -18844,6 +18940,78 @@
           }
         ],
         "id": 340130301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3401401,
+    "name": "演技力アップⅢ",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：雪が装備",
+    "posterMasterId": 340140,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10030303
+          }
+        ],
+        "id": 340140101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3401402,
+    "name": "P.ゲージブースト＋",
+    "description": "センス発動直後、Pゲージを[:param11]獲得　◆発動条件：雪が装備",
+    "posterMasterId": 340140,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11410303
+          }
+        ],
+        "id": 340140201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3401403,
+    "name": "「光」追加（SP）",
+    "description": "公演開始時、SP光を[:param11]付与（効果は公演開始時1回のみ発動する）◆発動条件：雪が装備",
+    "posterMasterId": 340140,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11910303
+          }
+        ],
+        "id": 340140301
       }
     ],
     "branchConditionType1": "None",

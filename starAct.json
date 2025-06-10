@@ -1560,6 +1560,18 @@
     "branchCondition2": "None"
   },
   {
+    "id": 130911,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得",
+    "starActConditionMasterId": 100311,
+    "acquirableScorePercent": 400,
+    "scoreUpPerLevel": 40,
+    "preEffects": [],
+    "branches": [],
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
     "id": 140011,
     "name": "",
     "description": "総演技力の[:score]倍のスコアを獲得",
@@ -5153,6 +5165,35 @@
     "name": "",
     "description": "総演技力の[:score]倍のスコアを獲得",
     "starActConditionMasterId": 101411,
+    "acquirableScorePercent": 970,
+    "scoreUpPerLevel": 100,
+    "preEffects": [],
+    "branches": [],
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 141711,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得／ライフが多いほどスコア獲得量UP効果（最大＋[:pre1]%）",
+    "starActConditionMasterId": 103121,
+    "acquirableScorePercent": 970,
+    "scoreUpPerLevel": 100,
+    "preEffects": [
+      {
+        "order": 1,
+        "effectMasterId": 19049
+      }
+    ],
+    "branches": [],
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 141721,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得",
+    "starActConditionMasterId": 101141,
     "acquirableScorePercent": 970,
     "scoreUpPerLevel": 100,
     "preEffects": [],
