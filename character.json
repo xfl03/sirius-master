@@ -6079,6 +6079,55 @@
     "maxTalentStage": 5
   },
   {
+    "id": 130920,
+    "characterBaseMasterId": 403,
+    "name": "演習の後はひとやすみ",
+    "description": "",
+    "rarity": "Rare3",
+    "attribute": "Cute",
+    "minLevelStatus": {
+      "vocal": 88,
+      "expression": 91,
+      "concentration": 91
+    },
+    "starActMasterId": 130921,
+    "awakenStarActMasterId": 130921,
+    "senseMasterId": 130920,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 30001,
+    "senseEnhanceItemGroupMasterId": 3,
+    "firstEpisodeReleaseItemGroupId": 311,
+    "secondEpisodeReleaseItemGroupId": 312,
+    "characterAwakeningItemGroupMasterId": 31,
+    "displayStartAt": 1750438800.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "イベント(コラボ)で入手",
+    "categories": [
+      {
+        "categoryMasterId": 2004,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 3003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7058,
+        "isAwaken": false
+      }
+    ],
+    "leaderSenseMasterId": 11,
+    "maxTalentStage": 5
+  },
+  {
     "id": 140010,
     "characterBaseMasterId": 101,
     "name": "悲哀と恋慕の旋律",
@@ -11419,7 +11468,8 @@
       }
     ],
     "leaderSenseMasterId": 159,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1750784400.0
   },
   {
     "id": 141010,
@@ -11748,7 +11798,8 @@
       }
     ],
     "leaderSenseMasterId": 165,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1750784400.0
   },
   {
     "id": 141070,
@@ -12123,7 +12174,8 @@
       }
     ],
     "leaderSenseMasterId": 170,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1750784400.0
   },
   {
     "id": 141140,
@@ -13336,7 +13388,8 @@
       }
     ],
     "leaderSenseMasterId": 191,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1750784400.0
   },
   {
     "id": 141360,
@@ -15322,5 +15375,113 @@
     ],
     "leaderSenseMasterId": 190,
     "maxTalentStage": 5
+  },
+  {
+    "id": 141730,
+    "characterBaseMasterId": 401,
+    "name": "雨上がりのアキバ・ウォー！",
+    "description": "",
+    "rarity": "Rare4",
+    "attribute": "Cute",
+    "minLevelStatus": {
+      "vocal": 161,
+      "expression": 104,
+      "concentration": 116
+    },
+    "starActMasterId": 141731,
+    "awakenStarActMasterId": 141731,
+    "senseMasterId": 141730,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 40173,
+    "senseEnhanceItemGroupMasterId": 4,
+    "firstEpisodeReleaseItemGroupId": 411,
+    "secondEpisodeReleaseItemGroupId": 412,
+    "characterAwakeningItemGroupMasterId": 41,
+    "displayStartAt": 1750438800.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "ガチャ(コラボ限定)で入手",
+    "categories": [
+      {
+        "categoryMasterId": 2004,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 4005,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7058,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8005,
+        "isAwaken": true
+      }
+    ],
+    "leaderSenseMasterId": 221,
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1750438800.0
+  },
+  {
+    "id": 141740,
+    "characterBaseMasterId": 404,
+    "name": "作戦立案中です！",
+    "description": "",
+    "rarity": "Rare4",
+    "attribute": "Cute",
+    "minLevelStatus": {
+      "vocal": 109,
+      "expression": 134,
+      "concentration": 133
+    },
+    "starActMasterId": 141741,
+    "awakenStarActMasterId": 141741,
+    "senseMasterId": 141740,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 40174,
+    "senseEnhanceItemGroupMasterId": 4,
+    "firstEpisodeReleaseItemGroupId": 411,
+    "secondEpisodeReleaseItemGroupId": 412,
+    "characterAwakeningItemGroupMasterId": 41,
+    "displayStartAt": 1750438800.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "ガチャ(コラボ限定)で入手",
+    "categories": [
+      {
+        "categoryMasterId": 2004,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 4005,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7058,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8006,
+        "isAwaken": true
+      }
+    ],
+    "leaderSenseMasterId": 210,
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1750438800.0
   }
 ]

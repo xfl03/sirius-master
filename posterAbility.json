@@ -8322,6 +8322,30 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 320180,
+    "name": "みんなで「ノリノリ」作戦です！",
+    "description": "劇団電姫に所属するアクターの演技力が[:param11]％上昇",
+    "posterMasterId": 320180,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70022400
+          }
+        ],
+        "id": 32018001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 330010,
     "name": "共犯者のふたり",
     "description": "劇団電姫に所属するアクターの演技力が[:param11]％上昇",
@@ -9092,6 +9116,54 @@
           }
         ],
         "id": 33030001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 330310,
+    "name": "もう一度、お姉ちゃんと――",
+    "description": "劇団電姫に所属するアクターの演技力が[:param11]％上昇",
+    "posterMasterId": 330310,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70052400
+          }
+        ],
+        "id": 33031001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 330320,
+    "name": "びりびりチーム、結成です",
+    "description": "全アクターの演技力が[:param11]％上昇",
+    "posterMasterId": 330320,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70042000
+          }
+        ],
+        "id": 33032001
       }
     ],
     "branchConditionType1": "None",
@@ -15658,6 +15730,54 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 3201801,
+    "name": "演技力アップ",
+    "description": "自身の演技力が[:param11]％上昇　◆発動条件：劇団電姫に所属するアクターが装備",
+    "posterMasterId": 320180,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10010400
+          }
+        ],
+        "id": 320180101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3201802,
+    "name": "初期P.ゲージ上昇",
+    "description": "公演開始時、P.ゲージが[:param11]上昇　◆発動条件：劇団電姫に所属するアクターが装備",
+    "posterMasterId": 320180,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 7,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11510400
+          }
+        ],
+        "id": 320180201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 3300101,
     "name": "演技力アップⅢ",
     "description": "自身の演技力が[:param11]％上昇",
@@ -18076,6 +18196,174 @@
           }
         ],
         "id": 330300301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3303101,
+    "name": "演技力アップⅢ＋",
+    "description": "自身の演技力が[:param11]％上昇",
+    "posterMasterId": 330310,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10031000
+          }
+        ],
+        "id": 330310101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3303102,
+    "name": "P.ゲージブーストⅡ＋",
+    "description": "センス発動直後、P.ゲージを[:param11]獲得　◆発動条件：劇団電姫に所属するアクターが装備",
+    "posterMasterId": 330310,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11421400
+          }
+        ],
+        "id": 330310201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3303103,
+    "name": "「光」追加（SP）Ⅱ",
+    "description": "公演開始時、SP光を[:param11]付与（効果は公演開始時1回のみ発動する）　◆発動条件：劇団電姫に所属するアクターが装備",
+    "posterMasterId": 330310,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11920400
+          }
+        ],
+        "id": 330310301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3303201,
+    "name": "演技力アップⅢ＋",
+    "description": "自身の演技力が[:param11]%上昇",
+    "posterMasterId": 330320,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10031000
+          }
+        ],
+        "id": 330320101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3303202,
+    "name": "スコアブースト＋",
+    "description": "センス発動直後、現在のスコアの[:param11]%のスコアを獲得",
+    "posterMasterId": 330320,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10812000
+          }
+        ],
+        "id": 330320201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3303203,
+    "name": "P.ゲージ獲得量アップⅡ",
+    "description": "センスによるP.ゲージの獲得量が[:param11]％UP",
+    "posterMasterId": 330320,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11621000
+          }
+        ],
+        "id": 330320301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3303204,
+    "name": "P.ゲージ上限ブースト",
+    "description": "センス発動直後、P.ゲージの上限が[:param11]上昇",
+    "posterMasterId": 330320,
+    "type": "Normal",
+    "frameNumber": 4,
+    "releaseLevelAt": 10,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 13100000
+          }
+        ],
+        "id": 330320401
       }
     ],
     "branchConditionType1": "None",

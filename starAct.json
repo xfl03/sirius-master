@@ -1572,6 +1572,18 @@
     "branchCondition2": "None"
   },
   {
+    "id": 130921,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得",
+    "starActConditionMasterId": 103110,
+    "acquirableScorePercent": 400,
+    "scoreUpPerLevel": 40,
+    "preEffects": [],
+    "branches": [],
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
     "id": 140011,
     "name": "",
     "description": "総演技力の[:score]倍のスコアを獲得",
@@ -5199,6 +5211,90 @@
     "preEffects": [],
     "branches": [],
     "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 141731,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得／スターアクト発動直後、その時のスコアの[:param11]％のスコアを獲得",
+    "starActConditionMasterId": 101421,
+    "acquirableScorePercent": 1140,
+    "scoreUpPerLevel": 120,
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19300
+          }
+        ],
+        "id": 14173101
+      }
+    ],
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 141741,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得／編成されている属性1種類につきスコア獲得量15％上昇（最大＋60％）",
+    "starActConditionMasterId": 101114,
+    "acquirableScorePercent": 970,
+    "scoreUpPerLevel": 100,
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19200
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 1,
+        "id": 14174101
+      },
+      {
+        "order": 2,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19201
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 2,
+        "id": 14174102
+      },
+      {
+        "order": 3,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19202
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 3,
+        "id": 14174103
+      },
+      {
+        "order": 4,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19203
+          }
+        ],
+        "judgeType1": "MoreThan",
+        "parameter1": 4,
+        "id": 14174104
+      }
+    ],
+    "branchCondition1": "AttributeCount",
     "branchCondition2": "None"
   }
 ]

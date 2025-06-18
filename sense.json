@@ -2396,6 +2396,32 @@
     "branchCondition2": "None"
   },
   {
+    "id": 130920,
+    "name": "演習の後はひとやすみ",
+    "description": "[:score]倍のスコアを獲得／ライフを[:param11]回復",
+    "type": "Support",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20013
+          }
+        ],
+        "id": 1309201
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 140,
+    "scoreUpPerLevel": 40,
+    "lightCount": 1,
+    "coolTime": 40,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
     "id": 140010,
     "name": "悲哀と恋慕の旋律",
     "description": "[:score]倍のスコアを獲得／ライフを[:param11]回復／ライフが多いほどここなのスコア獲得量UP（最大＋100％）",
@@ -6846,7 +6872,7 @@
   },
   {
     "id": 141710,
-    "name": "ロイヤル・ウェディング！",
+    "name": "なし",
     "description": "ここな編成時、ここなが代わりにセンスを発動し、ここなのスコア獲得量[:pre1]％UP",
     "type": "Alternative",
     "preEffects": [
@@ -6898,6 +6924,47 @@
     "scoreUpPerLevel": 60,
     "lightCount": 1,
     "coolTime": 50,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 141730,
+    "name": "なし",
+    "description": "効果無し（所持している「光」は維持される）",
+    "type": "None",
+    "preEffects": [],
+    "branches": [],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 0,
+    "scoreUpPerLevel": 0,
+    "lightCount": 0,
+    "coolTime": 0,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 141740,
+    "name": "作戦立案中です！",
+    "description": "[:score]倍のスコアを獲得／センス発動時、追加で「増幅の光」を1個獲得する／センス発動直後、その時のスコアの[:param11]％のスコアを獲得",
+    "type": "Special",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20543
+          }
+        ],
+        "id": 1417401
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 510,
+    "scoreUpPerLevel": 40,
+    "lightCount": 1,
+    "coolTime": 30,
     "branchCondition1": "None",
     "branchCondition2": "None"
   }

@@ -1225,6 +1225,17 @@
     "endDate": 1749574800.0
   },
   {
+    "id": 1108,
+    "order": 1500,
+    "name": "みんなで「ノリノリ」作戦です！ガチャ(アクター)",
+    "jumpType": "Gacha",
+    "jumpPageId": "1108",
+    "deleteConditionType": 0,
+    "imagePath": "Gacha/1108",
+    "startDate": 1750438800.0,
+    "endDate": 1751302800.0
+  },
+  {
     "id": 1109,
     "order": 1500,
     "name": "June Bridal Working!ガチャ(アクター)",
@@ -1435,7 +1446,7 @@
   },
   {
     "id": 1619,
-    "order": 1619,
+    "order": 1931,
     "name": "BIRTHDAYピックアップガチャ2025【王雪】",
     "jumpType": "Gacha",
     "jumpPageId": "1619",
@@ -2040,6 +2051,17 @@
     "endDate": 1747155600.0
   },
   {
+    "id": 1856,
+    "order": 1620,
+    "name": "★4確定「ガールズ＆パンツァー最終章」コラボ記念ガチャ",
+    "jumpType": "Gacha",
+    "jumpPageId": "1856",
+    "deleteConditionType": 0,
+    "imagePath": "Gacha/1856",
+    "startDate": 1750438800.0,
+    "endDate": 1751302800.0
+  },
+  {
     "id": 1857,
     "order": 1940,
     "name": "才能開花6解放記念！ピックアップガチャ",
@@ -2052,7 +2074,7 @@
   },
   {
     "id": 1858,
-    "order": 1600,
+    "order": 1932,
     "name": "才能開花6解放記念！ピックアップガチャ",
     "jumpType": "Gacha",
     "jumpPageId": "1858",
@@ -2060,6 +2082,17 @@
     "imagePath": "Gacha/1858",
     "startDate": 1750136400.0,
     "endDate": 1751302800.0
+  },
+  {
+    "id": 1859,
+    "order": 1930,
+    "name": "リリース700日記念！才能開花6解放ピックアップガチャ",
+    "jumpType": "Gacha",
+    "jumpPageId": "1859",
+    "deleteConditionType": 0,
+    "imagePath": "Gacha/1859",
+    "startDate": 1750784400.0,
+    "endDate": 1751562000.0
   },
   {
     "id": 2001,
@@ -6587,8 +6620,32 @@
     "endDate": 1750093200.0
   },
   {
+    "id": 8056,
+    "order": 8093,
+    "name": "ガールズ＆パンツァー 最終章コラボ限定デコレーションパック",
+    "jumpType": "JewelShop",
+    "jumpPageId": "8056",
+    "deleteConditionType": "BuyItem",
+    "deleteConditionValue": "8056",
+    "imagePath": "Home/8056",
+    "startDate": 1750438800.0,
+    "endDate": 1751302800.0
+  },
+  {
+    "id": 8057,
+    "order": 8095,
+    "name": "ガールズ＆パンツァー 最終章コラボ限定アクセサリー＆スタンプパック",
+    "jumpType": "JewelShop",
+    "jumpPageId": "8057",
+    "deleteConditionType": "BuyItem",
+    "deleteConditionValue": "8057",
+    "imagePath": "Home/8057",
+    "startDate": 1750438800.0,
+    "endDate": 1751302800.0
+  },
+  {
     "id": 8059,
-    "order": 4002,
+    "order": 8110,
     "name": "銀河シアターのおまもりパック",
     "jumpType": "JewelShop",
     "jumpPageId": "5",
@@ -6600,7 +6657,7 @@
   },
   {
     "id": 8060,
-    "order": 4003,
+    "order": 8115,
     "name": "撮影パック",
     "jumpType": "JewelShop",
     "jumpPageId": "5",
@@ -6612,7 +6669,7 @@
   },
   {
     "id": 8061,
-    "order": 4004,
+    "order": 8220,
     "name": "練習台本どっさりパック",
     "jumpType": "JewelShop",
     "jumpPageId": "5",
@@ -6669,6 +6726,51 @@
     "imagePath": "Home/8067",
     "startDate": 1750136400.0,
     "endDate": 1750698000.0
+  },
+  {
+    "id": 8068,
+    "order": 8100,
+    "name": "★4一人以上確定アンコールガチャチケットパック【劇団電姫】",
+    "jumpType": "JewelShop",
+    "jumpPageId": "5",
+    "deleteConditionType": "BuyItem",
+    "deleteConditionValue": "8068",
+    "imagePath": "Home/8068",
+    "startDate": 1750741200.0,
+    "endDate": 1751302800.0
+  },
+  {
+    "id": 8081,
+    "order": 8090,
+    "name": "コラボ記念限定ジュエルパック",
+    "jumpType": "JewelShop",
+    "jumpPageId": "1",
+    "deleteConditionType": 0,
+    "imagePath": "Home/5237",
+    "startDate": 1750438800.0,
+    "endDate": 1751302800.0
+  },
+  {
+    "id": 8090,
+    "order": 8081,
+    "name": "リリース700日パック",
+    "jumpType": "JewelShop",
+    "jumpPageId": "5",
+    "deleteConditionType": 0,
+    "imagePath": "Home/8090",
+    "startDate": 1750784400.0,
+    "endDate": 1751562000.0
+  },
+  {
+    "id": 8093,
+    "order": 8105,
+    "name": "Limitedアクターガチャチケットパック",
+    "jumpType": "JewelShop",
+    "jumpPageId": "4",
+    "deleteConditionType": 0,
+    "imagePath": "Home/5095",
+    "startDate": 1750870800.0,
+    "endDate": 1751734800.0
   },
   {
     "id": 8500,
@@ -6999,6 +7101,28 @@
     "imagePath": "Gacha/9260",
     "startDate": 1748710800.0,
     "endDate": 1749574800.0
+  },
+  {
+    "id": 9270,
+    "order": 1600,
+    "name": "立ちはだかる強豪の先でSSR確定ステップアップポスターガチャ",
+    "jumpType": "Gacha",
+    "jumpPageId": "9270",
+    "deleteConditionType": 0,
+    "imagePath": "Gacha/9270",
+    "startDate": 1750438800.0,
+    "endDate": 1751302800.0
+  },
+  {
+    "id": 9280,
+    "order": 1619,
+    "name": "ガールズ＆パンツァー 最終章コラボSSR確定ステップアップポスターガチャ",
+    "jumpType": "Gacha",
+    "jumpPageId": "9280",
+    "deleteConditionType": 0,
+    "imagePath": "Gacha/9280",
+    "startDate": 1750438800.0,
+    "endDate": 1751302800.0
   },
   {
     "id": 9500,

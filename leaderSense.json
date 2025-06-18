@@ -4424,5 +4424,35 @@
         ]
       }
     ]
+  },
+  {
+    "id": 221,
+    "description": "「劇団電姫」カテゴリの演技力40%上昇、「練習」カテゴリの歌唱力20％上昇・集中力15%上昇",
+    "details": [
+      {
+        "effectMasterId": 12005,
+        "conditions": [
+          {
+            "categoryMasterId1": 2004
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12007,
+        "conditions": [
+          {
+            "categoryMasterId1": 8005
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12024,
+        "conditions": [
+          {
+            "categoryMasterId1": 8005
+          }
+        ]
+      }
+    ]
   }
 ]
