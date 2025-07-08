@@ -39,7 +39,7 @@
     "effectType": "SenseRecastDown",
     "name": "CTダウン",
     "startDate": 946684800.0,
-    "order": 7
+    "order": 8
   },
   {
     "id": 7,
@@ -47,5 +47,12 @@
     "name": "P.ゲージ獲得量アップ ",
     "startDate": 1717174800.0,
     "order": 6
+  },
+  {
+    "id": 8,
+    "effectType": "PrincipalGaugeLimitUp",
+    "name": "初期PG上限",
+    "startDate": 1751302800.0,
+    "order": 7
   }
 ]

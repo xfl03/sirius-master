@@ -10565,7 +10565,8 @@
       }
     ],
     "leaderSenseMasterId": 112,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1752555600.0
   },
   {
     "id": 140850,
@@ -11691,7 +11692,8 @@
       }
     ],
     "leaderSenseMasterId": 162,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1751346000.0
   },
   {
     "id": 141050,
@@ -12228,7 +12230,8 @@
       }
     ],
     "leaderSenseMasterId": 178,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1752555600.0
   },
   {
     "id": 141150,
@@ -13175,7 +13178,8 @@
       }
     ],
     "leaderSenseMasterId": 188,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1751346000.0
   },
   {
     "id": 141320,
@@ -13228,7 +13232,8 @@
       }
     ],
     "leaderSenseMasterId": 164,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1751346000.0
   },
   {
     "id": 141330,
@@ -13335,7 +13340,8 @@
       }
     ],
     "leaderSenseMasterId": 190,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1751346000.0
   },
   {
     "id": 141350,
@@ -14249,7 +14255,8 @@
       }
     ],
     "leaderSenseMasterId": 205,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1752555600.0
   },
   {
     "id": 141520,
@@ -14302,7 +14309,8 @@
       }
     ],
     "leaderSenseMasterId": 194,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1752555600.0
   },
   {
     "id": 141530,
@@ -15483,5 +15491,217 @@
     "leaderSenseMasterId": 210,
     "maxTalentStage": 6,
     "maxTalentStageReleaseDate": 1750438800.0
+  },
+  {
+    "id": 141750,
+    "characterBaseMasterId": 205,
+    "name": "アーサー王のお通りよ！",
+    "description": "",
+    "rarity": "Rare4",
+    "attribute": "Colorful",
+    "minLevelStatus": {
+      "vocal": 123,
+      "expression": 148,
+      "concentration": 107
+    },
+    "starActMasterId": 141751,
+    "awakenStarActMasterId": 141751,
+    "senseMasterId": 141750,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 40175,
+    "senseEnhanceItemGroupMasterId": 4,
+    "firstEpisodeReleaseItemGroupId": 431,
+    "secondEpisodeReleaseItemGroupId": 432,
+    "characterAwakeningItemGroupMasterId": 43,
+    "displayStartAt": 1751302800.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "ガチャ(期間限定)で入手",
+    "categories": [
+      {
+        "categoryMasterId": 2002,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1001,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 4004,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7059,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 4006,
+        "isAwaken": true
+      }
+    ],
+    "leaderSenseMasterId": 223,
+    "maxTalentStage": 5
+  },
+  {
+    "id": 141760,
+    "characterBaseMasterId": 104,
+    "name": "お待ちしてました、勇者様♪",
+    "description": "",
+    "rarity": "Rare4",
+    "attribute": "Colorful",
+    "minLevelStatus": {
+      "vocal": 146,
+      "expression": 104,
+      "concentration": 129
+    },
+    "starActMasterId": 141761,
+    "awakenStarActMasterId": 141761,
+    "senseMasterId": 141760,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 40176,
+    "senseEnhanceItemGroupMasterId": 4,
+    "firstEpisodeReleaseItemGroupId": 431,
+    "secondEpisodeReleaseItemGroupId": 432,
+    "characterAwakeningItemGroupMasterId": 43,
+    "displayStartAt": 1751302800.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "ガチャ(期間限定)で入手",
+    "categories": [
+      {
+        "categoryMasterId": 2001,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1001,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8002,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7059,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8006,
+        "isAwaken": true
+      }
+    ],
+    "leaderSenseMasterId": 222,
+    "maxTalentStage": 5
+  },
+  {
+    "id": 141770,
+    "characterBaseMasterId": 403,
+    "name": "Tropical Spa Time",
+    "description": "",
+    "rarity": "Rare4",
+    "attribute": "Cute",
+    "minLevelStatus": {
+      "vocal": 90,
+      "expression": 81,
+      "concentration": 174
+    },
+    "starActMasterId": 141771,
+    "awakenStarActMasterId": 141771,
+    "senseMasterId": 141770,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 40177,
+    "senseEnhanceItemGroupMasterId": 4,
+    "firstEpisodeReleaseItemGroupId": 411,
+    "secondEpisodeReleaseItemGroupId": 412,
+    "characterAwakeningItemGroupMasterId": 41,
+    "displayStartAt": 1752166800.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "ガチャで入手",
+    "categories": [
+      {
+        "categoryMasterId": 2004,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 4003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7512,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 5007,
+        "isAwaken": true
+      }
+    ],
+    "leaderSenseMasterId": 224,
+    "maxTalentStage": 5
+  },
+  {
+    "id": 141780,
+    "characterBaseMasterId": 204,
+    "name": "Dive to Azure!",
+    "description": "",
+    "rarity": "Rare4",
+    "attribute": "Cute",
+    "minLevelStatus": {
+      "vocal": 87,
+      "expression": 173,
+      "concentration": 85
+    },
+    "starActMasterId": 141781,
+    "awakenStarActMasterId": 141781,
+    "senseMasterId": 141780,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 40178,
+    "senseEnhanceItemGroupMasterId": 4,
+    "firstEpisodeReleaseItemGroupId": 411,
+    "secondEpisodeReleaseItemGroupId": 412,
+    "characterAwakeningItemGroupMasterId": 41,
+    "displayStartAt": 1752166800.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "ガチャで入手",
+    "categories": [
+      {
+        "categoryMasterId": 2002,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 5007,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7512,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 4004,
+        "isAwaken": true
+      }
+    ],
+    "leaderSenseMasterId": 225,
+    "maxTalentStage": 5
   }
 ]

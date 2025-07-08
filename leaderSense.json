@@ -4454,5 +4454,101 @@
         ]
       }
     ]
+  },
+  {
+    "id": 222,
+    "description": "「シリウス」カテゴリの演技力40%上昇、「小道具」カテゴリを持つアクターの数に応じて初期プリンシパルゲージが20上昇",
+    "details": [
+      {
+        "effectMasterId": 12005,
+        "conditions": [
+          {
+            "categoryMasterId1": 2001
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12030,
+        "conditions": [
+          {
+            "categoryMasterId1": 8006
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 223,
+    "description": "「Eden」カテゴリの演技力40%上昇、「メルヘン」カテゴリの表現力20％上昇・歌唱力15%上昇",
+    "details": [
+      {
+        "effectMasterId": 12005,
+        "conditions": [
+          {
+            "categoryMasterId1": 2002
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12011,
+        "conditions": [
+          {
+            "categoryMasterId1": 4006
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12022,
+        "conditions": [
+          {
+            "categoryMasterId1": 4006
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 224,
+    "description": "「役者」カテゴリの演技力30%上昇、「海」カテゴリの集中力20％上昇",
+    "details": [
+      {
+        "effectMasterId": 12004,
+        "conditions": [
+          {
+            "categoryMasterId1": 8003
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12015,
+        "conditions": [
+          {
+            "categoryMasterId1": 5007
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 225,
+    "description": "「高校生」カテゴリの演技力30%上昇、「動物」カテゴリの表現力20％上昇",
+    "details": [
+      {
+        "effectMasterId": 12004,
+        "conditions": [
+          {
+            "categoryMasterId1": 1003
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12011,
+        "conditions": [
+          {
+            "categoryMasterId1": 4004
+          }
+        ]
+      }
+    ]
   }
 ]

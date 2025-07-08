@@ -7307,6 +7307,81 @@
     "musicCoverType": "Original"
   },
   {
+    "id": 206,
+    "name": "SECRET TRAINING!!!!",
+    "description": "",
+    "rewardRuleMasterId": 1,
+    "pronounceName": "secrettraining",
+    "lyricWriter": "志村真白（FirstCall）",
+    "composer": "志村真白（FirstCall）",
+    "arranger": "志村真白（FirstCall）",
+    "isLongVersion": false,
+    "releasedAt": 1751302800.0,
+    "staminaConsumption": 26,
+    "musicTimeSecond": 102,
+    "invisible": false,
+    "sampleStartSeconds": 0.0,
+    "sampleEndSeconds": 0.0,
+    "delaySeconds": 0.0,
+    "vocalVersions": [
+      {
+        "id": 20601,
+        "musicMasterId": 206,
+        "vocalVersion": 1,
+        "singer": "筆島しぐれ",
+        "name": "SECRET TRAINING!!!!",
+        "musicTimeSecond": 102,
+        "sampleStartSeconds": 0.0,
+        "sampleEndSeconds": 0.0,
+        "musicVideoType": "None",
+        "characters": [
+          205
+        ]
+      }
+    ],
+    "unlockConditionType": "Default",
+    "musicVideoType": "None",
+    "musicCoverType": "Original"
+  },
+  {
+    "id": 207,
+    "name": "氷雨に舞う火の鳥",
+    "description": "",
+    "rewardRuleMasterId": 1,
+    "pronounceName": "ひさめにまうひのとり",
+    "lyricWriter": "松井洋平",
+    "composer": "古河夕（FirstCall）",
+    "arranger": "古河夕（FirstCall）",
+    "isLongVersion": false,
+    "releasedAt": 1752166800.0,
+    "staminaConsumption": 26,
+    "musicTimeSecond": 102,
+    "invisible": false,
+    "sampleStartSeconds": 0.0,
+    "sampleEndSeconds": 0.0,
+    "delaySeconds": 0.0,
+    "vocalVersions": [
+      {
+        "id": 20701,
+        "musicMasterId": 207,
+        "vocalVersion": 1,
+        "singer": "阿岐留カミラ、萬容",
+        "name": "氷雨に舞う火の鳥",
+        "musicTimeSecond": 102,
+        "sampleStartSeconds": 0.0,
+        "sampleEndSeconds": 0.0,
+        "musicVideoType": "None",
+        "characters": [
+          204,
+          403
+        ]
+      }
+    ],
+    "unlockConditionType": "Default",
+    "musicVideoType": "None",
+    "musicCoverType": "Original"
+  },
+  {
     "id": 209,
     "name": "RAREFIED HEIGHTS",
     "description": "",
@@ -7453,9 +7528,9 @@
         "characters": [
           201,
           202,
-          205,
           203,
-          204
+          204,
+          205
         ]
       }
     ],
@@ -7835,8 +7910,8 @@
         "sampleEndSeconds": 0.0,
         "musicVideoType": "Movie",
         "characters": [
-          104,
-          101
+          101,
+          104
         ]
       }
     ],
@@ -7918,10 +7993,10 @@
         "musicVideoType": "Movie",
         "characters": [
           202,
+          201,
           203,
           204,
-          205,
-          201
+          205
         ]
       }
     ],
@@ -8002,9 +8077,9 @@
         "musicVideoType": "Movie",
         "characters": [
           402,
-          401,
           403,
           404,
+          401,
           405
         ]
       }
@@ -8200,6 +8275,44 @@
         "characters": [
           201,
           203
+        ]
+      }
+    ],
+    "unlockConditionType": "Buy",
+    "musicVideoType": "None",
+    "musicCoverType": "Original"
+  },
+  {
+    "id": 10044,
+    "name": "アタシのアシタはアタシがキメル（Long Ver.）",
+    "description": "",
+    "rewardRuleMasterId": 1,
+    "pronounceName": "あたしのあしたはあたしがきめるlong",
+    "lyricWriter": "松井洋平",
+    "composer": "RazuNekono",
+    "arranger": "RazuNekono",
+    "unlockText": "楽曲ショップで購入",
+    "isLongVersion": true,
+    "releasedAt": 1752771600.0,
+    "staminaConsumption": 0,
+    "musicTimeSecond": 214,
+    "invisible": false,
+    "sampleStartSeconds": 0.0,
+    "sampleEndSeconds": 0.0,
+    "delaySeconds": 0.0,
+    "vocalVersions": [
+      {
+        "id": 1004401,
+        "musicMasterId": 10044,
+        "vocalVersion": 1,
+        "singer": "本巣叶羽",
+        "name": "アタシのアシタはアタシがキメル（Long Ver.）",
+        "musicTimeSecond": 214,
+        "sampleStartSeconds": 0.0,
+        "sampleEndSeconds": 0.0,
+        "musicVideoType": "None",
+        "characters": [
+          405
         ]
       }
     ],

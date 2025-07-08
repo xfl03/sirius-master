@@ -6493,7 +6493,7 @@
   {
     "id": 141620,
     "name": "真実は数奇かつ残酷で",
-    "description": "<size=26%>[:score]倍のスコアを獲得／センス発動時、追加で「ライフガード」を獲得する（レベル1：4個／レベル2：6個／レベル3：8個／レベル4：10個／レベル5：12個)</size>",
+    "description": "[:score]倍のスコアを獲得／センス発動時、追加で「ライフガード」を[:param11]回獲得する",
     "type": "Control",
     "preEffects": [],
     "branches": [
@@ -6965,6 +6965,209 @@
     "scoreUpPerLevel": 40,
     "lightCount": 1,
     "coolTime": 30,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 141750,
+    "name": "アーサー王のお通りよ！",
+    "description": "<size=28%>[:score]倍のスコアを獲得／センス発動時に、追加で「増幅の光」を1個獲得する／付与されているライフガード1回につきスコア獲得量8％上昇（最大＋80％）</size>",
+    "type": "Control",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29130
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 1,
+        "id": 1417501
+      },
+      {
+        "order": 2,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29131
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 2,
+        "id": 1417502
+      },
+      {
+        "order": 3,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29132
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 3,
+        "id": 1417503
+      },
+      {
+        "order": 4,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29133
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 4,
+        "id": 1417504
+      },
+      {
+        "order": 5,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29134
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 5,
+        "id": 1417505
+      },
+      {
+        "order": 6,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29135
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 6,
+        "id": 1417506
+      },
+      {
+        "order": 7,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29136
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 7,
+        "id": 1417507
+      },
+      {
+        "order": 8,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29137
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 8,
+        "id": 1417508
+      },
+      {
+        "order": 9,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29138
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 9,
+        "id": 1417509
+      },
+      {
+        "order": 10,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29139
+          }
+        ],
+        "judgeType1": "MoreThan",
+        "parameter1": 10,
+        "id": 1417510
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 510,
+    "scoreUpPerLevel": 40,
+    "lightCount": 1,
+    "coolTime": 30,
+    "branchCondition1": "LifeGuardCount",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 141760,
+    "name": "お待ちしてました、勇者様♪",
+    "description": "<size=28%>[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／センス発動後、追加で[:param11]のプリンシパルゲージを獲得</size>",
+    "type": "Control",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20082
+          }
+        ],
+        "id": 1417601
+      }
+    ],
+    "acquirableGauge": 90,
+    "acquirableScorePercent": 170,
+    "scoreUpPerLevel": 50,
+    "lightCount": 2,
+    "coolTime": 40,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 141770,
+    "name": "Tropical Spa Time",
+    "description": "[:score]倍のスコアを獲得／センス発動後、プリンシパルゲージの上限値が[:param11]上昇",
+    "type": "Support",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20096
+          }
+        ],
+        "id": 1417701
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 600,
+    "scoreUpPerLevel": 50,
+    "lightCount": 2,
+    "coolTime": 40,
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 141780,
+    "name": "Dive to Azure!",
+    "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／センス発動時に、追加で「支配の光」を1個獲得する",
+    "type": "Special",
+    "preEffects": [],
+    "branches": [],
+    "acquirableGauge": 100,
+    "acquirableScorePercent": 180,
+    "scoreUpPerLevel": 60,
+    "lightCount": 1,
+    "coolTime": 50,
     "branchCondition1": "None",
     "branchCondition2": "None"
   }

@@ -7935,6 +7935,54 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 230670,
+    "name": "これは世紀の発見だ！",
+    "description": "<color=#7AC940>彩属性</color>のアクターの演技力が[:param11]％上昇",
+    "posterMasterId": 230670,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70052003
+          }
+        ],
+        "id": 23067001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230680,
+    "name": "怠惰は好奇心に勝てず",
+    "description": "全アクターの演技力が[:param11]％上昇",
+    "posterMasterId": 230680,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70042000
+          }
+        ],
+        "id": 23068001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 230720,
     "name": "幾星霜を遙か",
     "description": "全アクターの演技力が[:param11]%上昇",
@@ -9620,6 +9668,30 @@
           }
         ],
         "id": 34020001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 340210,
+    "name": "同年代の中で一際輝く一番星",
+    "description": "全アクターの演技力が[:param11]％上昇",
+    "posterMasterId": 340210,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70050000
+          }
+        ],
+        "id": 34021001
       }
     ],
     "branchConditionType1": "None",
@@ -15020,6 +15092,150 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 2306701,
+    "name": "演技力アップⅢ",
+    "description": "自身の演技力が[:param11]％上昇",
+    "posterMasterId": 230670,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10030000
+          }
+        ],
+        "id": 230670101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2306702,
+    "name": "表現力アップⅢ＋",
+    "description": "自身の表現力が[:param11]％上昇　◆発動条件：<color=#7AC940>彩属性</color>のアクターが装備",
+    "posterMasterId": 230670,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10231003
+          }
+        ],
+        "id": 230670201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2306703,
+    "name": "スコアブースト・表現力Ⅲ＋",
+    "description": "センス発動直後、自身の表現力の[:param11]倍のスコアを獲得　◆発動条件：<color=#7AC940>彩属性</color>のアクターが装備",
+    "posterMasterId": 230670,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11031003
+          }
+        ],
+        "id": 230670301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2306801,
+    "name": "演技力アップⅢ＋",
+    "description": "自身の演技力が[:param11]％上昇",
+    "posterMasterId": 230680,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10031000
+          }
+        ],
+        "id": 230680101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2306802,
+    "name": "初期P.ゲージ上昇＋",
+    "description": "公演開始時、P.ゲージが[:param11]上昇",
+    "posterMasterId": 230680,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11511000
+          }
+        ],
+        "id": 230680201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2306803,
+    "name": "報酬量アップⅢ",
+    "description": "公演と協力公演の公演報酬が[:param11]％増加（アクセサリーを除く）",
+    "posterMasterId": 230680,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 12530000
+          }
+        ],
+        "id": 230680301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 2307201,
     "name": "演技力アップⅢ",
     "description": "自身の演技力が[:param11]%上昇　◆発動条件：銀河座に所属するアクターが装備",
@@ -19732,6 +19948,78 @@
           }
         ],
         "id": 340200301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3402101,
+    "name": "演技力アップⅢ",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：叶羽が装備",
+    "posterMasterId": 340210,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10030405
+          }
+        ],
+        "id": 340210101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3402102,
+    "name": "P.ゲージブースト＋",
+    "description": "センス発動直後、Pゲージを[:param11]獲得　◆発動条件：叶羽が装備",
+    "posterMasterId": 340210,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11410405
+          }
+        ],
+        "id": 340210201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3402103,
+    "name": "「光」追加（SP）",
+    "description": "公演開始時、SP光を[:param11]付与（効果は公演開始時1回のみ発動する）◆発動条件：叶羽が装備",
+    "posterMasterId": 340210,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11910405
+          }
+        ],
+        "id": 340210301
       }
     ],
     "branchConditionType1": "None",
