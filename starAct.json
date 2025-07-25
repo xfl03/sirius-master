@@ -5344,5 +5344,163 @@
     "branches": [],
     "branchCondition1": "None",
     "branchCondition2": "None"
+  },
+  {
+    "id": 141791,
+    "name": "",
+    "description": "<size=26%>総演技力の[:score]倍のスコアを獲得／ライフが多いほどスコア獲得量UP効果（最大＋ 130%）／ストックされている全ての光1個につき総演技力の[:param11]倍のスコアを獲得(最大5個)</size>",
+    "starActConditionMasterId": 101214,
+    "acquirableScorePercent": 1140,
+    "scoreUpPerLevel": 120,
+    "preEffects": [
+      {
+        "order": 1,
+        "effectMasterId": 19050
+      }
+    ],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19036
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 1,
+        "id": 14179101
+      },
+      {
+        "order": 2,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19037
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 2,
+        "id": 14179102
+      },
+      {
+        "order": 3,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19038
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 3,
+        "id": 14179103
+      },
+      {
+        "order": 4,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19039
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 4,
+        "id": 14179104
+      },
+      {
+        "order": 5,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19040
+          }
+        ],
+        "judgeType1": "MoreThan",
+        "parameter1": 5,
+        "id": 14179105
+      }
+    ],
+    "branchCondition1": "StorageSenseLightCount",
+    "conditionValue1": 5,
+    "branchCondition2": "None"
+  },
+  {
+    "id": 141801,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得／スターアクト発動時、編成されているシリウスアクターの人数×[:param11]秒、センスのCTを短縮する／ライフが多いほどスコア獲得量UP効果（最大＋[:pre1]%）",
+    "starActConditionMasterId": 101142,
+    "acquirableScorePercent": 1140,
+    "scoreUpPerLevel": 120,
+    "preEffects": [
+      {
+        "order": 1,
+        "effectMasterId": 19052
+      }
+    ],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19320
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 1,
+        "id": 14180101
+      },
+      {
+        "order": 2,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19321
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 2,
+        "id": 14180102
+      },
+      {
+        "order": 3,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19322
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 3,
+        "id": 14180103
+      },
+      {
+        "order": 4,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19323
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 4,
+        "id": 14180104
+      },
+      {
+        "order": 5,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19324
+          }
+        ],
+        "judgeType1": "MoreThan",
+        "parameter1": 5,
+        "id": 14180105
+      }
+    ],
+    "branchCondition1": "CompanyMemberCount",
+    "conditionValue1": 1,
+    "branchCondition2": "None"
   }
 ]

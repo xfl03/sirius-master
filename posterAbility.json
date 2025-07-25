@@ -7983,6 +7983,30 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 230690,
+    "name": "革命の中、愛は絶えず",
+    "description": "シリウスに所属するアクターの演技力が[:param11]％上昇",
+    "posterMasterId": 230690,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70042100
+          }
+        ],
+        "id": 23069001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 230720,
     "name": "幾星霜を遙か",
     "description": "全アクターの演技力が[:param11]%上昇",
@@ -15230,6 +15254,78 @@
           }
         ],
         "id": 230680301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2306901,
+    "name": "歌唱力アップⅢ＋",
+    "description": "自身の歌唱力が[:param11]％上昇",
+    "posterMasterId": 230690,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10131100
+          }
+        ],
+        "id": 230690101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2306902,
+    "name": "「光」獲得数増加",
+    "description": "センスで付与する「光」の付与数が[:param11]個増加　◆発動条件：シリウスに所属するアクターが装備",
+    "posterMasterId": 230690,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11810100
+          }
+        ],
+        "id": 230690201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2306903,
+    "name": "スコアブースト・歌唱力Ⅲ＋",
+    "description": "センス発動直後、自身の歌唱力の[:param11]倍のスコアを獲得　◆発動条件：シリウスに所属するアクターが装備",
+    "posterMasterId": 230690,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10931100
+          }
+        ],
+        "id": 230690301
       }
     ],
     "branchConditionType1": "None",
