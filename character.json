@@ -10673,7 +10673,8 @@
       }
     ],
     "leaderSenseMasterId": 149,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1753488000.0
   },
   {
     "id": 140870,
@@ -10726,7 +10727,8 @@
       }
     ],
     "leaderSenseMasterId": 130,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1753488000.0
   },
   {
     "id": 140880,
@@ -10783,7 +10785,8 @@
       }
     ],
     "leaderSenseMasterId": 136,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1753488000.0
   },
   {
     "id": 140890,
@@ -10840,7 +10843,8 @@
       }
     ],
     "leaderSenseMasterId": 131,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1753488000.0
   },
   {
     "id": 140900,
@@ -12016,7 +12020,8 @@
       }
     ],
     "leaderSenseMasterId": 167,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1753488000.0
   },
   {
     "id": 141110,
@@ -12069,7 +12074,8 @@
       }
     ],
     "leaderSenseMasterId": 168,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1753488000.0
   },
   {
     "id": 141120,
@@ -12666,7 +12672,8 @@
       }
     ],
     "leaderSenseMasterId": 171,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1753488000.0
   },
   {
     "id": 141230,
@@ -12719,7 +12726,8 @@
       }
     ],
     "leaderSenseMasterId": 38,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1753488000.0
   },
   {
     "id": 141240,
@@ -15819,5 +15827,61 @@
     "leaderSenseMasterId": 227,
     "maxTalentStage": 6,
     "maxTalentStageReleaseDate": 1753030800.0
+  },
+  {
+    "id": 150010,
+    "characterBaseMasterId": 103,
+    "name": "一度道を違えた絆でも",
+    "description": "",
+    "rarity": "Rare4",
+    "attribute": "Cheerful",
+    "minLevelStatus": {
+      "vocal": 155,
+      "expression": 141,
+      "concentration": 133
+    },
+    "starActMasterId": 150011,
+    "awakenStarActMasterId": 150012,
+    "senseMasterId": 150010,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 40500,
+    "senseEnhanceItemGroupMasterId": 4,
+    "firstEpisodeReleaseItemGroupId": 441,
+    "secondEpisodeReleaseItemGroupId": 442,
+    "characterAwakeningItemGroupMasterId": 54,
+    "displayStartAt": 1753488000.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "特別な方法で入手",
+    "categories": [
+      {
+        "categoryMasterId": 2001,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 2003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8011,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8012,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8004,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8009,
+        "isAwaken": true
+      }
+    ],
+    "leaderSenseMasterId": 228,
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1753488000.0,
+    "unknown25": 302,
+    "unknown26": 150013
   }
 ]

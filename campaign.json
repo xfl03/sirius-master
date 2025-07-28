@@ -671,6 +671,17 @@
     "campaignEffectValue": 0
   },
   {
+    "id": 63,
+    "title": "公演の獲得EXP 150％UP",
+    "description": "期間：7/26 0:00 ～ 7/31 5:00/n対象：公演、協力公演",
+    "iconImagePath": "4",
+    "order": 63,
+    "startDate": 1753488000.0,
+    "endDate": 1753938000.0,
+    "campaignEffectType": "RankPoint",
+    "campaignEffectValue": 150
+  },
+  {
     "id": 1000,
     "title": "公演の獲得EXP 50％UP",
     "description": "ウェルカムバックキャンペーン/n期間：7日間/n対象：公演、協力公演",
@@ -771,6 +782,28 @@
     "order": 2004,
     "startDate": 1752728400.0,
     "endDate": 1752814800.0,
+    "campaignEffectType": "RankPoint",
+    "campaignEffectValue": 50
+  },
+  {
+    "id": 2005,
+    "title": "稽古の回数 +2回",
+    "description": "ユメステデー！ 開催中！/n期間：7/27 5:00 ～ 7/28 5:00/n対象：公演、協力公演",
+    "iconImagePath": "1001",
+    "order": 2005,
+    "startDate": 1753592400.0,
+    "endDate": 1753678800.0,
+    "campaignEffectType": "LessonCount",
+    "campaignEffectValue": 2
+  },
+  {
+    "id": 2006,
+    "title": "公演の獲得EXP 50％UP",
+    "description": "ユメステデー！ 開催中！/n期間：7/27 5:00 ～ 7/28 5:00/n対象：公演、協力公演",
+    "iconImagePath": "4",
+    "order": 2006,
+    "startDate": 1753592400.0,
+    "endDate": 1753678800.0,
     "campaignEffectType": "RankPoint",
     "campaignEffectValue": 50
   }

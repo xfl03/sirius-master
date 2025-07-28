@@ -5502,5 +5502,101 @@
     "branchCondition1": "CompanyMemberCount",
     "conditionValue1": 1,
     "branchCondition2": "None"
+  },
+  {
+    "id": 150011,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得／ライフが多いほどスコア獲得量UP効果（最大＋[:pre1]%）",
+    "starActConditionMasterId": 103132,
+    "acquirableScorePercent": 1310,
+    "scoreUpPerLevel": 140,
+    "preEffects": [
+      {
+        "order": 1,
+        "effectMasterId": 19051
+      }
+    ],
+    "branches": [],
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 150012,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得／ライフが多いほどスコア獲得量UP効果（最大＋[:pre1]%）／編成されているシリウス・銀河座アクター1人につきその時のスコアの1％のスコアを獲得",
+    "starActConditionMasterId": 103132,
+    "acquirableScorePercent": 1310,
+    "scoreUpPerLevel": 140,
+    "preEffects": [
+      {
+        "order": 1,
+        "effectMasterId": 19053
+      }
+    ],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19301
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 1,
+        "id": 15001201
+      },
+      {
+        "order": 2,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19302
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 2,
+        "id": 15001202
+      },
+      {
+        "order": 3,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19303
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 3,
+        "id": 15001203
+      },
+      {
+        "order": 4,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19304
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 4,
+        "id": 15001204
+      },
+      {
+        "order": 5,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19305
+          }
+        ],
+        "judgeType1": "MoreThan",
+        "parameter1": 5,
+        "id": 15001205
+      }
+    ],
+    "branchCondition1": 11,
+    "conditionValue1": 7,
+    "branchCondition2": "None"
   }
 ]

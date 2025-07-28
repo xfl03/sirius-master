@@ -5750,6 +5750,30 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 230095,
+    "name": "演技力上限上昇",
+    "description": "自身の演技力の上限が[:param11]％上昇　◆発動条件：シリウスに所属するアクターが装備",
+    "posterMasterId": 230090,
+    "type": "Normal",
+    "frameNumber": 5,
+    "releaseLevelAt": 11,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 12900100
+          }
+        ],
+        "id": 23009501
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 230100,
     "name": "Faith in Expression",
     "description": "Edenに所属するアクターの演技力が[:param11]%上昇",
@@ -5932,6 +5956,30 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 230106,
+    "name": "演技力上限上昇",
+    "description": "自身の演技力の上限が[:param11]％上昇　◆発動条件：Edenに所属するアクターが装備",
+    "posterMasterId": 230100,
+    "type": "Normal",
+    "frameNumber": 6,
+    "releaseLevelAt": 11,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 12900200
+          }
+        ],
+        "id": 23010601
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 230110,
     "name": "プラネタリウム・レヴュー",
     "description": "銀河座に所属するアクターの演技力が[:param11]%上昇",
@@ -6090,6 +6138,30 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 230115,
+    "name": "演技力上限上昇",
+    "description": "自身の演技力の上限が[:param11]％上昇　◆発動条件：銀河座に所属するアクターが装備",
+    "posterMasterId": 230110,
+    "type": "Normal",
+    "frameNumber": 5,
+    "releaseLevelAt": 11,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 12900300
+          }
+        ],
+        "id": 23011501
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 230120,
     "name": "デアエ・エクス・マキナ！",
     "description": "劇団電姫に所属するアクターの演技力が[:param11]%上昇",
@@ -6242,6 +6314,30 @@
           }
         ],
         "id": 23012401
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230125,
+    "name": "演技力上限上昇",
+    "description": "自身の演技力の上限が[:param11]％上昇　◆発動条件：劇団電姫に所属するアクターが装備",
+    "posterMasterId": 230120,
+    "type": "Normal",
+    "frameNumber": 5,
+    "releaseLevelAt": 11,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 12900400
+          }
+        ],
+        "id": 23012501
       }
     ],
     "branchConditionType1": "None",
@@ -9242,6 +9338,78 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 330330,
+    "name": "舞台照らす星々の輝き",
+    "description": "全アクターの演技力が[:param11]％上昇",
+    "posterMasterId": 330330,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70052000
+          }
+        ],
+        "id": 33033001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 330331,
+    "name": "演技力上限上昇",
+    "description": "全アクターの演技力上限が[:param11]%上昇",
+    "posterMasterId": 330330,
+    "type": "Leader",
+    "frameNumber": 2,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 73000000
+          }
+        ],
+        "id": 33033101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 330340,
+    "name": "サプライズ・ファンサービス！",
+    "description": "全アクターの演技力が[:param11]％上昇",
+    "posterMasterId": 330340,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70052000
+          }
+        ],
+        "id": 33034001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 340010,
     "name": "いつか夢を叶える日まで",
     "description": "全アクターの演技力が[:param11]％上昇",
@@ -9260,6 +9428,30 @@
           }
         ],
         "id": 34001001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 340020,
+    "name": "共に夢を叶えるその日のために――",
+    "description": "全アクターの演技力が[:param11]％上昇",
+    "posterMasterId": 340020,
+    "type": "Leader",
+    "frameNumber": 0,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70050000
+          }
+        ],
+        "id": 34002001
       }
     ],
     "branchConditionType1": "None",
@@ -18682,6 +18874,174 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 3303301,
+    "name": "演技力アップⅢ＋",
+    "description": "自身の演技力が[:param11]％上昇",
+    "posterMasterId": 330330,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10031000
+          }
+        ],
+        "id": 330330101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3303302,
+    "name": "P.ゲージ上限ブースト",
+    "description": "センス発動直後、P.ゲージの上限が[:param11]上昇",
+    "posterMasterId": 330330,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 13100000
+          }
+        ],
+        "id": 330330201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3303303,
+    "name": "CTダウンⅤ",
+    "description": "自身のセンスのCTを[:param11]秒短縮",
+    "posterMasterId": 330330,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 12440000
+          }
+        ],
+        "id": 330330301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3303304,
+    "name": "「SP光」獲得Ⅱ",
+    "description": "センス発動時、SP光を追加で[:param11]個付与",
+    "posterMasterId": 330330,
+    "type": "Normal",
+    "frameNumber": 4,
+    "releaseLevelAt": 10,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11921000
+          }
+        ],
+        "id": 330330401
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3303401,
+    "name": "演技力アップⅢ＋",
+    "description": "自身の演技力が[:param11]%上昇",
+    "posterMasterId": 330340,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10031000
+          }
+        ],
+        "id": 330340101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3303402,
+    "name": "P.ゲージ上限ブースト",
+    "description": "センス発動直後、P.ゲージの上限が[:param11]上昇",
+    "posterMasterId": 330340,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 13100000
+          }
+        ],
+        "id": 330340201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3303403,
+    "name": "スコアブーストⅡ＋",
+    "description": "センス発動直後、現在のスコアの[:param11]%のスコアを獲得",
+    "posterMasterId": 330340,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10821000
+          }
+        ],
+        "id": 330340301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 3400101,
     "name": "演技力アップⅢ",
     "description": "自身の演技力が[:param11]%上昇　◆発動条件：ここなが装備",
@@ -18748,6 +19108,78 @@
           }
         ],
         "id": 340010301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3400201,
+    "name": "演技力アップⅢ",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：静香が装備",
+    "posterMasterId": 340020,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10030102
+          }
+        ],
+        "id": 340020101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3400202,
+    "name": "初期P.ゲージ上昇(BD)",
+    "description": "公演開始時、P.ゲージが[:param11]上昇　◆発動条件：静香が装備",
+    "posterMasterId": 340020,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11540102
+          }
+        ],
+        "id": 340020201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3400203,
+    "name": "「光」追加（SP）",
+    "description": "公演開始時、SP光を[:param11]付与（効果は公演開始時1回のみ発動する）◆発動条件：静香が装備",
+    "posterMasterId": 340020,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11910102
+          }
+        ],
+        "id": 340020301
       }
     ],
     "branchConditionType1": "None",
