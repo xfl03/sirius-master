@@ -8103,6 +8103,54 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 230700,
+    "name": "輝く宝玉、這い寄る笑み",
+    "description": "銀河座に所属するアクターの演技力が[:param11]％上昇",
+    "posterMasterId": 230700,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70052300
+          }
+        ],
+        "id": 23070001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230710,
+    "name": "魅せる、スピードの向こう側！",
+    "description": "全アクターの演技力が[:param11]％上昇",
+    "posterMasterId": 230710,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70042000
+          }
+        ],
+        "id": 23071001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 230720,
     "name": "幾星霜を遙か",
     "description": "全アクターの演技力が[:param11]%上昇",
@@ -9404,6 +9452,30 @@
           }
         ],
         "id": 33034001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 330350,
+    "name": "Celebrate Tea Party !",
+    "description": "全アクターの演技力が[:param11]％上昇",
+    "posterMasterId": 330350,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70052000
+          }
+        ],
+        "id": 33035001
       }
     ],
     "branchConditionType1": "None",
@@ -15524,6 +15596,150 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 2307001,
+    "name": "演技力アップⅢ＋",
+    "description": "自身の演技力が[:param11]%上昇",
+    "posterMasterId": 230700,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10031000
+          }
+        ],
+        "id": 230700101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2307002,
+    "name": "P.ゲージブーストⅡ",
+    "description": "センス発動直後、P.ゲージを[:param11]獲得　◆発動条件：銀河座に所属するアクターが装備",
+    "posterMasterId": 230700,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11420300
+          }
+        ],
+        "id": 230700201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2307003,
+    "name": "P.ゲージ上限ブースト＋",
+    "description": "センス発動直後、P.ゲージの上限が[:param11]上昇　◆発動条件：銀河座に所属するアクターが装備",
+    "posterMasterId": 230700,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 13120300
+          }
+        ],
+        "id": 230700301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2307101,
+    "name": "演技力アップⅢ＋",
+    "description": "自身の演技力が[:param11]％上昇",
+    "posterMasterId": 230710,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10031000
+          }
+        ],
+        "id": 230710101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2307102,
+    "name": "初期P.ゲージ上昇＋",
+    "description": "公演開始時、P.ゲージが[:param11]上昇",
+    "posterMasterId": 230710,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11511000
+          }
+        ],
+        "id": 230710201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2307103,
+    "name": "公演の獲得EXPアップ",
+    "description": "公演と協力公演の獲得EXPが[:param11]％増加",
+    "posterMasterId": 230710,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 13400000
+          }
+        ],
+        "id": 230710301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 2307201,
     "name": "演技力アップⅢ",
     "description": "自身の演技力が[:param11]%上昇　◆発動条件：銀河座に所属するアクターが装備",
@@ -19036,6 +19252,102 @@
           }
         ],
         "id": 330340301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3303501,
+    "name": "演技力アップⅢ＋＋",
+    "description": "自身の演技力が[:param11]%上昇",
+    "posterMasterId": 330350,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10032000
+          }
+        ],
+        "id": 330350101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3303502,
+    "name": "スコアブーストⅡ",
+    "description": "センス発動直後、現在のスコアの[:param11]%のスコアを獲得",
+    "posterMasterId": 330350,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10811000
+          }
+        ],
+        "id": 330350201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3303503,
+    "name": "初期P.ゲージ上昇Ⅲ",
+    "description": "公演開始時、P.ゲージが[:param11]上昇",
+    "posterMasterId": 330350,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11513000
+          }
+        ],
+        "id": 330350301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3303504,
+    "name": "演技力上限上昇",
+    "description": "自身の演技力の上限が[:param11]％上昇",
+    "posterMasterId": 330350,
+    "type": "Normal",
+    "frameNumber": 4,
+    "releaseLevelAt": 10,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 12900000
+          }
+        ],
+        "id": 330350401
       }
     ],
     "branchConditionType1": "None",
