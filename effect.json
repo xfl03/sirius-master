@@ -16500,7 +16500,7 @@
     ],
     "durationSecond": 0,
     "triggers": [],
-    "fireTimingType": "StartLive"
+    "fireTimingType": "Passive"
   },
   {
     "id": 80104,
@@ -60811,6 +60811,79 @@
     "fireTimingType": "Passive"
   },
   {
+    "id": 10040103,
+    "type": "PerformanceUp",
+    "range": "Self",
+    "calculationType": "PercentageAddition",
+    "details": [
+      {
+        "level": 1,
+        "value": 1900.0
+      },
+      {
+        "level": 2,
+        "value": 2400.0
+      },
+      {
+        "level": 3,
+        "value": 2900.0
+      },
+      {
+        "level": 4,
+        "value": 3400.0
+      },
+      {
+        "level": 5,
+        "value": 3900.0
+      },
+      {
+        "level": 6,
+        "value": 4400.0
+      },
+      {
+        "level": 7,
+        "value": 4900.0
+      },
+      {
+        "level": 8,
+        "value": 5400.0
+      },
+      {
+        "level": 9,
+        "value": 5900.0
+      },
+      {
+        "level": 10,
+        "value": 6400.0
+      },
+      {
+        "level": 11,
+        "value": 6900.0
+      },
+      {
+        "level": 12,
+        "value": 7400.0
+      },
+      {
+        "level": 13,
+        "value": 7900.0
+      },
+      {
+        "level": 14,
+        "value": 8400.0
+      }
+    ],
+    "conditions": [],
+    "durationSecond": 0,
+    "triggers": [
+      {
+        "trigger": "CharacterBase",
+        "value": 103
+      }
+    ],
+    "fireTimingType": "Passive"
+  },
+  {
     "id": 10110000,
     "type": "VocalUp",
     "range": "Self",
@@ -78480,6 +78553,79 @@
     "fireTimingType": "Passive"
   },
   {
+    "id": 11810103,
+    "type": "AddSenseLightSelf",
+    "range": "Self",
+    "calculationType": "FixedAddition",
+    "details": [
+      {
+        "level": 1,
+        "value": 1.0
+      },
+      {
+        "level": 2,
+        "value": 1.0
+      },
+      {
+        "level": 3,
+        "value": 1.0
+      },
+      {
+        "level": 4,
+        "value": 1.0
+      },
+      {
+        "level": 5,
+        "value": 1.0
+      },
+      {
+        "level": 6,
+        "value": 1.0
+      },
+      {
+        "level": 7,
+        "value": 1.0
+      },
+      {
+        "level": 8,
+        "value": 1.0
+      },
+      {
+        "level": 9,
+        "value": 1.0
+      },
+      {
+        "level": 10,
+        "value": 1.0
+      },
+      {
+        "level": 11,
+        "value": 1.0
+      },
+      {
+        "level": 12,
+        "value": 1.0
+      },
+      {
+        "level": 13,
+        "value": 1.0
+      },
+      {
+        "level": 14,
+        "value": 1.0
+      }
+    ],
+    "conditions": [],
+    "durationSecond": 0,
+    "triggers": [
+      {
+        "trigger": "CharacterBase",
+        "value": 103
+      }
+    ],
+    "fireTimingType": "Passive"
+  },
+  {
     "id": 11810200,
     "type": "AddSenseLightSelf",
     "range": "Self",
@@ -83341,6 +83487,79 @@
       {
         "trigger": "Company",
         "value": 4
+      }
+    ],
+    "fireTimingType": "Passive"
+  },
+  {
+    "id": 12430000,
+    "type": "SenseRecastDown",
+    "range": "Self",
+    "calculationType": "FixedAddition",
+    "details": [
+      {
+        "level": 1,
+        "value": 3.0
+      },
+      {
+        "level": 2,
+        "value": 3.0
+      },
+      {
+        "level": 3,
+        "value": 3.0
+      },
+      {
+        "level": 4,
+        "value": 3.0
+      },
+      {
+        "level": 5,
+        "value": 3.0
+      },
+      {
+        "level": 6,
+        "value": 3.0
+      },
+      {
+        "level": 7,
+        "value": 3.0
+      },
+      {
+        "level": 8,
+        "value": 5.0
+      },
+      {
+        "level": 9,
+        "value": 5.0
+      },
+      {
+        "level": 10,
+        "value": 6.0
+      },
+      {
+        "level": 11,
+        "value": 6.0
+      },
+      {
+        "level": 12,
+        "value": 7.0
+      },
+      {
+        "level": 13,
+        "value": 7.0
+      },
+      {
+        "level": 14,
+        "value": 8.0
+      }
+    ],
+    "conditions": [],
+    "durationSecond": 0,
+    "triggers": [
+      {
+        "trigger": "CharacterBase",
+        "value": 103
       }
     ],
     "fireTimingType": "Passive"

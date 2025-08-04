@@ -9986,6 +9986,30 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 340240,
+    "name": "記念すべき時を刻んで――",
+    "description": "全アクターの演技力が[:param11]％上昇",
+    "posterMasterId": 340240,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70050000
+          }
+        ],
+        "id": 34024001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 2202301,
     "name": "演技力アップ＋",
     "description": "自身の演技力が[:param11]％上昇　◆発動条件：<color=#FF9314>陽属性</color>のアクターが装備",
@@ -20860,6 +20884,78 @@
           }
         ],
         "id": 340210301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3402401,
+    "name": "演技力アップⅣ",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：カトリナが装備",
+    "posterMasterId": 340240,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10040103
+          }
+        ],
+        "id": 340240101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3402402,
+    "name": "「光」獲得数増加",
+    "description": "センスで付与する「光」の付与数が[:param11]個増加　◆発動条件：カトリナが装備",
+    "posterMasterId": 340240,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11810103
+          }
+        ],
+        "id": 340240201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3402403,
+    "name": "CTダウンⅣ",
+    "description": "自身のセンスのCTを[:param11]秒短縮　◆発動条件：カトリナが装備",
+    "posterMasterId": 340240,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 12430000
+          }
+        ],
+        "id": 340240301
       }
     ],
     "branchConditionType1": "None",

@@ -21980,19 +21980,19 @@
   },
   {
     "id": 700001,
-    "missionCategory": "Limit",
+    "missionCategory": 6,
     "missionViewOrder": 1,
     "title": "",
     "description": "【ユメステデー】ログインしよう",
     "jumpType": "None",
-    "startDate": 1751864400.0,
-    "endDate": 1751950800.0,
+    "startDate": 1754542800.0,
+    "endDate": 1754629200.0,
     "stages": [
       {
-        "id": 700001,
+        "id": 7000011,
         "missionStageOrder": 1,
         "stageGoalValue": 1,
-        "startDate": 1751864400.0,
+        "startDate": 1754542800.0,
         "rewards": [
           {
             "thingId": 130071,
@@ -22005,22 +22005,22 @@
   },
   {
     "id": 700002,
-    "missionCategory": "Limit",
+    "missionCategory": 6,
     "missionViewOrder": 2,
     "title": "",
     "description": "【ユメステデー】稽古を[:param]回プレイしよう",
     "jumpType": 22,
-    "startDate": 1751864400.0,
-    "endDate": 1751950800.0,
+    "startDate": 1754542800.0,
+    "endDate": 1754629200.0,
     "stages": [
       {
-        "id": 700002,
+        "id": 7000021,
         "missionStageOrder": 1,
-        "stageGoalValue": 2,
-        "startDate": 1751864400.0,
+        "stageGoalValue": 3,
+        "startDate": 1754542800.0,
         "rewards": [
           {
-            "thingId": 215001,
+            "thingId": 215003,
             "thingType": "Item",
             "thingQuantity": 3
           }
@@ -22030,22 +22030,22 @@
   },
   {
     "id": 700003,
-    "missionCategory": "Limit",
+    "missionCategory": 6,
     "missionViewOrder": 3,
     "title": "",
     "description": "【ユメステデー】公演を[:param]回クリアしよう",
     "jumpType": "Live",
-    "startDate": 1751864400.0,
-    "endDate": 1751950800.0,
+    "startDate": 1754542800.0,
+    "endDate": 1754629200.0,
     "stages": [
       {
-        "id": 700003,
+        "id": 7000031,
         "missionStageOrder": 1,
         "stageGoalValue": 10,
-        "startDate": 1751864400.0,
+        "startDate": 1754542800.0,
         "rewards": [
           {
-            "thingId": 215002,
+            "thingId": 215004,
             "thingType": "Item",
             "thingQuantity": 3
           }
