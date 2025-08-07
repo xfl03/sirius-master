@@ -4692,5 +4692,27 @@
         ]
       }
     ]
+  },
+  {
+    "id": 231,
+    "description": "「劇団電姫」カテゴリの演技力30%上昇、「海」カテゴリの表現力20％上昇",
+    "details": [
+      {
+        "effectMasterId": 12004,
+        "conditions": [
+          {
+            "categoryMasterId1": 2004
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12011,
+        "conditions": [
+          {
+            "categoryMasterId1": 5007
+          }
+        ]
+      }
+    ]
   }
 ]

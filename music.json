@@ -7496,6 +7496,44 @@
     "musicCoverType": "Cover"
   },
   {
+    "id": 212,
+    "name": "ファンサ",
+    "description": "",
+    "rewardRuleMasterId": 1,
+    "pronounceName": "ふぁんさ",
+    "lyricWriter": "HoneyWorks",
+    "composer": "HoneyWorks",
+    "arranger": "-",
+    "unlockText": "楽曲ショップで購入",
+    "isLongVersion": false,
+    "releasedAt": 1755622800.0,
+    "staminaConsumption": 25,
+    "musicTimeSecond": 93,
+    "invisible": false,
+    "sampleStartSeconds": 0.0,
+    "sampleEndSeconds": 0.0,
+    "delaySeconds": 0.0,
+    "vocalVersions": [
+      {
+        "id": 21201,
+        "musicMasterId": 212,
+        "vocalVersion": 1,
+        "singer": "柳場ぱんだ",
+        "name": "ファンサ",
+        "musicTimeSecond": 93,
+        "sampleStartSeconds": 0.0,
+        "sampleEndSeconds": 0.0,
+        "musicVideoType": "None",
+        "characters": [
+          105
+        ]
+      }
+    ],
+    "unlockConditionType": "Buy",
+    "musicVideoType": "None",
+    "musicCoverType": "Cover"
+  },
+  {
     "id": 215,
     "name": "Invitation",
     "description": "",
@@ -7565,9 +7603,9 @@
         "musicVideoType": "None",
         "characters": [
           201,
+          205,
           202,
           203,
-          205,
           204
         ]
       }
@@ -7842,6 +7880,44 @@
     "musicCoverType": "Original"
   },
   {
+    "id": 225,
+    "name": "VIVID BIT AT HOME！",
+    "description": "",
+    "rewardRuleMasterId": 1,
+    "pronounceName": "vividbitathome",
+    "lyricWriter": "松井洋平",
+    "composer": "光増ハジメ（FirstCall）",
+    "arranger": "光増ハジメ（FirstCall）",
+    "isLongVersion": false,
+    "releasedAt": 1754845200.0,
+    "staminaConsumption": 27,
+    "musicTimeSecond": 105,
+    "invisible": false,
+    "sampleStartSeconds": 0.0,
+    "sampleEndSeconds": 0.0,
+    "delaySeconds": 0.0,
+    "vocalVersions": [
+      {
+        "id": 22501,
+        "musicMasterId": 225,
+        "vocalVersion": 1,
+        "singer": "柳場ぱんだ、千寿いろは",
+        "name": "VIVID BIT AT HOME！",
+        "musicTimeSecond": 105,
+        "sampleStartSeconds": 0.0,
+        "sampleEndSeconds": 0.0,
+        "musicVideoType": "None",
+        "characters": [
+          105,
+          401
+        ]
+      }
+    ],
+    "unlockConditionType": "Default",
+    "musicVideoType": "None",
+    "musicCoverType": "Original"
+  },
+  {
     "id": 236,
     "name": "カルペ・ディエム",
     "description": "",
@@ -7870,8 +7946,8 @@
         "sampleEndSeconds": 0.0,
         "musicVideoType": "None",
         "characters": [
-          202,
-          203
+          203,
+          202
         ]
       }
     ],
@@ -8423,8 +8499,8 @@
         "sampleEndSeconds": 0.0,
         "musicVideoType": "None",
         "characters": [
-          203,
-          201
+          201,
+          203
         ]
       }
     ],

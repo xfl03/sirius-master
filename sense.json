@@ -7595,6 +7595,49 @@
     "unknown15": []
   },
   {
+    "id": 141830,
+    "name": "なし",
+    "description": "効果無し（所持している「光」は維持される）",
+    "type": "None",
+    "preEffects": [],
+    "branches": [],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 0,
+    "scoreUpPerLevel": 0,
+    "lightCount": 0,
+    "coolTime": 0,
+    "branchCondition1": "None",
+    "branchCondition2": "None",
+    "unknown15": []
+  },
+  {
+    "id": 141840,
+    "name": "夕暮れ、潮騒のヴィーナス",
+    "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／センス発動後、追加で[:param11]のプリンシパルゲージを獲得",
+    "type": "Amplification",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20082
+          }
+        ],
+        "id": 1418401
+      }
+    ],
+    "acquirableGauge": 100,
+    "acquirableScorePercent": 180,
+    "scoreUpPerLevel": 60,
+    "lightCount": 1,
+    "coolTime": 50,
+    "branchCondition1": "None",
+    "branchCondition2": "None",
+    "unknown15": []
+  },
+  {
     "id": 150010,
     "name": "一度道を違えた絆でも",
     "description": "<size=25%>[:score]倍のスコアを獲得／センス発動直後、自身の歌唱力の[:param12]倍のスコアを獲得／シリウスまたは銀河座アクターの編成数×[:param11]プリンシパルゲージの上限が上昇する</size>",
