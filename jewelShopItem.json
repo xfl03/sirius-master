@@ -5600,6 +5600,126 @@
     "itemIconBadgeImagePath": "OneTime"
   },
   {
+    "id": 4513,
+    "order": 2005,
+    "appStoreProductId": "",
+    "googlePlayProductId": "",
+    "name": "クラス昇格特別パック【Class 2】",
+    "packText": "",
+    "mJewelShopCategoryId": 4,
+    "dialogType": 1,
+    "purchaseType": "Paid",
+    "purchaseValue": 2000,
+    "subscriptionFlag": false,
+    "replaceTypes": "None",
+    "purchaseLimit": 1,
+    "canPurchaseDayOfWeek": "",
+    "isBuyNotDisplay": true,
+    "isDisplayLocking": true,
+    "unlockType": "ClassReached",
+    "unlockValue": 2,
+    "startDate": 1754974800.0,
+    "lineup": [
+      {
+        "id": 451301,
+        "mJewelShopItemId": 4513,
+        "thingId": 220218,
+        "thingType": "Item",
+        "thingQuantity": 1
+      },
+      {
+        "id": 451302,
+        "mJewelShopItemId": 4513,
+        "thingId": 120002,
+        "thingType": "Item",
+        "thingQuantity": 100
+      },
+      {
+        "id": 451303,
+        "mJewelShopItemId": 4513,
+        "thingId": 130051,
+        "thingType": "Item",
+        "thingQuantity": 20
+      },
+      {
+        "id": 451304,
+        "mJewelShopItemId": 4513,
+        "thingId": 130041,
+        "thingType": "Item",
+        "thingQuantity": 350
+      },
+      {
+        "id": 451305,
+        "mJewelShopItemId": 4513,
+        "thingId": 130042,
+        "thingType": "Item",
+        "thingQuantity": 250
+      },
+      {
+        "id": 451306,
+        "mJewelShopItemId": 4513,
+        "thingId": 130043,
+        "thingType": "Item",
+        "thingQuantity": 50
+      }
+    ],
+    "shopItemType": "None",
+    "itemIconBodyImagePath": "Class02_03"
+  },
+  {
+    "id": 4514,
+    "order": 2006,
+    "appStoreProductId": "",
+    "googlePlayProductId": "",
+    "name": "クラス昇格特別パック【Class 3】",
+    "packText": "",
+    "mJewelShopCategoryId": 4,
+    "dialogType": 1,
+    "purchaseType": "Paid",
+    "purchaseValue": 2000,
+    "subscriptionFlag": false,
+    "replaceTypes": "None",
+    "purchaseLimit": 1,
+    "canPurchaseDayOfWeek": "",
+    "isBuyNotDisplay": true,
+    "isDisplayLocking": true,
+    "unlockType": "ClassReached",
+    "unlockValue": 3,
+    "startDate": 1755579600.0,
+    "lineup": [
+      {
+        "id": 451401,
+        "mJewelShopItemId": 4514,
+        "thingId": 120003,
+        "thingType": "Item",
+        "thingQuantity": 75
+      },
+      {
+        "id": 451402,
+        "mJewelShopItemId": 4514,
+        "thingId": 130051,
+        "thingType": "Item",
+        "thingQuantity": 20
+      },
+      {
+        "id": 451403,
+        "mJewelShopItemId": 4514,
+        "thingId": 130043,
+        "thingType": "Item",
+        "thingQuantity": 150
+      },
+      {
+        "id": 451404,
+        "mJewelShopItemId": 4514,
+        "thingId": 140000,
+        "thingType": "Item",
+        "thingQuantity": 200
+      }
+    ],
+    "shopItemType": "None",
+    "itemIconBodyImagePath": "Class03_03"
+  },
+  {
     "id": 5002,
     "order": 1,
     "appStoreProductId": "",
@@ -39203,7 +39323,7 @@
     "subscriptionFlag": false,
     "givePaidJewel": 1500,
     "replaceTypes": "None",
-    "purchaseLimit": 2,
+    "purchaseLimit": 1,
     "canPurchaseDayOfWeek": "",
     "isBuyNotDisplay": false,
     "isDisplayLocking": false,
@@ -39237,7 +39357,7 @@
     "subscriptionFlag": false,
     "givePaidJewel": 4800,
     "replaceTypes": "None",
-    "purchaseLimit": 2,
+    "purchaseLimit": 1,
     "canPurchaseDayOfWeek": "",
     "isBuyNotDisplay": false,
     "isDisplayLocking": false,
@@ -39271,7 +39391,7 @@
     "subscriptionFlag": false,
     "givePaidJewel": 9800,
     "replaceTypes": "None",
-    "purchaseLimit": 2,
+    "purchaseLimit": 1,
     "canPurchaseDayOfWeek": "",
     "isBuyNotDisplay": false,
     "isDisplayLocking": false,
@@ -55395,6 +55515,123 @@
     "itemIconBodyImagePath": "ActorgachaJewel",
     "itemIconDetailImagePath": "120_600",
     "itemIconBadgeImagePath": "FlashSale_3h"
+  },
+  {
+    "id": 20000,
+    "order": 2,
+    "appStoreProductId": "",
+    "googlePlayProductId": "",
+    "name": "金のジュゴン像パックＡ",
+    "packText": "",
+    "mJewelShopCategoryId": 4,
+    "dialogType": 1,
+    "purchaseType": "Paid",
+    "purchaseValue": 1500,
+    "subscriptionFlag": false,
+    "replaceTypes": "None",
+    "purchaseLimit": 1,
+    "canPurchaseDayOfWeek": "",
+    "isBuyNotDisplay": false,
+    "isDisplayLocking": false,
+    "startDate": 1754845200.0,
+    "endDate": 1755709200.0,
+    "lineup": [
+      {
+        "id": 2000001,
+        "mJewelShopItemId": 20000,
+        "thingId": 150000,
+        "thingType": "Item",
+        "thingQuantity": 100
+      },
+      {
+        "id": 2000002,
+        "mJewelShopItemId": 20000,
+        "thingId": 120003,
+        "thingType": "Item",
+        "thingQuantity": 25
+      }
+    ],
+    "shopItemType": "None",
+    "itemIconBodyImagePath": "GDugongHScripts_1",
+    "itemIconBadgeImagePath": "OneTime"
+  },
+  {
+    "id": 20001,
+    "order": 3,
+    "appStoreProductId": "",
+    "googlePlayProductId": "",
+    "name": "金のジュゴン像パックB",
+    "packText": "",
+    "mJewelShopCategoryId": 4,
+    "dialogType": 1,
+    "purchaseType": "Paid",
+    "purchaseValue": 3000,
+    "subscriptionFlag": false,
+    "replaceTypes": "None",
+    "purchaseLimit": 1,
+    "canPurchaseDayOfWeek": "",
+    "isBuyNotDisplay": false,
+    "isDisplayLocking": false,
+    "startDate": 1754845200.0,
+    "endDate": 1755709200.0,
+    "lineup": [
+      {
+        "id": 2000101,
+        "mJewelShopItemId": 20001,
+        "thingId": 150000,
+        "thingType": "Item",
+        "thingQuantity": 250
+      },
+      {
+        "id": 2000102,
+        "mJewelShopItemId": 20001,
+        "thingId": 120003,
+        "thingType": "Item",
+        "thingQuantity": 60
+      }
+    ],
+    "shopItemType": "None",
+    "itemIconBodyImagePath": "GDugongHScripts_2",
+    "itemIconBadgeImagePath": "OneTime"
+  },
+  {
+    "id": 20002,
+    "order": 4,
+    "appStoreProductId": "",
+    "googlePlayProductId": "",
+    "name": "高級スタミナドリンクパック",
+    "packText": "",
+    "mJewelShopCategoryId": 4,
+    "dialogType": 1,
+    "purchaseType": "Paid",
+    "purchaseValue": 1500,
+    "subscriptionFlag": false,
+    "replaceTypes": "None",
+    "purchaseLimit": 1,
+    "canPurchaseDayOfWeek": "",
+    "isBuyNotDisplay": false,
+    "isDisplayLocking": false,
+    "startDate": 1754845200.0,
+    "endDate": 1755709200.0,
+    "lineup": [
+      {
+        "id": 2000201,
+        "mJewelShopItemId": 20002,
+        "thingId": 110002,
+        "thingType": "Item",
+        "thingQuantity": 50
+      },
+      {
+        "id": 2000202,
+        "mJewelShopItemId": 20002,
+        "thingId": 130013,
+        "thingType": "Item",
+        "thingQuantity": 5
+      }
+    ],
+    "shopItemType": "None",
+    "itemIconBodyImagePath": "StaminaSuigyoku",
+    "itemIconBadgeImagePath": "OneTime"
   },
   {
     "id": 100000,
