@@ -7638,6 +7638,54 @@
     "unknown15": []
   },
   {
+    "id": 141850,
+    "name": "なし",
+    "description": "ここな編成時、ここなが代わりにセンスを発動し、ここなのスコア獲得量[:pre1]％UP",
+    "type": "Alternative",
+    "preEffects": [
+      {
+        "order": 1,
+        "effectMasterId": 20024
+      }
+    ],
+    "branches": [],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 0,
+    "scoreUpPerLevel": 0,
+    "lightCount": 0,
+    "coolTime": 0,
+    "branchCondition1": "None",
+    "branchCondition2": "None",
+    "unknown15": []
+  },
+  {
+    "id": 141860,
+    "name": "冷酷な正義",
+    "description": "[:score]倍のスコアを獲得／[:sec]秒間、シリウスのアクターにスターアクトスコア[:param11]％UP効果",
+    "type": "Amplification",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20104
+          }
+        ],
+        "id": 1418601
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 220,
+    "scoreUpPerLevel": 50,
+    "lightCount": 1,
+    "coolTime": 40,
+    "branchCondition1": "None",
+    "branchCondition2": "None",
+    "unknown15": []
+  },
+  {
     "id": 150010,
     "name": "一度道を違えた絆でも",
     "description": "<size=25%>[:score]倍のスコアを獲得／センス発動直後、自身の歌唱力の[:param12]倍のスコアを獲得／シリウスまたは銀河座アクターの編成数×[:param11]プリンシパルゲージの上限が上昇する</size>",

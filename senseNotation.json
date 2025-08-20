@@ -22858,14 +22858,132 @@
       {
         "id": 11092,
         "type": "Character",
-        "targetValue": 140100,
+        "targetValue": 140090,
         "buffValue": 100,
         "statusType": "Performance"
       },
       {
         "id": 11093,
         "type": "Character",
-        "targetValue": 140460,
+        "targetValue": 140480,
+        "buffValue": 100,
+        "statusType": "Performance"
+      }
+    ]
+  },
+  {
+    "id": 1110,
+    "details": [
+      {
+        "id": 1110101,
+        "position": 1,
+        "timingSecond": 3
+      },
+      {
+        "id": 1110102,
+        "position": 1,
+        "timingSecond": 63
+      },
+      {
+        "id": 1110103,
+        "position": 1,
+        "timingSecond": 113
+      },
+      {
+        "id": 1110104,
+        "position": 1,
+        "timingSecond": 158
+      },
+      {
+        "id": 1110201,
+        "position": 2,
+        "timingSecond": 9
+      },
+      {
+        "id": 1110202,
+        "position": 2,
+        "timingSecond": 54
+      },
+      {
+        "id": 1110203,
+        "position": 2,
+        "timingSecond": 94
+      },
+      {
+        "id": 1110204,
+        "position": 2,
+        "timingSecond": 134
+      },
+      {
+        "id": 1110205,
+        "position": 2,
+        "timingSecond": 169
+      },
+      {
+        "id": 1110206,
+        "position": 2,
+        "timingSecond": 204
+      },
+      {
+        "id": 1110401,
+        "position": 4,
+        "timingSecond": 26
+      },
+      {
+        "id": 1110402,
+        "position": 4,
+        "timingSecond": 76
+      },
+      {
+        "id": 1110403,
+        "position": 4,
+        "timingSecond": 141
+      },
+      {
+        "id": 1110404,
+        "position": 4,
+        "timingSecond": 191
+      },
+      {
+        "id": 1110501,
+        "position": 5,
+        "timingSecond": 14
+      },
+      {
+        "id": 1110502,
+        "position": 5,
+        "timingSecond": 84
+      },
+      {
+        "id": 1110503,
+        "position": 5,
+        "timingSecond": 129
+      },
+      {
+        "id": 1110504,
+        "position": 5,
+        "timingSecond": 174
+      }
+    ],
+    "buffs": [
+      {
+        "id": 11101,
+        "type": "Attribute",
+        "targetValue": 3,
+        "buffValue": 150,
+        "statusType": "Performance"
+      },
+      {
+        "id": 11102,
+        "type": "Character",
+        "targetValue": 140120,
+        "buffValue": 100,
+        "statusType": "Performance"
+      },
+      {
+        "id": 11103,
+        "type": "Character",
+        "targetValue": 140360,
         "buffValue": 100,
         "statusType": "Performance"
       }
@@ -41571,6 +41689,174 @@
         "id": 100216502,
         "position": 5,
         "timingSecond": 70
+      }
+    ],
+    "buffs": []
+  },
+  {
+    "id": 100217,
+    "details": [
+      {
+        "id": 100217101,
+        "position": 1,
+        "timingSecond": 100
+      },
+      {
+        "id": 100217201,
+        "position": 2,
+        "timingSecond": 50
+      },
+      {
+        "id": 100217202,
+        "position": 2,
+        "timingSecond": 85
+      },
+      {
+        "id": 100217301,
+        "position": 3,
+        "timingSecond": 35
+      },
+      {
+        "id": 100217302,
+        "position": 3,
+        "timingSecond": 70
+      },
+      {
+        "id": 100217401,
+        "position": 4,
+        "timingSecond": 15
+      },
+      {
+        "id": 100217402,
+        "position": 4,
+        "timingSecond": 60
+      },
+      {
+        "id": 100217501,
+        "position": 5,
+        "timingSecond": 45
+      },
+      {
+        "id": 100217502,
+        "position": 5,
+        "timingSecond": 90
+      }
+    ],
+    "buffs": []
+  },
+  {
+    "id": 100218,
+    "details": [
+      {
+        "id": 100218101,
+        "position": 1,
+        "timingSecond": 85
+      },
+      {
+        "id": 100218201,
+        "position": 2,
+        "timingSecond": 40
+      },
+      {
+        "id": 100218202,
+        "position": 2,
+        "timingSecond": 65
+      },
+      {
+        "id": 100218301,
+        "position": 3,
+        "timingSecond": 35
+      },
+      {
+        "id": 100218302,
+        "position": 3,
+        "timingSecond": 90
+      },
+      {
+        "id": 100218401,
+        "position": 4,
+        "timingSecond": 15
+      },
+      {
+        "id": 100218402,
+        "position": 4,
+        "timingSecond": 70
+      },
+      {
+        "id": 100218501,
+        "position": 5,
+        "timingSecond": 55
+      },
+      {
+        "id": 100218502,
+        "position": 5,
+        "timingSecond": 115
+      }
+    ],
+    "buffs": []
+  },
+  {
+    "id": 100219,
+    "details": [
+      {
+        "id": 100219101,
+        "position": 1,
+        "timingSecond": 18
+      },
+      {
+        "id": 100219102,
+        "position": 1,
+        "timingSecond": 40
+      },
+      {
+        "id": 100219103,
+        "position": 1,
+        "timingSecond": 65
+      },
+      {
+        "id": 100219201,
+        "position": 2,
+        "timingSecond": 30
+      },
+      {
+        "id": 100219202,
+        "position": 2,
+        "timingSecond": 55
+      },
+      {
+        "id": 100219203,
+        "position": 2,
+        "timingSecond": 80
+      },
+      {
+        "id": 100219301,
+        "position": 3,
+        "timingSecond": 5
+      },
+      {
+        "id": 100219302,
+        "position": 3,
+        "timingSecond": 50
+      },
+      {
+        "id": 100219401,
+        "position": 4,
+        "timingSecond": 12
+      },
+      {
+        "id": 100219501,
+        "position": 5,
+        "timingSecond": 25
+      },
+      {
+        "id": 100219502,
+        "position": 5,
+        "timingSecond": 60
+      },
+      {
+        "id": 100219503,
+        "position": 5,
+        "timingSecond": 95
       }
     ],
     "buffs": []

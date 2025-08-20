@@ -5169,6 +5169,33 @@
     "unknown27": 0
   },
   {
+    "id": 230730,
+    "name": "シリウスにて、輝く星々",
+    "rarity": "SSR",
+    "levelPatternGroupMasterId": 3,
+    "subTitlePositionX1": 470.0,
+    "subTitlePositionY1": 1296.0,
+    "releaseItemGroupId": 3,
+    "pronounceName": "しりうすにてかがやくほしぼし",
+    "costumes": [],
+    "appearanceCharacterBaseMasterIds": [
+      101,
+      102,
+      103,
+      104,
+      105,
+      106
+    ],
+    "isRestrictItemBreakThrough": false,
+    "displayStartAt": 1755709200.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "ガチャで入手",
+    "orientation": "Portrait",
+    "subTitleDisplayCondition": "None",
+    "unknown25": 4,
+    "unknown27": 0
+  },
+  {
     "id": 320010,
     "name": "ギャルからオタクに転身してみた件",
     "rarity": "SR",
@@ -7295,9 +7322,40 @@
     "displayEndAt": 4102444800.0,
     "unlockText": "ガチャ(期間限定)で入手",
     "orientation": "Portrait",
-    "subTitleDisplayCondition": "BreakThroughPhase",
-    "subTitleDisplayConditionValue": 2,
+    "subTitleDisplayCondition": "None",
     "unknown25": 4,
-    "unknown27": 0
+    "unknown27": 1,
+    "unknown28": 2
+  },
+  {
+    "id": 340370,
+    "name": "【Birthday Night】与那国 緋花里",
+    "rarity": "SSR",
+    "levelPatternGroupMasterId": 3,
+    "subTitlePositionX1": 0.0,
+    "subTitlePositionY1": 1625.0,
+    "subTitlePositionX2": 0.0,
+    "subTitlePositionY2": 1012.0,
+    "releaseItemGroupId": 3,
+    "pronounceName": "よなぐにひかり",
+    "costumes": [
+      {
+        "phase": 4,
+        "unknown3": 1,
+        "unknown4": 30305
+      }
+    ],
+    "appearanceCharacterBaseMasterIds": [
+      305
+    ],
+    "isRestrictItemBreakThrough": false,
+    "displayStartAt": 1755648000.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "ガチャ(期間限定)で入手",
+    "orientation": "Portrait",
+    "subTitleDisplayCondition": "None",
+    "unknown25": 4,
+    "unknown27": 1,
+    "unknown28": 2
   }
 ]
