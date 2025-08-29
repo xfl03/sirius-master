@@ -7686,6 +7686,115 @@
     "unknown15": []
   },
   {
+    "id": 141870,
+    "name": "アタシを起こしたの、アンタ？",
+    "description": "<size=28%>[:score]倍のスコアを獲得／[:sec11]秒間、劇団電姫のアクターにスターアクトスコア[:param11]％UP効果／センス発動後、プリンシパルゲージの上限値が[:param21]上昇</size>",
+    "type": "Control",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20403
+          },
+          {
+            "order": 2,
+            "effectMasterId": 20096
+          }
+        ],
+        "id": 1418701
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 190,
+    "scoreUpPerLevel": 50,
+    "lightCount": 1,
+    "coolTime": 35,
+    "branchCondition1": "None",
+    "branchCondition2": "None",
+    "unknown15": []
+  },
+  {
+    "id": 141880,
+    "name": "彼岸花は呪い嗤う",
+    "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／センス発動時、劇団電姫アクターの人数×20のプリンシパルゲージを獲得",
+    "type": "Special",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20090
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 1,
+        "id": 1418801
+      },
+      {
+        "order": 2,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20091
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 2,
+        "id": 1418802
+      },
+      {
+        "order": 3,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20092
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 3,
+        "id": 1418803
+      },
+      {
+        "order": 4,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20093
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 4,
+        "id": 1418804
+      },
+      {
+        "order": 5,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20094
+          }
+        ],
+        "judgeType1": "MoreThan",
+        "parameter1": 5,
+        "id": 1418805
+      }
+    ],
+    "acquirableGauge": 120,
+    "acquirableScorePercent": 190,
+    "scoreUpPerLevel": 70,
+    "lightCount": 1,
+    "coolTime": 60,
+    "branchCondition1": "CompanyMemberCount",
+    "conditionValue1": 4,
+    "branchCondition2": "None",
+    "unknown15": []
+  },
+  {
     "id": 150010,
     "name": "一度道を違えた絆でも",
     "description": "<size=25%>[:score]倍のスコアを獲得／センス発動直後、自身の歌唱力の[:param12]倍のスコアを獲得／シリウスまたは銀河座アクターの編成数×[:param11]プリンシパルゲージの上限が上昇する</size>",
