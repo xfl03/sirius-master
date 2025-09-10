@@ -4780,5 +4780,27 @@
         ]
       }
     ]
+  },
+  {
+    "id": 235,
+    "description": "「Eden」カテゴリの演技力30%上昇、「動物」カテゴリの表現力20％上昇",
+    "details": [
+      {
+        "effectMasterId": 12004,
+        "conditions": [
+          {
+            "categoryMasterId1": 2002
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12011,
+        "conditions": [
+          {
+            "categoryMasterId1": 4004
+          }
+        ]
+      }
+    ]
   }
 ]

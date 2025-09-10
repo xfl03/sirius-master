@@ -10082,6 +10082,54 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 340260,
+    "name": "心の声で微睡んで",
+    "description": "全アクターの演技力が[:param11]％上昇",
+    "posterMasterId": 340260,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70050000
+          }
+        ],
+        "id": 34026001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 340290,
+    "name": "激情も今は夢の中",
+    "description": "全アクターの演技力が[:param11]％上昇",
+    "posterMasterId": 340290,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70050000
+          }
+        ],
+        "id": 34029001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 340370,
     "name": "暮れてもなお、輝く太陽",
     "description": "全アクターの演技力が[:param11]％上昇",
@@ -21268,6 +21316,150 @@
           }
         ],
         "id": 340240301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3402601,
+    "name": "演技力アップⅣ",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：ぱんだが装備",
+    "posterMasterId": 340260,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10040105
+          }
+        ],
+        "id": 340260101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3402602,
+    "name": "「光」獲得数増加",
+    "description": "センスで付与する「光」の付与数が[:param11]個増加　◆発動条件：ぱんだが装備",
+    "posterMasterId": 340260,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11810105
+          }
+        ],
+        "id": 340260201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3402603,
+    "name": "CTダウンⅣ",
+    "description": "自身のセンスのCTを[:param11]秒短縮　◆発動条件：ぱんだが装備",
+    "posterMasterId": 340260,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 12430105
+          }
+        ],
+        "id": 340260301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3402901,
+    "name": "演技力アップⅣ",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：大黒が装備",
+    "posterMasterId": 340290,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10040202
+          }
+        ],
+        "id": 340290101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3402902,
+    "name": "「光」獲得数増加",
+    "description": "センスで付与する「光」の付与数が[:param11]個増加　◆発動条件：大黒が装備",
+    "posterMasterId": 340290,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11810202
+          }
+        ],
+        "id": 340290201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3402903,
+    "name": "CTダウンⅣ",
+    "description": "自身のセンスのCTを[:param11]秒短縮　◆発動条件：大黒が装備",
+    "posterMasterId": 340290,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 12430202
+          }
+        ],
+        "id": 340290301
       }
     ],
     "branchConditionType1": "None",

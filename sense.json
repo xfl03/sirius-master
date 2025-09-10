@@ -7688,7 +7688,7 @@
   {
     "id": 141870,
     "name": "アタシを起こしたの、アンタ？",
-    "description": "<size=28%>[:score]倍のスコアを獲得／[:sec11]秒間、劇団電姫のアクターにスターアクトスコア[:param11]％UP効果／センス発動後、プリンシパルゲージの上限値が[:param21]上昇</size>",
+    "description": "<size=28%>[:score]倍のスコアを獲得／[:sec11]秒間、劇団電姫のアクターにスターアクトスコア[:param11]％UP効果／センス発動後、プリンシパルゲージの上限値が[:param12]上昇</size>",
     "type": "Control",
     "preEffects": [],
     "branches": [
@@ -7791,6 +7791,60 @@
     "coolTime": 60,
     "branchCondition1": "CompanyMemberCount",
     "conditionValue1": 4,
+    "branchCondition2": "None",
+    "unknown15": []
+  },
+  {
+    "id": 141890,
+    "name": "Belly Dancing!",
+    "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／センス発動後、追加で[:param11]のプリンシパルゲージを獲得",
+    "type": "Support",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20082
+          }
+        ],
+        "id": 1418901
+      }
+    ],
+    "acquirableGauge": 80,
+    "acquirableScorePercent": 150,
+    "scoreUpPerLevel": 40,
+    "lightCount": 2,
+    "coolTime": 30,
+    "branchCondition1": "None",
+    "branchCondition2": "None",
+    "unknown15": []
+  },
+  {
+    "id": 141900,
+    "name": "陽射し、ラクダに乗って",
+    "description": "[:score]倍のスコアを獲得／センス発動時、追加で「特殊の光」を1個獲得する／センス発動時、追加で「ライフガード」を[:param11]回獲得する",
+    "type": "Amplification",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29302
+          }
+        ],
+        "id": 1419001
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 220,
+    "scoreUpPerLevel": 50,
+    "lightCount": 1,
+    "coolTime": 40,
+    "branchCondition1": "None",
     "branchCondition2": "None",
     "unknown15": []
   },
