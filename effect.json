@@ -65333,6 +65333,79 @@
     "fireTimingType": "Passive"
   },
   {
+    "id": 10331100,
+    "type": "ConcentrationUp",
+    "range": "Self",
+    "calculationType": "PercentageAddition",
+    "details": [
+      {
+        "level": 1,
+        "value": 3500.0
+      },
+      {
+        "level": 2,
+        "value": 4200.0
+      },
+      {
+        "level": 3,
+        "value": 4900.0
+      },
+      {
+        "level": 4,
+        "value": 5600.0
+      },
+      {
+        "level": 5,
+        "value": 6300.0
+      },
+      {
+        "level": 6,
+        "value": 7000.0
+      },
+      {
+        "level": 7,
+        "value": 7700.0
+      },
+      {
+        "level": 8,
+        "value": 8400.0
+      },
+      {
+        "level": 9,
+        "value": 9100.0
+      },
+      {
+        "level": 10,
+        "value": 9800.0
+      },
+      {
+        "level": 11,
+        "value": 10500.0
+      },
+      {
+        "level": 12,
+        "value": 11200.0
+      },
+      {
+        "level": 13,
+        "value": 11900.0
+      },
+      {
+        "level": 14,
+        "value": 12600.0
+      }
+    ],
+    "conditions": [],
+    "durationSecond": 0,
+    "triggers": [
+      {
+        "trigger": "Company",
+        "value": 1
+      }
+    ],
+    "fireTimingType": "Passive"
+  },
+  {
     "id": 10411400,
     "type": "PerformanceUp",
     "range": "Self",
@@ -68578,6 +68651,79 @@
     "conditions": [],
     "durationSecond": 0,
     "triggers": [],
+    "fireTimingType": "Sense"
+  },
+  {
+    "id": 10811001,
+    "type": "ScoreGainOnScore",
+    "range": "None",
+    "calculationType": "PercentageAddition",
+    "details": [
+      {
+        "level": 1,
+        "value": 135.0
+      },
+      {
+        "level": 2,
+        "value": 150.0
+      },
+      {
+        "level": 3,
+        "value": 165.0
+      },
+      {
+        "level": 4,
+        "value": 180.0
+      },
+      {
+        "level": 5,
+        "value": 195.0
+      },
+      {
+        "level": 6,
+        "value": 210.0
+      },
+      {
+        "level": 7,
+        "value": 225.0
+      },
+      {
+        "level": 8,
+        "value": 240.0
+      },
+      {
+        "level": 9,
+        "value": 255.0
+      },
+      {
+        "level": 10,
+        "value": 270.0
+      },
+      {
+        "level": 11,
+        "value": 285.0
+      },
+      {
+        "level": 12,
+        "value": 300.0
+      },
+      {
+        "level": 13,
+        "value": 315.0
+      },
+      {
+        "level": 14,
+        "value": 330.0
+      }
+    ],
+    "conditions": [],
+    "durationSecond": 0,
+    "triggers": [
+      {
+        "trigger": "Attribute",
+        "value": 1
+      }
+    ],
     "fireTimingType": "Sense"
   },
   {
@@ -72738,6 +72884,79 @@
       {
         "trigger": "Attribute",
         "value": 4
+      }
+    ],
+    "fireTimingType": "Sense"
+  },
+  {
+    "id": 11131100,
+    "type": "ScoreGainOnConcentration",
+    "range": "None",
+    "calculationType": "Multiplication",
+    "details": [
+      {
+        "level": 1,
+        "value": 700.0
+      },
+      {
+        "level": 2,
+        "value": 840.0
+      },
+      {
+        "level": 3,
+        "value": 980.0
+      },
+      {
+        "level": 4,
+        "value": 1120.0
+      },
+      {
+        "level": 5,
+        "value": 1260.0
+      },
+      {
+        "level": 6,
+        "value": 1400.0
+      },
+      {
+        "level": 7,
+        "value": 1540.0
+      },
+      {
+        "level": 8,
+        "value": 1680.0
+      },
+      {
+        "level": 9,
+        "value": 1820.0
+      },
+      {
+        "level": 10,
+        "value": 1960.0
+      },
+      {
+        "level": 11,
+        "value": 2100.0
+      },
+      {
+        "level": 12,
+        "value": 2240.0
+      },
+      {
+        "level": 13,
+        "value": 2380.0
+      },
+      {
+        "level": 14,
+        "value": 2520.0
+      }
+    ],
+    "conditions": [],
+    "durationSecond": 0,
+    "triggers": [
+      {
+        "trigger": "Company",
+        "value": 1
       }
     ],
     "fireTimingType": "Sense"
@@ -78762,6 +78981,79 @@
     "conditions": [],
     "durationSecond": 0,
     "triggers": [],
+    "fireTimingType": "Passive"
+  },
+  {
+    "id": 11621001,
+    "type": "PrincipalGaugeUp",
+    "range": "Self",
+    "calculationType": "PercentageAddition",
+    "details": [
+      {
+        "level": 1,
+        "value": 10800.0
+      },
+      {
+        "level": 2,
+        "value": 12000.0
+      },
+      {
+        "level": 3,
+        "value": 13200.0
+      },
+      {
+        "level": 4,
+        "value": 14400.0
+      },
+      {
+        "level": 5,
+        "value": 15600.0
+      },
+      {
+        "level": 6,
+        "value": 16800.0
+      },
+      {
+        "level": 7,
+        "value": 18000.0
+      },
+      {
+        "level": 8,
+        "value": 19200.0
+      },
+      {
+        "level": 9,
+        "value": 20400.0
+      },
+      {
+        "level": 10,
+        "value": 21600.0
+      },
+      {
+        "level": 11,
+        "value": 22800.0
+      },
+      {
+        "level": 12,
+        "value": 24000.0
+      },
+      {
+        "level": 13,
+        "value": 25200.0
+      },
+      {
+        "level": 14,
+        "value": 26400.0
+      }
+    ],
+    "conditions": [],
+    "durationSecond": 0,
+    "triggers": [
+      {
+        "trigger": "Attribute",
+        "value": 1
+      }
+    ],
     "fireTimingType": "Passive"
   },
   {

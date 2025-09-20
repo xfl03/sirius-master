@@ -7849,6 +7849,65 @@
     "unknown15": []
   },
   {
+    "id": 141910,
+    "name": "ずっと一緒だよ、お父様",
+    "description": "[:score]倍のスコアを獲得／センス発動後、プリンシパルゲージの上限値が[:param11]上昇",
+    "type": "Control",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20096
+          }
+        ],
+        "id": 1419101
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 740,
+    "scoreUpPerLevel": 70,
+    "lightCount": 2,
+    "coolTime": 60,
+    "branchCondition1": "None",
+    "branchCondition2": "None",
+    "unknown15": []
+  },
+  {
+    "id": 141920,
+    "name": "困窮の果て、娘のために",
+    "description": "[:score]倍のスコアを獲得／センス発動直後、自身の表現力の[:param11]倍のスコアを獲得／ライフが多いほどスコア獲得量UP効果（最大＋[:pre1]%）",
+    "type": "Support",
+    "preEffects": [
+      {
+        "order": 1,
+        "effectMasterId": 28006
+      }
+    ],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20535
+          }
+        ],
+        "id": 1419201
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 510,
+    "scoreUpPerLevel": 40,
+    "lightCount": 1,
+    "coolTime": 30,
+    "branchCondition1": "None",
+    "branchCondition2": "None",
+    "unknown15": []
+  },
+  {
     "id": 150010,
     "name": "一度道を違えた絆でも",
     "description": "<size=25%>[:score]倍のスコアを獲得／センス発動直後、自身の歌唱力の[:param12]倍のスコアを獲得／シリウスまたは銀河座アクターの編成数×[:param11]プリンシパルゲージの上限が上昇する</size>",

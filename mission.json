@@ -16950,6 +16950,81 @@
     ]
   },
   {
+    "id": 49200,
+    "missionCategory": "Limit",
+    "missionViewOrder": 8,
+    "title": "",
+    "description": "メインストーリー シリウス第4章第24話を読もう",
+    "jumpType": "Story",
+    "startDate": 1758387600.0,
+    "endDate": 1759251600.0,
+    "stages": [
+      {
+        "id": 49200,
+        "missionStageOrder": 1,
+        "stageGoalValue": 1,
+        "startDate": 1758387600.0,
+        "rewards": [
+          {
+            "thingId": 0,
+            "thingType": "Jewel",
+            "thingQuantity": 100
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 49300,
+    "missionCategory": "Limit",
+    "missionViewOrder": 33,
+    "title": "",
+    "description": "「STARRY STORY！」を[:param]回クリアしよう",
+    "jumpType": "Live",
+    "startDate": 1758387600.0,
+    "endDate": 1759251600.0,
+    "stages": [
+      {
+        "id": 49300,
+        "missionStageOrder": 1,
+        "stageGoalValue": 5,
+        "startDate": 1758387600.0,
+        "rewards": [
+          {
+            "thingId": 0,
+            "thingType": "Jewel",
+            "thingQuantity": 50
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 49400,
+    "missionCategory": "Limit",
+    "missionViewOrder": 34,
+    "title": "",
+    "description": "「STARRY STORY！」を[:param]回クリアしよう",
+    "jumpType": "Live",
+    "startDate": 1758387600.0,
+    "endDate": 1759251600.0,
+    "stages": [
+      {
+        "id": 49400,
+        "missionStageOrder": 1,
+        "stageGoalValue": 10,
+        "startDate": 1758387600.0,
+        "rewards": [
+          {
+            "thingId": 0,
+            "thingType": "Jewel",
+            "thingQuantity": 50
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": 100000,
     "missionCategory": "Daily",
     "missionViewOrder": 100000,
@@ -23117,8 +23192,8 @@
     "title": "",
     "description": "【ユメステデー】ログインしよう",
     "jumpType": "None",
-    "startDate": 1756270800.0,
-    "endDate": 1756357200.0,
+    "startDate": 1758949200.0,
+    "endDate": 1759035600.0,
     "stages": [
       {
         "id": 7000101,
@@ -23142,8 +23217,8 @@
     "title": "",
     "description": "【ユメステデー】稽古を[:param]回プレイしよう",
     "jumpType": 22,
-    "startDate": 1756270800.0,
-    "endDate": 1756357200.0,
+    "startDate": 1758949200.0,
+    "endDate": 1759035600.0,
     "stages": [
       {
         "id": 7000111,
@@ -23152,7 +23227,7 @@
         "startDate": 1753592400.0,
         "rewards": [
           {
-            "thingId": 215003,
+            "thingId": 215005,
             "thingType": "Item",
             "thingQuantity": 4
           }
@@ -23167,8 +23242,8 @@
     "title": "",
     "description": "【ユメステデー】公演を[:param]回クリアしよう",
     "jumpType": "Live",
-    "startDate": 1756270800.0,
-    "endDate": 1756357200.0,
+    "startDate": 1758949200.0,
+    "endDate": 1759035600.0,
     "stages": [
       {
         "id": 7000121,
@@ -23177,7 +23252,7 @@
         "startDate": 1753592400.0,
         "rewards": [
           {
-            "thingId": 215004,
+            "thingId": 215006,
             "thingType": "Item",
             "thingQuantity": 4
           }

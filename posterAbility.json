@@ -8274,6 +8274,30 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 230760,
+    "name": "次に輝くのはわたしだから",
+    "description": "シリウスに所属するアクターの演技力が[:param11]％上昇",
+    "posterMasterId": 230760,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70042100
+          }
+        ],
+        "id": 23076001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 320010,
     "name": "鬼人と竜魔人",
     "description": "<color=#FF9314>陽属性</color>のアクターの演技力が[:param11]%上昇",
@@ -9548,6 +9572,30 @@
           }
         ],
         "id": 33035001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 330360,
+    "name": "Listen to my Niedlich!!",
+    "description": "全アクターの演技力が[:param11]％上昇",
+    "posterMasterId": 330360,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70052000
+          }
+        ],
+        "id": 33036001
       }
     ],
     "branchConditionType1": "None",
@@ -16258,6 +16306,78 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 2307601,
+    "name": "集中力アップⅢ＋",
+    "description": "自身の集中力が[:param11]％上昇",
+    "posterMasterId": 230760,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10331000
+          }
+        ],
+        "id": 230760101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2307602,
+    "name": "P.ゲージ獲得量アップ＋",
+    "description": "センスによるP.ゲージの獲得量が[:param11]％UP　◆発動条件：シリウスに所属するアクターが装備",
+    "posterMasterId": 230760,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11611100
+          }
+        ],
+        "id": 230760201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2307603,
+    "name": "スコアブースト・集中力Ⅲ＋",
+    "description": "センス発動直後、自身の集中力の[:param11]倍のスコアを獲得　◆発動条件：シリウスに所属するアクターが装備",
+    "posterMasterId": 230760,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11131100
+          }
+        ],
+        "id": 230760301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 3200101,
     "name": "初期ライフ上昇＋",
     "description": "公演開始時、ライフが[:param11]上昇　◆発動条件：<color=#FF9314>陽属性</color>のアクターが装備",
@@ -19732,6 +19852,102 @@
           }
         ],
         "id": 330350401
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3303601,
+    "name": "演技力アップⅢ＋",
+    "description": "自身の演技力が[:param11]%上昇",
+    "posterMasterId": 330360,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10031000
+          }
+        ],
+        "id": 330360101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3303602,
+    "name": "P.ゲージ獲得量アップⅡ",
+    "description": "センスによるP.ゲージの獲得量が[:param11]％UP　◆発動条件：<color=#ff679d>憐属性</color>のアクターが装備",
+    "posterMasterId": 330360,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11621001
+          }
+        ],
+        "id": 330360201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3303603,
+    "name": "スコアブーストⅡ",
+    "description": "センス発動直後、その時のスコアの[:param11]％のスコアを獲得　◆発動条件：<color=#ff679d>憐属性</color>のアクターが装備",
+    "posterMasterId": 330360,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10811001
+          }
+        ],
+        "id": 330360301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3303604,
+    "name": "「光」追加（SP）Ⅱ",
+    "description": "公演開始時、SP光を[:param11]付与　◆発動条件：<color=#ff679d>憐属性</color>のアクターが装備",
+    "posterMasterId": 330360,
+    "type": "Normal",
+    "frameNumber": 4,
+    "releaseLevelAt": 10,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11920001
+          }
+        ],
+        "id": 330360401
       }
     ],
     "branchConditionType1": "None",

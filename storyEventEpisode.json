@@ -83,7 +83,7 @@
   {
     "id": 1010410,
     "storyMasterId": 10104,
-    "requiredTotalAcquiredPoint": 2000,
+    "requiredTotalAcquiredPoint": 0,
     "title": "すごいってなに？",
     "order": 10,
     "requiredReadEpisodeMasterId": 1010409,
@@ -92,7 +92,7 @@
   {
     "id": 1010411,
     "storyMasterId": 10104,
-    "requiredTotalAcquiredPoint": 4000,
+    "requiredTotalAcquiredPoint": 0,
     "title": "変化が嬉しくて",
     "order": 11,
     "requiredReadEpisodeMasterId": 1010410,
@@ -101,7 +101,7 @@
   {
     "id": 1010412,
     "storyMasterId": 10104,
-    "requiredTotalAcquiredPoint": 8000,
+    "requiredTotalAcquiredPoint": 0,
     "title": "どうして言っちゃったんだろう",
     "order": 12,
     "requiredReadEpisodeMasterId": 1010411,
@@ -110,7 +110,7 @@
   {
     "id": 1010413,
     "storyMasterId": 10104,
-    "requiredTotalAcquiredPoint": 16000,
+    "requiredTotalAcquiredPoint": 0,
     "title": "相談",
     "order": 13,
     "requiredReadEpisodeMasterId": 1010412,
@@ -119,7 +119,7 @@
   {
     "id": 1010414,
     "storyMasterId": 10104,
-    "requiredTotalAcquiredPoint": 32000,
+    "requiredTotalAcquiredPoint": 0,
     "title": "並び立ってみせるから",
     "order": 14,
     "requiredReadEpisodeMasterId": 1010413,
@@ -128,7 +128,7 @@
   {
     "id": 1010415,
     "storyMasterId": 10104,
-    "requiredTotalAcquiredPoint": 64000,
+    "requiredTotalAcquiredPoint": 0,
     "title": "ワクワク",
     "order": 15,
     "requiredReadEpisodeMasterId": 1010414,
@@ -137,11 +137,83 @@
   {
     "id": 1010416,
     "storyMasterId": 10104,
-    "requiredTotalAcquiredPoint": 128000,
+    "requiredTotalAcquiredPoint": 0,
     "title": "いつもカッコいい",
     "order": 16,
     "requiredReadEpisodeMasterId": 1010415,
     "episodeRewardPackageMasterId": 1010416
+  },
+  {
+    "id": 1010417,
+    "storyMasterId": 10104,
+    "requiredTotalAcquiredPoint": 0,
+    "title": "リハーサル",
+    "order": 17,
+    "requiredReadEpisodeMasterId": 1010416,
+    "episodeRewardPackageMasterId": 1010417
+  },
+  {
+    "id": 1010418,
+    "storyMasterId": 10104,
+    "requiredTotalAcquiredPoint": 2000,
+    "title": "連れて行ってみせる",
+    "order": 18,
+    "requiredReadEpisodeMasterId": 1010417,
+    "episodeRewardPackageMasterId": 1010418
+  },
+  {
+    "id": 1010419,
+    "storyMasterId": 10104,
+    "requiredTotalAcquiredPoint": 4000,
+    "title": "震える身体",
+    "order": 19,
+    "requiredReadEpisodeMasterId": 1010418,
+    "episodeRewardPackageMasterId": 1010419
+  },
+  {
+    "id": 1010420,
+    "storyMasterId": 10104,
+    "requiredTotalAcquiredPoint": 8000,
+    "title": "ひとりじゃないから",
+    "order": 20,
+    "requiredReadEpisodeMasterId": 1010419,
+    "episodeRewardPackageMasterId": 1010420
+  },
+  {
+    "id": 1010421,
+    "storyMasterId": 10104,
+    "requiredTotalAcquiredPoint": 16000,
+    "title": "みんなで舞台へ",
+    "order": 21,
+    "requiredReadEpisodeMasterId": 1010420,
+    "episodeRewardPackageMasterId": 1010421
+  },
+  {
+    "id": 1010422,
+    "storyMasterId": 10104,
+    "requiredTotalAcquiredPoint": 32000,
+    "title": "本番",
+    "order": 22,
+    "requiredReadEpisodeMasterId": 1010421,
+    "episodeRewardPackageMasterId": 1010422
+  },
+  {
+    "id": 1010423,
+    "storyMasterId": 10104,
+    "requiredTotalAcquiredPoint": 64000,
+    "title": "公演を終えて",
+    "order": 23,
+    "requiredReadEpisodeMasterId": 1010422,
+    "episodeRewardPackageMasterId": 1010423
+  },
+  {
+    "id": 1010424,
+    "storyMasterId": 10104,
+    "requiredTotalAcquiredPoint": 128000,
+    "title": "届かなかったけど",
+    "order": 24,
+    "requiredReadEpisodeMasterId": 1010423,
+    "episodeRewardPackageMasterId": 1010424
   },
   {
     "id": 2000101,

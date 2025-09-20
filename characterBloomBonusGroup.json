@@ -11175,6 +11175,20 @@
         "phase": 5,
         "effectMasterId": 30006,
         "iconPath": "PerformanceUp"
+      },
+      {
+        "bloomBonusType": "None",
+        "description": "演技力10％UP",
+        "phase": 6,
+        "effectMasterId": 30010,
+        "iconPath": "PerformanceUp"
+      },
+      {
+        "bloomBonusType": "None",
+        "description": "基礎ステータスの集中力が50上昇",
+        "phase": 6,
+        "effectMasterId": 37007,
+        "iconPath": "BaseConcentrationUp"
       }
     ],
     "bloomRewards": [
@@ -13056,6 +13070,20 @@
         "phase": 5,
         "effectMasterId": 30006,
         "iconPath": "PerformanceUp"
+      },
+      {
+        "bloomBonusType": "None",
+        "description": "演技力10%UP",
+        "phase": 6,
+        "effectMasterId": 30010,
+        "iconPath": "PerformanceUp"
+      },
+      {
+        "bloomBonusType": "None",
+        "description": "公演開始時に自身と同系統の光を獲得",
+        "phase": 6,
+        "effectMasterId": 37013,
+        "iconPath": "AddSenseLightControl"
       }
     ],
     "bloomRewards": [
@@ -13215,6 +13243,20 @@
         "phase": 5,
         "effectMasterId": 30006,
         "iconPath": "PerformanceUp"
+      },
+      {
+        "bloomBonusType": "None",
+        "description": "演技力10%UP",
+        "phase": 6,
+        "effectMasterId": 30010,
+        "iconPath": "PerformanceUp"
+      },
+      {
+        "bloomBonusType": "None",
+        "description": "センスのCTが10秒減少",
+        "phase": 6,
+        "effectMasterId": 37018,
+        "iconPath": "SenseRecastDown"
       }
     ],
     "bloomRewards": [
@@ -15564,6 +15606,20 @@
         "phase": 5,
         "effectMasterId": 30006,
         "iconPath": "PerformanceUp"
+      },
+      {
+        "bloomBonusType": "None",
+        "description": "演技力10%UP",
+        "phase": 6,
+        "effectMasterId": 30010,
+        "iconPath": "PerformanceUp"
+      },
+      {
+        "bloomBonusType": "None",
+        "description": "初期プリンシパルゲージが100上昇",
+        "phase": 6,
+        "effectMasterId": 37002,
+        "iconPath": "PrincipalGaugeGain"
       }
     ],
     "bloomRewards": [
@@ -16034,6 +16090,20 @@
         "phase": 5,
         "effectMasterId": 30006,
         "iconPath": "PerformanceUp"
+      },
+      {
+        "bloomBonusType": "None",
+        "description": "演技力10%UP",
+        "phase": 6,
+        "effectMasterId": 30010,
+        "iconPath": "PerformanceUp"
+      },
+      {
+        "bloomBonusType": "None",
+        "description": "基礎スコアが15％上昇",
+        "phase": 6,
+        "effectMasterId": 37009,
+        "iconPath": "BaseScoreUp"
       }
     ],
     "bloomRewards": [
@@ -16110,6 +16180,20 @@
         "phase": 5,
         "effectMasterId": 30006,
         "iconPath": "PerformanceUp"
+      },
+      {
+        "bloomBonusType": "None",
+        "description": "演技力10%UP",
+        "phase": 6,
+        "effectMasterId": 30010,
+        "iconPath": "PerformanceUp"
+      },
+      {
+        "bloomBonusType": "None",
+        "description": "初期プリンシパルゲージが100上昇",
+        "phase": 6,
+        "effectMasterId": 37002,
+        "iconPath": "PrincipalGaugeGain"
       }
     ],
     "bloomRewards": [
@@ -17125,6 +17209,172 @@
     "bloomRewards": [
       {
         "thingId": 511202,
+        "thingType": "Item",
+        "thingQuantity": 1,
+        "phase": 5
+      }
+    ]
+  },
+  {
+    "id": 40191,
+    "bloomBonuses": [
+      {
+        "bloomBonusType": "None",
+        "description": "演技力6％UP",
+        "phase": 1,
+        "effectMasterId": 30006,
+        "iconPath": "PerformanceUp"
+      },
+      {
+        "bloomBonusType": "None",
+        "description": "演技力6％UP",
+        "phase": 2,
+        "effectMasterId": 30006,
+        "iconPath": "PerformanceUp"
+      },
+      {
+        "bloomBonusType": "None",
+        "description": "センスのCTが5秒減少",
+        "phase": 2,
+        "effectMasterId": 30405,
+        "iconPath": "SenseRecastDown"
+      },
+      {
+        "bloomBonusType": "None",
+        "description": "演技力6％UP",
+        "phase": 3,
+        "effectMasterId": 30006,
+        "iconPath": "PerformanceUp"
+      },
+      {
+        "bloomBonusType": "None",
+        "description": "スターアクト発動に必要な支配の光の個数が1個減少",
+        "phase": 3,
+        "effectMasterId": 30601,
+        "iconPath": "DecreaseRequireControlLight"
+      },
+      {
+        "bloomBonusType": "None",
+        "description": "演技力6％UP",
+        "phase": 4,
+        "effectMasterId": 30006,
+        "iconPath": "PerformanceUp"
+      },
+      {
+        "bloomBonusType": "None",
+        "description": "初期ライフが100上昇",
+        "phase": 4,
+        "effectMasterId": 30110,
+        "iconPath": "LifeFixedValue"
+      },
+      {
+        "bloomBonusType": "None",
+        "description": "演技力6％UP",
+        "phase": 5,
+        "effectMasterId": 30006,
+        "iconPath": "PerformanceUp"
+      },
+      {
+        "bloomBonusType": "None",
+        "description": "演技力10%UP",
+        "phase": 6,
+        "effectMasterId": 30010,
+        "iconPath": "PerformanceUp"
+      },
+      {
+        "bloomBonusType": "None",
+        "description": "センスのCTが20秒減少",
+        "phase": 6,
+        "effectMasterId": 37015,
+        "iconPath": "SenseRecastDown"
+      }
+    ],
+    "bloomRewards": [
+      {
+        "thingId": 511104,
+        "thingType": "Item",
+        "thingQuantity": 1,
+        "phase": 5
+      }
+    ]
+  },
+  {
+    "id": 40192,
+    "bloomBonuses": [
+      {
+        "bloomBonusType": "None",
+        "description": "演技力6％UP",
+        "phase": 1,
+        "effectMasterId": 30006,
+        "iconPath": "PerformanceUp"
+      },
+      {
+        "bloomBonusType": "None",
+        "description": "演技力6％UP",
+        "phase": 2,
+        "effectMasterId": 30006,
+        "iconPath": "PerformanceUp"
+      },
+      {
+        "bloomBonusType": "None",
+        "description": "センスのCTが5秒減少",
+        "phase": 2,
+        "effectMasterId": 30405,
+        "iconPath": "SenseRecastDown"
+      },
+      {
+        "bloomBonusType": "None",
+        "description": "演技力6％UP",
+        "phase": 3,
+        "effectMasterId": 30006,
+        "iconPath": "PerformanceUp"
+      },
+      {
+        "bloomBonusType": "None",
+        "description": "スターアクト発動に必要な支援の光の個数が1個減少",
+        "phase": 3,
+        "effectMasterId": 30501,
+        "iconPath": "DecreaseRequireSupportLight"
+      },
+      {
+        "bloomBonusType": "None",
+        "description": "演技力6％UP",
+        "phase": 4,
+        "effectMasterId": 30006,
+        "iconPath": "PerformanceUp"
+      },
+      {
+        "bloomBonusType": "None",
+        "description": "初期プリンシパルゲージが50上昇",
+        "phase": 4,
+        "effectMasterId": 30305,
+        "iconPath": "PrincipalGaugeGain"
+      },
+      {
+        "bloomBonusType": "None",
+        "description": "演技力6％UP",
+        "phase": 5,
+        "effectMasterId": 30006,
+        "iconPath": "PerformanceUp"
+      },
+      {
+        "bloomBonusType": "None",
+        "description": "演技力10%UP",
+        "phase": 6,
+        "effectMasterId": 30010,
+        "iconPath": "PerformanceUp"
+      },
+      {
+        "bloomBonusType": "None",
+        "description": "基礎ステータスの表現力が50上昇",
+        "phase": 6,
+        "effectMasterId": 37008,
+        "iconPath": "BaseExpressionUp"
+      }
+    ],
+    "bloomRewards": [
+      {
+        "thingId": 511101,
         "thingType": "Item",
         "thingQuantity": 1,
         "phase": 5
