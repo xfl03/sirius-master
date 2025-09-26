@@ -1024,6 +1024,68 @@
     ]
   },
   {
+    "id": 69,
+    "name": "カジュアル皆伝コース～1st Season～【オモテ】",
+    "musicCourseType": "Special",
+    "order": 9,
+    "initialLife": 400,
+    "requiredAmount": 0,
+    "startDate": 1759424400.0,
+    "endDate": 1769922000.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 6901,
+        "setListNumber": 1,
+        "liveMasterId": 4204,
+        "vocalVersion": 1
+      },
+      {
+        "id": 6902,
+        "setListNumber": 2,
+        "liveMasterId": 4804,
+        "vocalVersion": 1
+      },
+      {
+        "id": 6903,
+        "setListNumber": 3,
+        "liveMasterId": 5304,
+        "vocalVersion": 1
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "name": "カジュアル皆伝コース～1st Season～【ウラ】",
+    "musicCourseType": "Special",
+    "order": 10,
+    "initialLife": 1000,
+    "requiredAmount": 0,
+    "startDate": 1759424400.0,
+    "endDate": 1769922000.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 7001,
+        "setListNumber": 1,
+        "liveMasterId": 3905,
+        "vocalVersion": 1
+      },
+      {
+        "id": 7002,
+        "setListNumber": 2,
+        "liveMasterId": 5305,
+        "vocalVersion": 1
+      },
+      {
+        "id": 7003,
+        "setListNumber": 3,
+        "liveMasterId": 4805,
+        "vocalVersion": 1
+      }
+    ]
+  },
+  {
     "id": 200,
     "name": "第1回 ウィークリーコース【STELLA部門】",
     "musicCourseType": "WeeklyCourseRanking",
@@ -2880,6 +2942,70 @@
     ]
   },
   {
+    "id": 258,
+    "name": "第30回 ウィークリーコース【STELLA部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 1,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1759770000.0,
+    "endDate": 1760313600.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 25801,
+        "setListNumber": 1,
+        "liveMasterId": 20804,
+        "vocalVersion": 1
+      },
+      {
+        "id": 25802,
+        "setListNumber": 2,
+        "liveMasterId": 21304,
+        "vocalVersion": 1
+      },
+      {
+        "id": 25803,
+        "setListNumber": 3,
+        "liveMasterId": 17504,
+        "vocalVersion": 1
+      }
+    ]
+  },
+  {
+    "id": 259,
+    "name": "第30回 ウィークリーコース【OLIVIER部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 2,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1759770000.0,
+    "endDate": 1760313600.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 25901,
+        "setListNumber": 1,
+        "liveMasterId": 20805,
+        "vocalVersion": 1
+      },
+      {
+        "id": 25902,
+        "setListNumber": 2,
+        "liveMasterId": 21305,
+        "vocalVersion": 1
+      },
+      {
+        "id": 25903,
+        "setListNumber": 3,
+        "liveMasterId": 4505,
+        "vocalVersion": 1
+      }
+    ]
+  },
+  {
     "id": 500,
     "name": "2nd Anniv. Special Course【STELLA部門】",
     "musicCourseType": "WeeklyCourseRanking",
@@ -3266,6 +3392,39 @@
     ]
   },
   {
+    "id": 1011,
+    "name": "【皆伝】段位認定2025 2nd Season",
+    "musicCourseType": "DanClass",
+    "order": 11,
+    "initialLife": 20,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1759424400.0,
+    "endDate": 1769922000.0,
+    "unlockCondition": "ClearedMMusicCourseId",
+    "unlockConditionValue": 1010,
+    "details": [
+      {
+        "id": 101101,
+        "setListNumber": 1,
+        "liveMasterId": 20904,
+        "vocalVersion": 1
+      },
+      {
+        "id": 101102,
+        "setListNumber": 2,
+        "liveMasterId": 4804,
+        "vocalVersion": 1
+      },
+      {
+        "id": 101103,
+        "setListNumber": 3,
+        "liveMasterId": 23604,
+        "vocalVersion": 1
+      }
+    ]
+  },
+  {
     "id": 1501,
     "name": "【初段】段位認定2025 2nd Seasonウラ",
     "musicCourseType": "AdvancedDanClass",
@@ -3583,6 +3742,39 @@
         "id": 151003,
         "setListNumber": 3,
         "liveMasterId": 4205,
+        "vocalVersion": 1
+      }
+    ]
+  },
+  {
+    "id": 1511,
+    "name": "【皆伝】段位認定2025 2nd Seasonウラ",
+    "musicCourseType": "AdvancedDanClass",
+    "order": 11,
+    "initialLife": 45,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1759424400.0,
+    "endDate": 1769922000.0,
+    "unlockCondition": "ClearedMMusicCourseId",
+    "unlockConditionValue": 1510,
+    "details": [
+      {
+        "id": 151101,
+        "setListNumber": 1,
+        "liveMasterId": 17905,
+        "vocalVersion": 1
+      },
+      {
+        "id": 151102,
+        "setListNumber": 2,
+        "liveMasterId": 20905,
+        "vocalVersion": 1
+      },
+      {
+        "id": 151103,
+        "setListNumber": 3,
+        "liveMasterId": 23605,
         "vocalVersion": 1
       }
     ]

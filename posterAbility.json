@@ -8298,6 +8298,54 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 230770,
+    "name": "動物たちの憩いの時間",
+    "description": "Edenに所属するアクターの演技力が[:param11]％上昇",
+    "posterMasterId": 230770,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70052200
+          }
+        ],
+        "id": 23077001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 230780,
+    "name": "退屈潰しの歌姫救済",
+    "description": "全アクターの演技力が[:param11]％上昇",
+    "posterMasterId": 230780,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70042000
+          }
+        ],
+        "id": 23078001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 320010,
     "name": "鬼人と竜魔人",
     "description": "<color=#FF9314>陽属性</color>のアクターの演技力が[:param11]%上昇",
@@ -10172,6 +10220,30 @@
           }
         ],
         "id": 34029001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 340330,
+    "name": "今宵こそは眠り安らいで――",
+    "description": "全アクターの演技力が[:param11]％上昇",
+    "posterMasterId": 340330,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70050000
+          }
+        ],
+        "id": 34033001
       }
     ],
     "branchConditionType1": "None",
@@ -16378,6 +16450,150 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 2307701,
+    "name": "演技力アップⅢ＋",
+    "description": "自身の演技力が[:param11]％上昇",
+    "posterMasterId": 230770,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10031000
+          }
+        ],
+        "id": 230770101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2307702,
+    "name": "初期P.ゲージ上昇Ⅱ＋",
+    "description": "公演開始時、P.ゲージが[:param11]上昇　◆発動条件：Edenに所属するアクターが装備",
+    "posterMasterId": 230770,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11521200
+          }
+        ],
+        "id": 230770201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2307703,
+    "name": "P.ゲージ上限ブースト＋",
+    "description": "センス発動直後、P.ゲージの上限が[:param11]上昇　◆発動条件：Edenに所属するアクターが装備",
+    "posterMasterId": 230770,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 13112200
+          }
+        ],
+        "id": 230770301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2307801,
+    "name": "演技力アップⅢ＋",
+    "description": "自身の演技力が[:param11]％上昇",
+    "posterMasterId": 230780,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10031000
+          }
+        ],
+        "id": 230780101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2307802,
+    "name": "初期P.ゲージ上昇＋",
+    "description": "公演開始時、P.ゲージが[:param11]上昇",
+    "posterMasterId": 230780,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11511000
+          }
+        ],
+        "id": 230780201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2307803,
+    "name": "報酬量アップⅢ",
+    "description": "公演と協力公演の公演報酬が[:param11]％増加（アクセサリーを除く）",
+    "posterMasterId": 230780,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 12530000
+          }
+        ],
+        "id": 230780301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 3200101,
     "name": "初期ライフ上昇＋",
     "description": "公演開始時、ライフが[:param11]上昇　◆発動条件：<color=#FF9314>陽属性</color>のアクターが装備",
@@ -21676,6 +21892,78 @@
           }
         ],
         "id": 340290301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3403301,
+    "name": "演技力アップⅣ",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：暦が装備",
+    "posterMasterId": 340330,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10040301
+          }
+        ],
+        "id": 340330101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3403302,
+    "name": "「光」獲得数増加",
+    "description": "センスで付与する「光」の付与数が[:param11]個増加　◆発動条件：暦が装備",
+    "posterMasterId": 340330,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11810301
+          }
+        ],
+        "id": 340330201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3403303,
+    "name": "CTダウンⅣ",
+    "description": "自身のセンスのCTを[:param11]秒短縮　◆発動条件：暦が装備",
+    "posterMasterId": 340330,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 12430301
+          }
+        ],
+        "id": 340330301
       }
     ],
     "branchConditionType1": "None",

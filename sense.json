@@ -7908,6 +7908,115 @@
     "unknown15": []
   },
   {
+    "id": 141930,
+    "name": "ち、近づかないでっ！",
+    "description": "<size=28%>[:score]倍のスコアを獲得／[:sec]秒間、Edenのアクターにスターアクトスコア[:param11]％UP効果／センス発動後、プリンシパルゲージの上限値が[:param12]上昇</size>",
+    "type": "Amplification",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20203
+          },
+          {
+            "order": 2,
+            "effectMasterId": 20096
+          }
+        ],
+        "id": 1419301
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 220,
+    "scoreUpPerLevel": 60,
+    "lightCount": 1,
+    "coolTime": 45,
+    "branchCondition1": "None",
+    "branchCondition2": "None",
+    "unknown15": []
+  },
+  {
+    "id": 141940,
+    "name": "ふわふわ集まる原っぱで",
+    "description": "<size=25%>[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／センス発動時、追加で「支援の光」を1個獲得する／センス発動時、編成されているEdenアクターの人数×20プリンシパルゲージを獲得</size>",
+    "type": "Control",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20098
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 1,
+        "id": 1419401
+      },
+      {
+        "order": 2,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20099
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 2,
+        "id": 1419402
+      },
+      {
+        "order": 3,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20100
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 3,
+        "id": 1419403
+      },
+      {
+        "order": 4,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20111
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 4,
+        "id": 1419404
+      },
+      {
+        "order": 5,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20112
+          }
+        ],
+        "judgeType1": "MoreThan",
+        "parameter1": 5,
+        "id": 1419405
+      }
+    ],
+    "acquirableGauge": 80,
+    "acquirableScorePercent": 150,
+    "scoreUpPerLevel": 40,
+    "lightCount": 1,
+    "coolTime": 30,
+    "branchCondition1": "CompanyMemberCount",
+    "conditionValue1": 2,
+    "branchCondition2": "None",
+    "unknown15": []
+  },
+  {
     "id": 150010,
     "name": "一度道を違えた絆でも",
     "description": "<size=25%>[:score]倍のスコアを獲得／センス発動直後、自身の歌唱力の[:param12]倍のスコアを獲得／シリウスまたは銀河座アクターの編成数×[:param11]プリンシパルゲージの上限が上昇する</size>",

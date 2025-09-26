@@ -14902,8 +14902,8 @@
     "canPurchaseDayOfWeek": "",
     "isBuyNotDisplay": false,
     "isDisplayLocking": false,
-    "startDate": 1753488000.0,
-    "endDate": 1754413200.0,
+    "startDate": 1759449600.0,
+    "endDate": 1760313600.0,
     "lineup": [
       {
         "id": 519401,
@@ -16158,8 +16158,8 @@
     "isDisplayLocking": true,
     "unlockType": "BuyJewelShopItem",
     "unlockValue": 5194,
-    "startDate": 1753488000.0,
-    "endDate": 1754413200.0,
+    "startDate": 1759449600.0,
+    "endDate": 1760313600.0,
     "lineup": [
       {
         "id": 522201,
@@ -40064,6 +40064,108 @@
     "itemIconBadgeImagePath": "OneTime"
   },
   {
+    "id": 5818,
+    "order": 7000,
+    "appStoreProductId": "5818",
+    "googlePlayProductId": "5818",
+    "name": "イベント限定ジュエルパックA",
+    "packText": "",
+    "mJewelShopCategoryId": 1,
+    "dialogType": 1,
+    "purchaseType": "Money",
+    "purchaseValue": 1500,
+    "subscriptionFlag": false,
+    "givePaidJewel": 1500,
+    "replaceTypes": "None",
+    "purchaseLimit": 1,
+    "canPurchaseDayOfWeek": "",
+    "isBuyNotDisplay": false,
+    "isDisplayLocking": false,
+    "startDate": 1759251600.0,
+    "endDate": 1760115600.0,
+    "lineup": [
+      {
+        "id": 581801,
+        "mJewelShopItemId": 5818,
+        "thingId": 0,
+        "thingType": "Jewel",
+        "thingQuantity": 1500
+      }
+    ],
+    "shopItemType": "None",
+    "itemIconBodyImagePath": "Chara04",
+    "itemIconDetailImagePath": "1500_1500",
+    "itemIconBadgeImagePath": "OneTime"
+  },
+  {
+    "id": 5819,
+    "order": 7001,
+    "appStoreProductId": "5819",
+    "googlePlayProductId": "5819",
+    "name": "イベント限定ジュエルパックB",
+    "packText": "",
+    "mJewelShopCategoryId": 1,
+    "dialogType": 1,
+    "purchaseType": "Money",
+    "purchaseValue": 4800,
+    "subscriptionFlag": false,
+    "givePaidJewel": 4800,
+    "replaceTypes": "None",
+    "purchaseLimit": 1,
+    "canPurchaseDayOfWeek": "",
+    "isBuyNotDisplay": false,
+    "isDisplayLocking": false,
+    "startDate": 1759251600.0,
+    "endDate": 1760115600.0,
+    "lineup": [
+      {
+        "id": 581901,
+        "mJewelShopItemId": 5819,
+        "thingId": 0,
+        "thingType": "Jewel",
+        "thingQuantity": 3000
+      }
+    ],
+    "shopItemType": "None",
+    "itemIconBodyImagePath": "Chara06",
+    "itemIconDetailImagePath": "4800_3000",
+    "itemIconBadgeImagePath": "OneTime"
+  },
+  {
+    "id": 5820,
+    "order": 7002,
+    "appStoreProductId": "5820",
+    "googlePlayProductId": "5820",
+    "name": "イベント限定ジュエルパックC",
+    "packText": "",
+    "mJewelShopCategoryId": 1,
+    "dialogType": 1,
+    "purchaseType": "Money",
+    "purchaseValue": 9800,
+    "subscriptionFlag": false,
+    "givePaidJewel": 9800,
+    "replaceTypes": "None",
+    "purchaseLimit": 1,
+    "canPurchaseDayOfWeek": "",
+    "isBuyNotDisplay": false,
+    "isDisplayLocking": false,
+    "startDate": 1759251600.0,
+    "endDate": 1760115600.0,
+    "lineup": [
+      {
+        "id": 582001,
+        "mJewelShopItemId": 5820,
+        "thingId": 0,
+        "thingType": "Jewel",
+        "thingQuantity": 4900
+      }
+    ],
+    "shopItemType": "None",
+    "itemIconBodyImagePath": "Chara07",
+    "itemIconDetailImagePath": "9800_4900",
+    "itemIconBadgeImagePath": "OneTime"
+  },
+  {
     "id": 8001,
     "order": 4660,
     "appStoreProductId": "8001",
@@ -47453,6 +47555,59 @@
     "itemIconBodyImagePath": "Daikoku2025"
   },
   {
+    "id": 8176,
+    "order": 5033,
+    "appStoreProductId": "8176",
+    "googlePlayProductId": "8176",
+    "name": "お誕生日パック3rd【千寿 暦】",
+    "packText": "お誕生日パック3rd【千寿 暦】",
+    "mJewelShopCategoryId": 6,
+    "dialogType": 1,
+    "purchaseType": "Money",
+    "purchaseValue": 2000,
+    "subscriptionFlag": false,
+    "givePaidJewel": 2000,
+    "replaceTypes": "None",
+    "purchaseLimit": 1,
+    "canPurchaseDayOfWeek": "",
+    "isBuyNotDisplay": false,
+    "isDisplayLocking": false,
+    "startDate": 1759449600.0,
+    "endDate": 1760313600.0,
+    "lineup": [
+      {
+        "id": 817601,
+        "mJewelShopItemId": 8176,
+        "thingId": 511301,
+        "thingType": "Item",
+        "thingQuantity": 1
+      },
+      {
+        "id": 817602,
+        "mJewelShopItemId": 8176,
+        "thingId": 30183,
+        "thingType": "Stamp",
+        "thingQuantity": 1
+      },
+      {
+        "id": 817603,
+        "mJewelShopItemId": 8176,
+        "thingId": 200301,
+        "thingType": 20,
+        "thingQuantity": 1
+      },
+      {
+        "id": 817604,
+        "mJewelShopItemId": 8176,
+        "thingId": 151012,
+        "thingType": "Item",
+        "thingQuantity": 20
+      }
+    ],
+    "shopItemType": "None",
+    "itemIconBodyImagePath": "Koyomi2025"
+  },
+  {
     "id": 8185,
     "order": 500,
     "appStoreProductId": "8185",
@@ -48212,6 +48367,371 @@
     ],
     "shopItemType": "None",
     "itemIconBodyImagePath": "110DL_Special",
+    "itemIconBadgeImagePath": "LimitedTime"
+  },
+  {
+    "id": 8204,
+    "order": 4010,
+    "appStoreProductId": "",
+    "googlePlayProductId": "",
+    "name": "電姫空間のおまもりパック",
+    "packText": "",
+    "mJewelShopCategoryId": 5,
+    "dialogType": 1,
+    "purchaseType": "Paid",
+    "purchaseValue": 3000,
+    "subscriptionFlag": false,
+    "replaceTypes": "None",
+    "purchaseLimit": 1,
+    "canPurchaseDayOfWeek": "",
+    "isBuyNotDisplay": false,
+    "isDisplayLocking": false,
+    "startDate": 1759251600.0,
+    "endDate": 1759960800.0,
+    "lineup": [
+      {
+        "id": 820401,
+        "mJewelShopItemId": 8204,
+        "thingId": 139027,
+        "thingType": "Item",
+        "thingQuantity": 1
+      },
+      {
+        "id": 820402,
+        "mJewelShopItemId": 8204,
+        "thingId": 110002,
+        "thingType": "Item",
+        "thingQuantity": 75
+      }
+    ],
+    "shopItemType": "MultiLiveDropBoost",
+    "shopItemValue": 107,
+    "itemIconBodyImagePath": "DenkiSpace",
+    "itemIconBadgeImagePath": "LimitedTime"
+  },
+  {
+    "id": 8205,
+    "order": 4011,
+    "appStoreProductId": "",
+    "googlePlayProductId": "",
+    "name": "育成もりもりパックA",
+    "packText": "",
+    "mJewelShopCategoryId": 5,
+    "dialogType": 1,
+    "purchaseType": "Paid",
+    "purchaseValue": 480,
+    "subscriptionFlag": false,
+    "replaceTypes": "None",
+    "purchaseLimit": 1,
+    "canPurchaseDayOfWeek": "",
+    "isBuyNotDisplay": false,
+    "isDisplayLocking": false,
+    "startDate": 1759683600.0,
+    "endDate": 1760547600.0,
+    "lineup": [
+      {
+        "id": 820501,
+        "mJewelShopItemId": 8205,
+        "thingId": 120002,
+        "thingType": "Item",
+        "thingQuantity": 250
+      },
+      {
+        "id": 820502,
+        "mJewelShopItemId": 8205,
+        "thingId": 130051,
+        "thingType": "Item",
+        "thingQuantity": 10
+      },
+      {
+        "id": 820503,
+        "mJewelShopItemId": 8205,
+        "thingId": 130041,
+        "thingType": "Item",
+        "thingQuantity": 80
+      },
+      {
+        "id": 820504,
+        "mJewelShopItemId": 8205,
+        "thingId": 130042,
+        "thingType": "Item",
+        "thingQuantity": 40
+      },
+      {
+        "id": 820505,
+        "mJewelShopItemId": 8205,
+        "thingId": 130043,
+        "thingType": "Item",
+        "thingQuantity": 30
+      },
+      {
+        "id": 820506,
+        "mJewelShopItemId": 8205,
+        "thingId": 130061,
+        "thingType": "Item",
+        "thingQuantity": 250
+      },
+      {
+        "id": 820507,
+        "mJewelShopItemId": 8205,
+        "thingId": 130062,
+        "thingType": "Item",
+        "thingQuantity": 150
+      },
+      {
+        "id": 820508,
+        "mJewelShopItemId": 8205,
+        "thingId": 130081,
+        "thingType": "Item",
+        "thingQuantity": 150
+      },
+      {
+        "id": 820509,
+        "mJewelShopItemId": 8205,
+        "thingId": 130082,
+        "thingType": "Item",
+        "thingQuantity": 30
+      }
+    ],
+    "shopItemType": "None",
+    "itemIconBodyImagePath": "MorimoriGrowUp_A",
+    "itemIconBadgeImagePath": "OneTime"
+  },
+  {
+    "id": 8206,
+    "order": 4012,
+    "appStoreProductId": "",
+    "googlePlayProductId": "",
+    "name": "育成もりもりパックB",
+    "packText": "",
+    "mJewelShopCategoryId": 5,
+    "dialogType": 1,
+    "purchaseType": "Paid",
+    "purchaseValue": 1000,
+    "subscriptionFlag": false,
+    "replaceTypes": "None",
+    "purchaseLimit": 1,
+    "canPurchaseDayOfWeek": "",
+    "isBuyNotDisplay": false,
+    "isDisplayLocking": false,
+    "startDate": 1759683600.0,
+    "endDate": 1760547600.0,
+    "lineup": [
+      {
+        "id": 820601,
+        "mJewelShopItemId": 8206,
+        "thingId": 120002,
+        "thingType": "Item",
+        "thingQuantity": 500
+      },
+      {
+        "id": 820602,
+        "mJewelShopItemId": 8206,
+        "thingId": 130051,
+        "thingType": "Item",
+        "thingQuantity": 20
+      },
+      {
+        "id": 820603,
+        "mJewelShopItemId": 8206,
+        "thingId": 130041,
+        "thingType": "Item",
+        "thingQuantity": 160
+      },
+      {
+        "id": 820604,
+        "mJewelShopItemId": 8206,
+        "thingId": 130042,
+        "thingType": "Item",
+        "thingQuantity": 85
+      },
+      {
+        "id": 820605,
+        "mJewelShopItemId": 8206,
+        "thingId": 130043,
+        "thingType": "Item",
+        "thingQuantity": 65
+      },
+      {
+        "id": 820606,
+        "mJewelShopItemId": 8206,
+        "thingId": 130061,
+        "thingType": "Item",
+        "thingQuantity": 500
+      },
+      {
+        "id": 820607,
+        "mJewelShopItemId": 8206,
+        "thingId": 130062,
+        "thingType": "Item",
+        "thingQuantity": 300
+      },
+      {
+        "id": 820608,
+        "mJewelShopItemId": 8206,
+        "thingId": 130063,
+        "thingType": "Item",
+        "thingQuantity": 150
+      },
+      {
+        "id": 820609,
+        "mJewelShopItemId": 8206,
+        "thingId": 130081,
+        "thingType": "Item",
+        "thingQuantity": 330
+      },
+      {
+        "id": 820610,
+        "mJewelShopItemId": 8206,
+        "thingId": 130082,
+        "thingType": "Item",
+        "thingQuantity": 70
+      }
+    ],
+    "shopItemType": "None",
+    "itemIconBodyImagePath": "MorimoriGrowUp_B",
+    "itemIconBadgeImagePath": "OneTime"
+  },
+  {
+    "id": 8207,
+    "order": 4013,
+    "appStoreProductId": "",
+    "googlePlayProductId": "",
+    "name": "育成もりもりパックC",
+    "packText": "",
+    "mJewelShopCategoryId": 5,
+    "dialogType": 1,
+    "purchaseType": "Paid",
+    "purchaseValue": 3000,
+    "subscriptionFlag": false,
+    "replaceTypes": "None",
+    "purchaseLimit": 1,
+    "canPurchaseDayOfWeek": "",
+    "isBuyNotDisplay": false,
+    "isDisplayLocking": false,
+    "startDate": 1759683600.0,
+    "endDate": 1760547600.0,
+    "lineup": [
+      {
+        "id": 820701,
+        "mJewelShopItemId": 8207,
+        "thingId": 120002,
+        "thingType": "Item",
+        "thingQuantity": 1500
+      },
+      {
+        "id": 820702,
+        "mJewelShopItemId": 8207,
+        "thingId": 130051,
+        "thingType": "Item",
+        "thingQuantity": 60
+      },
+      {
+        "id": 820703,
+        "mJewelShopItemId": 8207,
+        "thingId": 130041,
+        "thingType": "Item",
+        "thingQuantity": 350
+      },
+      {
+        "id": 820704,
+        "mJewelShopItemId": 8207,
+        "thingId": 130042,
+        "thingType": "Item",
+        "thingQuantity": 250
+      },
+      {
+        "id": 820705,
+        "mJewelShopItemId": 8207,
+        "thingId": 130043,
+        "thingType": "Item",
+        "thingQuantity": 150
+      },
+      {
+        "id": 820706,
+        "mJewelShopItemId": 8207,
+        "thingId": 140000,
+        "thingType": "Item",
+        "thingQuantity": 100
+      },
+      {
+        "id": 820707,
+        "mJewelShopItemId": 8207,
+        "thingId": 130061,
+        "thingType": "Item",
+        "thingQuantity": 1650
+      },
+      {
+        "id": 820708,
+        "mJewelShopItemId": 8207,
+        "thingId": 130062,
+        "thingType": "Item",
+        "thingQuantity": 900
+      },
+      {
+        "id": 820709,
+        "mJewelShopItemId": 8207,
+        "thingId": 130063,
+        "thingType": "Item",
+        "thingQuantity": 500
+      },
+      {
+        "id": 820710,
+        "mJewelShopItemId": 8207,
+        "thingId": 130064,
+        "thingType": "Item",
+        "thingQuantity": 100
+      },
+      {
+        "id": 820711,
+        "mJewelShopItemId": 8207,
+        "thingId": 130081,
+        "thingType": "Item",
+        "thingQuantity": 1000
+      },
+      {
+        "id": 820712,
+        "mJewelShopItemId": 8207,
+        "thingId": 130082,
+        "thingType": "Item",
+        "thingQuantity": 250
+      }
+    ],
+    "shopItemType": "None",
+    "itemIconBodyImagePath": "MorimoriGrowUp_C",
+    "itemIconBadgeImagePath": "OneTime"
+  },
+  {
+    "id": 8208,
+    "order": 4014,
+    "appStoreProductId": "",
+    "googlePlayProductId": "",
+    "name": "劇団電姫のおまもり【Re:】",
+    "packText": "",
+    "mJewelShopCategoryId": 5,
+    "dialogType": 1,
+    "purchaseType": "Paid",
+    "purchaseValue": 1600,
+    "subscriptionFlag": false,
+    "replaceTypes": "None",
+    "purchaseLimit": 1,
+    "canPurchaseDayOfWeek": "",
+    "isBuyNotDisplay": false,
+    "isDisplayLocking": false,
+    "startDate": 1760029200.0,
+    "endDate": 1760634000.0,
+    "lineup": [
+      {
+        "id": 820801,
+        "mJewelShopItemId": 8208,
+        "thingId": 139218,
+        "thingType": "Item",
+        "thingQuantity": 1
+      }
+    ],
+    "shopItemType": "MultiLiveDropBoost",
+    "shopItemValue": 109,
+    "itemIconBodyImagePath": "DenkiSpaceRe",
     "itemIconBadgeImagePath": "LimitedTime"
   },
   {
@@ -57735,6 +58255,48 @@
     "itemIconBadgeImagePath": "FlashSale_3h"
   },
   {
+    "id": 10221,
+    "order": 6013,
+    "appStoreProductId": "10221",
+    "googlePlayProductId": "10221",
+    "name": "「心の檻を越えて」ストーリー全話読了記念パック",
+    "packText": "",
+    "mJewelShopCategoryId": 7,
+    "dialogType": 1,
+    "purchaseType": "Money",
+    "purchaseValue": 500,
+    "subscriptionFlag": false,
+    "givePaidJewel": 500,
+    "replaceTypes": "None",
+    "purchaseLimit": 1,
+    "canPurchaseDayOfWeek": "",
+    "isBuyNotDisplay": true,
+    "isDisplayLocking": false,
+    "unlockType": "FlashSale",
+    "unlockValue": 51035001,
+    "startDate": 1759251600.0,
+    "lineup": [
+      {
+        "id": 1022101,
+        "mJewelShopItemId": 10221,
+        "thingId": 0,
+        "thingType": "Jewel",
+        "thingQuantity": 1250
+      },
+      {
+        "id": 1022102,
+        "mJewelShopItemId": 10221,
+        "thingId": 110003,
+        "thingType": "Item",
+        "thingQuantity": 10
+      }
+    ],
+    "shopItemType": "None",
+    "itemIconBodyImagePath": "StaminaJewel_2",
+    "itemIconDetailImagePath": "500_1250",
+    "itemIconBadgeImagePath": "FlashSale_3h"
+  },
+  {
     "id": 20000,
     "order": 2,
     "appStoreProductId": "",
@@ -58310,6 +58872,123 @@
       {
         "id": 2001402,
         "mJewelShopItemId": 20014,
+        "thingId": 130013,
+        "thingType": "Item",
+        "thingQuantity": 5
+      }
+    ],
+    "shopItemType": "None",
+    "itemIconBodyImagePath": "StaminaSuigyoku",
+    "itemIconBadgeImagePath": "OneTime"
+  },
+  {
+    "id": 20015,
+    "order": 2,
+    "appStoreProductId": "",
+    "googlePlayProductId": "",
+    "name": "金のジュゴン像パックＡ",
+    "packText": "",
+    "mJewelShopCategoryId": 4,
+    "dialogType": 1,
+    "purchaseType": "Paid",
+    "purchaseValue": 1500,
+    "subscriptionFlag": false,
+    "replaceTypes": "None",
+    "purchaseLimit": 1,
+    "canPurchaseDayOfWeek": "",
+    "isBuyNotDisplay": false,
+    "isDisplayLocking": false,
+    "startDate": 1759251600.0,
+    "endDate": 1760115600.0,
+    "lineup": [
+      {
+        "id": 2001501,
+        "mJewelShopItemId": 20015,
+        "thingId": 150000,
+        "thingType": "Item",
+        "thingQuantity": 100
+      },
+      {
+        "id": 2001502,
+        "mJewelShopItemId": 20015,
+        "thingId": 120003,
+        "thingType": "Item",
+        "thingQuantity": 25
+      }
+    ],
+    "shopItemType": "None",
+    "itemIconBodyImagePath": "GDugongHScripts_1",
+    "itemIconBadgeImagePath": "OneTime"
+  },
+  {
+    "id": 20016,
+    "order": 3,
+    "appStoreProductId": "",
+    "googlePlayProductId": "",
+    "name": "金のジュゴン像パックB",
+    "packText": "",
+    "mJewelShopCategoryId": 4,
+    "dialogType": 1,
+    "purchaseType": "Paid",
+    "purchaseValue": 3000,
+    "subscriptionFlag": false,
+    "replaceTypes": "None",
+    "purchaseLimit": 1,
+    "canPurchaseDayOfWeek": "",
+    "isBuyNotDisplay": false,
+    "isDisplayLocking": false,
+    "startDate": 1759251600.0,
+    "endDate": 1760115600.0,
+    "lineup": [
+      {
+        "id": 2001601,
+        "mJewelShopItemId": 20016,
+        "thingId": 150000,
+        "thingType": "Item",
+        "thingQuantity": 250
+      },
+      {
+        "id": 2001602,
+        "mJewelShopItemId": 20016,
+        "thingId": 120003,
+        "thingType": "Item",
+        "thingQuantity": 60
+      }
+    ],
+    "shopItemType": "None",
+    "itemIconBodyImagePath": "GDugongHScripts_2",
+    "itemIconBadgeImagePath": "OneTime"
+  },
+  {
+    "id": 20017,
+    "order": 4,
+    "appStoreProductId": "",
+    "googlePlayProductId": "",
+    "name": "高級スタミナドリンクパック",
+    "packText": "",
+    "mJewelShopCategoryId": 4,
+    "dialogType": 1,
+    "purchaseType": "Paid",
+    "purchaseValue": 1500,
+    "subscriptionFlag": false,
+    "replaceTypes": "None",
+    "purchaseLimit": 1,
+    "canPurchaseDayOfWeek": "",
+    "isBuyNotDisplay": false,
+    "isDisplayLocking": false,
+    "startDate": 1759251600.0,
+    "endDate": 1760115600.0,
+    "lineup": [
+      {
+        "id": 2001701,
+        "mJewelShopItemId": 20017,
+        "thingId": 110002,
+        "thingType": "Item",
+        "thingQuantity": 50
+      },
+      {
+        "id": 2001702,
+        "mJewelShopItemId": 20017,
         "thingId": 130013,
         "thingType": "Item",
         "thingQuantity": 5
@@ -58910,6 +59589,102 @@
       {
         "id": 10581701,
         "mJewelShopItemId": 105817,
+        "thingId": 0,
+        "thingType": "Jewel",
+        "thingQuantity": 5640
+      }
+    ],
+    "shopItemType": "None",
+    "itemIconBodyImagePath": "Chara07"
+  },
+  {
+    "id": 105818,
+    "order": 4,
+    "appStoreProductId": "105818",
+    "googlePlayProductId": "105818",
+    "name": "イベント限定ジュエルパックA",
+    "packText": "",
+    "mJewelShopCategoryId": 5,
+    "dialogType": 1,
+    "purchaseType": "Money",
+    "purchaseValue": 1500,
+    "subscriptionFlag": false,
+    "givePaidJewel": 1500,
+    "replaceTypes": "None",
+    "purchaseLimit": 1,
+    "canPurchaseDayOfWeek": "",
+    "isBuyNotDisplay": false,
+    "isDisplayLocking": false,
+    "startDate": -62135596800.0,
+    "endDate": -62135596800.0,
+    "lineup": [
+      {
+        "id": 10581801,
+        "mJewelShopItemId": 105818,
+        "thingId": 0,
+        "thingType": "Jewel",
+        "thingQuantity": 1650
+      }
+    ],
+    "shopItemType": "None",
+    "itemIconBodyImagePath": "Chara04"
+  },
+  {
+    "id": 105819,
+    "order": 5,
+    "appStoreProductId": "105819",
+    "googlePlayProductId": "105819",
+    "name": "イベント限定ジュエルパックB",
+    "packText": "",
+    "mJewelShopCategoryId": 5,
+    "dialogType": 1,
+    "purchaseType": "Money",
+    "purchaseValue": 4800,
+    "subscriptionFlag": false,
+    "givePaidJewel": 4800,
+    "replaceTypes": "None",
+    "purchaseLimit": 1,
+    "canPurchaseDayOfWeek": "",
+    "isBuyNotDisplay": false,
+    "isDisplayLocking": false,
+    "startDate": -62135596800.0,
+    "endDate": -62135596800.0,
+    "lineup": [
+      {
+        "id": 10581901,
+        "mJewelShopItemId": 105819,
+        "thingId": 0,
+        "thingType": "Jewel",
+        "thingQuantity": 3390
+      }
+    ],
+    "shopItemType": "None",
+    "itemIconBodyImagePath": "Chara06"
+  },
+  {
+    "id": 105820,
+    "order": 6,
+    "appStoreProductId": "105820",
+    "googlePlayProductId": "105820",
+    "name": "イベント限定ジュエルパックC",
+    "packText": "",
+    "mJewelShopCategoryId": 5,
+    "dialogType": 1,
+    "purchaseType": "Money",
+    "purchaseValue": 9800,
+    "subscriptionFlag": false,
+    "givePaidJewel": 9800,
+    "replaceTypes": "None",
+    "purchaseLimit": 1,
+    "canPurchaseDayOfWeek": "",
+    "isBuyNotDisplay": false,
+    "isDisplayLocking": false,
+    "startDate": -62135596800.0,
+    "endDate": -62135596800.0,
+    "lineup": [
+      {
+        "id": 10582001,
+        "mJewelShopItemId": 105820,
         "thingId": 0,
         "thingType": "Jewel",
         "thingQuantity": 5640
