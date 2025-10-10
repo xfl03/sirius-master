@@ -5045,8 +5045,8 @@
           301,
           302,
           303,
-          304,
-          305
+          305,
+          304
         ]
       }
     ],
@@ -5084,9 +5084,9 @@
         "sampleEndSeconds": 0.0,
         "musicVideoType": "None",
         "characters": [
+          102,
           101,
-          103,
-          102
+          103
         ]
       }
     ],
@@ -5164,8 +5164,8 @@
         "musicVideoType": "None",
         "characters": [
           304,
-          305,
-          405
+          405,
+          305
         ]
       }
     ],
@@ -5203,10 +5203,10 @@
         "sampleEndSeconds": 0.0,
         "musicVideoType": "None",
         "characters": [
-          101,
           201,
-          301,
-          401
+          101,
+          401,
+          301
         ]
       }
     ],
@@ -5244,9 +5244,9 @@
         "sampleEndSeconds": 0.0,
         "musicVideoType": "None",
         "characters": [
+          205,
           104,
-          405,
-          205
+          405
         ]
       }
     ],
@@ -5284,9 +5284,9 @@
         "sampleEndSeconds": 0.0,
         "musicVideoType": "None",
         "characters": [
-          302,
           301,
-          303
+          303,
+          302
         ]
       }
     ],
@@ -6141,8 +6141,8 @@
           101,
           102,
           201,
-          401,
-          301
+          301,
+          401
         ]
       }
     ],
@@ -6180,9 +6180,9 @@
         "sampleEndSeconds": 0.0,
         "musicVideoType": "None",
         "characters": [
-          305,
+          105,
           403,
-          105
+          305
         ]
       }
     ],
@@ -6220,9 +6220,9 @@
         "sampleEndSeconds": 0.0,
         "musicVideoType": "None",
         "characters": [
+          303,
           302,
-          305,
-          303
+          305
         ]
       }
     ],
@@ -6532,8 +6532,8 @@
         "sampleEndSeconds": 0.0,
         "musicVideoType": "None",
         "characters": [
-          104,
-          103
+          103,
+          104
         ]
       }
     ],
@@ -7248,8 +7248,8 @@
           401,
           402,
           403,
-          404,
-          405
+          405,
+          404
         ]
       }
     ],
@@ -7793,8 +7793,8 @@
           201,
           202,
           203,
-          205,
-          204
+          204,
+          205
         ]
       }
     ],
@@ -7909,6 +7909,44 @@
         "musicVideoType": "None",
         "characters": [
           202
+        ]
+      }
+    ],
+    "unlockConditionType": "Buy",
+    "musicVideoType": "None",
+    "musicCoverType": "Cover"
+  },
+  {
+    "id": 220,
+    "name": "ロマンスの神様",
+    "description": "",
+    "rewardRuleMasterId": 1,
+    "pronounceName": "ろまんすのかみさま",
+    "lyricWriter": "広瀬香美",
+    "composer": "広瀬香美",
+    "arranger": "-",
+    "unlockText": "楽曲ショップで購入",
+    "isLongVersion": false,
+    "releasedAt": 1760893200.0,
+    "staminaConsumption": 26,
+    "musicTimeSecond": 98,
+    "invisible": false,
+    "sampleStartSeconds": 0.0,
+    "sampleEndSeconds": 0.0,
+    "delaySeconds": 0.0,
+    "vocalVersions": [
+      {
+        "id": 22001,
+        "musicMasterId": 220,
+        "vocalVersion": 1,
+        "singer": "与那国緋花里",
+        "name": "ロマンスの神様",
+        "musicTimeSecond": 98,
+        "sampleStartSeconds": 0.0,
+        "sampleEndSeconds": 0.0,
+        "musicVideoType": "None",
+        "characters": [
+          305
         ]
       }
     ],
@@ -8188,6 +8226,45 @@
     "musicCoverType": "Original",
     "unknown25": 35002,
     "unknown26": 10104
+  },
+  {
+    "id": 228,
+    "name": "Gazing Dialogue Play",
+    "description": "",
+    "rewardRuleMasterId": 1,
+    "pronounceName": "gazingdialogueplay",
+    "lyricWriter": "松井洋平",
+    "composer": "EFFY（FirstCall）",
+    "arranger": "EFFY（FirstCall）",
+    "isLongVersion": false,
+    "releasedAt": 1760115600.0,
+    "staminaConsumption": 27,
+    "musicTimeSecond": 107,
+    "invisible": false,
+    "sampleStartSeconds": 0.0,
+    "sampleEndSeconds": 0.0,
+    "delaySeconds": 0.0,
+    "vocalVersions": [
+      {
+        "id": 22801,
+        "musicMasterId": 228,
+        "vocalVersion": 1,
+        "singer": "連尺野初魅、リリヤ・クルトベイ",
+        "name": "Gazing Dialogue Play",
+        "musicTimeSecond": 107,
+        "sampleStartSeconds": 0.0,
+        "sampleEndSeconds": 0.0,
+        "musicVideoType": "None",
+        "characters": [
+          201,
+          304
+        ]
+      }
+    ],
+    "unlockConditionType": "Default",
+    "musicVideoType": "None",
+    "musicCoverType": "Original",
+    "unknown27": 25015
   },
   {
     "id": 229,
@@ -8576,8 +8653,8 @@
           202,
           203,
           204,
-          205,
-          201
+          201,
+          205
         ]
       }
     ],
@@ -8618,8 +8695,8 @@
           301,
           302,
           303,
-          304,
-          305
+          305,
+          304
         ]
       }
     ],
@@ -8657,8 +8734,8 @@
         "sampleEndSeconds": 0.0,
         "musicVideoType": "Movie",
         "characters": [
-          401,
           402,
+          401,
           403,
           404,
           405
@@ -9355,8 +9432,8 @@
           401,
           402,
           403,
-          404,
-          405
+          405,
+          404
         ]
       }
     ],
@@ -9490,8 +9567,8 @@
         "sampleEndSeconds": 0.0,
         "musicVideoType": "None",
         "characters": [
-          204,
-          202
+          202,
+          204
         ]
       }
     ],
@@ -10297,8 +10374,8 @@
           101,
           102,
           201,
-          401,
-          301
+          301,
+          401
         ]
       }
     ],

@@ -8017,6 +8017,102 @@
     "unknown15": []
   },
   {
+    "id": 141950,
+    "name": "水鏡に映える月を掬って",
+    "description": "[:score]倍のスコアを獲得／センス発動直後、その時のスコアの[:param11]％のスコアを獲得／センス発動直後、自身の歌唱力の[:param12]倍のスコアを獲得",
+    "type": "Control",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20542
+          },
+          {
+            "order": 2,
+            "effectMasterId": 20536
+          }
+        ],
+        "id": 1419501
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 670,
+    "scoreUpPerLevel": 60,
+    "lightCount": 1,
+    "coolTime": 50,
+    "branchCondition1": "None",
+    "branchCondition2": "None",
+    "unknown15": []
+  },
+  {
+    "id": 141960,
+    "name": "Bordeaux Rendez-vous",
+    "description": "[:score]倍のスコアを獲得／センス発動後、付与されているライフガード1回につきプリンシパルゲージの上限値が20上昇（最大+80）",
+    "type": "Support",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29111
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 1,
+        "id": 1419601
+      },
+      {
+        "order": 2,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29112
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 2,
+        "id": 1419602
+      },
+      {
+        "order": 3,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29113
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 3,
+        "id": 1419603
+      },
+      {
+        "order": 4,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29114
+          }
+        ],
+        "judgeType1": "MoreThan",
+        "parameter1": 4,
+        "id": 1419604
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 250,
+    "scoreUpPerLevel": 60,
+    "lightCount": 2,
+    "coolTime": 50,
+    "branchCondition1": "LifeGuardCount",
+    "branchCondition2": "None",
+    "unknown15": []
+  },
+  {
     "id": 150010,
     "name": "一度道を違えた絆でも",
     "description": "<size=25%>[:score]倍のスコアを獲得／センス発動直後、自身の歌唱力の[:param12]倍のスコアを獲得／シリウスまたは銀河座アクターの編成数×[:param11]プリンシパルゲージの上限が上昇する</size>",

@@ -12399,7 +12399,8 @@
       }
     ],
     "leaderSenseMasterId": 173,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1759424400.0
   },
   {
     "id": 141180,
@@ -12622,7 +12623,8 @@
       }
     ],
     "leaderSenseMasterId": 177,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1759424400.0
   },
   {
     "id": 141220,
@@ -13459,7 +13461,8 @@
       }
     ],
     "leaderSenseMasterId": 192,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1759424400.0
   },
   {
     "id": 141370,
@@ -13844,7 +13847,8 @@
       }
     ],
     "leaderSenseMasterId": 199,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1759424400.0
   },
   {
     "id": 141440,
@@ -14165,7 +14169,8 @@
       }
     ],
     "leaderSenseMasterId": 204,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1759424400.0
   },
   {
     "id": 141500,
@@ -14486,7 +14491,8 @@
       }
     ],
     "leaderSenseMasterId": 209,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1759424400.0
   },
   {
     "id": 141560,
@@ -14593,7 +14599,8 @@
       }
     ],
     "leaderSenseMasterId": 211,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1759208400.0
   },
   {
     "id": 141580,
@@ -14646,7 +14653,8 @@
       }
     ],
     "leaderSenseMasterId": 212,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1759208400.0
   },
   {
     "id": 141590,
@@ -14699,7 +14707,8 @@
       }
     ],
     "leaderSenseMasterId": 213,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1759813200.0
   },
   {
     "id": 141600,
@@ -14752,7 +14761,8 @@
       }
     ],
     "leaderSenseMasterId": 110,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1759813200.0
   },
   {
     "id": 141610,
@@ -15135,7 +15145,8 @@
       }
     ],
     "leaderSenseMasterId": 14,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1760979600.0
   },
   {
     "id": 141680,
@@ -15188,7 +15199,8 @@
       }
     ],
     "leaderSenseMasterId": 190,
-    "maxTalentStage": 5
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1760979600.0
   },
   {
     "id": 141690,
@@ -16597,6 +16609,114 @@
     "leaderSenseMasterId": 237,
     "maxTalentStage": 6,
     "maxTalentStageReleaseDate": 1759251600.0
+  },
+  {
+    "id": 141950,
+    "characterBaseMasterId": 304,
+    "name": "水鏡に映える月を掬って",
+    "description": "",
+    "rarity": "Rare4",
+    "attribute": "Cute",
+    "minLevelStatus": {
+      "vocal": 165,
+      "expression": 87,
+      "concentration": 88
+    },
+    "starActMasterId": 141951,
+    "awakenStarActMasterId": 141951,
+    "senseMasterId": 141950,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 40195,
+    "senseEnhanceItemGroupMasterId": 4,
+    "firstEpisodeReleaseItemGroupId": 411,
+    "secondEpisodeReleaseItemGroupId": 412,
+    "characterAwakeningItemGroupMasterId": 41,
+    "displayStartAt": 1760115600.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "ガチャで入手",
+    "categories": [
+      {
+        "categoryMasterId": 2003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 1003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8001,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7515,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 4002,
+        "isAwaken": true
+      }
+    ],
+    "leaderSenseMasterId": 194,
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1760115600.0
+  },
+  {
+    "id": 141960,
+    "characterBaseMasterId": 201,
+    "name": "Bordeaux Rendez-vous",
+    "description": "",
+    "rarity": "Rare4",
+    "attribute": "Cute",
+    "minLevelStatus": {
+      "vocal": 174,
+      "expression": 85,
+      "concentration": 86
+    },
+    "starActMasterId": 141961,
+    "awakenStarActMasterId": 141961,
+    "senseMasterId": 141960,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 40196,
+    "senseEnhanceItemGroupMasterId": 4,
+    "firstEpisodeReleaseItemGroupId": 411,
+    "secondEpisodeReleaseItemGroupId": 412,
+    "characterAwakeningItemGroupMasterId": 41,
+    "displayStartAt": 1760115600.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "ガチャで入手",
+    "categories": [
+      {
+        "categoryMasterId": 2002,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8003,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 4002,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 7515,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 3006,
+        "isAwaken": true
+      },
+      {
+        "categoryMasterId": 4003,
+        "isAwaken": true
+      }
+    ],
+    "leaderSenseMasterId": 238,
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1760115600.0
   },
   {
     "id": 150010,

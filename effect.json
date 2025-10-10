@@ -7285,6 +7285,38 @@
     "fireTimingType": "Sense"
   },
   {
+    "id": 20542,
+    "type": "ScoreGainOnScore",
+    "range": "Self",
+    "calculationType": "PercentageAddition",
+    "details": [
+      {
+        "level": 1,
+        "value": 20.0
+      },
+      {
+        "level": 2,
+        "value": 30.0
+      },
+      {
+        "level": 3,
+        "value": 40.0
+      },
+      {
+        "level": 4,
+        "value": 50.0
+      },
+      {
+        "level": 5,
+        "value": 60.0
+      }
+    ],
+    "conditions": [],
+    "durationSecond": 0,
+    "triggers": [],
+    "fireTimingType": "Sense"
+  },
+  {
     "id": 20543,
     "type": "ScoreGainOnScore",
     "range": "Self",
@@ -17567,7 +17599,7 @@
     ],
     "durationSecond": 0,
     "triggers": [],
-    "fireTimingType": "StartLive"
+    "fireTimingType": "Passive"
   },
   {
     "id": 90101,
