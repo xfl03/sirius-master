@@ -5892,6 +5892,103 @@
     "branchCondition2": "None"
   },
   {
+    "id": 141971,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得／プリンシパルゲージの上限を編成されている銀河座アクターの人数×[:param11]上昇させる",
+    "starActConditionMasterId": 101151,
+    "acquirableScorePercent": 1140,
+    "scoreUpPerLevel": 120,
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19070
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 1,
+        "id": 14197101
+      },
+      {
+        "order": 2,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19071
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 2,
+        "id": 14197102
+      },
+      {
+        "order": 3,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19072
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 3,
+        "id": 14197103
+      },
+      {
+        "order": 4,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19073
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 4,
+        "id": 14197104
+      },
+      {
+        "order": 5,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19074
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 5,
+        "id": 14197105
+      }
+    ],
+    "branchCondition1": "CompanyMemberCount",
+    "conditionValue1": 3,
+    "branchCondition2": "None"
+  },
+  {
+    "id": 141981,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得／スターアクト発動後、現在のプリンシパルゲージ上限の[:param11]%分のプリンシパルゲージを獲得する。",
+    "starActConditionMasterId": 101142,
+    "acquirableScorePercent": 1140,
+    "scoreUpPerLevel": 120,
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19090
+          }
+        ],
+        "id": 14198101
+      }
+    ],
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
     "id": 150011,
     "name": "",
     "description": "総演技力の[:score]倍のスコアを獲得／ライフが多いほどスコア獲得量UP効果（最大＋[:pre1]%）",

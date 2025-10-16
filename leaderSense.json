@@ -4868,5 +4868,65 @@
         ]
       }
     ]
+  },
+  {
+    "id": 239,
+    "description": "「銀河座」カテゴリの演技力40%上昇、「和風」カテゴリの歌唱力20％上昇、「橋弁慶」カテゴリの数に応じて初期プリンシパルゲージが10上昇",
+    "details": [
+      {
+        "effectMasterId": 12005,
+        "conditions": [
+          {
+            "categoryMasterId1": 2003
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12007,
+        "conditions": [
+          {
+            "categoryMasterId1": 4007
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12029,
+        "conditions": [
+          {
+            "categoryMasterId1": 6012
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 240,
+    "description": "「役者」カテゴリの演技力40%上昇、「舞台」カテゴリの集中力20％上昇、「橋弁慶」カテゴリの演技力上限が5%上昇",
+    "details": [
+      {
+        "effectMasterId": 12005,
+        "conditions": [
+          {
+            "categoryMasterId1": 8003
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12015,
+        "conditions": [
+          {
+            "categoryMasterId1": 8002
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12041,
+        "conditions": [
+          {
+            "categoryMasterId1": 6012
+          }
+        ]
+      }
+    ]
   }
 ]
