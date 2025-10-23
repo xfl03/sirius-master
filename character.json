@@ -16893,5 +16893,61 @@
     "maxTalentStageReleaseDate": 1753488000.0,
     "unknown25": 302,
     "unknown26": 150013
+  },
+  {
+    "id": 150020,
+    "characterBaseMasterId": 405,
+    "name": "Bomb Interruption !!",
+    "description": "",
+    "rarity": "Rare4",
+    "attribute": "Cool",
+    "minLevelStatus": {
+      "vocal": 139,
+      "expression": 139,
+      "concentration": 152
+    },
+    "starActMasterId": 150021,
+    "awakenStarActMasterId": 150022,
+    "senseMasterId": 150020,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 40502,
+    "senseEnhanceItemGroupMasterId": 4,
+    "firstEpisodeReleaseItemGroupId": 421,
+    "secondEpisodeReleaseItemGroupId": 422,
+    "characterAwakeningItemGroupMasterId": 42,
+    "displayStartAt": 1761498000.0,
+    "displayEndAt": 4102444800.0,
+    "unlockText": "特別な方法で入手",
+    "categories": [
+      {
+        "categoryMasterId": 2004,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 2002,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8012,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8013,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 4005,
+        "isAwaken": false
+      },
+      {
+        "categoryMasterId": 8009,
+        "isAwaken": true
+      }
+    ],
+    "leaderSenseMasterId": 241,
+    "maxTalentStage": 6,
+    "maxTalentStageReleaseDate": 1761498000.0,
+    "unknown25": 205,
+    "unknown26": 150023
   }
 ]

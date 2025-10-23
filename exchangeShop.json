@@ -56553,6 +56553,58 @@
     "unknown11": 4015
   },
   {
+    "id": 8690,
+    "isDisplayRequiredHavingItem": false,
+    "category": "Gacha",
+    "name": "ステラフェスガチャ(アクター)",
+    "displayThingType": "Item",
+    "displayItemMasterId": 418690,
+    "bannerPath": "8690",
+    "startDate": 1761498000.0,
+    "endDate": 1762966800.0,
+    "lastRefreshedAt": -62135596800.0,
+    "lineup": [
+      {
+        "id": 8690001,
+        "thingId": 150020,
+        "thingType": "Character",
+        "thingQuantity": 1,
+        "order": 8690001,
+        "isDisplayLocked": false,
+        "startDate": 1761498000.0,
+        "endDate": 1762966800.0,
+        "requiredItemMasterId": 418690,
+        "requiredQuantity": 200
+      },
+      {
+        "id": 8690002,
+        "thingId": 145002,
+        "thingType": "Item",
+        "thingQuantity": 800,
+        "exchangeLimit": 5,
+        "order": 8690002,
+        "isDisplayLocked": false,
+        "startDate": 1761498000.0,
+        "endDate": 1762966800.0,
+        "requiredItemMasterId": 418690,
+        "requiredQuantity": 50
+      },
+      {
+        "id": 8690003,
+        "thingId": 130011,
+        "thingType": "Item",
+        "thingQuantity": 1,
+        "order": 8690003,
+        "isDisplayLocked": false,
+        "startDate": 1761498000.0,
+        "endDate": 1762966800.0,
+        "requiredItemMasterId": 418690,
+        "requiredQuantity": 1
+      }
+    ],
+    "unknown11": 2000
+  },
+  {
     "id": 20001,
     "isDisplayRequiredHavingItem": false,
     "category": "Event",

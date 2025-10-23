@@ -8299,5 +8299,213 @@
     "unknown15": [
       3
     ]
+  },
+  {
+    "id": 150020,
+    "name": "Bomb Interruption !!",
+    "description": "<size=25%>[:score]倍のスコアを獲得／センス発動後、編成されているEden・劇団電姫アクターの演技力と演技力上限を消費するライフガードの数(最大10回)×4%上昇させる(この効果は重複する)</size>",
+    "type": "Control",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20661
+          },
+          {
+            "order": 2,
+            "effectMasterId": 29400
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 1,
+        "id": 1500201
+      },
+      {
+        "order": 2,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20662
+          },
+          {
+            "order": 2,
+            "effectMasterId": 29401
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 2,
+        "id": 1500202
+      },
+      {
+        "order": 3,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20663
+          },
+          {
+            "order": 2,
+            "effectMasterId": 29402
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 3,
+        "id": 1500203
+      },
+      {
+        "order": 4,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20664
+          },
+          {
+            "order": 2,
+            "effectMasterId": 29403
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 4,
+        "id": 1500204
+      },
+      {
+        "order": 5,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20665
+          },
+          {
+            "order": 2,
+            "effectMasterId": 29404
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 5,
+        "id": 1500205
+      },
+      {
+        "order": 6,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20666
+          },
+          {
+            "order": 2,
+            "effectMasterId": 29405
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 6,
+        "id": 1500206
+      },
+      {
+        "order": 7,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20667
+          },
+          {
+            "order": 2,
+            "effectMasterId": 29406
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 7,
+        "id": 1500207
+      },
+      {
+        "order": 8,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20668
+          },
+          {
+            "order": 2,
+            "effectMasterId": 29407
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 8,
+        "id": 1500208
+      },
+      {
+        "order": 9,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20669
+          },
+          {
+            "order": 2,
+            "effectMasterId": 29408
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 9,
+        "id": 1500209
+      },
+      {
+        "order": 10,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20670
+          },
+          {
+            "order": 2,
+            "effectMasterId": 29409
+          }
+        ],
+        "judgeType1": "MoreThan",
+        "parameter1": 10,
+        "id": 1500210
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 1170,
+    "scoreUpPerLevel": 100,
+    "lightCount": 1,
+    "coolTime": 80,
+    "branchCondition1": "LifeGuardCount",
+    "branchCondition2": "None",
+    "unknown15": [
+      2
+    ]
+  },
+  {
+    "id": 150023,
+    "name": "Bomb Interruption !!",
+    "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／センス発動時、追加で「ライフガード」を[:param11]回獲得する",
+    "type": "Control",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29303
+          }
+        ],
+        "id": 1500231
+      }
+    ],
+    "acquirableGauge": 80,
+    "acquirableScorePercent": 510,
+    "scoreUpPerLevel": 40,
+    "lightCount": 1,
+    "coolTime": 25,
+    "branchCondition1": "None",
+    "branchCondition2": "None",
+    "unknown15": [
+      2
+    ]
   }
 ]
