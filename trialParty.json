@@ -1,2914 +1,2570 @@
 [
-  [
-    101,
-    1,
-    [
-      [
-        1,
-        true,
-        10101200100,
-        1,
-        10102100100,
-        0,
-        null,
-        0
-      ],
-      [
-        2,
-        false,
-        10101300300,
-        1,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        3,
-        false,
-        10101400200,
-        1,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        4,
-        false,
-        10101200500,
-        1,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        5,
-        false,
-        10101300600,
-        1,
-        null,
-        0,
-        null,
-        0
-      ]
+  {
+    "id": 101,
+    "leaderPosition": 1,
+    "defaultSlots": [
+      {
+        "position": 1,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 10101200100,
+        "characterLockType": "CharacterBase",
+        "trialPartyPosterMasterId": 10102100100,
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 2,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 10101300300,
+        "characterLockType": "CharacterBase",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 3,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 10101400200,
+        "characterLockType": "CharacterBase",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 4,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 10101200500,
+        "characterLockType": "CharacterBase",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 5,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 10101300600,
+        "characterLockType": "CharacterBase",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      }
     ]
-  ],
-  [
-    102,
-    2,
-    [
-      [
-        1,
-        false,
-        10201201300,
-        1,
-        10202101300,
-        0,
-        null,
-        0
-      ],
-      [
-        2,
-        true,
-        10201101200,
-        1,
-        10202101200,
-        0,
-        null,
-        0
-      ],
-      [
-        3,
-        false,
-        10201201400,
-        1,
-        10202101400,
-        0,
-        null,
-        0
-      ],
-      [
-        4,
-        false,
-        10201101600,
-        1,
-        10202101600,
-        0,
-        null,
-        0
-      ],
-      [
-        5,
-        false,
-        10201401000,
-        1,
-        10202101500,
-        1,
-        null,
-        0
-      ]
+  },
+  {
+    "id": 102,
+    "leaderPosition": 2,
+    "defaultSlots": [
+      {
+        "position": 1,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 10201201300,
+        "characterLockType": "CharacterBase",
+        "trialPartyPosterMasterId": 10202101300,
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 2,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 10201101200,
+        "characterLockType": "CharacterBase",
+        "trialPartyPosterMasterId": 10202101200,
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 3,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 10201201400,
+        "characterLockType": "CharacterBase",
+        "trialPartyPosterMasterId": 10202101400,
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 4,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 10201101600,
+        "characterLockType": "CharacterBase",
+        "trialPartyPosterMasterId": 10202101600,
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 5,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 10201401000,
+        "characterLockType": "CharacterBase",
+        "trialPartyPosterMasterId": 10202101500,
+        "posterLockype": "CharacterBase",
+        "accessoryLockType": "None"
+      }
     ]
-  ],
-  [
-    103,
-    1,
-    [
-      [
-        1,
-        true,
-        10301406000,
-        2,
-        null,
-        0,
-        10303200701,
-        0
-      ],
-      [
-        2,
-        true,
-        10301410300,
-        1,
-        null,
-        0,
-        10303200702,
-        0
-      ],
-      [
-        3,
-        true,
-        10301300900,
-        1,
-        null,
-        0,
-        10303200703,
-        0
-      ],
-      [
-        4,
-        true,
-        10301406100,
-        1,
-        null,
-        0,
-        10303200704,
-        0
-      ],
-      [
-        5,
-        true,
-        10301301100,
-        1,
-        null,
-        0,
-        10303200705,
-        0
-      ]
+  },
+  {
+    "id": 103,
+    "leaderPosition": 1,
+    "defaultSlots": [
+      {
+        "position": 1,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 10301406000,
+        "characterLockType": "Character",
+        "posterLockype": "None",
+        "trialPartyAccessoryMasterId": 10303200701,
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 2,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 10301410300,
+        "characterLockType": "CharacterBase",
+        "posterLockype": "None",
+        "trialPartyAccessoryMasterId": 10303200702,
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 3,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 10301300900,
+        "characterLockType": "CharacterBase",
+        "posterLockype": "None",
+        "trialPartyAccessoryMasterId": 10303200703,
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 4,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 10301406100,
+        "characterLockType": "CharacterBase",
+        "posterLockype": "None",
+        "trialPartyAccessoryMasterId": 10303200704,
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 5,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 10301301100,
+        "characterLockType": "CharacterBase",
+        "posterLockype": "None",
+        "trialPartyAccessoryMasterId": 10303200705,
+        "accessoryLockType": "None"
+      }
     ]
-  ],
-  [
-    104,
-    3,
-    [
-      [
-        1,
-        false,
-        10401403600,
-        2,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        2,
-        false,
-        10401410800,
-        0,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        3,
-        false,
-        10401415200,
-        0,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        4,
-        false,
-        10401407000,
-        0,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        5,
-        false,
-        10401401300,
-        0,
-        null,
-        0,
-        null,
-        0
-      ]
+  },
+  {
+    "id": 104,
+    "leaderPosition": 3,
+    "defaultSlots": [
+      {
+        "position": 1,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 10401403600,
+        "characterLockType": "Character",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 2,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 10401410800,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 3,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 10401415200,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 4,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 10401407000,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 5,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 10401401300,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      }
     ]
-  ],
-  [
-    105,
-    4,
-    [
-      [
-        1,
-        false,
-        10501410400,
-        0,
-        10502301600,
-        0,
-        10503310901,
-        0
-      ],
-      [
-        2,
-        false,
-        10501406600,
-        0,
-        10502300600,
-        0,
-        10503311401,
-        0
-      ],
-      [
-        3,
-        false,
-        10501415300,
-        0,
-        10502200500,
-        0,
-        10503310601,
-        0
-      ],
-      [
-        4,
-        true,
-        10501402700,
-        1,
-        10502303100,
-        0,
-        10503310602,
-        0
-      ],
-      [
-        5,
-        false,
-        10501407300,
-        0,
-        null,
-        0,
-        10503310501,
-        0
-      ]
+  },
+  {
+    "id": 105,
+    "leaderPosition": 4,
+    "defaultSlots": [
+      {
+        "position": 1,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 10501410400,
+        "characterLockType": "None",
+        "trialPartyPosterMasterId": 10502301600,
+        "posterLockype": "None",
+        "trialPartyAccessoryMasterId": 10503310901,
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 2,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 10501406600,
+        "characterLockType": "None",
+        "trialPartyPosterMasterId": 10502300600,
+        "posterLockype": "None",
+        "trialPartyAccessoryMasterId": 10503311401,
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 3,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 10501415300,
+        "characterLockType": "None",
+        "trialPartyPosterMasterId": 10502200500,
+        "posterLockype": "None",
+        "trialPartyAccessoryMasterId": 10503310601,
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 4,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 10501402700,
+        "characterLockType": "CharacterBase",
+        "trialPartyPosterMasterId": 10502303100,
+        "posterLockype": "None",
+        "trialPartyAccessoryMasterId": 10503310602,
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 5,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 10501407300,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "trialPartyAccessoryMasterId": 10503310501,
+        "accessoryLockType": "None"
+      }
     ]
-  ],
-  [
-    106,
-    4,
-    [
-      [
-        1,
-        true,
-        10601406700,
-        1,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        2,
-        false,
-        10601409800,
-        0,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        3,
-        false,
-        10601403000,
-        0,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        4,
-        false,
-        10601401900,
-        0,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        5,
-        false,
-        10601405600,
-        0,
-        null,
-        0,
-        null,
-        0
-      ]
+  },
+  {
+    "id": 106,
+    "leaderPosition": 4,
+    "defaultSlots": [
+      {
+        "position": 1,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 10601406700,
+        "characterLockType": "CharacterBase",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 2,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 10601409800,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 3,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 10601403000,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 4,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 10601401900,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 5,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 10601405600,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      }
     ]
-  ],
-  [
-    107,
-    3,
-    [
-      [
-        1,
-        false,
-        10701416100,
-        0,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        2,
-        false,
-        10701409400,
-        0,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        3,
-        false,
-        10701404300,
-        0,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        4,
-        true,
-        10701401600,
-        2,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        5,
-        false,
-        10701416200,
-        0,
-        null,
-        0,
-        null,
-        0
-      ]
+  },
+  {
+    "id": 107,
+    "leaderPosition": 3,
+    "defaultSlots": [
+      {
+        "position": 1,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 10701416100,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 2,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 10701409400,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 3,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 10701404300,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 4,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 10701401600,
+        "characterLockType": "Character",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 5,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 10701416200,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      }
     ]
-  ],
-  [
-    108,
-    4,
-    [
-      [
-        1,
-        false,
-        10801403100,
-        0,
-        10802304500,
-        2,
-        null,
-        0
-      ],
-      [
-        2,
-        false,
-        10801411800,
-        0,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        3,
-        false,
-        10801403900,
-        0,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        4,
-        false,
-        10801402800,
-        0,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        5,
-        false,
-        10801411900,
-        0,
-        null,
-        0,
-        null,
-        0
-      ]
+  },
+  {
+    "id": 108,
+    "leaderPosition": 4,
+    "defaultSlots": [
+      {
+        "position": 1,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 10801403100,
+        "characterLockType": "None",
+        "trialPartyPosterMasterId": 10802304500,
+        "posterLockype": "Position",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 2,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 10801411800,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 3,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 10801403900,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 4,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 10801402800,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 5,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 10801411900,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      }
     ]
-  ],
-  [
-    109,
-    1,
-    [
-      [
-        1,
-        false,
-        10901415600,
-        2,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        2,
-        false,
-        10901403700,
-        0,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        3,
-        false,
-        10901409600,
-        0,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        4,
-        false,
-        10901414100,
-        0,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        5,
-        false,
-        10901401200,
-        0,
-        null,
-        0,
-        null,
-        0
-      ]
+  },
+  {
+    "id": 109,
+    "leaderPosition": 1,
+    "defaultSlots": [
+      {
+        "position": 1,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 10901415600,
+        "characterLockType": "Character",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 2,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 10901403700,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 3,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 10901409600,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 4,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 10901414100,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 5,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 10901401200,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      }
     ]
-  ],
-  [
-    110,
-    2,
-    [
-      [
-        1,
-        false,
-        11001415300,
-        0,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        2,
-        true,
-        11001418000,
-        1,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        3,
-        false,
-        11001408300,
-        0,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        4,
-        false,
-        11001400400,
-        0,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        5,
-        false,
-        11001411200,
-        0,
-        null,
-        0,
-        null,
-        0
-      ]
+  },
+  {
+    "id": 110,
+    "leaderPosition": 2,
+    "defaultSlots": [
+      {
+        "position": 1,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 11001415300,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 2,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 11001418000,
+        "characterLockType": "CharacterBase",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 3,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 11001408300,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 4,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 11001400400,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 5,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 11001411200,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      }
     ]
-  ],
-  [
-    111,
-    3,
-    [
-      [
-        1,
-        false,
-        11101416400,
-        0,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        2,
-        false,
-        11101413800,
-        0,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        3,
-        true,
-        11101417900,
-        1,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        4,
-        false,
-        11101413300,
-        0,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        5,
-        false,
-        11101415700,
-        0,
-        null,
-        0,
-        null,
-        0
-      ]
+  },
+  {
+    "id": 111,
+    "leaderPosition": 3,
+    "defaultSlots": [
+      {
+        "position": 1,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 11101416400,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 2,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 11101413800,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 3,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 11101417900,
+        "characterLockType": "CharacterBase",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 4,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 11101413300,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 5,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 11101415700,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      }
     ]
-  ],
-  [
-    112,
-    2,
-    [
-      [
-        1,
-        false,
-        11201415300,
-        0,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        2,
-        true,
-        11201500100,
-        1,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        3,
-        false,
-        11201402200,
-        0,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        4,
-        false,
-        11201415900,
-        0,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        5,
-        false,
-        11201403000,
-        0,
-        null,
-        0,
-        null,
-        0
-      ]
+  },
+  {
+    "id": 112,
+    "leaderPosition": 2,
+    "defaultSlots": [
+      {
+        "position": 1,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 11201415300,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 2,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 11201500100,
+        "characterLockType": "CharacterBase",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 3,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 11201402200,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 4,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 11201415900,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 5,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 11201403000,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      }
     ]
-  ],
-  [
-    113,
-    4,
-    [
-      [
-        1,
-        false,
-        11301500100,
-        0,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        2,
-        false,
-        11301404500,
-        0,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        3,
-        false,
-        11301408400,
-        0,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        4,
-        false,
-        11301415900,
-        0,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        5,
-        false,
-        11301410500,
-        0,
-        null,
-        0,
-        null,
-        0
-      ]
+  },
+  {
+    "id": 113,
+    "leaderPosition": 4,
+    "defaultSlots": [
+      {
+        "position": 1,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 11301500100,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 2,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 11301404500,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 3,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 11301408400,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 4,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 11301415900,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 5,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 11301410500,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      }
     ]
-  ],
-  [
-    114,
-    1,
-    [
-      [
-        1,
-        true,
-        11401419800,
-        1,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        2,
-        false,
-        11401409700,
-        0,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        3,
-        false,
-        11401416800,
-        0,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        4,
-        false,
-        11401418900,
-        0,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        5,
-        false,
-        11401418100,
-        0,
-        null,
-        0,
-        null,
-        0
-      ]
+  },
+  {
+    "id": 114,
+    "leaderPosition": 1,
+    "defaultSlots": [
+      {
+        "position": 1,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 11401419800,
+        "characterLockType": "CharacterBase",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 2,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 11401409700,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 3,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 11401416800,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 4,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 11401418900,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 5,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 11401418100,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      }
     ]
-  ],
-  [
-    115,
-    3,
-    [
-      [
-        1,
-        false,
-        11501407900,
-        0,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        2,
-        false,
-        11501415900,
-        0,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        3,
-        true,
-        11501419700,
-        1,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        4,
-        false,
-        11501405100,
-        0,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        5,
-        false,
-        11501419800,
-        0,
-        null,
-        0,
-        null,
-        0
-      ]
+  },
+  {
+    "id": 115,
+    "leaderPosition": 3,
+    "defaultSlots": [
+      {
+        "position": 1,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 11501407900,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 2,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 11501415900,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 3,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 11501419700,
+        "characterLockType": "CharacterBase",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 4,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 11501405100,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 5,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 11501419800,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      }
     ]
-  ],
-  [
-    116,
-    3,
-    [
-      [
-        1,
-        false,
-        11601413200,
-        0,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        2,
-        false,
-        11601407000,
-        0,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        3,
-        true,
-        11601500200,
-        0,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        4,
-        false,
-        11601404200,
-        0,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        5,
-        false,
-        11601403600,
-        0,
-        null,
-        0,
-        null,
-        0
-      ]
+  },
+  {
+    "id": 116,
+    "leaderPosition": 3,
+    "defaultSlots": [
+      {
+        "position": 1,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 11601413200,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 2,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 11601407000,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 3,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 11601500200,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 4,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 11601404200,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 5,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 11601403600,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      }
     ]
-  ],
-  [
-    117,
-    2,
-    [
-      [
-        1,
-        false,
-        11701413200,
-        0,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        2,
-        true,
-        11701500200,
-        0,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        3,
-        false,
-        11701409400,
-        0,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        4,
-        false,
-        11701406800,
-        0,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        5,
-        false,
-        11701414100,
-        0,
-        null,
-        0,
-        null,
-        0
-      ]
+  },
+  {
+    "id": 117,
+    "leaderPosition": 2,
+    "defaultSlots": [
+      {
+        "position": 1,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 11701413200,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 2,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 11701500200,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 3,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 11701409400,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 4,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 11701406800,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 5,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 11701414100,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      }
     ]
-  ],
-  [
-    300,
-    2,
-    [
-      [
-        1,
-        true,
-        30001408000,
-        2,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        2,
-        false,
-        30001411200,
-        0,
-        30002300100,
-        2,
-        null,
-        0
-      ],
-      [
-        3,
-        false,
-        30001401900,
-        0,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        4,
-        false,
-        30001415300,
-        0,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        5,
-        false,
-        30001400400,
-        0,
-        null,
-        0,
-        null,
-        0
-      ]
+  },
+  {
+    "id": 300,
+    "leaderPosition": 2,
+    "defaultSlots": [
+      {
+        "position": 1,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 30001408000,
+        "characterLockType": "Character",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 2,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 30001411200,
+        "characterLockType": "None",
+        "trialPartyPosterMasterId": 30002300100,
+        "posterLockype": "Position",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 3,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 30001401900,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 4,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 30001415300,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 5,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 30001400400,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      }
     ]
-  ],
-  [
-    301,
-    2,
-    [
-      [
-        1,
-        false,
-        30101410400,
-        0,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        2,
-        true,
-        30101405000,
-        1,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        3,
-        false,
-        30101407200,
-        0,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        4,
-        false,
-        30101410500,
-        0,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        5,
-        false,
-        30101405700,
-        0,
-        null,
-        0,
-        null,
-        0
-      ]
+  },
+  {
+    "id": 301,
+    "leaderPosition": 2,
+    "defaultSlots": [
+      {
+        "position": 1,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 30101410400,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 2,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 30101405000,
+        "characterLockType": "CharacterBase",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 3,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 30101407200,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 4,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 30101410500,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 5,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 30101405700,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      }
     ]
-  ],
-  [
-    302,
-    4,
-    [
-      [
-        1,
-        false,
-        30201417100,
-        0,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        2,
-        false,
-        30201407200,
-        0,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        3,
-        true,
-        30201415400,
-        1,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        4,
-        false,
-        30201413700,
-        0,
-        30202305400,
-        2,
-        null,
-        0
-      ],
-      [
-        5,
-        false,
-        30201413800,
-        0,
-        null,
-        0,
-        null,
-        0
-      ]
+  },
+  {
+    "id": 302,
+    "leaderPosition": 4,
+    "defaultSlots": [
+      {
+        "position": 1,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 30201417100,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 2,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 30201407200,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 3,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 30201415400,
+        "characterLockType": "CharacterBase",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 4,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 30201413700,
+        "characterLockType": "None",
+        "trialPartyPosterMasterId": 30202305400,
+        "posterLockype": "Position",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 5,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 30201413800,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      }
     ]
-  ],
-  [
-    303,
-    1,
-    [
-      [
-        1,
-        true,
-        30301414900,
-        2,
-        30302101600,
-        0,
-        null,
-        0
-      ],
-      [
-        2,
-        true,
-        30301404900,
-        1,
-        30302101400,
-        1,
-        null,
-        0
-      ],
-      [
-        3,
-        true,
-        30301409700,
-        2,
-        30302101200,
-        1,
-        null,
-        0
-      ],
-      [
-        4,
-        true,
-        30301404800,
-        2,
-        30302101500,
-        1,
-        null,
-        0
-      ],
-      [
-        5,
-        true,
-        30301403800,
-        2,
-        30302101300,
-        1,
-        null,
-        0
-      ]
+  },
+  {
+    "id": 303,
+    "leaderPosition": 1,
+    "defaultSlots": [
+      {
+        "position": 1,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 30301414900,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 30302101600,
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 2,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 30301404900,
+        "characterLockType": "CharacterBase",
+        "trialPartyPosterMasterId": 30302101400,
+        "posterLockype": "CharacterBase",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 3,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 30301409700,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 30302101200,
+        "posterLockype": "CharacterBase",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 4,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 30301404800,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 30302101500,
+        "posterLockype": "CharacterBase",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 5,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 30301403800,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 30302101300,
+        "posterLockype": "CharacterBase",
+        "accessoryLockType": "None"
+      }
     ]
-  ],
-  [
-    304,
-    3,
-    [
-      [
-        1,
-        true,
-        30401414000,
-        2,
-        30402301100,
-        1,
-        30403310701,
-        1
-      ],
-      [
-        2,
-        true,
-        30401400900,
-        2,
-        30402201000,
-        1,
-        30403310702,
-        1
-      ],
-      [
-        3,
-        true,
-        30401408400,
-        1,
-        30402303200,
-        0,
-        null,
-        0
-      ],
-      [
-        4,
-        true,
-        30401411400,
-        2,
-        30402300500,
-        1,
-        30403310703,
-        1
-      ],
-      [
-        5,
-        true,
-        30401408500,
-        2,
-        30402200300,
-        1,
-        30403310704,
-        1
-      ]
+  },
+  {
+    "id": 304,
+    "leaderPosition": 3,
+    "defaultSlots": [
+      {
+        "position": 1,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 30401414000,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 30402301100,
+        "posterLockype": "CharacterBase",
+        "trialPartyAccessoryMasterId": 30403310701,
+        "accessoryLockType": "CharacterBase"
+      },
+      {
+        "position": 2,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 30401400900,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 30402201000,
+        "posterLockype": "CharacterBase",
+        "trialPartyAccessoryMasterId": 30403310702,
+        "accessoryLockType": "CharacterBase"
+      },
+      {
+        "position": 3,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 30401408400,
+        "characterLockType": "CharacterBase",
+        "trialPartyPosterMasterId": 30402303200,
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 4,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 30401411400,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 30402300500,
+        "posterLockype": "CharacterBase",
+        "trialPartyAccessoryMasterId": 30403310703,
+        "accessoryLockType": "CharacterBase"
+      },
+      {
+        "position": 5,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 30401408500,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 30402200300,
+        "posterLockype": "CharacterBase",
+        "trialPartyAccessoryMasterId": 30403310704,
+        "accessoryLockType": "CharacterBase"
+      }
     ]
-  ],
-  [
-    305,
-    1,
-    [
-      [
-        1,
-        true,
-        30501414600,
-        1,
-        null,
-        0,
-        30503301601,
-        1
-      ],
-      [
-        2,
-        false,
-        30501416000,
-        2,
-        30502302600,
-        1,
-        30503310701,
-        1
-      ],
-      [
-        3,
-        false,
-        30501400800,
-        0,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        4,
-        true,
-        30501411500,
-        2,
-        30502301900,
-        1,
-        30503310703,
-        1
-      ],
-      [
-        5,
-        false,
-        30501401000,
-        2,
-        30502303200,
-        1,
-        30503310702,
-        1
-      ]
+  },
+  {
+    "id": 305,
+    "leaderPosition": 1,
+    "defaultSlots": [
+      {
+        "position": 1,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 30501414600,
+        "characterLockType": "CharacterBase",
+        "posterLockype": "None",
+        "trialPartyAccessoryMasterId": 30503301601,
+        "accessoryLockType": "CharacterBase"
+      },
+      {
+        "position": 2,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 30501416000,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 30502302600,
+        "posterLockype": "CharacterBase",
+        "trialPartyAccessoryMasterId": 30503310701,
+        "accessoryLockType": "CharacterBase"
+      },
+      {
+        "position": 3,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 30501400800,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 4,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 30501411500,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 30502301900,
+        "posterLockype": "CharacterBase",
+        "trialPartyAccessoryMasterId": 30503310703,
+        "accessoryLockType": "CharacterBase"
+      },
+      {
+        "position": 5,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 30501401000,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 30502303200,
+        "posterLockype": "CharacterBase",
+        "trialPartyAccessoryMasterId": 30503310702,
+        "accessoryLockType": "CharacterBase"
+      }
     ]
-  ],
-  [
-    306,
-    4,
-    [
-      [
-        1,
-        true,
-        30601406700,
-        2,
-        30602302200,
-        1,
-        30603310601,
-        1
-      ],
-      [
-        2,
-        true,
-        30601400400,
-        1,
-        30602200100,
-        1,
-        30603310602,
-        1
-      ],
-      [
-        3,
-        true,
-        30601401900,
-        2,
-        30602303500,
-        1,
-        30603310603,
-        1
-      ],
-      [
-        4,
-        true,
-        30601414300,
-        2,
-        30602301600,
-        1,
-        null,
-        0
-      ],
-      [
-        5,
-        true,
-        30601408000,
-        2,
-        30602300100,
-        1,
-        30603310604,
-        1
-      ]
+  },
+  {
+    "id": 306,
+    "leaderPosition": 4,
+    "defaultSlots": [
+      {
+        "position": 1,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 30601406700,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 30602302200,
+        "posterLockype": "CharacterBase",
+        "trialPartyAccessoryMasterId": 30603310601,
+        "accessoryLockType": "CharacterBase"
+      },
+      {
+        "position": 2,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 30601400400,
+        "characterLockType": "CharacterBase",
+        "trialPartyPosterMasterId": 30602200100,
+        "posterLockype": "CharacterBase",
+        "trialPartyAccessoryMasterId": 30603310602,
+        "accessoryLockType": "CharacterBase"
+      },
+      {
+        "position": 3,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 30601401900,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 30602303500,
+        "posterLockype": "CharacterBase",
+        "trialPartyAccessoryMasterId": 30603310603,
+        "accessoryLockType": "CharacterBase"
+      },
+      {
+        "position": 4,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 30601414300,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 30602301600,
+        "posterLockype": "CharacterBase",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 5,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 30601408000,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 30602300100,
+        "posterLockype": "CharacterBase",
+        "trialPartyAccessoryMasterId": 30603310604,
+        "accessoryLockType": "CharacterBase"
+      }
     ]
-  ],
-  [
-    307,
-    3,
-    [
-      [
-        1,
-        false,
-        30701405600,
-        2,
-        30702100600,
-        1,
-        30703201501,
-        1
-      ],
-      [
-        2,
-        false,
-        30701402700,
-        0,
-        30702301300,
-        1,
-        30703201502,
-        1
-      ],
-      [
-        3,
-        true,
-        30701403000,
-        2,
-        30703400500,
-        1,
-        null,
-        0
-      ],
-      [
-        4,
-        false,
-        30701406600,
-        2,
-        30702100400,
-        1,
-        30703201503,
-        1
-      ],
-      [
-        5,
-        true,
-        30701415300,
-        2,
-        30702300700,
-        1,
-        30703201504,
-        1
-      ]
+  },
+  {
+    "id": 307,
+    "leaderPosition": 3,
+    "defaultSlots": [
+      {
+        "position": 1,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 30701405600,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 30702100600,
+        "posterLockype": "CharacterBase",
+        "trialPartyAccessoryMasterId": 30703201501,
+        "accessoryLockType": "CharacterBase"
+      },
+      {
+        "position": 2,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 30701402700,
+        "characterLockType": "None",
+        "trialPartyPosterMasterId": 30702301300,
+        "posterLockype": "CharacterBase",
+        "trialPartyAccessoryMasterId": 30703201502,
+        "accessoryLockType": "CharacterBase"
+      },
+      {
+        "position": 3,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 30701403000,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 30703400500,
+        "posterLockype": "CharacterBase",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 4,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 30701406600,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 30702100400,
+        "posterLockype": "CharacterBase",
+        "trialPartyAccessoryMasterId": 30703201503,
+        "accessoryLockType": "CharacterBase"
+      },
+      {
+        "position": 5,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 30701415300,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 30702300700,
+        "posterLockype": "CharacterBase",
+        "trialPartyAccessoryMasterId": 30703201504,
+        "accessoryLockType": "CharacterBase"
+      }
     ]
-  ],
-  [
-    308,
-    3,
-    [
-      [
-        1,
-        false,
-        30801402000,
-        2,
-        30802100200,
-        1,
-        30803310601,
-        1
-      ],
-      [
-        2,
-        false,
-        30801415700,
-        2,
-        null,
-        0,
-        30803310602,
-        1
-      ],
-      [
-        3,
-        true,
-        30801400300,
-        1,
-        30803402600,
-        1,
-        null,
-        0
-      ],
-      [
-        4,
-        false,
-        30801400200,
-        1,
-        30802100400,
-        1,
-        30803310603,
-        1
-      ],
-      [
-        5,
-        true,
-        30801400400,
-        2,
-        30802100600,
-        1,
-        null,
-        0
-      ]
+  },
+  {
+    "id": 308,
+    "leaderPosition": 3,
+    "defaultSlots": [
+      {
+        "position": 1,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 30801402000,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 30802100200,
+        "posterLockype": "CharacterBase",
+        "trialPartyAccessoryMasterId": 30803310601,
+        "accessoryLockType": "CharacterBase"
+      },
+      {
+        "position": 2,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 30801415700,
+        "characterLockType": "Character",
+        "posterLockype": "None",
+        "trialPartyAccessoryMasterId": 30803310602,
+        "accessoryLockType": "CharacterBase"
+      },
+      {
+        "position": 3,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 30801400300,
+        "characterLockType": "CharacterBase",
+        "trialPartyPosterMasterId": 30803402600,
+        "posterLockype": "CharacterBase",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 4,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 30801400200,
+        "characterLockType": "CharacterBase",
+        "trialPartyPosterMasterId": 30802100400,
+        "posterLockype": "CharacterBase",
+        "trialPartyAccessoryMasterId": 30803310603,
+        "accessoryLockType": "CharacterBase"
+      },
+      {
+        "position": 5,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 30801400400,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 30802100600,
+        "posterLockype": "CharacterBase",
+        "accessoryLockType": "None"
+      }
     ]
-  ],
-  [
-    309,
-    5,
-    [
-      [
-        1,
-        true,
-        30901401600,
-        2,
-        30902201300,
-        1,
-        30903310901,
-        1
-      ],
-      [
-        2,
-        true,
-        30901400700,
-        2,
-        30902300700,
-        1,
-        30903310902,
-        1
-      ],
-      [
-        3,
-        true,
-        30901400600,
-        2,
-        30902302200,
-        1,
-        30903310903,
-        1
-      ],
-      [
-        4,
-        true,
-        30901402600,
-        1,
-        30902200200,
-        1,
-        30903310904,
-        1
-      ],
-      [
-        5,
-        true,
-        30901406800,
-        1,
-        30902300200,
-        1,
-        30903310905,
-        1
-      ]
+  },
+  {
+    "id": 309,
+    "leaderPosition": 5,
+    "defaultSlots": [
+      {
+        "position": 1,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 30901401600,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 30902201300,
+        "posterLockype": "CharacterBase",
+        "trialPartyAccessoryMasterId": 30903310901,
+        "accessoryLockType": "CharacterBase"
+      },
+      {
+        "position": 2,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 30901400700,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 30902300700,
+        "posterLockype": "CharacterBase",
+        "trialPartyAccessoryMasterId": 30903310902,
+        "accessoryLockType": "CharacterBase"
+      },
+      {
+        "position": 3,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 30901400600,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 30902302200,
+        "posterLockype": "CharacterBase",
+        "trialPartyAccessoryMasterId": 30903310903,
+        "accessoryLockType": "CharacterBase"
+      },
+      {
+        "position": 4,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 30901402600,
+        "characterLockType": "CharacterBase",
+        "trialPartyPosterMasterId": 30902200200,
+        "posterLockype": "CharacterBase",
+        "trialPartyAccessoryMasterId": 30903310904,
+        "accessoryLockType": "CharacterBase"
+      },
+      {
+        "position": 5,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 30901406800,
+        "characterLockType": "CharacterBase",
+        "trialPartyPosterMasterId": 30902300200,
+        "posterLockype": "CharacterBase",
+        "trialPartyAccessoryMasterId": 30903310905,
+        "accessoryLockType": "CharacterBase"
+      }
     ]
-  ],
-  [
-    310,
-    2,
-    [
-      [
-        1,
-        false,
-        31001409500,
-        2,
-        31002301900,
-        1,
-        31003311601,
-        1
-      ],
-      [
-        2,
-        true,
-        31001413600,
-        2,
-        31003402900,
-        1,
-        null,
-        0
-      ],
-      [
-        3,
-        true,
-        31001404100,
-        2,
-        null,
-        0,
-        31003311602,
-        1
-      ],
-      [
-        4,
-        true,
-        31001401600,
-        2,
-        31002300200,
-        1,
-        31003311603,
-        1
-      ],
-      [
-        5,
-        false,
-        31001402600,
-        2,
-        31002300700,
-        1,
-        null,
-        0
-      ]
+  },
+  {
+    "id": 310,
+    "leaderPosition": 2,
+    "defaultSlots": [
+      {
+        "position": 1,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 31001409500,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 31002301900,
+        "posterLockype": "CharacterBase",
+        "trialPartyAccessoryMasterId": 31003311601,
+        "accessoryLockType": "CharacterBase"
+      },
+      {
+        "position": 2,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 31001413600,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 31003402900,
+        "posterLockype": "CharacterBase",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 3,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 31001404100,
+        "characterLockType": "Character",
+        "posterLockype": "None",
+        "trialPartyAccessoryMasterId": 31003311602,
+        "accessoryLockType": "CharacterBase"
+      },
+      {
+        "position": 4,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 31001401600,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 31002300200,
+        "posterLockype": "CharacterBase",
+        "trialPartyAccessoryMasterId": 31003311603,
+        "accessoryLockType": "CharacterBase"
+      },
+      {
+        "position": 5,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 31001402600,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 31002300700,
+        "posterLockype": "CharacterBase",
+        "accessoryLockType": "None"
+      }
     ]
-  ],
-  [
-    311,
-    1,
-    [
-      [
-        1,
-        true,
-        31101410300,
-        2,
-        null,
-        0,
-        31103300801,
-        1
-      ],
-      [
-        2,
-        true,
-        31101406000,
-        1,
-        31102100700,
-        1,
-        31103313401,
-        1
-      ],
-      [
-        3,
-        true,
-        31101400600,
-        1,
-        31102101000,
-        1,
-        31103313402,
-        1
-      ],
-      [
-        4,
-        true,
-        31101409400,
-        2,
-        31102100900,
-        1,
-        31103313403,
-        1
-      ],
-      [
-        5,
-        true,
-        31101405400,
-        2,
-        31102101100,
-        1,
-        31103313404,
-        1
-      ]
+  },
+  {
+    "id": 311,
+    "leaderPosition": 1,
+    "defaultSlots": [
+      {
+        "position": 1,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 31101410300,
+        "characterLockType": "Character",
+        "posterLockype": "None",
+        "trialPartyAccessoryMasterId": 31103300801,
+        "accessoryLockType": "CharacterBase"
+      },
+      {
+        "position": 2,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 31101406000,
+        "characterLockType": "CharacterBase",
+        "trialPartyPosterMasterId": 31102100700,
+        "posterLockype": "CharacterBase",
+        "trialPartyAccessoryMasterId": 31103313401,
+        "accessoryLockType": "CharacterBase"
+      },
+      {
+        "position": 3,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 31101400600,
+        "characterLockType": "CharacterBase",
+        "trialPartyPosterMasterId": 31102101000,
+        "posterLockype": "CharacterBase",
+        "trialPartyAccessoryMasterId": 31103313402,
+        "accessoryLockType": "CharacterBase"
+      },
+      {
+        "position": 4,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 31101409400,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 31102100900,
+        "posterLockype": "CharacterBase",
+        "trialPartyAccessoryMasterId": 31103313403,
+        "accessoryLockType": "CharacterBase"
+      },
+      {
+        "position": 5,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 31101405400,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 31102101100,
+        "posterLockype": "CharacterBase",
+        "trialPartyAccessoryMasterId": 31103313404,
+        "accessoryLockType": "CharacterBase"
+      }
     ]
-  ],
-  [
-    312,
-    3,
-    [
-      [
-        1,
-        true,
-        31201401000,
-        2,
-        31202101500,
-        1,
-        31203315301,
-        1
-      ],
-      [
-        2,
-        true,
-        31201416000,
-        1,
-        31202101300,
-        1,
-        31203315302,
-        1
-      ],
-      [
-        3,
-        true,
-        31201400800,
-        2,
-        31202101200,
-        0,
-        31203301201,
-        1
-      ],
-      [
-        4,
-        true,
-        31201403900,
-        2,
-        31202101400,
-        1,
-        31203315303,
-        1
-      ],
-      [
-        5,
-        true,
-        31201408400,
-        2,
-        31202101600,
-        1,
-        31203315304,
-        1
-      ]
+  },
+  {
+    "id": 312,
+    "leaderPosition": 3,
+    "defaultSlots": [
+      {
+        "position": 1,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 31201401000,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 31202101500,
+        "posterLockype": "CharacterBase",
+        "trialPartyAccessoryMasterId": 31203315301,
+        "accessoryLockType": "CharacterBase"
+      },
+      {
+        "position": 2,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 31201416000,
+        "characterLockType": "CharacterBase",
+        "trialPartyPosterMasterId": 31202101300,
+        "posterLockype": "CharacterBase",
+        "trialPartyAccessoryMasterId": 31203315302,
+        "accessoryLockType": "CharacterBase"
+      },
+      {
+        "position": 3,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 31201400800,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 31202101200,
+        "posterLockype": "None",
+        "trialPartyAccessoryMasterId": 31203301201,
+        "accessoryLockType": "CharacterBase"
+      },
+      {
+        "position": 4,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 31201403900,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 31202101400,
+        "posterLockype": "CharacterBase",
+        "trialPartyAccessoryMasterId": 31203315303,
+        "accessoryLockType": "CharacterBase"
+      },
+      {
+        "position": 5,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 31201408400,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 31202101600,
+        "posterLockype": "CharacterBase",
+        "trialPartyAccessoryMasterId": 31203315304,
+        "accessoryLockType": "CharacterBase"
+      }
     ]
-  ],
-  [
-    313,
-    1,
-    [
-      [
-        1,
-        true,
-        31301415900,
-        2,
-        31302303100,
-        1,
-        31303301201,
-        1
-      ],
-      [
-        2,
-        false,
-        31301404900,
-        2,
-        31302303200,
-        1,
-        31303314701,
-        1
-      ],
-      [
-        3,
-        false,
-        31301416800,
-        2,
-        31302300500,
-        1,
-        31303314702,
-        1
-      ],
-      [
-        4,
-        false,
-        31301407900,
-        2,
-        31302305300,
-        1,
-        31303315101,
-        1
-      ],
-      [
-        5,
-        false,
-        31301413900,
-        2,
-        31302301700,
-        1,
-        31303314703,
-        1
-      ]
+  },
+  {
+    "id": 313,
+    "leaderPosition": 1,
+    "defaultSlots": [
+      {
+        "position": 1,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 31301415900,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 31302303100,
+        "posterLockype": "CharacterBase",
+        "trialPartyAccessoryMasterId": 31303301201,
+        "accessoryLockType": "CharacterBase"
+      },
+      {
+        "position": 2,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 31301404900,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 31302303200,
+        "posterLockype": "CharacterBase",
+        "trialPartyAccessoryMasterId": 31303314701,
+        "accessoryLockType": "CharacterBase"
+      },
+      {
+        "position": 3,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 31301416800,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 31302300500,
+        "posterLockype": "CharacterBase",
+        "trialPartyAccessoryMasterId": 31303314702,
+        "accessoryLockType": "CharacterBase"
+      },
+      {
+        "position": 4,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 31301407900,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 31302305300,
+        "posterLockype": "CharacterBase",
+        "trialPartyAccessoryMasterId": 31303315101,
+        "accessoryLockType": "CharacterBase"
+      },
+      {
+        "position": 5,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 31301413900,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 31302301700,
+        "posterLockype": "CharacterBase",
+        "trialPartyAccessoryMasterId": 31303314703,
+        "accessoryLockType": "CharacterBase"
+      }
     ]
-  ],
-  [
-    314,
-    4,
-    [
-      [
-        1,
-        false,
-        31401402800,
-        0,
-        31403403300,
-        0,
-        null,
-        0
-      ],
-      [
-        2,
-        true,
-        31401400900,
-        0,
-        31402302600,
-        1,
-        31403315301,
-        0
-      ],
-      [
-        3,
-        true,
-        31401407100,
-        1,
-        31402304900,
-        1,
-        31403315302,
-        0
-      ],
-      [
-        4,
-        false,
-        31401415800,
-        1,
-        null,
-        0,
-        31403315303,
-        0
-      ],
-      [
-        5,
-        true,
-        31401408500,
-        1,
-        31402300300,
-        1,
-        31403315304,
-        0
-      ]
+  },
+  {
+    "id": 314,
+    "leaderPosition": 4,
+    "defaultSlots": [
+      {
+        "position": 1,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 31401402800,
+        "characterLockType": "None",
+        "trialPartyPosterMasterId": 31403403300,
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 2,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 31401400900,
+        "characterLockType": "None",
+        "trialPartyPosterMasterId": 31402302600,
+        "posterLockype": "CharacterBase",
+        "trialPartyAccessoryMasterId": 31403315301,
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 3,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 31401407100,
+        "characterLockType": "CharacterBase",
+        "trialPartyPosterMasterId": 31402304900,
+        "posterLockype": "CharacterBase",
+        "trialPartyAccessoryMasterId": 31403315302,
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 4,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 31401415800,
+        "characterLockType": "CharacterBase",
+        "posterLockype": "None",
+        "trialPartyAccessoryMasterId": 31403315303,
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 5,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 31401408500,
+        "characterLockType": "CharacterBase",
+        "trialPartyPosterMasterId": 31402300300,
+        "posterLockype": "CharacterBase",
+        "trialPartyAccessoryMasterId": 31403315304,
+        "accessoryLockType": "None"
+      }
     ]
-  ],
-  [
-    90001,
-    1,
-    [
-      [
-        1,
-        true,
-        9000101100100,
-        0,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        2,
-        true,
-        9000101100300,
-        2,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        3,
-        true,
-        9000101100400,
-        2,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        4,
-        true,
-        9000101100500,
-        2,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        5,
-        true,
-        9000101100600,
-        2,
-        null,
-        0,
-        null,
-        0
-      ]
+  },
+  {
+    "id": 90001,
+    "leaderPosition": 1,
+    "defaultSlots": [
+      {
+        "position": 1,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9000101100100,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 2,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9000101100300,
+        "characterLockType": "Character",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 3,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9000101100400,
+        "characterLockType": "Character",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 4,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9000101100500,
+        "characterLockType": "Character",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 5,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9000101100600,
+        "characterLockType": "Character",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      }
     ]
-  ],
-  [
-    90002,
-    1,
-    [
-      [
-        1,
-        true,
-        9000201100700,
-        0,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        2,
-        true,
-        9000201100800,
-        2,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        3,
-        true,
-        9000201100900,
-        0,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        4,
-        true,
-        9000201101000,
-        2,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        5,
-        true,
-        9000201101100,
-        2,
-        null,
-        0,
-        null,
-        0
-      ]
+  },
+  {
+    "id": 90002,
+    "leaderPosition": 1,
+    "defaultSlots": [
+      {
+        "position": 1,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9000201100700,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 2,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9000201100800,
+        "characterLockType": "Character",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 3,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9000201100900,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 4,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9000201101000,
+        "characterLockType": "Character",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 5,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9000201101100,
+        "characterLockType": "Character",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      }
     ]
-  ],
-  [
-    90003,
-    1,
-    [
-      [
-        1,
-        true,
-        9000301301200,
-        2,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        2,
-        false,
-        9000301301300,
-        2,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        3,
-        true,
-        9000301301400,
-        2,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        4,
-        false,
-        9000301301500,
-        2,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        5,
-        true,
-        9000301301600,
-        2,
-        null,
-        0,
-        null,
-        0
-      ]
+  },
+  {
+    "id": 90003,
+    "leaderPosition": 1,
+    "defaultSlots": [
+      {
+        "position": 1,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9000301301200,
+        "characterLockType": "Character",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 2,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 9000301301300,
+        "characterLockType": "Character",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 3,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9000301301400,
+        "characterLockType": "Character",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 4,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 9000301301500,
+        "characterLockType": "Character",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 5,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9000301301600,
+        "characterLockType": "Character",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      }
     ]
-  ],
-  [
-    90004,
-    1,
-    [
-      [
-        1,
-        true,
-        9000401301700,
-        2,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        2,
-        true,
-        9000401201800,
-        0,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        3,
-        true,
-        9000401201900,
-        2,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        4,
-        false,
-        9000401202000,
-        2,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        5,
-        false,
-        9000401202100,
-        2,
-        null,
-        0,
-        null,
-        0
-      ]
+  },
+  {
+    "id": 90004,
+    "leaderPosition": 1,
+    "defaultSlots": [
+      {
+        "position": 1,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9000401301700,
+        "characterLockType": "Character",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 2,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9000401201800,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 3,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9000401201900,
+        "characterLockType": "Character",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 4,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 9000401202000,
+        "characterLockType": "Character",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 5,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 9000401202100,
+        "characterLockType": "Character",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      }
     ]
-  ],
-  [
-    90005,
-    1,
-    [
-      [
-        1,
-        true,
-        9000501301100,
-        2,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        2,
-        true,
-        9000501300800,
-        2,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        3,
-        false,
-        9000501300900,
-        2,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        4,
-        true,
-        9000501300700,
-        2,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        5,
-        false,
-        9000501301000,
-        2,
-        null,
-        0,
-        null,
-        0
-      ]
+  },
+  {
+    "id": 90005,
+    "leaderPosition": 1,
+    "defaultSlots": [
+      {
+        "position": 1,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9000501301100,
+        "characterLockType": "Character",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 2,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9000501300800,
+        "characterLockType": "Character",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 3,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 9000501300900,
+        "characterLockType": "Character",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 4,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9000501300700,
+        "characterLockType": "Character",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 5,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 9000501301000,
+        "characterLockType": "Character",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      }
     ]
-  ],
-  [
-    90006,
-    1,
-    [
-      [
-        1,
-        true,
-        9000601300300,
-        2,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        2,
-        true,
-        9000601300400,
-        2,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        3,
-        false,
-        9000601301200,
-        0,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        4,
-        true,
-        9000601300500,
-        2,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        5,
-        true,
-        9000601300600,
-        2,
-        null,
-        0,
-        null,
-        0
-      ]
+  },
+  {
+    "id": 90006,
+    "leaderPosition": 1,
+    "defaultSlots": [
+      {
+        "position": 1,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9000601300300,
+        "characterLockType": "Character",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 2,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9000601300400,
+        "characterLockType": "Character",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 3,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 9000601301200,
+        "characterLockType": "None",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 4,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9000601300500,
+        "characterLockType": "Character",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 5,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9000601300600,
+        "characterLockType": "Character",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      }
     ]
-  ],
-  [
-    90007,
-    1,
-    [
-      [
-        1,
-        true,
-        9000701408400,
-        1,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        2,
-        true,
-        9000701400800,
-        2,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        3,
-        false,
-        9000701400900,
-        2,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        4,
-        true,
-        9000701401000,
-        2,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        5,
-        false,
-        9000701408500,
-        2,
-        null,
-        0,
-        null,
-        0
-      ]
+  },
+  {
+    "id": 90007,
+    "leaderPosition": 1,
+    "defaultSlots": [
+      {
+        "position": 1,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9000701408400,
+        "characterLockType": "CharacterBase",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 2,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9000701400800,
+        "characterLockType": "Character",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 3,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 9000701400900,
+        "characterLockType": "Character",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 4,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9000701401000,
+        "characterLockType": "Character",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 5,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 9000701408500,
+        "characterLockType": "Character",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      }
     ]
-  ],
-  [
-    90008,
-    1,
-    [
-      [
-        1,
-        true,
-        9000801301700,
-        1,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        2,
-        false,
-        9000801401300,
-        2,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        3,
-        true,
-        9000801402400,
-        1,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        4,
-        true,
-        9000801404700,
-        2,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        5,
-        false,
-        9000801403700,
-        2,
-        null,
-        0,
-        null,
-        0
-      ]
+  },
+  {
+    "id": 90008,
+    "leaderPosition": 1,
+    "defaultSlots": [
+      {
+        "position": 1,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9000801301700,
+        "characterLockType": "CharacterBase",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 2,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 9000801401300,
+        "characterLockType": "Character",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 3,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9000801402400,
+        "characterLockType": "CharacterBase",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 4,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9000801404700,
+        "characterLockType": "Character",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 5,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 9000801403700,
+        "characterLockType": "Character",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      }
     ]
-  ],
-  [
-    90009,
-    2,
-    [
-      [
-        1,
-        true,
-        9000901401600,
-        2,
-        9000902100700,
-        1,
-        null,
-        0
-      ],
-      [
-        2,
-        true,
-        9000901401500,
-        2,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        3,
-        true,
-        9000901400500,
-        2,
-        9000902100900,
-        1,
-        null,
-        0
-      ],
-      [
-        4,
-        true,
-        9000901400600,
-        2,
-        9000902101000,
-        1,
-        null,
-        0
-      ],
-      [
-        5,
-        true,
-        9000901400700,
-        2,
-        9000902101100,
-        1,
-        null,
-        0
-      ]
+  },
+  {
+    "id": 90009,
+    "leaderPosition": 2,
+    "defaultSlots": [
+      {
+        "position": 1,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9000901401600,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 9000902100700,
+        "posterLockype": "CharacterBase",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 2,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9000901401500,
+        "characterLockType": "Character",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 3,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9000901400500,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 9000902100900,
+        "posterLockype": "CharacterBase",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 4,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9000901400600,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 9000902101000,
+        "posterLockype": "CharacterBase",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 5,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9000901400700,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 9000902101100,
+        "posterLockype": "CharacterBase",
+        "accessoryLockType": "None"
+      }
     ]
-  ],
-  [
-    90010,
-    1,
-    [
-      [
-        1,
-        true,
-        9001001302300,
-        2,
-        9001002101700,
-        1,
-        9001003310501,
-        1
-      ],
-      [
-        2,
-        true,
-        9001001407000,
-        2,
-        9001002101800,
-        1,
-        9001003310502,
-        1
-      ],
-      [
-        3,
-        true,
-        9001001404700,
-        2,
-        9001002101900,
-        1,
-        null,
-        0
-      ],
-      [
-        4,
-        true,
-        9001001403700,
-        2,
-        9001002102000,
-        1,
-        null,
-        0
-      ],
-      [
-        5,
-        true,
-        9001001404000,
-        2,
-        9001002102100,
-        1,
-        9001003310503,
-        1
-      ]
+  },
+  {
+    "id": 90010,
+    "leaderPosition": 1,
+    "defaultSlots": [
+      {
+        "position": 1,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9001001302300,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 9001002101700,
+        "posterLockype": "CharacterBase",
+        "trialPartyAccessoryMasterId": 9001003310501,
+        "accessoryLockType": "CharacterBase"
+      },
+      {
+        "position": 2,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9001001407000,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 9001002101800,
+        "posterLockype": "CharacterBase",
+        "trialPartyAccessoryMasterId": 9001003310502,
+        "accessoryLockType": "CharacterBase"
+      },
+      {
+        "position": 3,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9001001404700,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 9001002101900,
+        "posterLockype": "CharacterBase",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 4,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9001001403700,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 9001002102000,
+        "posterLockype": "CharacterBase",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 5,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9001001404000,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 9001002102100,
+        "posterLockype": "CharacterBase",
+        "trialPartyAccessoryMasterId": 9001003310503,
+        "accessoryLockType": "CharacterBase"
+      }
     ]
-  ],
-  [
-    90011,
-    4,
-    [
-      [
-        1,
-        true,
-        9001101303700,
-        2,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        2,
-        true,
-        9001101403800,
-        2,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        3,
-        true,
-        9001101301400,
-        1,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        4,
-        true,
-        9001101201500,
-        2,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        5,
-        true,
-        9001101403100,
-        2,
-        null,
-        0,
-        null,
-        0
-      ]
+  },
+  {
+    "id": 90011,
+    "leaderPosition": 4,
+    "defaultSlots": [
+      {
+        "position": 1,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9001101303700,
+        "characterLockType": "Character",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 2,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9001101403800,
+        "characterLockType": "Character",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 3,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9001101301400,
+        "characterLockType": "CharacterBase",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 4,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9001101201500,
+        "characterLockType": "Character",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 5,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9001101403100,
+        "characterLockType": "Character",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      }
     ]
-  ],
-  [
-    90012,
-    4,
-    [
-      [
-        1,
-        true,
-        9001201306200,
-        2,
-        9001202100100,
-        1,
-        null,
-        0
-      ],
-      [
-        2,
-        true,
-        9001201402700,
-        2,
-        9001202100300,
-        1,
-        null,
-        0
-      ],
-      [
-        3,
-        true,
-        9001201400200,
-        2,
-        9001202100400,
-        1,
-        null,
-        0
-      ],
-      [
-        4,
-        true,
-        9001201405700,
-        2,
-        9001202100500,
-        0,
-        null,
-        0
-      ],
-      [
-        5,
-        true,
-        9001201300600,
-        2,
-        9001202100600,
-        1,
-        null,
-        0
-      ]
+  },
+  {
+    "id": 90012,
+    "leaderPosition": 4,
+    "defaultSlots": [
+      {
+        "position": 1,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9001201306200,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 9001202100100,
+        "posterLockype": "CharacterBase",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 2,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9001201402700,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 9001202100300,
+        "posterLockype": "CharacterBase",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 3,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9001201400200,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 9001202100400,
+        "posterLockype": "CharacterBase",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 4,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9001201405700,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 9001202100500,
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 5,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9001201300600,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 9001202100600,
+        "posterLockype": "CharacterBase",
+        "accessoryLockType": "None"
+      }
     ]
-  ],
-  [
-    90013,
-    3,
-    [
-      [
-        1,
-        true,
-        9001301404100,
-        2,
-        9001302101100,
-        1,
-        9001303310901,
-        1
-      ],
-      [
-        2,
-        true,
-        9001301406000,
-        2,
-        null,
-        0,
-        9001303310902,
-        1
-      ],
-      [
-        3,
-        true,
-        9001301406100,
-        2,
-        9001302301400,
-        1,
-        9001303310903,
-        1
-      ],
-      [
-        4,
-        true,
-        9001301405500,
-        1,
-        9001302300700,
-        1,
-        null,
-        0
-      ],
-      [
-        5,
-        true,
-        9001301410300,
-        2,
-        9001302100800,
-        1,
-        9001303310904,
-        1
-      ]
+  },
+  {
+    "id": 90013,
+    "leaderPosition": 3,
+    "defaultSlots": [
+      {
+        "position": 1,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9001301404100,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 9001302101100,
+        "posterLockype": "CharacterBase",
+        "trialPartyAccessoryMasterId": 9001303310901,
+        "accessoryLockType": "CharacterBase"
+      },
+      {
+        "position": 2,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9001301406000,
+        "characterLockType": "Character",
+        "posterLockype": "None",
+        "trialPartyAccessoryMasterId": 9001303310902,
+        "accessoryLockType": "CharacterBase"
+      },
+      {
+        "position": 3,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9001301406100,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 9001302301400,
+        "posterLockype": "CharacterBase",
+        "trialPartyAccessoryMasterId": 9001303310903,
+        "accessoryLockType": "CharacterBase"
+      },
+      {
+        "position": 4,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9001301405500,
+        "characterLockType": "CharacterBase",
+        "trialPartyPosterMasterId": 9001302300700,
+        "posterLockype": "CharacterBase",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 5,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9001301410300,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 9001302100800,
+        "posterLockype": "CharacterBase",
+        "trialPartyAccessoryMasterId": 9001303310904,
+        "accessoryLockType": "CharacterBase"
+      }
     ]
-  ],
-  [
-    90014,
-    2,
-    [
-      [
-        1,
-        true,
-        9001401304700,
-        2,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        2,
-        true,
-        9001401409700,
-        1,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        3,
-        true,
-        9001401404800,
-        2,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        4,
-        true,
-        9001401414600,
-        2,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        5,
-        true,
-        9001401305900,
-        2,
-        null,
-        0,
-        null,
-        0
-      ]
+  },
+  {
+    "id": 90014,
+    "leaderPosition": 2,
+    "defaultSlots": [
+      {
+        "position": 1,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9001401304700,
+        "characterLockType": "Character",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 2,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9001401409700,
+        "characterLockType": "CharacterBase",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 3,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9001401404800,
+        "characterLockType": "Character",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 4,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9001401414600,
+        "characterLockType": "Character",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 5,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9001401305900,
+        "characterLockType": "Character",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      }
     ]
-  ],
-  [
-    90015,
-    3,
-    [
-      [
-        1,
-        false,
-        9001501403600,
-        2,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        2,
-        true,
-        9001501403700,
-        2,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        3,
-        false,
-        9001501303100,
-        2,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        4,
-        false,
-        9001501404700,
-        2,
-        9001502200800,
-        1,
-        null,
-        0
-      ],
-      [
-        5,
-        true,
-        9001501402400,
-        2,
-        null,
-        0,
-        null,
-        0
-      ]
+  },
+  {
+    "id": 90015,
+    "leaderPosition": 3,
+    "defaultSlots": [
+      {
+        "position": 1,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 9001501403600,
+        "characterLockType": "Character",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 2,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9001501403700,
+        "characterLockType": "Character",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 3,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 9001501303100,
+        "characterLockType": "Character",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 4,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 9001501404700,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 9001502200800,
+        "posterLockype": "CharacterBase",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 5,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9001501402400,
+        "characterLockType": "Character",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      }
     ]
-  ],
-  [
-    90016,
-    2,
-    [
-      [
-        1,
-        false,
-        9001601413300,
-        2,
-        9001602300100,
-        1,
-        null,
-        0
-      ],
-      [
-        2,
-        false,
-        9001601405600,
-        2,
-        9001602200100,
-        1,
-        null,
-        0
-      ],
-      [
-        3,
-        false,
-        9001601406700,
-        2,
-        9001602301600,
-        1,
-        null,
-        0
-      ],
-      [
-        4,
-        true,
-        9001601400300,
-        2,
-        9001602201600,
-        1,
-        null,
-        0
-      ],
-      [
-        5,
-        true,
-        9001601410500,
-        2,
-        9001602300800,
-        1,
-        null,
-        0
-      ]
+  },
+  {
+    "id": 90016,
+    "leaderPosition": 2,
+    "defaultSlots": [
+      {
+        "position": 1,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 9001601413300,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 9001602300100,
+        "posterLockype": "CharacterBase",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 2,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 9001601405600,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 9001602200100,
+        "posterLockype": "CharacterBase",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 3,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 9001601406700,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 9001602301600,
+        "posterLockype": "CharacterBase",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 4,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9001601400300,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 9001602201600,
+        "posterLockype": "CharacterBase",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 5,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9001601410500,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 9001602300800,
+        "posterLockype": "CharacterBase",
+        "accessoryLockType": "None"
+      }
     ]
-  ],
-  [
-    90017,
-    2,
-    [
-      [
-        1,
-        false,
-        9001701413800,
-        2,
-        9001702301600,
-        1,
-        null,
-        0
-      ],
-      [
-        2,
-        true,
-        9001701402000,
-        2,
-        9001702300900,
-        1,
-        null,
-        0
-      ],
-      [
-        3,
-        false,
-        9001701408100,
-        2,
-        9001702302200,
-        1,
-        null,
-        0
-      ],
-      [
-        4,
-        false,
-        9001701407300,
-        0,
-        9001702301900,
-        0,
-        null,
-        0
-      ],
-      [
-        5,
-        true,
-        9001701400400,
-        2,
-        9001702300800,
-        1,
-        null,
-        0
-      ]
+  },
+  {
+    "id": 90017,
+    "leaderPosition": 2,
+    "defaultSlots": [
+      {
+        "position": 1,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 9001701413800,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 9001702301600,
+        "posterLockype": "CharacterBase",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 2,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9001701402000,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 9001702300900,
+        "posterLockype": "CharacterBase",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 3,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 9001701408100,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 9001702302200,
+        "posterLockype": "CharacterBase",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 4,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 9001701407300,
+        "characterLockType": "None",
+        "trialPartyPosterMasterId": 9001702301900,
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 5,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9001701400400,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 9001702300800,
+        "posterLockype": "CharacterBase",
+        "accessoryLockType": "None"
+      }
     ]
-  ],
-  [
-    90018,
-    4,
-    [
-      [
-        1,
-        false,
-        9001801413100,
-        2,
-        9001802301400,
-        1,
-        null,
-        0
-      ],
-      [
-        2,
-        false,
-        9001801401500,
-        2,
-        9001802201700,
-        1,
-        null,
-        0
-      ],
-      [
-        3,
-        true,
-        9001801401600,
-        2,
-        9001802301000,
-        1,
-        null,
-        0
-      ],
-      [
-        4,
-        true,
-        9001801409500,
-        2,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        5,
-        true,
-        9001801400500,
-        1,
-        9001802300200,
-        1,
-        null,
-        0
-      ]
+  },
+  {
+    "id": 90018,
+    "leaderPosition": 4,
+    "defaultSlots": [
+      {
+        "position": 1,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 9001801413100,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 9001802301400,
+        "posterLockype": "CharacterBase",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 2,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 9001801401500,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 9001802201700,
+        "posterLockype": "CharacterBase",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 3,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9001801401600,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 9001802301000,
+        "posterLockype": "CharacterBase",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 4,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9001801409500,
+        "characterLockType": "Character",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 5,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9001801400500,
+        "characterLockType": "CharacterBase",
+        "trialPartyPosterMasterId": 9001802300200,
+        "posterLockype": "CharacterBase",
+        "accessoryLockType": "None"
+      }
     ]
-  ],
-  [
-    90019,
-    4,
-    [
-      [
-        1,
-        false,
-        9001901401000,
-        2,
-        null,
-        0,
-        null,
-        0
-      ],
-      [
-        2,
-        true,
-        9001901407100,
-        2,
-        9001902300300,
-        1,
-        null,
-        0
-      ],
-      [
-        3,
-        false,
-        9001901400900,
-        2,
-        9001902200900,
-        1,
-        null,
-        0
-      ],
-      [
-        4,
-        true,
-        9001901403900,
-        2,
-        9001902301100,
-        1,
-        null,
-        0
-      ],
-      [
-        5,
-        true,
-        9001901400800,
-        1,
-        9001902302600,
-        1,
-        null,
-        0
-      ]
+  },
+  {
+    "id": 90019,
+    "leaderPosition": 4,
+    "defaultSlots": [
+      {
+        "position": 1,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 9001901401000,
+        "characterLockType": "Character",
+        "posterLockype": "None",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 2,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9001901407100,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 9001902300300,
+        "posterLockype": "CharacterBase",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 3,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 9001901400900,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 9001902200900,
+        "posterLockype": "CharacterBase",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 4,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9001901403900,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 9001902301100,
+        "posterLockype": "CharacterBase",
+        "accessoryLockType": "None"
+      },
+      {
+        "position": 5,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9001901400800,
+        "characterLockType": "CharacterBase",
+        "trialPartyPosterMasterId": 9001902302600,
+        "posterLockype": "CharacterBase",
+        "accessoryLockType": "None"
+      }
     ]
-  ],
-  [
-    90020,
-    4,
-    [
-      [
-        1,
-        true,
-        9002001415100,
-        1,
-        9002002102000,
-        1,
-        9002003311501,
-        1
-      ],
-      [
-        2,
-        true,
-        9002001415200,
-        2,
-        9002002101900,
-        1,
-        9002003311502,
-        1
-      ],
-      [
-        3,
-        true,
-        9002001401300,
-        2,
-        9002002102100,
-        1,
-        9002003311503,
-        1
-      ],
-      [
-        4,
-        false,
-        9002001401200,
-        2,
-        9002002101800,
-        1,
-        9002003311504,
-        1
-      ],
-      [
-        5,
-        false,
-        9002001401100,
-        1,
-        9002002301200,
-        1,
-        null,
-        0
-      ]
+  },
+  {
+    "id": 90020,
+    "leaderPosition": 4,
+    "defaultSlots": [
+      {
+        "position": 1,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9002001415100,
+        "characterLockType": "CharacterBase",
+        "trialPartyPosterMasterId": 9002002102000,
+        "posterLockype": "CharacterBase",
+        "trialPartyAccessoryMasterId": 9002003311501,
+        "accessoryLockType": "CharacterBase"
+      },
+      {
+        "position": 2,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9002001415200,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 9002002101900,
+        "posterLockype": "CharacterBase",
+        "trialPartyAccessoryMasterId": 9002003311502,
+        "accessoryLockType": "CharacterBase"
+      },
+      {
+        "position": 3,
+        "isPositionLock": true,
+        "trialPartyCharacterMasterId": 9002001401300,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 9002002102100,
+        "posterLockype": "CharacterBase",
+        "trialPartyAccessoryMasterId": 9002003311503,
+        "accessoryLockType": "CharacterBase"
+      },
+      {
+        "position": 4,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 9002001401200,
+        "characterLockType": "Character",
+        "trialPartyPosterMasterId": 9002002101800,
+        "posterLockype": "CharacterBase",
+        "trialPartyAccessoryMasterId": 9002003311504,
+        "accessoryLockType": "CharacterBase"
+      },
+      {
+        "position": 5,
+        "isPositionLock": false,
+        "trialPartyCharacterMasterId": 9002001401100,
+        "characterLockType": "CharacterBase",
+        "trialPartyPosterMasterId": 9002002301200,
+        "posterLockype": "CharacterBase",
+        "accessoryLockType": "None"
+      }
     ]
-  ]
+  }
 ]

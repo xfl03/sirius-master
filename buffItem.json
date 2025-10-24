@@ -1,29 +1,29 @@
 [
-  [
-    710002,
-    710002,
-    4,
-    100,
-    14,
-    "公演の獲得EXP 100％UP",
-    "公演の獲得EXPが100％UP中！"
-  ],
-  [
-    712002,
-    712002,
-    3,
-    100,
-    14,
-    "稽古の獲得SP 100％UP",
-    "稽古の獲得SPが100％UP中！"
-  ],
-  [
-    713001,
-    713001,
-    6,
-    1,
-    14,
-    "稽古の回数 +1回",
-    "稽古を1回多くプレイ可能！"
-  ]
+  {
+    "id": 710002,
+    "itemMasterId": 710002,
+    "effectType": "RankPoint",
+    "effectValue": 100,
+    "validDay": 14,
+    "dialogTitle": "公演の獲得EXP 100％UP",
+    "dialogDescription": "公演の獲得EXPが100％UP中！"
+  },
+  {
+    "id": 712002,
+    "itemMasterId": 712002,
+    "effectType": "StarPoint",
+    "effectValue": 100,
+    "validDay": 14,
+    "dialogTitle": "稽古の獲得SP 100％UP",
+    "dialogDescription": "稽古の獲得SPが100％UP中！"
+  },
+  {
+    "id": 713001,
+    "itemMasterId": 713001,
+    "effectType": "LessonCount",
+    "effectValue": 1,
+    "validDay": 14,
+    "dialogTitle": "稽古の回数 +1回",
+    "dialogDescription": "稽古を1回多くプレイ可能！"
+  }
 ]

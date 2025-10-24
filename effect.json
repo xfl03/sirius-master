@@ -3267,7 +3267,7 @@
   },
   {
     "id": 19090,
-    "type": 52,
+    "type": "PrincipalGaugeGainPercentageOfLimit",
     "range": "Self",
     "calculationType": "PercentageAddition",
     "details": [
@@ -8555,7 +8555,7 @@
   },
   {
     "id": 20631,
-    "type": 52,
+    "type": "PrincipalGaugeGainPercentageOfLimit",
     "range": "Self",
     "calculationType": "PercentageAddition",
     "details": [
@@ -8984,7 +8984,7 @@
     ],
     "conditions": [
       {
-        "condition": 8,
+        "condition": "CharacterBaseGroup",
         "value": 8
       }
     ],
@@ -9021,7 +9021,7 @@
     ],
     "conditions": [
       {
-        "condition": 8,
+        "condition": "CharacterBaseGroup",
         "value": 8
       }
     ],
@@ -9058,7 +9058,7 @@
     ],
     "conditions": [
       {
-        "condition": 8,
+        "condition": "CharacterBaseGroup",
         "value": 8
       }
     ],
@@ -9095,7 +9095,7 @@
     ],
     "conditions": [
       {
-        "condition": 8,
+        "condition": "CharacterBaseGroup",
         "value": 8
       }
     ],
@@ -9132,7 +9132,7 @@
     ],
     "conditions": [
       {
-        "condition": 8,
+        "condition": "CharacterBaseGroup",
         "value": 8
       }
     ],
@@ -9169,7 +9169,7 @@
     ],
     "conditions": [
       {
-        "condition": 8,
+        "condition": "CharacterBaseGroup",
         "value": 8
       }
     ],
@@ -9206,7 +9206,7 @@
     ],
     "conditions": [
       {
-        "condition": 8,
+        "condition": "CharacterBaseGroup",
         "value": 8
       }
     ],
@@ -9243,7 +9243,7 @@
     ],
     "conditions": [
       {
-        "condition": 8,
+        "condition": "CharacterBaseGroup",
         "value": 8
       }
     ],
@@ -9280,7 +9280,7 @@
     ],
     "conditions": [
       {
-        "condition": 8,
+        "condition": "CharacterBaseGroup",
         "value": 8
       }
     ],
@@ -9317,7 +9317,7 @@
     ],
     "conditions": [
       {
-        "condition": 8,
+        "condition": "CharacterBaseGroup",
         "value": 8
       }
     ],
@@ -9926,7 +9926,7 @@
   },
   {
     "id": 28007,
-    "type": 50,
+    "type": "CombinationSense",
     "range": "All",
     "calculationType": "FixedAddition",
     "details": [
@@ -9957,7 +9957,7 @@
         "value": 105
       },
       {
-        "condition": 7,
+        "condition": "NeighborPosition",
         "value": 1
       }
     ],
@@ -9967,7 +9967,7 @@
   },
   {
     "id": 28008,
-    "type": 50,
+    "type": "CombinationSense",
     "range": "All",
     "calculationType": "FixedAddition",
     "details": [
@@ -9998,7 +9998,7 @@
         "value": 106
       },
       {
-        "condition": 7,
+        "condition": "NeighborPosition",
         "value": 1
       }
     ],
@@ -10008,7 +10008,7 @@
   },
   {
     "id": 28009,
-    "type": 50,
+    "type": "CombinationSense",
     "range": "All",
     "calculationType": "FixedAddition",
     "details": [
@@ -10039,7 +10039,7 @@
         "value": 305
       },
       {
-        "condition": 7,
+        "condition": "NeighborPosition",
         "value": 1
       }
     ],
@@ -12749,7 +12749,7 @@
     "durationSecond": 0,
     "triggers": [
       {
-        "trigger": 11,
+        "trigger": "MaxMemberBelongingCompanyCount",
         "value": 5
       }
     ],
@@ -24558,7 +24558,7 @@
         "value": 102
       },
       {
-        "trigger": 10,
+        "trigger": "AllMemberBelongingCompany",
         "value": 1
       }
     ],
@@ -26329,7 +26329,7 @@
         "value": 401
       },
       {
-        "trigger": 10,
+        "trigger": "AllMemberBelongingCompany",
         "value": 4
       }
     ],
@@ -89791,7 +89791,7 @@
   },
   {
     "id": 13400000,
-    "type": 51,
+    "type": "PlayerRankPointUp",
     "range": "None",
     "calculationType": "PercentageAddition",
     "details": [

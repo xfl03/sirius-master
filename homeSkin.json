@@ -1,56 +1,49 @@
 [
-  [
-    200001,
-    "デフォルト",
-    1,
-    null,
-    false,
-    true,
-    null
-  ],
-  [
-    200103,
-    "カトリナ・グリーベル",
-    103,
-    null,
-    true,
-    false,
-    1754265600.0
-  ],
-  [
-    200105,
-    "柳場ぱんだ",
-    105,
-    null,
-    true,
-    false,
-    1757721600.0
-  ],
-  [
-    200202,
-    "烏森大黒",
-    202,
-    null,
-    true,
-    false,
-    1757721600.0
-  ],
-  [
-    200301,
-    "千寿暦",
-    301,
-    null,
-    true,
-    false,
-    1759449600.0
-  ],
-  [
-    200305,
-    "与那国緋花里",
-    305,
-    null,
-    true,
-    false,
-    1755648000.0
-  ]
+  {
+    "id": 200001,
+    "name": "デフォルト",
+    "order": 1,
+    "hidden": false,
+    "isDefault": true
+  },
+  {
+    "id": 200103,
+    "name": "カトリナ・グリーベル",
+    "order": 103,
+    "hidden": true,
+    "isDefault": false,
+    "displayStartDate": 1754265600.0
+  },
+  {
+    "id": 200105,
+    "name": "柳場ぱんだ",
+    "order": 105,
+    "hidden": true,
+    "isDefault": false,
+    "displayStartDate": 1757721600.0
+  },
+  {
+    "id": 200202,
+    "name": "烏森大黒",
+    "order": 202,
+    "hidden": true,
+    "isDefault": false,
+    "displayStartDate": 1757721600.0
+  },
+  {
+    "id": 200301,
+    "name": "千寿暦",
+    "order": 301,
+    "hidden": true,
+    "isDefault": false,
+    "displayStartDate": 1759449600.0
+  },
+  {
+    "id": 200305,
+    "name": "与那国緋花里",
+    "order": 305,
+    "hidden": true,
+    "isDefault": false,
+    "displayStartDate": 1755648000.0
+  }
 ]

@@ -1,105 +1,105 @@
 [
-  [
-    1,
-    70001,
-    "inst_98",
-    [
-      [
-        101,
-        "Beyond Grief",
-        1748710800.0,
-        1749420000.0
-      ],
-      [
-        102,
-        "第7回 演劇リーグ TRIPLE CAST",
-        1748754000.0,
-        1749859200.0
-      ],
-      [
-        103,
-        "第12回 ウィークリーコース【STELLA部門】",
-        1748883600.0,
-        1749427200.0
-      ],
-      [
-        104,
-        "第12回 ウィークリーコース【OLIVIER部門】",
-        1748883600.0,
-        1749427200.0
-      ],
-      [
-        105,
-        "第98回 演劇リーグ",
-        1748926800.0,
-        1749427200.0
-      ],
-      [
-        106,
-        "第13回 ウィークリーコース【STELLA部門】",
-        1749488400.0,
-        1750032000.0
-      ],
-      [
-        107,
-        "第13回 ウィークリーコース【OLIVIER部門】",
-        1749488400.0,
-        1750032000.0
-      ],
-      [
-        108,
-        "June Bridal Working!",
-        1749574800.0,
-        1750284000.0
-      ],
-      [
-        109,
-        "第99回 演劇リーグ",
-        1749531600.0,
-        1750032000.0
-      ]
+  {
+    "id": 1,
+    "eventMasterId": 70001,
+    "bgmPath": "inst_98",
+    "details": [
+      {
+        "id": 101,
+        "name": "Beyond Grief",
+        "startDate": 1748710800.0,
+        "endDate": 1749420000.0
+      },
+      {
+        "id": 102,
+        "name": "第7回 演劇リーグ TRIPLE CAST",
+        "startDate": 1748754000.0,
+        "endDate": 1749859200.0
+      },
+      {
+        "id": 103,
+        "name": "第12回 ウィークリーコース【STELLA部門】",
+        "startDate": 1748883600.0,
+        "endDate": 1749427200.0
+      },
+      {
+        "id": 104,
+        "name": "第12回 ウィークリーコース【OLIVIER部門】",
+        "startDate": 1748883600.0,
+        "endDate": 1749427200.0
+      },
+      {
+        "id": 105,
+        "name": "第98回 演劇リーグ",
+        "startDate": 1748926800.0,
+        "endDate": 1749427200.0
+      },
+      {
+        "id": 106,
+        "name": "第13回 ウィークリーコース【STELLA部門】",
+        "startDate": 1749488400.0,
+        "endDate": 1750032000.0
+      },
+      {
+        "id": 107,
+        "name": "第13回 ウィークリーコース【OLIVIER部門】",
+        "startDate": 1749488400.0,
+        "endDate": 1750032000.0
+      },
+      {
+        "id": 108,
+        "name": "June Bridal Working!",
+        "startDate": 1749574800.0,
+        "endDate": 1750284000.0
+      },
+      {
+        "id": 109,
+        "name": "第99回 演劇リーグ",
+        "startDate": 1749531600.0,
+        "endDate": 1750032000.0
+      }
     ],
-    [
-      [
-        1,
-        10,
-        200
-      ],
-      [
-        11,
-        100,
-        120
-      ],
-      [
-        101,
-        500,
-        100
-      ],
-      [
-        501,
-        1000,
-        80
-      ],
-      [
-        1001,
-        5000,
-        60
-      ],
-      [
-        5001,
-        10000,
-        50
-      ],
-      [
-        10001,
-        20000,
-        40
-      ],
-      [
-        20001,
-        999999,
-        30
-      ]
+    "points": [
+      {
+        "targetHighestRank": 1,
+        "targetLowestRank": 10,
+        "point": 200
+      },
+      {
+        "targetHighestRank": 11,
+        "targetLowestRank": 100,
+        "point": 120
+      },
+      {
+        "targetHighestRank": 101,
+        "targetLowestRank": 500,
+        "point": 100
+      },
+      {
+        "targetHighestRank": 501,
+        "targetLowestRank": 1000,
+        "point": 80
+      },
+      {
+        "targetHighestRank": 1001,
+        "targetLowestRank": 5000,
+        "point": 60
+      },
+      {
+        "targetHighestRank": 5001,
+        "targetLowestRank": 10000,
+        "point": 50
+      },
+      {
+        "targetHighestRank": 10001,
+        "targetLowestRank": 20000,
+        "point": 40
+      },
+      {
+        "targetHighestRank": 20001,
+        "targetLowestRank": 999999,
+        "point": 30
+      }
     ]
-  ]
+  }
 ]
