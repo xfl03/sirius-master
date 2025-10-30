@@ -1087,7 +1087,7 @@
   },
   {
     "id": 71,
-    "name": "PERFECTコース",
+    "name": "絶体絶命コース",
     "musicCourseType": "Special",
     "order": 11,
     "initialLife": 9,
@@ -3224,6 +3224,70 @@
         "id": 26503,
         "setListNumber": 3,
         "liveMasterId": 12305,
+        "vocalVersion": 1
+      }
+    ]
+  },
+  {
+    "id": 266,
+    "name": "第34回 ウィークリーコース【STELLA部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 1,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1762189200.0,
+    "endDate": 1762732800.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 26601,
+        "setListNumber": 1,
+        "liveMasterId": 1104,
+        "vocalVersion": 1
+      },
+      {
+        "id": 26602,
+        "setListNumber": 2,
+        "liveMasterId": 10004,
+        "vocalVersion": 1
+      },
+      {
+        "id": 26603,
+        "setListNumber": 3,
+        "liveMasterId": 19004,
+        "vocalVersion": 1
+      }
+    ]
+  },
+  {
+    "id": 267,
+    "name": "第34回 ウィークリーコース【OLIVIER部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 2,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1762189200.0,
+    "endDate": 1762732800.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 26701,
+        "setListNumber": 1,
+        "liveMasterId": 3805,
+        "vocalVersion": 1
+      },
+      {
+        "id": 26702,
+        "setListNumber": 2,
+        "liveMasterId": 1505,
+        "vocalVersion": 1
+      },
+      {
+        "id": 26703,
+        "setListNumber": 3,
+        "liveMasterId": 405,
         "vocalVersion": 1
       }
     ]

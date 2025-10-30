@@ -2806,5 +2806,109 @@
       "effectDescription": "公演開始前にプリンシパルゲージの上限値が[:param1]上昇する　　※<color=#33B4DF>凛属性</color>の烏森 大黒のみ対象",
       "iconImagePath": "206"
     }
+  },
+  {
+    "id": 2006301,
+    "storyEventHighScoreMasterId": 20063,
+    "storyEventHighScoreBuffMasterId": 11,
+    "storyEventHighScoreBuffMaster": {
+      "id": 11,
+      "storyEventHighScoreBuffPatternGroupId": 1,
+      "effectMasterId": 80003,
+      "effectName": "舞台照明",
+      "effectDescription": "アクターの集中力が[:param1]上昇する",
+      "iconImagePath": "11"
+    }
+  },
+  {
+    "id": 2006302,
+    "storyEventHighScoreMasterId": 20063,
+    "storyEventHighScoreBuffMasterId": 12,
+    "storyEventHighScoreBuffMaster": {
+      "id": 12,
+      "storyEventHighScoreBuffPatternGroupId": 1,
+      "effectMasterId": 80002,
+      "effectName": "舞台スピーカー",
+      "effectDescription": "アクターの表現力が[:param1]上昇する",
+      "iconImagePath": "12"
+    }
+  },
+  {
+    "id": 2006303,
+    "storyEventHighScoreMasterId": 20063,
+    "storyEventHighScoreBuffMasterId": 13,
+    "storyEventHighScoreBuffMaster": {
+      "id": 13,
+      "storyEventHighScoreBuffPatternGroupId": 1,
+      "effectMasterId": 80001,
+      "effectName": "舞台マイク",
+      "effectDescription": "アクターの歌唱力が[:param1]上昇する",
+      "iconImagePath": "13"
+    }
+  },
+  {
+    "id": 2006304,
+    "storyEventHighScoreMasterId": 20063,
+    "storyEventHighScoreBuffMasterId": 14,
+    "storyEventHighScoreBuffMaster": {
+      "id": 14,
+      "storyEventHighScoreBuffPatternGroupId": 1,
+      "effectMasterId": 80004,
+      "effectName": "舞台カーテン",
+      "effectDescription": "アクターの演技力が[:param1]％上昇する",
+      "iconImagePath": "14"
+    }
+  },
+  {
+    "id": 2006305,
+    "storyEventHighScoreMasterId": 20063,
+    "storyEventHighScoreBuffMasterId": 209,
+    "storyEventHighScoreBuffMaster": {
+      "id": 209,
+      "storyEventHighScoreBuffPatternGroupId": 2,
+      "effectMasterId": 80113,
+      "effectName": "シリウスのロゴ",
+      "effectDescription": "アクターの演技力上限が[:param1]％上昇する　※シリウスに所属するアクターのみ対象",
+      "iconImagePath": "195"
+    }
+  },
+  {
+    "id": 2006306,
+    "storyEventHighScoreMasterId": 20063,
+    "storyEventHighScoreBuffMasterId": 210,
+    "storyEventHighScoreBuffMaster": {
+      "id": 210,
+      "storyEventHighScoreBuffPatternGroupId": 2,
+      "effectMasterId": 80114,
+      "effectName": "星のペンダント【凛】",
+      "effectDescription": "シリウスに所属するアクター1人につき、プリンシパルゲージの上限値が[:param1]上昇する",
+      "iconImagePath": "214"
+    }
+  },
+  {
+    "id": 2006307,
+    "storyEventHighScoreMasterId": 20063,
+    "storyEventHighScoreBuffMasterId": 211,
+    "storyEventHighScoreBuffMaster": {
+      "id": 211,
+      "storyEventHighScoreBuffPatternGroupId": 2,
+      "effectMasterId": 80115,
+      "effectName": "音符のブローチ【凛】",
+      "effectDescription": "センス発動時、追加で「SP光」を[:param1]個付与する（レベル10の時に効果発動）　※<color=#33B4DF>凛属性</color>の新妻 八恵のみ対象",
+      "iconImagePath": "212"
+    }
+  },
+  {
+    "id": 2006308,
+    "storyEventHighScoreMasterId": 20063,
+    "storyEventHighScoreBuffMasterId": 212,
+    "storyEventHighScoreBuffMaster": {
+      "id": 212,
+      "storyEventHighScoreBuffPatternGroupId": 2,
+      "effectMasterId": 80116,
+      "effectName": "懐中時計【凛】",
+      "effectDescription": "センスのCTが[:param1]秒短縮する　※<color=#33B4DF>凛属性</color>のカトリナ・グリーベルのみ対象",
+      "iconImagePath": "213"
+    }
   }
 ]

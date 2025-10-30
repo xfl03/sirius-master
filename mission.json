@@ -17890,6 +17890,56 @@
     ]
   },
   {
+    "id": 51400,
+    "missionCategory": "Limit",
+    "missionViewOrder": 29,
+    "title": "",
+    "description": "「Aschenputtel」を[:param]回クリアしよう",
+    "jumpType": "Live",
+    "startDate": 1761930000.0,
+    "endDate": 1762794000.0,
+    "stages": [
+      {
+        "id": 51400,
+        "missionStageOrder": 1,
+        "stageGoalValue": 5,
+        "startDate": 1761930000.0,
+        "rewards": [
+          {
+            "thingId": 0,
+            "thingType": "Jewel",
+            "thingQuantity": 50
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 51500,
+    "missionCategory": "Limit",
+    "missionViewOrder": 30,
+    "title": "",
+    "description": "「Aschenputtel」を[:param]回クリアしよう",
+    "jumpType": "Live",
+    "startDate": 1761930000.0,
+    "endDate": 1762794000.0,
+    "stages": [
+      {
+        "id": 51500,
+        "missionStageOrder": 1,
+        "stageGoalValue": 10,
+        "startDate": 1761930000.0,
+        "rewards": [
+          {
+            "thingId": 0,
+            "thingType": "Jewel",
+            "thingQuantity": 50
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": 100000,
     "missionCategory": "Daily",
     "missionViewOrder": 100000,
@@ -23907,8 +23957,8 @@
     "title": "",
     "description": "【ユメステデー】ログインしよう",
     "jumpType": "None",
-    "startDate": 1759813200.0,
-    "endDate": 1759899600.0,
+    "startDate": 1762491600.0,
+    "endDate": 1762578000.0,
     "stages": [
       {
         "id": 7000011,
@@ -23932,8 +23982,8 @@
     "title": "",
     "description": "【ユメステデー】稽古を[:param]回プレイしよう",
     "jumpType": "Lesson",
-    "startDate": 1759813200.0,
-    "endDate": 1759899600.0,
+    "startDate": 1762491600.0,
+    "endDate": 1762578000.0,
     "stages": [
       {
         "id": 7000021,
@@ -23942,7 +23992,7 @@
         "startDate": 1751864400.0,
         "rewards": [
           {
-            "thingId": 215007,
+            "thingId": 215009,
             "thingType": "Item",
             "thingQuantity": 3
           }
@@ -23957,8 +24007,8 @@
     "title": "",
     "description": "【ユメステデー】公演を[:param]回クリアしよう",
     "jumpType": "Live",
-    "startDate": 1759813200.0,
-    "endDate": 1759899600.0,
+    "startDate": 1762491600.0,
+    "endDate": 1762578000.0,
     "stages": [
       {
         "id": 7000031,
@@ -23967,7 +24017,7 @@
         "startDate": 1751864400.0,
         "rewards": [
           {
-            "thingId": 215008,
+            "thingId": 215010,
             "thingType": "Item",
             "thingQuantity": 3
           }
