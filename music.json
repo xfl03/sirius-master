@@ -5045,8 +5045,8 @@
           301,
           302,
           303,
-          305,
-          304
+          304,
+          305
         ]
       }
     ],
@@ -5084,9 +5084,9 @@
         "sampleEndSeconds": 0.0,
         "musicVideoType": "None",
         "characters": [
-          102,
           101,
-          103
+          103,
+          102
         ]
       }
     ],
@@ -5164,8 +5164,8 @@
         "musicVideoType": "None",
         "characters": [
           304,
-          405,
-          305
+          305,
+          405
         ]
       }
     ],
@@ -5203,10 +5203,10 @@
         "sampleEndSeconds": 0.0,
         "musicVideoType": "None",
         "characters": [
-          201,
           101,
-          401,
-          301
+          201,
+          301,
+          401
         ]
       }
     ],
@@ -5244,9 +5244,9 @@
         "sampleEndSeconds": 0.0,
         "musicVideoType": "None",
         "characters": [
-          205,
           104,
-          405
+          405,
+          205
         ]
       }
     ],
@@ -5284,9 +5284,9 @@
         "sampleEndSeconds": 0.0,
         "musicVideoType": "None",
         "characters": [
+          302,
           301,
-          303,
-          302
+          303
         ]
       }
     ],
@@ -6141,8 +6141,8 @@
           101,
           102,
           201,
-          301,
-          401
+          401,
+          301
         ]
       }
     ],
@@ -6180,9 +6180,9 @@
         "sampleEndSeconds": 0.0,
         "musicVideoType": "None",
         "characters": [
-          105,
+          305,
           403,
-          305
+          105
         ]
       }
     ],
@@ -6220,9 +6220,9 @@
         "sampleEndSeconds": 0.0,
         "musicVideoType": "None",
         "characters": [
-          303,
           302,
-          305
+          305,
+          303
         ]
       }
     ],
@@ -6532,8 +6532,8 @@
         "sampleEndSeconds": 0.0,
         "musicVideoType": "None",
         "characters": [
-          103,
-          104
+          104,
+          103
         ]
       }
     ],
@@ -6886,6 +6886,44 @@
         "characters": [
           105,
           403
+        ]
+      }
+    ],
+    "unlockConditionType": "Buy",
+    "musicVideoType": "None",
+    "musicCoverType": "Cover"
+  },
+  {
+    "id": 192,
+    "name": "カオスが極まる",
+    "description": "",
+    "rewardRuleMasterId": 1,
+    "pronounceName": "かおすがきわまる",
+    "lyricWriter": "田淵智也",
+    "composer": "田淵智也",
+    "arranger": "-",
+    "unlockText": "楽曲ショップで購入",
+    "isLongVersion": false,
+    "releasedAt": 1763571600.0,
+    "staminaConsumption": 25,
+    "musicTimeSecond": 94,
+    "invisible": false,
+    "sampleStartSeconds": 0.0,
+    "sampleEndSeconds": 0.0,
+    "delaySeconds": 0.0,
+    "vocalVersions": [
+      {
+        "id": 19201,
+        "musicMasterId": 192,
+        "vocalVersion": 1,
+        "singer": "萬容",
+        "name": "カオスが極まる",
+        "musicTimeSecond": 94,
+        "sampleStartSeconds": 0.0,
+        "sampleEndSeconds": 0.0,
+        "musicVideoType": "None",
+        "characters": [
+          204
         ]
       }
     ],
@@ -7248,8 +7286,8 @@
           401,
           402,
           403,
-          405,
-          404
+          404,
+          405
         ]
       }
     ],
@@ -7793,8 +7831,8 @@
           201,
           202,
           203,
-          204,
-          205
+          205,
+          204
         ]
       }
     ],
@@ -8350,6 +8388,45 @@
     "storyMasterId": 10104
   },
   {
+    "id": 231,
+    "name": "ハロー・マイ・ロケット",
+    "description": "",
+    "rewardRuleMasterId": 1,
+    "pronounceName": "はろーまいろけっと",
+    "lyricWriter": "志村真白（FirstCall）",
+    "composer": "志村真白（FirstCall）",
+    "arranger": "志村真白（FirstCall）",
+    "isLongVersion": false,
+    "releasedAt": 1762794000.0,
+    "staminaConsumption": 31,
+    "musicTimeSecond": 128,
+    "invisible": false,
+    "sampleStartSeconds": 0.0,
+    "sampleEndSeconds": 0.0,
+    "delaySeconds": 0.0,
+    "vocalVersions": [
+      {
+        "id": 23101,
+        "musicMasterId": 231,
+        "vocalVersion": 1,
+        "singer": "流石知冴、白丸美兎",
+        "name": "ハロー・マイ・ロケット",
+        "musicTimeSecond": 128,
+        "sampleStartSeconds": 0.0,
+        "sampleEndSeconds": 0.0,
+        "musicVideoType": "None",
+        "characters": [
+          106,
+          402
+        ]
+      }
+    ],
+    "unlockConditionType": "Default",
+    "musicVideoType": "None",
+    "musicCoverType": "Original",
+    "eventMasterId": 25016
+  },
+  {
     "id": 232,
     "name": "五条大橋の妖しき化生",
     "description": "",
@@ -8465,6 +8542,85 @@
     "unlockConditionType": "Default",
     "musicVideoType": "Movie",
     "musicCoverType": "Original"
+  },
+  {
+    "id": 237,
+    "name": "誰ガ為ノサダメ",
+    "description": "",
+    "rewardRuleMasterId": 1,
+    "pronounceName": "たがためのさだめ",
+    "lyricWriter": "志村真白（FirstCall）",
+    "composer": "志村真白（FirstCall）",
+    "arranger": "志村真白（FirstCall）",
+    "isLongVersion": false,
+    "releasedAt": 1763658000.0,
+    "staminaConsumption": 25,
+    "musicTimeSecond": 96,
+    "invisible": false,
+    "sampleStartSeconds": 0.0,
+    "sampleEndSeconds": 0.0,
+    "delaySeconds": 0.0,
+    "vocalVersions": [
+      {
+        "id": 23701,
+        "musicMasterId": 237,
+        "vocalVersion": 1,
+        "singer": "千寿暦、ラモーナ・ウォルフ",
+        "name": "誰ガ為ノサダメ",
+        "musicTimeSecond": 96,
+        "sampleStartSeconds": 0.0,
+        "sampleEndSeconds": 0.0,
+        "musicVideoType": "None",
+        "characters": [
+          301,
+          302
+        ]
+      }
+    ],
+    "unlockConditionType": "Default",
+    "musicVideoType": "None",
+    "musicCoverType": "Original",
+    "storyEventMasterId": 35005,
+    "storyMasterId": 10304
+  },
+  {
+    "id": 238,
+    "name": "Vivid-day Happy-day Boost!",
+    "description": "",
+    "rewardRuleMasterId": 1,
+    "pronounceName": "vividdayhappydayboost",
+    "lyricWriter": "松井洋平",
+    "composer": "EFFY（FirstCall）",
+    "arranger": "EFFY（FirstCall）",
+    "isLongVersion": false,
+    "releasedAt": 1764522000.0,
+    "staminaConsumption": 30,
+    "musicTimeSecond": 121,
+    "invisible": false,
+    "sampleStartSeconds": 0.0,
+    "sampleEndSeconds": 0.0,
+    "delaySeconds": 0.0,
+    "vocalVersions": [
+      {
+        "id": 23801,
+        "musicMasterId": 238,
+        "vocalVersion": 1,
+        "singer": "舎人仁花子",
+        "name": "Vivid-day Happy-day Boost!",
+        "musicTimeSecond": 121,
+        "sampleStartSeconds": 0.0,
+        "sampleEndSeconds": 0.0,
+        "musicVideoType": "None",
+        "characters": [
+          203
+        ]
+      }
+    ],
+    "unlockConditionType": "Default",
+    "musicVideoType": "None",
+    "musicCoverType": "Original",
+    "storyEventMasterId": 20064,
+    "storyMasterId": 20064
   },
   {
     "id": 249,
@@ -8774,8 +8930,8 @@
           301,
           302,
           303,
-          305,
-          304
+          304,
+          305
         ]
       }
     ],
@@ -8813,11 +8969,11 @@
         "sampleEndSeconds": 0.0,
         "musicVideoType": "Movie",
         "characters": [
+          401,
           402,
           403,
           404,
-          405,
-          401
+          405
         ]
       }
     ],
@@ -9010,8 +9166,8 @@
         "sampleEndSeconds": 0.0,
         "musicVideoType": "None",
         "characters": [
-          201,
-          203
+          203,
+          201
         ]
       }
     ],
@@ -9511,8 +9667,8 @@
           401,
           402,
           403,
-          405,
-          404
+          404,
+          405
         ]
       }
     ],
@@ -9646,8 +9802,8 @@
         "sampleEndSeconds": 0.0,
         "musicVideoType": "None",
         "characters": [
-          202,
-          204
+          204,
+          202
         ]
       }
     ],
@@ -10453,8 +10609,8 @@
           101,
           102,
           201,
-          301,
-          401
+          401,
+          301
         ]
       }
     ],
@@ -10492,8 +10648,8 @@
         "sampleEndSeconds": 0.0,
         "musicVideoType": "Movie",
         "characters": [
-          302,
-          304
+          304,
+          302
         ]
       }
     ],

@@ -2910,5 +2910,109 @@
       "effectDescription": "センスのCTが[:param1]秒短縮する　※<color=#33B4DF>凛属性</color>のカトリナ・グリーベルのみ対象",
       "iconImagePath": "213"
     }
+  },
+  {
+    "id": 2006401,
+    "storyEventHighScoreMasterId": 20064,
+    "storyEventHighScoreBuffMasterId": 11,
+    "storyEventHighScoreBuffMaster": {
+      "id": 11,
+      "storyEventHighScoreBuffPatternGroupId": 1,
+      "effectMasterId": 80003,
+      "effectName": "舞台照明",
+      "effectDescription": "アクターの集中力が[:param1]上昇する",
+      "iconImagePath": "11"
+    }
+  },
+  {
+    "id": 2006402,
+    "storyEventHighScoreMasterId": 20064,
+    "storyEventHighScoreBuffMasterId": 12,
+    "storyEventHighScoreBuffMaster": {
+      "id": 12,
+      "storyEventHighScoreBuffPatternGroupId": 1,
+      "effectMasterId": 80002,
+      "effectName": "舞台スピーカー",
+      "effectDescription": "アクターの表現力が[:param1]上昇する",
+      "iconImagePath": "12"
+    }
+  },
+  {
+    "id": 2006403,
+    "storyEventHighScoreMasterId": 20064,
+    "storyEventHighScoreBuffMasterId": 13,
+    "storyEventHighScoreBuffMaster": {
+      "id": 13,
+      "storyEventHighScoreBuffPatternGroupId": 1,
+      "effectMasterId": 80001,
+      "effectName": "舞台マイク",
+      "effectDescription": "アクターの歌唱力が[:param1]上昇する",
+      "iconImagePath": "13"
+    }
+  },
+  {
+    "id": 2006404,
+    "storyEventHighScoreMasterId": 20064,
+    "storyEventHighScoreBuffMasterId": 14,
+    "storyEventHighScoreBuffMaster": {
+      "id": 14,
+      "storyEventHighScoreBuffPatternGroupId": 1,
+      "effectMasterId": 80004,
+      "effectName": "舞台カーテン",
+      "effectDescription": "アクターの演技力が[:param1]％上昇する",
+      "iconImagePath": "14"
+    }
+  },
+  {
+    "id": 2006405,
+    "storyEventHighScoreMasterId": 20064,
+    "storyEventHighScoreBuffMasterId": 213,
+    "storyEventHighScoreBuffMaster": {
+      "id": 213,
+      "storyEventHighScoreBuffPatternGroupId": 2,
+      "effectMasterId": 80117,
+      "effectName": "Edenのロゴ",
+      "effectDescription": "アクターの演技力上限が[:param1]％上昇する　※Edenに所属するアクターのみ対象",
+      "iconImagePath": "188"
+    }
+  },
+  {
+    "id": 2006406,
+    "storyEventHighScoreMasterId": 20064,
+    "storyEventHighScoreBuffMasterId": 214,
+    "storyEventHighScoreBuffMaster": {
+      "id": 214,
+      "storyEventHighScoreBuffPatternGroupId": 2,
+      "effectMasterId": 80118,
+      "effectName": "積怨の日記【陽】",
+      "effectDescription": "Edenに所属するアクター1人につき、プリンシパルゲージの上限値が[:param1]上昇する",
+      "iconImagePath": "211"
+    }
+  },
+  {
+    "id": 2006407,
+    "storyEventHighScoreMasterId": 20064,
+    "storyEventHighScoreBuffMasterId": 215,
+    "storyEventHighScoreBuffMaster": {
+      "id": 215,
+      "storyEventHighScoreBuffPatternGroupId": 2,
+      "effectMasterId": 80119,
+      "effectName": "トランプカード【陽】",
+      "effectDescription": "公演開始時にプリンシパルゲージが[:param1]上昇する　※<color=#FF9314>陽属性</color>の萬 容のみ対象",
+      "iconImagePath": "210"
+    }
+  },
+  {
+    "id": 2006408,
+    "storyEventHighScoreMasterId": 20064,
+    "storyEventHighScoreBuffMasterId": 216,
+    "storyEventHighScoreBuffMaster": {
+      "id": 216,
+      "storyEventHighScoreBuffPatternGroupId": 2,
+      "effectMasterId": 80120,
+      "effectName": "フラワーグラス【陽】",
+      "effectDescription": "スターアクト発動条件に必要な光の数を超えて付与された光を最大[:param1]個「SP光」に変換する（レベル10の時に効果発動）　　※<color=#FF9314>陽属性</color>の舎人 仁花子のみ対象",
+      "iconImagePath": "209"
+    }
   }
 ]

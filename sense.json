@@ -8231,6 +8231,299 @@
     "subTypes": []
   },
   {
+    "id": 142010,
+    "name": "グレイ・ヒッチハイカー！",
+    "description": "<size=26%>[:score]倍のスコアを獲得／センス発動直後、自身の集中力の[:param11]倍のスコアを獲得／編成されているシリウスアクターの人数×20プリンシパルゲージを獲得</size>",
+    "type": "Special",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20534
+          },
+          {
+            "order": 2,
+            "effectMasterId": 20098
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 1,
+        "id": 1420101
+      },
+      {
+        "order": 2,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20534
+          },
+          {
+            "order": 2,
+            "effectMasterId": 20099
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 2,
+        "id": 1420102
+      },
+      {
+        "order": 3,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20534
+          },
+          {
+            "order": 2,
+            "effectMasterId": 20100
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 3,
+        "id": 1420103
+      },
+      {
+        "order": 4,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20534
+          },
+          {
+            "order": 2,
+            "effectMasterId": 20111
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 4,
+        "id": 1420104
+      },
+      {
+        "order": 5,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20534
+          },
+          {
+            "order": 2,
+            "effectMasterId": 20112
+          }
+        ],
+        "judgeType1": "MoreThan",
+        "parameter1": 5,
+        "id": 1420105
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 670,
+    "scoreUpPerLevel": 60,
+    "lightCount": 1,
+    "coolTime": 50,
+    "branchCondition1": "CompanyMemberCount",
+    "conditionValue1": 1,
+    "branchCondition2": "None",
+    "subTypes": []
+  },
+  {
+    "id": 142020,
+    "name": "テキサス・カウガール♪",
+    "description": "[:score]倍のスコアを獲得／劇団電姫アクターのCTを、編成されている劇団電姫アクターの人数×2秒短縮",
+    "type": "Amplification",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 21014
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 1,
+        "id": 1420201
+      },
+      {
+        "order": 2,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 21015
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 2,
+        "id": 1420202
+      },
+      {
+        "order": 3,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 21016
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 3,
+        "id": 1420203
+      },
+      {
+        "order": 4,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 21017
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 4,
+        "id": 1420204
+      },
+      {
+        "order": 5,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 21018
+          }
+        ],
+        "judgeType1": "MoreThan",
+        "parameter1": 5,
+        "id": 1420205
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 740,
+    "scoreUpPerLevel": 70,
+    "lightCount": 2,
+    "coolTime": 60,
+    "branchCondition1": "CompanyMemberCount",
+    "conditionValue1": 4,
+    "branchCondition2": "None",
+    "subTypes": []
+  },
+  {
+    "id": 142030,
+    "name": "従僕、影に侍りて",
+    "description": "[:score]倍のスコアを獲得／[:sec]秒間、編成されているアクターのプリンシパルゲージ獲得量[:param11]％UP効果",
+    "type": "Support",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20150
+          }
+        ],
+        "id": 1420301
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 250,
+    "scoreUpPerLevel": 60,
+    "lightCount": 1,
+    "coolTime": 50,
+    "branchCondition1": "None",
+    "branchCondition2": "None",
+    "subTypes": []
+  },
+  {
+    "id": 142040,
+    "name": "剛毅、潔白たる義を胸に",
+    "description": "<size=28%>[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／センス発動後、現在のプリンシパルゲージ[:param11]%分のプリンシパルゲージを追加で獲得する</size>",
+    "type": "Special",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20604
+          }
+        ],
+        "id": 1420401
+      }
+    ],
+    "acquirableGauge": 90,
+    "acquirableScorePercent": 170,
+    "scoreUpPerLevel": 50,
+    "lightCount": 1,
+    "coolTime": 40,
+    "branchCondition1": "None",
+    "branchCondition2": "None",
+    "subTypes": []
+  },
+  {
+    "id": 142050,
+    "name": "Runway Majesty",
+    "description": "[:score]倍のスコアを獲得／センス発動時、追加で「ライフガード」を[:param11]回獲得する／センス発動後、追加で[:param12]のプリンシパルゲージを獲得",
+    "type": "Control",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29303
+          },
+          {
+            "order": 2,
+            "effectMasterId": 20084
+          }
+        ],
+        "id": 1420501
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 190,
+    "scoreUpPerLevel": 50,
+    "lightCount": 1,
+    "coolTime": 35,
+    "branchCondition1": "None",
+    "branchCondition2": "None",
+    "subTypes": []
+  },
+  {
+    "id": 142060,
+    "name": "Beauty Fragment",
+    "description": "<size=25%>[:score]倍のスコアを獲得／[:sec]秒間、Edenのアクターにスターアクトスコア[:param11]％UP効果／仁花子が隣に編成された状態でセンスを発動したとき、自身もセンスを発動する(センスの光は獲得出来ない)</size>",
+    "type": "Special",
+    "preEffects": [
+      {
+        "order": 1,
+        "effectMasterId": 28011
+      }
+    ],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20204
+          }
+        ],
+        "id": 1420601
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 250,
+    "scoreUpPerLevel": 60,
+    "lightCount": 2,
+    "coolTime": 50,
+    "branchCondition1": "None",
+    "branchCondition2": "None",
+    "subTypes": []
+  },
+  {
     "id": 150010,
     "name": "一度道を違えた絆でも",
     "description": "<size=25%>[:score]倍のスコアを獲得／センス発動直後、自身の歌唱力の[:param12]倍のスコアを獲得／シリウスまたは銀河座アクターの編成数×[:param11]プリンシパルゲージの上限が上昇する</size>",

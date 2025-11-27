@@ -4942,7 +4942,7 @@
         ]
       },
       {
-        "effectMasterId": 12007,
+        "effectMasterId": 12015,
         "conditions": [
           {
             "categoryMasterId1": 8009
@@ -4950,7 +4950,7 @@
         ]
       },
       {
-        "effectMasterId": 12024,
+        "effectMasterId": 12023,
         "conditions": [
           {
             "categoryMasterId1": 8009
@@ -4976,6 +4976,94 @@
         "conditions": [
           {
             "categoryMasterId1": 4006
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 243,
+    "description": "「役者」カテゴリの演技力30%上昇、「私服」カテゴリの集中力20％上昇",
+    "details": [
+      {
+        "effectMasterId": 12004,
+        "conditions": [
+          {
+            "categoryMasterId1": 8003
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12015,
+        "conditions": [
+          {
+            "categoryMasterId1": 4002
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 244,
+    "description": "「高校生」カテゴリの演技力30%上昇、「和風」カテゴリの歌唱力20％上昇",
+    "details": [
+      {
+        "effectMasterId": 12004,
+        "conditions": [
+          {
+            "categoryMasterId1": 1003
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12007,
+        "conditions": [
+          {
+            "categoryMasterId1": 4007
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 245,
+    "description": "「舞台」カテゴリの演技力30%上昇、「主人公」カテゴリの歌唱力20％上昇",
+    "details": [
+      {
+        "effectMasterId": 12004,
+        "conditions": [
+          {
+            "categoryMasterId1": 8002
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12007,
+        "conditions": [
+          {
+            "categoryMasterId1": 8007
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 246,
+    "description": "「高校生」カテゴリの演技力40%上昇、「ファッション」カテゴリの歌唱力35％上昇",
+    "details": [
+      {
+        "effectMasterId": 12005,
+        "conditions": [
+          {
+            "categoryMasterId1": 1003
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12019,
+        "conditions": [
+          {
+            "categoryMasterId1": 3006
           }
         ]
       }

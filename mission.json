@@ -17493,7 +17493,7 @@
   {
     "id": 51000,
     "missionCategory": "Limit",
-    "missionViewOrder": 7,
+    "missionViewOrder": 10,
     "title": "",
     "description": "メインストーリー 銀河座第4章を[:param]話読もう",
     "jumpType": "Story",
@@ -17929,6 +17929,547 @@
         "missionStageOrder": 1,
         "stageGoalValue": 10,
         "startDate": 1761930000.0,
+        "rewards": [
+          {
+            "thingId": 0,
+            "thingType": "Jewel",
+            "thingQuantity": 50
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 51600,
+    "missionCategory": "Limit",
+    "missionViewOrder": 21,
+    "title": "",
+    "description": "シリウスに所属するアクターのみが歌唱する楽曲を3回クリアしよう",
+    "jumpType": "Live",
+    "startDate": 1762794000.0,
+    "endDate": 1762923600.0,
+    "stages": [
+      {
+        "id": 51600,
+        "missionStageOrder": 1,
+        "stageGoalValue": 3,
+        "startDate": 1762794000.0,
+        "rewards": [
+          {
+            "thingId": 132047,
+            "thingType": "Item",
+            "thingQuantity": 20
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 51700,
+    "missionCategory": "Limit",
+    "missionViewOrder": 21,
+    "title": "",
+    "description": "稽古を1回行おう",
+    "jumpType": "Live",
+    "startDate": 1762923600.0,
+    "endDate": 1763010000.0,
+    "stages": [
+      {
+        "id": 51700,
+        "missionStageOrder": 1,
+        "stageGoalValue": 1,
+        "startDate": 1762923600.0,
+        "rewards": [
+          {
+            "thingId": 132047,
+            "thingType": "Item",
+            "thingQuantity": 20
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 51800,
+    "missionCategory": "Limit",
+    "missionViewOrder": 21,
+    "title": "",
+    "description": "「To B-eat, or not to B-eat!」を1回クリアしよう",
+    "jumpType": "Live",
+    "startDate": 1763010000.0,
+    "endDate": 1763096400.0,
+    "stages": [
+      {
+        "id": 51800,
+        "missionStageOrder": 1,
+        "stageGoalValue": 1,
+        "startDate": 1763010000.0,
+        "rewards": [
+          {
+            "thingId": 132047,
+            "thingType": "Item",
+            "thingQuantity": 20
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 51900,
+    "missionCategory": "Limit",
+    "missionViewOrder": 21,
+    "title": "",
+    "description": "スターアクトを10回発動しよう",
+    "jumpType": "Live",
+    "startDate": 1763096400.0,
+    "endDate": 1763182800.0,
+    "stages": [
+      {
+        "id": 51900,
+        "missionStageOrder": 1,
+        "stageGoalValue": 10,
+        "startDate": 1763096400.0,
+        "rewards": [
+          {
+            "thingId": 132047,
+            "thingType": "Item",
+            "thingQuantity": 20
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 52000,
+    "missionCategory": "Limit",
+    "missionViewOrder": 21,
+    "title": "",
+    "description": "「ひとりの夜のフィルモグラフィー」を1回クリアしよう",
+    "jumpType": "Live",
+    "startDate": 1763182800.0,
+    "endDate": 1763269200.0,
+    "stages": [
+      {
+        "id": 52000,
+        "missionStageOrder": 1,
+        "stageGoalValue": 1,
+        "startDate": 1763182800.0,
+        "rewards": [
+          {
+            "thingId": 132047,
+            "thingType": "Item",
+            "thingQuantity": 20
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 52100,
+    "missionCategory": "Limit",
+    "missionViewOrder": 21,
+    "title": "",
+    "description": "スターアクトを10回発動しよう",
+    "jumpType": "Live",
+    "startDate": 1763269200.0,
+    "endDate": 1763355600.0,
+    "stages": [
+      {
+        "id": 52100,
+        "missionStageOrder": 1,
+        "stageGoalValue": 10,
+        "startDate": 1763269200.0,
+        "rewards": [
+          {
+            "thingId": 132047,
+            "thingType": "Item",
+            "thingQuantity": 20
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 52200,
+    "missionCategory": "Limit",
+    "missionViewOrder": 21,
+    "title": "",
+    "description": "「ハロー・マイ・ロケット」を1回クリアしよう",
+    "jumpType": "Live",
+    "startDate": 1763355600.0,
+    "endDate": 1763442000.0,
+    "stages": [
+      {
+        "id": 52200,
+        "missionStageOrder": 1,
+        "stageGoalValue": 1,
+        "startDate": 1763355600.0,
+        "rewards": [
+          {
+            "thingId": 132047,
+            "thingType": "Item",
+            "thingQuantity": 20
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 52300,
+    "missionCategory": "Limit",
+    "missionViewOrder": 21,
+    "title": "",
+    "description": "劇団電姫に所属するアクターのみが歌唱する楽曲を3回クリアしよう",
+    "jumpType": "Live",
+    "startDate": 1763442000.0,
+    "endDate": 1763503200.0,
+    "stages": [
+      {
+        "id": 52300,
+        "missionStageOrder": 1,
+        "stageGoalValue": 3,
+        "startDate": 1763442000.0,
+        "rewards": [
+          {
+            "thingId": 132047,
+            "thingType": "Item",
+            "thingQuantity": 20
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 52400,
+    "missionCategory": "Limit",
+    "missionViewOrder": 22,
+    "title": "",
+    "description": "公演を[:param]回クリアしよう",
+    "jumpType": "Live",
+    "startDate": 1762794000.0,
+    "endDate": 1763503200.0,
+    "stages": [
+      {
+        "id": 52400,
+        "missionStageOrder": 1,
+        "stageGoalValue": 10,
+        "startDate": 1762794000.0,
+        "rewards": [
+          {
+            "thingId": 132046,
+            "thingType": "Item",
+            "thingQuantity": 1000
+          }
+        ]
+      },
+      {
+        "id": 52401,
+        "missionStageOrder": 2,
+        "stageGoalValue": 20,
+        "startDate": 1762794000.0,
+        "rewards": [
+          {
+            "thingId": 132046,
+            "thingType": "Item",
+            "thingQuantity": 1000
+          }
+        ]
+      },
+      {
+        "id": 52402,
+        "missionStageOrder": 3,
+        "stageGoalValue": 30,
+        "startDate": 1762794000.0,
+        "rewards": [
+          {
+            "thingId": 132046,
+            "thingType": "Item",
+            "thingQuantity": 1000
+          }
+        ]
+      },
+      {
+        "id": 52403,
+        "missionStageOrder": 4,
+        "stageGoalValue": 40,
+        "startDate": 1762794000.0,
+        "rewards": [
+          {
+            "thingId": 132046,
+            "thingType": "Item",
+            "thingQuantity": 1000
+          }
+        ]
+      },
+      {
+        "id": 52404,
+        "missionStageOrder": 5,
+        "stageGoalValue": 50,
+        "startDate": 1762794000.0,
+        "rewards": [
+          {
+            "thingId": 132046,
+            "thingType": "Item",
+            "thingQuantity": 1000
+          }
+        ]
+      },
+      {
+        "id": 52405,
+        "missionStageOrder": 6,
+        "stageGoalValue": 60,
+        "startDate": 1762794000.0,
+        "rewards": [
+          {
+            "thingId": 132046,
+            "thingType": "Item",
+            "thingQuantity": 1000
+          }
+        ]
+      },
+      {
+        "id": 52406,
+        "missionStageOrder": 7,
+        "stageGoalValue": 80,
+        "startDate": 1762794000.0,
+        "rewards": [
+          {
+            "thingId": 132046,
+            "thingType": "Item",
+            "thingQuantity": 1000
+          }
+        ]
+      },
+      {
+        "id": 52407,
+        "missionStageOrder": 8,
+        "stageGoalValue": 100,
+        "startDate": 1762794000.0,
+        "rewards": [
+          {
+            "thingId": 132046,
+            "thingType": "Item",
+            "thingQuantity": 1000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 52500,
+    "missionCategory": "Limit",
+    "missionViewOrder": 23,
+    "title": "",
+    "description": "「ハロー・マイ・ロケット」を[:param]回クリアしよう",
+    "jumpType": "Live",
+    "startDate": 1762794000.0,
+    "endDate": 1763658000.0,
+    "stages": [
+      {
+        "id": 52500,
+        "missionStageOrder": 1,
+        "stageGoalValue": 5,
+        "startDate": 1762794000.0,
+        "rewards": [
+          {
+            "thingId": 0,
+            "thingType": "Jewel",
+            "thingQuantity": 50
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 52600,
+    "missionCategory": "Limit",
+    "missionViewOrder": 24,
+    "title": "",
+    "description": "「ハロー・マイ・ロケット」を[:param]回クリアしよう",
+    "jumpType": "Live",
+    "startDate": 1762794000.0,
+    "endDate": 1763658000.0,
+    "stages": [
+      {
+        "id": 52600,
+        "missionStageOrder": 1,
+        "stageGoalValue": 10,
+        "startDate": 1762794000.0,
+        "rewards": [
+          {
+            "thingId": 0,
+            "thingType": "Jewel",
+            "thingQuantity": 50
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 52700,
+    "missionCategory": "Limit",
+    "missionViewOrder": 25,
+    "title": "",
+    "description": "「カオスが極まる」を[:param]回クリアしよう",
+    "jumpType": "Live",
+    "startDate": 1763571600.0,
+    "endDate": 1764435600.0,
+    "stages": [
+      {
+        "id": 52700,
+        "missionStageOrder": 1,
+        "stageGoalValue": 5,
+        "startDate": 1763571600.0,
+        "rewards": [
+          {
+            "thingId": 0,
+            "thingType": "Jewel",
+            "thingQuantity": 50
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 52800,
+    "missionCategory": "Limit",
+    "missionViewOrder": 26,
+    "title": "",
+    "description": "「カオスが極まる」を[:param]回クリアしよう",
+    "jumpType": "Live",
+    "startDate": 1763571600.0,
+    "endDate": 1764435600.0,
+    "stages": [
+      {
+        "id": 52800,
+        "missionStageOrder": 1,
+        "stageGoalValue": 10,
+        "startDate": 1763571600.0,
+        "rewards": [
+          {
+            "thingId": 0,
+            "thingType": "Jewel",
+            "thingQuantity": 50
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 52900,
+    "missionCategory": "Limit",
+    "missionViewOrder": 12,
+    "title": "",
+    "description": "メインストーリー 銀河座第4章第16話を読もう",
+    "jumpType": "Live",
+    "startDate": 1763658000.0,
+    "endDate": 1764522000.0,
+    "stages": [
+      {
+        "id": 52900,
+        "missionStageOrder": 1,
+        "stageGoalValue": 1,
+        "startDate": 1763658000.0,
+        "rewards": [
+          {
+            "thingId": 0,
+            "thingType": "Jewel",
+            "thingQuantity": 100
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 53000,
+    "missionCategory": "Limit",
+    "missionViewOrder": 27,
+    "title": "",
+    "description": "「誰ガ為ノサダメ」を[:param]回クリアしよう",
+    "jumpType": "Live",
+    "startDate": 1763658000.0,
+    "endDate": 1764522000.0,
+    "stages": [
+      {
+        "id": 53000,
+        "missionStageOrder": 1,
+        "stageGoalValue": 5,
+        "startDate": 1763658000.0,
+        "rewards": [
+          {
+            "thingId": 0,
+            "thingType": "Jewel",
+            "thingQuantity": 50
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 53100,
+    "missionCategory": "Limit",
+    "missionViewOrder": 28,
+    "title": "",
+    "description": "「誰ガ為ノサダメ」を[:param]回クリアしよう",
+    "jumpType": "Live",
+    "startDate": 1763658000.0,
+    "endDate": 1764522000.0,
+    "stages": [
+      {
+        "id": 53100,
+        "missionStageOrder": 1,
+        "stageGoalValue": 10,
+        "startDate": 1763658000.0,
+        "rewards": [
+          {
+            "thingId": 0,
+            "thingType": "Jewel",
+            "thingQuantity": 50
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 53200,
+    "missionCategory": "Limit",
+    "missionViewOrder": 27,
+    "title": "",
+    "description": "「Vivid-day Happy-day Boost!」を[:param]回クリアしよう",
+    "jumpType": "Live",
+    "startDate": 1764522000.0,
+    "endDate": 1765386000.0,
+    "stages": [
+      {
+        "id": 53200,
+        "missionStageOrder": 1,
+        "stageGoalValue": 5,
+        "startDate": 1764522000.0,
+        "rewards": [
+          {
+            "thingId": 0,
+            "thingType": "Jewel",
+            "thingQuantity": 50
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 53300,
+    "missionCategory": "Limit",
+    "missionViewOrder": 28,
+    "title": "",
+    "description": "「Vivid-day Happy-day Boost!」を[:param]回クリアしよう",
+    "jumpType": "Live",
+    "startDate": 1764522000.0,
+    "endDate": 1765386000.0,
+    "stages": [
+      {
+        "id": 53300,
+        "missionStageOrder": 1,
+        "stageGoalValue": 10,
+        "startDate": 1764522000.0,
         "rewards": [
           {
             "thingId": 0,
@@ -23951,14 +24492,164 @@
     ]
   },
   {
+    "id": 401430,
+    "missionCategory": "Limit",
+    "missionViewOrder": 15,
+    "title": "",
+    "description": "【合同音楽公演限定ミッション】合同音楽公演 ～Sparkle Wonder Land～のステージ[:param]をクリアしよう",
+    "jumpType": "None",
+    "startDate": 1763236800.0,
+    "endDate": 1764522000.0,
+    "stages": [
+      {
+        "id": 401430,
+        "missionStageOrder": 1,
+        "stageGoalValue": 5,
+        "startDate": 1763236800.0,
+        "rewards": [
+          {
+            "thingId": 510003,
+            "thingType": "Item",
+            "thingQuantity": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 401440,
+    "missionCategory": "Limit",
+    "missionViewOrder": 16,
+    "title": "",
+    "description": "【合同音楽公演限定ミッション】フォトを[:param]枚現像しよう",
+    "jumpType": "Photo",
+    "startDate": 1763236800.0,
+    "endDate": 1764522000.0,
+    "stages": [
+      {
+        "id": 401440,
+        "missionStageOrder": 1,
+        "stageGoalValue": 3,
+        "startDate": 1763236800.0,
+        "rewards": [
+          {
+            "thingId": 130025,
+            "thingType": "Item",
+            "thingQuantity": 50
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 401450,
+    "missionCategory": "Limit",
+    "missionViewOrder": 17,
+    "title": "",
+    "description": "【合同音楽公演限定ミッション】合同音楽公演 ～Sparkle Wonder Land～のステージ[:param]をクリアしよう",
+    "jumpType": "None",
+    "startDate": 1763236800.0,
+    "endDate": 1764522000.0,
+    "stages": [
+      {
+        "id": 401450,
+        "missionStageOrder": 1,
+        "stageGoalValue": 10,
+        "startDate": 1763236800.0,
+        "rewards": [
+          {
+            "thingId": 130035,
+            "thingType": "Item",
+            "thingQuantity": 30
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 401460,
+    "missionCategory": "Limit",
+    "missionViewOrder": 18,
+    "title": "",
+    "description": "【合同音楽公演限定ミッション】フォトのレベルを[:param]上げよう",
+    "jumpType": "Photo",
+    "startDate": 1763236800.0,
+    "endDate": 1764522000.0,
+    "stages": [
+      {
+        "id": 401460,
+        "missionStageOrder": 1,
+        "stageGoalValue": 1,
+        "startDate": 1763236800.0,
+        "rewards": [
+          {
+            "thingId": 31,
+            "thingType": "AlbumTheme",
+            "thingQuantity": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 401470,
+    "missionCategory": "Limit",
+    "missionViewOrder": 19,
+    "title": "",
+    "description": "【合同音楽公演限定ミッション】合同音楽公演 ～Sparkle Wonder Land～を全ステージクリアしよう",
+    "jumpType": "None",
+    "startDate": 1763236800.0,
+    "endDate": 1764522000.0,
+    "stages": [
+      {
+        "id": 401470,
+        "missionStageOrder": 1,
+        "stageGoalValue": 19,
+        "startDate": 1763236800.0,
+        "rewards": [
+          {
+            "thingId": 510005,
+            "thingType": "Item",
+            "thingQuantity": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 401480,
+    "missionCategory": "Limit",
+    "missionViewOrder": 20,
+    "title": "",
+    "description": "合同音楽公演限定ミッションを全てクリアしよう",
+    "jumpType": "None",
+    "startDate": 1763236800.0,
+    "endDate": 1764522000.0,
+    "stages": [
+      {
+        "id": 401480,
+        "missionStageOrder": 1,
+        "stageGoalValue": 5,
+        "startDate": 1763236800.0,
+        "rewards": [
+          {
+            "thingId": 400015,
+            "thingType": "Trophy",
+            "thingQuantity": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": 700001,
     "missionCategory": "SiriusDay",
     "missionViewOrder": 1,
     "title": "",
     "description": "【ユメステデー】ログインしよう",
     "jumpType": "None",
-    "startDate": 1762491600.0,
-    "endDate": 1762578000.0,
+    "startDate": 1765083600.0,
+    "endDate": 1765170000.0,
     "stages": [
       {
         "id": 7000011,
@@ -23982,8 +24673,8 @@
     "title": "",
     "description": "【ユメステデー】稽古を[:param]回プレイしよう",
     "jumpType": "Lesson",
-    "startDate": 1762491600.0,
-    "endDate": 1762578000.0,
+    "startDate": 1765083600.0,
+    "endDate": 1765170000.0,
     "stages": [
       {
         "id": 7000021,
@@ -23992,7 +24683,7 @@
         "startDate": 1751864400.0,
         "rewards": [
           {
-            "thingId": 215009,
+            "thingId": 215011,
             "thingType": "Item",
             "thingQuantity": 3
           }
@@ -24007,8 +24698,8 @@
     "title": "",
     "description": "【ユメステデー】公演を[:param]回クリアしよう",
     "jumpType": "Live",
-    "startDate": 1762491600.0,
-    "endDate": 1762578000.0,
+    "startDate": 1765083600.0,
+    "endDate": 1765170000.0,
     "stages": [
       {
         "id": 7000031,
@@ -24017,7 +24708,7 @@
         "startDate": 1751864400.0,
         "rewards": [
           {
-            "thingId": 215010,
+            "thingId": 215012,
             "thingType": "Item",
             "thingQuantity": 3
           }
@@ -24032,8 +24723,8 @@
     "title": "",
     "description": "【ユメステデー】ログインしよう",
     "jumpType": "None",
-    "startDate": 1760677200.0,
-    "endDate": 1760763600.0,
+    "startDate": 1763355600.0,
+    "endDate": 1763442000.0,
     "stages": [
       {
         "id": 7000071,
@@ -24057,8 +24748,8 @@
     "title": "",
     "description": "【ユメステデー】稽古を[:param]回プレイしよう",
     "jumpType": "Lesson",
-    "startDate": 1760677200.0,
-    "endDate": 1760763600.0,
+    "startDate": 1763355600.0,
+    "endDate": 1763442000.0,
     "stages": [
       {
         "id": 7000081,
@@ -24067,7 +24758,7 @@
         "startDate": 1752728400.0,
         "rewards": [
           {
-            "thingId": 215007,
+            "thingId": 215009,
             "thingType": "Item",
             "thingQuantity": 3
           }
@@ -24082,8 +24773,8 @@
     "title": "",
     "description": "【ユメステデー】公演を[:param]回クリアしよう",
     "jumpType": "Live",
-    "startDate": 1760677200.0,
-    "endDate": 1760763600.0,
+    "startDate": 1763355600.0,
+    "endDate": 1763442000.0,
     "stages": [
       {
         "id": 7000091,
@@ -24092,7 +24783,7 @@
         "startDate": 1752728400.0,
         "rewards": [
           {
-            "thingId": 215008,
+            "thingId": 215010,
             "thingType": "Item",
             "thingQuantity": 3
           }
@@ -24107,8 +24798,8 @@
     "title": "",
     "description": "【ユメステデー】ログインしよう",
     "jumpType": "None",
-    "startDate": 1761541200.0,
-    "endDate": 1761627600.0,
+    "startDate": 1764219600.0,
+    "endDate": 1764306000.0,
     "stages": [
       {
         "id": 7000101,
@@ -24132,8 +24823,8 @@
     "title": "",
     "description": "【ユメステデー】稽古を[:param]回プレイしよう",
     "jumpType": "Lesson",
-    "startDate": 1761541200.0,
-    "endDate": 1761627600.0,
+    "startDate": 1764219600.0,
+    "endDate": 1764306000.0,
     "stages": [
       {
         "id": 7000111,
@@ -24142,7 +24833,7 @@
         "startDate": 1753592400.0,
         "rewards": [
           {
-            "thingId": 215007,
+            "thingId": 215009,
             "thingType": "Item",
             "thingQuantity": 4
           }
@@ -24157,8 +24848,8 @@
     "title": "",
     "description": "【ユメステデー】公演を[:param]回クリアしよう",
     "jumpType": "Live",
-    "startDate": 1761541200.0,
-    "endDate": 1761627600.0,
+    "startDate": 1764219600.0,
+    "endDate": 1764306000.0,
     "stages": [
       {
         "id": 7000121,
@@ -24167,7 +24858,7 @@
         "startDate": 1753592400.0,
         "rewards": [
           {
-            "thingId": 215008,
+            "thingId": 215010,
             "thingType": "Item",
             "thingQuantity": 4
           }

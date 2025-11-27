@@ -155,7 +155,7 @@
   {
     "id": 1010418,
     "storyMasterId": 10104,
-    "requiredTotalAcquiredPoint": 0,
+    "requiredTotalAcquiredPoint": 2000,
     "title": "連れて行ってみせる",
     "order": 18,
     "requiredReadEpisodeMasterId": 1010417,
@@ -164,7 +164,7 @@
   {
     "id": 1010419,
     "storyMasterId": 10104,
-    "requiredTotalAcquiredPoint": 0,
+    "requiredTotalAcquiredPoint": 4000,
     "title": "震える身体",
     "order": 19,
     "requiredReadEpisodeMasterId": 1010418,
@@ -173,7 +173,7 @@
   {
     "id": 1010420,
     "storyMasterId": 10104,
-    "requiredTotalAcquiredPoint": 0,
+    "requiredTotalAcquiredPoint": 8000,
     "title": "ひとりじゃないから",
     "order": 20,
     "requiredReadEpisodeMasterId": 1010419,
@@ -182,7 +182,7 @@
   {
     "id": 1010421,
     "storyMasterId": 10104,
-    "requiredTotalAcquiredPoint": 0,
+    "requiredTotalAcquiredPoint": 16000,
     "title": "みんなで舞台へ",
     "order": 21,
     "requiredReadEpisodeMasterId": 1010420,
@@ -191,7 +191,7 @@
   {
     "id": 1010422,
     "storyMasterId": 10104,
-    "requiredTotalAcquiredPoint": 0,
+    "requiredTotalAcquiredPoint": 32000,
     "title": "本番",
     "order": 22,
     "requiredReadEpisodeMasterId": 1010421,
@@ -200,7 +200,7 @@
   {
     "id": 1010423,
     "storyMasterId": 10104,
-    "requiredTotalAcquiredPoint": 0,
+    "requiredTotalAcquiredPoint": 64000,
     "title": "公演を終えて",
     "order": 23,
     "requiredReadEpisodeMasterId": 1010422,
@@ -209,7 +209,7 @@
   {
     "id": 1010424,
     "storyMasterId": 10104,
-    "requiredTotalAcquiredPoint": 0,
+    "requiredTotalAcquiredPoint": 128000,
     "title": "届かなかったけど",
     "order": 24,
     "requiredReadEpisodeMasterId": 1010423,
@@ -227,7 +227,7 @@
   {
     "id": 1030402,
     "storyMasterId": 10304,
-    "requiredTotalAcquiredPoint": 2000,
+    "requiredTotalAcquiredPoint": 0,
     "title": "一等星として",
     "order": 2,
     "requiredReadEpisodeMasterId": 1030401,
@@ -236,7 +236,7 @@
   {
     "id": 1030403,
     "storyMasterId": 10304,
-    "requiredTotalAcquiredPoint": 4000,
+    "requiredTotalAcquiredPoint": 0,
     "title": "ざわめく星々",
     "order": 3,
     "requiredReadEpisodeMasterId": 1030402,
@@ -245,7 +245,7 @@
   {
     "id": 1030404,
     "storyMasterId": 10304,
-    "requiredTotalAcquiredPoint": 8000,
+    "requiredTotalAcquiredPoint": 0,
     "title": "銀河座の橋弁慶",
     "order": 4,
     "requiredReadEpisodeMasterId": 1030403,
@@ -254,7 +254,7 @@
   {
     "id": 1030405,
     "storyMasterId": 10304,
-    "requiredTotalAcquiredPoint": 16000,
+    "requiredTotalAcquiredPoint": 0,
     "title": "期待と熱を胸に",
     "order": 5,
     "requiredReadEpisodeMasterId": 1030404,
@@ -263,7 +263,7 @@
   {
     "id": 1030406,
     "storyMasterId": 10304,
-    "requiredTotalAcquiredPoint": 32000,
+    "requiredTotalAcquiredPoint": 0,
     "title": "配される役と重圧",
     "order": 6,
     "requiredReadEpisodeMasterId": 1030405,
@@ -272,7 +272,7 @@
   {
     "id": 1030407,
     "storyMasterId": 10304,
-    "requiredTotalAcquiredPoint": 64000,
+    "requiredTotalAcquiredPoint": 0,
     "title": "亀裂",
     "order": 7,
     "requiredReadEpisodeMasterId": 1030406,
@@ -281,11 +281,83 @@
   {
     "id": 1030408,
     "storyMasterId": 10304,
-    "requiredTotalAcquiredPoint": 128000,
+    "requiredTotalAcquiredPoint": 0,
     "title": "立ちこめる暗雲",
     "order": 8,
     "requiredReadEpisodeMasterId": 1030407,
     "episodeRewardPackageMasterId": 1030408
+  },
+  {
+    "id": 1030409,
+    "storyMasterId": 10304,
+    "requiredTotalAcquiredPoint": 0,
+    "title": "揺らぐ光",
+    "order": 9,
+    "requiredReadEpisodeMasterId": 1030408,
+    "episodeRewardPackageMasterId": 1030409
+  },
+  {
+    "id": 1030410,
+    "storyMasterId": 10304,
+    "requiredTotalAcquiredPoint": 2000,
+    "title": "惑う星",
+    "order": 10,
+    "requiredReadEpisodeMasterId": 1030409,
+    "episodeRewardPackageMasterId": 1030410
+  },
+  {
+    "id": 1030411,
+    "storyMasterId": 10304,
+    "requiredTotalAcquiredPoint": 4000,
+    "title": "孤独なスター",
+    "order": 11,
+    "requiredReadEpisodeMasterId": 1030410,
+    "episodeRewardPackageMasterId": 1030411
+  },
+  {
+    "id": 1030412,
+    "storyMasterId": 10304,
+    "requiredTotalAcquiredPoint": 8000,
+    "title": "霧の中の牛若",
+    "order": 12,
+    "requiredReadEpisodeMasterId": 1030411,
+    "episodeRewardPackageMasterId": 1030412
+  },
+  {
+    "id": 1030413,
+    "storyMasterId": 10304,
+    "requiredTotalAcquiredPoint": 16000,
+    "title": "対峙",
+    "order": 13,
+    "requiredReadEpisodeMasterId": 1030412,
+    "episodeRewardPackageMasterId": 1030413
+  },
+  {
+    "id": 1030414,
+    "storyMasterId": 10304,
+    "requiredTotalAcquiredPoint": 32000,
+    "title": "光明",
+    "order": 14,
+    "requiredReadEpisodeMasterId": 1030413,
+    "episodeRewardPackageMasterId": 1030414
+  },
+  {
+    "id": 1030415,
+    "storyMasterId": 10304,
+    "requiredTotalAcquiredPoint": 64000,
+    "title": "それぞれの思い",
+    "order": 15,
+    "requiredReadEpisodeMasterId": 1030414,
+    "episodeRewardPackageMasterId": 1030415
+  },
+  {
+    "id": 1030416,
+    "storyMasterId": 10304,
+    "requiredTotalAcquiredPoint": 128000,
+    "title": "為すべきを知る",
+    "order": 16,
+    "requiredReadEpisodeMasterId": 1030415,
+    "episodeRewardPackageMasterId": 1030416
   },
   {
     "id": 2000101,
@@ -4759,5 +4831,76 @@
     "order": 8,
     "requiredReadEpisodeMasterId": 2006307,
     "episodeRewardPackageMasterId": 2006308
+  },
+  {
+    "id": 2006401,
+    "storyMasterId": 20064,
+    "requiredTotalAcquiredPoint": 0,
+    "title": "どっちが良い？",
+    "order": 1,
+    "episodeRewardPackageMasterId": 2006401
+  },
+  {
+    "id": 2006402,
+    "storyMasterId": 20064,
+    "requiredTotalAcquiredPoint": 2000,
+    "title": "それはあまりにナンセンスで",
+    "order": 2,
+    "requiredReadEpisodeMasterId": 2006401,
+    "episodeRewardPackageMasterId": 2006402
+  },
+  {
+    "id": 2006403,
+    "storyMasterId": 20064,
+    "requiredTotalAcquiredPoint": 4000,
+    "title": "全身コーディネイト",
+    "order": 3,
+    "requiredReadEpisodeMasterId": 2006402,
+    "episodeRewardPackageMasterId": 2006403
+  },
+  {
+    "id": 2006404,
+    "storyMasterId": 20064,
+    "requiredTotalAcquiredPoint": 8000,
+    "title": "純粋かつ無自覚",
+    "order": 4,
+    "requiredReadEpisodeMasterId": 2006403,
+    "episodeRewardPackageMasterId": 2006404
+  },
+  {
+    "id": 2006405,
+    "storyMasterId": 20064,
+    "requiredTotalAcquiredPoint": 16000,
+    "title": "事前準備",
+    "order": 5,
+    "requiredReadEpisodeMasterId": 2006404,
+    "episodeRewardPackageMasterId": 2006405
+  },
+  {
+    "id": 2006406,
+    "storyMasterId": 20064,
+    "requiredTotalAcquiredPoint": 32000,
+    "title": "誰が選ばれる？",
+    "order": 6,
+    "requiredReadEpisodeMasterId": 2006405,
+    "episodeRewardPackageMasterId": 2006406
+  },
+  {
+    "id": 2006407,
+    "storyMasterId": 20064,
+    "requiredTotalAcquiredPoint": 64000,
+    "title": "流行とキミらしさ",
+    "order": 7,
+    "requiredReadEpisodeMasterId": 2006406,
+    "episodeRewardPackageMasterId": 2006407
+  },
+  {
+    "id": 2006408,
+    "storyMasterId": 20064,
+    "requiredTotalAcquiredPoint": 128000,
+    "title": "選ばれたのは……。",
+    "order": 8,
+    "requiredReadEpisodeMasterId": 2006407,
+    "episodeRewardPackageMasterId": 2006408
   }
 ]
