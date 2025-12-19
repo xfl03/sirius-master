@@ -8524,6 +8524,119 @@
     "subTypes": []
   },
   {
+    "id": 142070,
+    "name": "聖夜は眷属たちと共に！",
+    "description": "[:score]倍のスコアを獲得／センス発動時、追加で「支援の光」を1個獲得する／センス発動時、追加で「ライフガード」を[:param11]回獲得する",
+    "type": "Special",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29302
+          }
+        ],
+        "id": 1420701
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 600,
+    "scoreUpPerLevel": 50,
+    "lightCount": 1,
+    "coolTime": 40,
+    "branchCondition1": "None",
+    "branchCondition2": "None",
+    "subTypes": []
+  },
+  {
+    "id": 142080,
+    "name": "Cyber Santa Delivery!!",
+    "description": "<size=28%>[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／センス発動後、現在のプリンシパルゲージ[:param11]%分のプリンシパルゲージを追加で獲得する</size>",
+    "type": "Amplification",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20603
+          }
+        ],
+        "id": 1420801
+      }
+    ],
+    "acquirableGauge": 100,
+    "acquirableScorePercent": 160,
+    "scoreUpPerLevel": 60,
+    "lightCount": 1,
+    "coolTime": 45,
+    "branchCondition1": "None",
+    "branchCondition2": "None",
+    "subTypes": []
+  },
+  {
+    "id": 142090,
+    "name": "死闘の後、盃を手に",
+    "description": "<size=28%>[:score]倍のスコアを獲得／ライフを[:param11]回復／ラモーナが隣に編成された状態でセンスを発動したとき、自身もセンスを発動する(センスの光は獲得出来ない)</size>",
+    "type": "Special",
+    "preEffects": [
+      {
+        "order": 1,
+        "effectMasterId": 28012
+      }
+    ],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20014
+          }
+        ],
+        "id": 1420901
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 190,
+    "scoreUpPerLevel": 50,
+    "lightCount": 1,
+    "coolTime": 35,
+    "branchCondition1": "None",
+    "branchCondition2": "None",
+    "subTypes": []
+  },
+  {
+    "id": 142100,
+    "name": "嫉鬼、橋にて哄笑す",
+    "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／センス発動後、プリンシパルゲージの上限値が[:param11]上昇",
+    "type": "Control",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20096
+          }
+        ],
+        "id": 1421001
+      }
+    ],
+    "acquirableGauge": 70,
+    "acquirableScorePercent": 120,
+    "scoreUpPerLevel": 40,
+    "lightCount": 2,
+    "coolTime": 25,
+    "branchCondition1": "None",
+    "branchCondition2": "None",
+    "subTypes": []
+  },
+  {
     "id": 150010,
     "name": "一度道を違えた絆でも",
     "description": "<size=25%>[:score]倍のスコアを獲得／センス発動直後、自身の歌唱力の[:param12]倍のスコアを獲得／シリウスまたは銀河座アクターの編成数×[:param11]プリンシパルゲージの上限が上昇する</size>",

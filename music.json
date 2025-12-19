@@ -8623,6 +8623,126 @@
     "storyMasterId": 20064
   },
   {
+    "id": 239,
+    "name": "ヴィヴァラヰタ",
+    "description": "",
+    "rewardRuleMasterId": 1,
+    "pronounceName": "うぃばらいた",
+    "lyricWriter": "松井洋平",
+    "composer": "藤井健太郎(HANO)",
+    "arranger": "藤井健太郎(HANO)",
+    "isLongVersion": false,
+    "releasedAt": 1765386000.0,
+    "staminaConsumption": 27,
+    "musicTimeSecond": 107,
+    "invisible": false,
+    "sampleStartSeconds": 0.0,
+    "sampleEndSeconds": 0.0,
+    "delaySeconds": 0.0,
+    "vocalVersions": [
+      {
+        "id": 23901,
+        "musicMasterId": 239,
+        "vocalVersion": 1,
+        "singer": "柳場ぱんだ、猫足蕾",
+        "name": "ヴィヴァラヰタ",
+        "musicTimeSecond": 107,
+        "sampleStartSeconds": 0.0,
+        "sampleEndSeconds": 0.0,
+        "musicVideoType": "None",
+        "characters": [
+          404,
+          105
+        ]
+      }
+    ],
+    "unlockConditionType": "Default",
+    "musicVideoType": "None",
+    "musicCoverType": "Original",
+    "eventMasterId": 26001
+  },
+  {
+    "id": 240,
+    "name": "This game",
+    "description": "",
+    "rewardRuleMasterId": 1,
+    "pronounceName": "thisgame",
+    "lyricWriter": "深青結希",
+    "composer": "若林充",
+    "arranger": "-",
+    "unlockText": "楽曲ショップで購入",
+    "isLongVersion": false,
+    "releasedAt": 1766163600.0,
+    "staminaConsumption": 30,
+    "musicTimeSecond": 122,
+    "invisible": false,
+    "sampleStartSeconds": 0.0,
+    "sampleEndSeconds": 0.0,
+    "delaySeconds": 0.0,
+    "vocalVersions": [
+      {
+        "id": 24001,
+        "musicMasterId": 240,
+        "vocalVersion": 1,
+        "singer": "新妻八恵",
+        "name": "This game",
+        "musicTimeSecond": 122,
+        "sampleStartSeconds": 0.0,
+        "sampleEndSeconds": 0.0,
+        "musicVideoType": "None",
+        "characters": [
+          104
+        ]
+      }
+    ],
+    "unlockConditionType": "Buy",
+    "musicVideoType": "None",
+    "musicCoverType": "Cover"
+  },
+  {
+    "id": 241,
+    "name": "テアトルム・アストラーレ",
+    "description": "",
+    "rewardRuleMasterId": 1,
+    "pronounceName": "てあとるむあすとらーれ",
+    "lyricWriter": "松井洋平",
+    "composer": "塩原大貴 (SUPA LOVE)",
+    "arranger": "塩原大貴 (SUPA LOVE)",
+    "isLongVersion": false,
+    "releasedAt": 1766250000.0,
+    "staminaConsumption": 28,
+    "musicTimeSecond": 112,
+    "invisible": false,
+    "sampleStartSeconds": 0.0,
+    "sampleEndSeconds": 0.0,
+    "delaySeconds": 0.0,
+    "vocalVersions": [
+      {
+        "id": 24101,
+        "musicMasterId": 241,
+        "vocalVersion": 1,
+        "singer": "千寿暦、ラモーナ・ウォルフ、王雪、リリヤ・クルトベイ、与那国緋花里",
+        "name": "テアトルム・アストラーレ",
+        "musicTimeSecond": 112,
+        "sampleStartSeconds": 0.0,
+        "sampleEndSeconds": 0.0,
+        "musicVideoType": "None",
+        "characters": [
+          301,
+          302,
+          303,
+          304,
+          305
+        ]
+      }
+    ],
+    "unlockConditionType": "Default",
+    "musicVideoType": "None",
+    "musicCoverType": "Original",
+    "storyEventMasterId": 35006,
+    "storyMasterId": 10304
+  },
+  {
     "id": 249,
     "name": "Stellarium Collection Vol.1",
     "description": "",
@@ -8803,8 +8923,8 @@
         "sampleEndSeconds": 0.0,
         "musicVideoType": "Movie",
         "characters": [
-          101,
-          104
+          104,
+          101
         ]
       }
     ],
@@ -8886,9 +9006,9 @@
         "musicVideoType": "Movie",
         "characters": [
           202,
-          201,
           203,
           204,
+          201,
           205
         ]
       }
@@ -10648,8 +10768,8 @@
         "sampleEndSeconds": 0.0,
         "musicVideoType": "Movie",
         "characters": [
-          304,
-          302
+          302,
+          304
         ]
       }
     ],

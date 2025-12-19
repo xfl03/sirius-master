@@ -8490,6 +8490,30 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 230850,
+    "name": "伝統と革新を点で繋げて",
+    "description": "銀河座に所属するアクターの演技力が[:param11]％上昇",
+    "posterMasterId": 230850,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70042300
+          }
+        ],
+        "id": 23085001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 320010,
     "name": "鬼人と竜魔人",
     "description": "<color=#FF9314>陽属性</color>のアクターの演技力が[:param11]%上昇",
@@ -10484,6 +10508,54 @@
           }
         ],
         "id": 34038001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 340400,
+    "name": "高枕無憂に寝静まり",
+    "description": "全アクターの演技力が[:param11]％上昇",
+    "posterMasterId": 340400,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70050000
+          }
+        ],
+        "id": 34040001
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 340410,
+    "name": "神意、枕元に立って",
+    "description": "全アクターの演技力が[:param11]％上昇",
+    "posterMasterId": 340410,
+    "type": "Leader",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 70050000
+          }
+        ],
+        "id": 34041001
       }
     ],
     "branchConditionType1": "None",
@@ -17242,6 +17314,78 @@
     "branchConditionType2": "None"
   },
   {
+    "id": 2308501,
+    "name": "集中力アップⅢ＋",
+    "description": "自身の集中力が[:param11]％上昇",
+    "posterMasterId": 230850,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10331000
+          }
+        ],
+        "id": 230850101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2308502,
+    "name": "P.ゲージ獲得量アップ＋",
+    "description": "センスによるP.ゲージの獲得量が[:param11]％UP　◆発動条件：銀河座に所属するアクターが装備",
+    "posterMasterId": 230850,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11611300
+          }
+        ],
+        "id": 230850201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 2308503,
+    "name": "スコアブースト・集中力Ⅲ＋",
+    "description": "センス発動直後、自身の集中力の[:param11]倍のスコアを獲得　◆発動条件：銀河座に所属するアクターが装備",
+    "posterMasterId": 230850,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11131300
+          }
+        ],
+        "id": 230850301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
     "id": 3200101,
     "name": "初期ライフ上昇＋",
     "description": "公演開始時、ライフが[:param11]上昇　◆発動条件：<color=#FF9314>陽属性</color>のアクターが装備",
@@ -22876,6 +23020,150 @@
           }
         ],
         "id": 340380301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3404001,
+    "name": "演技力アップⅣ",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：カミラが装備",
+    "posterMasterId": 340400,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10040403
+          }
+        ],
+        "id": 340400101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3404002,
+    "name": "「光」獲得数増加",
+    "description": "センスで付与する「光」の付与数が[:param11]個増加　◆発動条件：カミラが装備",
+    "posterMasterId": 340400,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11810403
+          }
+        ],
+        "id": 340400201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3404003,
+    "name": "CTダウンⅣ",
+    "description": "自身のセンスのCTを[:param11]秒短縮　◆発動条件：カミラが装備",
+    "posterMasterId": 340400,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 12430403
+          }
+        ],
+        "id": 340400301
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3404101,
+    "name": "演技力アップⅣ",
+    "description": "自身の演技力が[:param11]%上昇　◆発動条件：蕾が装備",
+    "posterMasterId": 340410,
+    "type": "Normal",
+    "frameNumber": 1,
+    "releaseLevelAt": 0,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 10040404
+          }
+        ],
+        "id": 340410101
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3404102,
+    "name": "「光」獲得数増加",
+    "description": "センスで付与する「光」の付与数が[:param11]個増加　◆発動条件：蕾が装備",
+    "posterMasterId": 340410,
+    "type": "Normal",
+    "frameNumber": 2,
+    "releaseLevelAt": 5,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 11810404
+          }
+        ],
+        "id": 340410201
+      }
+    ],
+    "branchConditionType1": "None",
+    "branchConditionType2": "None"
+  },
+  {
+    "id": 3404103,
+    "name": "CTダウンⅣ",
+    "description": "自身のセンスのCTを[:param11]秒短縮　◆発動条件：蕾が装備",
+    "posterMasterId": 340410,
+    "type": "Normal",
+    "frameNumber": 3,
+    "releaseLevelAt": 8,
+    "hidden": false,
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 12430404
+          }
+        ],
+        "id": 340410301
       }
     ],
     "branchConditionType1": "None",

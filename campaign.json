@@ -770,6 +770,50 @@
     "campaignEffectValue": 50
   },
   {
+    "id": 72,
+    "title": "公演の報酬量 50%UP",
+    "description": "期間：12/10 17:00～12/18 5:00/n対象：公演、協力公演",
+    "iconImagePath": "1",
+    "order": 72,
+    "startDate": 1765386000.0,
+    "endDate": 1766034000.0,
+    "campaignEffectType": "LiveReward",
+    "campaignEffectValue": 50
+  },
+  {
+    "id": 73,
+    "title": "稽古の獲得SP 50％UP",
+    "description": "期間：12/18 5:00～12/25 5:00/n対象：稽古",
+    "iconImagePath": "3",
+    "order": 73,
+    "startDate": 1766034000.0,
+    "endDate": 1766638800.0,
+    "campaignEffectType": "StarPoint",
+    "campaignEffectValue": 50
+  },
+  {
+    "id": 74,
+    "title": "稽古の回数 +1回",
+    "description": "期間：12/25 5:00 ～ 12/29 5:00/n対象：稽古",
+    "iconImagePath": "1001",
+    "order": 74,
+    "startDate": 1766638800.0,
+    "endDate": 1766984400.0,
+    "campaignEffectType": "LessonCount",
+    "campaignEffectValue": 1
+  },
+  {
+    "id": 75,
+    "title": "アクセサリーのドロップ率 50%UP",
+    "description": "期間：12/29 17:00 ～ 1/8 22:00/n対象：電姫空間",
+    "iconImagePath": "1",
+    "order": 75,
+    "startDate": 1767027600.0,
+    "endDate": 1767909600.0,
+    "campaignEffectType": "AccessoryDropRate",
+    "campaignEffectValue": 50
+  },
+  {
     "id": 1000,
     "title": "公演の獲得EXP 50％UP",
     "description": "ウェルカムバックキャンペーン/n期間：7日間/n対象：公演、協力公演",
@@ -854,44 +898,44 @@
   {
     "id": 2003,
     "title": "稽古の回数 +2回",
-    "description": "ユメステデー！ 開催中！/n期間：11/17 5:00 ～ 11/18 5:00/n対象：稽古",
+    "description": "ユメステデー！ 開催中！/n期間：12/17 5:00 ～ 12/18 5:00/n対象：稽古",
     "iconImagePath": "1001",
     "order": 2003,
-    "startDate": 1763355600.0,
-    "endDate": 1763442000.0,
+    "startDate": 1765947600.0,
+    "endDate": 1766034000.0,
     "campaignEffectType": "LessonCount",
     "campaignEffectValue": 2
   },
   {
     "id": 2004,
     "title": "公演の獲得EXP 50％UP",
-    "description": "ユメステデー！ 開催中！/n期間：11/17 5:00 ～ 11/18 5:00/n対象：公演、協力公演",
+    "description": "ユメステデー！ 開催中！/n期間：12/17 5:00 ～ 12/18 5:00/n対象：公演、協力公演",
     "iconImagePath": "4",
     "order": 2004,
-    "startDate": 1763355600.0,
-    "endDate": 1763442000.0,
+    "startDate": 1765947600.0,
+    "endDate": 1766034000.0,
     "campaignEffectType": "RankPoint",
     "campaignEffectValue": 50
   },
   {
     "id": 2005,
     "title": "稽古の回数 +2回",
-    "description": "ユメステデー！ 開催中！/n期間：11/27 5:00 ～ 11/28 5:00/n対象：稽古",
+    "description": "ユメステデー！ 開催中！/n期間：12/27 5:00 ～ 12/28 5:00/n対象：稽古",
     "iconImagePath": "1001",
     "order": 2005,
-    "startDate": 1764219600.0,
-    "endDate": 1764306000.0,
+    "startDate": 1766811600.0,
+    "endDate": 1766898000.0,
     "campaignEffectType": "LessonCount",
     "campaignEffectValue": 2
   },
   {
     "id": 2006,
     "title": "公演の獲得EXP 50％UP",
-    "description": "ユメステデー！ 開催中！/n期間：11/27 5:00 ～ 11/28 5:00/n対象：公演、協力公演",
+    "description": "ユメステデー！ 開催中！/n期間：12/27 5:00 ～ 12/28 5:00/n対象：公演、協力公演",
     "iconImagePath": "4",
     "order": 2006,
-    "startDate": 1764219600.0,
-    "endDate": 1764306000.0,
+    "startDate": 1766811600.0,
+    "endDate": 1766898000.0,
     "campaignEffectType": "RankPoint",
     "campaignEffectValue": 50
   }
