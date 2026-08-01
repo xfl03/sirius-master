@@ -8,7 +8,9 @@
     "order": 101,
     "startDate": 1716217200.0,
     "endDate": 4102444800.0,
-    "requiredCoinQuantity": 99999999
+    "requiredThingType": "Coin",
+    "requiredThingId": 0,
+    "requiredThingQuantity": 99999999
   },
   {
     "id": 2,
@@ -19,7 +21,35 @@
     "order": 102,
     "startDate": 1716217200.0,
     "endDate": 4102444800.0,
-    "requiredCoinQuantity": 557000000
+    "requiredThingType": "Coin",
+    "requiredThingId": 0,
+    "requiredThingQuantity": 557000000
+  },
+  {
+    "id": 3,
+    "thingId": 105,
+    "thingType": "Nameplate",
+    "thingQuantity": 1,
+    "exchangeLimit": 1,
+    "order": 103,
+    "startDate": 1770656400.0,
+    "endDate": 4102444800.0,
+    "requiredThingType": "Jewel",
+    "requiredThingId": 0,
+    "requiredThingQuantity": 480
+  },
+  {
+    "id": 4,
+    "thingId": 106,
+    "thingType": "Nameplate",
+    "thingQuantity": 1,
+    "exchangeLimit": 1,
+    "order": 104,
+    "startDate": 1770656400.0,
+    "endDate": 4102444800.0,
+    "requiredThingType": "Jewel",
+    "requiredThingId": 0,
+    "requiredThingQuantity": 480
   },
   {
     "id": 101,
@@ -30,7 +60,9 @@
     "order": 201,
     "startDate": 1716217200.0,
     "endDate": 4102444800.0,
-    "requiredCoinQuantity": 999999
+    "requiredThingType": "Coin",
+    "requiredThingId": 0,
+    "requiredThingQuantity": 999999
   },
   {
     "id": 102,
@@ -41,7 +73,9 @@
     "order": 202,
     "startDate": 1716217200.0,
     "endDate": 4102444800.0,
-    "requiredCoinQuantity": 1000000
+    "requiredThingType": "Coin",
+    "requiredThingId": 0,
+    "requiredThingQuantity": 1000000
   },
   {
     "id": 103,
@@ -52,6 +86,69 @@
     "order": 203,
     "startDate": 1716217200.0,
     "endDate": 4102444800.0,
-    "requiredCoinQuantity": 7777777
+    "requiredThingType": "Coin",
+    "requiredThingId": 0,
+    "requiredThingQuantity": 7777777
+  },
+  {
+    "id": 151,
+    "thingId": 190003,
+    "thingType": "IconFrame",
+    "thingQuantity": 1,
+    "exchangeLimit": 1,
+    "order": 151,
+    "startDate": 1770656400.0,
+    "endDate": 4102444800.0,
+    "requiredThingType": "Jewel",
+    "requiredThingId": 0,
+    "requiredThingQuantity": 480
+  },
+  {
+    "id": 201,
+    "thingId": 130401,
+    "thingType": "Item",
+    "thingQuantity": 1,
+    "order": 1,
+    "startDate": 1769878800.0,
+    "endDate": 4102444800.0,
+    "requiredThingType": "Coin",
+    "requiredThingId": 0,
+    "requiredThingQuantity": 1000000
+  },
+  {
+    "id": 202,
+    "thingId": 0,
+    "thingType": "Coin",
+    "thingQuantity": 1000000,
+    "order": 2,
+    "startDate": 1769878800.0,
+    "endDate": 4102444800.0,
+    "requiredThingType": "Item",
+    "requiredThingId": 130401,
+    "requiredThingQuantity": 1
+  },
+  {
+    "id": 203,
+    "thingId": 150000,
+    "thingType": "Item",
+    "thingQuantity": 10,
+    "order": 3,
+    "startDate": 1785024000.0,
+    "endDate": 4102444800.0,
+    "requiredThingType": "Coin",
+    "requiredThingId": 0,
+    "requiredThingQuantity": 100000
+  },
+  {
+    "id": 204,
+    "thingId": 130011,
+    "thingType": "Item",
+    "thingQuantity": 10,
+    "order": 4,
+    "startDate": 1785024000.0,
+    "endDate": 4102444800.0,
+    "requiredThingType": "Coin",
+    "requiredThingId": 0,
+    "requiredThingQuantity": 10000
   }
 ]

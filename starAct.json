@@ -6133,6 +6133,1389 @@
     "branchCondition2": "None"
   },
   {
+    "id": 142111,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得",
+    "starActConditionMasterId": 104111,
+    "acquirableScorePercent": 970,
+    "scoreUpPerLevel": 100,
+    "preEffects": [],
+    "branches": [],
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 142121,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得／ライフが多いほどスコア獲得量UP効果（最大＋[:pre1]%）",
+    "starActConditionMasterId": 123111,
+    "acquirableScorePercent": 1140,
+    "scoreUpPerLevel": 120,
+    "preEffects": [
+      {
+        "order": 1,
+        "effectMasterId": 19051
+      }
+    ],
+    "branches": [],
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 142131,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得",
+    "starActConditionMasterId": 101141,
+    "acquirableScorePercent": 970,
+    "scoreUpPerLevel": 100,
+    "preEffects": [],
+    "branches": [],
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 142141,
+    "name": "",
+    "description": "<size=26%>総演技力の[:score]倍のスコアを獲得／編成されているシリウスアクターの演技力と演技力上限を、編成されているシリウスアクターの人数×4%上昇させる(この効果は重複する)</size>",
+    "starActConditionMasterId": 103121,
+    "acquirableScorePercent": 970,
+    "scoreUpPerLevel": 100,
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19116
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 1,
+        "id": 14214101
+      },
+      {
+        "order": 2,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19117
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 2,
+        "id": 14214102
+      },
+      {
+        "order": 3,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19118
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 3,
+        "id": 14214103
+      },
+      {
+        "order": 4,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19119
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 4,
+        "id": 14214104
+      },
+      {
+        "order": 5,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19120
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 5,
+        "id": 14214105
+      }
+    ],
+    "branchCondition1": "CharacterBaseGroup",
+    "conditionValue1": 100,
+    "branchCondition2": "None"
+  },
+  {
+    "id": 142151,
+    "name": "",
+    "description": "<size=25%>公演中の一番最後に発動するスターアクトで、スターアクトの発動回数×総演技力の[:score]倍のスコアを獲得／スターアクト発動後、追加で[:param12]のプリンシパルゲージを獲得</size>",
+    "starActConditionMasterId": 101223,
+    "acquirableScorePercent": 1140,
+    "scoreUpPerLevel": 120,
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19400
+          },
+          {
+            "order": 2,
+            "effectMasterId": 19095
+          }
+        ],
+        "id": 14215101
+      }
+    ],
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 142161,
+    "name": "",
+    "description": "<size=26%>総演技力の[:score]倍のスコアを獲得／編成されている劇団電姫アクターの演技力と演技力上限を、編成されている劇団電姫アクターの人数×10%上昇させる(この効果は重複する)</size>",
+    "starActConditionMasterId": 104121,
+    "acquirableScorePercent": 1140,
+    "scoreUpPerLevel": 120,
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19100
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 1,
+        "id": 14216101
+      },
+      {
+        "order": 2,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19101
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 2,
+        "id": 14216102
+      },
+      {
+        "order": 3,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19102
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 3,
+        "id": 14216103
+      },
+      {
+        "order": 4,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19103
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 4,
+        "id": 14216104
+      },
+      {
+        "order": 5,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19104
+          }
+        ],
+        "judgeType1": "MoreThan",
+        "parameter1": 5,
+        "id": 14216105
+      }
+    ],
+    "branchCondition1": "CompanyMemberCount",
+    "conditionValue1": 4,
+    "branchCondition2": "None"
+  },
+  {
+    "id": 142171,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得",
+    "starActConditionMasterId": 101411,
+    "acquirableScorePercent": 970,
+    "scoreUpPerLevel": 100,
+    "preEffects": [],
+    "branches": [],
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 142181,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得",
+    "starActConditionMasterId": 101141,
+    "acquirableScorePercent": 970,
+    "scoreUpPerLevel": 100,
+    "preEffects": [],
+    "branches": [],
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 142191,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得",
+    "starActConditionMasterId": 101141,
+    "acquirableScorePercent": 970,
+    "scoreUpPerLevel": 100,
+    "preEffects": [],
+    "branches": [],
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 142201,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得",
+    "starActConditionMasterId": 104111,
+    "acquirableScorePercent": 970,
+    "scoreUpPerLevel": 100,
+    "preEffects": [],
+    "branches": [],
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 142211,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得",
+    "starActConditionMasterId": 101411,
+    "acquirableScorePercent": 970,
+    "scoreUpPerLevel": 100,
+    "preEffects": [],
+    "branches": [],
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 142221,
+    "name": "",
+    "description": "<size=26%>総演技力の[:score]倍のスコアを獲得／編成されている劇団電姫アクターの演技力と演技力上限を、編成されている劇団電姫アクターの人数×4%上昇させる(この効果は重複する)</size>",
+    "starActConditionMasterId": 101511,
+    "acquirableScorePercent": 1140,
+    "scoreUpPerLevel": 120,
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19121
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 1,
+        "id": 14222101
+      },
+      {
+        "order": 2,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19122
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 2,
+        "id": 14222102
+      },
+      {
+        "order": 3,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19123
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 3,
+        "id": 14222103
+      },
+      {
+        "order": 4,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19124
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 4,
+        "id": 14222104
+      },
+      {
+        "order": 5,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19125
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 5,
+        "id": 14222105
+      }
+    ],
+    "branchCondition1": "CharacterBaseGroup",
+    "conditionValue1": 400,
+    "branchCondition2": "None"
+  },
+  {
+    "id": 142231,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得",
+    "starActConditionMasterId": 101114,
+    "acquirableScorePercent": 970,
+    "scoreUpPerLevel": 100,
+    "preEffects": [],
+    "branches": [],
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 142241,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得",
+    "starActConditionMasterId": 104111,
+    "acquirableScorePercent": 970,
+    "scoreUpPerLevel": 100,
+    "preEffects": [],
+    "branches": [],
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 142251,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得",
+    "starActConditionMasterId": 101411,
+    "acquirableScorePercent": 970,
+    "scoreUpPerLevel": 100,
+    "preEffects": [],
+    "branches": [],
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 142261,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得",
+    "starActConditionMasterId": 101141,
+    "acquirableScorePercent": 970,
+    "scoreUpPerLevel": 100,
+    "preEffects": [],
+    "branches": [],
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 142271,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得",
+    "starActConditionMasterId": 101141,
+    "acquirableScorePercent": 970,
+    "scoreUpPerLevel": 100,
+    "preEffects": [],
+    "branches": [],
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 142281,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得",
+    "starActConditionMasterId": 104111,
+    "acquirableScorePercent": 970,
+    "scoreUpPerLevel": 100,
+    "preEffects": [],
+    "branches": [],
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 142291,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得",
+    "starActConditionMasterId": 101141,
+    "acquirableScorePercent": 970,
+    "scoreUpPerLevel": 100,
+    "preEffects": [],
+    "branches": [],
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 142301,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得",
+    "starActConditionMasterId": 104111,
+    "acquirableScorePercent": 970,
+    "scoreUpPerLevel": 100,
+    "preEffects": [],
+    "branches": [],
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 142311,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得",
+    "starActConditionMasterId": 101411,
+    "acquirableScorePercent": 970,
+    "scoreUpPerLevel": 100,
+    "preEffects": [],
+    "branches": [],
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 142321,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得／ストックされている全ての光1個につき総演技力の[:param11]倍のスコアを獲得(最大5個)／ライフが多いほどスコア獲得量UP効果（最大＋ 70%）",
+    "starActConditionMasterId": 103121,
+    "acquirableScorePercent": 970,
+    "scoreUpPerLevel": 100,
+    "preEffects": [
+      {
+        "order": 1,
+        "effectMasterId": 19049
+      }
+    ],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19026
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 1,
+        "id": 14232101
+      },
+      {
+        "order": 2,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19027
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 2,
+        "id": 14232102
+      },
+      {
+        "order": 3,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19028
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 3,
+        "id": 14232103
+      },
+      {
+        "order": 4,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19029
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 4,
+        "id": 14232104
+      },
+      {
+        "order": 5,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19030
+          }
+        ],
+        "judgeType1": "MoreThan",
+        "parameter1": 5,
+        "id": 14232105
+      }
+    ],
+    "branchCondition1": "StorageSenseLightCount",
+    "conditionValue1": 5,
+    "branchCondition2": "None"
+  },
+  {
+    "id": 142331,
+    "name": "",
+    "description": "<size=20%>総演技力の[:score]倍のスコアを獲得／付与されているライフガードが20回以上の時スコア獲得量が150％上昇、その時のスコアの1％のスコアを獲得／付与されているライフガードが19回以下の時スコア獲得量が120％上昇、スターアクト発動後、プリンシパルゲージの上限値が300上昇</size>",
+    "starActConditionMasterId": 101511,
+    "acquirableScorePercent": 1140,
+    "scoreUpPerLevel": 120,
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19209
+          },
+          {
+            "order": 2,
+            "effectMasterId": 19301
+          }
+        ],
+        "judgeType1": "MoreThan",
+        "parameter1": 20,
+        "id": 14233101
+      },
+      {
+        "order": 2,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19207
+          },
+          {
+            "order": 2,
+            "effectMasterId": 19086
+          }
+        ],
+        "judgeType1": "LessThan",
+        "parameter1": 19,
+        "id": 14233102
+      }
+    ],
+    "branchCondition1": "LifeGuardCount",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 142341,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得/付与されているライフガード1回につきスコア獲得量13％上昇（最大＋130％）",
+    "starActConditionMasterId": 102141,
+    "acquirableScorePercent": 1140,
+    "scoreUpPerLevel": 120,
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19220
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 1,
+        "id": 14234101
+      },
+      {
+        "order": 2,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19221
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 2,
+        "id": 14234102
+      },
+      {
+        "order": 3,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19222
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 3,
+        "id": 14234103
+      },
+      {
+        "order": 4,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19223
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 4,
+        "id": 14234104
+      },
+      {
+        "order": 5,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19224
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 5,
+        "id": 14234105
+      },
+      {
+        "order": 6,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19225
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 6,
+        "id": 14234106
+      },
+      {
+        "order": 7,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19226
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 7,
+        "id": 14234107
+      },
+      {
+        "order": 8,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19227
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 8,
+        "id": 14234108
+      },
+      {
+        "order": 9,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19228
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 9,
+        "id": 14234109
+      },
+      {
+        "order": 10,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19229
+          }
+        ],
+        "judgeType1": "MoreThan",
+        "parameter1": 10,
+        "id": 14234110
+      }
+    ],
+    "branchCondition1": "LifeGuardCount",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 142351,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得/付与されているライフガード1回につきスコア獲得量10％上昇（最大＋100％）／プリンシパルゲージの上限を[:param12]上昇させる",
+    "starActConditionMasterId": 140031,
+    "acquirableScorePercent": 1140,
+    "scoreUpPerLevel": 120,
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 2,
+            "effectMasterId": 19087
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 0,
+        "id": 14235101
+      },
+      {
+        "order": 2,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19001
+          },
+          {
+            "order": 2,
+            "effectMasterId": 19087
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 1,
+        "id": 14235102
+      },
+      {
+        "order": 3,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19002
+          },
+          {
+            "order": 2,
+            "effectMasterId": 19087
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 2,
+        "id": 14235103
+      },
+      {
+        "order": 4,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19003
+          },
+          {
+            "order": 2,
+            "effectMasterId": 19087
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 3,
+        "id": 14235104
+      },
+      {
+        "order": 5,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19004
+          },
+          {
+            "order": 2,
+            "effectMasterId": 19087
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 4,
+        "id": 14235105
+      },
+      {
+        "order": 6,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19005
+          },
+          {
+            "order": 2,
+            "effectMasterId": 19087
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 5,
+        "id": 14235106
+      },
+      {
+        "order": 7,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19006
+          },
+          {
+            "order": 2,
+            "effectMasterId": 19087
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 6,
+        "id": 14235107
+      },
+      {
+        "order": 8,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19007
+          },
+          {
+            "order": 2,
+            "effectMasterId": 19087
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 7,
+        "id": 14235108
+      },
+      {
+        "order": 9,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19008
+          },
+          {
+            "order": 2,
+            "effectMasterId": 19087
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 8,
+        "id": 14235109
+      },
+      {
+        "order": 10,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19009
+          },
+          {
+            "order": 2,
+            "effectMasterId": 19087
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 9,
+        "id": 14235110
+      },
+      {
+        "order": 11,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19010
+          },
+          {
+            "order": 2,
+            "effectMasterId": 19087
+          }
+        ],
+        "judgeType1": "MoreThan",
+        "parameter1": 10,
+        "id": 14235111
+      }
+    ],
+    "branchCondition1": "LifeGuardCount",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 142361,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得",
+    "starActConditionMasterId": 101411,
+    "acquirableScorePercent": 970,
+    "scoreUpPerLevel": 100,
+    "preEffects": [],
+    "branches": [],
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 142371,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得",
+    "starActConditionMasterId": 101114,
+    "acquirableScorePercent": 970,
+    "scoreUpPerLevel": 100,
+    "preEffects": [],
+    "branches": [],
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 142381,
+    "name": "",
+    "description": "<size=26%>総演技力の[:score]倍のスコアを獲得／編成されている劇団電姫アクターの演技力と演技力上限を、編成されている劇団電姫アクターの人数×10%上昇させる(この効果は重複する)</size>",
+    "starActConditionMasterId": 101114,
+    "acquirableScorePercent": 970,
+    "scoreUpPerLevel": 100,
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19111
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 1,
+        "id": 14238101
+      },
+      {
+        "order": 2,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19112
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 2,
+        "id": 14238102
+      },
+      {
+        "order": 3,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19113
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 3,
+        "id": 14238103
+      },
+      {
+        "order": 4,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19114
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 4,
+        "id": 14238104
+      },
+      {
+        "order": 5,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19115
+          }
+        ],
+        "judgeType1": "MoreThan",
+        "parameter1": 5,
+        "id": 14238105
+      }
+    ],
+    "branchCondition1": "CharacterBaseGroup",
+    "conditionValue1": 400,
+    "branchCondition2": "None"
+  },
+  {
+    "id": 142391,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得",
+    "starActConditionMasterId": 104111,
+    "acquirableScorePercent": 970,
+    "scoreUpPerLevel": 100,
+    "preEffects": [],
+    "branches": [],
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 142401,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得",
+    "starActConditionMasterId": 101114,
+    "acquirableScorePercent": 970,
+    "scoreUpPerLevel": 100,
+    "preEffects": [],
+    "branches": [],
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 142411,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得",
+    "starActConditionMasterId": 101411,
+    "acquirableScorePercent": 970,
+    "scoreUpPerLevel": 100,
+    "preEffects": [],
+    "branches": [],
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 142421,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得",
+    "starActConditionMasterId": 101141,
+    "acquirableScorePercent": 970,
+    "scoreUpPerLevel": 100,
+    "preEffects": [],
+    "branches": [],
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 142431,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得",
+    "starActConditionMasterId": 101114,
+    "acquirableScorePercent": 970,
+    "scoreUpPerLevel": 100,
+    "preEffects": [],
+    "branches": [],
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 142441,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得",
+    "starActConditionMasterId": 101141,
+    "acquirableScorePercent": 970,
+    "scoreUpPerLevel": 100,
+    "preEffects": [],
+    "branches": [],
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 142451,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得",
+    "starActConditionMasterId": 101411,
+    "acquirableScorePercent": 970,
+    "scoreUpPerLevel": 100,
+    "preEffects": [],
+    "branches": [],
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 142461,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得",
+    "starActConditionMasterId": 101411,
+    "acquirableScorePercent": 970,
+    "scoreUpPerLevel": 100,
+    "preEffects": [],
+    "branches": [],
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 142471,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得",
+    "starActConditionMasterId": 104111,
+    "acquirableScorePercent": 970,
+    "scoreUpPerLevel": 100,
+    "preEffects": [],
+    "branches": [],
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 142481,
+    "name": "",
+    "description": "<size=24%>総演技力の[:score]倍のスコアを獲得／ライフが多いほどスコア獲得量UP効果（最大＋ 120%）／スターアクト発動後、現在のプリンシパルゲージ上限の[:param11]%分のプリンシパルゲージを獲得する</size>",
+    "starActConditionMasterId": 103121,
+    "acquirableScorePercent": 970,
+    "scoreUpPerLevel": 100,
+    "preEffects": [
+      {
+        "order": 1,
+        "effectMasterId": 19052
+      }
+    ],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19091
+          }
+        ],
+        "id": 14248101
+      }
+    ],
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 142491,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得",
+    "starActConditionMasterId": 104111,
+    "acquirableScorePercent": 970,
+    "scoreUpPerLevel": 100,
+    "preEffects": [],
+    "branches": [],
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 142501,
+    "name": "",
+    "description": "<size=26%>総演技力の[:score]倍のスコアを獲得／ライフが多いほどスコア獲得量UP効果（最大＋ 100%）／ストックされている全ての光1個につき総演技力の[:param11]倍のスコアを獲得(最大5個)</size>",
+    "starActConditionMasterId": 101241,
+    "acquirableScorePercent": 1140,
+    "scoreUpPerLevel": 120,
+    "preEffects": [
+      {
+        "order": 1,
+        "effectMasterId": 19051
+      }
+    ],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19036
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 1,
+        "id": 14250101
+      },
+      {
+        "order": 2,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19037
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 2,
+        "id": 14250102
+      },
+      {
+        "order": 3,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19038
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 3,
+        "id": 14250103
+      },
+      {
+        "order": 4,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19039
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 4,
+        "id": 14250104
+      },
+      {
+        "order": 5,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19040
+          }
+        ],
+        "judgeType1": "MoreThan",
+        "parameter1": 5,
+        "id": 14250105
+      }
+    ],
+    "branchCondition1": "StorageSenseLightCount",
+    "conditionValue1": 5,
+    "branchCondition2": "None"
+  },
+  {
+    "id": 142511,
+    "name": "",
+    "description": "<size=24%>総演技力の[:score]倍のスコアを獲得／ライフが多いほどスコア獲得量UP効果（最大＋130%）／編成されているシリウスアクター1人につきその時のスコアの1％のスコアを獲得</size>",
+    "starActConditionMasterId": 101412,
+    "acquirableScorePercent": 1140,
+    "scoreUpPerLevel": 120,
+    "preEffects": [
+      {
+        "order": 1,
+        "effectMasterId": 19050
+      }
+    ],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19306
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 1,
+        "id": 14251101
+      },
+      {
+        "order": 2,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19307
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 2,
+        "id": 14251102
+      },
+      {
+        "order": 3,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19308
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 3,
+        "id": 14251103
+      },
+      {
+        "order": 4,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19309
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 4,
+        "id": 14251104
+      },
+      {
+        "order": 5,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19310
+          }
+        ],
+        "judgeType1": "MoreThan",
+        "parameter1": 5,
+        "id": 14251105
+      }
+    ],
+    "branchCondition1": "CharacterBaseGroup",
+    "conditionValue1": 100,
+    "branchCondition2": "None"
+  },
+  {
+    "id": 142521,
+    "name": "",
+    "description": "<size=22%>総演技力の[:score]倍のスコアを獲得／編成されている銀河座アクターの演技力と演技力上限を、編成されている銀河座アクターの人数×16%上昇させる(この効果は重複する)／ライフが多いほどスコア獲得量UP効果（最大＋ 100%）</size>",
+    "starActConditionMasterId": 102123,
+    "acquirableScorePercent": 1140,
+    "scoreUpPerLevel": 120,
+    "preEffects": [
+      {
+        "order": 1,
+        "effectMasterId": 19051
+      }
+    ],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19126
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 1,
+        "id": 14252101
+      },
+      {
+        "order": 2,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19127
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 2,
+        "id": 14252102
+      },
+      {
+        "order": 3,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19128
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 3,
+        "id": 14252103
+      },
+      {
+        "order": 4,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19129
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 4,
+        "id": 14252104
+      },
+      {
+        "order": 5,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19130
+          }
+        ],
+        "judgeType1": "MoreThan",
+        "parameter1": 5,
+        "id": 14252105
+      }
+    ],
+    "branchCondition1": "CharacterBaseGroup",
+    "conditionValue1": 300,
+    "branchCondition2": "None"
+  },
+  {
     "id": 150011,
     "name": "",
     "description": "総演技力の[:score]倍のスコアを獲得／ライフが多いほどスコア獲得量UP効果（最大＋[:pre1]%）",
@@ -6532,6 +7915,407 @@
       }
     ],
     "branchCondition1": "LifeGuardCount",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 150031,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得/公演中のセンス発動回数2回につきスコア獲得量15％上昇（最大＋150％）",
+    "starActConditionMasterId": 101314,
+    "acquirableScorePercent": 1310,
+    "scoreUpPerLevel": 140,
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19219
+          }
+        ],
+        "judgeType1": "MoreThan",
+        "parameter1": 20,
+        "id": 15003101
+      },
+      {
+        "order": 2,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19218
+          }
+        ],
+        "judgeType1": "MoreThan",
+        "parameter1": 18,
+        "id": 15003102
+      },
+      {
+        "order": 3,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19217
+          }
+        ],
+        "judgeType1": "MoreThan",
+        "parameter1": 16,
+        "id": 15003103
+      },
+      {
+        "order": 4,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19216
+          }
+        ],
+        "judgeType1": "MoreThan",
+        "parameter1": 14,
+        "id": 15003104
+      },
+      {
+        "order": 5,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19215
+          }
+        ],
+        "judgeType1": "MoreThan",
+        "parameter1": 12,
+        "id": 15003105
+      },
+      {
+        "order": 6,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19214
+          }
+        ],
+        "judgeType1": "MoreThan",
+        "parameter1": 10,
+        "id": 15003106
+      },
+      {
+        "order": 7,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19213
+          }
+        ],
+        "judgeType1": "MoreThan",
+        "parameter1": 8,
+        "id": 15003107
+      },
+      {
+        "order": 8,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19212
+          }
+        ],
+        "judgeType1": "MoreThan",
+        "parameter1": 6,
+        "id": 15003108
+      },
+      {
+        "order": 9,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19211
+          }
+        ],
+        "judgeType1": "MoreThan",
+        "parameter1": 4,
+        "id": 15003109
+      },
+      {
+        "order": 10,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19210
+          }
+        ],
+        "judgeType1": "MoreThan",
+        "parameter1": 2,
+        "id": 15003110
+      }
+    ],
+    "branchCondition1": "SenseTriggeredCount",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 150032,
+    "name": "",
+    "description": "<size=26%>総演技力の[:score]倍のスコアを獲得/公演中のセンス発動回数1回につきスコア獲得量18％上昇（最大＋180％）／スターアクト発動後、プリンシパルゲージの上限値が[:param12]上昇</size>",
+    "starActConditionMasterId": 101314,
+    "acquirableScorePercent": 1310,
+    "scoreUpPerLevel": 140,
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19274
+          },
+          {
+            "order": 2,
+            "effectMasterId": 19086
+          }
+        ],
+        "judgeType1": "MoreThan",
+        "parameter1": 10,
+        "id": 15003201
+      },
+      {
+        "order": 2,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19273
+          },
+          {
+            "order": 2,
+            "effectMasterId": 19086
+          }
+        ],
+        "judgeType1": "MoreThan",
+        "parameter1": 9,
+        "id": 15003202
+      },
+      {
+        "order": 3,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19272
+          },
+          {
+            "order": 2,
+            "effectMasterId": 19086
+          }
+        ],
+        "judgeType1": "MoreThan",
+        "parameter1": 8,
+        "id": 15003203
+      },
+      {
+        "order": 4,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19271
+          },
+          {
+            "order": 2,
+            "effectMasterId": 19086
+          }
+        ],
+        "judgeType1": "MoreThan",
+        "parameter1": 7,
+        "id": 15003204
+      },
+      {
+        "order": 5,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19270
+          },
+          {
+            "order": 2,
+            "effectMasterId": 19086
+          }
+        ],
+        "judgeType1": "MoreThan",
+        "parameter1": 6,
+        "id": 15003205
+      },
+      {
+        "order": 6,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19269
+          },
+          {
+            "order": 2,
+            "effectMasterId": 19086
+          }
+        ],
+        "judgeType1": "MoreThan",
+        "parameter1": 5,
+        "id": 15003206
+      },
+      {
+        "order": 7,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19268
+          },
+          {
+            "order": 2,
+            "effectMasterId": 19086
+          }
+        ],
+        "judgeType1": "MoreThan",
+        "parameter1": 4,
+        "id": 15003207
+      },
+      {
+        "order": 8,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19267
+          },
+          {
+            "order": 2,
+            "effectMasterId": 19086
+          }
+        ],
+        "judgeType1": "MoreThan",
+        "parameter1": 3,
+        "id": 15003208
+      },
+      {
+        "order": 9,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19266
+          },
+          {
+            "order": 2,
+            "effectMasterId": 19086
+          }
+        ],
+        "judgeType1": "MoreThan",
+        "parameter1": 2,
+        "id": 15003209
+      },
+      {
+        "order": 10,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19265
+          },
+          {
+            "order": 2,
+            "effectMasterId": 19086
+          }
+        ],
+        "judgeType1": "MoreThan",
+        "parameter1": 1,
+        "id": 15003210
+      }
+    ],
+    "branchCondition1": "SenseTriggeredCount",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 150041,
+    "name": "",
+    "description": "公演中の一番最後に発動するスターアクトで、スターアクトの発動回数×総演技力の[:score]倍のスコアを獲得",
+    "starActConditionMasterId": 102223,
+    "acquirableScorePercent": 1310,
+    "scoreUpPerLevel": 140,
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19400
+          }
+        ],
+        "id": 15004101
+      }
+    ],
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 150042,
+    "name": "",
+    "description": "<size=23%>公演中の一番最後に発動するスターアクトで、スターアクトの発動回数×総演技力の[:score]倍のスコアを獲得／スターアクト発動後、現在のプリンシパルゲージ上限の[:param12]%分のプリンシパルゲージを獲得する</size>",
+    "starActConditionMasterId": 102223,
+    "acquirableScorePercent": 1310,
+    "scoreUpPerLevel": 140,
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19400
+          },
+          {
+            "order": 2,
+            "effectMasterId": 19090
+          }
+        ],
+        "id": 15004201
+      }
+    ],
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 150051,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得／ライフが多いほどスコア獲得量UP効果（最大＋ 170%）",
+    "starActConditionMasterId": 104222,
+    "acquirableScorePercent": 1480,
+    "scoreUpPerLevel": 160,
+    "preEffects": [
+      {
+        "order": 1,
+        "effectMasterId": 19054
+      }
+    ],
+    "branches": [],
+    "branchCondition1": "None",
+    "branchCondition2": "None"
+  },
+  {
+    "id": 150052,
+    "name": "",
+    "description": "総演技力の[:score]倍のスコアを獲得／ライフが多いほどスコア獲得量UP効果（最大＋ 200%）／スターアクト発動後、プリンシパルゲージの上限値が[:param11]上昇",
+    "starActConditionMasterId": 104222,
+    "acquirableScorePercent": 1480,
+    "scoreUpPerLevel": 160,
+    "preEffects": [
+      {
+        "order": 1,
+        "effectMasterId": 19055
+      }
+    ],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 19086
+          }
+        ],
+        "id": 15005201
+      }
+    ],
+    "branchCondition1": "None",
     "branchCondition2": "None"
   }
 ]

@@ -641,6 +641,42 @@
     "description": "初期プリンシパルゲージが[:param1]上昇　◆発動条件：<color=#7AC940>彩属性</color>のアクターが装備"
   },
   {
+    "id": 320350,
+    "effectMasterId": 321041,
+    "name": "仲間なんだから頼って？",
+    "description": "初期プリンシパルゲージが[:param1]上昇　◆発動条件：<color=#FF9314>陽属性</color>のアクターが装備"
+  },
+  {
+    "id": 320360,
+    "effectMasterId": 321081,
+    "name": "表裏一体のふたり",
+    "description": "初期プリンシパルゲージが[:param1]上昇　◆発動条件：劇団電姫に所属するアクターが装備"
+  },
+  {
+    "id": 320370,
+    "effectMasterId": 331260,
+    "name": "眠れぬ夜の始まり",
+    "description": "初期プリンシパルゲージが[:param1]上昇　◆発動条件：Edenに所属するアクターが装備"
+  },
+  {
+    "id": 320380,
+    "effectMasterId": 331250,
+    "name": "絶対に開けないでくださいね",
+    "description": "初期プリンシパルゲージが[:param1]上昇　◆発動条件：シリウスに所属するアクターが装備"
+  },
+  {
+    "id": 320390,
+    "effectMasterId": 331270,
+    "name": "戦場を駆けて",
+    "description": "初期プリンシパルゲージが[:param1]上昇　◆発動条件：銀河座に所属するアクターが装備"
+  },
+  {
+    "id": 320400,
+    "effectMasterId": 322130,
+    "name": "あなたと過ごすてぃーたいむ",
+    "description": "自身の歌唱力が[:param1]％上昇　◆発動条件：<color=#ff679d>憐属性</color>のアクターが装備"
+  },
+  {
     "id": 330010,
     "effectMasterId": 330010,
     "name": "目指すは世界を照らす一等星",
@@ -668,7 +704,7 @@
     "id": 330022,
     "effectMasterId": 330022,
     "name": "「光」追加（SP）Ⅱ",
-    "description": "公演開始時、「SP光」を[:param1]付与（SP光はどの系統の光としても扱われる）　◆発動条件：静香が装備かつシリウスに所属しているアクターを5人以上編成"
+    "description": "公演開始時、「SP光」を[:param1]付与（SP光はどの系統の光としても扱われる）　◆発動条件：静香が装備し、編成されてる全てのアクターの所属劇団にシリウスが含まれているとき"
   },
   {
     "id": 330030,
@@ -854,7 +890,7 @@
     "id": 330172,
     "effectMasterId": 330172,
     "name": "「光」追加（SP）Ⅱ",
-    "description": "公演開始時、「SP光」を[:param1]付与（SP光はどの系統の光としても扱われる）　◆発動条件：いろはが装備かつ劇団電姫に所属しているアクターを5人以上編成"
+    "description": "公演開始時、「SP光」を[:param1]付与（SP光はどの系統の光としても扱われる）　◆発動条件：いろはが装備し、編成されてる全てのアクターの所属劇団に劇団電姫が含まれているとき"
   },
   {
     "id": 330180,
@@ -1289,6 +1325,78 @@
     "description": "初期プリンシパルゲージが[:param1]上昇　◆発動条件：シリウスに所属するアクターが装備"
   },
   {
+    "id": 331650,
+    "effectMasterId": 331292,
+    "name": "あたしひとりで守り切れる",
+    "description": "自身の歌唱力が[:param1]％上昇"
+  },
+  {
+    "id": 331660,
+    "effectMasterId": 331302,
+    "name": "私たちが、この街を守るっ！",
+    "description": "自身の表現力が[:param1]％上昇"
+  },
+  {
+    "id": 331670,
+    "effectMasterId": 331312,
+    "name": "あなたに尽くさせて",
+    "description": "自身の集中力が[:param1]％上昇"
+  },
+  {
+    "id": 331680,
+    "effectMasterId": 331292,
+    "name": "三度目の愛を",
+    "description": "自身の歌唱力が[:param1]％上昇"
+  },
+  {
+    "id": 331690,
+    "effectMasterId": 331302,
+    "name": "お父様との約束",
+    "description": "自身の表現力が[:param1]％上昇"
+  },
+  {
+    "id": 331700,
+    "effectMasterId": 331312,
+    "name": "ずっと一緒に",
+    "description": "自身の集中力が[:param1]％上昇"
+  },
+  {
+    "id": 331710,
+    "effectMasterId": 331191,
+    "name": "ワン・フォー・オール！",
+    "description": "自身の演技力が[:param1]％上昇"
+  },
+  {
+    "id": 331720,
+    "effectMasterId": 331191,
+    "name": "オール・フォー・ワン！",
+    "description": "自身の演技力が[:param1]％上昇"
+  },
+  {
+    "id": 331730,
+    "effectMasterId": 331511,
+    "name": "最も愛ある者の剣",
+    "description": "公演と協力公演の公演報酬が[:param1]%増加（アクセサリーを除く）"
+  },
+  {
+    "id": 331740,
+    "effectMasterId": 331411,
+    "name": "愛は多くを語らず",
+    "description": "基礎スコアが[:param1]％上昇"
+  },
+  {
+    "id": 331750,
+    "effectMasterId": 331202,
+    "name": "最高の味を目指して！",
+    "description": "自身の演技力が[:param1]％上昇　◆発動条件：<color=#ff679d>憐属性</color>のアクターが装備"
+  },
+  {
+    "id": 331760,
+    "effectMasterId": 331203,
+    "name": "商品開発は終わらない！",
+    "description": "自身の演技力が[:param1]％上昇　◆発動条件：<color=#33B4DF>凛属性</color>のアクターが装備"
+  },
+  {
     "id": 430010,
     "effectMasterId": 331090,
     "name": "観ていてね！",
@@ -1491,5 +1599,29 @@
     "effectMasterId": 1000150,
     "name": "STARRY Ex Machina!",
     "description": "初期プリンシパルゲージが[:param1]上昇　◆発動条件：ここな・静香・カトリナ・八恵・ぱんだ・知冴・いろは・美兎・叶羽が装備"
+  },
+  {
+    "id": 430220,
+    "effectMasterId": 1000170,
+    "name": "天上の光をこの手に",
+    "description": "センス発動時、SP光を追加で[:param1]個付与"
+  },
+  {
+    "id": 430221,
+    "effectMasterId": 1000160,
+    "name": "煌めきのその先へ",
+    "description": "自身の表現力が[:param1]％上昇"
+  },
+  {
+    "id": 430230,
+    "effectMasterId": 1000180,
+    "name": "ヤネウラの扉は開かれた",
+    "description": "自身の集中力が[:param1]％上昇"
+  },
+  {
+    "id": 430231,
+    "effectMasterId": 1000190,
+    "name": "基礎スコア上昇",
+    "description": "基礎スコアが[:param1]％上昇"
   }
 ]

@@ -8,6 +8,22 @@
     "photoEffectGroupMasterId": 1
   },
   {
+    "id": 102,
+    "name": "初期P.ゲージ獲得",
+    "description": "公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 700001,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 1
+  },
+  {
+    "id": 103,
+    "name": "P.ゲージ上限上昇",
+    "description": "公演開始時、P.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 700002,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 1
+  },
+  {
     "id": 101101,
     "name": "演技力アップ +1",
     "description": "ここなの演技力が[:param1]%上昇",
@@ -167,6 +183,178 @@
     "effectMasterId": 710145,
     "variety": 5,
     "photoEffectTypeGroupMasterId": 5,
+    "photoEffectGroupMasterId": 1011
+  },
+  {
+    "id": 101119,
+    "name": "演技力アップ +1【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710161,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1011
+  },
+  {
+    "id": 101120,
+    "name": "演技力アップ +2【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710162,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1011
+  },
+  {
+    "id": 101121,
+    "name": "演技力アップ +3【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710163,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1011
+  },
+  {
+    "id": 101122,
+    "name": "演技力アップ +1【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710164,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1011
+  },
+  {
+    "id": 101123,
+    "name": "演技力アップ +2【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710165,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1011
+  },
+  {
+    "id": 101124,
+    "name": "演技力アップ +3【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710166,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1011
+  },
+  {
+    "id": 101125,
+    "name": "演技力アップ +1【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710167,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1011
+  },
+  {
+    "id": 101126,
+    "name": "演技力アップ +2【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710168,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1011
+  },
+  {
+    "id": 101127,
+    "name": "演技力アップ +3【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710169,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1011
+  },
+  {
+    "id": 101128,
+    "name": "演技力アップ +1【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710170,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1011
+  },
+  {
+    "id": 101129,
+    "name": "演技力アップ +2【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710171,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1011
+  },
+  {
+    "id": 101130,
+    "name": "演技力アップ +3【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710172,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1011
+  },
+  {
+    "id": 101131,
+    "name": "初期Pゲージ獲得【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710181,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 1011
+  },
+  {
+    "id": 101132,
+    "name": "初期Pゲージ獲得【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710182,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 1011
+  },
+  {
+    "id": 101133,
+    "name": "初期Pゲージ獲得【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710183,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 1011
+  },
+  {
+    "id": 101134,
+    "name": "初期Pゲージ獲得【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710184,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 1011
+  },
+  {
+    "id": 101135,
+    "name": "PG上限上昇【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710191,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 1011
+  },
+  {
+    "id": 101136,
+    "name": "PG上限上昇【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710192,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 1011
+  },
+  {
+    "id": 101137,
+    "name": "PG上限上昇【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710193,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 1011
+  },
+  {
+    "id": 101138,
+    "name": "PG上限上昇【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710194,
+    "photoEffectTypeGroupMasterId": 7,
     "photoEffectGroupMasterId": 1011
   },
   {
@@ -332,6 +520,178 @@
     "photoEffectGroupMasterId": 1021
   },
   {
+    "id": 102119,
+    "name": "演技力アップ +1【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710161,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1021
+  },
+  {
+    "id": 102120,
+    "name": "演技力アップ +2【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710162,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1021
+  },
+  {
+    "id": 102121,
+    "name": "演技力アップ +3【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710163,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1021
+  },
+  {
+    "id": 102122,
+    "name": "演技力アップ +1【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710164,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1021
+  },
+  {
+    "id": 102123,
+    "name": "演技力アップ +2【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710165,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1021
+  },
+  {
+    "id": 102124,
+    "name": "演技力アップ +3【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710166,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1021
+  },
+  {
+    "id": 102125,
+    "name": "演技力アップ +1【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710167,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1021
+  },
+  {
+    "id": 102126,
+    "name": "演技力アップ +2【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710168,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1021
+  },
+  {
+    "id": 102127,
+    "name": "演技力アップ +3【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710169,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1021
+  },
+  {
+    "id": 102128,
+    "name": "演技力アップ +1【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710170,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1021
+  },
+  {
+    "id": 102129,
+    "name": "演技力アップ +2【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710171,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1021
+  },
+  {
+    "id": 102130,
+    "name": "演技力アップ +3【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710172,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1021
+  },
+  {
+    "id": 102131,
+    "name": "初期Pゲージ獲得【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710181,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 1021
+  },
+  {
+    "id": 102132,
+    "name": "初期Pゲージ獲得【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710182,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 1021
+  },
+  {
+    "id": 102133,
+    "name": "初期Pゲージ獲得【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710183,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 1021
+  },
+  {
+    "id": 102134,
+    "name": "初期Pゲージ獲得【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710184,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 1021
+  },
+  {
+    "id": 102135,
+    "name": "PG上限上昇【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710191,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 1021
+  },
+  {
+    "id": 102136,
+    "name": "PG上限上昇【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710192,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 1021
+  },
+  {
+    "id": 102137,
+    "name": "PG上限上昇【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710193,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 1021
+  },
+  {
+    "id": 102138,
+    "name": "PG上限上昇【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710194,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 1021
+  },
+  {
     "id": 103101,
     "name": "演技力アップ +1",
     "description": "カトリナの演技力が[:param1]%上昇",
@@ -491,6 +851,178 @@
     "effectMasterId": 710345,
     "variety": 5,
     "photoEffectTypeGroupMasterId": 5,
+    "photoEffectGroupMasterId": 1031
+  },
+  {
+    "id": 103119,
+    "name": "演技力アップ +1【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710161,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1031
+  },
+  {
+    "id": 103120,
+    "name": "演技力アップ +2【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710162,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1031
+  },
+  {
+    "id": 103121,
+    "name": "演技力アップ +3【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710163,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1031
+  },
+  {
+    "id": 103122,
+    "name": "演技力アップ +1【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710164,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1031
+  },
+  {
+    "id": 103123,
+    "name": "演技力アップ +2【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710165,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1031
+  },
+  {
+    "id": 103124,
+    "name": "演技力アップ +3【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710166,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1031
+  },
+  {
+    "id": 103125,
+    "name": "演技力アップ +1【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710167,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1031
+  },
+  {
+    "id": 103126,
+    "name": "演技力アップ +2【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710168,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1031
+  },
+  {
+    "id": 103127,
+    "name": "演技力アップ +3【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710169,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1031
+  },
+  {
+    "id": 103128,
+    "name": "演技力アップ +1【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710170,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1031
+  },
+  {
+    "id": 103129,
+    "name": "演技力アップ +2【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710171,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1031
+  },
+  {
+    "id": 103130,
+    "name": "演技力アップ +3【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710172,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1031
+  },
+  {
+    "id": 103131,
+    "name": "初期Pゲージ獲得【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710181,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 1031
+  },
+  {
+    "id": 103132,
+    "name": "初期Pゲージ獲得【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710182,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 1031
+  },
+  {
+    "id": 103133,
+    "name": "初期Pゲージ獲得【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710183,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 1031
+  },
+  {
+    "id": 103134,
+    "name": "初期Pゲージ獲得【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710184,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 1031
+  },
+  {
+    "id": 103135,
+    "name": "PG上限上昇【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710191,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 1031
+  },
+  {
+    "id": 103136,
+    "name": "PG上限上昇【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710192,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 1031
+  },
+  {
+    "id": 103137,
+    "name": "PG上限上昇【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710193,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 1031
+  },
+  {
+    "id": 103138,
+    "name": "PG上限上昇【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710194,
+    "photoEffectTypeGroupMasterId": 7,
     "photoEffectGroupMasterId": 1031
   },
   {
@@ -656,6 +1188,178 @@
     "photoEffectGroupMasterId": 1041
   },
   {
+    "id": 104119,
+    "name": "演技力アップ +1【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710161,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1041
+  },
+  {
+    "id": 104120,
+    "name": "演技力アップ +2【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710162,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1041
+  },
+  {
+    "id": 104121,
+    "name": "演技力アップ +3【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710163,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1041
+  },
+  {
+    "id": 104122,
+    "name": "演技力アップ +1【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710164,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1041
+  },
+  {
+    "id": 104123,
+    "name": "演技力アップ +2【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710165,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1041
+  },
+  {
+    "id": 104124,
+    "name": "演技力アップ +3【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710166,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1041
+  },
+  {
+    "id": 104125,
+    "name": "演技力アップ +1【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710167,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1041
+  },
+  {
+    "id": 104126,
+    "name": "演技力アップ +2【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710168,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1041
+  },
+  {
+    "id": 104127,
+    "name": "演技力アップ +3【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710169,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1041
+  },
+  {
+    "id": 104128,
+    "name": "演技力アップ +1【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710170,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1041
+  },
+  {
+    "id": 104129,
+    "name": "演技力アップ +2【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710171,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1041
+  },
+  {
+    "id": 104130,
+    "name": "演技力アップ +3【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710172,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1041
+  },
+  {
+    "id": 104131,
+    "name": "初期Pゲージ獲得【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710181,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 1041
+  },
+  {
+    "id": 104132,
+    "name": "初期Pゲージ獲得【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710182,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 1041
+  },
+  {
+    "id": 104133,
+    "name": "初期Pゲージ獲得【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710183,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 1041
+  },
+  {
+    "id": 104134,
+    "name": "初期Pゲージ獲得【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710184,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 1041
+  },
+  {
+    "id": 104135,
+    "name": "PG上限上昇【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710191,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 1041
+  },
+  {
+    "id": 104136,
+    "name": "PG上限上昇【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710192,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 1041
+  },
+  {
+    "id": 104137,
+    "name": "PG上限上昇【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710193,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 1041
+  },
+  {
+    "id": 104138,
+    "name": "PG上限上昇【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710194,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 1041
+  },
+  {
     "id": 105101,
     "name": "演技力アップ +1",
     "description": "ぱんだの演技力が[:param1]%上昇",
@@ -815,6 +1519,178 @@
     "effectMasterId": 710545,
     "variety": 5,
     "photoEffectTypeGroupMasterId": 5,
+    "photoEffectGroupMasterId": 1051
+  },
+  {
+    "id": 105119,
+    "name": "演技力アップ +1【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710161,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1051
+  },
+  {
+    "id": 105120,
+    "name": "演技力アップ +2【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710162,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1051
+  },
+  {
+    "id": 105121,
+    "name": "演技力アップ +3【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710163,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1051
+  },
+  {
+    "id": 105122,
+    "name": "演技力アップ +1【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710164,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1051
+  },
+  {
+    "id": 105123,
+    "name": "演技力アップ +2【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710165,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1051
+  },
+  {
+    "id": 105124,
+    "name": "演技力アップ +3【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710166,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1051
+  },
+  {
+    "id": 105125,
+    "name": "演技力アップ +1【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710167,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1051
+  },
+  {
+    "id": 105126,
+    "name": "演技力アップ +2【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710168,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1051
+  },
+  {
+    "id": 105127,
+    "name": "演技力アップ +3【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710169,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1051
+  },
+  {
+    "id": 105128,
+    "name": "演技力アップ +1【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710170,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1051
+  },
+  {
+    "id": 105129,
+    "name": "演技力アップ +2【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710171,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1051
+  },
+  {
+    "id": 105130,
+    "name": "演技力アップ +3【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710172,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1051
+  },
+  {
+    "id": 105131,
+    "name": "初期Pゲージ獲得【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710181,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 1051
+  },
+  {
+    "id": 105132,
+    "name": "初期Pゲージ獲得【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710182,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 1051
+  },
+  {
+    "id": 105133,
+    "name": "初期Pゲージ獲得【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710183,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 1051
+  },
+  {
+    "id": 105134,
+    "name": "初期Pゲージ獲得【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710184,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 1051
+  },
+  {
+    "id": 105135,
+    "name": "PG上限上昇【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710191,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 1051
+  },
+  {
+    "id": 105136,
+    "name": "PG上限上昇【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710192,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 1051
+  },
+  {
+    "id": 105137,
+    "name": "PG上限上昇【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710193,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 1051
+  },
+  {
+    "id": 105138,
+    "name": "PG上限上昇【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710194,
+    "photoEffectTypeGroupMasterId": 7,
     "photoEffectGroupMasterId": 1051
   },
   {
@@ -980,6 +1856,178 @@
     "photoEffectGroupMasterId": 1061
   },
   {
+    "id": 106119,
+    "name": "演技力アップ +1【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710161,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1061
+  },
+  {
+    "id": 106120,
+    "name": "演技力アップ +2【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710162,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1061
+  },
+  {
+    "id": 106121,
+    "name": "演技力アップ +3【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710163,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1061
+  },
+  {
+    "id": 106122,
+    "name": "演技力アップ +1【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710164,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1061
+  },
+  {
+    "id": 106123,
+    "name": "演技力アップ +2【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710165,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1061
+  },
+  {
+    "id": 106124,
+    "name": "演技力アップ +3【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710166,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1061
+  },
+  {
+    "id": 106125,
+    "name": "演技力アップ +1【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710167,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1061
+  },
+  {
+    "id": 106126,
+    "name": "演技力アップ +2【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710168,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1061
+  },
+  {
+    "id": 106127,
+    "name": "演技力アップ +3【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710169,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1061
+  },
+  {
+    "id": 106128,
+    "name": "演技力アップ +1【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710170,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1061
+  },
+  {
+    "id": 106129,
+    "name": "演技力アップ +2【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710171,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1061
+  },
+  {
+    "id": 106130,
+    "name": "演技力アップ +3【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710172,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 1061
+  },
+  {
+    "id": 106131,
+    "name": "初期Pゲージ獲得【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710181,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 1061
+  },
+  {
+    "id": 106132,
+    "name": "初期Pゲージ獲得【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710182,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 1061
+  },
+  {
+    "id": 106133,
+    "name": "初期Pゲージ獲得【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710183,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 1061
+  },
+  {
+    "id": 106134,
+    "name": "初期Pゲージ獲得【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710184,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 1061
+  },
+  {
+    "id": 106135,
+    "name": "PG上限上昇【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710191,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 1061
+  },
+  {
+    "id": 106136,
+    "name": "PG上限上昇【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710192,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 1061
+  },
+  {
+    "id": 106137,
+    "name": "PG上限上昇【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710193,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 1061
+  },
+  {
+    "id": 106138,
+    "name": "PG上限上昇【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710194,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 1061
+  },
+  {
     "id": 201101,
     "name": "演技力アップ +1",
     "description": "初魅の演技力が[:param1]%上昇",
@@ -1139,6 +2187,178 @@
     "effectMasterId": 720145,
     "variety": 5,
     "photoEffectTypeGroupMasterId": 5,
+    "photoEffectGroupMasterId": 2011
+  },
+  {
+    "id": 201119,
+    "name": "演技力アップ +1【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710161,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 2011
+  },
+  {
+    "id": 201120,
+    "name": "演技力アップ +2【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710162,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 2011
+  },
+  {
+    "id": 201121,
+    "name": "演技力アップ +3【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710163,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 2011
+  },
+  {
+    "id": 201122,
+    "name": "演技力アップ +1【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710164,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 2011
+  },
+  {
+    "id": 201123,
+    "name": "演技力アップ +2【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710165,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 2011
+  },
+  {
+    "id": 201124,
+    "name": "演技力アップ +3【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710166,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 2011
+  },
+  {
+    "id": 201125,
+    "name": "演技力アップ +1【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710167,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 2011
+  },
+  {
+    "id": 201126,
+    "name": "演技力アップ +2【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710168,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 2011
+  },
+  {
+    "id": 201127,
+    "name": "演技力アップ +3【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710169,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 2011
+  },
+  {
+    "id": 201128,
+    "name": "演技力アップ +1【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710170,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 2011
+  },
+  {
+    "id": 201129,
+    "name": "演技力アップ +2【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710171,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 2011
+  },
+  {
+    "id": 201130,
+    "name": "演技力アップ +3【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710172,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 2011
+  },
+  {
+    "id": 201131,
+    "name": "初期Pゲージ獲得【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710181,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 2011
+  },
+  {
+    "id": 201132,
+    "name": "初期Pゲージ獲得【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710182,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 2011
+  },
+  {
+    "id": 201133,
+    "name": "初期Pゲージ獲得【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710183,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 2011
+  },
+  {
+    "id": 201134,
+    "name": "初期Pゲージ獲得【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710184,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 2011
+  },
+  {
+    "id": 201135,
+    "name": "PG上限上昇【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710191,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 2011
+  },
+  {
+    "id": 201136,
+    "name": "PG上限上昇【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710192,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 2011
+  },
+  {
+    "id": 201137,
+    "name": "PG上限上昇【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710193,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 2011
+  },
+  {
+    "id": 201138,
+    "name": "PG上限上昇【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710194,
+    "photoEffectTypeGroupMasterId": 7,
     "photoEffectGroupMasterId": 2011
   },
   {
@@ -1304,6 +2524,178 @@
     "photoEffectGroupMasterId": 2021
   },
   {
+    "id": 202119,
+    "name": "演技力アップ +1【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710161,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 2021
+  },
+  {
+    "id": 202120,
+    "name": "演技力アップ +2【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710162,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 2021
+  },
+  {
+    "id": 202121,
+    "name": "演技力アップ +3【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710163,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 2021
+  },
+  {
+    "id": 202122,
+    "name": "演技力アップ +1【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710164,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 2021
+  },
+  {
+    "id": 202123,
+    "name": "演技力アップ +2【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710165,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 2021
+  },
+  {
+    "id": 202124,
+    "name": "演技力アップ +3【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710166,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 2021
+  },
+  {
+    "id": 202125,
+    "name": "演技力アップ +1【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710167,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 2021
+  },
+  {
+    "id": 202126,
+    "name": "演技力アップ +2【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710168,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 2021
+  },
+  {
+    "id": 202127,
+    "name": "演技力アップ +3【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710169,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 2021
+  },
+  {
+    "id": 202128,
+    "name": "演技力アップ +1【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710170,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 2021
+  },
+  {
+    "id": 202129,
+    "name": "演技力アップ +2【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710171,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 2021
+  },
+  {
+    "id": 202130,
+    "name": "演技力アップ +3【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710172,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 2021
+  },
+  {
+    "id": 202131,
+    "name": "初期Pゲージ獲得【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710181,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 2021
+  },
+  {
+    "id": 202132,
+    "name": "初期Pゲージ獲得【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710182,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 2021
+  },
+  {
+    "id": 202133,
+    "name": "初期Pゲージ獲得【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710183,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 2021
+  },
+  {
+    "id": 202134,
+    "name": "初期Pゲージ獲得【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710184,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 2021
+  },
+  {
+    "id": 202135,
+    "name": "PG上限上昇【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710191,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 2021
+  },
+  {
+    "id": 202136,
+    "name": "PG上限上昇【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710192,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 2021
+  },
+  {
+    "id": 202137,
+    "name": "PG上限上昇【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710193,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 2021
+  },
+  {
+    "id": 202138,
+    "name": "PG上限上昇【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710194,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 2021
+  },
+  {
     "id": 203101,
     "name": "演技力アップ +1",
     "description": "仁花子の演技力が[:param1]%上昇",
@@ -1463,6 +2855,178 @@
     "effectMasterId": 720345,
     "variety": 5,
     "photoEffectTypeGroupMasterId": 5,
+    "photoEffectGroupMasterId": 2031
+  },
+  {
+    "id": 203119,
+    "name": "演技力アップ +1【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710161,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 2031
+  },
+  {
+    "id": 203120,
+    "name": "演技力アップ +2【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710162,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 2031
+  },
+  {
+    "id": 203121,
+    "name": "演技力アップ +3【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710163,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 2031
+  },
+  {
+    "id": 203122,
+    "name": "演技力アップ +1【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710164,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 2031
+  },
+  {
+    "id": 203123,
+    "name": "演技力アップ +2【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710165,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 2031
+  },
+  {
+    "id": 203124,
+    "name": "演技力アップ +3【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710166,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 2031
+  },
+  {
+    "id": 203125,
+    "name": "演技力アップ +1【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710167,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 2031
+  },
+  {
+    "id": 203126,
+    "name": "演技力アップ +2【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710168,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 2031
+  },
+  {
+    "id": 203127,
+    "name": "演技力アップ +3【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710169,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 2031
+  },
+  {
+    "id": 203128,
+    "name": "演技力アップ +1【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710170,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 2031
+  },
+  {
+    "id": 203129,
+    "name": "演技力アップ +2【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710171,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 2031
+  },
+  {
+    "id": 203130,
+    "name": "演技力アップ +3【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710172,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 2031
+  },
+  {
+    "id": 203131,
+    "name": "初期Pゲージ獲得【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710181,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 2031
+  },
+  {
+    "id": 203132,
+    "name": "初期Pゲージ獲得【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710182,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 2031
+  },
+  {
+    "id": 203133,
+    "name": "初期Pゲージ獲得【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710183,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 2031
+  },
+  {
+    "id": 203134,
+    "name": "初期Pゲージ獲得【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710184,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 2031
+  },
+  {
+    "id": 203135,
+    "name": "PG上限上昇【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710191,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 2031
+  },
+  {
+    "id": 203136,
+    "name": "PG上限上昇【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710192,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 2031
+  },
+  {
+    "id": 203137,
+    "name": "PG上限上昇【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710193,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 2031
+  },
+  {
+    "id": 203138,
+    "name": "PG上限上昇【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710194,
+    "photoEffectTypeGroupMasterId": 7,
     "photoEffectGroupMasterId": 2031
   },
   {
@@ -1628,6 +3192,178 @@
     "photoEffectGroupMasterId": 2041
   },
   {
+    "id": 204119,
+    "name": "演技力アップ +1【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710161,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 2041
+  },
+  {
+    "id": 204120,
+    "name": "演技力アップ +2【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710162,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 2041
+  },
+  {
+    "id": 204121,
+    "name": "演技力アップ +3【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710163,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 2041
+  },
+  {
+    "id": 204122,
+    "name": "演技力アップ +1【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710164,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 2041
+  },
+  {
+    "id": 204123,
+    "name": "演技力アップ +2【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710165,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 2041
+  },
+  {
+    "id": 204124,
+    "name": "演技力アップ +3【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710166,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 2041
+  },
+  {
+    "id": 204125,
+    "name": "演技力アップ +1【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710167,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 2041
+  },
+  {
+    "id": 204126,
+    "name": "演技力アップ +2【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710168,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 2041
+  },
+  {
+    "id": 204127,
+    "name": "演技力アップ +3【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710169,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 2041
+  },
+  {
+    "id": 204128,
+    "name": "演技力アップ +1【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710170,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 2041
+  },
+  {
+    "id": 204129,
+    "name": "演技力アップ +2【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710171,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 2041
+  },
+  {
+    "id": 204130,
+    "name": "演技力アップ +3【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710172,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 2041
+  },
+  {
+    "id": 204131,
+    "name": "初期Pゲージ獲得【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710181,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 2041
+  },
+  {
+    "id": 204132,
+    "name": "初期Pゲージ獲得【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710182,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 2041
+  },
+  {
+    "id": 204133,
+    "name": "初期Pゲージ獲得【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710183,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 2041
+  },
+  {
+    "id": 204134,
+    "name": "初期Pゲージ獲得【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710184,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 2041
+  },
+  {
+    "id": 204135,
+    "name": "PG上限上昇【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710191,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 2041
+  },
+  {
+    "id": 204136,
+    "name": "PG上限上昇【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710192,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 2041
+  },
+  {
+    "id": 204137,
+    "name": "PG上限上昇【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710193,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 2041
+  },
+  {
+    "id": 204138,
+    "name": "PG上限上昇【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710194,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 2041
+  },
+  {
     "id": 205101,
     "name": "演技力アップ +1",
     "description": "しぐれの演技力が[:param1]%上昇",
@@ -1787,6 +3523,178 @@
     "effectMasterId": 720545,
     "variety": 5,
     "photoEffectTypeGroupMasterId": 5,
+    "photoEffectGroupMasterId": 2051
+  },
+  {
+    "id": 205119,
+    "name": "演技力アップ +1【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710161,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 2051
+  },
+  {
+    "id": 205120,
+    "name": "演技力アップ +2【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710162,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 2051
+  },
+  {
+    "id": 205121,
+    "name": "演技力アップ +3【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710163,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 2051
+  },
+  {
+    "id": 205122,
+    "name": "演技力アップ +1【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710164,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 2051
+  },
+  {
+    "id": 205123,
+    "name": "演技力アップ +2【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710165,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 2051
+  },
+  {
+    "id": 205124,
+    "name": "演技力アップ +3【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710166,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 2051
+  },
+  {
+    "id": 205125,
+    "name": "演技力アップ +1【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710167,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 2051
+  },
+  {
+    "id": 205126,
+    "name": "演技力アップ +2【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710168,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 2051
+  },
+  {
+    "id": 205127,
+    "name": "演技力アップ +3【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710169,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 2051
+  },
+  {
+    "id": 205128,
+    "name": "演技力アップ +1【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710170,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 2051
+  },
+  {
+    "id": 205129,
+    "name": "演技力アップ +2【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710171,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 2051
+  },
+  {
+    "id": 205130,
+    "name": "演技力アップ +3【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710172,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 2051
+  },
+  {
+    "id": 205131,
+    "name": "初期Pゲージ獲得【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710181,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 2051
+  },
+  {
+    "id": 205132,
+    "name": "初期Pゲージ獲得【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710182,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 2051
+  },
+  {
+    "id": 205133,
+    "name": "初期Pゲージ獲得【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710183,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 2051
+  },
+  {
+    "id": 205134,
+    "name": "初期Pゲージ獲得【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710184,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 2051
+  },
+  {
+    "id": 205135,
+    "name": "PG上限上昇【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710191,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 2051
+  },
+  {
+    "id": 205136,
+    "name": "PG上限上昇【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710192,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 2051
+  },
+  {
+    "id": 205137,
+    "name": "PG上限上昇【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710193,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 2051
+  },
+  {
+    "id": 205138,
+    "name": "PG上限上昇【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710194,
+    "photoEffectTypeGroupMasterId": 7,
     "photoEffectGroupMasterId": 2051
   },
   {
@@ -1952,6 +3860,178 @@
     "photoEffectGroupMasterId": 3011
   },
   {
+    "id": 301119,
+    "name": "演技力アップ +1【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710161,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 3011
+  },
+  {
+    "id": 301120,
+    "name": "演技力アップ +2【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710162,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 3011
+  },
+  {
+    "id": 301121,
+    "name": "演技力アップ +3【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710163,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 3011
+  },
+  {
+    "id": 301122,
+    "name": "演技力アップ +1【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710164,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 3011
+  },
+  {
+    "id": 301123,
+    "name": "演技力アップ +2【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710165,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 3011
+  },
+  {
+    "id": 301124,
+    "name": "演技力アップ +3【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710166,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 3011
+  },
+  {
+    "id": 301125,
+    "name": "演技力アップ +1【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710167,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 3011
+  },
+  {
+    "id": 301126,
+    "name": "演技力アップ +2【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710168,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 3011
+  },
+  {
+    "id": 301127,
+    "name": "演技力アップ +3【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710169,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 3011
+  },
+  {
+    "id": 301128,
+    "name": "演技力アップ +1【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710170,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 3011
+  },
+  {
+    "id": 301129,
+    "name": "演技力アップ +2【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710171,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 3011
+  },
+  {
+    "id": 301130,
+    "name": "演技力アップ +3【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710172,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 3011
+  },
+  {
+    "id": 301131,
+    "name": "初期Pゲージ獲得【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710181,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 3011
+  },
+  {
+    "id": 301132,
+    "name": "初期Pゲージ獲得【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710182,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 3011
+  },
+  {
+    "id": 301133,
+    "name": "初期Pゲージ獲得【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710183,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 3011
+  },
+  {
+    "id": 301134,
+    "name": "初期Pゲージ獲得【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710184,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 3011
+  },
+  {
+    "id": 301135,
+    "name": "PG上限上昇【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710191,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 3011
+  },
+  {
+    "id": 301136,
+    "name": "PG上限上昇【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710192,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 3011
+  },
+  {
+    "id": 301137,
+    "name": "PG上限上昇【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710193,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 3011
+  },
+  {
+    "id": 301138,
+    "name": "PG上限上昇【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710194,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 3011
+  },
+  {
     "id": 302101,
     "name": "演技力アップ +1",
     "description": "ラモーナの演技力が[:param1]%上昇",
@@ -2111,6 +4191,178 @@
     "effectMasterId": 730245,
     "variety": 5,
     "photoEffectTypeGroupMasterId": 5,
+    "photoEffectGroupMasterId": 3021
+  },
+  {
+    "id": 302119,
+    "name": "演技力アップ +1【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710161,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 3021
+  },
+  {
+    "id": 302120,
+    "name": "演技力アップ +2【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710162,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 3021
+  },
+  {
+    "id": 302121,
+    "name": "演技力アップ +3【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710163,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 3021
+  },
+  {
+    "id": 302122,
+    "name": "演技力アップ +1【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710164,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 3021
+  },
+  {
+    "id": 302123,
+    "name": "演技力アップ +2【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710165,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 3021
+  },
+  {
+    "id": 302124,
+    "name": "演技力アップ +3【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710166,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 3021
+  },
+  {
+    "id": 302125,
+    "name": "演技力アップ +1【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710167,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 3021
+  },
+  {
+    "id": 302126,
+    "name": "演技力アップ +2【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710168,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 3021
+  },
+  {
+    "id": 302127,
+    "name": "演技力アップ +3【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710169,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 3021
+  },
+  {
+    "id": 302128,
+    "name": "演技力アップ +1【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710170,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 3021
+  },
+  {
+    "id": 302129,
+    "name": "演技力アップ +2【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710171,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 3021
+  },
+  {
+    "id": 302130,
+    "name": "演技力アップ +3【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710172,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 3021
+  },
+  {
+    "id": 302131,
+    "name": "初期Pゲージ獲得【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710181,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 3021
+  },
+  {
+    "id": 302132,
+    "name": "初期Pゲージ獲得【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710182,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 3021
+  },
+  {
+    "id": 302133,
+    "name": "初期Pゲージ獲得【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710183,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 3021
+  },
+  {
+    "id": 302134,
+    "name": "初期Pゲージ獲得【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710184,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 3021
+  },
+  {
+    "id": 302135,
+    "name": "PG上限上昇【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710191,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 3021
+  },
+  {
+    "id": 302136,
+    "name": "PG上限上昇【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710192,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 3021
+  },
+  {
+    "id": 302137,
+    "name": "PG上限上昇【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710193,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 3021
+  },
+  {
+    "id": 302138,
+    "name": "PG上限上昇【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710194,
+    "photoEffectTypeGroupMasterId": 7,
     "photoEffectGroupMasterId": 3021
   },
   {
@@ -2276,6 +4528,178 @@
     "photoEffectGroupMasterId": 3031
   },
   {
+    "id": 303119,
+    "name": "演技力アップ +1【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710161,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 3031
+  },
+  {
+    "id": 303120,
+    "name": "演技力アップ +2【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710162,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 3031
+  },
+  {
+    "id": 303121,
+    "name": "演技力アップ +3【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710163,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 3031
+  },
+  {
+    "id": 303122,
+    "name": "演技力アップ +1【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710164,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 3031
+  },
+  {
+    "id": 303123,
+    "name": "演技力アップ +2【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710165,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 3031
+  },
+  {
+    "id": 303124,
+    "name": "演技力アップ +3【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710166,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 3031
+  },
+  {
+    "id": 303125,
+    "name": "演技力アップ +1【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710167,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 3031
+  },
+  {
+    "id": 303126,
+    "name": "演技力アップ +2【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710168,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 3031
+  },
+  {
+    "id": 303127,
+    "name": "演技力アップ +3【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710169,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 3031
+  },
+  {
+    "id": 303128,
+    "name": "演技力アップ +1【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710170,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 3031
+  },
+  {
+    "id": 303129,
+    "name": "演技力アップ +2【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710171,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 3031
+  },
+  {
+    "id": 303130,
+    "name": "演技力アップ +3【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710172,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 3031
+  },
+  {
+    "id": 303131,
+    "name": "初期Pゲージ獲得【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710181,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 3031
+  },
+  {
+    "id": 303132,
+    "name": "初期Pゲージ獲得【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710182,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 3031
+  },
+  {
+    "id": 303133,
+    "name": "初期Pゲージ獲得【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710183,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 3031
+  },
+  {
+    "id": 303134,
+    "name": "初期Pゲージ獲得【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710184,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 3031
+  },
+  {
+    "id": 303135,
+    "name": "PG上限上昇【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710191,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 3031
+  },
+  {
+    "id": 303136,
+    "name": "PG上限上昇【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710192,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 3031
+  },
+  {
+    "id": 303137,
+    "name": "PG上限上昇【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710193,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 3031
+  },
+  {
+    "id": 303138,
+    "name": "PG上限上昇【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710194,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 3031
+  },
+  {
     "id": 304101,
     "name": "演技力アップ +1",
     "description": "リリヤの演技力が[:param1]%上昇",
@@ -2435,6 +4859,178 @@
     "effectMasterId": 730445,
     "variety": 5,
     "photoEffectTypeGroupMasterId": 5,
+    "photoEffectGroupMasterId": 3041
+  },
+  {
+    "id": 304119,
+    "name": "演技力アップ +1【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710161,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 3041
+  },
+  {
+    "id": 304120,
+    "name": "演技力アップ +2【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710162,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 3041
+  },
+  {
+    "id": 304121,
+    "name": "演技力アップ +3【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710163,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 3041
+  },
+  {
+    "id": 304122,
+    "name": "演技力アップ +1【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710164,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 3041
+  },
+  {
+    "id": 304123,
+    "name": "演技力アップ +2【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710165,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 3041
+  },
+  {
+    "id": 304124,
+    "name": "演技力アップ +3【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710166,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 3041
+  },
+  {
+    "id": 304125,
+    "name": "演技力アップ +1【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710167,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 3041
+  },
+  {
+    "id": 304126,
+    "name": "演技力アップ +2【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710168,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 3041
+  },
+  {
+    "id": 304127,
+    "name": "演技力アップ +3【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710169,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 3041
+  },
+  {
+    "id": 304128,
+    "name": "演技力アップ +1【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710170,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 3041
+  },
+  {
+    "id": 304129,
+    "name": "演技力アップ +2【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710171,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 3041
+  },
+  {
+    "id": 304130,
+    "name": "演技力アップ +3【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710172,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 3041
+  },
+  {
+    "id": 304131,
+    "name": "初期Pゲージ獲得【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710181,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 3041
+  },
+  {
+    "id": 304132,
+    "name": "初期Pゲージ獲得【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710182,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 3041
+  },
+  {
+    "id": 304133,
+    "name": "初期Pゲージ獲得【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710183,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 3041
+  },
+  {
+    "id": 304134,
+    "name": "初期Pゲージ獲得【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710184,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 3041
+  },
+  {
+    "id": 304135,
+    "name": "PG上限上昇【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710191,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 3041
+  },
+  {
+    "id": 304136,
+    "name": "PG上限上昇【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710192,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 3041
+  },
+  {
+    "id": 304137,
+    "name": "PG上限上昇【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710193,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 3041
+  },
+  {
+    "id": 304138,
+    "name": "PG上限上昇【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710194,
+    "photoEffectTypeGroupMasterId": 7,
     "photoEffectGroupMasterId": 3041
   },
   {
@@ -2600,6 +5196,178 @@
     "photoEffectGroupMasterId": 3051
   },
   {
+    "id": 305119,
+    "name": "演技力アップ +1【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710161,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 3051
+  },
+  {
+    "id": 305120,
+    "name": "演技力アップ +2【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710162,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 3051
+  },
+  {
+    "id": 305121,
+    "name": "演技力アップ +3【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710163,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 3051
+  },
+  {
+    "id": 305122,
+    "name": "演技力アップ +1【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710164,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 3051
+  },
+  {
+    "id": 305123,
+    "name": "演技力アップ +2【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710165,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 3051
+  },
+  {
+    "id": 305124,
+    "name": "演技力アップ +3【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710166,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 3051
+  },
+  {
+    "id": 305125,
+    "name": "演技力アップ +1【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710167,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 3051
+  },
+  {
+    "id": 305126,
+    "name": "演技力アップ +2【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710168,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 3051
+  },
+  {
+    "id": 305127,
+    "name": "演技力アップ +3【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710169,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 3051
+  },
+  {
+    "id": 305128,
+    "name": "演技力アップ +1【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710170,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 3051
+  },
+  {
+    "id": 305129,
+    "name": "演技力アップ +2【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710171,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 3051
+  },
+  {
+    "id": 305130,
+    "name": "演技力アップ +3【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710172,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 3051
+  },
+  {
+    "id": 305131,
+    "name": "初期Pゲージ獲得【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710181,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 3051
+  },
+  {
+    "id": 305132,
+    "name": "初期Pゲージ獲得【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710182,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 3051
+  },
+  {
+    "id": 305133,
+    "name": "初期Pゲージ獲得【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710183,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 3051
+  },
+  {
+    "id": 305134,
+    "name": "初期Pゲージ獲得【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710184,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 3051
+  },
+  {
+    "id": 305135,
+    "name": "PG上限上昇【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710191,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 3051
+  },
+  {
+    "id": 305136,
+    "name": "PG上限上昇【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710192,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 3051
+  },
+  {
+    "id": 305137,
+    "name": "PG上限上昇【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710193,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 3051
+  },
+  {
+    "id": 305138,
+    "name": "PG上限上昇【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710194,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 3051
+  },
+  {
     "id": 401101,
     "name": "演技力アップ +1",
     "description": "いろはの演技力が[:param1]%上昇",
@@ -2759,6 +5527,178 @@
     "effectMasterId": 740145,
     "variety": 5,
     "photoEffectTypeGroupMasterId": 5,
+    "photoEffectGroupMasterId": 4011
+  },
+  {
+    "id": 401119,
+    "name": "演技力アップ +1【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710161,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 4011
+  },
+  {
+    "id": 401120,
+    "name": "演技力アップ +2【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710162,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 4011
+  },
+  {
+    "id": 401121,
+    "name": "演技力アップ +3【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710163,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 4011
+  },
+  {
+    "id": 401122,
+    "name": "演技力アップ +1【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710164,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 4011
+  },
+  {
+    "id": 401123,
+    "name": "演技力アップ +2【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710165,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 4011
+  },
+  {
+    "id": 401124,
+    "name": "演技力アップ +3【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710166,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 4011
+  },
+  {
+    "id": 401125,
+    "name": "演技力アップ +1【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710167,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 4011
+  },
+  {
+    "id": 401126,
+    "name": "演技力アップ +2【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710168,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 4011
+  },
+  {
+    "id": 401127,
+    "name": "演技力アップ +3【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710169,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 4011
+  },
+  {
+    "id": 401128,
+    "name": "演技力アップ +1【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710170,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 4011
+  },
+  {
+    "id": 401129,
+    "name": "演技力アップ +2【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710171,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 4011
+  },
+  {
+    "id": 401130,
+    "name": "演技力アップ +3【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710172,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 4011
+  },
+  {
+    "id": 401131,
+    "name": "初期Pゲージ獲得【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710181,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 4011
+  },
+  {
+    "id": 401132,
+    "name": "初期Pゲージ獲得【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710182,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 4011
+  },
+  {
+    "id": 401133,
+    "name": "初期Pゲージ獲得【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710183,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 4011
+  },
+  {
+    "id": 401134,
+    "name": "初期Pゲージ獲得【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710184,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 4011
+  },
+  {
+    "id": 401135,
+    "name": "PG上限上昇【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710191,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 4011
+  },
+  {
+    "id": 401136,
+    "name": "PG上限上昇【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710192,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 4011
+  },
+  {
+    "id": 401137,
+    "name": "PG上限上昇【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710193,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 4011
+  },
+  {
+    "id": 401138,
+    "name": "PG上限上昇【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710194,
+    "photoEffectTypeGroupMasterId": 7,
     "photoEffectGroupMasterId": 4011
   },
   {
@@ -2924,6 +5864,178 @@
     "photoEffectGroupMasterId": 4021
   },
   {
+    "id": 402119,
+    "name": "演技力アップ +1【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710161,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 4021
+  },
+  {
+    "id": 402120,
+    "name": "演技力アップ +2【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710162,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 4021
+  },
+  {
+    "id": 402121,
+    "name": "演技力アップ +3【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710163,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 4021
+  },
+  {
+    "id": 402122,
+    "name": "演技力アップ +1【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710164,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 4021
+  },
+  {
+    "id": 402123,
+    "name": "演技力アップ +2【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710165,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 4021
+  },
+  {
+    "id": 402124,
+    "name": "演技力アップ +3【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710166,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 4021
+  },
+  {
+    "id": 402125,
+    "name": "演技力アップ +1【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710167,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 4021
+  },
+  {
+    "id": 402126,
+    "name": "演技力アップ +2【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710168,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 4021
+  },
+  {
+    "id": 402127,
+    "name": "演技力アップ +3【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710169,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 4021
+  },
+  {
+    "id": 402128,
+    "name": "演技力アップ +1【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710170,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 4021
+  },
+  {
+    "id": 402129,
+    "name": "演技力アップ +2【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710171,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 4021
+  },
+  {
+    "id": 402130,
+    "name": "演技力アップ +3【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710172,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 4021
+  },
+  {
+    "id": 402131,
+    "name": "初期Pゲージ獲得【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710181,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 4021
+  },
+  {
+    "id": 402132,
+    "name": "初期Pゲージ獲得【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710182,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 4021
+  },
+  {
+    "id": 402133,
+    "name": "初期Pゲージ獲得【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710183,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 4021
+  },
+  {
+    "id": 402134,
+    "name": "初期Pゲージ獲得【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710184,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 4021
+  },
+  {
+    "id": 402135,
+    "name": "PG上限上昇【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710191,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 4021
+  },
+  {
+    "id": 402136,
+    "name": "PG上限上昇【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710192,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 4021
+  },
+  {
+    "id": 402137,
+    "name": "PG上限上昇【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710193,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 4021
+  },
+  {
+    "id": 402138,
+    "name": "PG上限上昇【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710194,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 4021
+  },
+  {
     "id": 403101,
     "name": "演技力アップ +1",
     "description": "カミラの演技力が[:param1]%上昇",
@@ -3083,6 +6195,178 @@
     "effectMasterId": 740345,
     "variety": 5,
     "photoEffectTypeGroupMasterId": 5,
+    "photoEffectGroupMasterId": 4031
+  },
+  {
+    "id": 403119,
+    "name": "演技力アップ +1【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710161,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 4031
+  },
+  {
+    "id": 403120,
+    "name": "演技力アップ +2【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710162,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 4031
+  },
+  {
+    "id": 403121,
+    "name": "演技力アップ +3【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710163,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 4031
+  },
+  {
+    "id": 403122,
+    "name": "演技力アップ +1【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710164,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 4031
+  },
+  {
+    "id": 403123,
+    "name": "演技力アップ +2【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710165,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 4031
+  },
+  {
+    "id": 403124,
+    "name": "演技力アップ +3【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710166,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 4031
+  },
+  {
+    "id": 403125,
+    "name": "演技力アップ +1【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710167,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 4031
+  },
+  {
+    "id": 403126,
+    "name": "演技力アップ +2【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710168,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 4031
+  },
+  {
+    "id": 403127,
+    "name": "演技力アップ +3【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710169,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 4031
+  },
+  {
+    "id": 403128,
+    "name": "演技力アップ +1【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710170,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 4031
+  },
+  {
+    "id": 403129,
+    "name": "演技力アップ +2【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710171,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 4031
+  },
+  {
+    "id": 403130,
+    "name": "演技力アップ +3【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710172,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 4031
+  },
+  {
+    "id": 403131,
+    "name": "初期Pゲージ獲得【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710181,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 4031
+  },
+  {
+    "id": 403132,
+    "name": "初期Pゲージ獲得【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710182,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 4031
+  },
+  {
+    "id": 403133,
+    "name": "初期Pゲージ獲得【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710183,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 4031
+  },
+  {
+    "id": 403134,
+    "name": "初期Pゲージ獲得【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710184,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 4031
+  },
+  {
+    "id": 403135,
+    "name": "PG上限上昇【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710191,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 4031
+  },
+  {
+    "id": 403136,
+    "name": "PG上限上昇【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710192,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 4031
+  },
+  {
+    "id": 403137,
+    "name": "PG上限上昇【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710193,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 4031
+  },
+  {
+    "id": 403138,
+    "name": "PG上限上昇【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710194,
+    "photoEffectTypeGroupMasterId": 7,
     "photoEffectGroupMasterId": 4031
   },
   {
@@ -3248,6 +6532,178 @@
     "photoEffectGroupMasterId": 4041
   },
   {
+    "id": 404119,
+    "name": "演技力アップ +1【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710161,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 4041
+  },
+  {
+    "id": 404120,
+    "name": "演技力アップ +2【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710162,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 4041
+  },
+  {
+    "id": 404121,
+    "name": "演技力アップ +3【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710163,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 4041
+  },
+  {
+    "id": 404122,
+    "name": "演技力アップ +1【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710164,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 4041
+  },
+  {
+    "id": 404123,
+    "name": "演技力アップ +2【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710165,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 4041
+  },
+  {
+    "id": 404124,
+    "name": "演技力アップ +3【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710166,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 4041
+  },
+  {
+    "id": 404125,
+    "name": "演技力アップ +1【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710167,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 4041
+  },
+  {
+    "id": 404126,
+    "name": "演技力アップ +2【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710168,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 4041
+  },
+  {
+    "id": 404127,
+    "name": "演技力アップ +3【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710169,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 4041
+  },
+  {
+    "id": 404128,
+    "name": "演技力アップ +1【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710170,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 4041
+  },
+  {
+    "id": 404129,
+    "name": "演技力アップ +2【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710171,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 4041
+  },
+  {
+    "id": 404130,
+    "name": "演技力アップ +3【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710172,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 4041
+  },
+  {
+    "id": 404131,
+    "name": "初期Pゲージ獲得【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710181,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 4041
+  },
+  {
+    "id": 404132,
+    "name": "初期Pゲージ獲得【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710182,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 4041
+  },
+  {
+    "id": 404133,
+    "name": "初期Pゲージ獲得【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710183,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 4041
+  },
+  {
+    "id": 404134,
+    "name": "初期Pゲージ獲得【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710184,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 4041
+  },
+  {
+    "id": 404135,
+    "name": "PG上限上昇【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710191,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 4041
+  },
+  {
+    "id": 404136,
+    "name": "PG上限上昇【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710192,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 4041
+  },
+  {
+    "id": 404137,
+    "name": "PG上限上昇【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710193,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 4041
+  },
+  {
+    "id": 404138,
+    "name": "PG上限上昇【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710194,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 4041
+  },
+  {
     "id": 405101,
     "name": "演技力アップ +1",
     "description": "叶羽の演技力が[:param1]%上昇",
@@ -3407,6 +6863,178 @@
     "effectMasterId": 740545,
     "variety": 5,
     "photoEffectTypeGroupMasterId": 5,
+    "photoEffectGroupMasterId": 4051
+  },
+  {
+    "id": 405119,
+    "name": "演技力アップ +1【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710161,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 4051
+  },
+  {
+    "id": 405120,
+    "name": "演技力アップ +2【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710162,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 4051
+  },
+  {
+    "id": 405121,
+    "name": "演技力アップ +3【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710163,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 4051
+  },
+  {
+    "id": 405122,
+    "name": "演技力アップ +1【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710164,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 4051
+  },
+  {
+    "id": 405123,
+    "name": "演技力アップ +2【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710165,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 4051
+  },
+  {
+    "id": 405124,
+    "name": "演技力アップ +3【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710166,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 4051
+  },
+  {
+    "id": 405125,
+    "name": "演技力アップ +1【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710167,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 4051
+  },
+  {
+    "id": 405126,
+    "name": "演技力アップ +2【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710168,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 4051
+  },
+  {
+    "id": 405127,
+    "name": "演技力アップ +3【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710169,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 4051
+  },
+  {
+    "id": 405128,
+    "name": "演技力アップ +1【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710170,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 4051
+  },
+  {
+    "id": 405129,
+    "name": "演技力アップ +2【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710171,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 4051
+  },
+  {
+    "id": 405130,
+    "name": "演技力アップ +3【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710172,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 4051
+  },
+  {
+    "id": 405131,
+    "name": "初期Pゲージ獲得【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710181,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 4051
+  },
+  {
+    "id": 405132,
+    "name": "初期Pゲージ獲得【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710182,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 4051
+  },
+  {
+    "id": 405133,
+    "name": "初期Pゲージ獲得【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710183,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 4051
+  },
+  {
+    "id": 405134,
+    "name": "初期Pゲージ獲得【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710184,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 4051
+  },
+  {
+    "id": 405135,
+    "name": "PG上限上昇【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710191,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 4051
+  },
+  {
+    "id": 405136,
+    "name": "PG上限上昇【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710192,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 4051
+  },
+  {
+    "id": 405137,
+    "name": "PG上限上昇【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710193,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 4051
+  },
+  {
+    "id": 405138,
+    "name": "PG上限上昇【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710194,
+    "photoEffectTypeGroupMasterId": 7,
     "photoEffectGroupMasterId": 4051
   },
   {
@@ -3572,6 +7200,178 @@
     "photoEffectGroupMasterId": 9011
   },
   {
+    "id": 901119,
+    "name": "演技力アップ +1【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710161,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 9011
+  },
+  {
+    "id": 901120,
+    "name": "演技力アップ +2【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710162,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 9011
+  },
+  {
+    "id": 901121,
+    "name": "演技力アップ +3【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710163,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 9011
+  },
+  {
+    "id": 901122,
+    "name": "演技力アップ +1【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710164,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 9011
+  },
+  {
+    "id": 901123,
+    "name": "演技力アップ +2【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710165,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 9011
+  },
+  {
+    "id": 901124,
+    "name": "演技力アップ +3【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710166,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 9011
+  },
+  {
+    "id": 901125,
+    "name": "演技力アップ +1【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710167,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 9011
+  },
+  {
+    "id": 901126,
+    "name": "演技力アップ +2【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710168,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 9011
+  },
+  {
+    "id": 901127,
+    "name": "演技力アップ +3【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710169,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 9011
+  },
+  {
+    "id": 901128,
+    "name": "演技力アップ +1【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710170,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 9011
+  },
+  {
+    "id": 901129,
+    "name": "演技力アップ +2【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710171,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 9011
+  },
+  {
+    "id": 901130,
+    "name": "演技力アップ +3【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710172,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 9011
+  },
+  {
+    "id": 901131,
+    "name": "初期Pゲージ獲得【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710181,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 9011
+  },
+  {
+    "id": 901132,
+    "name": "初期Pゲージ獲得【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710182,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 9011
+  },
+  {
+    "id": 901133,
+    "name": "初期Pゲージ獲得【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710183,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 9011
+  },
+  {
+    "id": 901134,
+    "name": "初期Pゲージ獲得【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710184,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 9011
+  },
+  {
+    "id": 901135,
+    "name": "PG上限上昇【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710191,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 9011
+  },
+  {
+    "id": 901136,
+    "name": "PG上限上昇【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710192,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 9011
+  },
+  {
+    "id": 901137,
+    "name": "PG上限上昇【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710193,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 9011
+  },
+  {
+    "id": 901138,
+    "name": "PG上限上昇【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710194,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 9011
+  },
+  {
     "id": 902101,
     "name": "演技力アップ +1",
     "description": "梨子の演技力が[:param1]%上昇",
@@ -3731,6 +7531,178 @@
     "effectMasterId": 790245,
     "variety": 5,
     "photoEffectTypeGroupMasterId": 5,
+    "photoEffectGroupMasterId": 9021
+  },
+  {
+    "id": 902119,
+    "name": "演技力アップ +1【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710161,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 9021
+  },
+  {
+    "id": 902120,
+    "name": "演技力アップ +2【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710162,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 9021
+  },
+  {
+    "id": 902121,
+    "name": "演技力アップ +3【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710163,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 9021
+  },
+  {
+    "id": 902122,
+    "name": "演技力アップ +1【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710164,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 9021
+  },
+  {
+    "id": 902123,
+    "name": "演技力アップ +2【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710165,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 9021
+  },
+  {
+    "id": 902124,
+    "name": "演技力アップ +3【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710166,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 9021
+  },
+  {
+    "id": 902125,
+    "name": "演技力アップ +1【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710167,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 9021
+  },
+  {
+    "id": 902126,
+    "name": "演技力アップ +2【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710168,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 9021
+  },
+  {
+    "id": 902127,
+    "name": "演技力アップ +3【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710169,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 9021
+  },
+  {
+    "id": 902128,
+    "name": "演技力アップ +1【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710170,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 9021
+  },
+  {
+    "id": 902129,
+    "name": "演技力アップ +2【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710171,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 9021
+  },
+  {
+    "id": 902130,
+    "name": "演技力アップ +3【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710172,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 9021
+  },
+  {
+    "id": 902131,
+    "name": "初期Pゲージ獲得【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710181,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 9021
+  },
+  {
+    "id": 902132,
+    "name": "初期Pゲージ獲得【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710182,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 9021
+  },
+  {
+    "id": 902133,
+    "name": "初期Pゲージ獲得【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710183,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 9021
+  },
+  {
+    "id": 902134,
+    "name": "初期Pゲージ獲得【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710184,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 9021
+  },
+  {
+    "id": 902135,
+    "name": "PG上限上昇【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710191,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 9021
+  },
+  {
+    "id": 902136,
+    "name": "PG上限上昇【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710192,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 9021
+  },
+  {
+    "id": 902137,
+    "name": "PG上限上昇【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710193,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 9021
+  },
+  {
+    "id": 902138,
+    "name": "PG上限上昇【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710194,
+    "photoEffectTypeGroupMasterId": 7,
     "photoEffectGroupMasterId": 9021
   },
   {
@@ -3896,6 +7868,178 @@
     "photoEffectGroupMasterId": 9041
   },
   {
+    "id": 904119,
+    "name": "演技力アップ +1【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710161,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 9041
+  },
+  {
+    "id": 904120,
+    "name": "演技力アップ +2【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710162,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 9041
+  },
+  {
+    "id": 904121,
+    "name": "演技力アップ +3【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710163,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 9041
+  },
+  {
+    "id": 904122,
+    "name": "演技力アップ +1【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710164,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 9041
+  },
+  {
+    "id": 904123,
+    "name": "演技力アップ +2【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710165,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 9041
+  },
+  {
+    "id": 904124,
+    "name": "演技力アップ +3【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710166,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 9041
+  },
+  {
+    "id": 904125,
+    "name": "演技力アップ +1【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710167,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 9041
+  },
+  {
+    "id": 904126,
+    "name": "演技力アップ +2【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710168,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 9041
+  },
+  {
+    "id": 904127,
+    "name": "演技力アップ +3【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710169,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 9041
+  },
+  {
+    "id": 904128,
+    "name": "演技力アップ +1【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710170,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 9041
+  },
+  {
+    "id": 904129,
+    "name": "演技力アップ +2【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710171,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 9041
+  },
+  {
+    "id": 904130,
+    "name": "演技力アップ +3【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710172,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 9041
+  },
+  {
+    "id": 904131,
+    "name": "初期Pゲージ獲得【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710181,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 9041
+  },
+  {
+    "id": 904132,
+    "name": "初期Pゲージ獲得【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710182,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 9041
+  },
+  {
+    "id": 904133,
+    "name": "初期Pゲージ獲得【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710183,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 9041
+  },
+  {
+    "id": 904134,
+    "name": "初期Pゲージ獲得【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710184,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 9041
+  },
+  {
+    "id": 904135,
+    "name": "PG上限上昇【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710191,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 9041
+  },
+  {
+    "id": 904136,
+    "name": "PG上限上昇【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710192,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 9041
+  },
+  {
+    "id": 904137,
+    "name": "PG上限上昇【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710193,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 9041
+  },
+  {
+    "id": 904138,
+    "name": "PG上限上昇【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710194,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 9041
+  },
+  {
     "id": 906101,
     "name": "演技力アップ +1",
     "description": "善子の演技力が[:param1]%上昇",
@@ -4058,6 +8202,178 @@
     "photoEffectGroupMasterId": 9061
   },
   {
+    "id": 906119,
+    "name": "演技力アップ +1【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710161,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 9061
+  },
+  {
+    "id": 906120,
+    "name": "演技力アップ +2【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710162,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 9061
+  },
+  {
+    "id": 906121,
+    "name": "演技力アップ +3【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710163,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 9061
+  },
+  {
+    "id": 906122,
+    "name": "演技力アップ +1【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710164,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 9061
+  },
+  {
+    "id": 906123,
+    "name": "演技力アップ +2【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710165,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 9061
+  },
+  {
+    "id": 906124,
+    "name": "演技力アップ +3【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710166,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 9061
+  },
+  {
+    "id": 906125,
+    "name": "演技力アップ +1【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710167,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 9061
+  },
+  {
+    "id": 906126,
+    "name": "演技力アップ +2【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710168,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 9061
+  },
+  {
+    "id": 906127,
+    "name": "演技力アップ +3【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710169,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 9061
+  },
+  {
+    "id": 906128,
+    "name": "演技力アップ +1【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710170,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 9061
+  },
+  {
+    "id": 906129,
+    "name": "演技力アップ +2【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710171,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 9061
+  },
+  {
+    "id": 906130,
+    "name": "演技力アップ +3【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710172,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 9061
+  },
+  {
+    "id": 906131,
+    "name": "初期Pゲージ獲得【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710181,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 9061
+  },
+  {
+    "id": 906132,
+    "name": "初期Pゲージ獲得【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710182,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 9061
+  },
+  {
+    "id": 906133,
+    "name": "初期Pゲージ獲得【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710183,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 9061
+  },
+  {
+    "id": 906134,
+    "name": "初期Pゲージ獲得【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710184,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 9061
+  },
+  {
+    "id": 906135,
+    "name": "PG上限上昇【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710191,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 9061
+  },
+  {
+    "id": 906136,
+    "name": "PG上限上昇【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710192,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 9061
+  },
+  {
+    "id": 906137,
+    "name": "PG上限上昇【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710193,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 9061
+  },
+  {
+    "id": 906138,
+    "name": "PG上限上昇【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710194,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 9061
+  },
+  {
     "id": 909101,
     "name": "演技力アップ +1",
     "description": "ルビィの演技力が[:param1]%上昇",
@@ -4217,6 +8533,178 @@
     "effectMasterId": 790945,
     "variety": 5,
     "photoEffectTypeGroupMasterId": 5,
+    "photoEffectGroupMasterId": 9091
+  },
+  {
+    "id": 909119,
+    "name": "演技力アップ +1【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710161,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 9091
+  },
+  {
+    "id": 909120,
+    "name": "演技力アップ +2【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710162,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 9091
+  },
+  {
+    "id": 909121,
+    "name": "演技力アップ +3【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710163,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 9091
+  },
+  {
+    "id": 909122,
+    "name": "演技力アップ +1【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710164,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 9091
+  },
+  {
+    "id": 909123,
+    "name": "演技力アップ +2【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710165,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 9091
+  },
+  {
+    "id": 909124,
+    "name": "演技力アップ +3【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710166,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 9091
+  },
+  {
+    "id": 909125,
+    "name": "演技力アップ +1【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710167,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 9091
+  },
+  {
+    "id": 909126,
+    "name": "演技力アップ +2【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710168,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 9091
+  },
+  {
+    "id": 909127,
+    "name": "演技力アップ +3【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710169,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 9091
+  },
+  {
+    "id": 909128,
+    "name": "演技力アップ +1【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710170,
+    "variety": 1,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 9091
+  },
+  {
+    "id": 909129,
+    "name": "演技力アップ +2【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710171,
+    "variety": 2,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 9091
+  },
+  {
+    "id": 909130,
+    "name": "演技力アップ +3【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>の演技力が[:param1]%上昇",
+    "effectMasterId": 710172,
+    "variety": 3,
+    "photoEffectTypeGroupMasterId": 8,
+    "photoEffectGroupMasterId": 9091
+  },
+  {
+    "id": 909131,
+    "name": "初期Pゲージ獲得【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710181,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 9091
+  },
+  {
+    "id": 909132,
+    "name": "初期Pゲージ獲得【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710182,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 9091
+  },
+  {
+    "id": 909133,
+    "name": "初期Pゲージ獲得【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710183,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 9091
+  },
+  {
+    "id": 909134,
+    "name": "初期Pゲージ獲得【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>が編成されているとき公演開始時、P.ゲージが[:param1]上昇",
+    "effectMasterId": 710184,
+    "photoEffectTypeGroupMasterId": 6,
+    "photoEffectGroupMasterId": 9091
+  },
+  {
+    "id": 909135,
+    "name": "PG上限上昇【憐】",
+    "description": "<color=#ff679d>憐属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710191,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 9091
+  },
+  {
+    "id": 909136,
+    "name": "PG上限上昇【凛】",
+    "description": "<color=#33B4DF>凛属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710192,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 9091
+  },
+  {
+    "id": 909137,
+    "name": "PG上限上昇【彩】",
+    "description": "<color=#7AC940>彩属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710193,
+    "photoEffectTypeGroupMasterId": 7,
+    "photoEffectGroupMasterId": 9091
+  },
+  {
+    "id": 909138,
+    "name": "PG上限上昇【陽】",
+    "description": "<color=#FF9314>陽属性アクター</color>が編成されているときP.ゲージの上限が[:param1]上昇",
+    "effectMasterId": 710194,
+    "photoEffectTypeGroupMasterId": 7,
     "photoEffectGroupMasterId": 9091
   }
 ]

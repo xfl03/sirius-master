@@ -80,6 +80,46 @@
     "changeType": "None"
   },
   {
+    "id": 105,
+    "name": "ステラカーペット",
+    "order": 105,
+    "hidden": false,
+    "isDefault": false,
+    "details": [],
+    "unlockText": "マーケットで劇ジュエル×480個と交換することで獲得できます。",
+    "changeType": "None"
+  },
+  {
+    "id": 106,
+    "name": "きらめく星空",
+    "order": 106,
+    "hidden": false,
+    "isDefault": false,
+    "details": [],
+    "unlockText": "マーケットで劇ジュエル×480個と交換することで獲得できます。",
+    "changeType": "None"
+  },
+  {
+    "id": 107,
+    "name": "イースター",
+    "order": 107,
+    "hidden": true,
+    "isDefault": false,
+    "details": [],
+    "unlockText": "「イースターエッグ抽選会」で獲得できます。",
+    "changeType": "None"
+  },
+  {
+    "id": 108,
+    "name": "ぎっしり千寿姉妹",
+    "order": 108,
+    "hidden": true,
+    "isDefault": false,
+    "details": [],
+    "unlockText": "「千寿にセンキュー！ミッション」をクリアすることで獲得できます。",
+    "changeType": "None"
+  },
+  {
     "id": 1101,
     "name": "ここな【BirthDay 2024】",
     "order": 1101,
@@ -488,6 +528,36 @@
     "changeType": "None"
   },
   {
+    "id": 3003,
+    "name": "先駆ける星の輝き【ゴールド】",
+    "order": 3003,
+    "hidden": true,
+    "isDefault": false,
+    "details": [],
+    "unlockText": "「第2回 ステラ・コンクール～輝きを見出すホロスコープ～」の累計1000ポイント以上で獲得することができます。",
+    "changeType": "None"
+  },
+  {
+    "id": 3004,
+    "name": "先駆ける星の輝き【シルバー】",
+    "order": 3004,
+    "hidden": true,
+    "isDefault": false,
+    "details": [],
+    "unlockText": "「第2回 ステラ・コンクール～輝きを見出すホロスコープ～」の累計750ポイント以上で獲得することができます。",
+    "changeType": "None"
+  },
+  {
+    "id": 3005,
+    "name": "先駆ける星の輝き【ブロンズ】",
+    "order": 3005,
+    "hidden": true,
+    "isDefault": false,
+    "details": [],
+    "unlockText": "「第2回 ステラ・コンクール～輝きを見出すホロスコープ～」の累計550ポイント以上で獲得することができます。",
+    "changeType": "None"
+  },
+  {
     "id": 9000,
     "name": "スター【シーズン1】",
     "order": 5,
@@ -627,17 +697,17 @@
   },
   {
     "id": 10000,
-    "name": "スター【シーズン1】",
+    "name": "スター【T.C. シーズン1】",
     "order": 50,
     "hidden": false,
     "isDefault": false,
     "details": [],
-    "unlockText": "演劇リーグ：TRIPLE CASTのCL6「スター」初回到達で獲得できます。",
+    "unlockText": "演劇リーグ：TRIPLE CAST【シーズン1】のCL6「スター」初回到達で獲得できます。",
     "changeType": "None"
   },
   {
     "id": 10001,
-    "name": "ダイスター【シーズン1】",
+    "name": "ダイスター【T.C. シーズン1】",
     "order": 51,
     "hidden": false,
     "isDefault": false,
@@ -667,8 +737,54 @@
         "priority": 8
       }
     ],
-    "unlockText": "演劇リーグ：TRIPLE CASTのCL7「ダイスター」初回到達で獲得できます。",
+    "unlockText": "演劇リーグ：TRIPLE CAST【シーズン1】のCL7「ダイスター」初回到達で獲得できます。",
     "changeType": "TripleCastDaiStarEnrollCount",
     "changeValue1": 1
+  },
+  {
+    "id": 10010,
+    "name": "スター【T.C. シーズン2】",
+    "order": 52,
+    "hidden": false,
+    "isDefault": false,
+    "details": [],
+    "unlockText": "演劇リーグ：TRIPLE CAST【シーズン2】のCL6「スター」初回到達で獲得できます。",
+    "changeType": "None"
+  },
+  {
+    "id": 10011,
+    "name": "ダイスター【T.C. シーズン2】",
+    "order": 53,
+    "hidden": false,
+    "isDefault": false,
+    "details": [
+      {
+        "id": 10711,
+        "name": "ダイスター【T.C. シーズン2】",
+        "classType": "None",
+        "enrollCount": 0,
+        "changeValue1": 0,
+        "priority": 0
+      },
+      {
+        "id": 10712,
+        "name": "ダイスター【T.C. シーズン2】",
+        "classType": "None",
+        "enrollCount": 4,
+        "changeValue1": 4,
+        "priority": 4
+      },
+      {
+        "id": 10713,
+        "name": "ダイスター【T.C. シーズン2】",
+        "classType": "None",
+        "enrollCount": 8,
+        "changeValue1": 8,
+        "priority": 8
+      }
+    ],
+    "unlockText": "演劇リーグ：TRIPLE CAST【シーズン2】のCL7「ダイスター」初回到達で獲得できます。",
+    "changeType": "TripleCastDaiStarEnrollCount",
+    "changeValue1": 2
   }
 ]

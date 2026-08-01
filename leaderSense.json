@@ -5068,5 +5068,495 @@
         ]
       }
     ]
+  },
+  {
+    "id": 247,
+    "description": "「役者」カテゴリの演技力40%上昇、「衣装」カテゴリの集中力35％上昇",
+    "details": [
+      {
+        "effectMasterId": 12005,
+        "conditions": [
+          {
+            "categoryMasterId1": 8003
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12021,
+        "conditions": [
+          {
+            "categoryMasterId1": 8004
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 248,
+    "description": "「劇団電姫」カテゴリの演技力40%上昇、「衣装」カテゴリの歌唱力20％上昇・初期ライフが100上昇",
+    "details": [
+      {
+        "effectMasterId": 12005,
+        "conditions": [
+          {
+            "categoryMasterId1": 2004
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12007,
+        "conditions": [
+          {
+            "categoryMasterId1": 8004
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12060,
+        "conditions": [
+          {
+            "categoryMasterId1": 8004
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 249,
+    "description": "「シリウス」カテゴリの演技力30%上昇、「衣装」カテゴリの集中力20％上昇",
+    "details": [
+      {
+        "effectMasterId": 12004,
+        "conditions": [
+          {
+            "categoryMasterId1": 2001
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12015,
+        "conditions": [
+          {
+            "categoryMasterId1": 8003
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 250,
+    "description": "「劇団電姫」カテゴリの演技力40%上昇、「衣装」カテゴリの表現力20％上昇、「オズの魔法使い」カテゴリを持つアクターの数に応じて初期プリンシパルゲージが10上昇",
+    "details": [
+      {
+        "effectMasterId": 12005,
+        "conditions": [
+          {
+            "categoryMasterId1": 2004
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12011,
+        "conditions": [
+          {
+            "categoryMasterId1": 8004
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12029,
+        "conditions": [
+          {
+            "categoryMasterId1": 6013
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 251,
+    "description": "「役者」カテゴリの演技力40%上昇、「舞台」カテゴリの集中力20％上昇、「オズの魔法使い」カテゴリの演技力上限が5%上昇",
+    "details": [
+      {
+        "effectMasterId": 12005,
+        "conditions": [
+          {
+            "categoryMasterId1": 8003
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12015,
+        "conditions": [
+          {
+            "categoryMasterId1": 8002
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12041,
+        "conditions": [
+          {
+            "categoryMasterId1": 6013
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 252,
+    "description": "「制服」カテゴリの演技力40%上昇、「音楽」カテゴリの歌唱力20％上昇・集中力15%上昇",
+    "details": [
+      {
+        "effectMasterId": 12005,
+        "conditions": [
+          {
+            "categoryMasterId1": 4005
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12007,
+        "conditions": [
+          {
+            "categoryMasterId1": 4001
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12024,
+        "conditions": [
+          {
+            "categoryMasterId1": 4001
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 253,
+    "description": "「銀河座」カテゴリの演技力30%上昇、「舞台」カテゴリの表現力20％上昇",
+    "details": [
+      {
+        "effectMasterId": 12004,
+        "conditions": [
+          {
+            "categoryMasterId1": 2003
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12011,
+        "conditions": [
+          {
+            "categoryMasterId1": 8002
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 254,
+    "description": "「私服」カテゴリの演技力30%上昇、「動物」カテゴリの歌唱力20％上昇",
+    "details": [
+      {
+        "effectMasterId": 12004,
+        "conditions": [
+          {
+            "categoryMasterId1": 4002
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12015,
+        "conditions": [
+          {
+            "categoryMasterId1": 4004
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 255,
+    "description": "「劇団電姫」カテゴリの演技力30%上昇、「メルヘン」カテゴリの集中力20％上昇",
+    "details": [
+      {
+        "effectMasterId": 12004,
+        "conditions": [
+          {
+            "categoryMasterId1": 2004
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12015,
+        "conditions": [
+          {
+            "categoryMasterId1": 4006
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 256,
+    "description": "「シリウス」カテゴリの演技力40%上昇、「メルヘン」カテゴリの集中力35％上昇",
+    "details": [
+      {
+        "effectMasterId": 12005,
+        "conditions": [
+          {
+            "categoryMasterId1": 2001
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12021,
+        "conditions": [
+          {
+            "categoryMasterId1": 4006
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 257,
+    "description": "「Eden」カテゴリの演技力40%上昇、「衣装」カテゴリの表現力20％上昇、「青髪公の帰らぬ妻」カテゴリを持つアクターの数に応じて初期プリンシパルゲージが10上昇",
+    "details": [
+      {
+        "effectMasterId": 12005,
+        "conditions": [
+          {
+            "categoryMasterId1": 2002
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12011,
+        "conditions": [
+          {
+            "categoryMasterId1": 8004
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12029,
+        "conditions": [
+          {
+            "categoryMasterId1": 6014
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 258,
+    "description": "「役者」カテゴリの演技力40%上昇、「舞台」カテゴリの表現力20％上昇、「青髪公の帰らぬ妻」カテゴリの演技力上限が5%上昇",
+    "details": [
+      {
+        "effectMasterId": 12005,
+        "conditions": [
+          {
+            "categoryMasterId1": 8003
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12011,
+        "conditions": [
+          {
+            "categoryMasterId1": 8002
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12041,
+        "conditions": [
+          {
+            "categoryMasterId1": 6014
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 259,
+    "description": "「制服」カテゴリの演技力50%上昇、「和風」カテゴリの演技力上限が15%上昇",
+    "details": [
+      {
+        "effectMasterId": 12026,
+        "conditions": [
+          {
+            "categoryMasterId1": 4005
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12042,
+        "conditions": [
+          {
+            "categoryMasterId1": 4007
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 260,
+    "description": "「役者」カテゴリの演技力40%上昇、「食べ物」カテゴリの集中力35％上昇",
+    "details": [
+      {
+        "effectMasterId": 12005,
+        "conditions": [
+          {
+            "categoryMasterId1": 8003
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12021,
+        "conditions": [
+          {
+            "categoryMasterId1": 4003
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 261,
+    "description": "「Eden」カテゴリの演技力30%上昇、「舞台」カテゴリの歌唱力20％上昇",
+    "details": [
+      {
+        "effectMasterId": 12004,
+        "conditions": [
+          {
+            "categoryMasterId1": 2002
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12007,
+        "conditions": [
+          {
+            "categoryMasterId1": 8002
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 262,
+    "description": "「劇団電姫」カテゴリの演技力40%上昇、「舞台」カテゴリを持つアクターの数に応じて初期プリンシパルゲージが20上昇",
+    "details": [
+      {
+        "effectMasterId": 12005,
+        "conditions": [
+          {
+            "categoryMasterId1": 2004
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12030,
+        "conditions": [
+          {
+            "categoryMasterId1": 8002
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 263,
+    "description": "「シリウス」カテゴリの演技力40%上昇、「衣装」カテゴリの表現力30％上昇・演技力上限が5%上昇",
+    "details": [
+      {
+        "effectMasterId": 12005,
+        "conditions": [
+          {
+            "categoryMasterId1": 2001
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12012,
+        "conditions": [
+          {
+            "categoryMasterId1": 8004
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12041,
+        "conditions": [
+          {
+            "categoryMasterId1": 8004
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 264,
+    "description": "「役者」カテゴリの演技力40%上昇、「舞台」カテゴリの集中力30％上昇・演技力上限が5%上昇",
+    "details": [
+      {
+        "effectMasterId": 12005,
+        "conditions": [
+          {
+            "categoryMasterId1": 8003
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12016,
+        "conditions": [
+          {
+            "categoryMasterId1": 8002
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12041,
+        "conditions": [
+          {
+            "categoryMasterId1": 8002
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 265,
+    "description": "「衣装」カテゴリの演技力50%上昇、「主人公」カテゴリの演技力20%上昇・演技力上限が15%上昇",
+    "details": [
+      {
+        "effectMasterId": 12026,
+        "conditions": [
+          {
+            "categoryMasterId1": 8004
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12003,
+        "conditions": [
+          {
+            "categoryMasterId1": 8007
+          }
+        ]
+      },
+      {
+        "effectMasterId": 12042,
+        "conditions": [
+          {
+            "categoryMasterId1": 8007
+          }
+        ]
+      }
+    ]
   }
 ]

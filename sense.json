@@ -7274,7 +7274,12 @@
     "name": "アーサー王のお通りよ！",
     "description": "<size=28%>[:score]倍のスコアを獲得／センス発動時に、追加で「増幅の光」を1個獲得する／付与されているライフガード1回につきスコア獲得量8％上昇（最大＋80％）</size>",
     "type": "Control",
-    "preEffects": [],
+    "preEffects": [
+      {
+        "order": 1,
+        "effectMasterId": 28001
+      }
+    ],
     "branches": [
       {
         "order": 1,
@@ -8019,7 +8024,7 @@
   {
     "id": 141950,
     "name": "水鏡に映える月を掬って",
-    "description": "[:score]倍のスコアを獲得／センス発動直後、その時のスコアの[:param11]％のスコアを獲得／センス発動直後、自身の歌唱力の[:param12]倍のスコアを獲得",
+    "description": "[:score]倍のスコアを獲得／センス発動直後、自身の歌唱力の[:param11]倍のスコアを獲得／センス発動直後、その時のスコアの[:param12]％のスコアを獲得",
     "type": "Control",
     "preEffects": [],
     "branches": [
@@ -8028,11 +8033,11 @@
         "branchEffects": [
           {
             "order": 1,
-            "effectMasterId": 20542
+            "effectMasterId": 20536
           },
           {
             "order": 2,
-            "effectMasterId": 20536
+            "effectMasterId": 20542
           }
         ],
         "id": 1419501
@@ -8637,6 +8642,1734 @@
     "subTypes": []
   },
   {
+    "id": 142110,
+    "name": "祝い奏でし琵琶天女",
+    "description": "<size=28%>[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／カトリナが隣に編成された状態でセンスを発動したとき、自身もセンスを発動する(センスの光は獲得出来ない)</size>",
+    "type": "Support",
+    "preEffects": [
+      {
+        "order": 1,
+        "effectMasterId": 28010
+      }
+    ],
+    "branches": [],
+    "acquirableGauge": 100,
+    "acquirableScorePercent": 160,
+    "scoreUpPerLevel": 60,
+    "lightCount": 2,
+    "coolTime": 45,
+    "branchCondition1": "None",
+    "branchCondition2": "None",
+    "subTypes": []
+  },
+  {
+    "id": 142120,
+    "name": "なし",
+    "description": "効果無し（所持している「光」は維持される）",
+    "type": "None",
+    "preEffects": [],
+    "branches": [],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 0,
+    "scoreUpPerLevel": 0,
+    "lightCount": 0,
+    "coolTime": 0,
+    "branchCondition1": "None",
+    "branchCondition2": "None",
+    "subTypes": []
+  },
+  {
+    "id": 142130,
+    "name": "雪山駆ける白狼と",
+    "description": "<size=28%>[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／センス発動後、現在のプリンシパルゲージ上限の[:param11]%分のプリンシパルゲージを獲得する</size>",
+    "type": "Amplification",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20633
+          }
+        ],
+        "id": 1421301
+      }
+    ],
+    "acquirableGauge": 80,
+    "acquirableScorePercent": 150,
+    "scoreUpPerLevel": 40,
+    "lightCount": 1,
+    "coolTime": 30,
+    "branchCondition1": "None",
+    "branchCondition2": "None",
+    "subTypes": []
+  },
+  {
+    "id": 142140,
+    "name": "なし",
+    "description": "ここな編成時、ここなが代わりにセンスを発動し、ここなのスコア獲得量[:pre1]％UP",
+    "type": "Alternative",
+    "preEffects": [
+      {
+        "order": 1,
+        "effectMasterId": 20024
+      }
+    ],
+    "branches": [],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 0,
+    "scoreUpPerLevel": 0,
+    "lightCount": 0,
+    "coolTime": 0,
+    "branchCondition1": "None",
+    "branchCondition2": "None",
+    "subTypes": []
+  },
+  {
+    "id": 142150,
+    "name": "木こりはハートを求めて",
+    "description": "<size=27%>[:score]倍のスコアを獲得／センス発動時、編成されている劇団電姫アクターの演技力と演技力上限を、編成されている劇団電姫アクターの人数×3%上昇させる(この効果は重複する)</size>",
+    "type": "Special",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20656
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 1,
+        "id": 1421501
+      },
+      {
+        "order": 2,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20657
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 2,
+        "id": 1421502
+      },
+      {
+        "order": 3,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20658
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 3,
+        "id": 1421503
+      },
+      {
+        "order": 4,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20659
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 4,
+        "id": 1421504
+      },
+      {
+        "order": 5,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20660
+          }
+        ],
+        "judgeType1": "MoreThan",
+        "parameter1": 5,
+        "id": 1421505
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 600,
+    "scoreUpPerLevel": 50,
+    "lightCount": 2,
+    "coolTime": 40,
+    "branchCondition1": "CompanyMemberCount",
+    "conditionValue1": 4,
+    "branchCondition2": "None",
+    "subTypes": []
+  },
+  {
+    "id": 142160,
+    "name": "私も一緒に連れてって！",
+    "description": "<size=28%>[:score]倍のスコアを獲得／[:sec]秒間、劇団電姫のアクターにスターアクトスコア[:param11]％UP効果／センス発動後、プリンシパルゲージの上限値が[:param12]上昇</size>",
+    "type": "Support",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20405
+          },
+          {
+            "order": 2,
+            "effectMasterId": 20096
+          }
+        ],
+        "id": 1421601
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 610,
+    "scoreUpPerLevel": 60,
+    "lightCount": 1,
+    "coolTime": 45,
+    "branchCondition1": "None",
+    "branchCondition2": "None",
+    "subTypes": []
+  },
+  {
+    "id": 142170,
+    "name": "復讐の魔女は墳墓にて",
+    "description": "<size=27%>[:score]倍のスコアを獲得／センス発動時に、追加で「特殊の光」を1個獲得する／センス発動後、現在のプリンシパルゲージ上限の[:param11]%分のプリンシパルゲージを獲得する。</size>",
+    "type": "Control",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20632
+          }
+        ],
+        "id": 1421701
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 840,
+    "scoreUpPerLevel": 70,
+    "lightCount": 1,
+    "coolTime": 65,
+    "branchCondition1": "None",
+    "branchCondition2": "None",
+    "subTypes": []
+  },
+  {
+    "id": 142180,
+    "name": "薄幸の麗妃は王棺を悼み",
+    "description": "<size=26%>[:score]倍のスコアを獲得／[:sec]秒間、銀河座のアクターにスターアクトスコア[:param11]％UP効果／雪が隣に編成された状態でセンスを発動したとき、自身もセンスを発動する(センスの光は獲得出来ない)</size>",
+    "type": "Amplification",
+    "preEffects": [
+      {
+        "order": 1,
+        "effectMasterId": 28013
+      }
+    ],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20304
+          }
+        ],
+        "id": 1421801
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 220,
+    "scoreUpPerLevel": 60,
+    "lightCount": 2,
+    "coolTime": 45,
+    "branchCondition1": "None",
+    "branchCondition2": "None",
+    "subTypes": []
+  },
+  {
+    "id": 142190,
+    "name": "キミの為、闇の中へ",
+    "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／センス発動直後、その時のスコアの[:param11]％のスコアを獲得",
+    "type": "Amplification",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20542
+          }
+        ],
+        "id": 1421901
+      }
+    ],
+    "acquirableGauge": 70,
+    "acquirableScorePercent": 120,
+    "scoreUpPerLevel": 40,
+    "lightCount": 2,
+    "coolTime": 25,
+    "branchCondition1": "None",
+    "branchCondition2": "None",
+    "subTypes": []
+  },
+  {
+    "id": 142200,
+    "name": "嗚呼、クリスティーヌ",
+    "description": "<size=26%>[:score]倍のスコアを獲得／センス発動後、現在のプリンシパルゲージ[:param11]%分のプリンシパルゲージを追加で獲得する／ライフが多いほどスコア獲得量UP効果（最大＋[:pre1]%）</size>",
+    "type": "Support",
+    "preEffects": [
+      {
+        "order": 1,
+        "effectMasterId": 28006
+      }
+    ],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20603
+          }
+        ],
+        "id": 1422001
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 740,
+    "scoreUpPerLevel": 70,
+    "lightCount": 1,
+    "coolTime": 60,
+    "branchCondition1": "None",
+    "branchCondition2": "None",
+    "subTypes": []
+  },
+  {
+    "id": 142210,
+    "name": "臆病な獅子は森の王なりて",
+    "description": "<size=26%>[:score]倍のスコアを獲得／センス発動後、追加で[:param11]のプリンシパルゲージを獲得／蕾が隣に編成された状態でセンスを発動したとき、自身もセンスを発動する(センスの光は獲得出来ない)</size>",
+    "type": "Control",
+    "preEffects": [
+      {
+        "order": 1,
+        "effectMasterId": 28014
+      }
+    ],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20082
+          }
+        ],
+        "id": 1422101
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 840,
+    "scoreUpPerLevel": 70,
+    "lightCount": 1,
+    "coolTime": 65,
+    "branchCondition1": "None",
+    "branchCondition2": "None",
+    "subTypes": []
+  },
+  {
+    "id": 142220,
+    "name": "なし",
+    "description": "効果無し（所持している「光」は維持される）",
+    "type": "None",
+    "preEffects": [],
+    "branches": [],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 0,
+    "scoreUpPerLevel": 0,
+    "lightCount": 0,
+    "coolTime": 0,
+    "branchCondition1": "None",
+    "branchCondition2": "None",
+    "subTypes": []
+  },
+  {
+    "id": 142230,
+    "name": "Ku47da 詠唱来奉！",
+    "description": "<size=26%>[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／センス発動時に、追加で「支援の光」を1個獲得する／センス発動直後、その時のスコアの[:param11]％のスコアを獲得</size>",
+    "type": "Special",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20543
+          }
+        ],
+        "id": 1422301
+      }
+    ],
+    "acquirableGauge": 70,
+    "acquirableScorePercent": 120,
+    "scoreUpPerLevel": 40,
+    "lightCount": 2,
+    "coolTime": 25,
+    "branchCondition1": "None",
+    "branchCondition2": "None",
+    "subTypes": []
+  },
+  {
+    "id": 142240,
+    "name": "大蛇征伐 スサノオ剣！",
+    "description": "<size=23%>[:score]倍のスコアを獲得／センス発動時、追加で「特殊の光」を1個獲得する／センス発動時、編成されているEdenアクターの人数×20プリンシパルゲージを獲得／容が隣に編成された状態でセンスを発動したとき、自身もセンスを発動する(センスの光は獲得出来ない)</size>",
+    "type": "Support",
+    "preEffects": [
+      {
+        "order": 1,
+        "effectMasterId": 28015
+      }
+    ],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20098
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 1,
+        "id": 1422401
+      },
+      {
+        "order": 2,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20099
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 2,
+        "id": 1422402
+      },
+      {
+        "order": 3,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20100
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 3,
+        "id": 1422403
+      },
+      {
+        "order": 4,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20111
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 4,
+        "id": 1422404
+      },
+      {
+        "order": 5,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20112
+          }
+        ],
+        "judgeType1": "MoreThan",
+        "parameter1": 5,
+        "id": 1422405
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 740,
+    "scoreUpPerLevel": 70,
+    "lightCount": 1,
+    "coolTime": 60,
+    "branchCondition1": "CompanyMemberCount",
+    "conditionValue1": 2,
+    "branchCondition2": "None",
+    "subTypes": []
+  },
+  {
+    "id": 142250,
+    "name": "Flamante Bailaora！",
+    "description": "<size=24%>[:score]倍のスコアを獲得／センス発動後、付与されているライフガード1回につきライフを120回復(最大600回復)／付与されているライフガード1回につきプリンシパルゲージの上限値が20上昇（最大+80）</size>",
+    "type": "Control",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20015
+          },
+          {
+            "order": 2,
+            "effectMasterId": 29111
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 1,
+        "id": 1422501
+      },
+      {
+        "order": 2,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20016
+          },
+          {
+            "order": 2,
+            "effectMasterId": 29112
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 2,
+        "id": 1422502
+      },
+      {
+        "order": 3,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20017
+          },
+          {
+            "order": 2,
+            "effectMasterId": 29113
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 3,
+        "id": 1422503
+      },
+      {
+        "order": 4,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20018
+          },
+          {
+            "order": 2,
+            "effectMasterId": 29114
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 4,
+        "id": 1422504
+      },
+      {
+        "order": 5,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20019
+          },
+          {
+            "order": 2,
+            "effectMasterId": 29114
+          }
+        ],
+        "judgeType1": "MoreThan",
+        "parameter1": 5,
+        "id": 1422505
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 440,
+    "scoreUpPerLevel": 40,
+    "lightCount": 2,
+    "coolTime": 25,
+    "branchCondition1": "LifeGuardCount",
+    "branchCondition2": "None",
+    "subTypes": []
+  },
+  {
+    "id": 142260,
+    "name": "Tropical Carnival！",
+    "description": "<size=28%>[:score]倍のスコアを獲得／センス発動時、編成されている銀河座アクターの演技力と演技力上限を、編成されている銀河座アクターの人数×2%上昇させる(この効果は重複する)</size>",
+    "type": "Amplification",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20671
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 1,
+        "id": 1422601
+      },
+      {
+        "order": 2,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20672
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 2,
+        "id": 1422602
+      },
+      {
+        "order": 3,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20673
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 3,
+        "id": 1422603
+      },
+      {
+        "order": 4,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20674
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 4,
+        "id": 1422604
+      },
+      {
+        "order": 5,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20675
+          }
+        ],
+        "judgeType1": "MoreThan",
+        "parameter1": 5,
+        "id": 1422605
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 610,
+    "scoreUpPerLevel": 60,
+    "lightCount": 1,
+    "coolTime": 45,
+    "branchCondition1": "CharacterBaseGroup",
+    "conditionValue1": 300,
+    "branchCondition2": "None",
+    "subTypes": []
+  },
+  {
+    "id": 142270,
+    "name": "やっぱりおうちが一番！",
+    "description": "[:score]倍のスコアを獲得／センス発動時に、追加で「特殊の光」を1個獲得する／センス発動後、プリンシパルゲージの上限値が[:param11]上昇",
+    "type": "Amplification",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20095
+          }
+        ],
+        "id": 1422701
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 510,
+    "scoreUpPerLevel": 40,
+    "lightCount": 1,
+    "coolTime": 30,
+    "branchCondition1": "None",
+    "branchCondition2": "None",
+    "subTypes": []
+  },
+  {
+    "id": 142280,
+    "name": "新たなる王、翠玉の戴冠",
+    "description": "<size=28%>[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／叶羽が隣に編成された状態でセンスを発動したとき、自身もセンスを発動する(センスの光は獲得出来ない)</size>",
+    "type": "Support",
+    "preEffects": [
+      {
+        "order": 1,
+        "effectMasterId": 28016
+      }
+    ],
+    "branches": [],
+    "acquirableGauge": 130,
+    "acquirableScorePercent": 240,
+    "scoreUpPerLevel": 70,
+    "lightCount": 1,
+    "coolTime": 65,
+    "branchCondition1": "None",
+    "branchCondition2": "None",
+    "subTypes": []
+  },
+  {
+    "id": 142290,
+    "name": "駆けまわれ！　ホワイトバニー！",
+    "description": "<size=24%>[:score]倍のスコアを獲得／センス発動後、現在のプリンシパルゲージ上限の[:param11]%分のプリンシパルゲージを獲得する／ライフガードを10回付与する／センス発動直後、自身の集中力の[:param13]倍のスコアを獲得</size>",
+    "type": "Amplification",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20632
+          },
+          {
+            "order": 2,
+            "effectMasterId": 29313
+          },
+          {
+            "order": 3,
+            "effectMasterId": 20537
+          }
+        ],
+        "id": 1422901
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 220,
+    "scoreUpPerLevel": 60,
+    "lightCount": 2,
+    "coolTime": 45,
+    "branchCondition1": "None",
+    "branchCondition2": "None",
+    "subTypes": []
+  },
+  {
+    "id": 142300,
+    "name": "うさぎは卵を傍らに",
+    "description": "<size=28%>[:score]倍のスコアを獲得／センス発動時、追加で「特殊の光」・「支配の光」を1個獲得する／ライフが多いほどスコア獲得量UP効果（最大＋[:pre1]%）</size>",
+    "type": "Support",
+    "preEffects": [
+      {
+        "order": 1,
+        "effectMasterId": 28005
+      }
+    ],
+    "branches": [],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 670,
+    "scoreUpPerLevel": 60,
+    "lightCount": 1,
+    "coolTime": 50,
+    "branchCondition1": "None",
+    "branchCondition2": "None",
+    "subTypes": []
+  },
+  {
+    "id": 142310,
+    "name": "暴かれた真の歌姫",
+    "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／センス発動後、プリンシパルゲージの上限値が[:param11]上昇",
+    "type": "Control",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20096
+          }
+        ],
+        "id": 1423101
+      }
+    ],
+    "acquirableGauge": 120,
+    "acquirableScorePercent": 190,
+    "scoreUpPerLevel": 70,
+    "lightCount": 2,
+    "coolTime": 60,
+    "branchCondition1": "None",
+    "branchCondition2": "None",
+    "subTypes": []
+  },
+  {
+    "id": 142320,
+    "name": "なし",
+    "description": "ここな編成時、ここなが代わりにセンスを発動し、ここなのスコア獲得量[:pre1]％UP",
+    "type": "Alternative",
+    "preEffects": [
+      {
+        "order": 1,
+        "effectMasterId": 20024
+      }
+    ],
+    "branches": [],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 0,
+    "scoreUpPerLevel": 0,
+    "lightCount": 0,
+    "coolTime": 0,
+    "branchCondition1": "None",
+    "branchCondition2": "None",
+    "subTypes": []
+  },
+  {
+    "id": 142330,
+    "name": "伯爵はエンゲージリングに嗤う",
+    "description": "<size=24%>[:score]倍のスコアを獲得／センス発動時にライフガードを[:param11]個獲得／初魅が2つ隣までに編成された状態でセンスを発動したとき、自身もセンスを発動する(センスの光は獲得出来ない)</size>",
+    "type": "Control",
+    "preEffects": [
+      {
+        "order": 1,
+        "effectMasterId": 28017
+      }
+    ],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29302
+          }
+        ],
+        "id": 1423301
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 610,
+    "scoreUpPerLevel": 60,
+    "lightCount": 1,
+    "coolTime": 45,
+    "branchCondition1": "None",
+    "branchCondition2": "None",
+    "subTypes": []
+  },
+  {
+    "id": 142340,
+    "name": "歪んだ愛の成れの果て",
+    "description": "<size=26%>[:score]倍のスコアを獲得／センス発動時、追加で「SP光」を1個獲得する／センス発動時、付与されているライフガード1回につきプリンシパルゲージの上限値が20上昇（最大+200）</size>",
+    "type": "Amplification",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29111
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 1,
+        "id": 1423401
+      },
+      {
+        "order": 2,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29112
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 2,
+        "id": 1423402
+      },
+      {
+        "order": 3,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29113
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 3,
+        "id": 1423403
+      },
+      {
+        "order": 4,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29114
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 4,
+        "id": 1423404
+      },
+      {
+        "order": 5,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29115
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 5,
+        "id": 1423405
+      },
+      {
+        "order": 6,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29121
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 6,
+        "id": 1423406
+      },
+      {
+        "order": 7,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29122
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 7,
+        "id": 1423407
+      },
+      {
+        "order": 8,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29123
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 8,
+        "id": 1423408
+      },
+      {
+        "order": 9,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29124
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 9,
+        "id": 1423409
+      },
+      {
+        "order": 10,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29125
+          }
+        ],
+        "judgeType1": "MoreThan",
+        "parameter1": 10,
+        "id": 1423410
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 840,
+    "scoreUpPerLevel": 70,
+    "lightCount": 1,
+    "coolTime": 65,
+    "branchCondition1": "LifeGuardCount",
+    "branchCondition2": "None",
+    "subTypes": []
+  },
+  {
+    "id": 142350,
+    "name": "なし",
+    "description": "効果無し（所持している「光」は維持される）",
+    "type": "None",
+    "preEffects": [],
+    "branches": [],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 0,
+    "scoreUpPerLevel": 0,
+    "lightCount": 0,
+    "coolTime": 0,
+    "branchCondition1": "None",
+    "branchCondition2": "None",
+    "subTypes": []
+  },
+  {
+    "id": 142360,
+    "name": "ヘンゼルは甘くくつろいで",
+    "description": "<size=24%>[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／[:sec]秒間、劇団電姫のアクターにスターアクトスコア[:param11]％UP効果／美兎が隣に編成された状態でセンスを発動したとき、自身もセンスを発動する(センスの光は獲得出来ない)</size>",
+    "type": "Control",
+    "preEffects": [
+      {
+        "order": 1,
+        "effectMasterId": 28018
+      }
+    ],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20404
+          }
+        ],
+        "id": 1423601
+      }
+    ],
+    "acquirableGauge": 100,
+    "acquirableScorePercent": 160,
+    "scoreUpPerLevel": 60,
+    "lightCount": 1,
+    "coolTime": 45,
+    "branchCondition1": "None",
+    "branchCondition2": "None",
+    "subTypes": []
+  },
+  {
+    "id": 142370,
+    "name": "のんびりクエスト！",
+    "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／[:sec]秒間、シリウスのアクターにスターアクトスコア[:param11]％UP効果",
+    "type": "Special",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20105
+          }
+        ],
+        "id": 1423701
+      }
+    ],
+    "acquirableGauge": 100,
+    "acquirableScorePercent": 180,
+    "scoreUpPerLevel": 60,
+    "lightCount": 2,
+    "coolTime": 50,
+    "branchCondition1": "None",
+    "branchCondition2": "None",
+    "subTypes": []
+  },
+  {
+    "id": 142380,
+    "name": "ねむねむ守護竜",
+    "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／センス発動時、追加で「支援の光」を1個獲得する",
+    "type": "Special",
+    "preEffects": [],
+    "branches": [],
+    "acquirableGauge": 70,
+    "acquirableScorePercent": 120,
+    "scoreUpPerLevel": 40,
+    "lightCount": 1,
+    "coolTime": 25,
+    "branchCondition1": "None",
+    "branchCondition2": "None",
+    "subTypes": []
+  },
+  {
+    "id": 142390,
+    "name": "竜騎兵は妹の為、立ち上がり",
+    "description": "<size=28%>[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／付与されているライフガード1回につきプリンシパルゲージの上限値が20上昇（最大+100）</size>",
+    "type": "Support",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29111
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 1,
+        "id": 1423901
+      },
+      {
+        "order": 2,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29112
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 2,
+        "id": 1423902
+      },
+      {
+        "order": 3,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29113
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 3,
+        "id": 1423903
+      },
+      {
+        "order": 4,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29114
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 4,
+        "id": 1423904
+      },
+      {
+        "order": 5,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29115
+          }
+        ],
+        "judgeType1": "MoreThan",
+        "parameter1": 5,
+        "id": 1423905
+      }
+    ],
+    "acquirableGauge": 70,
+    "acquirableScorePercent": 120,
+    "scoreUpPerLevel": 40,
+    "lightCount": 1,
+    "coolTime": 25,
+    "branchCondition1": "LifeGuardCount",
+    "branchCondition2": "None",
+    "subTypes": []
+  },
+  {
+    "id": 142400,
+    "name": "花嫁は愛に溺れ、還らず",
+    "description": "<size=28%>[:score]倍のスコアを獲得／センス発動時、編成されているEdenアクターの演技力と演技力上限を、編成されているEdenアクターの人数×2%上昇させる(この効果は重複する)</size>",
+    "type": "Special",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20676
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 1,
+        "id": 1424001
+      },
+      {
+        "order": 2,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20677
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 2,
+        "id": 1424002
+      },
+      {
+        "order": 3,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20678
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 3,
+        "id": 1424003
+      },
+      {
+        "order": 4,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20679
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 4,
+        "id": 1424004
+      },
+      {
+        "order": 5,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20680
+          }
+        ],
+        "judgeType1": "MoreThan",
+        "parameter1": 5,
+        "id": 1424005
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 900,
+    "scoreUpPerLevel": 80,
+    "lightCount": 2,
+    "coolTime": 70,
+    "branchCondition1": "CharacterBaseGroup",
+    "conditionValue1": 200,
+    "branchCondition2": "None",
+    "subTypes": []
+  },
+  {
+    "id": 142410,
+    "name": "揺蕩歌姫、透き通る",
+    "description": "<size=26%>[:score]倍のスコアを獲得／センス発動時、追加で「特殊の光」を1個獲得する／センス発動後、プリンシパルゲージの上限値が[:param11]上昇／センス発動直後、その時のスコアの[:param12]％のスコアを獲得</size>",
+    "type": "Control",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20097
+          },
+          {
+            "order": 2,
+            "effectMasterId": 20544
+          }
+        ],
+        "id": 1424101
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 600,
+    "scoreUpPerLevel": 50,
+    "lightCount": 1,
+    "coolTime": 40,
+    "branchCondition1": "None",
+    "branchCondition2": "None",
+    "subTypes": []
+  },
+  {
+    "id": 142420,
+    "name": "乙姫リラクゼーション",
+    "description": "<size=28%>[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／センス発動後、現在のプリンシパルゲージ[:param11]%分のプリンシパルゲージを追加で獲得する</size>",
+    "type": "Amplification",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20601
+          }
+        ],
+        "id": 1424201
+      }
+    ],
+    "acquirableGauge": 70,
+    "acquirableScorePercent": 120,
+    "scoreUpPerLevel": 40,
+    "lightCount": 2,
+    "coolTime": 25,
+    "branchCondition1": "None",
+    "branchCondition2": "None",
+    "subTypes": []
+  },
+  {
+    "id": 142430,
+    "name": "共に上りゆく契りの階段",
+    "description": "<size=28%>[:score]倍のスコアを獲得／センス発動時、追加で「増幅の光」・「支援の光」を1個獲得する／[:sec]秒間、Edenのアクターにスターアクトスコア[:param11]％UP効果</size>",
+    "type": "Special",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20203
+          }
+        ],
+        "id": 1424301
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 250,
+    "scoreUpPerLevel": 60,
+    "lightCount": 1,
+    "coolTime": 50,
+    "branchCondition1": "None",
+    "branchCondition2": "None",
+    "subTypes": []
+  },
+  {
+    "id": 142440,
+    "name": "誓いの言葉は照れくさくて",
+    "description": "<size=24%>[:score]倍のスコアを獲得／センス発動直後、自身の集中力の[:param11]倍のスコアを獲得／センス発動後、プリンシパルゲージの上限値が[:param12]上昇／暦が隣に編成された状態でセンスを発動したとき、自身もセンスを発動する(センスの光は獲得出来ない)</size>",
+    "type": "Amplification",
+    "preEffects": [
+      {
+        "order": 1,
+        "effectMasterId": 28019
+      }
+    ],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20550
+          },
+          {
+            "order": 2,
+            "effectMasterId": 20096
+          }
+        ],
+        "id": 1424401
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 610,
+    "scoreUpPerLevel": 60,
+    "lightCount": 1,
+    "coolTime": 45,
+    "branchCondition1": "None",
+    "branchCondition2": "None",
+    "subTypes": []
+  },
+  {
+    "id": 142450,
+    "name": "悪夢の終わりは突然で",
+    "description": "<size=26%>[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／仁花子が隣に編成された状態でセンスを発動したとき、自身もセンスを発動する(センスの光は獲得出来ない)</size>",
+    "type": "Control",
+    "preEffects": [
+      {
+        "order": 1,
+        "effectMasterId": 28011
+      }
+    ],
+    "branches": [],
+    "acquirableGauge": 140,
+    "acquirableScorePercent": 250,
+    "scoreUpPerLevel": 80,
+    "lightCount": 2,
+    "coolTime": 70,
+    "branchCondition1": "None",
+    "branchCondition2": "None",
+    "subTypes": []
+  },
+  {
+    "id": 142460,
+    "name": "妻たちのもとへ墜ちていく",
+    "description": "<size=26%>[:score]倍のスコアを獲得／付与されているライフガード1回につきプリンシパルゲージの上限値が20上昇（最大+100）／センス発動直後、その時のスコアの[:param12]％のスコアを獲得</size>",
+    "type": "Control",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 2,
+            "effectMasterId": 20543
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 0,
+        "id": 1424601
+      },
+      {
+        "order": 2,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29111
+          },
+          {
+            "order": 2,
+            "effectMasterId": 20543
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 1,
+        "id": 1424602
+      },
+      {
+        "order": 3,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29112
+          },
+          {
+            "order": 2,
+            "effectMasterId": 20543
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 2,
+        "id": 1424603
+      },
+      {
+        "order": 4,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29113
+          },
+          {
+            "order": 2,
+            "effectMasterId": 20543
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 3,
+        "id": 1424604
+      },
+      {
+        "order": 5,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29114
+          },
+          {
+            "order": 2,
+            "effectMasterId": 20543
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 4,
+        "id": 1424605
+      },
+      {
+        "order": 6,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29115
+          },
+          {
+            "order": 2,
+            "effectMasterId": 20543
+          }
+        ],
+        "judgeType1": "MoreThan",
+        "parameter1": 5,
+        "id": 1424606
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 610,
+    "scoreUpPerLevel": 60,
+    "lightCount": 1,
+    "coolTime": 45,
+    "branchCondition1": "LifeGuardCount",
+    "branchCondition2": "None",
+    "subTypes": []
+  },
+  {
+    "id": 142470,
+    "name": "太陽神は月を想う",
+    "description": "<size=22%>[:score]倍のスコアを獲得／センス発動時、編成されているシリウスアクターの演技力と演技力上限を、編成されているシリウスアクターの人数×3%上昇させる(この効果は重複する)／ライフが多いほどスコア獲得量UP効果（最大＋[:pre1]%）</size>",
+    "type": "Support",
+    "preEffects": [
+      {
+        "order": 1,
+        "effectMasterId": 28005
+      }
+    ],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20681
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 1,
+        "id": 1424701
+      },
+      {
+        "order": 2,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20682
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 2,
+        "id": 1424702
+      },
+      {
+        "order": 3,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20683
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 3,
+        "id": 1424703
+      },
+      {
+        "order": 4,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20684
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 4,
+        "id": 1424704
+      },
+      {
+        "order": 5,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20685
+          }
+        ],
+        "judgeType1": "MoreThan",
+        "parameter1": 5,
+        "id": 1424705
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 670,
+    "scoreUpPerLevel": 60,
+    "lightCount": 2,
+    "coolTime": 50,
+    "branchCondition1": "CharacterBaseGroup",
+    "conditionValue1": 100,
+    "branchCondition2": "None",
+    "subTypes": []
+  },
+  {
+    "id": 142480,
+    "name": "なし",
+    "description": "ここな編成時、ここなが代わりにセンスを発動し、ここなのスコア獲得量[:pre1]％UP",
+    "type": "Alternative",
+    "preEffects": [
+      {
+        "order": 1,
+        "effectMasterId": 20025
+      }
+    ],
+    "branches": [],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 0,
+    "scoreUpPerLevel": 0,
+    "lightCount": 0,
+    "coolTime": 0,
+    "branchCondition1": "None",
+    "branchCondition2": "None",
+    "subTypes": []
+  },
+  {
+    "id": 142490,
+    "name": "目指し続ける Brand new world",
+    "description": "<size=26%>[:score]倍のスコアを獲得／編成されているアクターのCTを[:param11]秒短縮／センス発動後、現在のプリンシパルゲージ[:param12]%分のプリンシパルゲージを追加で獲得する</size>",
+    "type": "Support",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 21024
+          },
+          {
+            "order": 2,
+            "effectMasterId": 20601
+          }
+        ],
+        "id": 1424901
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 720,
+    "scoreUpPerLevel": 60,
+    "lightCount": 2,
+    "coolTime": 55,
+    "branchCondition1": "None",
+    "branchCondition2": "None",
+    "subTypes": []
+  },
+  {
+    "id": 142500,
+    "name": "なし",
+    "description": "効果無し（所持している「光」は維持される）",
+    "type": "None",
+    "preEffects": [],
+    "branches": [],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 0,
+    "scoreUpPerLevel": 0,
+    "lightCount": 0,
+    "coolTime": 0,
+    "branchCondition1": "None",
+    "branchCondition2": "None",
+    "subTypes": []
+  },
+  {
+    "id": 142510,
+    "name": "主神はあなたを見初めて",
+    "description": "<size=20%>[:score]倍のスコアを獲得／センス発動時、編成されているシリウスアクターの演技力と演技力上限を、編成されているシリウスアクターの人数×3%上昇させる(この効果は重複する)／ここなが2つ隣までに編成された状態でセンスを発動したとき、自身もセンスを発動する(センスの光は獲得出来ない)</size>",
+    "type": "Control",
+    "preEffects": [
+      {
+        "order": 1,
+        "effectMasterId": 28020
+      }
+    ],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20681
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 1,
+        "id": 1425101
+      },
+      {
+        "order": 2,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20682
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 2,
+        "id": 1425102
+      },
+      {
+        "order": 3,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20683
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 3,
+        "id": 1425103
+      },
+      {
+        "order": 4,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20684
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 4,
+        "id": 1425104
+      },
+      {
+        "order": 5,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20685
+          }
+        ],
+        "judgeType1": "MoreThan",
+        "parameter1": 5,
+        "id": 1425105
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 610,
+    "scoreUpPerLevel": 60,
+    "lightCount": 1,
+    "coolTime": 45,
+    "branchCondition1": "CharacterBaseGroup",
+    "conditionValue1": 100,
+    "branchCondition2": "None",
+    "subTypes": []
+  },
+  {
+    "id": 142520,
+    "name": "海神は宴の為に海を裂き",
+    "description": "<size=24%>[:score]倍のスコアを獲得／[:sec]秒間、銀河座のアクターにスターアクトスコア[:param11]％UP効果／センス発動後、現在のプリンシパルゲージ[:param12]%分のプリンシパルゲージを追加で獲得する</size>",
+    "type": "Special",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20305
+          },
+          {
+            "order": 2,
+            "effectMasterId": 20601
+          }
+        ],
+        "id": 1425201
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 600,
+    "scoreUpPerLevel": 50,
+    "lightCount": 1,
+    "coolTime": 40,
+    "branchCondition1": "None",
+    "branchCondition2": "None",
+    "subTypes": []
+  },
+  {
     "id": 150010,
     "name": "一度道を違えた絆でも",
     "description": "<size=25%>[:score]倍のスコアを獲得／センス発動直後、自身の歌唱力の[:param12]倍のスコアを獲得／シリウスまたは銀河座アクターの編成数×[:param11]プリンシパルゲージの上限が上昇する</size>",
@@ -8972,5 +10705,278 @@
     "subTypes": [
       "Control"
     ]
+  },
+  {
+    "id": 150030,
+    "name": "Sky Fleet & Oratorio!",
+    "description": "<size=24%>[:score]倍のスコアを獲得／センス発動後、付与されているライフガード1回につきプリンシパルゲージを60獲得（最大+300）／ライフが多いほどスコア獲得量UP効果（最大＋[:pre1]%）</size>",
+    "type": "Special",
+    "preEffects": [
+      {
+        "order": 1,
+        "effectMasterId": 28005
+      }
+    ],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20114
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 1,
+        "id": 1500301
+      },
+      {
+        "order": 2,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20115
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 2,
+        "id": 1500302
+      },
+      {
+        "order": 3,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20116
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 3,
+        "id": 1500303
+      },
+      {
+        "order": 4,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20117
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 4,
+        "id": 1500304
+      },
+      {
+        "order": 5,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20118
+          }
+        ],
+        "judgeType1": "MoreThan",
+        "parameter1": 5,
+        "id": 1500305
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 1420,
+    "scoreUpPerLevel": 130,
+    "lightCount": 1,
+    "coolTime": 90,
+    "branchCondition1": "LifeGuardCount",
+    "branchCondition2": "None",
+    "subTypes": [
+      "Control"
+    ]
+  },
+  {
+    "id": 150033,
+    "name": "Sky Fleet & Oratorio!",
+    "description": "<size=28%>[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／センス発動時、シリウスまたはEdenアクターの編成数×[:param11]秒、編成されているアクターのCTを短縮</size>",
+    "type": "Control",
+    "preEffects": [],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 21019
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 1,
+        "id": 1500331
+      },
+      {
+        "order": 2,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 21020
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 2,
+        "id": 1500332
+      },
+      {
+        "order": 3,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 21021
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 3,
+        "id": 1500333
+      },
+      {
+        "order": 4,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 21022
+          }
+        ],
+        "judgeType1": "Equal",
+        "parameter1": 4,
+        "id": 1500334
+      },
+      {
+        "order": 5,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 21023
+          }
+        ],
+        "judgeType1": "MoreThan",
+        "parameter1": 5,
+        "id": 1500335
+      }
+    ],
+    "acquirableGauge": 90,
+    "acquirableScorePercent": 440,
+    "scoreUpPerLevel": 40,
+    "lightCount": 1,
+    "coolTime": 40,
+    "branchCondition1": "CharacterBaseGroup",
+    "conditionValue1": 10,
+    "branchCondition2": "None",
+    "subTypes": [
+      "Special"
+    ]
+  },
+  {
+    "id": 150040,
+    "name": "姉妹は手を取り合って",
+    "description": "<size=22%>[:score]倍のスコアを獲得／センス発動時、プリンシパルゲージの上限値が[:param11]上昇／センス発動後、追加で[:param12]のプリンシパルゲージを獲得／ラモーナ・叶羽が隣に編成された状態でセンスを発動したとき、自身もセンスを発動する(センスの光は獲得出来ない)</size>",
+    "type": "Special",
+    "preEffects": [
+      {
+        "order": 1,
+        "effectMasterId": 28012
+      },
+      {
+        "order": 2,
+        "effectMasterId": 28016
+      }
+    ],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 29126
+          },
+          {
+            "order": 2,
+            "effectMasterId": 20083
+          }
+        ],
+        "id": 1500401
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 740,
+    "scoreUpPerLevel": 70,
+    "lightCount": 2,
+    "coolTime": 60,
+    "branchCondition1": "None",
+    "branchCondition2": "None",
+    "subTypes": []
+  },
+  {
+    "id": 150043,
+    "name": "なし",
+    "description": "効果無し（所持している「光」は維持される）",
+    "type": "None",
+    "preEffects": [],
+    "branches": [],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 0,
+    "scoreUpPerLevel": 0,
+    "lightCount": 0,
+    "coolTime": 0,
+    "branchCondition1": "None",
+    "branchCondition2": "None",
+    "subTypes": []
+  },
+  {
+    "id": 150050,
+    "name": "なし",
+    "description": "ここなが代わりにセンスを発動し、ここなのスコア獲得量[:pre1]％UP",
+    "type": "Alternative",
+    "preEffects": [
+      {
+        "order": 1,
+        "effectMasterId": 20026
+      }
+    ],
+    "branches": [],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 0,
+    "scoreUpPerLevel": 0,
+    "lightCount": 0,
+    "coolTime": 0,
+    "branchCondition1": "None",
+    "branchCondition2": "None",
+    "subTypes": []
+  },
+  {
+    "id": 150053,
+    "name": "再び繋がる、希望の光へ！",
+    "description": "<size=22%>[:score]倍のスコアを獲得／センス発動時、追加で「特殊の光」を1個獲得する／センス発動後、現在のプリンシパルゲージ[:param11]%分のプリンシパルゲージを追加で獲得する／ライフが多いほどスコア獲得量UP効果（最大＋[:pre1]%）</size>",
+    "type": "Support",
+    "preEffects": [
+      {
+        "order": 1,
+        "effectMasterId": 28021
+      }
+    ],
+    "branches": [
+      {
+        "order": 1,
+        "branchEffects": [
+          {
+            "order": 1,
+            "effectMasterId": 20601
+          }
+        ],
+        "id": 1500531
+      }
+    ],
+    "acquirableGauge": 0,
+    "acquirableScorePercent": 1580,
+    "scoreUpPerLevel": 140,
+    "lightCount": 2,
+    "coolTime": 95,
+    "branchCondition1": "None",
+    "branchCondition2": "None",
+    "subTypes": []
   }
 ]

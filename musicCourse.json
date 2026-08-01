@@ -1127,7 +1127,6 @@
     "initialLife": 400,
     "requiredAmount": 0,
     "startDate": 1759424400.0,
-    "endDate": 1769922000.0,
     "unlockCondition": "None",
     "details": [
       {
@@ -1161,7 +1160,6 @@
     "initialLife": 1000,
     "requiredAmount": 0,
     "startDate": 1759424400.0,
-    "endDate": 1769922000.0,
     "unlockCondition": "None",
     "details": [
       {
@@ -1195,7 +1193,6 @@
     "initialLife": 9,
     "requiredAmount": 0,
     "startDate": 1761843600.0,
-    "endDate": 1769922000.0,
     "unlockCondition": "None",
     "details": [
       {
@@ -1229,7 +1226,6 @@
     "initialLife": 80,
     "requiredAmount": 0,
     "startDate": 1764262800.0,
-    "endDate": 1769922000.0,
     "unlockCondition": "None",
     "details": [
       {
@@ -1263,7 +1259,6 @@
     "initialLife": 700,
     "requiredAmount": 0,
     "startDate": 1764262800.0,
-    "endDate": 1769922000.0,
     "unlockCondition": "None",
     "details": [
       {
@@ -1297,7 +1292,6 @@
     "initialLife": 300,
     "requiredAmount": 0,
     "startDate": 1766682000.0,
-    "endDate": 1769922000.0,
     "unlockCondition": "None",
     "details": [
       {
@@ -1317,6 +1311,840 @@
         "setListNumber": 3,
         "vocalVersion": 1,
         "anotherNotationMasterId": 57
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "name": "譜面チームベストセレクトコース Vol.1【STELLA部門】",
+    "musicCourseType": "Special",
+    "order": 15,
+    "initialLife": 300,
+    "requiredAmount": 0,
+    "startDate": 1768842000.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 7501,
+        "setListNumber": 1,
+        "liveMasterId": 5404,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 7502,
+        "setListNumber": 2,
+        "liveMasterId": 9704,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 7503,
+        "setListNumber": 3,
+        "liveMasterId": 21904,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "name": "譜面チームベストセレクトコース Vol.1【OLIVIER部門】",
+    "musicCourseType": "Special",
+    "order": 16,
+    "initialLife": 300,
+    "requiredAmount": 0,
+    "startDate": 1768842000.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 7601,
+        "setListNumber": 1,
+        "liveMasterId": 11805,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 7602,
+        "setListNumber": 2,
+        "liveMasterId": 6205,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 7603,
+        "setListNumber": 3,
+        "liveMasterId": 20205,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "name": "ランダムコース～スタンダード～ 【STELLA部門】",
+    "musicCourseType": "Special",
+    "order": 17,
+    "initialLife": 90,
+    "requiredAmount": 0,
+    "startDate": 1771520400.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 7701,
+        "setListNumber": 1,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0,
+        "randomDifficulty": "Stella",
+        "randomLevel": 25
+      },
+      {
+        "id": 7702,
+        "setListNumber": 2,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0,
+        "randomDifficulty": "Stella",
+        "randomLevel": 26
+      },
+      {
+        "id": 7703,
+        "setListNumber": 3,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0,
+        "randomDifficulty": "Stella",
+        "randomLevel": 27
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "name": "ランダムコース～スタンダード～ 【OLIVIER部門】",
+    "musicCourseType": "Special",
+    "order": 18,
+    "initialLife": 200,
+    "requiredAmount": 0,
+    "startDate": 1771520400.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 7801,
+        "setListNumber": 1,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0,
+        "randomDifficulty": "Olivier",
+        "randomLevel": 105
+      },
+      {
+        "id": 7802,
+        "setListNumber": 2,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0,
+        "randomDifficulty": "Olivier",
+        "randomLevel": 106
+      },
+      {
+        "id": 7803,
+        "setListNumber": 3,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0,
+        "randomDifficulty": "Olivier",
+        "randomLevel": 107
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "name": "ランダムコース～アドバンス～ 【STELLA部門】",
+    "musicCourseType": "Special",
+    "order": 19,
+    "initialLife": 80,
+    "requiredAmount": 0,
+    "startDate": 1771520400.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 7901,
+        "setListNumber": 1,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0,
+        "randomDifficulty": "Stella",
+        "randomLevel": 28
+      },
+      {
+        "id": 7902,
+        "setListNumber": 2,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0,
+        "randomDifficulty": "Stella",
+        "randomLevel": 29
+      },
+      {
+        "id": 7903,
+        "setListNumber": 3,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0,
+        "randomDifficulty": "Stella",
+        "randomLevel": 30
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "name": "ランダムコース～アドバンス～ 【OLIVIER部門】",
+    "musicCourseType": "Special",
+    "order": 20,
+    "initialLife": 500,
+    "requiredAmount": 0,
+    "startDate": 1771520400.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 8001,
+        "setListNumber": 1,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0,
+        "randomDifficulty": "Olivier",
+        "randomLevel": 108
+      },
+      {
+        "id": 8002,
+        "setListNumber": 2,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0,
+        "randomDifficulty": "Olivier",
+        "randomLevel": 109
+      },
+      {
+        "id": 8003,
+        "setListNumber": 3,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0,
+        "randomDifficulty": "Olivier",
+        "randomLevel": 110
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "name": "カジュアル皆伝コース～2nd Season～【オモテ】",
+    "musicCourseType": "Special",
+    "order": 21,
+    "initialLife": 500,
+    "requiredAmount": 0,
+    "startDate": 1773939600.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 8101,
+        "setListNumber": 1,
+        "liveMasterId": 20904,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 8102,
+        "setListNumber": 2,
+        "liveMasterId": 4804,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 8103,
+        "setListNumber": 3,
+        "liveMasterId": 23604,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "name": "カジュアル皆伝コース～2nd Season～【ウラ】",
+    "musicCourseType": "Special",
+    "order": 22,
+    "initialLife": 1000,
+    "requiredAmount": 0,
+    "startDate": 1773939600.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 8201,
+        "setListNumber": 1,
+        "liveMasterId": 17905,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 8202,
+        "setListNumber": 2,
+        "liveMasterId": 20905,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 8203,
+        "setListNumber": 3,
+        "liveMasterId": 23605,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "name": "譜面チームベストセレクトコース Vol.2【STELLA部門】",
+    "musicCourseType": "Special",
+    "order": 23,
+    "initialLife": 300,
+    "requiredAmount": 0,
+    "startDate": 1776618000.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 8301,
+        "setListNumber": 1,
+        "liveMasterId": 20704,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 8302,
+        "setListNumber": 2,
+        "liveMasterId": 18804,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 8303,
+        "setListNumber": 3,
+        "liveMasterId": 22904,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "name": "譜面チームベストセレクトコース Vol.2【OLIVIER部門】",
+    "musicCourseType": "Special",
+    "order": 24,
+    "initialLife": 300,
+    "requiredAmount": 0,
+    "startDate": 1776618000.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 8401,
+        "setListNumber": 1,
+        "liveMasterId": 9905,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 8402,
+        "setListNumber": 2,
+        "liveMasterId": 4405,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 8403,
+        "setListNumber": 3,
+        "liveMasterId": 23805,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "name": "ヤネウラ狂奏曲",
+    "musicCourseType": "Special",
+    "order": 25,
+    "initialLife": 1000,
+    "requiredAmount": 0,
+    "startDate": 1779210000.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 8501,
+        "setListNumber": 1,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 30
+      },
+      {
+        "id": 8502,
+        "setListNumber": 2,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 100
+      },
+      {
+        "id": 8503,
+        "setListNumber": 3,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 58
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "name": "譜面チームベストセレクトコース Vol.3【STELLA部門】",
+    "musicCourseType": "Special",
+    "order": 26,
+    "initialLife": 300,
+    "requiredAmount": 0,
+    "startDate": 1781888400.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 8601,
+        "setListNumber": 1,
+        "liveMasterId": 12804,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 8602,
+        "setListNumber": 2,
+        "liveMasterId": 24004,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 8603,
+        "setListNumber": 3,
+        "liveMasterId": 24304,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "name": "譜面チームベストセレクトコース Vol.3【OLIVIER部門】",
+    "musicCourseType": "Special",
+    "order": 27,
+    "initialLife": 300,
+    "requiredAmount": 0,
+    "startDate": 1781888400.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 8701,
+        "setListNumber": 1,
+        "liveMasterId": 20405,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 8702,
+        "setListNumber": 2,
+        "liveMasterId": 12005,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 8703,
+        "setListNumber": 3,
+        "liveMasterId": 21705,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "name": "二人の軌跡コース【STELLA部門】",
+    "musicCourseType": "Special",
+    "order": 28,
+    "initialLife": 420,
+    "requiredAmount": 0,
+    "startDate": 1784480400.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 8801,
+        "setListNumber": 1,
+        "liveMasterId": 8204,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 8802,
+        "setListNumber": 2,
+        "liveMasterId": 4804,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 8803,
+        "setListNumber": 3,
+        "liveMasterId": 26304,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "name": "二人の軌跡コース【OLIVIER部門】",
+    "musicCourseType": "Special",
+    "order": 29,
+    "initialLife": 550,
+    "requiredAmount": 0,
+    "startDate": 1784480400.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 8901,
+        "setListNumber": 1,
+        "liveMasterId": 2505,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 8902,
+        "setListNumber": 2,
+        "liveMasterId": 7305,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 8903,
+        "setListNumber": 3,
+        "liveMasterId": 26305,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "name": "ドリーム・コンステレーション～シリウス～ 【STELLA部門】",
+    "musicCourseType": "Special",
+    "order": 30,
+    "initialLife": 150,
+    "requiredAmount": 0,
+    "startDate": 1785024000.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 9001,
+        "setListNumber": 1,
+        "liveMasterId": 1704,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 9002,
+        "setListNumber": 2,
+        "liveMasterId": 9804,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 9003,
+        "setListNumber": 3,
+        "liveMasterId": 23004,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "name": "ドリーム・コンステレーション～シリウス～ 【OLIVIER部門】",
+    "musicCourseType": "Special",
+    "order": 31,
+    "initialLife": 300,
+    "requiredAmount": 0,
+    "startDate": 1785024000.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 9101,
+        "setListNumber": 1,
+        "liveMasterId": 1705,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 9102,
+        "setListNumber": 2,
+        "liveMasterId": 9805,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 9103,
+        "setListNumber": 3,
+        "liveMasterId": 23005,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "name": "ドリーム・コンステレーション～Eden～ 【STELLA部門】",
+    "musicCourseType": "Special",
+    "order": 32,
+    "initialLife": 150,
+    "requiredAmount": 0,
+    "startDate": 1785024000.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 9201,
+        "setListNumber": 1,
+        "liveMasterId": 1904,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 9202,
+        "setListNumber": 2,
+        "liveMasterId": 20404,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 9203,
+        "setListNumber": 3,
+        "liveMasterId": 26104,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "name": "ドリーム・コンステレーション～Eden～ 【OLIVIER部門】",
+    "musicCourseType": "Special",
+    "order": 33,
+    "initialLife": 300,
+    "requiredAmount": 0,
+    "startDate": 1785024000.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 9301,
+        "setListNumber": 1,
+        "liveMasterId": 1905,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 9302,
+        "setListNumber": 2,
+        "liveMasterId": 20405,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 9303,
+        "setListNumber": 3,
+        "liveMasterId": 26105,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "name": "ドリーム・コンステレーション～銀河座～ 【STELLA部門】",
+    "musicCourseType": "Special",
+    "order": 34,
+    "initialLife": 150,
+    "requiredAmount": 0,
+    "startDate": 1785024000.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 9401,
+        "setListNumber": 1,
+        "liveMasterId": 2104,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 9402,
+        "setListNumber": 2,
+        "liveMasterId": 24504,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 9403,
+        "setListNumber": 3,
+        "liveMasterId": 24104,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "name": "ドリーム・コンステレーション～銀河座～ 【OLIVIER部門】",
+    "musicCourseType": "Special",
+    "order": 35,
+    "initialLife": 300,
+    "requiredAmount": 0,
+    "startDate": 1785024000.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 9501,
+        "setListNumber": 1,
+        "liveMasterId": 2105,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 9502,
+        "setListNumber": 2,
+        "liveMasterId": 24505,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 9503,
+        "setListNumber": 3,
+        "liveMasterId": 24105,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "name": "ドリーム・コンステレーション～劇団電姫～ 【STELLA部門】",
+    "musicCourseType": "Special",
+    "order": 36,
+    "initialLife": 150,
+    "requiredAmount": 0,
+    "startDate": 1785024000.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 9601,
+        "setListNumber": 1,
+        "liveMasterId": 2304,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 9602,
+        "setListNumber": 2,
+        "liveMasterId": 25604,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 9603,
+        "setListNumber": 3,
+        "liveMasterId": 25204,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "name": "ドリーム・コンステレーション～劇団電姫～ 【OLIVIER部門】",
+    "musicCourseType": "Special",
+    "order": 37,
+    "initialLife": 300,
+    "requiredAmount": 0,
+    "startDate": 1785024000.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 9701,
+        "setListNumber": 1,
+        "liveMasterId": 2305,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 9702,
+        "setListNumber": 2,
+        "liveMasterId": 25605,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 9703,
+        "setListNumber": 3,
+        "liveMasterId": 25205,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "name": "カジュアル皆伝コース～3rd Season～【オモテ】",
+    "musicCourseType": "Special",
+    "order": 38,
+    "initialLife": 500,
+    "requiredAmount": 0,
+    "startDate": 1786294800.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 9801,
+        "setListNumber": 1,
+        "liveMasterId": 14904,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 9802,
+        "setListNumber": 2,
+        "liveMasterId": 26204,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 9803,
+        "setListNumber": 3,
+        "liveMasterId": 21004,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "name": "カジュアル皆伝コース～3rd Season～【ウラ】",
+    "musicCourseType": "Special",
+    "order": 39,
+    "initialLife": 1000,
+    "requiredAmount": 0,
+    "startDate": 1786294800.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 9901,
+        "setListNumber": 1,
+        "liveMasterId": 17905,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 9902,
+        "setListNumber": 2,
+        "liveMasterId": 26205,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 9903,
+        "setListNumber": 3,
+        "liveMasterId": 4805,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
       }
     ]
   },
@@ -4261,6 +5089,2596 @@
     ]
   },
   {
+    "id": 284,
+    "name": "第43回 ウィークリーコース【STELLA部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 1,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1767632400.0,
+    "endDate": 1768176000.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 28401,
+        "setListNumber": 1,
+        "liveMasterId": 24204,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 28402,
+        "setListNumber": 2,
+        "liveMasterId": 7904,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 28403,
+        "setListNumber": 3,
+        "liveMasterId": 16604,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 285,
+    "name": "第43回 ウィークリーコース【OLIVIER部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 2,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1767632400.0,
+    "endDate": 1768176000.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 28501,
+        "setListNumber": 1,
+        "liveMasterId": 24205,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 28502,
+        "setListNumber": 2,
+        "liveMasterId": 7905,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 28503,
+        "setListNumber": 3,
+        "liveMasterId": 16605,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 286,
+    "name": "第44回 ウィークリーコース【STELLA部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 1,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1768237200.0,
+    "endDate": 1768780800.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 28601,
+        "setListNumber": 1,
+        "liveMasterId": 24304,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 28602,
+        "setListNumber": 2,
+        "liveMasterId": 10904,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 28603,
+        "setListNumber": 3,
+        "liveMasterId": 19404,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 287,
+    "name": "第44回 ウィークリーコース【OLIVIER部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 2,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1768237200.0,
+    "endDate": 1768780800.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 28701,
+        "setListNumber": 1,
+        "liveMasterId": 19505,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 28702,
+        "setListNumber": 2,
+        "liveMasterId": 20305,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 28703,
+        "setListNumber": 3,
+        "liveMasterId": 24305,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 288,
+    "name": "第45回 ウィークリーコース【STELLA部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 1,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1768842000.0,
+    "endDate": 1769385600.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 28801,
+        "setListNumber": 1,
+        "liveMasterId": 604,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 28802,
+        "setListNumber": 2,
+        "liveMasterId": 18404,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 28803,
+        "setListNumber": 3,
+        "liveMasterId": 10204,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 289,
+    "name": "第45回 ウィークリーコース【OLIVIER部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 2,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1768842000.0,
+    "endDate": 1769385600.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 28901,
+        "setListNumber": 1,
+        "liveMasterId": 805,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 28902,
+        "setListNumber": 2,
+        "liveMasterId": 605,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 28903,
+        "setListNumber": 3,
+        "liveMasterId": 18405,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 290,
+    "name": "第46回 ウィークリーコース【STELLA部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 1,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1769446800.0,
+    "endDate": 1769990400.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 29001,
+        "setListNumber": 1,
+        "liveMasterId": 18904,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 29002,
+        "setListNumber": 2,
+        "liveMasterId": 8704,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 29003,
+        "setListNumber": 3,
+        "liveMasterId": 15704,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 291,
+    "name": "第46回 ウィークリーコース【OLIVIER部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 2,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1769446800.0,
+    "endDate": 1769990400.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 29101,
+        "setListNumber": 1,
+        "liveMasterId": 22205,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 29102,
+        "setListNumber": 2,
+        "liveMasterId": 21105,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 29103,
+        "setListNumber": 3,
+        "liveMasterId": 7405,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 292,
+    "name": "第47回 ウィークリーコース【STELLA部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 1,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1770051600.0,
+    "endDate": 1770595200.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 29201,
+        "setListNumber": 1,
+        "liveMasterId": 12904,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 29202,
+        "setListNumber": 2,
+        "liveMasterId": 24504,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 29203,
+        "setListNumber": 3,
+        "liveMasterId": 20204,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 293,
+    "name": "第47回 ウィークリーコース【OLIVIER部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 2,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1770051600.0,
+    "endDate": 1770595200.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 29301,
+        "setListNumber": 1,
+        "liveMasterId": 24505,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 29302,
+        "setListNumber": 2,
+        "liveMasterId": 20205,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 29303,
+        "setListNumber": 3,
+        "liveMasterId": 22805,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 294,
+    "name": "第48回 ウィークリーコース【STELLA部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 1,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1770656400.0,
+    "endDate": 1771200000.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 29401,
+        "setListNumber": 1,
+        "liveMasterId": 10604,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 29402,
+        "setListNumber": 2,
+        "liveMasterId": 2604,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 29403,
+        "setListNumber": 3,
+        "liveMasterId": 24604,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 295,
+    "name": "第48回 ウィークリーコース【OLIVIER部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 2,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1770656400.0,
+    "endDate": 1771200000.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 29501,
+        "setListNumber": 1,
+        "liveMasterId": 23305,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 29502,
+        "setListNumber": 2,
+        "liveMasterId": 2605,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 29503,
+        "setListNumber": 3,
+        "liveMasterId": 24605,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 296,
+    "name": "第49回 ウィークリーコース【STELLA部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 1,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1771261200.0,
+    "endDate": 1771804800.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 29601,
+        "setListNumber": 1,
+        "liveMasterId": 9304,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 29602,
+        "setListNumber": 2,
+        "liveMasterId": 4004,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 29603,
+        "setListNumber": 3,
+        "liveMasterId": 9704,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 297,
+    "name": "第49回 ウィークリーコース【OLIVIER部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 2,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1771261200.0,
+    "endDate": 1771804800.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 29701,
+        "setListNumber": 1,
+        "liveMasterId": 9305,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 29702,
+        "setListNumber": 2,
+        "liveMasterId": 9705,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 29703,
+        "setListNumber": 3,
+        "liveMasterId": 4005,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 298,
+    "name": "第50回 ウィークリーコース【STELLA部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 1,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1771866000.0,
+    "endDate": 1772409600.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 29801,
+        "setListNumber": 1,
+        "liveMasterId": 12504,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 29802,
+        "setListNumber": 2,
+        "liveMasterId": 22604,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 29803,
+        "setListNumber": 3,
+        "liveMasterId": 4404,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 299,
+    "name": "第50回 ウィークリーコース【OLIVIER部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 2,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1771866000.0,
+    "endDate": 1772409600.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 29901,
+        "setListNumber": 1,
+        "liveMasterId": 7105,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 29902,
+        "setListNumber": 2,
+        "liveMasterId": 15605,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 29903,
+        "setListNumber": 3,
+        "liveMasterId": 12105,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 300,
+    "name": "第51回 ウィークリーコース【STELLA部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 1,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1772470800.0,
+    "endDate": 1773014400.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 30001,
+        "setListNumber": 1,
+        "liveMasterId": 19904,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 30002,
+        "setListNumber": 2,
+        "liveMasterId": 12804,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 30003,
+        "setListNumber": 3,
+        "liveMasterId": 16904,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 301,
+    "name": "第51回 ウィークリーコース【OLIVIER部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 2,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1772470800.0,
+    "endDate": 1773014400.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 30101,
+        "setListNumber": 1,
+        "liveMasterId": 7805,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 30102,
+        "setListNumber": 2,
+        "liveMasterId": 7005,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 30103,
+        "setListNumber": 3,
+        "liveMasterId": 16905,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 302,
+    "name": "第52回 ウィークリーコース【STELLA部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 1,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1773075600.0,
+    "endDate": 1773619200.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 30201,
+        "setListNumber": 1,
+        "liveMasterId": 18604,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 30202,
+        "setListNumber": 2,
+        "liveMasterId": 19704,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 30203,
+        "setListNumber": 3,
+        "liveMasterId": 11004,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 303,
+    "name": "第52回 ウィークリーコース【OLIVIER部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 2,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1773075600.0,
+    "endDate": 1773619200.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 30301,
+        "setListNumber": 1,
+        "liveMasterId": 18605,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 30302,
+        "setListNumber": 2,
+        "liveMasterId": 19705,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 30303,
+        "setListNumber": 3,
+        "liveMasterId": 11005,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 304,
+    "name": "第53回 ウィークリーコース【STELLA部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 1,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1773680400.0,
+    "endDate": 1774224000.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 30401,
+        "setListNumber": 1,
+        "liveMasterId": 2904,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 30402,
+        "setListNumber": 2,
+        "liveMasterId": 1004,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 30403,
+        "setListNumber": 3,
+        "liveMasterId": 15204,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 305,
+    "name": "第53回 ウィークリーコース【OLIVIER部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 2,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1773680400.0,
+    "endDate": 1774224000.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 30501,
+        "setListNumber": 1,
+        "liveMasterId": 1005,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 30502,
+        "setListNumber": 2,
+        "liveMasterId": 16005,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 30503,
+        "setListNumber": 3,
+        "liveMasterId": 8305,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 306,
+    "name": "第54回 ウィークリーコース【STELLA部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 1,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1774285200.0,
+    "endDate": 1774828800.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 30601,
+        "setListNumber": 1,
+        "liveMasterId": 24404,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 30602,
+        "setListNumber": 2,
+        "liveMasterId": 24704,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 30603,
+        "setListNumber": 3,
+        "liveMasterId": 25204,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 307,
+    "name": "第54回 ウィークリーコース【OLIVIER部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 2,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1774285200.0,
+    "endDate": 1774828800.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 30701,
+        "setListNumber": 1,
+        "liveMasterId": 24405,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 30702,
+        "setListNumber": 2,
+        "liveMasterId": 24705,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 30703,
+        "setListNumber": 3,
+        "liveMasterId": 25205,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 308,
+    "name": "第55回 ウィークリーコース【STELLA部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 1,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1774890000.0,
+    "endDate": 1775433600.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 30801,
+        "setListNumber": 1,
+        "liveMasterId": 6904,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 30802,
+        "setListNumber": 2,
+        "liveMasterId": 13004,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 30803,
+        "setListNumber": 3,
+        "liveMasterId": 14204,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 309,
+    "name": "第55回 ウィークリーコース【OLIVIER部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 2,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1774890000.0,
+    "endDate": 1775433600.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 30901,
+        "setListNumber": 1,
+        "liveMasterId": 6905,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 30902,
+        "setListNumber": 2,
+        "liveMasterId": 13005,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 30903,
+        "setListNumber": 3,
+        "liveMasterId": 14205,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 310,
+    "name": "第56回 ウィークリーコース【STELLA部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 1,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1775494800.0,
+    "endDate": 1776038400.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 31001,
+        "setListNumber": 1,
+        "liveMasterId": 16704,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 31002,
+        "setListNumber": 2,
+        "liveMasterId": 24004,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 31003,
+        "setListNumber": 3,
+        "liveMasterId": 704,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 311,
+    "name": "第56回 ウィークリーコース【OLIVIER部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 2,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1775494800.0,
+    "endDate": 1776038400.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 31101,
+        "setListNumber": 1,
+        "liveMasterId": 6505,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 31102,
+        "setListNumber": 2,
+        "liveMasterId": 24005,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 31103,
+        "setListNumber": 3,
+        "liveMasterId": 18205,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 312,
+    "name": "第57回 ウィークリーコース【STELLA部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 1,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1776099600.0,
+    "endDate": 1776643200.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 31201,
+        "setListNumber": 1,
+        "liveMasterId": 1104,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 31202,
+        "setListNumber": 2,
+        "liveMasterId": 1204,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 31203,
+        "setListNumber": 3,
+        "liveMasterId": 25404,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 313,
+    "name": "第57回 ウィークリーコース【OLIVIER部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 2,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1776099600.0,
+    "endDate": 1776643200.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 31301,
+        "setListNumber": 1,
+        "liveMasterId": 1105,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 31302,
+        "setListNumber": 2,
+        "liveMasterId": 1205,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 31303,
+        "setListNumber": 3,
+        "liveMasterId": 25405,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 314,
+    "name": "第58回 ウィークリーコース【STELLA部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 1,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1776704400.0,
+    "endDate": 1777248000.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 31401,
+        "setListNumber": 1,
+        "liveMasterId": 9904,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 31402,
+        "setListNumber": 2,
+        "liveMasterId": 3404,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 31403,
+        "setListNumber": 3,
+        "liveMasterId": 23804,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 315,
+    "name": "第58回 ウィークリーコース【OLIVIER部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 2,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1776704400.0,
+    "endDate": 1777248000.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 31501,
+        "setListNumber": 1,
+        "liveMasterId": 9905,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 31502,
+        "setListNumber": 2,
+        "liveMasterId": 3405,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 31503,
+        "setListNumber": 3,
+        "liveMasterId": 23805,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 316,
+    "name": "第59回 ウィークリーコース【STELLA部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 1,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1777309200.0,
+    "endDate": 1777852800.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 31601,
+        "setListNumber": 1,
+        "liveMasterId": 11604,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 31602,
+        "setListNumber": 2,
+        "liveMasterId": 6104,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 31603,
+        "setListNumber": 3,
+        "liveMasterId": 10304,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 317,
+    "name": "第59回 ウィークリーコース【OLIVIER部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 2,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1777309200.0,
+    "endDate": 1777852800.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 31701,
+        "setListNumber": 1,
+        "liveMasterId": 22105,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 31702,
+        "setListNumber": 2,
+        "liveMasterId": 11605,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 31703,
+        "setListNumber": 3,
+        "liveMasterId": 7105,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 318,
+    "name": "第60回 ウィークリーコース【STELLA部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 1,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1777914000.0,
+    "endDate": 1778457600.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 31801,
+        "setListNumber": 1,
+        "liveMasterId": 5404,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 31802,
+        "setListNumber": 2,
+        "liveMasterId": 15304,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 31803,
+        "setListNumber": 3,
+        "liveMasterId": 18504,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 319,
+    "name": "第60回 ウィークリーコース【OLIVIER部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 2,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1777914000.0,
+    "endDate": 1778457600.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 31901,
+        "setListNumber": 1,
+        "liveMasterId": 5405,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 31902,
+        "setListNumber": 2,
+        "liveMasterId": 15305,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 31903,
+        "setListNumber": 3,
+        "liveMasterId": 18505,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 320,
+    "name": "第61回 ウィークリーコース【STELLA部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 1,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1778518800.0,
+    "endDate": 1779062400.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 32001,
+        "setListNumber": 1,
+        "liveMasterId": 21104,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 32002,
+        "setListNumber": 2,
+        "liveMasterId": 25704,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 32003,
+        "setListNumber": 3,
+        "liveMasterId": 9504,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 321,
+    "name": "第61回 ウィークリーコース【OLIVIER部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 2,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1778518800.0,
+    "endDate": 1779062400.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 32101,
+        "setListNumber": 1,
+        "liveMasterId": 25705,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 32102,
+        "setListNumber": 2,
+        "liveMasterId": 21705,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 32103,
+        "setListNumber": 3,
+        "liveMasterId": 23905,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 322,
+    "name": "第62回 ウィークリーコース【STELLA部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 1,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1779123600.0,
+    "endDate": 1779667200.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 32201,
+        "setListNumber": 1,
+        "liveMasterId": 17804,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 32202,
+        "setListNumber": 2,
+        "liveMasterId": 13704,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 32203,
+        "setListNumber": 3,
+        "liveMasterId": 4204,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 323,
+    "name": "第62回 ウィークリーコース【OLIVIER部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 2,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1779123600.0,
+    "endDate": 1779667200.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 32301,
+        "setListNumber": 1,
+        "liveMasterId": 14705,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 32302,
+        "setListNumber": 2,
+        "liveMasterId": 13705,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 32303,
+        "setListNumber": 3,
+        "liveMasterId": 22905,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 324,
+    "name": "第63回 ウィークリーコース【STELLA部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 1,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1779728400.0,
+    "endDate": 1780272000.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 32401,
+        "setListNumber": 1,
+        "liveMasterId": 16304,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 32402,
+        "setListNumber": 2,
+        "liveMasterId": 8404,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 32403,
+        "setListNumber": 3,
+        "liveMasterId": 14004,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 325,
+    "name": "第63回 ウィークリーコース【OLIVIER部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 2,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1779728400.0,
+    "endDate": 1780272000.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 32501,
+        "setListNumber": 1,
+        "liveMasterId": 16305,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 32502,
+        "setListNumber": 2,
+        "liveMasterId": 14005,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 32503,
+        "setListNumber": 3,
+        "liveMasterId": 21805,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 326,
+    "name": "第64回 ウィークリーコース【STELLA部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 1,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1780333200.0,
+    "endDate": 1780876800.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 32601,
+        "setListNumber": 1,
+        "liveMasterId": 11504,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 32602,
+        "setListNumber": 2,
+        "liveMasterId": 5504,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 32603,
+        "setListNumber": 3,
+        "liveMasterId": 23804,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 327,
+    "name": "第64回 ウィークリーコース【OLIVIER部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 2,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1780333200.0,
+    "endDate": 1780876800.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 32701,
+        "setListNumber": 1,
+        "liveMasterId": 5505,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 32702,
+        "setListNumber": 2,
+        "liveMasterId": 1905,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 32703,
+        "setListNumber": 3,
+        "liveMasterId": 14305,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 328,
+    "name": "第65回 ウィークリーコース【STELLA部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 1,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1780938000.0,
+    "endDate": 1781481600.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 32801,
+        "setListNumber": 1,
+        "liveMasterId": 19104,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 32802,
+        "setListNumber": 2,
+        "liveMasterId": 6004,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 32803,
+        "setListNumber": 3,
+        "liveMasterId": 19604,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 329,
+    "name": "第65回 ウィークリーコース【OLIVIER部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 2,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1780938000.0,
+    "endDate": 1781481600.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 32901,
+        "setListNumber": 1,
+        "liveMasterId": 20505,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 32902,
+        "setListNumber": 2,
+        "liveMasterId": 3505,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 32903,
+        "setListNumber": 3,
+        "liveMasterId": 17305,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 330,
+    "name": "第66回 ウィークリーコース【STELLA部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 1,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1781542800.0,
+    "endDate": 1782086400.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 33001,
+        "setListNumber": 1,
+        "liveMasterId": 26004,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 33002,
+        "setListNumber": 2,
+        "liveMasterId": 5104,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 33003,
+        "setListNumber": 3,
+        "liveMasterId": 11304,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 331,
+    "name": "第66回 ウィークリーコース【OLIVIER部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 2,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1781542800.0,
+    "endDate": 1782086400.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 33101,
+        "setListNumber": 1,
+        "liveMasterId": 5105,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 33102,
+        "setListNumber": 2,
+        "liveMasterId": 26005,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 33103,
+        "setListNumber": 3,
+        "liveMasterId": 11305,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 332,
+    "name": "第67回 ウィークリーコース【STELLA部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 1,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1782147600.0,
+    "endDate": 1782691200.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 33201,
+        "setListNumber": 1,
+        "liveMasterId": 25504,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 33202,
+        "setListNumber": 2,
+        "liveMasterId": 25804,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 33203,
+        "setListNumber": 3,
+        "liveMasterId": 26104,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 333,
+    "name": "第67回 ウィークリーコース【OLIVIER部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 2,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1782147600.0,
+    "endDate": 1782691200.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 33301,
+        "setListNumber": 1,
+        "liveMasterId": 25505,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 33302,
+        "setListNumber": 2,
+        "liveMasterId": 25805,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 33303,
+        "setListNumber": 3,
+        "liveMasterId": 26105,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 334,
+    "name": "第68回 ウィークリーコース【STELLA部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 1,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1782752400.0,
+    "endDate": 1783296000.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 33401,
+        "setListNumber": 1,
+        "liveMasterId": 20804,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 33402,
+        "setListNumber": 2,
+        "liveMasterId": 9004,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 33403,
+        "setListNumber": 3,
+        "liveMasterId": 20704,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 335,
+    "name": "第68回 ウィークリーコース【OLIVIER部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 2,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1782752400.0,
+    "endDate": 1783296000.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 33501,
+        "setListNumber": 1,
+        "liveMasterId": 20805,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 33502,
+        "setListNumber": 2,
+        "liveMasterId": 9005,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 33503,
+        "setListNumber": 3,
+        "liveMasterId": 20705,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 336,
+    "name": "第69回 ウィークリーコース【STELLA部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 1,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1783357200.0,
+    "endDate": 1783900800.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 33601,
+        "setListNumber": 1,
+        "liveMasterId": 9404,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 33602,
+        "setListNumber": 2,
+        "liveMasterId": 104,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 33603,
+        "setListNumber": 3,
+        "liveMasterId": 204,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 337,
+    "name": "第69回 ウィークリーコース【OLIVIER部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 2,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1783357200.0,
+    "endDate": 1783900800.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 33701,
+        "setListNumber": 1,
+        "liveMasterId": 9405,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 33702,
+        "setListNumber": 2,
+        "liveMasterId": 105,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 33703,
+        "setListNumber": 3,
+        "liveMasterId": 205,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 338,
+    "name": "第70回 ウィークリーコース【STELLA部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 1,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1783962000.0,
+    "endDate": 1784505600.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 33801,
+        "setListNumber": 1,
+        "liveMasterId": 25604,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 33802,
+        "setListNumber": 2,
+        "liveMasterId": 15604,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 33803,
+        "setListNumber": 3,
+        "liveMasterId": 14604,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 339,
+    "name": "第70回 ウィークリーコース【OLIVIER部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 2,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1783962000.0,
+    "endDate": 1784505600.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 33901,
+        "setListNumber": 1,
+        "liveMasterId": 12505,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 33902,
+        "setListNumber": 2,
+        "liveMasterId": 25605,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 33903,
+        "setListNumber": 3,
+        "liveMasterId": 14605,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 340,
+    "name": "第71回 ウィークリーコース【STELLA部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 1,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1784566800.0,
+    "endDate": 1785110400.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 34001,
+        "setListNumber": 1,
+        "liveMasterId": 25904,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 34002,
+        "setListNumber": 2,
+        "liveMasterId": 6104,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 34003,
+        "setListNumber": 3,
+        "liveMasterId": 1304,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 341,
+    "name": "第71回 ウィークリーコース【OLIVIER部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 2,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1784566800.0,
+    "endDate": 1785110400.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 34101,
+        "setListNumber": 1,
+        "liveMasterId": 25905,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 34102,
+        "setListNumber": 2,
+        "liveMasterId": 10005,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 34103,
+        "setListNumber": 3,
+        "liveMasterId": 18605,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 342,
+    "name": "第72回 ウィークリーコース【STELLA部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 1,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1785171600.0,
+    "endDate": 1785715200.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 34201,
+        "setListNumber": 1,
+        "liveMasterId": 204,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 34202,
+        "setListNumber": 2,
+        "liveMasterId": 16804,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 34203,
+        "setListNumber": 3,
+        "liveMasterId": 11904,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 343,
+    "name": "第72回 ウィークリーコース【OLIVIER部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 2,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1785171600.0,
+    "endDate": 1785715200.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 34301,
+        "setListNumber": 1,
+        "liveMasterId": 22705,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 34302,
+        "setListNumber": 2,
+        "liveMasterId": 16505,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 34303,
+        "setListNumber": 3,
+        "liveMasterId": 305,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 344,
+    "name": "第73回 ウィークリーコース【STELLA部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 1,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1785776400.0,
+    "endDate": 1786320000.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 34401,
+        "setListNumber": 1,
+        "liveMasterId": 4604,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 34402,
+        "setListNumber": 2,
+        "liveMasterId": 23304,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 34403,
+        "setListNumber": 3,
+        "liveMasterId": 25404,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 345,
+    "name": "第73回 ウィークリーコース【OLIVIER部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 2,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1785776400.0,
+    "endDate": 1786320000.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 34501,
+        "setListNumber": 1,
+        "liveMasterId": 18705,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 34502,
+        "setListNumber": 2,
+        "liveMasterId": 19005,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 34503,
+        "setListNumber": 3,
+        "liveMasterId": 25405,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 346,
+    "name": "第74回 ウィークリーコース【STELLA部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 1,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1786381200.0,
+    "endDate": 1786924800.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 34601,
+        "setListNumber": 1,
+        "liveMasterId": 9404,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 34602,
+        "setListNumber": 2,
+        "liveMasterId": 6404,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 34603,
+        "setListNumber": 3,
+        "liveMasterId": 2304,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 347,
+    "name": "第74回 ウィークリーコース【OLIVIER部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 2,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1786381200.0,
+    "endDate": 1786924800.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 34701,
+        "setListNumber": 1,
+        "liveMasterId": 9405,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 34702,
+        "setListNumber": 2,
+        "liveMasterId": 7105,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 34703,
+        "setListNumber": 3,
+        "liveMasterId": 905,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 348,
+    "name": "第75回 ウィークリーコース【STELLA部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 1,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1786986000.0,
+    "endDate": 1787529600.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 34801,
+        "setListNumber": 1,
+        "liveMasterId": 5004,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 34802,
+        "setListNumber": 2,
+        "liveMasterId": 18304,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 34803,
+        "setListNumber": 3,
+        "liveMasterId": 6204,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 349,
+    "name": "第75回 ウィークリーコース【OLIVIER部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 2,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1786986000.0,
+    "endDate": 1787529600.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 34901,
+        "setListNumber": 1,
+        "liveMasterId": 5005,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 34902,
+        "setListNumber": 2,
+        "liveMasterId": 25105,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 34903,
+        "setListNumber": 3,
+        "liveMasterId": 6205,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 350,
+    "name": "第76回 ウィークリーコース【STELLA部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 1,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1787590800.0,
+    "endDate": 1788134400.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 35001,
+        "setListNumber": 1,
+        "liveMasterId": 11804,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 35002,
+        "setListNumber": 2,
+        "liveMasterId": 22404,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 35003,
+        "setListNumber": 3,
+        "liveMasterId": 16004,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 351,
+    "name": "第76回 ウィークリーコース【OLIVIER部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 2,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1787590800.0,
+    "endDate": 1788134400.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 35101,
+        "setListNumber": 1,
+        "liveMasterId": 4705,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 35102,
+        "setListNumber": 2,
+        "liveMasterId": 11705,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 35103,
+        "setListNumber": 3,
+        "liveMasterId": 22605,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 352,
+    "name": "第77回 ウィークリーコース【STELLA部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 1,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1788195600.0,
+    "endDate": 1788739200.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 35201,
+        "setListNumber": 1,
+        "liveMasterId": 404,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 35202,
+        "setListNumber": 2,
+        "liveMasterId": 10504,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 35203,
+        "setListNumber": 3,
+        "liveMasterId": 23204,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 353,
+    "name": "第77回 ウィークリーコース【OLIVIER部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 2,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1788195600.0,
+    "endDate": 1788739200.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 35301,
+        "setListNumber": 1,
+        "liveMasterId": 505,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 35302,
+        "setListNumber": 2,
+        "liveMasterId": 1505,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 35303,
+        "setListNumber": 3,
+        "liveMasterId": 1105,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 354,
+    "name": "第78回 ウィークリーコース【STELLA部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 1,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1788800400.0,
+    "endDate": 1789344000.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 35401,
+        "setListNumber": 1,
+        "liveMasterId": 5804,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 35402,
+        "setListNumber": 2,
+        "liveMasterId": 25304,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 35403,
+        "setListNumber": 3,
+        "liveMasterId": 5704,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 355,
+    "name": "第78回 ウィークリーコース【OLIVIER部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 2,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1788800400.0,
+    "endDate": 1789344000.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 35501,
+        "setListNumber": 1,
+        "liveMasterId": 9905,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 35502,
+        "setListNumber": 2,
+        "liveMasterId": 15505,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 35503,
+        "setListNumber": 3,
+        "liveMasterId": 25305,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 356,
+    "name": "第79回 ウィークリーコース【STELLA部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 1,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1789405200.0,
+    "endDate": 1789948800.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 35601,
+        "setListNumber": 1,
+        "liveMasterId": 26304,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 35602,
+        "setListNumber": 2,
+        "liveMasterId": 26404,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 35603,
+        "setListNumber": 3,
+        "liveMasterId": 26504,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 357,
+    "name": "第79回 ウィークリーコース【OLIVIER部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 2,
+    "initialLife": 300,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1789405200.0,
+    "endDate": 1789948800.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 35701,
+        "setListNumber": 1,
+        "liveMasterId": 26305,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 35702,
+        "setListNumber": 2,
+        "liveMasterId": 26405,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 35703,
+        "setListNumber": 3,
+        "liveMasterId": 26505,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
     "id": 500,
     "name": "2nd Anniv. Special Course【STELLA部門】",
     "musicCourseType": "WeeklyCourseRanking",
@@ -4325,6 +7743,76 @@
         "id": 50103,
         "setListNumber": 3,
         "liveMasterId": 23605,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 502,
+    "name": "3rd Anniv. Special Course【STELLA部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 1,
+    "initialLife": 726,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1785024000.0,
+    "endDate": 1786312800.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 50201,
+        "setListNumber": 1,
+        "liveMasterId": 6804,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 50202,
+        "setListNumber": 2,
+        "liveMasterId": 26504,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 50203,
+        "setListNumber": 3,
+        "liveMasterId": 20104,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 503,
+    "name": "3rd Anniv. Special Course【OLIVIER部門】",
+    "musicCourseType": "WeeklyCourseRanking",
+    "order": 2,
+    "initialLife": 726,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1785024000.0,
+    "endDate": 1786312800.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 50301,
+        "setListNumber": 1,
+        "liveMasterId": 6805,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 50302,
+        "setListNumber": 2,
+        "liveMasterId": 26505,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 50303,
+        "setListNumber": 3,
+        "liveMasterId": 20105,
         "vocalVersion": 1,
         "anotherNotationMasterId": 0
       }
@@ -5101,6 +8589,1530 @@
         "id": 151103,
         "setListNumber": 3,
         "liveMasterId": 23605,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 2001,
+    "name": "【初段】段位認定2026 3rd Season",
+    "musicCourseType": "DanClass",
+    "order": 1,
+    "initialLife": 150,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1769922000.0,
+    "endDate": 1785560400.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 200101,
+        "setListNumber": 1,
+        "liveMasterId": 15002,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 200102,
+        "setListNumber": 2,
+        "liveMasterId": 14002,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 200103,
+        "setListNumber": 3,
+        "liveMasterId": 16202,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 2002,
+    "name": "【二段】段位認定2026 3rd Season",
+    "musicCourseType": "DanClass",
+    "order": 2,
+    "initialLife": 140,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1769922000.0,
+    "endDate": 1785560400.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 200201,
+        "setListNumber": 1,
+        "liveMasterId": 2602,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 200202,
+        "setListNumber": 2,
+        "liveMasterId": 8602,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 200203,
+        "setListNumber": 3,
+        "liveMasterId": 1003,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 2003,
+    "name": "【三段】段位認定2026 3rd Season",
+    "musicCourseType": "DanClass",
+    "order": 3,
+    "initialLife": 130,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1769922000.0,
+    "endDate": 1785560400.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 200301,
+        "setListNumber": 1,
+        "liveMasterId": 22703,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 200302,
+        "setListNumber": 2,
+        "liveMasterId": 2903,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 200303,
+        "setListNumber": 3,
+        "liveMasterId": 4903,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 2004,
+    "name": "【四段】段位認定2026 3rd Season",
+    "musicCourseType": "DanClass",
+    "order": 4,
+    "initialLife": 120,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1769922000.0,
+    "endDate": 1785560400.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 200401,
+        "setListNumber": 1,
+        "liveMasterId": 19703,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 200402,
+        "setListNumber": 2,
+        "liveMasterId": 18003,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 200403,
+        "setListNumber": 3,
+        "liveMasterId": 11303,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 2005,
+    "name": "【五段】段位認定2026 3rd Season",
+    "musicCourseType": "DanClass",
+    "order": 5,
+    "initialLife": 110,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1769922000.0,
+    "endDate": 1785560400.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 200501,
+        "setListNumber": 1,
+        "liveMasterId": 13703,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 200502,
+        "setListNumber": 2,
+        "liveMasterId": 22304,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 200503,
+        "setListNumber": 3,
+        "liveMasterId": 5404,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 2006,
+    "name": "【六段】段位認定2026 3rd Season",
+    "musicCourseType": "DanClass",
+    "order": 6,
+    "initialLife": 100,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1769922000.0,
+    "endDate": 1785560400.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 200601,
+        "setListNumber": 1,
+        "liveMasterId": 16004,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 200602,
+        "setListNumber": 2,
+        "liveMasterId": 18904,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 200603,
+        "setListNumber": 3,
+        "liveMasterId": 12204,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 2007,
+    "name": "【七段】段位認定2026 3rd Season",
+    "musicCourseType": "DanClass",
+    "order": 7,
+    "initialLife": 85,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1769922000.0,
+    "endDate": 1785560400.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 200701,
+        "setListNumber": 1,
+        "liveMasterId": 11104,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 200702,
+        "setListNumber": 2,
+        "liveMasterId": 11704,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 200703,
+        "setListNumber": 3,
+        "liveMasterId": 20704,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 2008,
+    "name": "【八段】段位認定2026 3rd Season",
+    "musicCourseType": "DanClass",
+    "order": 8,
+    "initialLife": 70,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1769922000.0,
+    "endDate": 1785560400.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 200801,
+        "setListNumber": 1,
+        "liveMasterId": 18804,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 200802,
+        "setListNumber": 2,
+        "liveMasterId": 8904,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 200803,
+        "setListNumber": 3,
+        "liveMasterId": 5504,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 2009,
+    "name": "【九段】段位認定2026 3rd Season",
+    "musicCourseType": "DanClass",
+    "order": 9,
+    "initialLife": 50,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1771866000.0,
+    "endDate": 1785560400.0,
+    "unlockCondition": "ClearedMMusicCourseId",
+    "unlockConditionValue": 2008,
+    "details": [
+      {
+        "id": 200901,
+        "setListNumber": 1,
+        "liveMasterId": 9604,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 200902,
+        "setListNumber": 2,
+        "liveMasterId": 23804,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 200903,
+        "setListNumber": 3,
+        "liveMasterId": 22904,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 2010,
+    "name": "【十段】段位認定2026 3rd Season",
+    "musicCourseType": "DanClass",
+    "order": 10,
+    "initialLife": 30,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1773680400.0,
+    "endDate": 1785560400.0,
+    "unlockCondition": "ClearedMMusicCourseId",
+    "unlockConditionValue": 2009,
+    "details": [
+      {
+        "id": 201001,
+        "setListNumber": 1,
+        "liveMasterId": 3904,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 201002,
+        "setListNumber": 2,
+        "liveMasterId": 23904,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 201003,
+        "setListNumber": 3,
+        "liveMasterId": 17904,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 2011,
+    "name": "【皆伝】段位認定2026 3rd Season",
+    "musicCourseType": "DanClass",
+    "order": 11,
+    "initialLife": 20,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1775494800.0,
+    "endDate": 1785560400.0,
+    "unlockCondition": "ClearedMMusicCourseId",
+    "unlockConditionValue": 2010,
+    "details": [
+      {
+        "id": 201101,
+        "setListNumber": 1,
+        "liveMasterId": 14904,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 201102,
+        "setListNumber": 2,
+        "liveMasterId": 26204,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 201103,
+        "setListNumber": 3,
+        "liveMasterId": 21004,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 2501,
+    "name": "【初段】段位認定2026 3rd Seasonウラ",
+    "musicCourseType": "AdvancedDanClass",
+    "order": 1,
+    "initialLife": 160,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1769922000.0,
+    "endDate": 1785560400.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 250101,
+        "setListNumber": 1,
+        "liveMasterId": 24405,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 250102,
+        "setListNumber": 2,
+        "liveMasterId": 22705,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 250103,
+        "setListNumber": 3,
+        "liveMasterId": 1005,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 2502,
+    "name": "【二段】段位認定2026 3rd Seasonウラ",
+    "musicCourseType": "AdvancedDanClass",
+    "order": 2,
+    "initialLife": 150,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1769922000.0,
+    "endDate": 1785560400.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 250201,
+        "setListNumber": 1,
+        "liveMasterId": 18605,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 250202,
+        "setListNumber": 2,
+        "liveMasterId": 16305,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 250203,
+        "setListNumber": 3,
+        "liveMasterId": 7705,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 2503,
+    "name": "【三段】段位認定2026 3rd Seasonウラ",
+    "musicCourseType": "AdvancedDanClass",
+    "order": 3,
+    "initialLife": 140,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1769922000.0,
+    "endDate": 1785560400.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 250301,
+        "setListNumber": 1,
+        "liveMasterId": 20505,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 250302,
+        "setListNumber": 2,
+        "liveMasterId": 22405,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 250303,
+        "setListNumber": 3,
+        "liveMasterId": 20805,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 2504,
+    "name": "【四段】段位認定2026 3rd Seasonウラ",
+    "musicCourseType": "AdvancedDanClass",
+    "order": 4,
+    "initialLife": 130,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1769922000.0,
+    "endDate": 1785560400.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 250401,
+        "setListNumber": 1,
+        "liveMasterId": 18505,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 250402,
+        "setListNumber": 2,
+        "liveMasterId": 23705,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 250403,
+        "setListNumber": 3,
+        "liveMasterId": 18405,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 2505,
+    "name": "【五段】段位認定2026 3rd Seasonウラ",
+    "musicCourseType": "AdvancedDanClass",
+    "order": 5,
+    "initialLife": 120,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1769922000.0,
+    "endDate": 1785560400.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 250501,
+        "setListNumber": 1,
+        "liveMasterId": 24105,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 250502,
+        "setListNumber": 2,
+        "liveMasterId": 21605,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 250503,
+        "setListNumber": 3,
+        "liveMasterId": 17505,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 2506,
+    "name": "【六段】段位認定2026 3rd Seasonウラ",
+    "musicCourseType": "AdvancedDanClass",
+    "order": 6,
+    "initialLife": 110,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1769922000.0,
+    "endDate": 1785560400.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 250601,
+        "setListNumber": 1,
+        "liveMasterId": 8505,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 250602,
+        "setListNumber": 2,
+        "liveMasterId": 19205,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 250603,
+        "setListNumber": 3,
+        "liveMasterId": 14805,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 2507,
+    "name": "【七段】段位認定2026 3rd Seasonウラ",
+    "musicCourseType": "AdvancedDanClass",
+    "order": 7,
+    "initialLife": 100,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1769922000.0,
+    "endDate": 1785560400.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 250701,
+        "setListNumber": 1,
+        "liveMasterId": 1205,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 250702,
+        "setListNumber": 2,
+        "liveMasterId": 14105,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 250703,
+        "setListNumber": 3,
+        "liveMasterId": 24305,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 2508,
+    "name": "【八段】段位認定2026 3rd Seasonウラ",
+    "musicCourseType": "AdvancedDanClass",
+    "order": 8,
+    "initialLife": 85,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1769922000.0,
+    "endDate": 1785560400.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 250801,
+        "setListNumber": 1,
+        "liveMasterId": 23805,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 250802,
+        "setListNumber": 2,
+        "liveMasterId": 21805,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 250803,
+        "setListNumber": 3,
+        "liveMasterId": 22905,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 2509,
+    "name": "【九段】段位認定2026 3rd Seasonウラ",
+    "musicCourseType": "AdvancedDanClass",
+    "order": 9,
+    "initialLife": 75,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1771866000.0,
+    "endDate": 1785560400.0,
+    "unlockCondition": "ClearedMMusicCourseId",
+    "unlockConditionValue": 2508,
+    "details": [
+      {
+        "id": 250901,
+        "setListNumber": 1,
+        "liveMasterId": 4005,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 250902,
+        "setListNumber": 2,
+        "liveMasterId": 17005,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 250903,
+        "setListNumber": 3,
+        "liveMasterId": 7605,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 2510,
+    "name": "【十段】段位認定2026 3rd Seasonウラ",
+    "musicCourseType": "AdvancedDanClass",
+    "order": 10,
+    "initialLife": 65,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1773680400.0,
+    "endDate": 1785560400.0,
+    "unlockCondition": "ClearedMMusicCourseId",
+    "unlockConditionValue": 2509,
+    "details": [
+      {
+        "id": 251001,
+        "setListNumber": 1,
+        "liveMasterId": 5705,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 251002,
+        "setListNumber": 2,
+        "liveMasterId": 23905,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 251003,
+        "setListNumber": 3,
+        "liveMasterId": 705,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 2511,
+    "name": "【皆伝】段位認定2026 3rd Seasonウラ",
+    "musicCourseType": "AdvancedDanClass",
+    "order": 11,
+    "initialLife": 50,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1775494800.0,
+    "endDate": 1785560400.0,
+    "unlockCondition": "ClearedMMusicCourseId",
+    "unlockConditionValue": 2510,
+    "details": [
+      {
+        "id": 251101,
+        "setListNumber": 1,
+        "liveMasterId": 17905,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 251102,
+        "setListNumber": 2,
+        "liveMasterId": 26205,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 251103,
+        "setListNumber": 3,
+        "liveMasterId": 4805,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 3001,
+    "name": "【初段】段位認定2026 Final Season",
+    "musicCourseType": "DanClass",
+    "order": 1,
+    "initialLife": 150,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1785560400.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 300101,
+        "setListNumber": 1,
+        "liveMasterId": 3502,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 300102,
+        "setListNumber": 2,
+        "liveMasterId": 23302,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 300103,
+        "setListNumber": 3,
+        "liveMasterId": 15402,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 3002,
+    "name": "【二段】段位認定2026 Final Season",
+    "musicCourseType": "DanClass",
+    "order": 2,
+    "initialLife": 140,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1785560400.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 300201,
+        "setListNumber": 1,
+        "liveMasterId": 19202,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 300202,
+        "setListNumber": 2,
+        "liveMasterId": 19602,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 300203,
+        "setListNumber": 3,
+        "liveMasterId": 24403,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 3003,
+    "name": "【三段】段位認定2026 Final Season",
+    "musicCourseType": "DanClass",
+    "order": 3,
+    "initialLife": 130,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1785560400.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 300301,
+        "setListNumber": 1,
+        "liveMasterId": 16103,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 300302,
+        "setListNumber": 2,
+        "liveMasterId": 22203,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 300303,
+        "setListNumber": 3,
+        "liveMasterId": 3003,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 3004,
+    "name": "【四段】段位認定2026 Final Season",
+    "musicCourseType": "DanClass",
+    "order": 4,
+    "initialLife": 120,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1785560400.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 300401,
+        "setListNumber": 1,
+        "liveMasterId": 6503,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 300402,
+        "setListNumber": 2,
+        "liveMasterId": 16003,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 300403,
+        "setListNumber": 3,
+        "liveMasterId": 22503,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 3005,
+    "name": "【五段】段位認定2026 Final Season",
+    "musicCourseType": "DanClass",
+    "order": 5,
+    "initialLife": 110,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1785560400.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 300501,
+        "setListNumber": 1,
+        "liveMasterId": 21303,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 300502,
+        "setListNumber": 2,
+        "liveMasterId": 24204,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 300503,
+        "setListNumber": 3,
+        "liveMasterId": 16304,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 3006,
+    "name": "【六段】段位認定2026 Final Season",
+    "musicCourseType": "DanClass",
+    "order": 6,
+    "initialLife": 100,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1785560400.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 300601,
+        "setListNumber": 1,
+        "liveMasterId": 21204,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 300602,
+        "setListNumber": 2,
+        "liveMasterId": 904,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 300603,
+        "setListNumber": 3,
+        "liveMasterId": 20104,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 3007,
+    "name": "【七段】段位認定2026 Final Season",
+    "musicCourseType": "DanClass",
+    "order": 7,
+    "initialLife": 85,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1785560400.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 300701,
+        "setListNumber": 1,
+        "liveMasterId": 24004,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 300702,
+        "setListNumber": 2,
+        "liveMasterId": 1604,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 300703,
+        "setListNumber": 3,
+        "liveMasterId": 24704,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 3008,
+    "name": "【八段】段位認定2026 Final Season",
+    "musicCourseType": "DanClass",
+    "order": 8,
+    "initialLife": 70,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1785560400.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 300801,
+        "setListNumber": 1,
+        "liveMasterId": 25404,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 300802,
+        "setListNumber": 2,
+        "liveMasterId": 22804,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 300803,
+        "setListNumber": 3,
+        "liveMasterId": 24804,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 3009,
+    "name": "【九段】段位認定2026 Final Season",
+    "musicCourseType": "DanClass",
+    "order": 9,
+    "initialLife": 50,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1785560400.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 300901,
+        "setListNumber": 1,
+        "liveMasterId": 24604,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 300902,
+        "setListNumber": 2,
+        "liveMasterId": 25504,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 300903,
+        "setListNumber": 3,
+        "liveMasterId": 25804,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 3010,
+    "name": "【十段】段位認定2026 Final Season",
+    "musicCourseType": "DanClass",
+    "order": 10,
+    "initialLife": 30,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1785560400.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 301001,
+        "setListNumber": 1,
+        "liveMasterId": 26304,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 301002,
+        "setListNumber": 2,
+        "liveMasterId": 23904,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 301003,
+        "setListNumber": 3,
+        "liveMasterId": 20904,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 3011,
+    "name": "【皆伝】段位認定2026 Final Season",
+    "musicCourseType": "DanClass",
+    "order": 11,
+    "initialLife": 25,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1785560400.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 301101,
+        "setListNumber": 1,
+        "liveMasterId": 4804,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 301102,
+        "setListNumber": 2,
+        "liveMasterId": 23604,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 301103,
+        "setListNumber": 3,
+        "liveMasterId": 21004,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 3501,
+    "name": "【初段】段位認定2026 Final Seasonウラ",
+    "musicCourseType": "AdvancedDanClass",
+    "order": 1,
+    "initialLife": 160,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1785560400.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 350101,
+        "setListNumber": 1,
+        "liveMasterId": 4605,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 350102,
+        "setListNumber": 2,
+        "liveMasterId": 6705,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 350103,
+        "setListNumber": 3,
+        "liveMasterId": 16505,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 3502,
+    "name": "【二段】段位認定2026 Final Seasonウラ",
+    "musicCourseType": "AdvancedDanClass",
+    "order": 2,
+    "initialLife": 150,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1785560400.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 350201,
+        "setListNumber": 1,
+        "liveMasterId": 25605,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 350202,
+        "setListNumber": 2,
+        "liveMasterId": 26005,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 350203,
+        "setListNumber": 3,
+        "liveMasterId": 12505,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 3503,
+    "name": "【三段】段位認定2026 Final Seasonウラ",
+    "musicCourseType": "AdvancedDanClass",
+    "order": 3,
+    "initialLife": 140,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1785560400.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 350301,
+        "setListNumber": 1,
+        "liveMasterId": 25105,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 350302,
+        "setListNumber": 2,
+        "liveMasterId": 25905,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 350303,
+        "setListNumber": 3,
+        "liveMasterId": 23005,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 3504,
+    "name": "【四段】段位認定2026 Final Seasonウラ",
+    "musicCourseType": "AdvancedDanClass",
+    "order": 4,
+    "initialLife": 130,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1785560400.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 350401,
+        "setListNumber": 1,
+        "liveMasterId": 5605,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 350402,
+        "setListNumber": 2,
+        "liveMasterId": 7305,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 350403,
+        "setListNumber": 3,
+        "liveMasterId": 24105,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 3505,
+    "name": "【五段】段位認定2026 Final Seasonウラ",
+    "musicCourseType": "AdvancedDanClass",
+    "order": 5,
+    "initialLife": 120,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1785560400.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 350501,
+        "setListNumber": 1,
+        "liveMasterId": 23205,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 350502,
+        "setListNumber": 2,
+        "liveMasterId": 25305,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 350503,
+        "setListNumber": 3,
+        "liveMasterId": 14705,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 3506,
+    "name": "【六段】段位認定2026 Final Seasonウラ",
+    "musicCourseType": "AdvancedDanClass",
+    "order": 6,
+    "initialLife": 110,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1785560400.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 350601,
+        "setListNumber": 1,
+        "liveMasterId": 6805,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 350602,
+        "setListNumber": 2,
+        "liveMasterId": 22805,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 350603,
+        "setListNumber": 3,
+        "liveMasterId": 25705,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 3507,
+    "name": "【七段】段位認定2026 Final Seasonウラ",
+    "musicCourseType": "AdvancedDanClass",
+    "order": 7,
+    "initialLife": 100,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1785560400.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 350701,
+        "setListNumber": 1,
+        "liveMasterId": 3405,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 350702,
+        "setListNumber": 2,
+        "liveMasterId": 9605,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 350703,
+        "setListNumber": 3,
+        "liveMasterId": 25205,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 3508,
+    "name": "【八段】段位認定2026 Final Seasonウラ",
+    "musicCourseType": "AdvancedDanClass",
+    "order": 8,
+    "initialLife": 85,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1785560400.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 350801,
+        "setListNumber": 1,
+        "liveMasterId": 10905,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 350802,
+        "setListNumber": 2,
+        "liveMasterId": 25405,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 350803,
+        "setListNumber": 3,
+        "liveMasterId": 26105,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 3509,
+    "name": "【九段】段位認定2026 Final Seasonウラ",
+    "musicCourseType": "AdvancedDanClass",
+    "order": 9,
+    "initialLife": 75,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1785560400.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 350901,
+        "setListNumber": 1,
+        "liveMasterId": 25805,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 350902,
+        "setListNumber": 2,
+        "liveMasterId": 22905,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 350903,
+        "setListNumber": 3,
+        "liveMasterId": 7605,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 3510,
+    "name": "【十段】段位認定2026 Final Seasonウラ",
+    "musicCourseType": "AdvancedDanClass",
+    "order": 10,
+    "initialLife": 70,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1785560400.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 351001,
+        "setListNumber": 1,
+        "liveMasterId": 24805,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 351002,
+        "setListNumber": 2,
+        "liveMasterId": 25505,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 351003,
+        "setListNumber": 3,
+        "liveMasterId": 17905,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      }
+    ]
+  },
+  {
+    "id": 3511,
+    "name": "【皆伝】段位認定2026 Final Seasonウラ",
+    "musicCourseType": "AdvancedDanClass",
+    "order": 11,
+    "initialLife": 60,
+    "requiredItemMasterId": 130201,
+    "requiredAmount": 1,
+    "startDate": 1785560400.0,
+    "unlockCondition": "None",
+    "details": [
+      {
+        "id": 351101,
+        "setListNumber": 1,
+        "liveMasterId": 4805,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 351102,
+        "setListNumber": 2,
+        "liveMasterId": 23605,
+        "vocalVersion": 1,
+        "anotherNotationMasterId": 0
+      },
+      {
+        "id": 351103,
+        "setListNumber": 3,
+        "liveMasterId": 21005,
         "vocalVersion": 1,
         "anotherNotationMasterId": 0
       }
